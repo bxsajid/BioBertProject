@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3ae02266-5a0f-4bf2-bc68-ae1c7d2f5239"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title mediaType="text/x-hl7-title+xml">These highlights do not include all the information needed to use BROMSITE™ safely and effectively. See full prescribing information for BROMSITE.
+		<br/>
+      <br/>BROMSITE (bromfenac ophthalmic solution) 0.075%
+		<br/>For topical ophthalmic administration
+		<br/>Initial U.S. Approval: 1997
+		<br/>
+      <br/>
+   </title>
+   <effectiveTime value="20190125"/>
+   <setId root="144a5072-341b-4591-8705-773b63044bcc"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="146974886" root="1.3.6.1.4.1.519.1"/>
+            <name>Sun Pharmaceutical Industries, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="043911403" root="1.3.6.1.4.1.519.1"/>
+                        <name>Catalent Pharma Solutions</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="49708-754" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="49708-754" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="49708-754" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="49708-754" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="8989a225-ac93-42c2-9ea0-82a1fd6d93ef"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20160419"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="49708-754" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>BromSite<suffix>0.075%</suffix>
+                        </name>
+                        <formCode code="C60992" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION/ DROPS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>bromfenac</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="0.76" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8ECV571Y37" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BROMFENAC SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="864P0921DW" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BROMFENAC</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="R57ZHV85D4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="91MBZ8H3QO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BORATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="B22547B95K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRISODIUM CITRATE DIHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TUF2IVW3M2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLOXAMER 407</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.05" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="F5UM2KM3W7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZALKONIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="W25LM17A4W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYCARBOPHIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="1" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="49708-754-41" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20160501"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA206911" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160501"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48329" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GREEN" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="YELLOW" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0100">
+               <id root="17bdd263-7b97-4950-b043-3bf9d4c14102"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>BromSite (bromfenac ophthalmic solution) 0.075% is indicated for the treatment of postoperative inflammation and prevention of ocular pain in patients undergoing cataract surgery.</paragraph>
+               </text>
+               <effectiveTime value="20160419"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>BromSite is a nonsteroidal anti-inflammatory drug (NSAID) indicated for the treatment of postoperative inflammation and prevention of ocular pain in patients undergoing cataract surgery. (<linkHtml href="#s_0100">1</linkHtml>)
+									<br/>
+                           <br/>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0200">
+               <id root="2472286e-4a39-4832-8ce6-05912034d247"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20160419"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Instill one drop of BromSite to the affected eye twice daily (morning and evening) beginning 1 day prior to surgery, the day of surgery, and 14 days postsurgery. (<linkHtml href="#s_0201">2.1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0201">
+                     <id root="329bccaa-0127-47ea-943d-cd5d156c249e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">2.1 Recommended Dosing</title>
+                     <text>
+                        <paragraph>One drop of BromSite should be applied to the affected eye twice daily (morning and evening) 1 day prior to surgery, the day of surgery, and 14 days postsurgery.</paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0202">
+                     <id root="e5b4fb06-8c62-4697-8c5e-367d1286d76b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">2.2 Use with Other Topical Ophthalmic Medications</title>
+                     <text>
+                        <paragraph>BromSite should be administered at least 5 minutes after instillation of other topical medications. BromSite may be administered in conjunction with other topical ophthalmic medications such as alpha-agonists, beta-blockers, carbonic anhydrase inhibitors, cycloplegics, and mydriatics. </paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0300">
+               <id root="602c8a8b-939f-4561-9c3f-19b5d781b3fb"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">3 DOSAGE FORM AND STRENGTHS</title>
+               <text>
+                  <paragraph>Topical ophthalmic solution: bromfenac 0.075%.</paragraph>
+               </text>
+               <effectiveTime value="20160419"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Topical ophthalmic solution: bromfenac 0.075%. (<linkHtml href="#s_0300">3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0400">
+               <id root="6904b0a3-472c-427c-a2e5-54640243b1ad"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>None</paragraph>
+               </text>
+               <effectiveTime value="20160419"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>None (<linkHtml href="#s_0400">4</linkHtml>)
+									<br/>
+                           <br/>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0500">
+               <id root="04abd3d7-aa6d-49ab-aabe-a3d75baf386f"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20160419"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Slow or Delayed Healing (<linkHtml href="#s_0501">5.1</linkHtml>)</item>
+                           <item>Potential for Cross-Sensitivity (<linkHtml href="#s_0502">5.2</linkHtml>)</item>
+                           <item>Increased Bleeding Time of Ocular Tissue (<linkHtml href="#s_0503">5.3</linkHtml>)</item>
+                           <item>Keratitis and Corneal Effects (<linkHtml href="#s_0504">5.4</linkHtml>)</item>
+                           <item>Contact Lens Wear (<linkHtml href="#s_0505">5.5</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0501">
+                     <id root="e7c4dc21-5516-49e1-a737-7c7534d91ceb"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">5.1 Slow or Delayed Healing</title>
+                     <text>
+                        <paragraph>All topical nonsteroidal anti-inflammatory drugs (NSAIDs), including BromSite (bromfenac ophthalmic solution) 0.075%, may slow or delay healing. Topical corticosteroids are also known to slow or delay healing. Concomitant use of topical NSAIDs and topical steroids may increase the potential for healing problems.</paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0502">
+                     <id root="c9bf05db-8416-4a21-9688-00c29fea617a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">5.2 Potential for Cross-Sensitivity</title>
+                     <text>
+                        <paragraph>There is the potential for cross-sensitivity to acetylsalicylic acid, phenylacetic acid derivatives, and other NSAIDs, including BromSite (bromfenac ophthalmic solution) 0.075%. Therefore, caution should be used when treating individuals who have previously exhibited sensitivities to these drugs.</paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0503">
+                     <id root="6c4803a6-0c4b-42b1-a2fc-f2a9e9dbd580"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">5.3 Increased Bleeding Time of Ocular Tissue</title>
+                     <text>
+                        <paragraph>With some NSAIDs, including BromSite (bromfenac ophthalmic solution) 0.075%, there exists the potential for increased bleeding time due to interference with platelet aggregation. There have been reports that ocularly applied NSAIDs may cause increased bleeding of ocular tissues (including hyphemas) in conjunction with ocular surgery.</paragraph>
+                        <paragraph>It is recommended that BromSite be used with caution in patients with known bleeding tendencies or who are receiving other medications which may prolong bleeding time.</paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0504">
+                     <id root="7704f639-ebe7-4f93-b0eb-7e6b35885211"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">5.4 Keratitis and Corneal Reactions</title>
+                     <text>
+                        <paragraph>Use of topical NSAIDs may result in keratitis. In some susceptible patients, continued use of topical NSAIDs may result in epithelial breakdown, corneal thinning, corneal erosion, corneal ulceration or corneal perforation. These events may be sight threatening. Patients with evidence of corneal epithelial breakdown should immediately discontinue use of topical NSAIDs, including BromSite (bromfenac ophthalmic solution) 0.075%, and should be closely monitored for corneal health. </paragraph>
+                        <paragraph>Post-marketing experience with topical NSAIDs suggests that patients with complicated ocular surgeries, corneal denervation, corneal epithelial defects, diabetes mellitus, ocular surface diseases (e.g., dry eye syndrome), rheumatoid arthritis, or repeat ocular surgeries within a short period of time may be at increased risk for corneal adverse events which may become sight threatening. Topical NSAIDs should be used with caution in these patients. </paragraph>
+                        <paragraph>Post-marketing experience with topical NSAIDs also suggests that use more than 24 hours prior to surgery or use beyond 14 days postsurgery may increase patient risk for the occurrence and severity of corneal adverse events.</paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0505">
+                     <id root="87c34cdf-df77-4a61-9518-1f485cbd012f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">5.5 Contact Lens Wear</title>
+                     <text>
+                        <paragraph>BromSite should not be administered while wearing contact lenses. The preservative in BromSite, benzalkonium chloride, may be absorbed by soft contact lenses. </paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0600">
+               <id root="882a8313-945c-4ded-bc60-e360644905d5"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following serious adverse reactions are described elsewhere in the labeling:</paragraph>
+                  <list>
+                     <item>Slow or Delayed Healing [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#s_0501">5.1</linkHtml>)</content>]</item>
+                     <item>Potential for Cross-Sensitivity [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#s_0502">5.2</linkHtml>)</content>]</item>
+                     <item>Increased Bleeding Time of Ocular Tissue [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#s_0503">5.3</linkHtml>)</content>]</item>
+                     <item>Keratitis and Corneal Reactions[<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#s_0504">5.4</linkHtml>)</content>]</item>
+                     <item>Contact Lens Wear  [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#s_0505">5.5</linkHtml>)</content>]</item>
+                  </list>
+               </text>
+               <effectiveTime value="20160419"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most commonly reported adverse reactions in 1-8% of patients were: anterior chamber inflammation, headache, vitreous floaters, iritis, eye pain and ocular hypertension. (<linkHtml href="#s_0601">6.1</linkHtml>)
+									<br/>
+                           <br/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Sun Pharmaceutical Industries, Inc. at <content styleCode="italics">1-800-406-7984</content> (toll free), or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                           <br/>
+                           <br/>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0601">
+                     <id root="e5127209-fc80-4fb2-a500-cd3be73c224a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">6.1 Clinical Trial Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice.</paragraph>
+                        <paragraph>The most commonly reported adverse reactions in 1-8% of patients were: anterior chamber inflammation, headache, vitreous floaters, iritis, eye pain and ocular hypertension. </paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0800">
+               <id root="7e5a786c-41a5-44ef-85d2-33c1cc48ef39"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20160419"/>
+               <component>
+                  <section ID="s_0801">
+                     <id root="9faeb004-f41e-4416-89b3-ae7118bcbb1f"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There are no adequate and well-controlled studies in pregnant women to inform any drug associated risks.  Treatment of pregnant rats and rabbits with oral bromfenac did not produce teratogenic effects at clinically relevant doses. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Clinical Considerations</content>
+                        </paragraph>
+                        <paragraph>Because of the known effects of prostaglandin biosynthesis-inhibiting drugs on the fetal cardiovascular system (closure of ductus arteriosus), the use of BromSite during late pregnancy should be avoided.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Treatment of rats with bromfenac at oral doses up to 0.9 mg/kg/day (195 times a unilateral daily human ophthalmic dose on a mg/m<sup>2</sup> basis, assuming 100% absorbed) and rabbits at oral doses up to 7.5 mg/kg/day (3243 times a unilateral daily dose on a mg/m<sup>2</sup> basis) produced no structural teratogenicity in reproduction studies. However, embryo-fetal lethality, neonatal mortality and reduced postnatal growth were produced in rats at 0.9 mg/kg/day, and embryo-fetal lethality was produced in rabbits at 7.5 mg/kg/day. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0802">
+                     <id root="01ace275-513d-45f2-8901-a35330552c16"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.2 Lactation</title>
+                     <text>
+                        <paragraph>There are no data on the presence of bromfenac in human milk, the effects on the breastfed infant, or the effects on milk production; however, systemic exposure to bromfenac from ocular administration is low [<content styleCode="italics">see Clinical Pharmacology (<linkHtml href="#s_1203">12.3</linkHtml>)</content>]. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for bromfenac and any potential adverse effects on the breast-fed child from bromfenac or from the underlying maternal condition.</paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0804">
+                     <id root="35aac508-7cb2-4d10-a6ee-7b7e53c37e0b"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and efficacy in pediatric patients below the age of 18 years have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0805">
+                     <id root="bca35be5-2f2e-4dfa-b0ec-549d760c84d8"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>There is no evidence that the efficacy or safety profiles for BromSite differ in patients 65 years of age and older compared to younger adult patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1100">
+               <id root="6148c899-a940-45af-8a67-fcc6004f0664"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">11 DESCRIPTION</title>
+               <text>
+                  <paragraph>BromSite (bromfenac ophthalmic solution) 0.075% is a sterile aqueous, topical NSAID, formulated in DuraSite<sup>®</sup> for ophthalmic use. The USAN name for bromfenac sodium sesquihydrate is bromfenac sodium. Bromfenac sodium is designated chemically as sodium [2-amino-3-(4-bromobenzoyl) phenyl] acetate sesquihydrate, with an empirical formula of C<sub>15</sub>H<sub>11</sub>BrNNaO<sub>3</sub>• 1½H<sub>2</sub>O. The structural formula for bromfenac sodium sesquihydrate is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM160"/>
+                  </paragraph>
+                  <paragraph>Bromfenac sodium is a bright orange to yellow powder. The molecular weight of bromfenac sodium sesquihydrate is 383.17. BromSite is a greenish-yellow to dark yellow viscous liquid with an osmolality of approximately 290 mOsmol/kg.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Active:</content> Each mL contains bromfenac sodium sesquihydrate 0.81 mg, which is equivalent to bromfenac free acid 0.76 mg. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Preservative:</content> benzalkonium chloride 0.005%</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Inactives:</content> boric acid, sodium borate, citric acid anhydrous, sodium citrate dihydrate, poloxamer 407, polycarbophil, sodium chloride, edetate disodium dihydrate, sodium hydroxide (to adjust pH to 8.3), and water for injection (USP).</paragraph>
+               </text>
+               <effectiveTime value="20160419"/>
+               <component>
+                  <observationMedia ID="MM160">
+                     <text>Bromfenac Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bromsite-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1200">
+               <id root="42c938a5-2a2d-4b2d-87af-5ccd6fd173a7"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20160419"/>
+               <component>
+                  <section ID="s_1201">
+                     <id root="58209c19-c0d1-4e58-94ff-dac9a2fb308b"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Bromfenac is a nonsteroidal anti-inflammatory drug (NSAID) that has anti-inflammatory activity. The mechanism of its action is thought to be due to its ability to block prostaglandin synthesis by inhibiting cyclooxygenase 1 and 2. Prostaglandins have been shown in many animal models to be mediators of certain kinds of intraocular inflammation. In studies performed in animal eyes, prostaglandins have been shown to produce disruption of the blood-aqueous humor barrier, vasodilation, increased vascular permeability, leukocytosis, and increased intraocular pressure.</paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_1203">
+                     <id root="5a1a2c67-4a49-42a2-942f-c5e11bdb42f5"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Following bilateral topical ocular twice-daily dosing of Bromfenac 0.075% ophthalmic solution, the plasma concentrations of bromfenac ranged from below the limit of quantification (LOQ = 0.20 ng/mL) to 2.42 ng/mL at 30 to 60 minutes post-dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1300">
+               <id root="aba21d9d-7048-413d-880b-8358db747bab"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20160419"/>
+               <component>
+                  <section ID="s_1301">
+                     <id root="0c15e87a-d9fb-4ab3-b804-2dbfcddbc971"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">13.1 Carcinogenesis, Mutagenesis and Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Long-term carcinogenicity studies in rats and mice given oral doses of bromfenac up to 0.6 mg/kg/day (129 times a unilateral daily dose assuming 100% absorbed, on a mg/m<sup>2</sup> basis) and 5 mg/kg/day (540 times a unilateral daily dose on a mg/m<sup>2</sup> basis), respectively revealed no significant increases in tumor incidence.</paragraph>
+                        <paragraph>Bromfenac did not show mutagenic potential in various mutagenicity studies, including the bacterial reverse mutation, chromosomal aberration, and micronucleus tests.</paragraph>
+                        <paragraph>Bromfenac did not impair fertility when administered orally to male and female rats at doses up to 0.9 mg/kg/day and 0.3 mg/kg/day, respectively (195 and 65 times a unilateral daily dose, respectively, on a mg/m<sup>2</sup> basis).</paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1400">
+               <id root="c60e0b2d-5666-4b87-9492-df8a3b83447b"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">14 CLINICAL STUDIES</title>
+               <effectiveTime value="20160419"/>
+               <component>
+                  <section ID="s_1401">
+                     <id root="7606980a-d46e-4a19-9035-9633aacb93d2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">14.1 Ocular Inflammation and Pain </title>
+                     <text>
+                        <paragraph>Clinical efficacy was evaluated in 2 multi-centered, randomized, double-masked, parallel group, placebo-controlled US trials in which subjects requiring cataract surgery were assigned to receive BromSite or vehicle. Patients undergoing cataract surgery self-administered BromSite or vehicle twice daily, beginning 1 day prior to surgery, continuing the day of surgery and for 14 days after surgery. Clearance of ocular inflammation was assessed on Days 1, 8, 15, and 29 using slit lamp biomicroscopy. The primary efficacy endpoint was the proportion of subjects with anterior chamber cell (ACC) grade 0 at Day 15. The secondary efficacy endpoint was the proportion of subjects who were pain free after cataract surgery as assessed using a Visual Analog Scale.</paragraph>
+                        <table ID="table141" width="700" styleCode="Noautorules">
+                           <col width="15%" align="left"/>
+                           <col width="15%" align="left"/>
+                           <col width="25%" align="center"/>
+                           <col width="20%" align="center"/>
+                           <col width="25%" align="center"/>
+                           <tbody>
+                              <tr>
+                                 <td align="left" styleCode="Toprule Botrule Lrule Rrule" colspan="5">Proportion of Subjects with Cleared Ocular Inflammation, ACC Grade 0</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule"/>
+                                 <td styleCode="Toprule Botrule Lrule Rrule" align="center">Visit</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule" align="center">BromSite</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule" align="center">Vehicle</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule" align="center">Treatment Difference (95% CI)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Study 1</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Day 8</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">54/168 (32.1%)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">7/85 (8.2%)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">23.9% (14.7%, 33.1%)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule"/>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Day 15</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">96/168 (57.1%)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">16/85 (18.8%)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">38.3% (27.1%, 49.5%)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Study 2</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Day 8</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">40/168 (23.8%)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">8/85 (9.4%)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">1 4.4% (5.5%, 23.3%)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule"/>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Day 15</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">64/168 (38.1%)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">19/85 (22.4%)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">1 5.7% (4.2%, 27.3%)</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="5" styleCode="Toprule Botrule Lrule Rrule">Proportion of Subjects who were Pain Free</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Study 1</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Day 1</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">129/168 (76.8%)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">41/85 (48.2%)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">28.6% (16.2%, 40.9%)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Study 2</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Day 1</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">138/168 (82.1%)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">53/85 (62.4%)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">19.8% (8.0%, 31.6%)</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1600">
+               <id root="03a1bb38-c7ec-4ef2-afe9-fb2e0c313706"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>BromSite (bromfenac ophthalmic solution) 0.075% is supplied in white opaque low density polyethylene (LDPE) plastic bottles and translucent dropper tips, and gray high density polyethylene (HDPE) eyedropper caps. A white tamper evident overcap is provided. Each bottle is provided in a sealed foil laminated pouch.</paragraph>
+                  <paragraph>5 mL in a 7.5 mL bottle
+							<br/>(NDC No. 49708-754-41)</paragraph>
+               </text>
+               <effectiveTime value="20160419"/>
+               <component>
+                  <section ID="s_1600_a">
+                     <id root="76658dfb-ea1d-4550-93f1-0304bc4b3852"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">STORAGE</content>
+                        </paragraph>
+                        <paragraph>Store at 15°C – 25°C (59° F – 77°F). Discard after treatment completion.</paragraph>
+                     </text>
+                     <effectiveTime value="20160419"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1700">
+               <id root="ab59f268-c0e1-46a3-80ec-ebdeb5f4dc69"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise patients to read the FDA-approved patient labeling (<linkHtml href="#s_ifu">Instructions for Use</linkHtml>) .</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Slow or Delayed Healing</content>
+                  </paragraph>
+                  <paragraph>Advise patients of the possibility that slow or delayed healing may occur while using NSAIDs.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Concomitant Topical Ocular Therapy</content>
+                  </paragraph>
+                  <paragraph>If more than one topical ophthalmic medication is being used, advise patients to administer BromSite at least 5 minutes after instillation of other topical medications.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Concomitant Use of Contact Lenses</content>
+                  </paragraph>
+                  <paragraph>Advise patients not to wear contact lenses during administration of BromSite. The preservative in this product, benzalkonium chloride, may be absorbed by soft contact lenses. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterility of Dropper Tip/Product Use</content>
+                  </paragraph>
+                  <paragraph>Advise patients to replace the bottle cap after use and do not touch the dropper tip to any surface as this may contaminate the contents.</paragraph>
+                  <paragraph>Advise patients to thoroughly wash hands prior to using BromSite.</paragraph>
+                  <br/>
+                  <paragraph>Distributed by:
+							<br/>Sun Pharmaceutical Industries, Inc. 
+							<br/>Cranbury, NJ 08512</paragraph>
+                  <br/>
+                  <paragraph>US Patent No. 8778999</paragraph>
+                  <paragraph>DuraSite<sup>®</sup> and BromSite<sup>™</sup> are trademarks of Sun Pharma Global FZE
+							<br/>April 2016</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20160419"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_ifu">
+               <id root="adbe5263-84ec-48ef-96e5-ca6fcbd268b8"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">INSTRUCTIONS FOR USE BromSite</content>
+                     <br/>brom’ fe nak (bromfenac ophthalmic <br/>solution) 0.075%</paragraph>
+                  <paragraph/>
+                  <paragraph>Read this Instructions for Use before you start using BromSite and each time you get a refill. There may be new information. This leaflet does not take the place of talking to your healthcare provider about your medical condition or treatment.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Information about BromSite:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold">Do not</content> let the BromSite applicator tip touch your eye, fingers, or any other surfaces.</item>
+                     <item>If you are using BromSite with other eye (ophthalmic) medicines, you should <content styleCode="bold">wait at least 5 minutes</content> after using the other medicine to give your BromSite dose.</item>
+                     <item>You should not wear contact lenses while using BromSite.</item>
+                     <item>Put the gray cap back on the BromSite after each use.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Before you use BromSite for the first time:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Tear open the foil pouch using the perforated notch and remove the BromSite bottle. Throw away the foil pouch.</item>
+                     <item>Remove the white cap by turning it in the clockwise direction <content styleCode="bold">(See <linkHtml href="#figureA">Figure A</linkHtml>)</content>. Throw away the white cap.</item>
+                  </list>
+                  <paragraph ID="figureA">
+                     <renderMultiMedia referencedObject="MM180"/>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Hold the bottle upright. Remove the gray cap by turning it in the counterclockwise direction <content styleCode="bold">(See <linkHtml href="#figureB">Figure B</linkHtml>)</content>.</item>
+                  </list>
+                  <paragraph ID="figureB">
+                     <renderMultiMedia referencedObject="MM190"/>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Replace the gray cap on the bottle and close tightly.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Follow Steps 1 to 5 each time you use BromSite.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 1. </content>Wash your hands well.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 2. </content>Turn the closed bottle upside down <content styleCode="bold">(See <linkHtml href="#figureC">Figure C</linkHtml>)</content>.</paragraph>
+                  <paragraph ID="figureC">
+                     <renderMultiMedia referencedObject="MM200"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 3.</content> Flick bottle firmly 1 time before each use to move the medicine into the tip of the bottle <content styleCode="bold">(See <linkHtml href="#figureD">Figure D</linkHtml>)</content>.</paragraph>
+                  <paragraph ID="figureD">
+                     <renderMultiMedia referencedObject="MM210"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 4.</content> Keep the bottle upside down and remove the gray cap by turning it in the clockwise direction <content styleCode="bold">(See <linkHtml href="#figureE">Figure E</linkHtml>)</content>.</paragraph>
+                  <paragraph ID="figureE">
+                     <renderMultiMedia referencedObject="MM220"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 5.</content> Tilt your head back. Gently squeeze the bottle to place 1 drop into the affected eye <content styleCode="bold">(See <linkHtml href="#figureF">Figure F</linkHtml>)</content>. Replace the gray cap on the bottle and close tightly.</paragraph>
+                  <paragraph ID="figureF">
+                     <renderMultiMedia referencedObject="MM230"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How do I store BromSite?</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Store BromSite at 59°F to 77°F (15°C to 25°C).</item>
+                     <item>Throw away the BromSite bottle after your treatment is finished.</item>
+                  </list>
+                  <paragraph>This Instructions for Use has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>Distributed by: <br/>Sun Pharmaceutical Industries, Inc. <br/>Cranbury, NJ 08512</paragraph>
+                  <paragraph>US Patent No.<br/>8778999</paragraph>
+                  <paragraph>DuraSite<sup>®</sup> and BromSite™ are trademarks of Sun Pharma Global FZE</paragraph>
+                  <paragraph>Approved: 04/2016</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20160421"/>
+               <component>
+                  <observationMedia ID="MM180">
+                     <text>Instructions for Use - Figure A</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bromsite-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM190">
+                     <text>Instructions for Use - Figure B</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bromsite-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM200">
+                     <text>Instructions for Use - Figure C</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bromsite-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM210">
+                     <text>Instructions for Use - Figure D</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bromsite-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM220">
+                     <text>Instructions for Use - Figure E</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bromsite-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM230">
+                     <text>Instructions for Use - Figure F</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bromsite-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_pdp01">
+               <id root="0db4734a-b202-43a7-a283-bd876571677a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title mediaType="text/x-hl7-title+xml">PRINCIPAL DISPLAY PANEL - NDC: 49708-754-41 - 5 mL Foil Wrapper</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM240"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20160419"/>
+               <component>
+                  <observationMedia ID="MM240">
+                     <text>5 mL Foil Wrapper</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bromsite-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_pdp02">
+               <id root="c9239fe9-2716-4018-95d1-125c8e31b05b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title mediaType="text/x-hl7-title+xml">PRINCIPAL DISPLAY PANEL - NDC: 49708-754-41 - 5 mL Bottle Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM250"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20160419"/>
+               <component>
+                  <observationMedia ID="MM250">
+                     <text>5 mL Bottle Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bromsite-09.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_pdp03">
+               <id root="833cf416-f454-4f5a-86aa-a6c1731c20b2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title mediaType="text/x-hl7-title+xml">PRINCIPAL DISPLAY PANEL - NDC: 49708-754-41 - 5 mL Carton Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM260"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20160419"/>
+               <component>
+                  <observationMedia ID="MM260">
+                     <text>5 mL Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bromsite-10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

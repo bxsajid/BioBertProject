@@ -15,13 +15,13 @@ import pandas as pd
 import numpy as np
 from bs4 import BeautifulSoup
 
-os.chdir('C:\Users\bushr\OneDrive\Documents\GitHub\BioBertProject')
+
 data = pd.read_csv('NASID_clean_data.csv')
 SET_ID = data['SET ID']
 
 url1 = 'https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid='
 url2 = '&type=zip'
-outdir = 'C:\Users\bushr\OneDrive\Documents\GitHub\BioBertProject'
+outdir = 'C:\\Users\\bushr\\OneDrive\\Documents\\GitHub\\BioBertProject'
 
 for row in SET_ID:
     sky = row
