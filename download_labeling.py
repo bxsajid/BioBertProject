@@ -82,6 +82,10 @@ def dump_to_json(json_data, filename):
 
 
 if __name__ == '__main__':
+    # download XML files
+    download_files()
+
+    # download labelings in JSON format
     xml_files = [f for f in glob.glob('XML Files/*.xml')]
     labels = []
 
