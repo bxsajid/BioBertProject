@@ -20,6 +20,7 @@ if __name__ == '__main__':
     with open('json_data.json', mode='r') as f:
         descriptions = json.load(f)
 
+    description_filename = 'description/description.txt'
     description_next_index_filename = 'description_next_index.txt'
     description_skip_index_filename = 'description_skip_index.txt'
     mesh_ids_filename = 'mesh_ids.txt'
@@ -43,9 +44,8 @@ if __name__ == '__main__':
         description = re.sub('\\s+', ' ', description)  # remove whitespace chars
         description = re.sub('"', '\'', description)  # replace " with '
 
-        open(f'description/description_{file_counter + 1}.txt', mode='w', encoding='utf-8').write(description)
-
-        file_size = os.stat(f'description/description_{file_counter + 1}.txt').st_size
+        open(description_filename, mode='w', encoding='utf-8').write(description)
+        file_size = os.stat(description_filename).st_size
         print(f'parsing description [{i}:{i + SIZE} of {description_len}], sizes: {[round(len(descriptions[j]) / 1024, 2) for j in range(i, i + SIZE)]}, total: {(file_size / 1024):.2f} KB')
 
         try:
@@ -58,6 +58,8 @@ if __name__ == '__main__':
 
             error_count += 1
             if error_count == ERROR_COUNT_LIMIT:
+                # remove temporary description file
+                os.remove(description_filename)
                 break
             continue
 
@@ -66,3 +68,6 @@ if __name__ == '__main__':
                 if id.startswith('MESH'):
                     mesh_id = id.lstrip('MESH:')
                     open(mesh_ids_filename, mode='a').write(f'{mesh_id}\n')
+
+    # remove temporary description file
+    os.remove(description_filename)
