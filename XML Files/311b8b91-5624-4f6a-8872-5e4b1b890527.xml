@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="311b8b91-5624-4f6a-8872-5e4b1b890527"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>DICLOFENAC POTASSIUM TABLETS USP, 50 mg<br/>0948<br/>Rx only</title>
+   <effectiveTime value="20200313"/>
+   <setId root="236678af-b766-41e7-98f4-bf13c0f39a28"/>
+   <versionNumber value="8"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="831276758" root="1.3.6.1.4.1.519.1"/>
+            <name>Lake Erie Medical DBA Quality Care Products LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="831276758"/>
+                        <name>Lake Erie Medical DBA Quality Care Products LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="35356-713"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="05b9bb2b-2aaa-4d42-97c0-3ec242d4ac90"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20200313"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="35356-713"/>
+                        <name>Diclofenac Potassium</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Diclofenac Potassium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0093-0948" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="50" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="L4D5UA6CB4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DICLOFENAC POTASSIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="144O8QL0L1" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DICLOFENAC</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="L06K8R7DQK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 2</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="D3741U8K7L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>INDIGOTINDISULFONATE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H77VEI93A8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C YELLOW NO. 6</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="36SFW2JZ0W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE 2910 (15 MPA.S)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4R4HFI6D95" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 4000</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="U725QWY32X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE K30</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="K4C08XP666" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRICALCIUM PHOSPHATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="35356-713-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20141219"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="35356-713-60" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20130412"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="35356-713-90" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20141219"/>
+                                    <high value="20191011"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075219" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19980811"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48331" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORANGE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="9" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">93;948</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_06e99a48-8737-475d-a48e-a150c5f9baeb">
+               <id root="38b91f5f-10e9-4952-b8c9-c065b5b70051"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CARDIOVASCULAR RISK</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>NSAIDs<sup>1</sup> may cause an increased risk of serious cardiovascular thrombotic events, myocardial infarction, and stroke, which can be fatal. This risk may increase with duration of use. Patients with cardiovascular disease or risk factors for cardiovascular disease may be at greater risk (see <content styleCode="bold">WARNINGS</content>).</item>
+                     <item>Diclofenac potassium tablets are contraindicated for the treatment of perioperative pain in the setting of coronary artery bypass graft (CABG) surgery (see <content styleCode="bold">WARNINGS</content>).</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">GASTROINTESTINAL RISK</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>NSAIDs cause an increased risk of serious gastrointestinal adverse events including inflammation, bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients are at greater risk for serious gastrointestinal events (see <content styleCode="bold">WARNINGS</content>).<paragraph/>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <sup>1</sup> Throughout this package insert, the term NSAID refers to a non-aspirin non-steroidal anti-inflammatory drug.</paragraph>
+               </text>
+               <effectiveTime value="20060825"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_d18f7879-c5cb-48dc-8e46-21ef8de45976">
+               <id root="37e81975-a30b-4250-888f-145091c63133"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34089-3" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Diclofenac potassium tablets USP are a benzeneacetic acid derivative. Diclofenac potassium tablets USP, 50 mg are available as orange, film-coated tablets for oral administration. The chemical name is 2-[(2,6-dichlorophenyl)amino] benzeneacetic acid, monopotassium salt. The structural formula is:</paragraph>
+                  <renderMultiMedia referencedObject="id_931d2490-c92e-47f3-860a-74543c987a61"/>
+                  <paragraph>C<sub>14</sub>H<sub>10</sub>Cl<sub>2</sub>KNO<sub>2</sub> M.W. 334.25</paragraph>
+                  <paragraph>Diclofenac potassium is a faintly yellowish white to light beige, virtually odorless, slightly hygroscopic crystalline powder. It is freely soluble in methanol, soluble in ethanol and water, and practically insoluble in chloroform and in dilute acid. The n-octanol/water partition coefficient is 13.4 at pH 7.4 and 1545 at pH 5.2. It has a single dissociation constant (pKa) of 4.0 ± 0.2 at 25°C in water.</paragraph>
+                  <paragraph>Each tablet, for oral administration, contains 50 mg of diclofenac potassium. In addition, each tablet contains the following inactive ingredients: colloidal silicon dioxide, corn starch, FD&amp;C Blue No. 2, FD&amp;C Red No. 40, FD&amp;C Yellow No. 6, hypromellose, lactose monohydrate, magnesium stearate, microcrystalline cellulose, polyethylene glycol 4000, povidone, sodium starch glycolate, titanium dioxide, and tricalcium phosphate.</paragraph>
+               </text>
+               <effectiveTime value="20150910"/>
+               <component>
+                  <observationMedia ID="id_931d2490-c92e-47f3-860a-74543c987a61">
+                     <text>diclofenac potassium structural formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="a5509855-5fcf-4227-be45-e3bbf926a3f5-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_6505b863-b518-49b7-9d7b-a4d1ec6914b0">
+               <id root="c79b4d89-cfbe-4188-aeb2-7de33e5c9842"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20100121"/>
+               <component>
+                  <section ID="i4i_section_id_73b730a9-c19a-4290-bc9c-6b9341af390e">
+                     <id root="c8fefe4e-2073-4352-b718-a4affaacbbe7"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Diclofenac potassium tablets are a non-steroidal anti-inflammatory drug (NSAID) that exhibits anti-inflammatory, analgesic, and antipyretic activities in animal models. The mechanism of action of diclofenac potassium tablets, like that of other NSAIDs, is not completely understood but may be related to prostaglandin synthetase inhibition.</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_ba30e20b-8ab5-40fd-9a45-3ff262cd819a">
+                     <id root="6a723f9c-a795-4738-a40b-dfa4b30ec884"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <effectiveTime value="20100121"/>
+                     <component>
+                        <section ID="i4i_section_id_d8cffcd2-ad73-43dd-a653-23c965e1485c">
+                           <id root="d42d7233-83ea-4d43-b67d-8623c2b1c662"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Absorption</title>
+                           <text>
+                              <paragraph>Diclofenac is 100% absorbed after oral administration compared to IV administration as measured by urine recovery. However, due to first-pass metabolism, only about 50% of the absorbed dose is systemically available (see <content styleCode="bold">Table 1</content>). In some fasting volunteers, measurable plasma levels are observed within 10 minutes of dosing with diclofenac potassium tablets. Peak plasma levels are achieved approximately 1 hour in fasting normal volunteers, with a range of 0.33 to 2 hours. Food has no significant effect on the extent of diclofenac absorption. However, there is usually a delay in the onset of absorption and a reduction in peak plasma levels of approximately 30%.</paragraph>
+                              <table width="431" ID="id_c5254dcc-6d3c-456a-ae77-41d9b84a06ce">
+                                 <caption ID="id_6abe0143-bece-45d4-b47c-030c68baefcf">Table 1: Pharmacokinetic Parameters for Diclofenac</caption>
+                                 <col width="54.8%"/>
+                                 <col width="23.0%"/>
+                                 <col width="22.3%"/>
+                                 <tbody>
+                                    <tr ID="id_d5cde636-eb77-4701-8e79-10cf6edae35a">
+                                       <td align="left" valign="middle" rowspan="2" styleCode="Toprule Botrule">
+                                          <content styleCode="bold">PK Parameter</content>
+                                       </td>
+                                       <td align="center" valign="middle" colspan="2" styleCode="Botrule">
+                                          <paragraph>Normal Healthy Adults</paragraph>
+                                          <paragraph>(20 to 52 yrs.)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr ID="id_de2606f4-6cd8-403f-a3e3-12923d2e30ed">
+                                       <td align="center" valign="bottom" styleCode="Botrule">
+                                          <content styleCode="bold">Mean</content>
+                                       </td>
+                                       <td align="center" valign="bottom" styleCode="Botrule">
+                                          <content styleCode="bold">Coefficient of Variation (%)</content>
+                                       </td>
+                                    </tr>
+                                    <tr ID="id_702a11f4-c226-480c-9e99-32d5f10d5d20">
+                                       <td align="left" valign="middle" styleCode="Botrule">
+                                          <paragraph>Absolute Bioavailability (%)</paragraph>
+                                          <paragraph>[N = 7]</paragraph>
+                                       </td>
+                                       <td align="center" valign="middle" styleCode="Botrule">55</td>
+                                       <td align="center" valign="middle" styleCode="Botrule">40</td>
+                                    </tr>
+                                    <tr ID="id_4c2596f1-526d-4152-b8d2-93774f0ba706">
+                                       <td align="left" valign="middle" styleCode="Botrule">
+                                          <paragraph>T<sub>max</sub> (hr)</paragraph>
+                                          <paragraph>[N = 65]</paragraph>
+                                       </td>
+                                       <td align="center" valign="middle" styleCode="Botrule">1.0</td>
+                                       <td align="center" valign="middle" styleCode="Botrule">76</td>
+                                    </tr>
+                                    <tr ID="id_2c3538fa-48b3-4ca4-b514-98689eefb7a5">
+                                       <td align="left" valign="middle" styleCode="Botrule">
+                                          <paragraph>Oral Clearance (CL/F; mL/min)</paragraph>
+                                          <paragraph>[N = 61]</paragraph>
+                                       </td>
+                                       <td align="center" valign="middle" styleCode="Botrule">622</td>
+                                       <td align="center" valign="middle" styleCode="Botrule">21</td>
+                                    </tr>
+                                    <tr ID="id_fbaad49a-a4c7-40ed-bb08-7734d48d421c">
+                                       <td align="left" valign="middle" styleCode="Botrule">
+                                          <paragraph>Renal Clearance</paragraph>
+                                          <paragraph>(% unchanged drug in urine)</paragraph>
+                                          <paragraph>[N = 7]</paragraph>
+                                       </td>
+                                       <td align="center" valign="middle" styleCode="Botrule">&lt; 1</td>
+                                       <td align="center" valign="middle" styleCode="Botrule">—</td>
+                                    </tr>
+                                    <tr ID="id_011b7af1-2235-4486-878c-4ab7e07236cb">
+                                       <td align="left" valign="middle" styleCode="Botrule">
+                                          <paragraph>Apparent Volume of Distribution (V/F; L/kg)</paragraph>
+                                          <paragraph>[N = 61]</paragraph>
+                                       </td>
+                                       <td align="center" valign="middle" styleCode="Botrule">1.3</td>
+                                       <td align="center" valign="middle" styleCode="Botrule">33</td>
+                                    </tr>
+                                    <tr ID="id_6d9a7b9a-5eeb-41db-a1be-fe64e038ff51">
+                                       <td align="left" valign="middle" styleCode="Botrule">
+                                          <paragraph>Terminal Half-life (hr)</paragraph>
+                                          <paragraph>[N = 48]</paragraph>
+                                       </td>
+                                       <td align="center" valign="middle">1.9</td>
+                                       <td align="center" valign="middle" styleCode="Botrule">29</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20100121"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_2592453c-6fe7-415f-8634-66bb0a81df7a">
+                           <id root="24354d02-0bdf-469c-addf-d5918e8b1139"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Distribution</title>
+                           <text>
+                              <paragraph>The apparent volume of distribution (V/F) of diclofenac potassium is 1.3 L/kg.</paragraph>
+                              <paragraph>Diclofenac is more than 99% bound to human serum proteins, primarily to albumin. Serum protein binding is constant over the concentration range (0.15 to 105 mcg/mL) achieved with recommended doses.</paragraph>
+                              <paragraph>Diclofenac diffuses into and out of the synovial fluid. Diffusion into the joint occurs when plasma levels are higher than those in the synovial fluid, after which the process reverses and synovial fluid levels are higher than plasma levels. It is not known whether diffusion into the joint plays a role in the effectiveness of diclofenac.</paragraph>
+                           </text>
+                           <effectiveTime value="20100121"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_20dfb08f-634b-49ba-b1bf-4f76bdf12869">
+                           <id root="3802b8ed-6421-49eb-923e-af9cd446c8dc"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Metabolism</title>
+                           <text>
+                              <paragraph>Five diclofenac metabolites have been identified in human plasma and urine. The metabolites include 4'-hydroxy-, 5-hydroxy-, 3'-hydroxy-, 4',5-dihydroxy- and 3'-hydroxy-4'-methoxy-diclofenac. The major diclofenac metabolite, 4'-hydroxy-diclofenac, has very weak pharmacologic activity. The formation of 4’-hydroxy-diclofenac is primarily mediated by CPY2C9. Both diclofenac and its oxidative metabolites undergo glucuronidation or sulfation followed by biliary excretion. Acylglucuronidation mediated by UGT2B7 and oxidation mediated by CPY2C8 may also play a role in diclofenac metabolism. CYP3A4 is responsible for the formation of minor metabolites, 5-hydroxy- and 3’-hydroxy-diclofenac. In patients with renal dysfunction, peak concentrations of metabolites 4'-hydroxy- and 5-hydroxy-diclofenac were approximately 50% and 4% of the parent compound after single oral dosing compared to 27% and 1% in normal healthy subjects. </paragraph>
+                           </text>
+                           <effectiveTime value="20100121"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_6ea2b290-4615-440e-9d1d-93586ca03ef8">
+                           <id root="6249c0fa-b98f-4fe4-887e-ea482004afbd"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Excretion</title>
+                           <text>
+                              <paragraph>Diclofenac is eliminated through metabolism and subsequent urinary and biliary excretion of the glucuronide and the sulfate conjugates of the metabolites. Little or no free unchanged diclofenac is excreted in the urine. Approximately 65% of the dose is excreted in the urine and approximately 35% in the bile as conjugates of unchanged diclofenac plus metabolites. Because renal elimination is not a significant pathway of elimination for unchanged diclofenac, dosing adjustment in patients with mild to moderate renal dysfunction is not necessary. The terminal half-life of unchanged diclofenac is approximately 2 hours.</paragraph>
+                           </text>
+                           <effectiveTime value="20100121"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_7962cf03-c54a-4cdf-a2ca-6d109343ad3b">
+                           <id root="a4f3175b-1c69-4135-aa0d-6b0ac35b0f37"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Drug Interactions</title>
+                           <text>
+                              <paragraph>When coadministered with voriconazole (inhibitor of CYP2C9, 2C19 and 3A4 enzyme), the C<sub>max</sub> and AUC of diclofenac increased by 114% and 78%, respectively (see <content styleCode="bold">PRECAUTIONS</content>,<content styleCode="bold">Drug Interactions</content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20100121"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_cd601302-2df8-4017-945f-29c57713a45a">
+                           <id root="7f5d593c-4f14-4870-b22a-a86caa389715"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Special Populations</title>
+                           <effectiveTime value="20100121"/>
+                           <component>
+                              <section ID="i4i_section_id_8ee1c9e3-e4ea-4b66-a7e7-1e094e3f77ba">
+                                 <id root="14524c4d-d8e7-4f7d-95ec-815a4cf2c32e"/>
+                                 <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Pediatric</title>
+                                 <text>
+                                    <paragraph>The pharmacokinetics of diclofenac have not been investigated in pediatric patients.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20100121"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="i4i_section_id_a0585d05-fc4e-4b43-a16e-9e335e526720">
+                                 <id root="060f28cd-f19d-4a07-ae73-50ad4654052a"/>
+                                 <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Race</title>
+                                 <text>
+                                    <paragraph>Pharmacokinetic differences due to race have not been identified.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20100121"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="i4i_section_id_3d092afa-97b0-45b1-bc40-9f205c8d1e07">
+                                 <id root="5546f6d9-e4d0-423c-b52c-29b16cfb291a"/>
+                                 <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Hepatic Insufficiency</title>
+                                 <text>
+                                    <paragraph>Hepatic metabolism accounts for almost 100% of diclofenac elimination, so patients with hepatic disease may require reduced doses of diclofenac potassium tablets compared to patients with normal hepatic function.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20100121"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="i4i_section_id_396d327b-387c-4534-9093-8bd2c9bf0163">
+                                 <id root="613c9c36-3327-4f26-a74b-62dcd40079f1"/>
+                                 <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Renal Insufficiency</title>
+                                 <text>
+                                    <paragraph>Diclofenac pharmacokinetics have been investigated in subjects with renal insufficiency. No differences in the pharmacokinetics of diclofenac have been detected in studies of patients with renal impairment. In patients with renal impairment (inulin clearance 60 to 90, 30 to 60, and &lt; 30 mL/min; N = 6 in each group), AUC values and elimination rate were comparable to those in healthy subjects.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20100121"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_e4431020-204e-4113-a613-b327fe025dc3">
+               <id root="f726ff63-c6aa-411e-bda3-7a856cc79409"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Carefully consider the potential benefits and risks of diclofenac potassium tablets and other treatment options before deciding to use diclofenac potassium tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see <content styleCode="bold">WARNINGS</content>).</paragraph>
+                  <paragraph>Diclofenac potassium tablets are indicated:</paragraph>
+                  <list listType="unordered">
+                     <item>For treatment of primary dysmenorrhea</item>
+                     <item>For relief of mild to moderate pain</item>
+                     <item>For relief of the signs and symptoms of osteoarthritis</item>
+                     <item>For relief of the signs and symptoms of rheumatoid arthritis</item>
+                  </list>
+               </text>
+               <effectiveTime value="20100121"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_143f2593-0c7c-4238-8845-eb9e27651a3a">
+               <id root="64051bc8-dc8f-4123-ba11-3ea9f00f6f6f"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34070-3" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Diclofenac potassium tablets are contraindicated in patients with known hypersensitivity to diclofenac.</paragraph>
+                  <paragraph>Diclofenac potassium tablets should not be given to patients who have experienced asthma, urticaria, or allergic-type reactions after taking aspirin or other NSAIDs. Severe, rarely fatal, anaphylactic-like reactions to NSAIDs have been reported in such patients (see <content styleCode="bold">WARNINGS</content>,<content styleCode="bold"> Anaphylactic Reactions</content> and <content styleCode="bold">PRECAUTIONS</content>,<content styleCode="bold"> Preexisting Asthma</content>).</paragraph>
+                  <paragraph>Diclofenac potassium tablets are contraindicated for the treatment of perioperative pain in the setting of coronary artery bypass graft (CABG) surgery (see <content styleCode="bold">WARNINGS</content>).</paragraph>
+               </text>
+               <effectiveTime value="20100121"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_73710e74-dc28-4998-bf3d-7dfe5cb823de">
+               <id root="0b42db31-593c-4352-890e-953b6aad767c"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34071-1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20100121"/>
+               <component>
+                  <section ID="i4i_section_id_31b38a80-503c-4c83-a843-d3ff8d3a6062">
+                     <id root="286e8506-2029-4d13-b742-c9a52b89164f"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardiovascular Effects</title>
+                     <effectiveTime value="20100121"/>
+                     <component>
+                        <section ID="i4i_section_id_afd66e6d-0cfd-45a8-aa71-cd49df8180b7">
+                           <id root="65d7078d-6ee2-4a14-8b8f-d0f187709fb8"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Cardiovascular Thrombotic Events</title>
+                           <text>
+                              <paragraph>Clinical trials of several COX-2 selective and nonselective NSAIDs of up to three years duration have shown an increased risk of serious cardiovascular (CV) thrombotic events, myocardial infarction, and stroke, which can be fatal. All NSAIDs, both COX-2 selective and nonselective, may have a similar risk. Patients with known CV disease or risk factors for CV disease may be at greater risk. To minimize the potential risk for an adverse CV event in patients treated with an NSAID, the lowest effective dose should be used for the shortest duration possible. Physicians and patients should remain alert for the development of such events, even in the absence of previous CV symptoms. Patients should be informed about the signs and/or symptoms of serious CV events and the steps to take if they occur.</paragraph>
+                              <paragraph>There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an NSAID does increase the risk of serious GI events (see <content styleCode="bold">WARNINGS</content>, <content styleCode="bold">GI Effects</content>).</paragraph>
+                              <paragraph>Two large, controlled, clinical trials of a COX-2 selective NSAID for the treatment of pain in the first 10 to 14 days following CABG surgery found an increased incidence of myocardial infarction and stroke (see <content styleCode="bold">CONTRAINDICATIONS</content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20100121"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_9c2ac25f-9cca-4301-b372-9647780d7bc9">
+                           <id root="c9199715-88ac-4435-9893-d10cd85f5021"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Hypertension</title>
+                           <text>
+                              <paragraph>NSAIDs can lead to onset of new hypertension or worsening of preexisting hypertension, either of which may contribute to the increased incidence of CV events. Patients taking thiazides or loop diuretics may have impaired response to these therapies when taking NSAIDs. NSAIDs, including diclofenac potassium tablets, should be used with caution in patients with hypertension. Blood pressure (BP) should be monitored closely during the initiation of NSAID treatment and throughout the course of therapy.</paragraph>
+                           </text>
+                           <effectiveTime value="20100121"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_86d3c884-8710-49f0-a5c6-dba21aaf467b">
+                           <id root="8c56b607-ec6f-4e3b-81a7-be3be882f23a"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Congestive Heart Failure and Edema</title>
+                           <text>
+                              <paragraph>Fluid retention and edema have been observed in some patients taking NSAIDs. Diclofenac potassium tablets should be used with caution in patients with fluid retention or heart failure.</paragraph>
+                           </text>
+                           <effectiveTime value="20100121"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_f6bde797-a8e2-4e0f-9c7c-f19420364cf2">
+                     <id root="91f59f40-83ae-4bd7-85ea-b375d8094a9f"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal (GI) Effects: Risk of GI Ulceration, Bleeding, and Perforation</title>
+                     <text>
+                        <paragraph>NSAIDs, including diclofenac potassium tablets, can cause serious gastrointestinal (GI) adverse events including inflammation, bleeding, ulceration, and perforation of the stomach, small intestine, or large intestine, which can be fatal. These serious adverse events can occur at any time, with or without warning symptoms, in patients treated with NSAIDs. Only one in five patients, who develop a serious upper GI adverse event on NSAID therapy, is symptomatic. Upper GI ulcers, gross bleeding or perforation caused by NSAIDs occur in approximately 1% of patients treated for 3 to 6 months, and in about 2% to 4% of patients treated for one year. These trends continue with longer duration of use, increasing the likelihood of developing a serious GI event at some time during the course of therapy. However, even short-term therapy is not without risk.</paragraph>
+                        <paragraph>NSAIDs should be prescribed with extreme caution in those with a prior history of ulcer disease or gastrointestinal bleeding. Patients with a <content styleCode="italics">prior history of peptic ulcer disease and/or </content>
+                           <content styleCode="italics">gastrointestinal bleeding</content> who use NSAIDs have a greater than 10 fold increased risk for developing a GI bleed compared to patients with neither of these risk factors. Other factors that increase the risk for GI bleeding in patients treated with NSAIDs include concomitant use of oral corticosteroids or anticoagulants, longer duration of NSAID therapy, smoking, use of alcohol, older age, and poor general health status. Most spontaneous reports of fatal GI events are in elderly or debilitated patients and therefore special care should be taken in treating this population.</paragraph>
+                        <paragraph>To minimize the potential risk for an adverse GI event in patients treated with an NSAID, the lowest effective dose should be used for the shortest possible duration. Patients and physicians should remain alert for signs and symptoms of GI ulceration and bleeding during NSAID therapy and promptly initiate additional evaluation and treatment if a serious GI adverse event is suspected. This should include discontinuation of the NSAID until a serious GI adverse event is ruled out. For high risk patients, alternate therapies that do not involve NSAIDs should be considered.</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_37720c14-d29f-42e3-8a14-c4e7a9af6743">
+                     <id root="f8c5c9c1-0126-4bdb-bc4e-1848f8fcbb8e"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Renal Effects</title>
+                     <text>
+                        <paragraph>Caution should be used when initiating treatment with diclofenac potassium tablets in patients with considerable dehydration.</paragraph>
+                        <paragraph>Long-term administration of NSAIDs has resulted in renal papillary necrosis and other renal injury. Renal toxicity has also been seen in patients in whom renal prostaglandins have a compensatory role in the maintenance of renal perfusion. In these patients, administration of a non-steroidal anti-inflammatory drug may cause a dose-dependent reduction in prostaglandin formation and, secondarily, in renal blood flow, which may precipitate overt renal decompensation. Patients at greatest risk of this reaction are those with impaired renal function, heart failure, liver dysfunction, those taking diuretics and ACE inhibitors, and the elderly. Discontinuation of NSAID therapy is usually followed by recovery to the pretreatment state.</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_a073131c-eef7-4c67-94ec-15003ee58d88">
+                     <id root="2496cc41-4974-403b-baf5-7f4e97834961"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Advanced Renal Disease</title>
+                     <text>
+                        <paragraph>No information is available from controlled clinical studies regarding the use of diclofenac in patients with advanced renal disease. Therefore, treatment with diclofenac potassium tablets is not recommended in these patients with advanced renal disease. If diclofenac potassium tablet therapy must be initiated, close monitoring of the patient's renal function is advisable.</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_2e2895d2-306b-491a-8836-2996bc22403e">
+                     <id root="9631a70f-baf7-48c5-9f9b-386d02c3921a"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hepatic Effects</title>
+                     <text>
+                        <paragraph>Elevations of one or more liver tests may occur during therapy with diclofenac potassium. These laboratory abnormalities may progress, may remain unchanged, or may be transient with continued therapy. Borderline elevations (i.e., less than 3 times the ULN [ULN = the upper limit of the normal range]) or greater elevations of transaminases occurred in about 15% of diclofenac-treated patients. Of the markers of hepatic function, ALT (SGPT) is recommended for the monitoring of liver injury.</paragraph>
+                        <paragraph>In clinical trials, meaningful elevations (i.e., more than 3 times the ULN) of AST (GOT) (ALT was not measured in all studies) occurred in about 2% of approximately 5,700 patients at some time during diclofenac treatment. In a large, open-label, controlled trial of 3,700 patients treated for 2 to 6 months, patients were monitored first at 8 weeks and 1,200 patients were monitored again at 24 weeks. Meaningful elevations of ALT and/or AST occurred in about 4% of patients and included marked elevations (i.e., more than 8 times the ULN) in about 1% of the 3,700 patients. In that open-label study, a higher incidence of borderline (less than 3 times the ULN), moderate (3 to 8 times the ULN), and marked (&gt; 8 times the ULN) elevations of ALT or AST was observed in patients receiving diclofenac when compared to other NSAIDs. Elevations in transaminases were seen more frequently in patients with osteoarthritis than in those with rheumatoid arthritis.</paragraph>
+                        <paragraph>Almost all meaningful elevations in transaminases were detected before patients became symptomatic. Abnormal tests occurred during the first 2 months of therapy with diclofenac in 42 of the 51 patients in all trials who developed marked transaminase elevations.</paragraph>
+                        <paragraph>In postmarketing reports, cases of drug-induced hepatotoxicity have been reported in the first month, and in some cases, the first 2 months of therapy, but can occur at any time during treatment with diclofenac. Postmarketing surveillance has reported cases of severe hepatic reactions, including liver necrosis, jaundice, fulminant hepatitis with and without jaundice, and liver failure. Some of these reported cases resulted in fatalities or liver transplantation.</paragraph>
+                        <paragraph>Physicians should measure transaminases periodically in patients receiving long-term therapy with diclofenac, because severe hepatotoxicity may develop without a prodrome of distinguishing symptoms. The optimum times for making the first and subsequent transaminase measurements are not known. Based on clinical trial data and postmarketing experiences, transaminases should be monitored within 4 to 8 weeks after initiating treatment with diclofenac. However, severe hepatic reactions can occur at any time during treatment with diclofenac.</paragraph>
+                        <paragraph>If abnormal liver tests persist or worsen, if clinical signs and/or symptoms consistent with liver disease develop, or if systemic manifestations occur (e.g., eosinophilia, rash, abdominal pain, diarrhea, dark urine, etc.), diclofenac potassium should be discontinued immediately.</paragraph>
+                        <paragraph>To minimize the possibility that hepatic injury will become severe between transaminase measurements, physicians should inform patients of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, diarrhea, pruritus, jaundice, right upper quadrant tenderness, and "flu-like" symptoms), and the appropriate action patients should take if these signs and symptoms appear.</paragraph>
+                        <paragraph>To minimize the potential risk for an adverse liver related event in patients treated with diclofenac potassium, the lowest effective dose should be used for the shortest duration possible. Caution should be exercised in prescribing diclofenac potassium with concomitant drugs that are known to be potentially hepatotoxic (e.g., antibiotics, anti-epileptics).</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_dfe5d21e-4ac5-45af-863e-b40bcbb19a20">
+                     <id root="db047d77-5bfb-4b54-9a1b-95c17873f1d8"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Anaphylactic Reactions</title>
+                     <text>
+                        <paragraph>As with other NSAIDs, anaphylactic reactions may occur both in patients with the aspirin triad and in patients without known sensitivity to NSAIDs or known prior exposure to diclofenac potassium tablets. Diclofenac potassium tablets should not be given to patients with the aspirin triad. This symptom complex typically occurs in asthmatic patients who experience rhinitis with or without nasal polyps, or who exhibit severe, potentially fatal bronchospasm after taking aspirin or other NSAIDs (see <content styleCode="bold">CONTRAINDICATIONS</content> and <content styleCode="bold">PRECAUTIONS</content>,<content styleCode="bold"> Preexisting Asthma</content>). Anaphylaxis-type reactions have been reported with NSAID products, including with diclofenac products, such as diclofenac potassium tablets. Emergency help should be sought in cases where an anaphylactic reaction occurs.</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_96d8c844-fdef-448f-87ed-c7f0bdc4a7c7">
+                     <id root="daa273db-0367-47c4-b61e-48e2f204b251"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Skin Reactions</title>
+                     <text>
+                        <paragraph>NSAIDs, including diclofenac potassium tablets, can cause serious skin adverse events such as exfoliative dermatitis, Stevens-Johnson syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. These serious events may occur without warning. Patients should be informed about the signs and symptoms of serious skin manifestations and use of the drug should be discontinued at the first appearance of skin rash or any other sign of hypersensitivity.</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_d81afe44-f415-4d1d-b4b5-88bb35e20f53">
+                     <id root="55dd0524-b710-4ea2-b074-93215885e7ee"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>In late pregnancy, as with other NSAIDs, diclofenac potassium tablets should be avoided because they may cause premature closure of the ductus arteriosus.</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_aa5980ee-91d3-4c9f-9e4e-32d6b951002d">
+               <id root="93ed5402-f15c-4624-b875-29a5d21f35fa"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42232-9" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20100121"/>
+               <component>
+                  <section ID="i4i_precautions_general_id_a1953553-fa79-4b08-a241-ebcde0e2dc68">
+                     <id root="0f840e2f-6340-48b9-b034-5d6bb684e382"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34072-9" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Diclofenac potassium tablets cannot be expected to substitute for corticosteroids or to treat corticosteroid insufficiency. Abrupt discontinuation of corticosteroids may lead to disease exacerbation. Patients on prolonged corticosteroid therapy should have their therapy tapered slowly if a decision is made to discontinue corticosteroids.</paragraph>
+                        <paragraph>The pharmacological activity of diclofenac potassium tablets in reducing fever and inflammation may diminish the utility of these diagnostic signs in detecting complications of presumed noninfectious, painful conditions.</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_bdb4f5c5-a69a-4b41-ad84-7451f80bec2c">
+                     <id root="b6ffe130-89ee-4e13-9ccc-f5d95b401d1c"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hematological Effects</title>
+                     <text>
+                        <paragraph>Anemia is sometimes seen in patients receiving NSAIDs, including diclofenac potassium tablets. This may be due to fluid retention, occult or gross GI blood loss, or an incompletely described effect upon erythropoiesis. Patients on long-term treatment with NSAIDs, including diclofenac potassium tablets, should have their hemoglobin or hematocrit checked if they exhibit any signs or symptoms of anemia.</paragraph>
+                        <paragraph>NSAIDs inhibit platelet aggregation and have been shown to prolong bleeding time in some patients. Unlike aspirin, their effect on platelet function is quantitatively less, of shorter duration, and reversible. Patients receiving diclofenac potassium tablets who may be adversely affected by alterations in platelet function, such as those with coagulation disorders or patients receiving anticoagulants, should be carefully monitored.</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_37c547f1-f2e7-4f6f-95b9-a047ad77e5d8">
+                     <id root="1ad65cec-055d-42eb-b2ed-7529a02e89ea"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Preexisting Asthma</title>
+                     <text>
+                        <paragraph>Patients with asthma may have aspirin-sensitive asthma. The use of aspirin in patients with aspirin-sensitive asthma has been associated with severe bronchospasm which can be fatal. Since cross-reactivity, including bronchospasm, between aspirin and other non-steroidal anti-inflammatory drugs has been reported in such aspirin-sensitive patients, diclofenac potassium tablets should not be administered to patients with this form of aspirin sensitivity and should be used with caution in all patients with preexisting asthma.</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_info_patients_id_4e50836f-ba3f-48a5-82b5-4509e1c92d04">
+                     <id root="e3202f33-7740-41b9-8247-83f22f64941b"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34076-0" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Patients should be informed of the following information before initiating therapy with an NSAID and periodically during the course of ongoing therapy. Patients should also be encouraged to read the NSAID Medication Guide that accompanies each prescription dispensed.</content>
+                        </paragraph>
+                        <list listType="ordered">
+                           <item>Diclofenac potassium tablets, like other NSAIDs, may cause serious CV side effects, such as MI or stroke, which may result in hospitalization and even death. Although serious CV events can occur without warning symptoms, patients should be alert for the signs and symptoms of chest pain, shortness of breath, weakness, slurring of speech, and should ask for medical advice when observing any indicative sign or symptoms. Patients should be apprised of the importance of this follow-up (see <content styleCode="bold">WARNINGS</content>,<content styleCode="bold"> Cardiovascular Effects</content>).</item>
+                           <item>Diclofenac potassium tablets, like other NSAIDs, can cause GI discomfort and, rarely, more serious GI side effects, such as ulcers and bleeding, which may result in hospitalization and even death. Although serious GI tract ulcerations and bleeding can occur without warning symptoms, patients should be alert for the signs and symptoms of ulcerations and bleeding, and should ask for medical advice when observing any indicative sign or symptoms including epigastric pain, dyspepsia, melena, and hematemesis. Patients should be apprised of the importance of this follow-up (see <content styleCode="bold">WARNINGS</content>,<content styleCode="bold"> Gastrointestinal (GI) Effects: Risk of GI Ulceration, Bleeding, and Perforation</content>).</item>
+                           <item>Diclofenac potassium tablets, like other NSAIDs, can cause serious skin side effects such as exfoliative dermatitis, SJS, and TEN, which may result in hospitalizations and even death. Although serious skin reactions may occur without warning, patients should be alert for the signs and symptoms of skin rash and blisters, fever, or other signs of hypersensitivity such as itching, and should ask for medical advice when observing any indicative signs or symptoms. Patients should be advised to stop the drug immediately if they develop any type of rash and contact their physicians as soon as possible.</item>
+                           <item>Patients should promptly report signs or symptoms of unexplained weight gain or edema to their physicians.</item>
+                           <item>Patients should be informed of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, pruritus, jaundice, right upper quadrant tenderness, and "flu-like" symptoms). If these occur, patients should be instructed to stop therapy and seek immediate medical therapy (see <content styleCode="bold">WARNINGS</content>, <content styleCode="bold">Hepatic Effects</content>).</item>
+                           <item>Patients should be informed of the signs of an anaphylactic reaction (e.g., difficulty breathing, swelling of the face or throat). If these occur, patients should be instructed to seek immediate emergency help (see <content styleCode="bold">WARNINGS</content>,<content styleCode="bold"> Anaphylactic Reactions</content>).</item>
+                           <item>In late pregnancy, as with other NSAIDs, diclofenac potassium tablets should be avoided because they will cause premature closure of the ductus arteriosus.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_lab_tests_id_0edba104-53e7-45d0-bcec-e952a4d7e710">
+                     <id root="08030a56-9e1d-495c-bb95-b59e6f50e6b6"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34075-2" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Because serious GI tract ulcerations and bleeding can occur without warning symptoms, physicians should monitor for signs or symptoms of GI bleeding. In patients on long-term treatment with NSAIDs, including diclofenac potassium tablets, CBC and a chemistry profile (including transaminase levels) should be checked periodically. If clinical signs and symptoms consistent with liver or renal disease develop, systemic manifestations occur (e.g., eosinophilia, rash, etc.) or if abnormal liver tests persist or worsen, diclofenac potassium tablets should be discontinued.</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_interactions_id_f60aa3f0-9e0f-4344-9336-9b0be4f8d0c0">
+                     <id root="5ab92ba5-c7a2-49e4-9c8e-c18187404c1a"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34073-7" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Aspirin:</content>
+                           </content> When diclofenac is administered with aspirin, its protein binding is reduced. The clinical significance of this interaction is not known; however, as with other NSAIDs, concomitant administration of diclofenac and aspirin is not generally recommended because of the potential of increased adverse effects.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Methotrexate:</content>
+                           </content> NSAIDs have been reported to competitively inhibit methotrexate accumulation in rabbit kidney slices. This may indicate that they could enhance the toxicity of methotrexate. Caution should be used when NSAIDs are administered concomitantly with methotrexate.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Cyclosporine:</content>
+                           </content> Diclofenac potassium tablets, like other NSAIDs, may affect renal prostaglandins and increase the toxicity of certain drugs. Therefore, concomitant therapy with diclofenac potassium tablets may increase cyclosporine’s nephrotoxicity. Caution should be used when diclofenac potassium tablets are administered concomitantly with cyclosporine.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">ACE Inhibitors:</content>
+                           </content> Reports suggest that NSAIDs may diminish the antihypertensive effect of ACE inhibitors. This interaction should be given consideration in patients taking NSAIDs concomitantly with ACE inhibitors.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Furosemide:</content>
+                           </content> Clinical studies, as well as postmarketing observations, have shown that diclofenac can reduce the natriuretic effect of furosemide and thiazides in some patients. This response has been attributed to inhibition of renal prostaglandin synthesis. During concomitant therapy with NSAIDs, the patient should be observed closely for signs of renal failure (see <content styleCode="bold">WARNINGS</content>, <content styleCode="bold">Renal Effects</content>), as well as to assure diuretic efficacy.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Lithium:</content>
+                           </content> NSAIDs have produced an elevation of plasma lithium levels and a reduction in renal lithium clearance. The mean minimum lithium concentration increased 15% and the renal clearance was decreased by approximately 20%. These effects have been attributed to inhibition of renal prostaglandin synthesis by the NSAID. Thus, when NSAIDs and lithium are administered concurrently, subjects should be observed carefully for signs of lithium toxicity.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Warfarin:</content>
+                           </content> The effects of warfarin and NSAIDs on GI bleeding are synergistic, such that users of both drugs together have a risk of serious GI bleeding higher than users of either drug alone.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">CYP2C9 Inhibitors or Inducers:</content>
+                           </content> Diclofenac is metabolized by cytochrome P450 enzymes, predominantly by CYP2C9. Coadministration of diclofenac with CYP2C9 inhibitors (e.g., voriconazole) may enhance the exposure and toxicity of diclofenac whereas coadministration with CYP2C9 inducers (e.g., rifampin) may lead to compromised efficacy of diclofenac. Use caution when dosing diclofenac with CYP2C9 inhibitors or inducers, a dosage adjustment may be warranted (see <content styleCode="bold">CLINICAL PHARMACOLOGY</content>,<content styleCode="bold"> Pharmacokinetics</content>, <content styleCode="italics">Drug Interactions</content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_id_3aae2181-e063-4cd3-88f8-7ec6fcc38e30">
+                     <id root="b32a00ce-d191-49d1-bed5-c7cd84e732f0"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42228-7" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20100121"/>
+                     <component>
+                        <section ID="i4i_section_id_2e7527ff-e1d2-4c89-8163-43b29db17170">
+                           <id root="f7704677-fbf1-4d83-ba69-7fb06d751c59"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Teratogenic Effects</title>
+                           <effectiveTime value="20100121"/>
+                           <component>
+                              <section ID="i4i_section_id_0ac1810a-77ee-4143-9cbc-8e901efef499">
+                                 <id root="d1cb250f-4e2e-4846-9dda-65be2b835550"/>
+                                 <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Pregnancy category C</title>
+                                 <text>
+                                    <paragraph>Reproductive studies conducted in rats and rabbits have not demonstrated evidence of developmental abnormalities. However, animal reproduction studies are not always predictive of human response. There are no adequate and well-controlled studies in pregnant women.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20100121"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_51afd0b1-141f-4a3e-a82e-9e669364fe4e">
+                           <id root="10031883-2fe3-44ce-9239-48ee65ffe4ec"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Nonteratogenic Effects</title>
+                           <text>
+                              <paragraph>Because of the known effects of non-steroidal anti-inflammatory drugs on the fetal cardiovascular system (closure of ductus arteriosus), use during pregnancy (particularly late pregnancy) should be avoided.</paragraph>
+                           </text>
+                           <effectiveTime value="20100121"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_labour_delivery_id_44d631bd-dcd6-48c8-80f6-23f872fc6e2e">
+                     <id root="c0a64f1d-bba3-4e29-870c-0949dca5d430"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34079-4" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery</title>
+                     <text>
+                        <paragraph>In rat studies with NSAIDs, as with other drugs known to inhibit prostaglandin synthesis, an increased incidence of dystocia, delayed parturition, and decreased pup survival occurred. The effects of diclofenac potassium tablets on labor and delivery in pregnant women are unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_524077e3-a58e-4a38-bfb7-e922c0496a50">
+                     <id root="dd26615b-3796-4af8-824e-4a108f487d5b"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34080-2" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from diclofenac, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_156752ae-d3e6-40ce-98fb-a9d3c5a87faa">
+                     <id root="1240c68b-9cd9-44c6-844c-02314b3e50df"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34081-0" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_geriatric_use_id_7ce6e753-4893-47ae-8640-d7358ddfa0d8">
+                     <id root="56c8cb5e-4254-48de-8e33-69da62c43769"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34082-8" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>As with any NSAIDs, caution should be exercised in treating the elderly (65 years and older).</paragraph>
+                     </text>
+                     <effectiveTime value="20100121"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_a99c7215-e1f1-461c-9a2b-e8fcce39c4f2">
+               <id root="6bc1fb4c-8615-4704-a132-44b52567bcf4"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34084-4" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>In 718 patients treated for shorter periods, i.e., 2 weeks or less, with diclofenac potassium tablets, adverse reactions were reported one-half to one-tenth as frequently as by patients treated for longer periods. In a 6 month, double-blind trial comparing diclofenac potassium tablets (N = 196) versus diclofenac sodium delayed-release tablets (N = 197) versus ibuprofen (N = 197), adverse reactions were similar in nature and frequency.</paragraph>
+                  <paragraph>In patients taking diclofenac potassium tablets or other NSAIDs, the most frequently reported adverse experiences occurring in approximately 1% to 10% of patients are:</paragraph>
+                  <paragraph>Gastrointestinal experiences including: abdominal pain, constipation, diarrhea, dyspepsia, flatulence, gross bleeding/perforation, heartburn, nausea, GI ulcers (gastric/duodenal) and vomiting.</paragraph>
+                  <paragraph>Abnormal renal function, anemia, dizziness, edema, elevated liver enzymes, headaches, increased bleeding time, pruritus, rashes and tinnitus.</paragraph>
+                  <paragraph>Additional adverse experiences reported occasionally include:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Body as a Whole:</content>
+                     </content> fever, infection, sepsis</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Cardiovascular System:</content>
+                     </content> congestive heart failure, hypertension, tachycardia, syncope</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Digestive System:</content>
+                     </content> dry mouth, esophagitis, gastric/peptic ulcers, gastritis, gastrointestinal bleeding, glossitis, hematemesis, hepatitis, jaundice</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hemic and Lymphatic System:</content>
+                     </content> ecchymosis, eosinophilia, leukopenia, melena, purpura, rectal bleeding, stomatitis, thrombocytopenia</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Metabolic and Nutritional:</content>
+                     </content> weight changes</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Nervous System:</content>
+                     </content> anxiety, asthenia, confusion, depression, dream abnormalities, drowsiness, insomnia, malaise, nervousness, paresthesia, somnolence, tremors, vertigo</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Respiratory System:</content>
+                     </content> asthma, dyspnea</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Skin and Appendages:</content>
+                     </content> alopecia, photosensitivity, sweating increased</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Special Senses:</content>
+                     </content> blurred vision</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Urogenital System:</content>
+                     </content> cystitis, dysuria, hematuria, interstitial nephritis, oliguria/polyuria, proteinuria, renal failure</paragraph>
+                  <paragraph>Other adverse reactions, which occur rarely are:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Body as a Whole:</content>
+                     </content> anaphylactic reactions, appetite changes, death</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Cardiovascular System:</content>
+                     </content> arrhythmia, hypotension, myocardial infarction, palpitations, vasculitis</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Digestive System:</content>
+                     </content> colitis, eructation, fulminant hepatitis with and without jaundice, liver failure, liver necrosis, pancreatitis</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hemic and Lymphatic System:</content>
+                     </content> agranulocytosis, hemolytic anemia, aplastic anemia, lymphadenopathy, pancytopenia</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Metabolic and Nutritional:</content>
+                     </content> hyperglycemia</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Nervous System:</content>
+                     </content> convulsions, coma, hallucinations, meningitis</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Respiratory System:</content>
+                     </content> respiratory depression, pneumonia</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Skin and Appendages:</content>
+                     </content> angioedema, toxic epidermal necrolysis, erythema multiforme, exfoliative dermatitis, Stevens-Johnson syndrome, urticaria</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Special Senses:</content>
+                     </content> conjunctivitis, hearing impairment</paragraph>
+               </text>
+               <effectiveTime value="20100121"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_d5fe89a0-a1e8-4384-a7c0-c7cfd1a371b1">
+               <id root="1f9dd86e-dcab-4a00-b46a-1b240d882068"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34088-5" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Symptoms following acute NSAID overdoses are usually limited to lethargy, drowsiness, nausea, vomiting, and epigastric pain, which are generally reversible with supportive care. Gastrointestinal bleeding can occur. Hypertension, acute renal failure, respiratory depression and coma may occur, but are rare. Anaphylactoid reactions have been reported with therapeutic ingestion of NSAIDs, and may occur following an overdose.</paragraph>
+                  <paragraph>Patients should be managed by symptomatic and supportive care following an NSAID overdose. There are no specific antidotes. Emesis and/or activated charcoal (60 to 100 g in adults, 1 to 2 g/kg in children) and/or osmotic cathartic may be indicated in patients seen within 4 hours of ingestion with symptoms or following a large overdose (5 to 10 times the usual dose). Forced diuresis, alkalinization of urine, hemodialysis, or hemoperfusion may not be useful due to high protein binding.</paragraph>
+               </text>
+               <effectiveTime value="20100121"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_4f5f591c-886a-4495-b47a-7de89960a548">
+               <id root="b9aadacd-eccc-4b38-9c07-387c7cb39e06"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Carefully consider the potential benefits and risks of diclofenac potassium tablets USP and other treatment options before deciding to use diclofenac potassium tablets USP. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see <content styleCode="bold">WARNINGS</content>).</paragraph>
+                  <paragraph>After observing the response to initial therapy with diclofenac potassium tablets USP, the dose and frequency should be adjusted to suit an individual patient's needs.</paragraph>
+                  <paragraph>For treatment of pain or primary dysmenorrhea the recommended dosage is 50 mg t.i.d. With experience, physicians may find that in some patients an initial dose of 100 mg of diclofenac potassium tablets USP, followed by 50 mg doses, will provide better relief.</paragraph>
+                  <paragraph>For the relief of osteoarthritis the recommended dosage is 100 to 150 mg/day in divided doses, 50 mg b.i.d. or t.i.d.</paragraph>
+                  <paragraph>For the relief of rheumatoid arthritis the recommended dosage is 150 to 200 mg/day in divided doses, 50 mg t.i.d. or q.i.d.</paragraph>
+                  <paragraph>Different formulations of diclofenac [diclofenac sodium enteric-coated tablets; diclofenac sodium extended-release tablets; diclofenac potassium tablets USP] are not necessarily bioequivalent even if the milligram strength is the same.</paragraph>
+               </text>
+               <effectiveTime value="20100121"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_a5ff44f4-1aa3-405e-a02e-c5b09337501f">
+               <id root="1ce4e295-283e-4644-8c24-b604c4bc30b8"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34069-5" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Diclofenac potassium tablets USP, 50 mg are available as orange, round, unscored, biconvex, film-coated tablets debossed with the numbers “93” and “948” on one face of the tablet and plain on the other</paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature]. Protect from moisture.</paragraph>
+                  <paragraph>Dispense in a tight, light-resistant container as defined in the USP, with a child-resistant closure (as required).</paragraph>
+                  <paragraph>Manufactured In Israel By:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TEVA PHARMACEUTICAL IND. LTD.</content>
+                  </paragraph>
+                  <paragraph>Jerusalem, 91010, Israel</paragraph>
+                  <paragraph>Manufactured For:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TEVA PHARMACEUTICALS USA</content>
+                  </paragraph>
+                  <paragraph>Sellersville, PA 18960</paragraph>
+                  <paragraph>Rev. J 3/2011</paragraph>
+               </text>
+               <effectiveTime value="20150910"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_medguide_id_53b64c38-8561-4be9-9fba-d11c4e132cc8">
+               <id root="a1177094-0944-4be1-9cd2-b0402fb73c08"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42231-1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">
+                        <content styleCode="bold">Medication Guide for Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">(See the end of this Medication Guide for a list of prescription NSAID medicines.)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about medicines called Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NSAID medicines may increase the chance of a heart attack or stroke that can lead to death.</content> This chance increases:</paragraph>
+                  <list listType="unordered">
+                     <item>with longer use of NSAID medicines</item>
+                     <item>in people who have heart disease</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">NSAID medicines should never be used right before or after a heart surgery called a “coronary artery bypass graft (CABG).”</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NSAID medicines can cause ulcers and bleeding in the stomach and intestines at any time during treatment. Ulcers and bleeding:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>can happen without warning symptoms</item>
+                     <item>may cause death</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">The chance of a person getting an ulcer or bleeding increases with:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>taking medicines called “corticosteroids” and “anticoagulants”</item>
+                     <item>longer use</item>
+                     <item>smoking</item>
+                     <item>drinking alcohol</item>
+                     <item>older age</item>
+                     <item>having poor health</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">NSAID medicines should only be used:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>exactly as prescribed</item>
+                     <item>at the lowest dose possible for your treatment</item>
+                     <item>for the shortest time needed</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <paragraph>NSAID medicines are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as:</paragraph>
+                  <list listType="unordered">
+                     <item>different types of arthritis</item>
+                     <item>menstrual cramps and other types of short-term pain</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Who should not take a Non-Steroidal Anti-Inflammatory Drug (NSAID)?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not take an NSAID medicine:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>if you had an asthma attack, hives, or other allergic reaction with aspirin or any other NSAID medicine</item>
+                     <item>for pain right before or after heart bypass surgery</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Tell your healthcare provider:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>about all of your medical conditions.</item>
+                     <item>about all of the medicines you take. NSAIDs and some other medicines can interact with each other and cause serious side effects. <content styleCode="bold">Keep a list of your medicines to show to your healthcare provider and pharmacist.</content>
+                     </item>
+                     <item>if you are pregnant. <content styleCode="bold">NSAID medicines should not be used by pregnant women late in their pregnancy.</content>
+                     </item>
+                     <item>if you are breastfeeding. <content styleCode="bold">Talk to your doctor.</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <table border="1" width="353" ID="id_bba78819-e67f-40bb-ad1d-4fe4151a8ebb">
+                     <col width="47.9%"/>
+                     <col width="52.1%"/>
+                     <tbody>
+                        <tr ID="id_26bbf749-685d-4b91-872a-e3a592bcc58f">
+                           <td align="left" valign="middle" styleCode="Botrule Toprule Rrule Lrule">
+                              <content styleCode="bold">Serious Side effects include:</content>
+                           </td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">
+                              <content styleCode="bold">Other side effects include:</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_54acf787-8c9d-42d7-88f0-a5bc7843e983">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">•  heart attack</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">•  stomach pain</td>
+                        </tr>
+                        <tr ID="id_b2ccc9db-2481-4d24-8dcb-d931f3cd8ee0">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">•  stroke</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">•  constipation</td>
+                        </tr>
+                        <tr ID="id_afc1abcd-66df-4b7f-89bb-a7c4f74f5991">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">•  high blood pressure</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">•  diarrhea</td>
+                        </tr>
+                        <tr ID="id_c44275f0-ada3-4f52-a0c2-7a12b237ffe4">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">•  heart failure from body swelling (fluid retention)</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">•  gas</td>
+                        </tr>
+                        <tr ID="id_d687dcc6-cc95-4c2c-ad68-0ceea01fd2eb">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">• kidney problems including kidney failure</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">•  heartburn</td>
+                        </tr>
+                        <tr ID="id_08e7a215-d01d-4628-a551-896b63910e77">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">•  bleeding and ulcers in the stomach and intestine</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">• nausea</td>
+                        </tr>
+                        <tr ID="id_aa9c7393-7eae-46b0-861b-04e9b4e0290b">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">•  low red blood cells (anemia)</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">• vomiting</td>
+                        </tr>
+                        <tr ID="id_8ddd6321-3f4a-4aa4-9e02-0d4b9d66b52a">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">•  life-threatening skin reactions</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">• dizziness</td>
+                        </tr>
+                        <tr ID="id_83c1d593-d2fd-4228-a13a-1a72ac9781c7">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">•  life-threatening allergic reactions</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule"/>
+                        </tr>
+                        <tr ID="id_19dd72d6-6d2d-4d95-b585-9e1360152842">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">•  liver problems including liver failure</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule"/>
+                        </tr>
+                        <tr ID="id_011a8251-b5e2-4b0f-86e3-5e2c02cc390e">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">•  asthma attacks in people who have asthma</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Get emergency help right away if you have any of the following symptoms:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>shortness of breath or trouble breathing</item>
+                     <item>chest pain</item>
+                     <item>weakness in one part or side of your body</item>
+                     <item>slurred speech</item>
+                     <item>swelling of the face or throat</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Stop your NSAID medicine and call your healthcare provider right away if you have any of the following symptoms:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>nausea</item>
+                     <item>more tired or weaker than usual</item>
+                     <item>itching</item>
+                     <item>your skin or eyes look yellow</item>
+                     <item>stomach pain</item>
+                     <item>flu-like symptoms</item>
+                     <item>vomit blood</item>
+                     <item>there is blood in your bowel movement or it is black and sticky like tar</item>
+                     <item>unusual weight gain</item>
+                     <item>skin rash or blisters with fever</item>
+                     <item>swelling of the arms and legs, hands and feet</item>
+                  </list>
+                  <paragraph>These are not all the side effects with NSAID medicines. Talk to your healthcare provider or pharmacist for more information about NSAID medicines.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other information about Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Aspirin is an NSAID medicine but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines.</item>
+                     <item>Some of these NSAID medicines are sold in lower doses without a prescription (over-the-counter). Talk to your healthcare provider before using over-the-counter NSAIDs for more than 10 days.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">NSAID medicines that need a prescription</content>
+                     </content>
+                  </paragraph>
+                  <table border="1" width="373" ID="id_38287f6c-a799-4432-9ca4-6c5676f7ae5a">
+                     <col width="47.2%"/>
+                     <col width="52.8%"/>
+                     <tbody>
+                        <tr ID="id_cb1a1a2c-dbf0-4338-b821-531352fd0332">
+                           <td align="left" valign="middle" styleCode="Botrule Toprule Rrule Lrule">
+                              <content styleCode="bold">Generic Name</content>
+                           </td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">
+                              <content styleCode="bold">Tradename</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_725387f9-a3fb-4b8d-bfcb-1f6cac2fed2c">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Celecoxib</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Celebrex</td>
+                        </tr>
+                        <tr ID="id_bf4fa828-de59-4a3f-86cb-e86542cb4519">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Diclofenac</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Cataflam, Voltaren, Arthrotec (combined with misoprostol)</td>
+                        </tr>
+                        <tr ID="id_6b3b9b64-8860-46ed-ad2a-ad7b24871bca">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Diflunisal</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Dolobid</td>
+                        </tr>
+                        <tr ID="id_893e0fe1-f643-453b-95cf-3401310bc972">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Etodolac</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Lodine, Lodine XL</td>
+                        </tr>
+                        <tr ID="id_667d2004-c1ec-4e5d-965c-dcbe574a37ef">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Fenoprofen</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Nalfon, Nalfon 200</td>
+                        </tr>
+                        <tr ID="id_d70f104d-8aca-4355-a990-4caea8c35ee2">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Flurbiprofen</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Ansaid</td>
+                        </tr>
+                        <tr ID="id_e3aa8f4b-2569-45bd-ad23-ae9325d605e6">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Ibuprofen</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Motrin, Tab-Profen, Vicoprofen<footnote ID="id-8453c99d-3e0e-479d-91b1-dbddf18bca5a">Vicoprofen contains the same dose of ibuprofen as over-the-counter (OTC) NSAIDs, and is usually used for less than 10 days to treat pain. The OTC NSAID label warns that long term continuous use may increase the risk of heart attack or stroke</footnote> (combined with hydrocodone), Combunox (combined with oxycodone)</td>
+                        </tr>
+                        <tr ID="id_92bfa0f3-9a3e-487f-83df-31e419019043">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Indomethacin</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Indocin, Indocin SR, Indo-Lemmon, Indomethagan</td>
+                        </tr>
+                        <tr ID="id_1e249b89-40d2-43c1-b788-160ad15e24c3">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Ketoprofen</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Oruvail</td>
+                        </tr>
+                        <tr ID="id_2797afd9-f3f4-41a7-80aa-c8523f20e9ca">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Ketorolac</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Toradol</td>
+                        </tr>
+                        <tr ID="id_c8e29f2c-0b3f-4923-89e0-49f03b9664c6">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Mefenamic Acid</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Ponstel</td>
+                        </tr>
+                        <tr ID="id_1be89319-903e-445c-9544-32db578492e9">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Meloxicam</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Mobic</td>
+                        </tr>
+                        <tr ID="id_5cff8898-eb89-4641-a5d1-fd6037814d2d">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Nabumetone</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Relafen</td>
+                        </tr>
+                        <tr ID="id_a6e5eac5-f012-4768-9466-53d88702cba9">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Naproxen</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Naprosyn, Anaprox, Anaprox DS, EC-Naprosyn, Naprelan, Naprapac (copackaged with lansoprazole)</td>
+                        </tr>
+                        <tr ID="id_efa0e77d-0b8b-46b6-bd01-7e4a4ddcc687">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Oxaprozin</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Daypro</td>
+                        </tr>
+                        <tr ID="id_78af58e7-c07a-4678-b4ed-e1893680fb9a">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Piroxicam</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Feldene</td>
+                        </tr>
+                        <tr ID="id_8bb2b4d8-34cd-422c-bc29-387a4948a216">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Sulindac</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Clinoril</td>
+                        </tr>
+                        <tr ID="id_316cc8ee-fd5b-422d-a8bb-b99e1ef04bb3">
+                           <td align="left" valign="middle" styleCode="Lrule Botrule Rrule">Tolmetin</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">Tolectin, Tolectin DS, Tolectin 600</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">This Medication Guide has been approved by the U.S. Food and Drug Administration.</content>
+                  </paragraph>
+                  <paragraph>Manufactured In Israel By:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TEVA PHARMACEUTICAL IND. LTD.</content>
+                  </paragraph>
+                  <paragraph>Jerusalem, 91010, Israel</paragraph>
+                  <paragraph>Manufactured For:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TEVA PHARMACEUTICALS USA</content>
+                  </paragraph>
+                  <paragraph>Sellersville, PA 18960</paragraph>
+                  <paragraph>Rev. B 7/2009</paragraph>
+               </text>
+               <effectiveTime value="20100121"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L36944546-e6ca-4218-a73e-b2a82316ec2d">
+               <id root="c590704c-6d56-422c-b6cc-b322ab544fee"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L5db50913-d8e2-4ac2-8375-b6eee87fd126"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200214"/>
+               <component>
+                  <observationMedia ID="L5db50913-d8e2-4ac2-8375-b6eee87fd126">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="DiclofenacPotassium50mgTEVA.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

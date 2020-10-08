@@ -1,0 +1,2013 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="00ea44c7-97e5-426f-b0f2-8884e8bfa7dc"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>Naprelan</title>
+   <effectiveTime value="20130822"/>
+   <setId root="15ab6690-53bf-4669-950f-35db4dba8fac"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="949127786" root="1.3.6.1.4.1.519.1"/>
+            <name>Shionogi Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="896838492" root="1.3.6.1.4.1.519.1"/>
+                        <name>ALKERMES PHARMA IRELAND LIMITED</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="MANUFACTURE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59630-777" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="MANUFACTURE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59630-850" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="MANUFACTURE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59630-375" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="b067b3f0-8d49-4c3c-a4d6-09527e0685a4"/>
+               <code code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20130819"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59630-375" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Naprelan</name>
+                        <formCode code="C42930" displayName="TABLET, FILM COATED, EXTENDED RELEASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Naproxen Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="375"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9TN87S3A3C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NAPROXEN SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="57Y76R9ATQ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NAPROXEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8GQS4E66YY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIO METHACRYLATE COPOLYMER TYPE A</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="161H3B14U2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIO METHACRYLATE COPOLYMER TYPE B</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="68401960MK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="74G4R6TH13" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHACRYLIC ACID - METHYL METHACRYLATE COPOLYMER (1:1)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOLS</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100">
+                                 <translation code="C48542" value="100" displayName="TABLET" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              </numerator>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="59630-375-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020353" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19960401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="WHITE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">N;375</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="15" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59630-850" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Naprelan</name>
+                        <formCode code="C42930" displayName="TABLET, FILM COATED, EXTENDED RELEASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Naproxen Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="500"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9TN87S3A3C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NAPROXEN SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="57Y76R9ATQ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NAPROXEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8GQS4E66YY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIO METHACRYLATE COPOLYMER TYPE A</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="161H3B14U2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIO METHACRYLATE COPOLYMER TYPE B</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="68401960MK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="74G4R6TH13" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHACRYLIC ACID - METHYL METHACRYLATE COPOLYMER (1:1)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOLS</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="75">
+                                 <translation code="C48542" value="75" displayName="TABLET" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              </numerator>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="59630-850-75" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020353" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19960401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="WHITE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">N;500</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="17" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59630-777" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Naprelan</name>
+                        <formCode code="C42930" displayName="TABLET, FILM COATED, EXTENDED RELEASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Naproxen Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="750"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9TN87S3A3C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NAPROXEN SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="57Y76R9ATQ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NAPROXEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8GQS4E66YY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIO METHACRYLATE COPOLYMER TYPE A</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="161H3B14U2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIO METHACRYLATE COPOLYMER TYPE B</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="68401960MK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="74G4R6TH13" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHACRYLIC ACID - METHYL METHACRYLATE COPOLYMER (1:1)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOLS</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="30">
+                                 <translation code="C48542" value="30" displayName="TABLET" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              </numerator>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="59630-777-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020353" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19960401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="WHITE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">N;750</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="22" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="30b99d45-bfd9-4c72-bbe2-8fa37c0cbca9"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NAPRELAN</content>
+                     <sup>®</sup>
+                  </paragraph>
+                  <paragraph>(naproxen sodium)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">CONTROLLED-RELEASE TABLETS</content>
+                  </paragraph>
+                  <paragraph>Equivalent to 375 mg, 500 mg and 750 mg naproxen</paragraph>
+                  <paragraph>NAPRELAN<sup>®</sup> Controlled-Release Tablets, 375 mg, 500 mg and 750 mg</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="16626398-2b55-42a1-ac5c-410d5a77fe89"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34066-1" displayName="BOXED WARNING SECTION"/>
+               <title>
+                  <content styleCode="bold">CARDIOVASCULAR RISK</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>
+                        <content styleCode="bold">NSAIDs may cause an increased risk of serious cardiovascular thrombotic events, myocardial infarction, and stroke, which can be fatal. This risk may increase with duration of use. Patients with cardiovascular disease or risk factors for cardiovascular disease may be at greater risk. (</content>
+                        <content styleCode="bold">s</content>
+                        <content styleCode="bold">ee </content>
+                        <linkHtml href="#_WARNINGS">WARNINGS</linkHtml>
+                        <content styleCode="bold">).</content>
+                        <br/>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Naproxen as NAPRELAN</content>
+                        <content styleCode="bold">
+                           <sup>®</sup>
+                        </content>
+                        <content styleCode="bold"> is contraindicated for the treatment of peri-operative pain in the setting of coronary artery bypass graft (CABG) surgery (</content>
+                        <content styleCode="bold">s</content>
+                        <content styleCode="bold">ee </content>
+                        <linkHtml href="#_WARNINGS">WARNINGS</linkHtml>
+                        <content styleCode="bold">).</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">GASTROINTESTINAL RISK</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>
+                        <content styleCode="bold">NSAIDs cause an increased risk of serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly people are at greater risk for </content>
+                        <content styleCode="bold">ser</content>
+                        <content styleCode="bold">i</content>
+                        <content styleCode="bold">ous</content>
+                        <content styleCode="bold"> gastrointestinal events. (</content>
+                        <content styleCode="bold">s</content>
+                        <content styleCode="bold">ee </content>
+                        <linkHtml href="#_WARNINGS">WARNINGS</linkHtml>
+                        <content styleCode="bold">).</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20130813"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ce676f4a-ab79-4a5e-9d4b-732f7ccc5933"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34089-3" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>NAPRELAN<sup>®*</sup> Tablets contain naproxen sodium, a member of the arylacetic acid group of nonsteroidal anti-inflammatory drugs (NSAIDs). NAPRELAN<sup>®</sup> Tablets use the proprietary IPDAS<sup>®**</sup> (Intestinal Protective Drug Absorption System) technology. It is a rapidly disintegrating tablet system combining an immediate release component and a sustained release component of microparticles that are widely dispersed, allowing absorption of the active ingredient throughout the gastrointestinal (GI) tract, maintaining blood levels over 24 hours. The chemical name for naproxen sodium is 2-naphthaleneacetic acid, 6-methoxy-a-methyl-sodium salt, (S)- with the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000001"/>
+                  </paragraph>
+                  <paragraph>Naproxen sodium is an odorless crystalline powder, white to creamy in color. It is soluble in methanol and water. NAPRELAN<sup>®</sup> Tablets contain 412.5 mg, 550 mg, or 825 mg of naproxen sodium, equivalent to 375 mg, 500 mg, and 750 mg of naproxen and 37.5, mg 50 mg, and 75 mg sodium respectively. Each NAPRELAN<sup>®</sup> Tablet also contains the following inactive ingredients: ammoniomethacrylate copolymer Type A, ammoniomethacrylate copolymer Type B, citric acid, crospovidone, magnesium stearate, methacrylic acid copolymer Type A, microcrystalline cellulose, povidone, and talc. The tablet coating contains hydroxypropyl methylcellulose, polyethylene glycol, and titanium dioxide.</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+               <component>
+                  <observationMedia ID="MM03000001">
+                     <text>Naproxen sodium structural formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="naprelan-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_CLINICAL_PHARMACOLOGY">
+               <id root="2db8fa4e-d3a4-45b3-8ec1-b88cce9e7091"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>Naproxen is a nonsteroidal anti-inflammatory drug (NSAID), with analgesic and antipyretic properties. As with other NSAIDs, its mode of action is not fully understood; however, its ability to inhibit prostaglandin synthesis may be involved in the anti-inflammatory effect.</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="102a345e-581a-4243-9ea6-3c8cd1484047"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="43682-4" displayName="PHARMACOKINETICS SECTION"/>
+               <title>
+                  <content styleCode="bold">PHARMACOKINETICS</content>
+               </title>
+               <text>
+                  <paragraph>Although naproxen itself is well absorbed, the sodium salt form is more rapidly absorbed, resulting in higher peak plasma levels for a given dose. Approximately 30% of the total naproxen sodium dose in NAPRELAN<sup>®</sup> Tablets is present in the dosage form as an immediate release component. The remaining naproxen sodium is coated as microparticles to provide sustained release properties. After oral administration, plasma levels of naproxen are detected within 30 minutes of dosing, with peak plasma levels occurring approximately 5 hours after dosing. The observed terminal elimination half-life of naproxen from both immediate release naproxen sodium and NAPRELAN<sup>®</sup> Tablets is approximately 15 hours. Steady state levels of naproxen are achieved in 3 days and the degree of naproxen accumulation in the blood is consistent with this.</paragraph>
+                  <renderMultiMedia referencedObject="MM03000002">
+                     <caption>Plasma Naproxen Concentrations Mean of 24 Subjects (+/-2SD) (Steady State, Day 5)</caption>
+                  </renderMultiMedia>
+                  <table>
+                     <caption>Pharmacokinetic Parameters at Steady State Day 5 (Mean of 24 Subjects)</caption>
+                     <col width="174"/>
+                     <col width="72"/>
+                     <col width="72"/>
+                     <col width="120"/>
+                     <col width="78"/>
+                     <col width="66"/>
+                     <col width="126"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule Lrule Rrule " align="center">Parameter<br/>(units)</td>
+                           <td styleCode="Toprule Lrule Rrule " colspan="3" align="center">naproxen 500 mg<br/>Q12h/5 days (1000 mg)</td>
+                           <td styleCode="Toprule Lrule Rrule " colspan="3" align="center">NAPRELAN® 2 x 500 mg tablets<br/>(1000 mg) Q24h/5 days</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule Rrule "/>
+                           <td styleCode="Toprule Lrule Rrule " align="center">Mean</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">SD</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">Range</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">Mean</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">SD</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">Range</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule Rrule ">AUC 0-24<br/>(mcgxh/mL)</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">1446</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">168</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">1167 - 1858</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">1448</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">145</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">1173 - 1774</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule Rrule ">C<sub>max</sub>
+                              <sub> </sub>(mcg/mL)</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">95</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">13</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">71 - 117</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">94</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">13</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">74 - 127</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule Rrule ">C<sub>avg</sub>
+                              <sub> </sub>(mcg/mL)</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">60</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">7</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">49 - 77</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">60</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">6</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">49 - 74</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule Rrule ">C<sub>min</sub>
+                              <sub> </sub>(mcg/mL)</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">36</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">9</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">13 - 51</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">33</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">7</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">23 - 48</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule Rrule ">T<sub>max</sub>
+                              <sub> </sub>(hrs)</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">3</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">1</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">1 - 4</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">5</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">2</td>
+                           <td styleCode="Toprule Lrule Rrule " align="center">2-10</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20120217"/>
+               <component>
+                  <observationMedia ID="MM03000002">
+                     <text>Plasma Naproxen Concentrations Mean of 24 Subjects (+/-2SD) (Steady State, Day 5)</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="naprelan-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <section>
+                     <id root="17faf0c9-2d7e-474c-af45-c7fc696b7cee"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Absorption</content>
+                     </title>
+                     <text>
+                        <paragraph>Naproxen itself is rapidly and completely absorbed from the GI tract with an <content styleCode="italics">in vivo</content> bioavailability of 95%. Based on the pharmacokinetic profile, the absorption phase of NAPRELAN<sup>®</sup> Tablets occurs in the first 4-6 hours after administration. This coincides with disintegration of the tablet in the stomach, the transit of the sustained release microparticles through the small intestine and into the proximal large intestine. An <content styleCode="italics">in vivo</content> imaging study has been performed in healthy volunteers that confirms rapid disintegration of the tablet matrix and dispersion of the microparticles.</paragraph>
+                        <paragraph>The absorption rate from the sustained release particulate component of NAPRELAN<sup>®</sup> Tablets is slower than that for conventional naproxen sodium tablets. It is this prolongation of drug absorption processes that maintains plasma levels and allows for once daily dosing.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="7c1b541c-9372-4285-81f2-68a2bcbacd75"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Food Effects</content>
+                     </title>
+                     <text>
+                        <paragraph>No significant food effects were observed when twenty-four subjects were given a single dose of NAPRELAN<sup>®</sup> Tablets 500 mg either after an overnight fast or 30 minutes after a meal. In common with conventional naproxen and naproxen sodium formulations, food causes a slight decrease in the rate of naproxen absorption following NAPRELAN<sup>®</sup> Tablets administration.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="24f5cc94-e181-4fd5-afc8-9536ccd10be3"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Distribution</content>
+                     </title>
+                     <text>
+                        <paragraph>Naproxen has a volume of distribution of 0.16 L/kg. At therapeutic levels, naproxen is greater than 99% albumin-bound. At doses of naproxen greater than 500 mg/day, there is a less than proportional increase in plasma levels due to an increase in clearance caused by saturation of plasma protein binding at higher doses. However the concentration of unbound naproxen continues to increase proportionally to dose. NAPRELAN<sup>®</sup> Tablets exhibit similar dose proportional characteristics.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="9e467579-ce4e-4e21-9b0a-e439d8cafe82"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Metabolism</content>
+                     </title>
+                     <text>
+                        <paragraph>Naproxen is extensively metabolized to 6-0-desmethyl naproxen and both parent and metabolites do not induce metabolizing enzymes.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="9f92e79a-5254-467d-83f8-d4a8c2eeb61b"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Elimination</content>
+                     </title>
+                     <text>
+                        <paragraph>The elimination half-life of NAPRELAN<sup>®</sup> Tablets and conventional naproxen is approximately 15 hours. Steady state conditions are attained after 2-3 doses of NAPRELAN<sup>®</sup> Tablets. Most of the drug is excreted in the urine, primarily as unchanged naproxen (less than 1%), 6-0-desmethyl naproxen (less than 1%) and their glucuronide or other conjugates (66-92%). A small amount (&lt;5%) of the drug is excreted in the feces. The rate of excretion has been found to coincide closely with the rate of clearance from the plasma. In patients with renal failure, metabolites may accumulate.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="29b62cdf-38e8-45e5-963c-661052f544b3"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="43684-0" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Special Populations</content>
+                     </title>
+                     <text>
+                        <paragraph>Pediatric Use</paragraph>
+                        <paragraph>No pediatric studies have been performed with NAPRELAN<sup>®</sup> Tablets, thus safety of NAPRELAN<sup>®</sup> Tablets in pediatric populations has not been established.</paragraph>
+                        <paragraph>Renal Insufficiency</paragraph>
+                        <paragraph>Naproxen pharmacokinetics have not been determined in subjects with renal insufficiency. Given that naproxen is metabolized and conjugates are primarily excreted by the kidneys, the potential exists for naproxen metabolites to accumulate in the presence of renal insufficiency. Elimination of naproxen is decreased in patients with severe renal impairment. Naproxen-containing products are not recommended for use in patients with moderate to severe and severe renal impairment (creatinine clearance &lt;30mL/min)(see <linkHtml href="#_WARNINGS">WARNINGS</linkHtml> – <linkHtml href="#_RENAL_EFFECTS">Renal Effects</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="369d820f-8518-4fe4-8a7c-791dab3a61d2"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34092-7" displayName="CLINICAL STUDIES SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL STUDIES</content>
+               </title>
+               <effectiveTime value="20120217"/>
+               <component>
+                  <section>
+                     <id root="c4e80632-c3d4-459a-8039-53790a07e55f"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>RHEUMATOID ARTHRITIS</title>
+                     <text>
+                        <paragraph>The use of NAPRELAN<sup>®</sup> Tablets for the management of the signs and symptoms of rheumatoid arthritis was assessed in a 12 week double-blind, randomized, placebo and active-controlled study in 348 patients. Two NAPRELAN<sup>®</sup> 500 mg tablets (1000 mg) once daily and naproxen 500 mg tablets twice daily (1000 mg) were more effective than placebo. Clinical effectiveness was demonstrated at one week and continued for the duration of the study.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="981e534b-e022-4c61-8cb6-943221ed432d"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>OSTEOARTHRITIS</title>
+                     <text>
+                        <paragraph>The use of NAPRELAN<sup>®</sup> Tablets for the management of the signs and symptoms of osteoarthritis of the knee was assessed in a 12 week double-blind, placebo and active-controlled study in 347 patients. Two NAPRELAN<sup>®</sup> 500 mg tablets (1000 mg) once daily and naproxen 500 mg tablets twice daily (1000 mg) were more effective than placebo. Clinical effectiveness was demonstrated at one week and continued for the duration of the study.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="1e66eda3-5824-4ce1-b8f8-9c13b8196d54"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>ANALGESIA</title>
+                     <text>
+                        <paragraph>The onset of the analgesic effect of NAPRELAN<sup>®</sup> Tablets was seen within 30 minutes in a pharmacokinetic/pharmacodynamic study of patients with pain following oral surgery. In controlled clinical trials, naproxen has been used in combination with gold, D-penicillamine, methotrexate and corticosteroids. Its use in combination with salicylate is not recommended because there is evidence that aspirin increases the rate of excretion of naproxen and data are inadequate to demonstrate that naproxen and aspirin produce greater improvement over that achieved with aspirin alone. In addition, as with other NSAIDs the combination may result in higher frequency of adverse events than demonstrated for either product alone.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="277cf127-e5b6-4a6f-b970-c58bf16873f6"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>SPECIAL STUDIES</title>
+                     <text>
+                        <paragraph>In a double-blind randomized, parallel group study, 19 subjects received either two NAPRELAN<sup>®</sup> 500 mg tablets (1000 mg) once daily or naproxen 500 mg tablets (1000 mg) twice daily for 7 days. Mucosal biopsy scores and endoscopic scores were lower in the subjects who received NAPRELAN<sup>®</sup> Tablets. In another double-blind, randomized, crossover study, 23 subjects received two NAPRELAN<sup>®</sup> 500 mg tablets (1000 mg) once daily, naproxen 500 mg tablets (1000 mg) twice daily and aspirin 650 mg four times daily (2600 mg) for 7 days each. There were significantly fewer duodenal erosions seen with NAPRELAN<sup>®</sup> Tablets than with either naproxen or aspirin. There were significantly fewer gastric erosions with both NAPRELAN<sup>®</sup> Tablets and naproxen than with aspirin. The clinical significance of these findings is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d18bfddf-9b5e-4ed5-bd7a-775cf7fc6676"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>Carefully consider the potential benefits and risks of NAPRELAN<sup>®</sup> Tablets and other treatment options before deciding to use NAPRELAN<sup>®</sup> Tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see <linkHtml href="#_WARNINGS">WARNINGS</linkHtml>).</paragraph>
+                  <paragraph>NAPRELAN<sup>®</sup> Tablets are indicated for the treatment of rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, tendinitis, bursitis and acute gout. It is also indicated in the relief of mild to moderate pain and the treatment of primary dysmenorrhea.</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_CONTRAINDICATIONS">
+               <id root="f692fae4-a307-4214-a859-9fd7b378a77b"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34070-3" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>NAPRELAN<sup>®</sup> is contraindicated in patients with known hypersensitivity to naproxen.</paragraph>
+                  <paragraph>NAPRELAN<sup>®</sup> should not be given to patients who have experienced asthma, urticaria, or allergic-type reactions after taking aspirin or other NSAIDs. Severe, rarely fatal, anaphylactic-like reactions to NSAIDs have been reported in such patients (see <linkHtml href="#_WARNINGS">WARNINGS</linkHtml>- <linkHtml href="#_ANAPHYLACTOID_REACTIONS">Anaphylactoid Reactions</linkHtml>, and <linkHtml href="#_PRECAUTIONS">PRECAUTIONS</linkHtml>- <linkHtml href="#_Preexisting_Asthma">Preexisting Asthma</linkHtml>).</paragraph>
+                  <paragraph>NAPRELAN<sup>®</sup> is contraindicated for the treatment of peri-operative pain in the setting of coronary artery bypass graft (CABG) surgery (see <linkHtml href="#_WARNINGS">WARNINGS</linkHtml>).</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_WARNINGS">
+               <id root="7c74be22-286a-4b66-b688-aa4dfd4fed63"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34071-1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <effectiveTime value="20120217"/>
+               <component>
+                  <section ID="_CARDIOVASCULAR_EFFECTS">
+                     <id root="2264fae2-d224-43e0-9f94-d7b2f5b412cc"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">CARDIOVASCULAR EFFECTS</content>
+                     </title>
+                     <effectiveTime value="20120217"/>
+                     <component>
+                        <section>
+                           <id root="9a460087-3f72-402b-832b-6f5cdcef27c6"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Cardiovascular Thrombotic Events</content>
+                           </title>
+                           <text>
+                              <paragraph>Clinical trials of several COX-2 selective and nonselective NSAIDs of up to three years duration have shown an increased risk of serious cardiovascular (CV) thrombotic events, myocardial infarction, and stroke, which can be fatal. All NSAIDs, both COX-2 selective and nonselective, may have a similar risk. Patients with known CV disease or risk factors for CV disease may be at greater risk. To minimize the potential risk for an adverse CV event in patients treated with an NSAID, the lowest effective dose should be used for the shortest duration possible. Physicians and patients should remain alert for the development of such events, even in the absence of previous CV symptoms. Patients should be informed about the signs and/or symptoms of serious CV events and the steps to take if they occur.</paragraph>
+                              <paragraph>There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an NSAID does increase the risk of serious GI events (see <linkHtml href="#_GASTROINTESTINAL_EFFECTS">GI Effects</linkHtml> – <linkHtml href="#_Risk_of_Ulceration_">Risk of Ulceration, Bleeding, and Perforation</linkHtml>).</paragraph>
+                              <paragraph>Two large, controlled, clinical trials of a COX-2 selective NSAID for the treatment of pain in the first 10-14 days following CABG surgery found an increased incidence of myocardial infarction and stroke (see <linkHtml href="#_CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>).</paragraph>
+                           </text>
+                           <effectiveTime value="20120217"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="54db08fd-a6ab-45b8-af14-b8a4997235b9"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Hypertension</content>
+                           </title>
+                           <text>
+                              <paragraph>NSAIDs, including NAPRELAN<sup>®</sup> can lead to onset of new hypertension or worsening of preexisting hypertension, either of which may contribute to the increased incidence of CV events. Patients taking thiazides or loop diuretics may have impaired response to these therapies when taking NSAIDs. NSAIDs, including NAPRELAN<sup>®</sup>, should be used with caution in patients with hypertension. Blood pressure (BP) should be monitored closely during the initiation of NSAID treatment and throughout the course of therapy.</paragraph>
+                           </text>
+                           <effectiveTime value="20120217"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="91d1f6be-df36-44f1-ac25-ef3580fe9654"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Congestive Heart Failure and Edema</content>
+                           </title>
+                           <text>
+                              <paragraph>Fluid retention and edema have been observed in some patients taking NSAIDs. NAPRELAN<sup>®</sup> should be used with caution in patients with fluid retention or heart failure.</paragraph>
+                           </text>
+                           <effectiveTime value="20120217"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_GASTROINTESTINAL_EFFECTS">
+                     <id root="1a8247c6-8e15-484d-a824-2e6e2943c476"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">GASTROINTESTINAL EFFECTS</content>
+                     </title>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_Risk_of_Ulceration_">
+                     <id root="d17d730e-0423-4992-ad4d-5c641c6ab848"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Risk of Ulceration, Bleeding, and Perforation</content>
+                     </title>
+                     <text>
+                        <paragraph>NSAIDs, including NAPRELAN<sup>®</sup>, can cause serious gastrointestinal (GI) adverse events including inflammation, bleeding, ulceration, and perforation of the stomach, small intestine, or large intestine, which can be fatal. These serious adverse events can occur at any time, with or without warning symptoms, in patients treated with NSAIDs. Only one in five patients who develop a serious upper GI adverse event on NSAID therapy is symptomatic. Upper GI ulcers, gross bleeding, or perforation caused by NSAIDs occur in approximately 1% of patients treated for 3-6 months, and in about 2-4% of patients treated for one year. These trends continue with longer duration of use, increasing the likelihood of developing a serious GI event at some time during the course of therapy. However, even short-term therapy is not without risk.</paragraph>
+                        <paragraph>NSAIDs should be prescribed with extreme caution in those with a prior history of ulcer disease or gastrointestinal bleeding. Patients with a prior history of peptic ulcer disease and/or gastrointestinal bleeding who use NSAIDs have a greater than 10-fold increased risk for developing a GI bleed compared to patients with neither of these risk factors. Other factors that increase the risk for GI bleeding in patients treated with NSAIDs include concomitant use of oral corticosteroids or anticoagulants, longer duration of NSAID therapy, smoking, use of alcohol, older age, and poor general health status. Most spontaneous reports of fatal GI events are in elderly or debilitated patients and therefore, special care should be taken in treating this population.</paragraph>
+                        <paragraph>To minimize the potential risk for an adverse GI event in patients treated with an NSAID, the lowest effective dose should be used for the shortest possible duration. Patients and physicians should remain alert for signs and symptoms of GI ulceration and bleeding during NSAID therapy and promptly initiate additional evaluation and treatment if a serious GI adverse event is suspected. This should include discontinuation of the NSAID until a serious GI adverse event is ruled out. For high risk patients, alternate therapies that do not involve NSAIDs should be considered.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_RENAL_EFFECTS">
+               <id root="a428509f-606d-4923-a236-1efb755f769b"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">RENAL EFFECTS</content>
+               </title>
+               <text>
+                  <paragraph>Long-term administration of NSAIDs has resulted in renal papillary necrosis and other renal injury. Renal toxicity has also been seen in patients in whom renal prostaglandins have a compensatory role in the maintenance of renal perfusion. In these patients, administration of a nonsteroidal anti-inflammatory drug may cause a dose-dependent reduction in prostaglandin formation and, secondarily, in renal blood flow, which may precipitate overt renal decompensation. Patients at greatest risk of this reaction are those with impaired renal function, heart failure, liver dysfunction, those taking diuretics and ACE inhibitors, and the elderly. Discontinuation of NSAID therapy is usually followed by recovery to the pretreatment state.</paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+               <component>
+                  <section>
+                     <id root="6d7abf5a-3e07-46d2-8947-ff7dbc5e79cd"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Advanced Renal Disease</content>
+                     </title>
+                     <text>
+                        <paragraph>No information is available from controlled clinical studies regarding the use of NAPRELAN<sup>®</sup> in patients with advanced renal disease. Therefore, treatment with NAPRELAN<sup>®</sup> is not recommended in those patients with advanced renal disease. If NAPRELAN<sup>®</sup> therapy must be initiated, close monitoring of the patient’s renal function is advisable.</paragraph>
+                     </text>
+                     <effectiveTime value="20130813"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_ANAPHYLACTOID_REACTIONS">
+               <id root="3eb89c00-9bfe-472f-bf74-e19bbcb6536b"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">ANAPHYLACTOID REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>As with other NSAIDs, anaphylactoid reactions may occur in patients without known prior exposure to NAPRELAN<sup>®</sup>. NAPRELAN<sup>®</sup> should not be given to patients with the aspirin triad. This symptom complex typically occurs in asthmatic patients who experience rhinitis with or without nasal polyps, or who exhibit severe, potentially fatal bronchospasm after taking aspirin or other NSAIDs (see <content styleCode="bold">
+                        <linkHtml href="#_CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>
+                     </content>
+                     <content styleCode="bold"> and </content>
+                     <content styleCode="bold">
+                        <linkHtml href="#_PRECAUTIONS">PRECAUTIONS</linkHtml>
+                     </content>
+                     <content styleCode="bold">-</content>
+                     <content styleCode="bold">
+                        <linkHtml href="#_Preexisting_Asthma">Preexisting Asthma</linkHtml>
+                     </content>). Emergency help should be sought in cases where an anaphylactoid reaction occurs.</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="af1969c2-2fac-48bb-a968-81c719e0bb2e"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">SKIN REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>NSAIDs, including NAPRELAN<sup>®</sup>, can cause serious skin adverse events such as exfoliative dermatitis, Stevens-Johnson Syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. These serious events may occur without warning. Patients should be informed about the signs and symptoms of serious skin manifestations and use of the drug should be discontinued at the first appearance of skin rash or any other sign of hypersensitivity.</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ba84f316-c4f4-437d-9d62-79e5a8b35243"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42228-7" displayName="PREGNANCY SECTION"/>
+               <title>
+                  <content styleCode="bold">PREGNANCY</content>
+               </title>
+               <text>
+                  <paragraph>In late pregnancy, as with other NSAIDs, NAPRELAN<sup>®</sup> should be avoided because it may cause premature closure of the ductus arteriosus.</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_PRECAUTIONS">
+               <id root="56abcee2-5141-4cd3-9fde-cd7a1ba01a76"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42232-9" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS</content>
+               </title>
+               <effectiveTime value="20120217"/>
+               <component>
+                  <section>
+                     <id root="3f12b226-c1d5-4768-82a6-a0d6c8133759"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34072-9" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">General</content>
+                     </title>
+                     <text>
+                        <paragraph>NAPRELAN<sup>®</sup> cannot be expected to substitute for corticosteroids or to treat corticosteroid insufficiency. Abrupt discontinuation of corticosteroids may lead to disease exacerbation. Patients on prolonged corticosteroid therapy should have their therapy tapered slowly if a decision is made to discontinue corticosteroids. The pharmacological activity of NAPRELAN<sup>®</sup> in reducing fever and inflammation may diminish the utility of these diagnostic signs in detecting complications of presumed noninfectious, painful conditions.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="edb7eac3-26c2-4683-a1d2-e52ad3847559"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Hepatic Effects</content>
+                     </title>
+                     <text>
+                        <paragraph>Borderline elevations of one or more liver tests may occur in up to 15% of patients taking NSAIDs including NAPRELAN<sup>®</sup>. These laboratory abnormalities may progress, may remain unchanged, or may be transient with continuing therapy. Notable elevations of ALT or AST (approximately three or more times the upper limit of normal) have been reported in approximately 1% of patients in clinical trials with NSAIDs. In addition, rare cases of severe hepatic reactions, including jaundice and fatal fulminant hepatitis, liver necrosis and hepatic failure, some of them with fatal outcomes have been reported.</paragraph>
+                        <paragraph>A patient with symptoms and/or signs suggesting liver dysfunction, or in whom an abnormal liver test has occurred, should be evaluated for evidence of the development of a more severe hepatic reaction while on therapy with NAPRELAN<sup>®</sup>. If clinical signs and symptoms consistent with liver disease develop, or if systemic manifestations occur (e.g., eosinophilia, rash, etc.), NAPRELAN<sup>®</sup> should be discontinued.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="5edf3013-3c7d-42de-a5cb-80255953e382"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Hematological Effects</content>
+                     </title>
+                     <text>
+                        <paragraph>Anemia is sometimes seen in patients receiving NSAIDs, including NAPRELAN<sup>®</sup>. This may be due to fluid retention, occult or gross GI blood loss, or an incompletely described effect upon erythropoiesis. Patients on long-term treatment with NSAIDs, including NAPRELAN<sup>®</sup>, should have their hemoglobin or hematocrit checked if they exhibit any signs or symptoms of anemia.</paragraph>
+                        <paragraph>NSAIDs inhibit platelet aggregation and have been shown to prolong bleeding time in some patients. Unlike aspirin, their effect on platelet function is quantitatively less, of shorter duration, and reversible.  Patients receiving NAPRELAN<sup>®</sup> who may be adversely affected by alterations in platelet function, such as those with coagulation disorders or patients receiving anticoagulants, should be carefully monitored.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_Preexisting_Asthma">
+                     <id root="00be457f-2e41-41e0-9895-8ffab8245929"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Preexisting Asthma</content>
+                     </title>
+                     <text>
+                        <paragraph>Patients with asthma may have aspirin-sensitive asthma. The use of aspirin in patients with aspirin-sensitive asthma has been associated with severe bronchospasm which can be fatal. Since cross reactivity, including bronchospasm, between aspirin and other nonsteroidal anti-inflammatory drugs has been reported in such aspirin-sensitive patients, NAPRELAN<sup>®</sup> should not be administered to patients with this form of aspirin sensitivity and should be used with caution in patients with preexisting asthma.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d8940d69-cb6d-4699-9d2e-c8edc383737d"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34076-0" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>
+                  <content styleCode="bold">INFORMATION FOR PATIENTS</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Patients should be informed of the following information before initiating therapy with an NSAID and periodically during the course of ongoing therapy. Patients should also be encouraged to read the NSAID Medication Guide that accompanies each prescription dispensed.</content>
+                  </paragraph>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>NAPRELAN<sup>®</sup>, like other NSAIDs, may cause serious CV side effects, such as MI or stroke, which may result in hospitalization and even death. Although serious CV events can occur without warning symptoms, patients should be alert for the signs and symptoms of chest pain, shortness of breath, weakness, slurring of speech, and should ask for medical advice when observing any indicative sign or symptoms. Patients should be apprised of the importance of this follow-up (see <linkHtml href="#_WARNINGS">WARNINGS</linkHtml>, <linkHtml href="#_CARDIOVASCULAR_EFFECTS">Cardiovascular Effects</linkHtml>).<br/>
+                     </item>
+                     <item>NAPRELAN<sup>®</sup>, like other NSAIDs, can cause GI discomfort and, rarely, serious GI side effects, such as ulcers and bleeding, which may result in hospitalization and even death. Although serious GI tract ulcerations and bleeding can occur without warning symptoms, patients should be alert for the signs and symptoms of ulcerations and bleeding, and should ask for medical advice when observing any indicative sign or symptoms including epigastric pain, dyspepsia, melena, and hematemesis. Patients should be apprised of the importance of this follow-up (see <linkHtml href="#_WARNINGS">WARNINGS</linkHtml>, <linkHtml href="#_GASTROINTESTINAL_EFFECTS">Gastrointestinal Effects</linkHtml>: <linkHtml href="#_Risk_of_Ulceration_">Risk of Ulceration, Bleeding and Perforation</linkHtml>).<br/>
+                     </item>
+                     <item>NAPRELAN<sup>®</sup>, like other NSAIDs, can cause serious skin side effects such as exfoliative dermatitis, SJS, and TEN, which may result in hospitalization and even death. Although serious skin reactions may occur without warning, patients should be alert for the signs and symptoms of skin rash and blisters, fever, or other signs of hypersensitivity such as itching, and should ask for medical advice when observing any indicative signs or symptoms. Patients should be advised to stop the drug immediately if they develop any type of rash and contact their physicians as soon as possible.<br/>
+                     </item>
+                     <item>Patients should promptly report signs or symptoms of unexplained weight gain or edema to their physicians.<br/>
+                     </item>
+                     <item>Patients should be informed of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, pruritus, jaundice, right upper quadrant tenderness, and “flu-like” symptoms). If these occur, patients should be instructed to stop therapy and seek immediate medical therapy.<br/>
+                     </item>
+                     <item>Patients should be informed of the signs of an anaphylactoid reaction (e.g., difficulty breathing, swelling of the face or throat). If these occur, patients should be instructed to seek immediate emergency help (see <linkHtml href="#_WARNINGS">WARNINGS</linkHtml>).<br/>
+                     </item>
+                     <item>In late pregnancy, as with other NSAIDs, NAPRELAN<sup>®</sup> should be avoided because it may cause premature closure of the ductus arteriosus.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20120217"/>
+               <component>
+                  <section>
+                     <id root="efae90fd-b2bc-453e-af3c-e0efd616b7e9"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34075-2" displayName="LABORATORY TESTS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Laboratory Tests</content>
+                     </title>
+                     <text>
+                        <paragraph>Because serious GI tract ulcerations and bleeding can occur without warning symptoms, physicians should monitor for signs or symptoms of GI bleeding. Patients on long-term treatment with NSAIDs, should have their CBC and a chemistry profile checked periodically. If clinical signs and symptoms consistent with liver or renal disease develop, systemic manifestations occur (e.g., eosinophilia, rash, etc.) or if abnormal liver tests persist or worsen, NAPRELAN<sup>®</sup> should be discontinued.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f1ab5ab8-a23e-4d31-a840-474fe0e75090"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34073-7" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">DRUG INTERACTIONS</content>
+               </title>
+               <effectiveTime value="20120217"/>
+               <component>
+                  <section>
+                     <id root="1bd6c6b1-838a-46a6-a929-d7cef6b2dc61"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold italics">ACE-inhibitors</content>
+                     </title>
+                     <text>
+                        <paragraph>Reports suggest that NSAIDs may diminish the antihypertensive effect of ACE-inhibitors. This interaction should be given consideration in patients taking NSAIDs concomitantly with ACE-inhibitors.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="254e5092-9f06-4947-89ae-af3ce4077253"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold italics">Aspirin</content>
+                     </title>
+                     <text>
+                        <paragraph>When NAPRELAN<sup>®</sup> is administered with aspirin, its protein binding is reduced, although the clearance of free NAPRELAN<sup>®</sup> is not altered. The clinical significance of this interaction is not known; however, as with other NSAIDs, concomitant administration of naproxen and aspirin is not generally recommended because of the potential of increased adverse effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="b33accbf-b934-4566-a31f-5a0135465b57"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold italics">Diuretics</content>
+                     </title>
+                     <text>
+                        <paragraph>Clinical studies, as well as post-marketing observations, have shown that NAPRELAN<sup>®</sup> can reduce the natriuretic effect of furosemide and thiazides in some patients. This response has been attributed to inhibition of renal prostaglandin synthesis. During concomitant therapy with NSAIDs, the patient should be observed closely for signs of renal failure (see <linkHtml href="#_WARNINGS">WARNINGS</linkHtml>, <linkHtml href="#_RENAL_EFFECTS">Renal Effects</linkHtml>), as well as to assure diuretic efficacy.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="15458766-a6c1-4164-96bd-7609e8c3a58b"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold italics">Lithium</content>
+                     </title>
+                     <text>
+                        <paragraph>NSAIDs have produced an elevation of plasma lithium levels and a reduction in renal lithium clearance. The mean minimum lithium concentration increased 15% and the renal clearance was decreased by approximately 20%. These effects have been attributed to inhibition of renal prostaglandin synthesis by the NSAID. Thus, when NSAIDs and lithium are administered concurrently, subjects should be observed carefully for signs of lithium toxicity.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="62de3f0c-9d4f-4302-b7e8-5092956ec342"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold italics">Methotrexate</content>
+                     </title>
+                     <text>
+                        <paragraph>NSAIDs have been reported to competitively inhibit methotrexate accumulation in rabbit kidney slices. This may indicate that they could enhance the toxicity of methotrexate. Caution should be used when NSAIDs are administered concomitantly with methotrexate.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="42640f83-b714-4c04-b9ac-24d1b2e19bae"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold italics">Warfarin</content>
+                     </title>
+                     <text>
+                        <paragraph>The effects of warfarin and NSAIDs on GI bleeding are synergistic, such that users of both drugs together have a risk of serious GI bleeding higher than users of either drug alone.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3413e103-7fde-41b9-86dd-689f845101cd"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34074-5" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">DRUG/LABORATORY TEST INTERACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>Naproxen may decrease platelet aggregation and prolong bleeding time. This effect should be kept in mind when bleeding times are determined. </paragraph>
+                  <paragraph>The administration of naproxen may result in increased urinary values for 17-ketogenic steroids because of an interaction between the drug and/or its metabolites with m-dinitrobenzene used in this assay. Although 17-hydroxy-corticosteroid measurements (Porter-Silber test) do not appear to be artificially altered, it is suggested that therapy with naproxen be temporarily discontinued 72 hours before adrenal function tests are performed if the Porter-Silber test is to be used. </paragraph>
+                  <paragraph>Naproxen may interfere with some urinary assays of 5-hydroxy indoleacetic acid (5HIAA).</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="22ae2553-2cdf-4199-895c-adc15f7da471"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34083-6" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+               <title>
+                  <content styleCode="bold">CARCINOGENESIS, MUTAGENESIS, IMPAIRMENT OF FERTILITY </content>
+               </title>
+               <text>
+                  <paragraph>A two year study was performed in rats to evaluate the carcinogenic potential of naproxen at doses of 8 mg/kg/day, 16 mg/kg/day, and 24 mg/kg/day (50 mg/m<sup>2</sup>, 100 mg/m<sup>2</sup>, and 150 mg/m<sup>2</sup>). The maximum dose used was 0.28 times the systemic exposure to humans at the recommended dose. No evidence of tumorigenicity was found.</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6d85dc81-1b49-46a6-88cf-5beb98875da1"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42228-7" displayName="PREGNANCY SECTION"/>
+               <title>
+                  <content styleCode="bold">PREGNANCY</content>
+               </title>
+               <effectiveTime value="20120217"/>
+               <component>
+                  <section>
+                     <id root="0c84f0f3-4bdc-474d-a79a-6070f7c43259"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold italics">Teratogenic Effects. Pregnancy Category C.</content>
+                     </title>
+                     <text>
+                        <paragraph>Reproduction studies have been performed in rats at 20 mg/kg/day (125 mg/m<sup>2</sup>/day, 0.23 times the human systemic exposure) rabbits at 20 mg/kg/day (220 mg/m<sup>2</sup>/day, 0.27 times the human systemic exposure) and mice at 170 mg/kg/day (510 mg/m<sup>2</sup>/day, 0.28 times the human systemic exposure) with no evidence of impaired fertility or harm to the fetus due to the drug. There are no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predicitve of human response, NAPRELAN<sup>®</sup> Tablets should be used during pregnancy only if the potential benefits justify the potential risks to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="8612101b-f015-45db-9f12-da9f26320e5d"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34078-6" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                     <title>
+                        <content styleCode="bold italics">Nonteratogenic effects</content>
+                     </title>
+                     <text>
+                        <paragraph>There is some evidence to suggest that when inhibitors of prostaglandin synthesis are used to delay preterm labor, there is an increased risk of neonatal complications such as necrotizing enterocolitis, patent ductus arteriosus and intracranial hemorrhage. Naproxen treatment given in late pregnancy to delay parturition has been associated with persistent pulmonary hypertension, renal dysfunction, and abnormal prostaglandin E levels in preterm infants. Because of the known effect of drugs of this class on the human fetal cardiovascular system (closure of the ductus arteriosus), use during third trimester should be avoided.</paragraph>
+                     </text>
+                     <effectiveTime value="20120217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c95b391d-eb8d-43ad-9db6-d1650734706b"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34079-4" displayName="LABOR &amp; DELIVERY SECTION"/>
+               <title>
+                  <content styleCode="bold">LABOR AND DELIVERY</content>
+               </title>
+               <text>
+                  <paragraph>In rat studies with NSAIDs, as with other drugs known to inhibit prostaglandin synthesis, an increased incidence of dystocia, delayed parturition, and decreased pup survival occurred. Naproxen-containing products are not recommended in labor and delivery because, through its prostaglandin synthesis inhibitory effect, naproxen may adversely affect fetal circulation and inhibit uterine contractions, thus increasing the risk of uterine hemorrhage. The effects of NAPRELAN<sup>®</sup> on labor and delivery in pregnant women are unknown.</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2c8bf56c-ac11-434e-ac1d-8d6294669c77"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34080-2" displayName="NURSING MOTHERS SECTION"/>
+               <title>
+                  <content styleCode="bold">NURSING MOTHERS</content>
+               </title>
+               <text>
+                  <paragraph>The naproxen anion has been found in the milk of lactating women at a concentration of approximately 1% of that found in the plasma. Because of the possible adverse effects of prostaglandin-inhibiting drugs on neonates, use in nursing mothers should be avoided.</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8d959ba2-cb13-4e11-b4b6-c9f548182b45"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34081-0" displayName="PEDIATRIC USE SECTION"/>
+               <title>
+                  <content styleCode="bold">PEDIATRIC USE</content>
+               </title>
+               <text>
+                  <paragraph>No pediatric studies have performed with NAPRELAN<sup>®</sup> Tablets, thus safety of NAPRELAN<sup>®</sup> Tablets in pediatric populations has not been established. </paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7df8086e-ceb6-420e-95df-9cbecadb9e2a"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34082-8" displayName="GERIATRIC USE SECTION"/>
+               <title>
+                  <content styleCode="bold">GERIATRIC USE</content>
+               </title>
+               <text>
+                  <paragraph>Clinical studies of NAPRELAN<sup>®</sup> Tablets did not include a sufficient number of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for the elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                  <paragraph>Aging may affect the pharmacokinetics of naproxen. Studies indicate that although total plasma concentration of naproxen is unchanged, the unbound plasma fraction of naproxen is increased in the elderly. Caution is advised when high doses are required and some adjustment of dosage may be required in elderly patients. Elderly or debilitated patients seem to tolerate GI ulcerations and bleeding less well than other individuals taking NSAIDs (see <linkHtml href="#_WARNINGS">WARNINGS</linkHtml>, <linkHtml href="#_Risk_of_Ulceration_">RISK of GI Ulceration, Bleeding And Perforation With NSAID Therapy</linkHtml>). Additionally, elderly patients may be more sensitive to dose-dependent reduction in renal prostaglandin formation while taking NSAIDs (see <linkHtml href="#_WARNINGS">WARNINGS</linkHtml>, <linkHtml href="#_RENAL_EFFECTS">Renal Effects</linkHtml>). </paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="02191801-d14c-4e00-ac40-9a2bb8e422af"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34084-4" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>As with all drugs in this class, the frequency and severity of adverse events depends on several factors: the dose of the drug and duration of treatment; the age, the sex, physical condition of the patient; any concurrent medical diagnoses or individual risk factors. The following adverse reactions are divided into three parts based on frequency and whether or not the possibility exists of a causal relationship between drug usage and these adverse events. In those reactions listed as “Probable Causal Relationship” there is at least one case for each adverse reaction where there is evidence to suggest that there is a causal relationship between drug usage and the reported event. The adverse reactions reported were based on the results from two double-blind controlled clinical trials of three months duration with an additional nine month open-label extension. A total of 542 patients received NAPRELAN<sup>®</sup> Tablets either in the double-blind period or in the nine month open-label extension. Of these 542 patients, 232 received NAPRELAN<sup>®</sup> Tablets, 167 were initially treated with Naprosyn<sup>®***</sup> and 143 were initially treated with placebo. Adverse reactions reported by patients who received NAPRELAN<sup>®</sup> Tablets are shown by body system. Those adverse reactions observed with naproxen but not reported in controlled trials with NAPRELAN<sup>®</sup> Tablets are <content styleCode="italics">italicized</content>.</paragraph>
+                  <paragraph>The most frequent adverse events from the double-blind and open-label clinical trials were headache (15%), followed by dyspepsia (14%), and flu syndrome (10%). The incidence of other adverse events occurring in 3% - 9% of the patients are marked with an asterisk.</paragraph>
+                  <paragraph>Those reactions occurring in less than 3% of the patients are unmarked.</paragraph>
+                  <paragraph>INCIDENCE GREATER THAN 1% (PROBABLE CAUSAL RELATIONSHIP)</paragraph>
+                  <paragraph>Body as a Whole—Pain (back)*, pain*, infection*, fever, injury (accident), asthenia, pain chest, headache (15%), flu syndrome (10%).</paragraph>
+                  <paragraph>Gastrointestinal—Nausea*, diarrhea*, constipation*, abdominal pain*, flatulence, gastritis, vomiting, dysphagia, dyspepsia (14%), <content styleCode="italics">heartburn*, stomatitis</content>.</paragraph>
+                  <paragraph>Hematologic—Anemia, ecchymosis.</paragraph>
+                  <paragraph>Respiratory—Pharyngitis*, rhinitis*, sinusitis*, bronchitis, cough increased.</paragraph>
+                  <paragraph>Renal—Urinary tract infection*, cystitis.</paragraph>
+                  <paragraph>Dermatologic—Skin rash*, <content styleCode="italics">skin eruptions*, ecchymoses*, purpura</content>.</paragraph>
+                  <paragraph>Metabolic and Nutrition—Peripheral edema, hyperglycemia.</paragraph>
+                  <paragraph>Central Nervous System—Dizziness, paresthesia, insomnia, <content styleCode="italics">drowsiness*, lightheadedness</content>.</paragraph>
+                  <paragraph>Cardiovascular—Hypertension, <content styleCode="italics">edema*, dyspnea*, palpitations</content>.</paragraph>
+                  <paragraph>Musculoskeletal—Cramps (leg), myalgia, arthralgia, joint disorder, tendon disorder.</paragraph>
+                  <paragraph>Special Senses—<content styleCode="italics">Tinnitus*, hearing disturbances, visual disturbances</content>.</paragraph>
+                  <paragraph>General—<content styleCode="italics">Thirst</content>.</paragraph>
+                  <paragraph>INCIDENCE LESS THAN 1% (PROBABLE CAUSAL RELATIONSHIP) </paragraph>
+                  <paragraph>Body as a Whole—Abscess, monilia, neck rigid, pain neck, abdomen enlarged, carcinoma, cellulitis, edema general, LE syndrome, malaise, mucous membrane disorder, allergic reaction, pain pelvic.</paragraph>
+                  <paragraph>Gastrointestinal—Anorexia, cholecystitis, cholelithiasis, eructation, GI hemorrhage, rectal hemorrhage, stomatitis aphthous, stomatitis ulcer, ulcer mouth, ulcer stomach, periodontal abscess, cardiospasm, colitis, esophagitis, gastroenteritis, GI disorder, rectal disorder, tooth disorder, hepatosplenomegaly, liver function abnormality, melena, ulcer esophagus, <content styleCode="italics">hematemesis,</content>
+                     <content styleCode="italics"> </content>
+                     <content styleCode="italics">jaundice,</content>
+                     <content styleCode="italics"> </content>
+                     <content styleCode="italics">pancreatitis,</content>
+                     <content styleCode="italics"> </content>
+                     <content styleCode="italics">necrosis</content>.</paragraph>
+                  <paragraph>Renal—Dysmenorrhea, dysuria, kidney function abnormality, nocturia, prostate disorder, pyelonephritis, carcinoma breast, urinary incontinence, kidney calculus, kidney failure, menorrhagia, metrorrhagia, neoplasm breast, nephrosclerosis, hematuria, pain kidney, pyuria, urine abnormal, urinary frequency, urinary retention, uterine spasm, vaginitis, <content styleCode="italics">glomerular nephritis, hyperkalemia, interstitial nephritis, nephrotic syndrome, renal disease, renal failure, renal papillary necrosis</content>.</paragraph>
+                  <paragraph>Hematologic—Leukopenia, bleeding time increased, eosinophilia, abnormal RBC, abnormal WBC, thrombocytopenia, <content styleCode="italics">agranulocytosis, granulocytopenia</content>.</paragraph>
+                  <paragraph>Central Nervous System—Depression, anxiety, hypertonia, nervousness, neuralgia, neuritis, vertigo, amnesia, confusion, co-ordination, abnormal diplopia, emotional lability, hematoma subdural, paralysis, <content styleCode="italics">dream abnormalities, inability to concentrate, muscle weakness</content>.</paragraph>
+                  <paragraph>Dermatologic: Angiodermatitis, herpes simplex, dry skin, sweating, ulcer skin, acne, alopecia, dermatitis contact, eczema, herpes zoster, nail disorder, skin necrosis, subcutaneous nodule, pruritus, urticaria, neoplasm skin, <content styleCode="italics">photosensitive dermatitis, photosensitivity reactions resembling porphyria cutaneous tarda, epidermolysis bullosa</content>.</paragraph>
+                  <paragraph>Special Senses—Amblyopia, scleritis, cataract, conjunctivitis, deaf, ear disorder, keratoconjunctivitis, lacrimation disorder, otitis media, pain eye.</paragraph>
+                  <paragraph>Cardiovascular—Angina pectoris, coronary artery disease, myocardial infarction, deep thrombophlebitis, vasodilation, vascular anomaly, arrhythmia, bundle branch block, abnormal ECG, heart failure right, hemorrhage, migraine, aortic stenosis, syncope, tachycardia, <content styleCode="italics">congestive heart failure</content>.</paragraph>
+                  <paragraph>Respiratory—Asthma, dyspnea, lung edema, laryngitis, lung disorder, epistaxis, pneumonia, respiratory distress, respiratory disorder, <content styleCode="italics">eosinophilic pneumonitis</content>.</paragraph>
+                  <paragraph>Musculoskeletal—Myasthenia, bone disorder, spontaneous bone fracture, fibrotendinitis, bone pain, ptosis, spasm general, bursitis.</paragraph>
+                  <paragraph>Metabolic and Nutrition—Creatinine increase, glucosuria, hypercholesteremia, albuminuria, alkalosis, BUN increased, dehydration, edema, glucose tolerance decrease, hyperuricemia, hypokalemia, SGOT increase, SGPT increase, weight decrease.</paragraph>
+                  <paragraph>General—<content styleCode="italics">Anaphylactoid reactions, angioneurotic edema, menstrual disorders, hypoglycemia, pyrexia (chills and fevers)</content>.</paragraph>
+                  <paragraph>INCIDENCE LESS THAN 1% (CAUSAL RELATIONSHIP UNKNOWN)</paragraph>
+                  <paragraph>Other adverse reactions listed in the naproxen package label, but not reported by those who received NAPRELAN<sup>®</sup> Tablets are shown in italics. These observations are being listed as alerting information to the physician.</paragraph>
+                  <paragraph>Hematologic—<content styleCode="italics">Aplastic anemia, hemolytic anemia</content>.</paragraph>
+                  <paragraph>Central Nervous System—<content styleCode="italics">Aseptic meningitis, cognitive dysfunction</content>.</paragraph>
+                  <paragraph>Dermatologic—<content styleCode="italics">Epidermal necrolysis, erythema multiforme, Stevens-Johnson syndrome</content>.</paragraph>
+                  <paragraph>Gastrointestinal—<content styleCode="italics">Non-peptic GI ulceration, ulcerative stomatitis</content>.</paragraph>
+                  <paragraph>Cardiovascular—<content styleCode="italics">Vasculitis</content>.</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="59f81ae3-6e94-46dc-9a4f-95f5a2555846"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34088-5" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>Significant naproxen overdosage may be characterized by drowsiness, heartburn, indigestion, nausea or vomiting. Because naproxen sodium may be rapidly absorbed, high and early blood levels should be anticipated. A few patients have experienced seizures, but it is not clear whether or not these were drug-related. It is not known what dose of the drug would be life threatening. The oral LD<sub>50</sub> of the drug is 500 mg/kg in rats, 1200 mg/kg in mice, 4000 mg/kg in hamsters and greater than 1000 mg/kg in dogs. In animals 0.5 g/kg of activated charcoal was effective in reducing plasma levels of naproxen.</paragraph>
+                  <paragraph>Patients should be managed by symptomatic and supportive care following an NSAID overdose. There are no specific antidotes. Hemodialysis does not decrease the plasma concentration of naproxen because of the high degree of its protein binding. Emesis and/or activated charcoal (60 to 100 g in adults, 1 to 2 g/kg in children) and/or osmotic carthartic may be indicated in patients seen within 4 hours of ingestion with symptoms or following a large overdose. Forced diuresis, alkalinization of urine or hemoperfusion may not be useful due to high protein binding.</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b028ec1f-73f7-4b31-b123-a25e359872b1"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>Carefully consider the potential benefits and risks of NAPRELAN<sup>®</sup> and other treatment options before deciding to use NAPRELAN<sup>®</sup>. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see <linkHtml href="#_WARNINGS">WARNINGS</linkHtml>).</paragraph>
+                  <paragraph>After observing the response to initial therapy with NAPRELAN<sup>®</sup>, the dose and frequency should be adjusted to suit an individual patient’s needs.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For the relief of:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rheumatoid Arthritis, Osteoarthritis, and Ankylosing Spondylitis</content>
+                  </paragraph>
+                  <paragraph>The recommended starting dose of NAPRELAN<sup>®</sup> Tablets in adults is two NAPRELAN<sup>®</sup> 375 mg tablets (750 mg) once daily, one NAPRELAN<sup>®</sup> 750 mg (750 mg) once daily, or two NAPRELAN<sup>®</sup> 500 mg tablets (1000 mg) once a daily. Patients already taking naproxen 250 mg, 375 mg, or 500 mg twice daily (morning and evening) may have their total daily dose replaced with NAPRELAN<sup>®</sup> Tablets as a single daily dose.</paragraph>
+                  <paragraph>During long-term administration, the dose of NAPRELAN<sup>®</sup> Tablets may be adjusted up or down depending on the clinical response of the patient. In patients who tolerate lower doses of NAPRELAN<sup>®</sup> Tablets well, the dose may be increased to two NAPRELAN<sup>®</sup> 750 mg tablets (1500 mg), or three NAPRELAN<sup>®</sup> 500 mg tablets (1500 mg) once daily for limited periods when a higher level of anti-inflammatory/analgesic activity is required. When treating patients, especially at the higher dose levels, the physician should observe sufficient increased clinical benefit to offset the potential increased risk (see <linkHtml href="#_CLINICAL_PHARMACOLOGY">CLINICAL PHARMACOLOGY</linkHtml>). The lowest effective dose should be sought and used in every patient. Symptomatic improvement in arthritis usually begins within one week; however, treatment for two weeks may be required to achieve a therapeutic benefit.</paragraph>
+                  <paragraph>A lower dose should be considered in patients with renal or hepatic impairment or in elderly patients (see <linkHtml href="#_PRECAUTIONS">PRECAUTIONS</linkHtml>). Studies indicate that although total plasma concentration of naproxen is unchanged, the unbound plasma fraction of naproxen is increased in the elderly. Caution is advised when high doses are required and some adjustment of dosage may be required in elderly patients. As with other drugs used in the elderly it is prudent to use the lowest effective dose.</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1c8aae4e-6974-4fde-8b93-bc9428726bf0"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">MANAGEMENT OF PAIN, PRIMARY DYSMENORRHEA, AND ACUTE TENDINITIS AND BURSITIS</content>
+               </title>
+               <text>
+                  <paragraph>The recommended starting dose is two NAPRELAN<sup>®</sup> 500 mg tablets (1000 mg) once daily. For patients requiring greater analgesic benefit, two NAPRELAN<sup>®</sup> 750 mg tablets (1500 mg) or three NAPRELAN<sup>®</sup> 500 mg tablets (1500 mg) may be used for a limited period. Thereafter, the total daily dose should not exceed two NAPRELAN<sup>®</sup> 500 mg tablets (1000 mg). </paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="32fddc02-cf06-481a-badc-cc23bce7d817"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">ACUTE GOUT</content>
+               </title>
+               <text>
+                  <paragraph>The recommended dose on the first day is two to three NAPRELAN<sup>®</sup> 500 mg tablets (1000 - 1500 mg) once daily, followed by two NAPRELAN<sup>®</sup> 500 mg tablets (1000 mg) once daily, until the attack has subsided.</paragraph>
+               </text>
+               <effectiveTime value="20120217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1c436bb7-a789-4855-9a1c-26097039dcf9"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34069-5" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>NAPRELAN<sup>®</sup> (naproxen sodium) Controlled-Release Tablets are available as follows:</paragraph>
+                  <paragraph>NAPRELAN<sup>®</sup> 375: white, capsule-shaped tablet with “N” on one side and “375” on the reverse; in bottles of 100; NDC 59630-375-10. Each tablet contains 412.5 mg naproxen sodium equivalent to 375 mg naproxen.</paragraph>
+                  <paragraph>NAPRELAN<sup>®</sup> 500: white, capsule-shaped tablet with “N” on one side and “500” on the reverse; in bottles of 75; NDC 59630-850-75. Each tablet contains 550 mg naproxen sodium equivalent to 500 mg naproxen.</paragraph>
+                  <paragraph>NAPRELAN<sup>®</sup> 750:  white-capsule-shaped tablet with “N” on one side and “750” on the reverse; in bottles of 30; 59630-777-03.  Each tablet contains 825 mg naproxen sodium equivalent to 750 mg naproxen.</paragraph>
+                  <paragraph>Rx only<br/>US Patent 5,637,320</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at controlled room temperature, 20° </content>
+                     <content styleCode="bold">to </content>
+                     <content styleCode="bold">25° C (68° </content>
+                     <content styleCode="bold">to </content>
+                     <content styleCode="bold">77° F).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PHARMACIST:  </content>
+                     <content styleCode="bold">Dispense in a well-closed container.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">_____________________________________________________</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <sup>*</sup>
+                     </content>
+                     <content styleCode="bold">Registered Trademark of </content>
+                     <content styleCode="bold">Alkermes Pharma Ireland Ltd.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <sup>**</sup>
+                     </content>
+                     <content styleCode="bold">Registered Trademark of </content>
+                     <content styleCode="bold">Alkermes Pharma Ireland Ltd.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <sup>***</sup>
+                     </content>
+                     <content styleCode="bold">Naprosyn</content>
+                     <content styleCode="bold">
+                        <sup>®</sup>
+                     </content>
+                     <content styleCode="bold"> is a registered trademark of Syntex </content>
+                     <content styleCode="bold">Pharmaceuticals International Limited</content>
+                  </paragraph>
+                  <paragraph>Manufactured for:  Shionogi Inc., Florham Park, NJ 07932</paragraph>
+                  <paragraph>Manufactured by: Alkermes Pharma Ireland Limited, Athlone, Ireland</paragraph>
+                  <paragraph>NAP-PI -2<br/>Rev 03/2013</paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fe6486f1-2497-4542-b5b8-13452d059fe4"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42231-1" displayName="SPL MEDGUIDE SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold underline">Medication Guide for Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">(See the end of this Medication Guide for a list of prescription NSAID medicines.)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NAPRELAN</content>
+                     <content styleCode="bold">
+                        <sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>(naproxen sodium)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">CONTROLLED-RELEASE TABLETS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about medicines called Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NSAID medicines may increase the chance of a heart attack or stroke that</content>
+                     <content styleCode="bold"> can lead to death.</content>
+                  </paragraph>
+                  <paragraph>This chance increases:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>with longer use of NSAID medicines<br/>
+                     </item>
+                     <item>in people who have heart disease</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">NSAID medicines should never be used right before or after a heart surgery called a “coronary artery bypass graft (CABG).”</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NSAI</content>
+                     <content styleCode="bold">D medicines can cause ulcers and bleeding in the stomach and intestines at any time during treatment. Ulcers and bleeding:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>can happen without warning symptoms<br/>
+                     </item>
+                     <item>may cause death</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">The chance of a person getting an ulcer or bleeding increases with:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>taking medicines called “corticosteroids” and “anti-coagulants”<br/>
+                     </item>
+                     <item>longer use<br/>
+                     </item>
+                     <item>smoking<br/>
+                     </item>
+                     <item>drinking alcohol<br/>
+                     </item>
+                     <item>older age<br/>
+                     </item>
+                     <item>having poor health</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">NSAID medicines should only be used:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>exactly as prescribed<br/>
+                     </item>
+                     <item>at the lowest dose possible for your treatment<br/>
+                     </item>
+                     <item>for the shortest time needed</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <paragraph>NSAID medicines are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>different types of arthritis<br/>
+                     </item>
+                     <item>menstrual cramps and other types of short-term pain</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Who should not take a Non-Steroid</content>
+                     <content styleCode="bold">al Anti-Inflammatory Drug (NSAI</content>
+                     <content styleCode="bold">D)?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not take an NSAID medicine:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>if you had an asthma attack, hives, or other allergic reaction with aspirin or any other NSAID medicine<br/>
+                     </item>
+                     <item>for pain right before or after heart bypass surgery</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Tell your healthcare provider:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>about all your medical conditions<br/>
+                     </item>
+                     <item>about all of the medicines you take. NSAIDs and some other medicines can interact with each other and cause serious side effects. <content styleCode="bold">Keep a list of your medicines to show to your healthcare provider and pharmacist</content>.<br/>
+                     </item>
+                     <item>if you are pregnant. <content styleCode="bold">NSAID medicines should not be used by pregnant women late in their pregnancy</content>.<br/>
+                     </item>
+                     <item>if you are breastfeeding. <content styleCode="bold">Talk to your doctor</content>.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of Non-Steroidal Anti-Inflammatory D</content>
+                     <content styleCode="bold">rugs (NSAI</content>
+                     <content styleCode="bold">Ds)?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Serious side effects include:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>heart attack<br/>
+                     </item>
+                     <item>stroke<br/>
+                     </item>
+                     <item>high blood pressure<br/>
+                     </item>
+                     <item>heart failure from body swelling (fluid retention)<br/>
+                     </item>
+                     <item>kidney problems including kidney failure<br/>
+                     </item>
+                     <item>bleeding and ulcers in the stomach and intestine<br/>
+                     </item>
+                     <item>low red blood cells (anemia)<br/>
+                     </item>
+                     <item>life-threatening skin reactions<br/>
+                     </item>
+                     <item>life-threatening allergic reactions<br/>
+                     </item>
+                     <item>liver problems including liver failure<br/>
+                     </item>
+                     <item>asthma attacks in people who have asthma</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Other side effects include:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>stomach pain<br/>
+                     </item>
+                     <item>constipation<br/>
+                     </item>
+                     <item>diarrhea<br/>
+                     </item>
+                     <item>gas<br/>
+                     </item>
+                     <item>heartburn<br/>
+                     </item>
+                     <item>nausea<br/>
+                     </item>
+                     <item>vomiting<br/>
+                     </item>
+                     <item>dizziness</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Get emergency help right away if you have any of the following symptoms:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>shortness of breath or trouble breathing<br/>
+                     </item>
+                     <item>chest pain<br/>
+                     </item>
+                     <item>weakness in one part or side of your body<br/>
+                     </item>
+                     <item>slurred speech<br/>
+                     </item>
+                     <item>swelling of the face or throat</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Stop your NSAID medicine and call your healthcare provider right away if you have any of the following symptoms:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>nausea<br/>
+                     </item>
+                     <item>more tired or weaker than usual<br/>
+                     </item>
+                     <item>itching<br/>
+                     </item>
+                     <item>your skin or eyes look yellow<br/>
+                     </item>
+                     <item>stomach pain<br/>
+                     </item>
+                     <item>flu-like symptoms<br/>
+                     </item>
+                     <item>vomit blood<br/>
+                     </item>
+                     <item>there is blood in your bowel movement or it is black and sticky like tar<br/>
+                     </item>
+                     <item>unusual weight gain<br/>
+                     </item>
+                     <item>skin rash or blisters with fever<br/>
+                     </item>
+                     <item>swelling of the arms and legs, hands and feet</item>
+                  </list>
+                  <paragraph>These are not all the side effects with NSAID medicines. Talk to your healthcare provider or pharmacist for more information about NSAID medicines. Call your doctor for medical advice about side effects.  You may report side effects to FDA at <content styleCode="bold">1-800-FDA-1088</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other information about Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Aspirin is an NSAID medicine but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines.<br/>
+                     </item>
+                     <item>Some of these NSAID medicines are sold in lower doses without a prescription (over-the-counter). Talk to your healthcare provider before using over-the-counter NSAIDs for more than 10 days.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold underline">NSAID medicines that need a prescription</content>
+                  </paragraph>
+                  <table>
+                     <col width="181"/>
+                     <col width="532"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">
+                              <content styleCode="bold">Generic Name</content>
+                           </td>
+                           <td styleCode="Toprule Rrule ">
+                              <content styleCode="bold">Tradename</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Celecoxib</td>
+                           <td styleCode="Toprule Rrule ">Celebrex</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Diclofenac</td>
+                           <td styleCode="Toprule Rrule ">Cataflam, Voltaren, Arthrotec (combined with misoprostol)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Diflunisal</td>
+                           <td styleCode="Toprule Rrule ">Dolobid</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Etodolac</td>
+                           <td styleCode="Toprule Rrule ">Lodine, Lodine XL</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Fenoprofen</td>
+                           <td styleCode="Toprule Rrule ">Nalfon, Nalfon 200</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Flurbiprofen</td>
+                           <td styleCode="Toprule Rrule ">Ansaid</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Ibuprofen</td>
+                           <td styleCode="Toprule Rrule ">Motrin, Tab-Profen, Vicoprofen* (combined with hydrocodone), Combunox (combined with oxycodone)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Indomethacin</td>
+                           <td styleCode="Toprule Rrule ">Indocin, Indocin SR, Indo-Lemmon, Indomethagan</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Ketoprofen</td>
+                           <td styleCode="Toprule Rrule ">Oruvail</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Ketorolac</td>
+                           <td styleCode="Toprule Rrule ">Toradol</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Mefenamic Acid</td>
+                           <td styleCode="Toprule Rrule ">Ponstel</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Meloxicam</td>
+                           <td styleCode="Toprule Rrule ">Mobic</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Nabumetone</td>
+                           <td styleCode="Toprule Rrule ">Relafen</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Naproxen</td>
+                           <td styleCode="Toprule Rrule ">Naprosyn, Anaprox, Anaprox DS, EC-Naproxyn, NAPRELAN, Naprapac (copackaged with lansoprazole)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Oxaprozin</td>
+                           <td styleCode="Toprule Rrule ">Daypro</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Piroxicam</td>
+                           <td styleCode="Toprule Rrule ">Feldene</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Sulindac</td>
+                           <td styleCode="Toprule Rrule ">Clinoril</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule ">Tolmetin</td>
+                           <td styleCode="Toprule Rrule ">Tolectin, Tolectin DS, Tolectin 600</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <sup>*</sup>Vicoprofen contains the same dose of ibuprofen as over-the-counter (OTC) NSAIDs, and is usually used for less than 10 days to treat pain. The OTC NSAID label warns that long term continuous use may increase the risk of heart attack or stroke.</paragraph>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>Manufactured for:  Shionogi Inc., Florham Park, NJ 07932</paragraph>
+                  <paragraph>Manufactured by: Alkermes Pharma Ireland Limited, Athlone, Ireland</paragraph>
+                  <paragraph>NAP-MG-2<br/>Rev 03/2013</paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="06d4d927-b191-4161-bf0b-4e46861493d7"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 59630-375-10<br/>NAPRELAN<br/>(naproxen sodium)<br/>
+                     <content styleCode="bold">CONTROLLED-RELEASED TABLETS</content>
+                     <br/>350 mg<br/>Rx only 100 Tablets<br/>SHIONOGI INC</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000003"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+               <component>
+                  <observationMedia ID="MM03000003">
+                     <text>NDC 59630-375-10
+NAPRELAN
+(naproxen sodium)
+CONTROLLED-RELEASED TABLETS
+350 mg
+Rx only 100 Tablets
+SHIONOGI INC
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="naprelan-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9403d5f9-3831-42d4-9505-ef5deb90d87b"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 59630-850-75<br/>NAPRELAN<br/>(naproxen sodium)<br/>
+                     <content styleCode="bold">CONTROLLED-RELEASED TABLETS</content>
+                     <br/>500 mg<br/>Rx only 75 Tablets<br/>SHIONOGI INC</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000004"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+               <component>
+                  <observationMedia ID="MM03000004">
+                     <text>NDC 59630-850-75
+NAPRELAN
+(naproxen sodium)
+CONTROLLED-RELEASED TABLETS
+500 mg
+Rx only 75 Tablets
+SHIONOGI INC
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="naprelan-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="244ae712-c940-47ea-b761-83e6d9575c27"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 59630-777-03<br/>NAPRELAN<br/>(naproxen sodium)<br/>
+                     <content styleCode="bold">CONTROLLED-RELEASED TABLETS</content>
+                     <br/>750 mg<br/>Rx only 30 Tablets<br/>SHIONOGI INC</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000005"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+               <component>
+                  <observationMedia ID="MM03000005">
+                     <text>NDC 59630-777-03
+NAPRELAN
+(naproxen sodium)
+CONTROLLED-RELEASED TABLETS
+750 mg
+Rx only 30 Tablets
+SHIONOGI INC
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="naprelan-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

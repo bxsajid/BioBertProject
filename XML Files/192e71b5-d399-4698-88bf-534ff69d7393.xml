@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="192e71b5-d399-4698-88bf-534ff69d7393"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Butalbital, Aspirin and Caffeine Tablets, USP CIII
+</title>
+   <effectiveTime value="20181008"/>
+   <setId root="ce47777f-8cf7-4f53-b48f-165b83516896"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="078310501" root="1.3.6.1.4.1.519.1"/>
+            <name>Vensun Pharmaceuticals, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="878265586" root="1.3.6.1.4.1.519.1"/>
+                  <name>Pharmaceutics International, Inc. (Pii)</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="878265586" root="1.3.6.1.4.1.519.1"/>
+                        <name>Pharmaceutics International, Inc. (Pii)</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="42543-098" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="42543-098" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="381440f1-46f0-43ae-8632-1cd616a806b0"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20161003"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="42543-098" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Butalbital, Aspirin and Caffeine</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Butalbital, Aspirin and Caffeine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="50" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="KHS0AZ4JVK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Butalbital</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="KHS0AZ4JVK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Butalbital</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="325" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="R16CO5Y76E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Aspirin</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="R16CO5Y76E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Aspirin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="40" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3G6A5W338E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Caffeine</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3G6A5W338E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Caffeine</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Cellulose, Microcrystalline</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Starch, Corn</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Starch Glycolate Type A Potato</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Silicon Dioxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Talc</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z82Y2C65EA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Hydrogenated Cottonseed Oil</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="42543-098-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20170622"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20170622"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48676" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CIII"/>
+                        </policy>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white">
+                              <originalText>white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND">
+                              <originalText>ROUND</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" value="11" unit="mm"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">P;201
+</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA204195" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="39cc4ac9-e48f-47d5-a821-140dd771d62e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160715"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="c93b19b1-e971-41c3-9c6a-b64652ef9dad"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION:
+</title>
+               <text>
+                  <paragraph>Each Butalbital, Aspirin, and Caffeine Tablet, USP for oral administration contains:
+</paragraph>
+                  <paragraph>Butalbital, USP   50 mg
+</paragraph>
+                  <paragraph>Aspirin, USP       325 mg
+</paragraph>
+                  <paragraph>Caffeine, USP     40 mg
+</paragraph>
+                  <paragraph>Butalbital, 5-allyl-5-isobutyl-barbituric acid, a white odorless crystalline powder; is a short-to intermediate-acting barbiturate. Its structural formula is as follows:
+</paragraph>
+                  <paragraph>
+                     <renderMultiMedia ID="f01" referencedObject="mm01"/>
+                  </paragraph>
+                  <paragraph>Aspirin, salicylic acid acetate, is a non-opiate analgesic, anti-inflammatory and antipyretic agent. It occurs as a white, crystalline tabular or needle-like powder and is odorless or has a faint odor. Its structural formula is as follows:
+</paragraph>
+                  <paragraph>
+                     <renderMultiMedia ID="f02" referencedObject="mm02"/>
+                  </paragraph>
+                  <paragraph>Caffeine, 1,3,7-trimethylxanthine, is a central nervous system stimulant which occurs as a white powder or white glistening needles. It also has a bitter taste. Its structural formula is as follows:
+</paragraph>
+                  <paragraph>
+                     <renderMultiMedia ID="f03" referencedObject="mm03"/>
+                  </paragraph>
+                  <paragraph>Inactive Ingredients: microcrystalline cellulose, sodium starch glycolate, pregelatinized starch (corn), colloidal silicon dioxide, talc and hydrogenated vegetable oil
+</paragraph>
+               </text>
+               <effectiveTime value="20181008"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Butalbital Structural Formula
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="but01-0005-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>Aspirin Structural Formula
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="but01-0005-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>Caffeine Structural Formula
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="but01-0005-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="9020adb0-8c90-487b-8a48-e203e093dfc1"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY
+</title>
+               <text>
+                  <paragraph>Pharmacologically, butalbital, aspirin, and caffeine combines the analgesic properties of aspirin with the anxiolytic and muscle relaxant properties of butalbital.
+</paragraph>
+                  <paragraph>The clinical effectiveness of butalbital, aspirin, and caffeine in tension headache has been established in double-blind, placebo-controlled, multi-clinic trials. A factorial design study compared butalbital, aspirin, and caffeine with each of its major components.
+</paragraph>
+                  <paragraph>This study demonstrated that each component contributes to the efficacy of butalbital, aspirin, and caffeine in the treatment of the target symptoms of tension headache (headache pain, psychic tension, and muscle contraction in the head, neck, and shoulder region). For each symptom and the symptom complex as a whole, butalbital, aspirin, and caffeine was shown to have significantly superior clinical effects to either component alone.
+</paragraph>
+               </text>
+               <effectiveTime value="20160715"/>
+               <component>
+                  <section ID="s4">
+                     <id root="67e6e75d-ee0d-4748-85e7-1435ae03f4a2"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics:
+</title>
+                     <text>
+                        <paragraph>The behavior of the individual components is described below.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s5">
+                     <id root="192b6db4-c822-45da-a558-d0fe2d7e6622"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Aspirin:
+</title>
+                     <text>
+                        <paragraph>The systemic availability of aspirin after an oral dose is highly dependent on the dosage form, the presence of food, the gastric emptying time, gastric pH, antacids, buffering agents, and particle size. These factors affect not necessarily the extent of absorption of total salicylates but more the stability of aspirin prior to absorption.
+</paragraph>
+                        <paragraph>During the absorption process and after absorption, aspirin is mainly hydrolyzed to salicylic acid and distributed to all body tissues and fluids, including fetal tissues, breast milk, and the central nervous system (CNS). Highest concentrations are found in plasma, liver, renal cortex, heart, and lung. In plasma, about 50%-80% of the salicylic acid and its metabolites are loosely bound to plasma proteins.
+</paragraph>
+                        <paragraph>The clearance of total salicylates is subject to saturable kinetics; however, first-order elimination kinetics are still a good approximation for doses up to 650 mg. The plasma half-life for aspirin is about 12 minutes and for salicylic acid and/or total salicylates is about 3.0 hours.
+</paragraph>
+                        <paragraph>The elimination of therapeutic doses is through the kidneys either as salicylic acid or other biotransformation products. The renal clearance is greatly augmented by an alkaline urine as is produced by concurrent administration of sodium bicarbonate or potassium citrate.
+</paragraph>
+                        <paragraph>The biotransformation of aspirin occurs primarily in the hepatocytes. The major metabolites are salicyluric acid (75%), the phenolic and acyl glucuronides of salicylate (15%), and gentisic and gentisuric acid (1%). The bioavailability of the aspirin component of butalbital, aspirin, and caffeine is equivalent to that of a solution except for a slower rate of absorption. A peak concentration of 8.80 mcg/mL was obtained at 40 minutes after a 650 mg dose. (see <content styleCode="bold">
+                              <linkHtml href="#s31">OVERDOSAGE</linkHtml>
+                           </content> for <content styleCode="italics">toxicity information</content>).
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s6">
+                     <id root="41f1fcf8-9350-444b-9801-0f40ed9bc6ff"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Butalbital:
+</title>
+                     <text>
+                        <paragraph>Butalbital is well absorbed from the gastrointestinal tract and is expected to distribute to most of the tissues in the body. Barbiturates, in general, may appear in breast milk and readily cross the placental barrier. They are bound to plasma and tissue proteins to a varying degree and binding increases directly as a function of lipid solubility.
+</paragraph>
+                        <paragraph>Elimination of butalbital is primarily via the kidney (59%-88% of the dose) as unchanged drug or metabolites. The plasma half-life is about 35 hours. Urinary excretion products included parent drug (about 3.6% of the dose), 5-isobutyl-5-(2,3-dihydroxypropyl) barbituric acid (about 24% of the dose), 5-allyl-5(3-hydroxy-2-methyl-1-propyl) barbituric acid (about 4.8% of the dose), products with the barbituric acid ring hydrolyzed with excretion of urea (about 14% of the dose), as well as unidentified materials. Of the material excreted in the urine, 32% was conjugated.
+</paragraph>
+                        <paragraph>The bioavailability of the butalbital component of butalbital, aspirin, and caffeine is equivalent to that of a solution except for a decrease in the rate of absorption. A peak concentration of 2020 ng/mL is obtained at about 1.5 hours after a 100 mg dose.
+</paragraph>
+                        <paragraph>The <content styleCode="italics">in vitro</content> plasma protein binding of butalbital is 45% over the concentration range of 0.5 to 20 mcg/mL. This falls within the range of plasma protein binding (20% to 45%) reported with other barbiturates such as phenobarbital, pentobarbital, and secobarbital sodium. The plasma-to-blood concentration ratio was almost unity indicating that there is no preferential distribution of butalbital into either plasma or blood cells. (see <content styleCode="bold">
+                              <linkHtml href="#s31">OVERDOSAGE</linkHtml>
+                           </content> for <content styleCode="italics">toxicity information</content>).
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s7">
+                     <id root="b91e83c7-59f0-4ec1-aad9-d820c24ebd6c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Caffeine:
+</title>
+                     <text>
+                        <paragraph>Like most xanthines, caffeine is rapidly absorbed and distributed in all body tissues and fluids, including the CNS, fetal tissues, and breast milk.
+</paragraph>
+                        <paragraph>Caffeine is cleared rapidly through metabolism and excretion in the urine. The plasma half-life is about 3.0 hours. Hepatic biotransformation prior to excretion results in about equal amounts of 1-methyl-xanthine and 1-methyluric acid. Of the 70% of the dose that has been recovered in the urine, only 3% was unchanged drug.
+</paragraph>
+                        <paragraph>The bioavailability of the caffeine component for butalbital, aspirin, and caffeine is equivalent to that of a solution except for a slightly longer time to peak. A peak concentration of 1660 ng/mL was obtained in less than an hour for an 80 mg dose (see <content styleCode="bold">
+                              <linkHtml href="#s31">OVERDOSAGE</linkHtml>
+                           </content> for <content styleCode="italics">toxicity information</content>).
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s8">
+               <id root="e4b07d93-8e75-4ee3-93c5-91b96594085b"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS
+</title>
+               <text>
+                  <paragraph>Butalbital, Aspirin, and Caffeine Tablets, USP are indicated for the relief of the symptom complex of tension (or muscle contraction) headache.
+</paragraph>
+                  <paragraph>Evidence supporting the efficacy and safety of butalbital, aspirin, and caffeine in the treatment of multiple recurrent headaches is unavailable. Caution in this regard is required because butalbital is habit-forming and potentially abusable.
+</paragraph>
+               </text>
+               <effectiveTime value="20160715"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s9">
+               <id root="2321a0b2-64dc-404c-a84e-fe4deeb8f4e0"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>Butalbital, aspirin and caffeine tablets are contraindicated under the following conditions:
+</paragraph>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Hypersensitivity or intolerance to aspirin, caffeine, or butalbital.
+</item>
+                     <item>Patients with a hemorrhagic diathesis (e.g., hemophilia, hypoprothrombinemia, von Willebrand's disease, the thrombocytopenias, thrombasthenia and other ill-defined hereditary platelet dysfunctions, severe vitamin K deficiency and severe liver damage).
+</item>
+                     <item>Patients with the syndrome of nasal polyps, angioedema and bronchospastic reactivity to aspirin or other nonsteroidal anti-inflammatory drugs. Anaphylactoid reactions have occurred in such patients.
+</item>
+                     <item>Peptic ulcer or other serious gastrointestinal lesions.
+</item>
+                     <item>Patients with porphyria.
+</item>
+                  </list>
+               </text>
+               <effectiveTime value="20160715"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s10">
+               <id root="3bf92e97-0ad8-43c3-b058-42a1e1186a1e"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS
+</title>
+               <text>
+                  <paragraph>Therapeutic doses of aspirin can cause anaphylactic shock and other severe allergic reactions. It should be ascertained if the patient is allergic to aspirin, although a specific history of allergy may be lacking.
+</paragraph>
+                  <paragraph>Significant bleeding can result from aspirin therapy in patients with peptic ulcer or other gastrointestinal lesions, and in patients with bleeding disorders. Aspirin administered preoperatively may prolong the bleeding time. Butalbital is habit-forming and potentially abusable. Consequently, the extended use of Butalbital, aspirin and caffeine is not recommended. Results from epidemiologic studies indicate an association between aspirin and Reye's Syndrome. Caution should be used in administering this product to children, including teenagers, with chicken pox or flu.
+</paragraph>
+               </text>
+               <effectiveTime value="20160715"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s11">
+               <id root="8ff9c3fa-f898-4c79-bdb2-63c4a17137fd"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS
+</title>
+               <effectiveTime value="20160715"/>
+               <component>
+                  <section ID="s12">
+                     <id root="eced666f-75a3-4e63-b962-cfb24f71f380"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General
+</title>
+                     <text>
+                        <paragraph>Butalbital, aspirin and caffeine should be prescribed with caution for certain special-risk patients such as the elderly or debilitated, and those with severe impairment of renal or hepatic function, coagulation disorders, head injuries, elevated intracranial pressure, acute abdominal conditions, hypothyroidism, urethral stricture, Addison's disease, or prostatic hypertrophy.
+</paragraph>
+                        <paragraph>Aspirin should be used with caution in patients on anticoagulant therapy and in patients with underlying hemostatic defects, and extreme caution in the presence of peptic ulcer.
+</paragraph>
+                        <paragraph>Precautions should be taken when administering salicylates to persons with known allergies. Hypersensitivity to aspirin is particularly likely in patients with nasal polyps, and relatively common in those with asthma.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s13">
+                     <id root="57ab451f-20ae-4c62-acc2-184f95900fc5"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients
+</title>
+                     <text>
+                        <paragraph>Patients should be informed that butalbital, aspirin and caffeine contains aspirin and should not be taken by patients with an aspirin allergy.
+</paragraph>
+                        <paragraph>Butalbital, aspirin and caffeine may impair the mental and/or physical abilities required for performance of potentially hazardous tasks such as driving a car or operating machinery. Such tasks should be avoided while taking butalbital, aspirin and caffeine.
+</paragraph>
+                        <paragraph>Alcohol and other CNS depressants may produce an additive CNS depression when taken with butalbital, aspirin and caffeine and should be avoided.
+</paragraph>
+                        <paragraph>Butalbital may be habit-forming. Patients should take the drug only for as long as it is prescribed, in the amounts prescribed, and no more frequently than prescribed.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s14">
+                     <id root="5c93cad0-c6b3-4774-af26-87126ea21878"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests
+</title>
+                     <text>
+                        <paragraph>In patients with severe hepatic or renal disease, effects of therapy should be monitored with serial liver and/or renal function tests.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s15">
+                     <id root="30d3a759-d480-4882-800e-82096b06e16d"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions
+</title>
+                     <text>
+                        <paragraph>The CNS effects of butalbital may be enhanced by monoamine oxidase (MAO) inhibitors.
+</paragraph>
+                        <paragraph>In patients receiving concomitant corticosteroids and chronic use of aspirin, withdrawal of corticosteroids may result in salicylism because corticosteroids enhance renal clearance of salicylates and their withdrawal is followed by return to normal rates of renal clearance.
+</paragraph>
+                        <paragraph>Butalbital, aspirin and caffeine may enhance the effects of:
+</paragraph>
+                        <list listType="ordered" styleCode="Arabic">
+                           <item>Oral anticoagulants, causing bleeding by inhibiting prothrombin formation in the liver and displacing anticoagulants from plasma protein binding sites.
+</item>
+                           <item>Oral antidiabetic agents and insulin, causing hypoglycemia by contributing an additive effect, if dosage of butalbital, aspirin and caffeine exceeds maximum recommended daily dosage.
+</item>
+                           <item>6-mercaptopurine and methotrexate, causing bone marrow toxicity and blood dyscrasias by displacing these drugs from secondary binding sites, and, in the case of methotrexate, also reducing its excretion.
+</item>
+                           <item>Non-steroidal anti-inflammatory agents, increasing the risk of peptic ulceration and bleeding by contributing additive effects.
+</item>
+                           <item>Other narcotic analgesics, alcohol, general anesthetics, tranquilizers such as chlordiazepoxide, sedative-hypnotics, or other CNS depressants, causing increased CNS depression.
+</item>
+                        </list>
+                        <paragraph>Butalbital, aspirin and caffeine may diminish the effects of:
+</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption> 
+</caption>Uricosuric agents such as probenecid and sulfinpyrazone, reducing their effectiveness in the treatment of gout. Aspirin competes with these agents for protein binding sites.
+</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s16">
+                     <id root="a375bdcc-a520-46fb-b47a-65e5e50b41ae"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions
+</title>
+                     <effectiveTime value="20160715"/>
+                     <component>
+                        <section ID="s17">
+                           <id root="bf4e1e81-992d-4996-a245-627cdd89a470"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Aspirin:
+</title>
+                           <text>
+                              <paragraph>Aspirin may interfere with the following laboratory determinations in blood: serum amylase, fasting blood glucose, cholesterol, protein, serum glutamic-oxaloacetic transaminase (SGOT), uric acid, prothrombin time and bleeding time. Aspirin may interfere with the following laboratory determinations in urine: glucose, 5-hydroxyindoleacetic acid, Gerhardt ketone, vanillylmandelic acid (VMA), uric acid, diacetic acid, and spectrophotometric detection of barbiturates.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20160715"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s18">
+                     <id root="6b0ae00f-dc5f-4d4f-90bd-cdb8ea8c7461"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <text>
+                        <paragraph>Adequate long-term studies have been conducted in mice and rats with aspirin, alone or in combination with other drugs, in which no evidence of carcinogenesis was seen. No adequate studies have been conducted in animals to determine whether aspirin has a potential for mutagenesis or impairment of fertility. No adequate studies have been conducted in animals to determine whether butalbital has a potential for carcinogenesis, mutagenesis, or impairment of fertility.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s19">
+                     <id root="efcff88b-2587-42e3-bc74-26bb8ac6c881"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Usage in Pregnancy
+</title>
+                     <effectiveTime value="20160715"/>
+                     <component>
+                        <section ID="s20">
+                           <id root="a61b228f-3bc3-4009-9b62-ac1c6a457930"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects:
+</title>
+                           <effectiveTime value="20160715"/>
+                           <component>
+                              <section ID="s21">
+                                 <id root="3ac9dcc8-1734-42ee-92d0-c673b883960b"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="bold italics">Pregnancy Category C.</content> Animal reproduction studies have not been conducted with butalbital, aspirin and caffeine. It is also not known whether butalbital, aspirin and caffeine can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Butalbital, aspirin and caffeine should be given to a pregnant woman only when clearly needed.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20160715"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s22">
+                           <id root="002963f3-af95-4575-adac-ccc1315ae2a8"/>
+                           <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold italics">Nonteratogenic Effects:</content> Withdrawal seizures were reported in a two-day-old male infant whose mother had taken a butalbital-containing drug during the last 2 months of pregnancy. Butalbital was found in the infant's serum. The infant was given phenobarbital 5 mg/kg, which was tapered without further seizure or other withdrawal symptoms.
+</paragraph>
+                              <paragraph>Studies of aspirin use in pregnant women have not shown that aspirin increases the risk of abnormalities when administered during the first trimester of pregnancy. In controlled studies involving 41,337 pregnant women and their offspring, there was no evidence that aspirin taken during pregnancy caused stillbirth, neonatal death or reduced birth weight. In controlled studies of 50,282 pregnant women and their offspring, aspirin administration in moderate and heavy doses during the first four lunar months of pregnancy showed no teratogenic effect.
+</paragraph>
+                              <paragraph>Therapeutic doses of aspirin in pregnant women close to term may cause bleeding in mother, fetus, or neonate. During the last 6 months of pregnancy, regular use of aspirin in high doses may prolong pregnancy and delivery.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20160715"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s23">
+                     <id root="43ee93f9-809b-4256-bff0-f23a202da984"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery
+</title>
+                     <text>
+                        <paragraph>Ingestion of aspirin prior to delivery may prolong delivery or lead to bleeding in the mother or neonate.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s24">
+                     <id root="cd642ded-0196-4ec8-80c3-210807e9b9db"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers
+</title>
+                     <text>
+                        <paragraph>Aspirin, caffeine, and barbiturates are excreted in breast milk in small amounts, but the significance of their effects on nursing infants is not known. Because of potential for serious adverse reactions in nursing infants from butalbital, aspirin and caffeine, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s25">
+                     <id root="59754db8-3d07-41cc-b02e-b4f5aaa6907d"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use
+</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s26">
+               <id root="5ea68cb9-1085-4cb4-bd58-8f9ad769f669"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS
+</title>
+               <text>
+                  <paragraph>The most frequent adverse reactions are drowsiness and dizziness. Less frequent adverse reactions are lightheadedness and gastrointestinal disturbances including nausea, vomiting, and flatulence. A single incidence of bone marrow suppression has been reported with the use of butalbital, aspirin, and caffeine. Several cases of dermatological reactions including toxic epidermal necrolysis and erythema multiforme have been reported.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Vensun Pharmaceuticals, Inc. at 1-800-385-1540 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160715"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s27">
+               <id root="4ccd7cda-00e9-4966-9456-14c06e8c40ad"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE
+</title>
+               <effectiveTime value="20160715"/>
+               <component>
+                  <section ID="s28">
+                     <id root="96415fab-0565-4f23-9002-dd49a12a352c"/>
+                     <code code="34085-1" codeSystem="2.16.840.1.113883.6.1" displayName="CONTROLLED SUBSTANCE SECTION"/>
+                     <title>Controlled Substance
+</title>
+                     <text>
+                        <paragraph>Butalbital, aspirin and caffeine is controlled by the Drug Enforcement Administration and is classified under Schedule III.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s29">
+                     <id root="aa242175-18bd-4a22-be02-926976f9347d"/>
+                     <code code="34086-9" codeSystem="2.16.840.1.113883.6.1" displayName="ABUSE SECTION"/>
+                     <title>Abuse and Dependence
+</title>
+                     <effectiveTime value="20160715"/>
+                     <component>
+                        <section ID="s30">
+                           <id root="96169698-8c63-4c5b-83b0-faab7f2ba898"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Butalbital
+</title>
+                           <effectiveTime value="20160715"/>
+                           <component>
+                              <section ID="s31">
+                                 <id root="d56acc31-15f4-4297-85ab-a0179d999240"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="bold italics">Barbiturates may be habit-forming:</content> Tolerance, psychological dependence, and physical dependence may occur especially following prolonged use of high doses of barbiturates. The average daily dose for the barbiturate addict is usually about 1,500 mg. As tolerance to barbiturates develops, the amount needed to maintain the same level of intoxication increases; tolerance to a fatal dosage, however, does not increase more than two-fold. As this occurs, the margin between an intoxication dosage and fatal dosage becomes smaller. The lethal dose of a barbiturate is far less if alcohol is also ingested. Major withdrawal symptoms (convulsions and delirium) may occur within 16 hours and last up to 5 days after abrupt cessation of these drugs. Intensity of withdrawal symptoms gradually declines over a period of approximately 15 days. Treatment of barbiturate dependence consists of cautious and gradual withdrawal of the drug. Barbiturate-dependent patients can be withdrawn by using a number of different withdrawal regimens. One method involves initiating treatment at the patient's regular dosage level and gradually decreasing the daily dosage as tolerated by the patient.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20160715"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s32">
+               <id root="fe7695bc-6883-4c8b-846a-12993c1b3f19"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE
+</title>
+               <text>
+                  <paragraph>The toxic effects of acute overdosage of butalbital, aspirin and caffeine are attributable mainly to its barbiturate component, and, to a lesser extent, aspirin. Because toxic effects of caffeine occur in very high dosages only, the possibility of significant caffeine toxicity from butalbital, aspirin and caffeine overdosage is unlikely.
+</paragraph>
+               </text>
+               <effectiveTime value="20160715"/>
+               <component>
+                  <section ID="s33">
+                     <id root="31599dd5-468d-4d82-a958-f48bc31ebfe5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Signs and Symptoms
+</title>
+                     <text>
+                        <paragraph>Symptoms attributable to <content styleCode="bold italics">acute barbiturate poisoning</content> include drowsiness, confusion, and coma; respiratory depression; hypotension; hypovolemic shock. Symptoms attributable to <content styleCode="bold italics">acute aspirin poisoning</content> include hyperpnea; acid-base disturbances with development of metabolic acidosis; vomiting and abdominal pain; tinnitus; hyperthermia; hypoprothrombinemia; restlessness; delirium; convulsions. <content styleCode="bold italics">Acute caffeine poisoning</content> may cause insomnia, restlessness, tremor, and delirium; tachycardia and extrasystoles.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s34">
+                     <id root="68f14d8c-a669-4094-82ad-ffbf6b27a302"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment
+</title>
+                     <text>
+                        <paragraph>Treatment consists primarily of management of barbiturate intoxication and the correction of the acid-base imbalance due to salicylism. Vomiting should be induced mechanically or with emetics in the conscious patient. Gastric lavage may be used if the pharyngeal and laryngeal reflexes are present and if less than 4 hours have elapsed since ingestion. A cuffed endotracheal tube should be inserted before gastric lavage of the unconscious patient and when necessary to provide assisted respiration. Diuresis, alkalinization of the urine, and correction of electrolyte disturbances should be accomplished through administration of intravenous fluids such as 1% sodium bicarbonate in 5% dextrose in water. Meticulous attention should be given to maintaining adequate pulmonary ventilation. The value of vasopressor agents such as Norepinephrine or Phenylephrine Hydrochloride in treating hypotension is questionable since they increase vasoconstriction and decrease blood flow. However, if prolonged support of blood pressure is required, Norepinephrine Bitartrate (Levophed®) may be given I.V. with the usual precautions and serial blood pressure monitoring. In severe cases of intoxication, peritoneal dialysis, hemodialysis, or exchange transfusion may be lifesaving. Hypoprothrombinemia should be treated with Vitamin K, intravenously.
+</paragraph>
+                        <paragraph>Up-to-date information about the treatment of overdose can often be obtained from a Certified Regional Poison Control Center. Telephone numbers of Certified Regional Poison Control Centers are listed in the Physicians' Desk Reference®.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s35">
+                     <id root="7a557aa0-a197-4857-b583-9c910ed8276c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Toxic and Lethal Doses (for adults)
+</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold italics">Butalbital</content>: toxic dose 1 g (20 tablets)
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold italics">Aspirin</content>: toxic blood level greater than 30 mg/100 mL; lethal dose 10-30 g
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold italics">Caffeine</content>: toxic dose 1 g (25 tablets)
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160715"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s36">
+               <id root="a9c971ba-db05-454a-b3ac-263bb2d5959d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION
+</title>
+               <text>
+                  <paragraph>One or 2 tablets every 4 hours. Total daily dose should not exceed 6 tablets. Extended and repeated use of this product is not recommended because of the potential for physical dependence.
+</paragraph>
+               </text>
+               <effectiveTime value="20160715"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s37">
+               <id root="094cb0ea-ac12-48ec-aae9-1eadd8009ca9"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED:
+</title>
+               <text>
+                  <paragraph>Butalbital, Aspirin, and Caffeine Tablets, USP 50 mg/325 mg/40 mg are white, round, unscored tablets debossed with a “P201” on one side.
+</paragraph>
+                  <paragraph>NDC 42543-098-01: Bottles of 100 tablets
+</paragraph>
+                  <paragraph>Store at 20-25°C (68-77°F) [See USP Controlled Room Temperature]. Protect from light and moisture.
+</paragraph>
+                  <paragraph>Dispense in tight, light-resistant container as defined in the USP using a child-resistant closure.
+</paragraph>
+                  <paragraph>The brands listed are trademarks or registered trademarks of their respective owners
+</paragraph>
+                  <paragraph>Manufactured for:<br/>
+                     <content styleCode="bold">Vensun Pharmaceuticals, Inc.<br/>
+                     </content>Yardley, PA 19067
+</paragraph>
+                  <paragraph>Manufactured by:<br/>
+                     <content styleCode="bold">Pharmaceutics International, Inc.<br/>
+                     </content>Hunt Valley, MD 21031
+</paragraph>
+                  <paragraph>Rev. 00, July 2016
+</paragraph>
+               </text>
+               <effectiveTime value="20160715"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s71">
+               <id root="62754055-7ee8-4a2a-828b-fe1982967ec3"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 50 mg, 325 mg and 40 mg Bottle Label
+</title>
+               <text>
+                  <paragraph>NDC 42543-098-01 100 Tablets
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Butalbital, <br/>Aspirin and Caffeine <br/>Tablets, USP CIII</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">50 mg/325 mg/40 mg</content>
+                  </paragraph>
+                  <paragraph>Rx only
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">VENSUN <br/>PHARMACEUTICALS, INC.</content>
+                  </paragraph>
+                  <renderMultiMedia ID="f04" referencedObject="mm04"/>
+               </text>
+               <effectiveTime value="20181008"/>
+               <component>
+                  <observationMedia ID="mm04">
+                     <text>Principal Display Panel - 50 mg, 325 mg and 40 mg Bottle Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="but01-0005-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

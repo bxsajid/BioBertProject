@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="02304ee1-ad6b-47cc-9ade-5b7c61d4f5a7"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold"> Hydrocodone Bitartrate and Ibuprofen Tablets</content>
+      <br/>
+      <content styleCode="bold">7.5 mg/200 mg </content>
+   </title>
+   <effectiveTime value="20170406"/>
+   <setId root="832b108f-335b-4b0e-aed5-6ccf605e8b81"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="140529962" root="1.3.6.1.4.1.519.1"/>
+            <name>McKesson Packaging Services a business unit of McKesson Corporation</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="140529962" root="1.3.6.1.4.1.519.1"/>
+                        <name>McKesson Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="63739-557" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="182336d7-5d97-449a-a35b-01024ca63c7c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20170406"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63739-557" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Hydrocodone Bitartrate and Ibuprofen</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Hydrocodone Bitartrate and Ibuprofen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="53746-145" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="7.5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="NO70W886KK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCODONE BITARTRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="6YKS4Y3WQ7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROCODONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="200"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IBUPROFEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IBUPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="R12CBM0EIZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARNAUBA WAX</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSCARMELLOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="63739-557-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43179" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX, UNIT-DOSE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20120521"/>
+                                          <high value="20160228"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA076642" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20120521"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48675" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CII"/>
+                        </policy>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="10" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText>Biconvex</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">IP;145</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_679a76a2-bf75-43ab-8044-e71c747bae3f">
+               <id root="15912061-44fe-4545-a2e5-6794c1d00575"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION </title>
+               <text>
+                  <paragraph>Hydrocodone bitartrate and ibuprofen tablets are supplied in a fixed combination tablet form for oral administration. Hydrocodone bitartrate and ibuprofen tablets combine the opioid analgesic agent, hydrocodone bitartrate, with the nonsteroidal anti-inflammatory (NSAID) agent, ibuprofen. Hydrocodone bitartrate is a semisynthetic and centrally acting opioid analgesic. Its chemical name is: 4, 5 α-epoxy-3-methoxy-17-methylmorphinan-6-one tartrate (1:1) hydrate (2:5). Its chemical formula is: C<sub>18</sub>H<sub>21</sub>NO<sub>3</sub>•C<sub>4</sub>H<sub>6</sub>O<sub>6</sub>•21/2 H<sub>2</sub>O, and the molecular weight is 494.50. Its structural formula is:</paragraph>
+                  <renderMultiMedia ID="id270" referencedObject="id_85772fb2-9e0e-4449-8d4f-74351f6b34f6"/>
+                  <paragraph>Ibuprofen is a nonsteroidal anti-inflammatory drug with analgesic and antipyretic properties. Its chemical name is: (±)-2-(p-isobutylphenyl) propionic acid. Its chemical formula is C<sub>13</sub>H<sub>18</sub>O<sub>2</sub>, and the molecular weight is: 206.29. Its structural formula is:</paragraph>
+                  <renderMultiMedia ID="id275" referencedObject="id_64e039d5-2e10-457f-b1c8-773f747739ad"/>
+                  <paragraph>silicon dioxide, croscarmellose sodium, hypromellose, magnesium stearate, microcrystalline cellulose, polyethylene glycol, polydextrose, pregelatinized starch, and titanium dioxide.</paragraph>
+               </text>
+               <effectiveTime value="20170406"/>
+               <component>
+                  <observationMedia ID="id_85772fb2-9e0e-4449-8d4f-74351f6b34f6">
+                     <text>b4355d78-figure-01</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="b27e79b9-42b0-4c56-a1da-512e0742a13f-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_64e039d5-2e10-457f-b1c8-773f747739ad">
+                     <text>b4355d78-figure-02</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="b27e79b9-42b0-4c56-a1da-512e0742a13f-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_2c86ded3-7f6b-4269-bf5a-29bacf150abb">
+               <id root="d5becaf7-0312-4e03-a8fc-4bf7ce3cb748"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hydrocodone component:</content>
+                     </content> Hydrocodone is a semisynthetic opioid analgesic and antitussive with multiple actions qualitatively similar to those of codeine. Most of these involve the central nervous system and smooth muscle. The precise mechanism of action of hydrocodone and other opioids is not known, although it is believed to relate to the existence of opiate receptors in the central nervous system. In addition to analgesia, opioids may produce drowsiness, changes in mood, and mental clouding.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Ibuprofen component</content>
+                     </content>: Ibuprofen is a non-steroidal anti-inflammatory agent that possesses analgesic and antipyretic activities. Its mode of action, like that of other NSAIDs, is not completely understood, but may be related to inhibition of cyclooxygenase activity and prostaglandin synthesis. Ibuprofen is a peripherally acting analgesic. Ibuprofen does not have any known effects on opiate receptors.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacokinetics:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Absorption</content>: After oral dosing with the hydrocodone bitartrate and ibuprofen tablet, a peak hydrocodone plasma level of 27 ng/mL is achieved at 1.7 hours, and a peak ibuprofen plasma level of 30 mcg/mL is achieved at 1.8 hours. The effect of food on the absorption of either component from the hydrocodone Bitartrate and ibuprofen tablets has not been established.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Distribution</content>: Ibuprofen is highly protein bound (99%) like most other non-steroidal anti-inflammatory agents. Although the extent of protein binding of hydrocodone has not been definitely determined, structural similarities to related opioid analgesics suggest that hydrocodone is not extensively protein bound as most agents in the 5-ring morphinan group of semi-synthetic opioids bind plasma protein to a similar degree (range 19% [hydromorphone] to 45% [oxycodone]), hydrocodone is expected to fall within this range.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Metabolism</content>: Hydrocodone exhibits a complex pattern of metabolism, including O-demethylation, N-demethylation, and 6-keto reduction to the corresponding 6-α and 6-β-hydroxy metabolites. Hydromorphone, a potent opioid, is formed from the O-demethylation of hydrocodone and contributes to the total analgesic effect of hydrocodone. The O- and N-demethylation processes are mediated by separate P-450 isoenzymes: CYP2D6 and CYP3A4, respectively.</paragraph>
+                  <paragraph>Ibuprofen is present in this product as a racemate, and following absorption it undergoes interconversion in the plasma from the R-isomer to the S-isomer. Both the R- and S-isomers are metabolized to two primary metabolites: (+)-2-4’-(2hydroxy-2-methyl-propyl) phenyl propionic acid and (+)-2-4’-(2carboxypropyl) phenyl propionic acid, both of which circulate in the plasma at low levels relative to the parent.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Elimination</content>: Hydrocodone and its metabolites are eliminated primarily in the kidneys, with a mean plasma half-life of 4.5 hours. Ibuprofen is excreted in the urine, 50% to 60% as metabolites and approximately 15% as unchanged drug and conjugate. The plasma half-life is 2.2 hours.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Special Populations</content>: No significant pharmacokinetic differences based on age or gender have been demonstrated. The pharmacokinetics of hydrocodone and ibuprofen from hydrocodone bitartrate and ibuprofen tablets has not been evaluated in children.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Renal Impairment</content>: The effect of renal insufficiency on the pharmacokinetics of the hydrocodone bitartrate and ibuprofen dosage form has not been determined.</paragraph>
+               </text>
+               <effectiveTime value="20170406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_studies_id_2a385f36-dde6-4d93-92ab-240cc350d000">
+               <id root="cd0ace82-da68-493e-acf0-98207f03702c"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>CLINICAL STUDIES </title>
+               <text>
+                  <paragraph>In single-dose studies of post surgical pain (abdominal, gynecological, orthopedic), 940 patients were studied at doses of one or two tablets. Hydrocodone bitartrate and ibuprofen produced greater efficiency than placebo and each of its individual components given at the same dose. No advantage was demonstrated for the two-tablet dose.</paragraph>
+               </text>
+               <effectiveTime value="20170406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_2f9f32e4-9dab-432f-b73e-00c4f7e9e480">
+               <id root="fbb0447f-1b15-40df-91ff-2ad612488a0c"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE </title>
+               <text>
+                  <paragraph>Hydrocodone bitartrate and ibuprofen tablets are indicated for the short-term (generally less than 10 days) management of acute pain. Hydrocodone Bitartrate and ibuprofen are not indicated for the treatment of such conditions as ostearthritis or rheumatoid arthritis.</paragraph>
+               </text>
+               <effectiveTime value="20170406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_431d84a3-e0dd-4a6e-8d67-d101ae3b6dbe">
+               <id root="9e3ad0e5-2d9b-4fce-81fe-7936fd45183c"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS </title>
+               <text>
+                  <paragraph>Hydrocodone bitartrate and ibuprofen tablets should not be administered to patients who previously have exhibited hypersensitivity to hydrocodone or ibuprofen. Hydrocodone bitartrate and ibuprofen should not be given to patients who have experienced asthma, urticaria, or allergic-type reactions after taking aspirin or the NSAIDs. Severe, rarely fatal, anaphylactoid-like reactions to NSAIDs have been reported in such patients (see <linkHtml href="#_Ref">WARNINGS-Anaphylactoid Reactions</linkHtml>, and <linkHtml href="#_Ref">PRECAUTIONS-Pre-existing Asthma</linkHtml>). Patients known to be hypersensitive to other opioids may exhibit cross-sensitivity to hydrocodone.</paragraph>
+               </text>
+               <effectiveTime value="20170406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_e0fc4ce4-acef-4ceb-975b-1b75442875ce">
+               <id root="190c7029-bee9-4a3e-8c98-48d067db465c"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Abuse and Dependence:</content> Hydrocodone can produce drug dependence of the morphine type and therefore has the potential for being abused. Psychic and physical dependence as well as tolerance may develop upon repeated administration of this drug and it should be prescribed and administered with the same degree of caution as other narcotic drugs (see <linkHtml href="#i4i_abuse_dependence_id_19b4311f-3038-4c04-b641-06393bc6b472">DRUG ABUSE AND DEPENDENCE</linkHtml>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory Depression</content>: At high doses or in opioid-sensitive patients, hydrocodone may produce dose-related respiratory depression by acting directly on the brain stem respiratory centers. Hydrocodone also affects the center that controls respiratory rhythm, and may produce irregular and periodic breathing.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Head Injury and Increased Intracranial Pressure</content>: The respiratory depressant effects of opioids and their capacity to elevate cerebrospinal fluid pressure may be markedly exaggerated in the presence of head injury, intracranial lesions or a pre-existing increase in intracranial pressure. Furthermore, opioids produce adverse reactions which may obscure the clinical course of patients with head injuries.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Acute Abdominal Conditions</content>: The administration of opioids may obscure the diagnosis or clinical course of patients with acute abdominal conditions.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal (GI) Effects-Risk of GI Ulceration, Bleeding and Perforation</content>: Serious gastrointestinal toxicity, such as inflammation, bleeding, ulceration, and perforation of the stomach, small intestine or large intestine, can occur at any time, with or without warning symptoms, in patients treated with nonsteroidal anti-inflammatory drugs (NSAIDs). Minor upper GI problems, such as dypsepsia, are common and may also occur at any time during NSAID therapy. Therefore, physicians and patients should remain alert for ulceration and bleeding even in the absence of previous GI tract symptoms. Patients should be informed about the signs and/or symptoms of serious GI toxicity and what steps to take if they occur. The utility of periodic laboratory monitoring has not been demonstrated, nor has it been adequately assessed. Only one in five patients, who develop a serious upper GI adverse event of NSAID therapy, is symptomatic. Even short term therapy is not without risk.</paragraph>
+                  <paragraph>NSAIDs should be prescribed with extreme caution in those with a prior history of ulcer disease or gastrointestinal bleeding. Most spontaneous reports of fatal GI events are in elderly or debilitated patients and therefore special care should be taken in treating this population. To minimize the potential risk for an adverse GI event, the lowest effective dose should be used for the shortest possible duration. For high risk patients, alternate therapies that do not involve NSAIDs have been considered.</paragraph>
+                  <paragraph>Studies have shown that patients with a prior history of peptic ulcer disease and/or gastrointestinal bleeding and who use NSAIDs, have a greater than 10-fold risk for developing a GI bleed than patients with neither of these risk factors. In addition to a past history of ulcer disease, pharmaco-epidemiological studies have identified several other co-therapies or co-morbid conditions that may increase the risk for GI bleeding such as: treatment with oral corticosteroids, treatment with anticoagulants, longer duration of NSAID therapy, smoking, alcoholism, older age, and poor general health status.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Anaphylactoid Reactions</content>: Anaphylactoid reactions may occur in patients without known prior exposure to hydrocodone bitartrate and ibuprofen. Hydrocodone bitartrate and ibuprofen should not be given to patients with the aspirin triad. The triad typically occurs in asthmatic patients who experience rhinitis with or without nasal polyps, or who exhibit severe, potentially fatal bronchospasm after taking aspirin or other NSAIDs. Fatal reactions to NSAIDs have been reported in such patients (see <linkHtml href="#i4i_contraindications_id_431d84a3-e0dd-4a6e-8d67-d101ae3b6dbe">CONTRAINDICATIONS</linkHtml> and <linkHtml href="#_Ref">PRECAUTIONS-Pre-existing Asthma</linkHtml>). Emergency help should be sought when anaphylactoid reaction occurs.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Advanced Renal Disease</content>: In cases with advanced kidney disease, treatment with hydrocodone bitartrate and ibuprofen are not recommended. If NSAID therapy, however, must be initiated, close monitoring of the patient’s kidney function is advisable (see <linkHtml href="#_Ref">PRECAUTIONS-Renal Effects</linkHtml>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy</content>: As with other NSAID-containing products, hydrocodone bitartrate and ibuprofen should be avoided in late pregnancy because it may cause premature closure of the ductus arteriosus.</paragraph>
+               </text>
+               <effectiveTime value="20170406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_8bc970aa-d7d3-4887-896b-39b814a40e27">
+               <id root="157e6dd3-63ab-4f16-b845-32311a625dd8"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">General Precautions:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Special Risk Patients:</content>
+                     </content> As with any opioid analgesic agent, hydrocodone bitartrate and ibuprofen tablets should be used with caution in elderly or debilitated patients, and those with severe impairment of hepatic or renal function, hypothyroidism, Addison’s disease, prostatic hypertrophy or urethral stricture. The usual precautions should be observed and the possibility of respiratory depression should be kept in mind.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Cough Reflex</content>
+                     </content>: Hydrocodone suppresses the cough reflex; as with opioids, caution should be exercised when hydrocodone bitartrate and ibuprofen are used postoperatively and in patients with pulmonary disease.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Effect on Diagnostic Signs</content>
+                     </content>: The antipyretic and anti-inflammatory activity of ibuprofen may reduce fever and inflammation, thus diminishing their utility as diagnostic signs in detecting complications of presumed noninfectious, noninflammatory painful conditions.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hepatic Effects</content>
+                     </content>: As with other NSAIDs, ibuprofen has been reported to cause borderline elevations of one or more liver enzymes, this may occur in up to 15% of patients. These abnormalities may progress, may remain essentially unchanged, or may be transient with continued therapy. Notable (3 times the upper limit of normal) elevations of SGPT (ALT) or SGOT (AST) occurred in controlled clinical trials in less than 1% of patients. A patient with symptoms and/or signs suggesting liver dysfunctions, or in whom an abnormal liver test has occurred, should be evaluated for evidence of the development of more severe hepatic reactions while on therapy with hydrocodone bitartrate and ibuprofen. Severe hepatic reactions, including jaundice and cases of fatal hepatitis, have been reported with ibuprofen as with other NSAIDs. Although such reactions are rare, if abnormal liver tests persist or worsen, if clinical signs and symptoms consistent with liver disease develop, or if systemic manifestations occur (e.g. eosinophilia, rash, etc.), hydrocodone bitartrate and ibuprofen should be discontinued.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Renal Effects</content>
+                     </content>: Caution should be used when initiating treatment with hydrocodone bitartrate and ibuprofen in patients with considerable dehydration. It is advisable to rehydrate patients first and then start therapy with hydrocodone bitartrate and ibuprofen. Caution is also recommended in patients with pre-existing kidney disease (see <linkHtml href="#_Ref">WARNINGS-Advanced Renal Disease</linkHtml>).</paragraph>
+                  <paragraph>As with other NSAIDs, long-term administration of ibuprofen has resulted in renal papillary necrosis and other renal pathologic changes. Renal toxicity has also been seen in patients in which renal prostaglandins have a compensatory role in the maintenance of renal perfusion. In these patients, administration of a nonsteroidal anti-inflammatory drug may cause a dose-dependent reduction in prostaglandin formation and, secondarily, in renal blood flow, which may precipitate overt renal decompensation. Patients at greatest risk of this reaction are those with impaired renal function, heart failure, liver dysfunction, those taking diuretics and ACE inhibitors, and the elderly. Discontinuation of nonsteroidal anti-inflammatory drug therapy is usually followed by recovery to the pretreatment state.</paragraph>
+                  <paragraph>Ibuprofen metabolites are eliminated primarily by the kidneys. The extent to which the metabolites may accumulate in patients with renal failure has not been studied. Patients with significantly impaired renal function should be more closely monitored.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hematological Effects</content>
+                     </content>: Ibuprofen, like other NSAIDs, can inhibit platelet aggregation but the effect is quantitatively less and of shorter duration than that seen with aspirin. Ibuprofen has been shown to prolong bleeding time in normal subjects. Because this prolonged bleeding effect may be exaggerated in patients with underlying hemostatic defects, hydrocodone bitartrate and ibuprofen should be used with caution in persons with intrinsic coagulation defects and those on anticoagulant therapy.</paragraph>
+                  <paragraph>Anemia is sometimes seen in patients receiving NSAIDs, including ibuprofen. This may be due to fluid retention, GI loss, or an incompletely described effect upon erythropoiesis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Fluid Retention and Edema</content>
+                     </content>: Fluid retention and edema have been reported in association with ibuprofen; therefore, the drug should be used with caution in patients with a history of cardiac decompensation, hypertension or heart failure. .</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Pre-existing Asthma</content>
+                     </content>: Patients with asthma may have aspirin-sensitive asthma. The use of aspirin in patients with aspirin-sensitive asthma has been associated with severe bronchospasm, which may be fatal. Since cross-reactivity between aspirin and other NSAIDs has been reported in such aspirin-sensitive patients, hydrocodone bitartrate and ibuprofen should not be administered to patients with this form of aspirin sensitivity and should be used with caution in patients with pre-existing asthma.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Aseptic Meningitis</content>
+                     </content>: Aseptic meningitis with fever and coma have been observed on rare occasions in patients on ibuprofen therapy. Although it is probably more likely to occur in patients with systemic lupus erythematosous and related connective tissue diseases, it has been reported in patients who do not have an underlying chronic disease. If signs or symptoms of meningitis develop in a patient on hydrocodone bitartrate and ibuprofen, the possibility of its being related to ibuprofen should be considered</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Information for Patients</content>
+                  </paragraph>
+                  <paragraph>Hydrocodone bitartrate and ibuprofen, like other opioid-containing analgesics, may impair mental and/or physical abilities required for the performance of potentially hazardous tasks such as driving a car or operating machinery; patients should be cautioned accordingly. Alcohol and other CNS depressants may produce an additive CNS depression, when taken with this combination product, and should be avoided. Hydrocodone bitartrate and ibuprofen may be habitforming. Patients should take the drug only for as long as it is prescribed, in the amounts prescribed, and no more frequently than prescribed. Hydrocodone bitartrate and ibuprofen, like other drugs containing ibuprofen, is not free of side effects. The side effects of these drugs can cause discomfort and, rarely, there are more serious side effects, such as gastrointestinal bleeding, which may result in hospitalization and even fatal outcomes. Patients should be instructed to report any signs and symptoms of gastrointestinal bleeding, blurred vision or other eye symptoms, skin rash, weight-gain, or edema.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Laboratory Tests</content>
+                  </paragraph>
+                  <paragraph>A decrease in hemoglobin may occur during hydrocodone bitartrate 7.5 mg and ibuprofen 200 mg tablets therapy, and elevations of liver enzymes may be seen in a small percentage of patients during hydrocodone bitartrate and ibuprofen therapy (see <linkHtml href="#_Ref">PRECAUTIONS-Hematological Effects</linkHtml> and <linkHtml href="#_Ref">PRECAUTIONS-Hepatic Effects</linkHtml>). In patients with severe hepatic or renal disease, effects of therapy should be monitored with liver and/or renal function tests.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug Interactions</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">ACE-inhibitors</content>
+                     </content>: Reports suggest that NSAIDs may diminish the antihypertensive effect of ACE-inhibitors. This interaction should be given consideration in patients taking hydrocodone bitartrate and ibuprofen concomitantly with ACE-inhibitors.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Anticholingerics</content>
+                     </content>: The concurrent use of anticholingerics with hydrocodone preparations may produce paralytic ileus.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Antidepressants</content>
+                     </content>: The use of MAO inhibitors of tricyclic antidepressants with hydrocodone bitartrate and ibuprofen may increase the effect of either the antidepressant or hydrocodone.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">CNS Depressants</content>
+                     </content>: Patients receiving other opioids, antihistamines, antipsychotics, antianxiety agents, or other CNS depressants (including alcohol) concomitantly with hydrocodone bitartrate and ibuprofen may exhibit an additive CNS depression. When combined therapy is contemplated, the dose of one or both agents should be reduced.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Furosemide</content>
+                     </content>: Ibuprofen has been shown to reduce the natriuretic effect of furosemide and thiazides in some patients. This response has been attributed to inhibition of renal prostaglandin synthesis. During concomitant therapy with hydrocodone bitartrate and ibuprofen the patient should be observed closely for signs of renal failure (see <linkHtml href="#_Ref">PRECAUTIONS-Renal Effects</linkHtml>), as well as diuretic efficacy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Lithium</content>
+                     </content>: Ibuprofen has been shown to elevate plasma lithium concentration and reduce renal lithium clearance. This effect has been attributed to inhibition of renal prostaglandin synthesis by ibuprofen. Thus, when hydrocodone bitartrate and ibuprofen and lithium are administered concurrently, patients should be observed for signs of lithium toxicity.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Methotrexate</content>
+                     </content>: Ibuprofen, as well as other NSAIDs, has been reported to competitively inhibit methotrexate accumulation in rabbit kidney slices. This may indicate that ibuprofen could enhance the toxicity of methotrexate. Caution should be used when hydrocodone bitartrate and ibuprofen are administered concomitantly with methotrexate.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Warfarin</content>
+                     </content>: The effects of warfarin and NSAIDs on GI bleeding are synergistic, such that users of both drugs together have a risk of serious GI bleeding higher than users of either drug alone.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Carcinogenicity, Mutagenicity, and Impairment of Fertility</content>
+                  </paragraph>
+                  <paragraph>The carcinogenic and mutagenic potential of hydrocodone bitartrate and ibuprofen has not been investigated. The ability of hydrocodone bitartrate and ibuprofen to impair fertility has not been assessed.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy: Pregnancy Category C.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Teratogenic Effects</content>
+                     </content>: Hydrocodone bitartrate and ibuprofen, administered to rabbits at 95 mg/kg (5.72 and 1.9 times the maximum clinical dose based on body weight and surface area, respectively), a maternally toxic dose, resulted in an increase in the percentage of litters and fetuses with any major abnormality and an increase in the number of litters and fetuses with one or more nonossified metacarpals (a minor abnormality). Hydrocodone bitartrate and ibuprofen, administered to rats at 166 mg/kg (10.0 and 1.66 times the maximum clinical dose based on body weight and surface area, respectively), a maternally toxic dose, did not result in any reproductive toxicity. There are no adequate and well-controlled studies in pregnant women. Hydrocodone bitartrate and ibuprofen should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Nonteratogenic Effects</content>
+                     </content>: Because of the known effects of nonsteroidal anti-inflammatory drugs on the fetal cardiovascular system (closure of the ductus arteriosus), use during pregnancy (particularly late pregnancy) should be avoided. Babies born to mothers who have been taking opioids regularly prior to delivery will be physically dependent. The withdrawal signs include irritability and excessive crying, tremors, hyperactive reflexes, increased respiratory rate, increased stools, sneezing, yawning, vomiting and fever. The intensity of the syndrome does not always correlate with duration of maternal opioid use oral dose. There is no consensus on the best method of managing withdrawal.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Labor and Delivery</content>
+                  </paragraph>
+                  <paragraph>As with other drugs known to inhibit prostaglandin synthesis, an increased incidence of dystocia and delayed parturition occurred in rats. Administration of hydrocodone bitartrate and ibuprofen are not recommended during labor and delivery.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nursing Mothers</content>
+                  </paragraph>
+                  <paragraph>It is not known whether hydrocodone bitartrate and ibuprofen are excreted in human milk. In limited studies, an assay capable of detecting 1 mcg/mL did not demonstrate ibuprofen in the milk of lactating mothers. However, because of the limited nature of the studies, and the possible adverse effects of prostaglandin inhibiting drugs on neonates, hydrocodone bitartrate and ibuprofen is not recommended for use in nursing mothers.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Use</content>
+                  </paragraph>
+                  <paragraph>The safety and effectiveness of hydrocodone bitartrate and ibuprofen in pediatric patients below the age of 16 have not been established.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Geriatric Use</content>
+                  </paragraph>
+                  <paragraph>In controlled clinical trials there was no difference in tolerability between patients &lt; 65 years of age and those ≥ 65, apart from an increased tendency of the elderly to develop constipation. However, because the elderly may be more sensitive to the renal and gastrointestinal effects of nonsteroidal anti-inflammatory agents as well as possible increase risk of respiratory depression with opioids, extra caution and reduced dosages should be used when treating the elderly with</paragraph>
+                  <paragraph>hydrocodone bitartrate and ibuprofen.</paragraph>
+               </text>
+               <effectiveTime value="20170406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_ca6470a7-830c-480d-8e14-141946b1f8a9">
+               <id root="a3c3d64a-0966-4a50-a254-19f29a671a47"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS </title>
+               <text>
+                  <paragraph>Hydrocodone bitartrate and ibuprofen was administered to approximately 300 pain patients in a safety study that employed dosages and a duration of treatment sufficient to encompass the recommended usage (see <linkHtml href="#i4i_dosage_admin_id_f7918782-5452-4cd9-9eac-989a5fa3b453">DOSAGE AND ADMINISTRATION</linkHtml>). Adverse event rates generally increased with increasing daily dose. The event rates reported below are from approximately 150 patients who were in a group that received one tablet of hydrocodone bitartrate and ibuprofen an average of three to four times daily. The overall incidence rates of adverse experiences in the trials were fairly similar for this patient group and those who received the comparison treatment, acetaminophen with 600 mg codeine 60 mg.</paragraph>
+                  <paragraph>The following lists adverse events that occurred with an incidence of 1% or greater in clinical trials of hydrocodone bitartrate and ibuprofen, without regard to the causal relationship of the events to the drug. To distinguish different rates of occurrence in clinical studies, the adverse events are listed as follows:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">name of adverse event = less than 3%</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">adverse events marked with an asterisk* = 3% to 9%</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">adverse event rates over 9% are in parentheses.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Body as a whole</content>: Abdominal pain*, Asthenia*; Fever; Flu syndrome; Headache (27%), Infection*, Pain.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiovascular</content>: Palpitations; Vasodilation.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Central Nervous System</content>: Anxiety*; Confusion; Dizziness (14%); Hypertonia; Insomnia*; Nervousness*; Paresthesia; Somnolence (22%); Thinking abnormalities.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Digestive</content>: Anorexia, Constipation (22%); Diarrhea*; Dry Mouth, Dyspepsia (12%); Flatulence, Gastritis; Melena; Mouth ulcers; Nausea (12%), Thirst; Vomiting*.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Metabolic and Nutritional Disorders</content>: Edema*.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory</content>: Dyspnea; Hiccups; Pharyngitis; Rhinitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin and Appendages</content>: Pruritus*; Sweating*.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Special Senses</content>: Tinnitus.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Urogenital</content>: Urinary frequency.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">Incidence less than 1%</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Body as a Whole</content>: Allergic reaction.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiovascular</content>: Arrhythmia; Hypotension; Tachycardia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Central Nervous System</content>: Agitation; Abnormal dreams; Decreased libido; Depression; Euphoria; Mood changes; Neuralgia; Slurred speech; Tremor, Vertigo.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Digestive</content>: Chalky stool; “Clenching teeth”; Dysphagia; Esophageal spasm; Esophagitis; Gastroenteritis; Glossitis; Liver enzyme elevation.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Metabolic and Nutritional</content>: Weight decrease.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Musculoskeletal</content>: Arthralgia; Myalgia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory</content>: Asthma; Bronchitis; Hoarseness; Increased cough; Pulmonary congestion; Pneumonia; Shallow breathing; Sinusitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin and Appendages</content>: Rash; Urticaria.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Special Senses</content>: Altered vision; Bad taste; Dry eyes.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Urogenital</content>: Cystitis, Glyosuria; Impotence, Urinary incontinence; Urinary retention.</paragraph>
+               </text>
+               <effectiveTime value="20170406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_abuse_dependence_id_19b4311f-3038-4c04-b641-06393bc6b472">
+               <id root="4e90a6b5-788c-4d24-90b9-191470259d1f"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Controlled Substance</content>: Hydrocodone bitartrate and ibuprofen tablets are a Schedule III controlled substance.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Abuse</content>: Psychic dependence, physical dependence, and tolerance may develop upon repeated administration of opioids; therefore, hydrocodone bitartrate and ibuprofen tablets should be prescribed and administered with the same degree of caution appropriate to use of other narcotic medications.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dependence</content>: Physical dependence, the condition in which continued administration of the drug is required to prevent the appearance of a withdrawal syndrome, assumes clinically significant proportions only after several weeks of continued opioid use, although a mild degree of physical dependence may develop after a few days of opioid therapy. Tolerance, in which increasingly large doses are required in order to produce the same degree of analgesia, is manifested initially by a shortened duration of analgesic effect, and subsequently by decreases in the intensity of analgesia. The rate of development of tolerance varies among patients.</paragraph>
+                  <paragraph>However, psychic dependence is unlikely to develop when hydrocodone bitartrate and ibuprofen tablets are used for a short time in the treatment of acute pain.</paragraph>
+               </text>
+               <effectiveTime value="20170406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_8d4a13a9-8da3-41ca-8bb7-d205d504329f">
+               <id root="c1eb217d-dc3c-4be3-abff-d324df7888a9"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE </title>
+               <text>
+                  <paragraph>Following an acute overdosage, toxicity may result for hydrocodone and/or ibuprofen.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Signs and Symptoms</content>:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hydrocodone component</content>
+                     </content>: Serious overdose with hydrocodone is characterized by respiratory depression (a decrease in respiratory rate and/or tidal volume, Cheyne-Stokes respiration, cyanis) extreme somnolence progressing to stupor or coma, skeletal muscle flaccidity, cold and clammy skin, and sometimes bradycardia and hypotension. In severe overdosage, apnea, circulatory collapse, cardiac arrest and death may occur.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Ibuprofen component</content>
+                     </content>: Symptoms include gastrointestinal irritation with erosion and hemorrhage or perforation, kidney damage, liver damage, heart damage, hemolytic anemia, agranulocytosis, thrombocytopenia, aplastic anemia, and meningitis. Other symptoms may include headache, dizziness, tinnitus, confusion, blurred vision, mental disturbances, skin rash, stomatitis, edema, reduced retinal sensitivity, corneal deposits, and hyperkalemia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Treatment:</content>
+                  </paragraph>
+                  <paragraph>Primary attention should be given to the re-establishment of adequate respiratory exchange through provision of a patent airway and the institution of assisted or controlled ventilation. Naloxone, a narcotic antagonist, can reverse respiratory depression and coma associated with opioid overdose or unusual sensitivity to opioids, including hydrocodone, therefore an appropriate dose of naloxone hydrochloride should be administered intravenously with simultaneous efforts at respiratory resuscitation. Since the duration of action of hydrocodone may exceed that of the naloxone, the patient should be kept under continuous surveillance and repeated doses of the antagonist should be administered as needed to maintain adequate respiration. Supportive measures should be employed as indicated. Gastric emptying may be useful in removing unabsorbed drug. In cases where consciousness is impaired it may be inadvisable to perform gastric lavage. If gastric lavage is performed, little drug will likely be recovered if more than an hour has elapsed since ingestion. Ibuprofen is acidic and is excreted in the urine; therefore, it may be beneficial to administer alkali and induce diuresis. In addition to supportive measure the use of oral activated charcoal may help to reduce the absorption and reabsorption of ibuprofen. Dialysis is not likely to be effective for removal of ibuprofen: it is very highly bound to plasma proteins.</paragraph>
+               </text>
+               <effectiveTime value="20170406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_f7918782-5452-4cd9-9eac-989a5fa3b453">
+               <id root="7a71d437-bf5e-4b0a-8441-de99c9c95043"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION </title>
+               <text>
+                  <paragraph>For the short-term (generally less than 10 days) management of acute pain, the recommended dose of hydrocodone bitartrate and ibuprofen tablets is one 7.5 mg / 200 mg tablet every 4 to 6 hours, as necessary. Dosage should not exceed five 7.5 mg / 200 mg tablets in a 24-hour period. It should be kept in mind that tolerance to hydrocodone can develop with continued use and that the incidence of untoward effects is dose related. The lowest effective dose of the longest dosing interval should be sought for each patient, especially in the elderly. After observing the initial response to therapy with hydrocodone bitartrate and ibuprofen, the dose and frequency of dosing should be adjusted to suit the individual patient’s need, without exceeding the total daily dose recommended.</paragraph>
+               </text>
+               <effectiveTime value="20170406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_331fb6dd-028e-43ab-b348-f117acc98821">
+               <id root="5816915c-2cd6-4c57-95bc-543bfabbeaec"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED </title>
+               <text>
+                  <paragraph>Hydrocodone Bitartrate and Ibuprofen Tablets, 7.5 mg / 200 mg are available as: White film-coated, round, biconvex tablets, debossed with “IP” over “145” on one side and plain on the other side.</paragraph>
+                  <paragraph>Boxes of 10x10 UD 100 NDC 63739-557-10</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage</content>: Store at 25°C (77°F); excursions permitted to 15° to 30°C (59° to 86°F). [See USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Dispense in a tight, light-resistant container.</paragraph>
+               </text>
+               <effectiveTime value="20170406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_1f6d17e0-4228-4155-82da-1f791f26cf1c">
+               <id root="d642827b-c2c6-4a62-a3b3-e78af659af92"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured by:<br/>
+                     <content styleCode="bold">Amneal Pharmaceuticals</content>
+                     <br/>85 Adams Ave.<br/>Hauppauge, NY 11788</paragraph>
+                  <paragraph>Distributed By:<br/>
+                     <content styleCode="bold">McKesson Packaging Services</content>
+                     <br/>a business unit of McKesson Corporation<br/>7101 Weddington Rd. Concord, NC 28027</paragraph>
+                  <paragraph>IS-4011672</paragraph>
+                  <paragraph>JULY 2011</paragraph>
+               </text>
+               <effectiveTime value="20170406"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_9d444265-4a63-4770-9084-21d989a68e6f">
+               <id root="8ffdc18d-28a8-455e-8e5e-33088a15b230"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package Display Panel</title>
+               <text>
+                  <renderMultiMedia ID="id628" referencedObject="id_74db5bbd-ba48-4a34-929a-78101263af94"/>
+               </text>
+               <effectiveTime value="20170406"/>
+               <component>
+                  <observationMedia ID="id_74db5bbd-ba48-4a34-929a-78101263af94">
+                     <text>Unit Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="b27e79b9-42b0-4c56-a1da-512e0742a13f-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

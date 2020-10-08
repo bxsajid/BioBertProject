@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2c18d1ad-63a7-437a-b61a-87e187cd4969"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="Human Prescription Drug Label"/>
+   <title>These highlights do not include all the information needed to use Indomethacin for Injection safely and effectively. See full prescribing information for Indomethacin for Injection.<br/>
+      <br/> Indomethacin for Injection<br/> Initial U.S. Approval: 1965</title>
+   <effectiveTime value="20200122"/>
+   <setId root="30e38747-c553-4e2d-bc23-634e1dd90b8d"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="608775388" root="1.3.6.1.4.1.519.1"/>
+            <name>Fresenius Kabi USA, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="840771732" root="1.3.6.1.4.1.519.1"/>
+                        <name>Fresenius Kabi USA, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="63323-659" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="f0ab3cf5-abbe-4c11-a0a3-f598d0682f07"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20170331"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63323-659" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Indomethacin<suffix/>
+                        </name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>INDOMETHACIN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XXE1CET956" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>INDOMETHACIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="XXE1CET956" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>INDOMETHACIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.29" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3980JIH2SW" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, MONOBASIC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.41" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="GR686LBA74" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, DIBASIC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="63323-659-09" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20100319"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA022536" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20100319"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="b7a17772-02dc-4d76-97c1-bd8e61359d1a">
+               <id root="e4587ec8-bbe0-4625-a201-a75a364a70a6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Indomethacin for Injection is indicated to close a hemodynamically significant patent ductus arteriosus in premature infants weighing between 500 and 1,750 g when 48 hours usual medical management (e.g., fluid restriction, diuretics, digitalis, respiratory support, etc.) is ineffective.  Clear-cut clinical evidence of a hemodynamically significant patent ductus arteriosus should be present, such as respiratory distress, a continuous murmur, a hyperactive precordium, cardiomegaly, or pulmonary plethora on chest x-ray.</paragraph>
+               </text>
+               <effectiveTime value="20170331"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Indomethacin for Injection is a cardiovascular drug indicated:</paragraph>
+                        <list listType="unordered" styleCode="disc">
+                           <item>To close a hemodynamically significant patent ductus arteriosus in premature infants weighing between 500 and 1,750 g. (<linkHtml href="#b7a17772-02dc-4d76-97c1-bd8e61359d1a">1</linkHtml>)</item>
+                        </list>
+                        <br/>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="e9aa6fb6-3ad5-401e-8241-e4684bb1f985">
+               <id root="0e58e602-2c4a-424d-bba6-70386bdf2e0f"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="italics">For intravenous administration only</content>
+                     </content>.</paragraph>
+                  <paragraph>Dosage recommendations for closure of the ductus arteriosus depend on the age of the infant at the time of therapy.  A course of therapy is defined as three intravenous doses of Indomethacin for Injection given at 12 to 24 hour intervals, with careful attention to urinary output.  If anuria or marked oliguria (urinary output &lt;0.6 mL/kg/hr) is evident at the scheduled time of the second or third dose of Indomethacin for Injection, do not give additional doses until laboratory studies indicate that renal function has returned to normal <content styleCode="italics">
+                        <content styleCode="italics">[see <linkHtml href="#f2a7c486-3e93-4d65-b602-fd49bd18592c">Warnings and Precautions (5.7)</linkHtml>]</content>
+                     </content>.</paragraph>
+                  <paragraph>Dosage according to age is as follows:</paragraph>
+                  <table cellspacing="0" cellpadding="0" border="0">
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" valign="top">AGE at 1st dose<br/>
+                           </td>
+                           <td styleCode="Rrule" colspan="3" align="center" valign="bottom">DOSAGE (mg/kg)<br/>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" valign="top"> <br/>Less than 48 hours<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="bottom">1st<br/>0.2<br/>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="bottom">2nd<br/>0.1<br/>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="bottom">3rd<br/>0.1<br/>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" valign="top">2 to 7 days<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="bottom">0.2<br/>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="bottom">0.2<br/>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="bottom">0.2<br/>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" valign="top">Over 7 days<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="bottom">0.2<br/>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="bottom">0.25<br/>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="bottom">0.25<br/>
+                              <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>If the ductus arteriosus closes or is significantly reduced in size after an interval of 48 hours or more from completion of the first course of Indomethacin for Injection, no further doses are necessary.  If the ductus arteriosus re-opens, a second course of 1 to 3 doses may be given, each dose separated by a 12 to 24 hour interval as described above.</paragraph>
+                  <paragraph>If the neonate remains unresponsive to therapy with Indomethacin for Injection after 2 courses, surgery may be necessary for closure of the ductus arteriosus.</paragraph>
+               </text>
+               <effectiveTime value="20170331"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Dosage is dependent on the age of the infant at time of therapy.  A course of therapy requires intravenous doses of Indomethacin for Injection given at 12 to 24 hour intervals.  </item>
+                        </list>
+                        <table cellspacing="0" cellpadding="0" border="0">
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">AGE at 1st dose<br/>
+                                 </td>
+                                 <td styleCode="Rrule" colspan="3" align="center" valign="bottom">DOSAGE (mg/kg)<br/>
+                                    <br/>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" align="left" valign="bottom"> <br/>Less than 48 hours<br/>
+                                    <br/>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="bottom"> <br/>1st<br/>0.2<br/>
+                                    <br/>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="bottom"> <br/>2nd<br/>0.1<br/>
+                                    <br/>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="bottom"> <br/>3rd<br/>0.1<br/>
+                                    <br/>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">2 to 7 days<br/>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">0.2<br/>
+                                    <br/>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">0.2<br/>
+                                    <br/>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">0.2<br/>
+                                    <br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" valign="top">Over 7 days<br/>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">0.2<br/>
+                                    <br/>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">0.25<br/>
+                                    <br/>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">0.25<br/>
+                                    <br/>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <list listType="unordered" styleCode="disc">
+                           <item>If anuria or marked oliguria (urinary output &lt;0.6 mL/kg/hr) is evident at the scheduled time of the second or third dose of Indomethacin for Injection, do not give additional doses until laboratory studies indicate that renal function has returned to normal </item>
+                           <item>If the ductus arteriosus closes or is significantly reduced in size after an interval of 48 hours or more from completion of the first course of Indomethacin for Injection, no further doses are necessary </item>
+                           <item>If the neonate remains unresponsive to therapy with Indomethacin for Injection after 2 courses, surgery may be necessary for closure of the ductus arteriosus. (<linkHtml href="#fe03c621-9791-480d-9c9e-0a098da45cd9">2.1</linkHtml>) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="fe03c621-9791-480d-9c9e-0a098da45cd9">
+                     <id root="6c14abf5-fd13-4fc1-bc69-08897fd54d6c"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>2.1 Directions for Use</title>
+                     <text>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit.</paragraph>
+                        <paragraph>The reconstituted solution, pH 6.0 to 7.5, is clear, slightly yellow and essentially free from visible particles.  </paragraph>
+                        <paragraph>Prepare the solution with 1 to 2 mL of preservative-free Sterile Sodium Chloride Injection, 0.9 percent or preservative-free Sterile Water for Injection.  Benzyl alcohol as a preservative has been associated with toxicity in neonates.  Therefore, do not use diluents that contain preservatives.  If 1 mL of diluent is used, the concentration of indomethacin in the solution will equal approximately 0.1 mg/0.1 mL; if 2 mL of diluent are used, the concentration of the solution will equal approximately 0.05 mg/0.1 mL.  Discard any unused portion of the solution as it does not contain a preservative.  Prepare a fresh solution just prior to each administration.  Once reconstituted, the indomethacin solution may be injected intravenously.  While the optimal rate of injection has not been established, published literature suggests an infusion rate over 20 to 30 minutes.  </paragraph>
+                        <paragraph>Further dilution with intravenous infusion solutions is not recommended.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ac16b354-ba60-4b46-a883-8b0506b07772">
+               <id root="a309b31a-ab29-46b3-86b2-be68c1607c2e"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Indomethacin for Injection is supplied in single dose vials containing 1 mg of indomethacin as a sterile lyophilized powder or plug for reconstitution.</paragraph>
+               </text>
+               <effectiveTime value="20170331"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Single dose vials of 1 mg indomethacin as a sterile, lyophilized powder or plug for reconstitution. (<linkHtml href="#ac16b354-ba60-4b46-a883-8b0506b07772">3</linkHtml>) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="e43da573-3fe2-4eb2-85c1-6369501b575b">
+               <id root="b045ded3-7287-4472-857f-5163896d5a28"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Indomethacin for Injection is contraindicated in neonates: </paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>With proven or suspected infection that is untreated</item>
+                     <item>Who are bleeding, especially those with active intracranial hemorrhage or gastrointestinal bleeding</item>
+                     <item>With thrombocytopenia or coagulation defects</item>
+                     <item>With or who are suspected of having necrotizing enterocolitis</item>
+                     <item>With significant impairment of renal function</item>
+                     <item>With congenital heart disease in whom patency of the ductus arteriosus is necessary for satisfactory pulmonary or systemic blood flow (e.g., pulmonary atresia, severe tetralogy of Fallot, severe coarctation of the aorta).</item>
+                  </list>
+               </text>
+               <effectiveTime value="20170331"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Indomethacin for Injection is contraindicated in neonates:</paragraph>
+                        <list listType="unordered" styleCode="disc">
+                           <item>With proven or suspected infection that is untreated</item>
+                           <item>Who are bleeding, especially those with active intracranial hemorrhage or gastrointestinal bleeding</item>
+                           <item>With thrombocytopenia or coagulation defects</item>
+                           <item>Suspected of having necrotizing enterocolitis</item>
+                           <item>With significant impairment of renal function</item>
+                           <item>With congenital heart disease in whom patency of the ductus arteriosus is necessary for satisfactory pulmonary or systemic blood flow. (<linkHtml href="#e43da573-3fe2-4eb2-85c1-6369501b575b">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ba503b46-34a3-4f63-91ee-0ab09eb84f10">
+               <id root="4d46d94c-2df8-4356-be1f-daff34d28872"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20170331"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Indomethacin may mask the usual signs of infection. (<linkHtml href="#fdcb819d-609f-4631-a7c5-ebcc28db0718">5.1</linkHtml>)</item>
+                           <item>Monitor for signs of hepatic reactions. Indomethacin for Injection may need to be discontinued. (<linkHtml href="#b627dc65-dbca-41db-b625-a0604f87de61">5.2</linkHtml>)</item>
+                           <item>Indomethacin for Injection may inhibit platelet aggregation. (<linkHtml href="#ffb4d13c-2787-4213-95af-1a14dc8f2f7f">5.3</linkHtml>)</item>
+                           <item>Gastrointestinal Effects:  Monitor neonates for blood in stool. (<linkHtml href="#b033b56e-92c7-440f-b27d-7bd2551afbca">5.4</linkHtml>)</item>
+                           <item>Central Nervous System Effects: Monitor neonates for intraventricular hemorrhage. (<linkHtml href="#d9115c25-8dc6-491c-90b9-9f873db4d00e">5.5</linkHtml>)</item>
+                           <item>Renal Effects: Monitor renal function and serum electrolytes. (<linkHtml href="#e9ad44b0-0146-45c4-95b4-44923778690c">5.6</linkHtml>) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="fdcb819d-609f-4631-a7c5-ebcc28db0718">
+                     <id root="6abdf729-a199-408d-b371-6fdef567d3e2"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title>5.1 Infection</title>
+                     <text>
+                        <paragraph>Indomethacin may mask the usual signs and symptoms of infection.  Therefore, the physician must be continually on the alert for this and should use the drug with extra care in the presence of existing controlled infection.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="b627dc65-dbca-41db-b625-a0604f87de61">
+                     <id root="889fd377-2557-4424-b71c-959cfdd787f2"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title>5.2 Hepatic Reactions</title>
+                     <text>
+                        <paragraph>Severe hepatic reactions have been reported in adults treated chronically with oral indomethacin for arthritic disorders.  [For further information, see package insert for oral indomethacin].  If clinical signs and symptoms consistent with liver disease develop in the neonate, or if systemic manifestations occur, discontinue Indomethacin for Injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ffb4d13c-2787-4213-95af-1a14dc8f2f7f">
+                     <id root="49c4684e-c686-49c8-b9ac-2b32cadd08ea"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title>5.3 Platelet Aggregation</title>
+                     <text>
+                        <paragraph>Indomethacin for Injection may inhibit platelet aggregation.  In one small study, platelet aggregation was grossly abnormal after indomethacin therapy (given orally to premature infants to close the ductus arteriosus).  Platelet aggregation returned to normal by the tenth day.  Observe premature infants for signs of bleeding.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="b033b56e-92c7-440f-b27d-7bd2551afbca">
+                     <id root="ddf02a45-1340-4674-8da4-d8eb2198f404"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title>5.4 Gastrointestinal Effects</title>
+                     <text>
+                        <paragraph>In the collaborative study, major gastrointestinal bleeding was no more common in neonates receiving indomethacin than in neonates on placebo.  However, minor gastrointestinal bleeding (i.e., chemical detection of blood in the stool) was more commonly noted in neonates treated with indomethacin.  Severe gastrointestinal effects have been reported in adults with various arthritic disorders treated chronically with oral indomethacin.  [For further information, see package insert for oral indomethacin].</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="d9115c25-8dc6-491c-90b9-9f873db4d00e">
+                     <id root="518fbc0f-1123-40d0-96bc-7b17ba384fd0"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title>5.5 Central Nervous System Effects</title>
+                     <text>
+                        <paragraph>Prematurity per se is associated with an increased incidence of spontaneous intraventricular hemorrhage.  Because indomethacin may inhibit platelet aggregation, the potential for intraventricular bleeding may be increased.  However, in the large multicenter study of Indomethacin for Injection, the incidence of intraventricular hemorrhage in neonates treated with Indomethacin for Injection was not significantly higher than in the control neonates.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="e9ad44b0-0146-45c4-95b4-44923778690c">
+                     <id root="4a721f65-bc1b-49b6-ab7c-cb4ffb24239e"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title>5.6 Renal Effects</title>
+                     <text>
+                        <paragraph>Indomethacin for Injection may cause significant reduction in urine output (50 percent or more) with concomitant elevations of blood urea nitrogen and creatinine, and reductions in glomerular filtration rate and creatinine clearance.  These effects in most neonates are transient, disappearing with cessation of therapy with Indomethacin for Injection.  However, because adequate renal function can depend upon renal prostaglandin synthesis, Indomethacin for Injection may precipitate renal insufficiency, including acute renal failure, especially in neonates with other conditions that may adversely affect renal function (e.g., extracellular volume depletion from any cause, congestive heart failure, sepsis, concomitant use of any nephrotoxic drug, hepatic dysfunction).  When significant suppression of urine volume occurs after a dose of Indomethacin for Injection, do not give additional doses until urine output returns to normal levels.</paragraph>
+                        <paragraph>Indomethacin for Injection in pre-term infants may suppress water excretion to a greater extent than sodium excretion.  When this occurs, a significant reduction in serum sodium values (i.e., hyponatremia) may result.  Monitor renal function and serum electrolyte levels during therapy with Indomethacin for Injection  <content styleCode="italics">
+                              <content styleCode="italics">[see <linkHtml href="#e9aa6fb6-3ad5-401e-8241-e4684bb1f985">Dosage and Administration (2)</linkHtml>]</content>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="f2a7c486-3e93-4d65-b602-fd49bd18592c">
+                     <id root="c4801489-81a8-419d-9f12-2f5114235f5a"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title>5.7 Administration</title>
+                     <text>
+                        <paragraph>Administer Indomethacin for Injection carefully to avoid extravascular injection or leakage as the solution may be irritating to tissue.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="aecaf11d-097e-42f4-9a67-36e473a6e0a7">
+               <id root="15876a71-8d06-4022-8cea-692e22f571e5"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <effectiveTime value="20170331"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions are bleeding problems, higher incidence of transient oliguria and elevations of serum creatinine. (<linkHtml href="#dc1585e0-f20b-4c95-b7ec-aa72064369d7">6.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Fresenius Kabi USA, LLC at 1-800-551-7176 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="dc1585e0-f20b-4c95-b7ec-aa72064369d7">
+                     <id root="694911a0-daf7-4db3-baf4-1b1aad6d120f"/>
+                     <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>In a double-blind, placebo-controlled trial of 405 premature infants weighing less than or equal to 1,750 g with evidence of large ductal shunting, in those neonates treated with indomethacin (n=206), there was a statistically significantly greater incidence of bleeding problems, including gross or microscopic bleeding into the gastrointestinal tract, oozing from the skin after needle stick, pulmonary hemorrhage, and disseminated intravascular coagulopathy.  There was no statistically significant difference between treatment groups in intracranial hemorrhage.</paragraph>
+                        <paragraph>The neonates treated with Indomethacin for Injection had a significantly higher incidence of transient oliguria and elevations of serum creatinine (greater than or equal to 1.8 mg/dL) than did the neonates treated with placebo.</paragraph>
+                        <paragraph>The incidences of retrolental fibroplasia (grades III and IV) and pneumothorax in neonates treated with Indomethacin for Injection were no greater than in placebo controls and were statistically significantly lower than in surgically-treated neonates.</paragraph>
+                        <paragraph>The following additional adverse reactions in neonates have been reported from the collaborative study, anecdotal case reports, from other studies using rectal, oral, or intravenous indomethacin for treatment of patent ductus arteriosus or in marketed use.  The rates are calculated from a database that contains experience of 849 indomethacin-treated neonates reported in the medical literature, regardless of the route of administration.  One year follow-up is available on 175 neonates and shows no long-term sequelae that could be attributed to indomethacin.  In controlled clinical studies, only electrolyte imbalance and renal dysfunction (of the reactions listed below) occurred statistically significantly more frequently after Indomethacin for Injection than after placebo.  Reactions marked with a single asterisk (*) occurred in 3 to 9 percent of indomethacin-treated neonates; those marked with a double asterisk (**) occurred in 3 to 9 percent of both indomethacin- and placebo-treated neonates.  Unmarked reactions occurred in less than 3 percent of neonates.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="italics">Renal:</content>
+                           </content> renal failure, renal dysfunction in 41 percent of neonates, including one or more of the following: reduced urinary output; reduced urine sodium, chloride, or potassium, urine osmolality, free water clearance, or glomerular filtration rate; elevated serum creatinine or BUN; uremia.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="italics">Cardiovascular:</content>
+                           </content> intracranial bleeding**, pulmonary hypertension.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="italics">Gastrointestinal:</content>
+                           </content> gastrointestinal bleeding*, vomiting, abdominal distention, transient ileus, gastric perforation, localized perforation(s) of the small and/or large intestine, necrotizing enterocolitis.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="italics">Metabolic:</content>
+                           </content> hyponatremia*, elevated serum potassium*, reduction in blood sugar, including hypoglycemia, increased weight gain (fluid retention).</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="italics">Coagulation:</content>
+                           </content> decreased platelet aggregation <content styleCode="italics">
+                              <content styleCode="italics">[see <linkHtml href="#ffb4d13c-2787-4213-95af-1a14dc8f2f7f">Warnings and Precautions (5.3)</linkHtml>]</content>
+                           </content>.</paragraph>
+                        <paragraph>The following adverse reactions have also been reported in neonates treated with indomethacin, however, a causal relationship to therapy with Indomethacin for Injection has not been established:</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="italics">Cardiovascular:</content>
+                           </content> bradycardia.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="italics">Respiratory:</content>
+                           </content> apnea, exacerbation of pre-existing pulmonary infection.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="italics">Metabolic:</content>
+                           </content> acidosis/alkalosis.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="italics">Hematologic:</content>
+                           </content> disseminated intravascular coagulation, thrombocytopenia.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="italics">Ophthalmic:</content>
+                           </content> retrolental fibroplasia.**</paragraph>
+                        <paragraph>A variety of additional adverse experiences have been reported in adults treated with oral indomethacin for moderate to severe rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, acute painful shoulder and acute gouty arthritis (see package insert for oral indomethacin for additional information concerning adverse reactions and other cautionary statements).  Their relevance to the pre-term infant receiving indomethacin for patent ductus arteriosus is unknown, however, the possibility exists that these experiences may be associated with the use of Indomethacin for Injection in pre-term infants.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="fd58e918-0001-443a-99bb-86e4286258fd">
+               <id root="f9c2fd13-a581-4531-bad0-5eb3176e9090"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>As renal function may be reduced by Indomethacin for Injection, consider reducing the dosage of those medications that rely on adequate renal function for their elimination.</paragraph>
+               </text>
+               <effectiveTime value="20170331"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>When used concomitantly with digoxin, monitor neonates for the development of digoxin toxicity. (<linkHtml href="#e2a3187c-6d3d-47c0-8e7f-7ad0d607bfa1">7.1</linkHtml>)</item>
+                           <item>Monitor prothrombin time when indomethacin is added to anticoagulants. (<linkHtml href="#c8db1e5f-72fb-4863-87ff-a96f9f0b421b">7.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="e2a3187c-6d3d-47c0-8e7f-7ad0d607bfa1">
+                     <id root="36526259-3207-44a0-a8a6-0342d420c124"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>7.1 Digoxin</title>
+                     <text>
+                        <paragraph>Because the half-life of digoxin (given frequently to pre-term infants with patent ductus arteriosus and associated cardiac failure) may be prolonged when given concomitantly with indomethacin, observe neonates receiving concomitant digoxin closely; frequent ECGs and serum digoxin levels may be required to prevent or detect digoxin toxicity early.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="c8db1e5f-72fb-4863-87ff-a96f9f0b421b">
+                     <id root="9cf450f8-413b-4d98-af06-901d9dac9caf"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>7.2 Anticoagulants</title>
+                     <text>
+                        <paragraph>Indomethacin usually does not influence the hypoprothrombinemia produced by anticoagulants.  When indomethacin is added to anticoagulants, monitor prothrombin time closely.  In post-marketing experience, bleeding has been reported in patients on concomitant treatment with anticoagulants and Indomethacin for Injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ae4bd8ca-ce50-4b5b-b145-7c760405d33b">
+                     <id root="f951b3b7-0487-457a-bf93-669b90bbe41d"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>7.3 Furosemide</title>
+                     <text>
+                        <paragraph>Therapy with indomethacin may blunt the natriuretic effect of furosemide.  This response has been attributed to inhibition of prostaglandin synthesis by non-steroidal anti-inflammatory drugs.  In a study of 19 premature infants with patent ductus arteriosus treated with either Indomethacin for Injection alone or a combination of Indomethacin for Injection and furosemide, results showed that neonates receiving both Indomethacin for Injection and furosemide had significantly higher urinary output, higher levels of sodium and chloride excretion, and higher glomerular filtration rates than did those receiving Indomethacin for Injection alone.  In this study, therapy with furosemide helped to maintain renal function in the premature infant when Indomethacin for Injection was added.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="fc720934-60ca-408c-8ac1-b0f6698ba57a">
+                     <id root="ec8c38a3-0703-48f5-9633-f66477076edc"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>7.4 Aminoglycosides</title>
+                     <text>
+                        <paragraph>In one study of premature infants treated with Indomethacin for Injection and also receiving either gentamicin or amikacin, both peak and trough levels of these aminoglycosides were significantly elevated.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="b2282bea-2b1a-4ab2-b6bc-1f9e2ea97815">
+                     <id root="2e9bf8da-d0f5-40a0-be81-5b83a1ad7ea8"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>7.5 Drugs that Act on the Renin-Angiotensin System</title>
+                     <text>
+                        <paragraph>In some patients with compromised renal function, the co-administration of an NSAID and an ACE inhibitor or angiotensin II antagonist may result in further deterioration of renal function, including possible acute renal failure, which is usually reversible.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="a341c655-4f0f-497f-b193-4cea1fd3f666">
+               <id root="a2f8e08b-4458-4c3a-8cc8-7ba4f2e9e202"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Sterile Indomethacin for Injection for intravenous administration is lyophilized indomethacin for injection.  Each vial of indomethacin for injection contains 1 mg indomethacin; 0.29 mg monobasic sodium phosphate, 0.41 mg dibasic sodium phosphate and not more than 0.24 mg of sodium hydroxide (used for converting indomethacin base to the sodium salt) as a white to yellow lyophilized powder or plug.  Variations in the size of the lyophilized plug and the intensity of color have no relationship to the quality or amount of indomethacin present in the vial.</paragraph>
+                  <paragraph>The reconstituted solution, pH 6.0 to 7.5, is clear, slightly yellow and essentially free from visible particles.  The pH of the product does not meet the USP monograph [FD&amp;C Act Chapter V, SEC. 501. [21USC §351](b)].</paragraph>
+                  <paragraph>Indomethacin is designated chemically as 1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1<content styleCode="italics">
+                        <content styleCode="italics">H</content>
+                     </content>-indole-3-acetic acid.  The structural formula is:</paragraph>
+                  <paragraph> <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <paragraph>  <content styleCode="bold">C<sub>19</sub>H<sub>16</sub>ClNO<sub>4                  </sub>
+                     </content>                        <content styleCode="bold">M.W. 357.8</content> </paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20170330"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="indo-stru.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="bf51d17d-5cb9-46a0-a165-01751b0f0d3d">
+               <id root="d684815d-3732-4aaf-bb86-09ce05a89736"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20170331"/>
+               <component>
+                  <section ID="bb22b3f0-a15c-4e4a-bb6e-745cb4c2aac2">
+                     <id root="d6f3d62b-b26b-44f6-a515-52eaf72f89d8"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Although the exact mechanism of action through which indomethacin causes closure of a patent ductus arteriosus is not known, it is believed to be through inhibition of prostaglandin synthesis.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="e7dd912b-9bb9-4ec4-8d28-bd0deaea9977">
+                     <id root="bd8a8849-7194-42b7-bf45-0a2d41e7fd7f"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Indomethacin has been shown to be a potent inhibitor of prostaglandin synthesis, both <content styleCode="italics">
+                              <content styleCode="italics">in vitro</content>
+                           </content> and <content styleCode="italics">
+                              <content styleCode="italics">in vivo</content>
+                           </content>.  In human newborns with certain congenital heart malformations, PGE 1 dilates the ductus arteriosus.  In fetal and newborn lambs, E type prostaglandins have also been shown to maintain the patency of the ductus, and as in human newborns, indomethacin causes its constriction.</paragraph>
+                        <paragraph>Studies in healthy young animals and in premature infants with patent ductus arteriosus indicated that, after the first dose of intravenous indomethacin, there was a transient reduction in cerebral blood flow velocity and cerebral blood flow.  Similar decreases in mesenteric blood flow and velocity have been observed.  The clinical significance of these effects has not been established.</paragraph>
+                        <paragraph>In double-blind, placebo-controlled studies of Indomethacin for Injection in 460 small pre-term infants, weighing 1,750 g or less, the neonates treated with placebo had a ductus closure rate after 48 hours of 25 to 30 percent, whereas those treated with Indomethacin for Injection had a 75 to 80 percent closure rate.  In one of these studies, a multicenter study, involving 405 pre-term infants, later reopening of the ductus arteriosus occurred in 26 percent of neonates treated with Indomethacin for Injection however, 70 percent of these closed subsequently without the need for surgery or additional indomethacin.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="b2031a3c-cfe1-4d89-be43-f77cebe8ef4a">
+                     <id root="76307b28-2f48-4c62-b879-8ae45cd54273"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>The disposition of indomethacin following intravenous administration (0.2 mg/kg) in pre-term neonates with patent ductus arteriosus has not been extensively evaluated.  Even though the plasma half-life of indomethacin was variable among premature infants, it was shown to vary inversely with postnatal age and weight.  In one study, of 28 neonates who could be evaluated, the plasma half-life in those less than 7 days old averaged 20 hours (range: 3 to 60 hours, n=18).  In neonates older than 7 days, the mean plasma half-life of indomethacin was 12 hours (range: 4 to 38 hours, n=10).  Grouping the neonates by weight, mean plasma half-life in those weighing less than 1,000 g was 21 hours (range: 9 to 60 hours, n=10); in those neonates weighing more than 1,000 g, the mean plasma half-life was 15 hours (range: 3 to 52 hours, n=18).</paragraph>
+                        <paragraph>Following intravenous administration in adults, indomethacin is eliminated via renal excretion, metabolism, and biliary excretion.  Indomethacin undergoes appreciable enterohepatic circulation.  The mean plasma half-life of indomethacin is 4.5 hours.  In the absence of enterohepatic circulation, it is 90 minutes.  Indomethacin has been found to cross the blood-brain barrier and the placenta.</paragraph>
+                        <paragraph>In adults, about 99 percent of indomethacin is bound to protein in plasma over the expected range of therapeutic plasma concentrations.  The percent bound in neonates has not been studied.  In controlled trials in premature infants, however, no evidence of bilirubin displacement has been observed as evidenced by increased incidence of bilirubin encephalopathy (kernicterus).</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="a0fd4366-9620-47f8-aada-c18b90eb2620">
+               <id root="eb5fe7e9-053b-42eb-b720-29291747c987"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <text>
+                  <paragraph>In rats and mice, oral indomethacin 4 mg/kg/day given during the last three days of gestation caused a decrease in maternal weight gain and some maternal and fetal deaths.  An increased incidence of neuronal necrosis in the diencephalon in the live-born fetuses was observed.  At 2 mg/kg/day, no increase in neuronal necrosis was observed as compared to the control groups.  Administration of 0.5 or 4 mg/kg/day during the first three days of life did not cause an increase in neuronal necrosis at either dose level.</paragraph>
+                  <paragraph>Pregnant rats, given 2 mg/kg/day and 4 mg/kg/day during the last trimester of gestation, delivered offspring whose pulmonary blood vessels were both reduced in number and excessively muscularized.  These findings are similar to those observed in the syndrome of persistent pulmonary hypertension of the neonate.</paragraph>
+               </text>
+               <effectiveTime value="20170331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f19bee57-58bc-4299-9536-25738cc1e7e2">
+               <id root="5408ece5-9c2b-413a-b048-a02a41ddfb62"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <effectiveTime value="20170331"/>
+               <component>
+                  <section ID="f2870cbf-46f0-47c3-baaa-72bea18fc178">
+                     <id root="bec24486-577e-4bbb-8550-cba191a6e268"/>
+                     <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+                     <title>16.1 How Supplied</title>
+                     <text>
+                        <paragraph>Sterile Indomethacin for Injection is a lyophilized white to yellow powder or plug supplied as single dose vials containing indomethacin for injection, equivalent to 1 mg indomethacin.</paragraph>
+                        <table cellspacing="0" cellpadding="0" border="0">
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">
+                                    <content styleCode="bold">Product</content>
+                                    <br/>
+                                    <content styleCode="bold">No.</content>
+                                    <br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">
+                                    <content styleCode="bold">NDC</content>
+                                    <br/>
+                                    <content styleCode="bold">No.</content>
+                                    <br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">
+                                    <br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" valign="top">NP605903<br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">63323-659-09<br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">Packaged individually.<br/>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>The container closure is not made with natural rubber latex.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="f6c94104-39d0-481f-82dd-1b2c1e2a0488">
+                     <id root="4eeb2754-ec98-4320-8c58-806727be7292"/>
+                     <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+                     <title>16.2 Storage</title>
+                     <text>
+                        <paragraph>Store at 25°C (77°F) with excursions permitted to 15° to 30°C (59° to 86°F).   Protect from light.  Store container in carton until contents have been used.</paragraph>
+                        <paragraph>NOVAPLUS is a registered trademark of Vizient, Inc.</paragraph>
+                     </text>
+                     <effectiveTime value="20170331"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="df5b3a09-3564-4d07-b67f-61a5c83a3a20">
+               <id root="c11cd9a8-1cdb-4c1c-9eff-1ae992302f43"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Fresenius Kabi</content>
+                  </paragraph>
+                  <paragraph>Lake Zurich, IL 60047<br/>
+                     <br/> www.fresenius-kabi.us</paragraph>
+                  <br/>
+                  <paragraph>451358A</paragraph>
+                  <paragraph>Revised: March 2017</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM2"/> </paragraph>
+               </text>
+               <effectiveTime value="20170331"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>novoplus</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="novapluslogo.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="df9a5394-d8e8-43f9-bf41-30e7fd2fbc24">
+               <id root="a0ac9735-398a-487a-90fb-356920465e20"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PACKAGE LABEL - PRINCIPAL DISPLAY - Indomethacin for Injection 1 mg Vial Label</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Indomethacin For Injection<br/>
+                     </content>
+                     <content styleCode="bold">1 mg per vial</content>
+                  </paragraph>
+                  <paragraph>FOR THE PREPARATION OF INTRAVENOUS SOLUTIONS</paragraph>
+                  <paragraph>Sterile     Rx only</paragraph>
+                  <paragraph>Single Dose Vial - Discard unused portion</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM3"/>
+                  </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">PACKAGE LABEL - PRINCIPAL DISPLAY - Indomethacin for Injection 1 mg Carton Panel</content> </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Indomethacin For Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 mg per vial</content>
+                  </paragraph>
+                  <paragraph>For Intravenous Use Only<content styleCode="bold">
+                        <content styleCode="italics"> <br/>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>FOR THE PREPARATION OF INTRAVENOUS SOLUTIONS</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>One vial </paragraph>
+                  <paragraph>Single Dose Vial - Discard any unused portion immediately.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM4"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170331"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>vial</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="indonpvial.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="indonpcarton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

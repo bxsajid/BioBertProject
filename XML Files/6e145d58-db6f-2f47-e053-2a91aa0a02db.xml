@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="6e145d58-db6f-2f47-e053-2a91aa0a02db"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use NEOPROFEN safely and effectively. See full prescribing information for NEOPROFEN.
+ <br/>
+      <br/>
+NEOPROFEN
+ <sup>® </sup>(ibuprofen lysine) Injection, for intravenous use
+ <br/>
+      <br/>
+Initial U.S. Approval: 1974
+</title>
+   <effectiveTime value="20181207"/>
+   <setId root="6f5ede6f-b0b7-4fc8-969e-652f60ead047"/>
+   <versionNumber value="10"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="181699406"/>
+            <name>RECORDATI RARE DISEASES, INC.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="832394733"/>
+                        <name>Alcami Carolinas Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55292-122" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="7c731f05-b64b-1d3a-e053-2a91aa0a6ad9"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20181207"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="55292-122" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NeoProfen</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ibuprofen lysine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="N01ORX9D6S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IBUPROFEN LYSINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IBUPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="3" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="55292-122-52" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20060413"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA021903" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20060413"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPLRIndicationsUsage">
+               <id root="6e145d58-db73-2f47-e053-2a91aa0a02db"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>NeoProfen is indicated to close a clinically significant patent ductus arteriosus (PDA) in premature infants weighing between 500 and 1500 g, who are no more than 32 weeks gestational age when usual medical management (e.g., fluid restriction, diuretics, respiratory support, etc.) is ineffective. The clinical trial was conducted among infants with an asymptomatic PDA. However, the consequences beyond 8 weeks after treatment have not been evaluated; therefore, treatment should be reserved for infants with clear evidence of a clinically significant PDA.</paragraph>
+               </text>
+               <effectiveTime value="20171023"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>NeoProfen is a nonsteroidal anti-inflammatory drug indicated to close a clinically significant patent ductus arteriosus (PDA) in premature infants weighing between 500 and 1500 g, who are no more than 32 weeks gestational age when usual medical management is ineffective. The clinical trial was conducted among infants with an asymptomatic PDA. However, the consequences beyond 8 weeks after treatment have not been evaluated; therefore, treatment should be reserved for infants with clear evidence of a clinically significant PDA. 
+    <linkHtml href="#splSectionPLRIndicationsUsage">(1)</linkHtml>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPLRDosageAdministration">
+               <id root="6e145d58-db7d-2f47-e053-2a91aa0a02db"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">2.1 Recommended Dose</content>
+                  </paragraph>
+                  <paragraph>A course of therapy is three doses of NeoProfen administered intravenously (administration via an umbilical arterial line has not been evaluated). An initial dose of 10 mg per kilogram is followed by two doses of 5 mg per kilogram each, after 24 and 48 hours. All doses should be based on birth weight. If anuria or marked oliguria (urinary output &lt;0.6 mL/kg/hr) is evident at the scheduled time of the second or third dose of NeoProfen, no additional dosage should be given until laboratory studies indicate that renal function has returned to normal. If the ductus arteriosus closes or is significantly reduced in size after completion of the first course of NeoProfen, no further doses are necessary. If during continued medical management the ductus arteriosus fails to close or reopens, then a second course of NeoProfen, alternative pharmacological therapy, or surgery may be necessary.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2.2 Directions for Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For intravenous administration only.</content> Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit. Do not use NeoProfen if particulate matter is observed.
+ </paragraph>
+                  <paragraph>After the first withdrawal from the vial, any solution remaining must be discarded because NeoProfen contains no preservative.</paragraph>
+                  <paragraph>For administration, NeoProfen should be diluted to an appropriate volume with dextrose or saline. NeoProfen should be prepared for infusion and administered within 30 minutes of preparation and infused continuously over a period of 15 minutes. The drug should be administered via the IV port that is nearest the insertion site. After the first withdrawal from the vial, any solution remaining must be discarded because NeoProfen contains no preservative.</paragraph>
+                  <paragraph>Since NeoProfen is potentially irritating to tissues, it should be administered carefully to avoid extravasation.</paragraph>
+                  <paragraph>NeoProfen should not be simultaneously administered in the same intravenous line with Total Parenteral Nutrition (TPN). If necessary, TPN should be interrupted for a 15-minute period prior to and after drug administration. Line patency should be maintained by using dextrose or saline.</paragraph>
+               </text>
+               <effectiveTime value="20131217"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>A course of therapy is three doses administered I.V. 
+     <linkHtml href="#splSectionPLRDosageAdministration">(2.1)</linkHtml>
+                           </item>
+                           <item>An initial dose of 10 mg/kg (based on birth weight) is followed by two doses of 5 mg/kg each, after 24 and 48 hours 
+     <linkHtml href="#splSectionPLRDosageAdministration">(2.1)</linkHtml>
+                           </item>
+                           <item>Do not administer if anuria or marked oliguria (&lt;0.6 mL/kg/hr) is evident at the scheduled time of the second or third dose 
+     <linkHtml href="#splSectionPLRDosageAdministration">(2.1)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPLRDosageFormsStrength">
+               <id root="6ea0accd-36c5-502c-e053-2991aa0a02ba"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>20 mg/2 mL (10 mg/mL) as a clear sterile preservative-free solution of the L-lysine salt of ibuprofen in a 2 mL single-use vial.</paragraph>
+               </text>
+               <effectiveTime value="20180607"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>20 mg/2 mL (10 mg/mL) as a clear sterile preservative-free solution of the L-lysine salt of ibuprofen in a 2 mL single-use vial 
+     <linkHtml href="#splSectionPLRDosageFormsStrength">(3)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPLRContraindications">
+               <id root="6e145d58-db70-2f47-e053-2a91aa0a02db"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>NeoProfen is contraindicated in:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Preterm infants with proven or suspected infection that is untreated;</item>
+                     <item>Preterm infants with congenital heart disease in whom patency of the PDA is necessary for satisfactory pulmonary or systemic blood flow (e.g., pulmonary atresia, severe tetralogy of Fallot, severe coarctation of the aorta);</item>
+                     <item>Preterm infants who are bleeding, especially those with active intracranial hemorrhage or gastrointestinal bleeding;</item>
+                     <item>Preterm infants with thrombocytopenia;</item>
+                     <item>Preterm infants with coagulation defects;</item>
+                     <item>Preterm infants with or who are suspected of having necrotizing enterocolitis;</item>
+                     <item>Preterm infants with significant impairment of renal function.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20131217"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>NeoProfen is contraindicated in preterm infants:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>With proven or suspected infection that is untreated 
+          
+  
+     <linkHtml href="#splSectionPLRContraindications">(4)</linkHtml>
+                           </item>
+                           <item>With congenital heart disease in whom patency of the PDA is necessary for satisfactory pulmonary or systemic blood flow 
+          
+  
+     <linkHtml href="#splSectionPLRContraindications">(4)</linkHtml>
+                           </item>
+                           <item>With impaired renal function 
+          
+  
+     <linkHtml href="#splSectionPLRContraindications">(4)</linkHtml>
+                           </item>
+                           <item>With  thrombocytopenia, coagulation defects or who are bleeding 
+          
+  
+     <linkHtml href="#splSectionPLRContraindications">(4)</linkHtml>
+                           </item>
+                           <item>With or who are suspected of having necrotizing enterocolitis 
+          
+  
+     <linkHtml href="#splSectionPLRContraindications">(4)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPLRWarnings">
+               <id root="6e145d58-db71-2f47-e053-2a91aa0a02db"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">5.1 General</content>
+                  </paragraph>
+                  <paragraph>There are no long-term evaluations of the infants treated with ibuprofen at durations greater than the 36 weeks post-conceptual age observation period. Ibuprofen’s effects on neurodevelopmental outcome and growth as well as disease processes associated with prematurity (such as retinopathy of prematurity and chronic lung disease) have not been assessed.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5.2 Infection</content>
+                  </paragraph>
+                  <paragraph>NeoProfen may alter the usual signs of infection. The physician must be continually on the alert and should use the drug with extra care in the presence of controlled infection and in infants at risk of infection.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5.3 Platelet Aggregation</content>
+                  </paragraph>
+                  <paragraph>NeoProfen, like other non-steroidal anti-inflammatory agents, can inhibit platelet aggregation. Preterm infants should be observed for signs of bleeding. Ibuprofen has been shown to prolong bleeding time (but within the normal range) in normal adult subjects. This effect may be exaggerated in patients with underlying hemostatic defects (see 
+  <linkHtml href="#splSectionPLRContraindications">CONTRAINDICATIONS</linkHtml>).
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5.4 Bilirubin Displacement</content>
+                  </paragraph>
+                  <paragraph>Ibuprofen has been shown to displace bilirubin from albumin binding-sites; therefore, it should be used with caution in patients with elevated total bilirubin.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5.5 Administration</content>
+                  </paragraph>
+                  <paragraph>NeoProfen should be administered carefully to avoid extravascular injection or leakage, as solution may be irritating to tissue.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20131217"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>NeoProfen has not been assessed for neurodevelopmental outcome and growth 
+     <linkHtml href="#splSectionPLRWarnings">(5.1)</linkHtml>
+                           </item>
+                           <item>NeoProfen may alter the usual signs of infection 
+     <linkHtml href="#splSectionPLRWarnings">(5.2)</linkHtml>
+                           </item>
+                           <item>NeoProfen can inhibit platelet aggregation, and has been shown to prolong bleeding time in normal adult subjects 
+     <linkHtml href="#splSectionPLRWarnings">(5.3)</linkHtml>
+                           </item>
+                           <item>Ibuprofen has been shown to displace bilirubin from albumin binding-sites 
+     <linkHtml href="#splSectionPLRWarnings">(5.4)</linkHtml>
+                           </item>
+                           <item>NeoProfen should be administered carefully to avoid extravascular injection or leakage 
+     <linkHtml href="#splSectionPLRWarnings">(5.5)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPLRAdverseReactions">
+               <id root="6e145d58-db76-2f47-e053-2a91aa0a02db"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">6.1 Clinical Trials Experience</content>
+                  </paragraph>
+                  <paragraph>The most frequently reported adverse events with NeoProfen were as shown in Table 1.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_2a366f7b-2379-29b9-e054-00144ff88e88"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">6.2 Renal Function</content>
+                  </paragraph>
+                  <paragraph>Compared to placebo, there was a small decrease in urinary output in the ibuprofen group on days 2-6 of life, with a compensatory increase in urine output on day 9. In other studies, adverse events classified as renal insufficiency including oliguria, elevated BUN, elevated creatinine, or renal failure were reported in ibuprofen treated infants.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">6.3 Additional Adverse Events</content>
+                  </paragraph>
+                  <paragraph>The adverse events reported in the multicenter study and of unknown association include tachycardia, cardiac failure, abdominal distension, gastroesophageal reflux, gastritis, ileus, inguinal hernia, injection site reactions, cholestasis, various infections, feeding problems, convulsions, jaundice, hypotension, and various laboratory abnormalities including neutropenia, thrombocytopenia, and hyperglycemia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">6.4 Post-marketing Experience</content>
+                  </paragraph>
+                  <paragraph>The following adverse reactions have been identified from spontaneous post-marketing reports or published literature: gastrointestinal perforation, necrotizing enterocolitis, and pulmonary hypertension. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency, or establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20160125"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (≥10%) are sepsis, anemia, intraventricular bleeding, apnea, gastrointestinal disorders, impaired renal function, respiratory infection, skin lesions, hypoglycemia, hypocalcemia, respiratory failure. 
+    <linkHtml href="#splSectionPLRAdverseReactions">(6)</linkHtml>
+                        </paragraph>
+                        <paragraph>
+                           <br/>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Recordati Rare Diseases at 1-888-575-8344, or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <observationMedia ID="img_2a366f7b-2379-29b9-e054-00144ff88e88">
+                     <text>Table 1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Table 1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPLRDrugInteract">
+               <id root="6e145d58-db74-2f47-e053-2a91aa0a02db"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <list listType="unordered">
+                     <item>Diuretics: Ibuprofen may reduce the effect of diuretics; diuretics can increase the risk of nephrotoxicity of NSAIDs in dehydrated patients. Monitor renal function in patients receiving concomitant diuretics.</item>
+                     <item>Amikacin: Ibuprofen may decrease the clearance of amikacin.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20171023"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Diuretics: Increased risk of renal dysfunction. 
+    <linkHtml href="#splSectionPLRDrugInteract">(7)</linkHtml>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5c3c7791-f2d6-3c4b-e053-2a91aa0a4538">
+               <id root="6e145d58-db7e-2f47-e053-2a91aa0a02db"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">8.4 Pediatric Use</content>
+                  </paragraph>
+                  <paragraph>Safety and effectiveness have only been established in premature infants.</paragraph>
+               </text>
+               <effectiveTime value="20171023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPLROverdose">
+               <id root="6e145d58-db75-2f47-e053-2a91aa0a02db"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>The following signs and symptoms have occurred in individuals (not necessarily in premature infants) following an overdose of oral ibuprofen: breathing difficulties, coma, drowsiness, irregular heartbeat, kidney failure, low blood pressure, seizures, and vomiting. There are no specific measures to treat acute overdosage with NeoProfen. The patient should be followed for several days because gastrointestinal ulceration and hemorrhage may occur.</paragraph>
+               </text>
+               <effectiveTime value="20130821"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPLRDescription">
+               <id root="6e145d58-db7a-2f47-e053-2a91aa0a02db"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>NeoProfen 
+  <sup>®</sup> is a clear sterile preservative-free solution of the L-lysine salt of (±)-ibuprofen which is the active ingredient. (±)-Ibuprofen is a nonsteroidal anti-inflammatory agent (NSAID). L-lysine is used to create a water-soluble drug product salt suitable for intravenous administration. Each mL of NeoProfen contains 17.1 mg of ibuprofen lysine (equivalent to 10 mg of (±)-ibuprofen) in Water for Injection, USP. The pH is adjusted to 7.0 with sodium hydroxide or hydrochloric acid.
+ </paragraph>
+                  <paragraph>The structural formula is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM33116"/>
+                  </paragraph>
+                  <paragraph>NeoProfen is designated chemically as α-methyl-4-(2-methyl propyl) benzeneacetic acid lysine salt. Its molecular weight is 352.48. Its empirical formula is C
+  <sub>19</sub>H
+  <sub>32</sub>N
+  <sub>2</sub>O
+  <sub>4</sub>. It occurs as a white crystalline solid which is soluble in water and slightly soluble in ethanol.
+ </paragraph>
+               </text>
+               <effectiveTime value="20130821"/>
+               <component>
+                  <observationMedia ID="MM33116">
+                     <text>Structural Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="structuralFormula.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPLRClinicalPharm">
+               <id root="6e145d58-db7b-2f47-e053-2a91aa0a02db"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">12.1 Mechanism of Action</content>
+                  </paragraph>
+                  <paragraph>The mechanism of action through which ibuprofen causes closure of a patent ductus arteriosus (PDA) in neonates is not known. In adults, ibuprofen is an inhibitor of prostaglandin synthesis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">12.2 Pharmacokinetics and Bioavailability Studies</content>
+                  </paragraph>
+                  <paragraph>The pharmacokinetic data were obtained from 54 NeoProfen-treated premature infants included in a double-blind, placebo-controlled, randomized, multicenter study. Infants were less than 30 weeks gestational age, weighed between 500 and 1000 g, and exhibited asymptomatic PDA with evidence of echocardiographic documentation of ductal shunting. Dosing was initially 10 mg/kg followed by 5 mg/kg at 24 and 48 hours.</paragraph>
+                  <paragraph>The population average clearance and volume of distribution values of racemic ibuprofen for premature infants at birth were 3 mL/kg/h and 320 mL/kg, respectively. Clearance increased rapidly with post-natal age (an average increase of approximately 0.5 mL/kg/h per day). Inter-individual variability in clearance and volume of distribution were 55% and 14%, respectively. In general, the half-life in infants is more than 10 times longer than in adults.</paragraph>
+                  <paragraph>The metabolism and excretion of ibuprofen in premature infants have not been studied.</paragraph>
+                  <paragraph>In adults, renal elimination of unchanged ibuprofen accounts for only 10-15% of the dose. The excretion of ibuprofen and metabolites occurs rapidly in both urine and feces. Approximately 80% of the dose administered orally is recovered in urine as hydroxyl and carboxyl metabolites, respectively, as a mixture of conjugated and unconjugated forms. Ibuprofen is eliminated primarily by metabolism in the liver where CYP2C9 mediates the 2- and 3-hydroxylations of R- and S-ibuprofen. Ibuprofen and its metabolites are further conjugated to acyl glucuronides.</paragraph>
+                  <paragraph>In neonates, renal function and the enzymes associated with drug metabolism are underdeveloped at birth and substantially increase in the days after birth.</paragraph>
+               </text>
+               <effectiveTime value="20131217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPLRClinicalStudies">
+               <id root="6e145d58-db77-2f47-e053-2a91aa0a02db"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>
+14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>In a double-blind, multicenter clinical study premature infants of birth weight between 500 and 1000 g, less than 30 weeks post-conceptional age, and with echocardiographic evidence of a PDA were randomized to placebo or NeoProfen. These infants were asymptomatic from their PDA at the time of enrollment. The primary efficacy parameter was the need for rescue therapy (indomethacin, open-label ibuprofen, or surgery) to treat a hemodynamically significant PDA by study day 14. An infant was rescued if there was clinical evidence of a hemodynamically significant PDA that was echocardiographically confirmed. A hemodynamically significant PDA was defined by three of the following five criteria ― bounding pulse, hyperdynamic precordium, pulmonary edema, increased cardiac silhouette, or systolic murmur ― or hemodynamically significant ductus as determined by a neonatologist.</paragraph>
+                  <paragraph>One hundred and thirty-six premature infants received either placebo or NeoProfen (10 mg/kg on the first dose and 5 mg/kg at 24 and 48 hours). Mean birth age was 1.5 days (range: 4.6 – 73.0 hours), mean gestational age was 26 weeks (range: 23 – 30 weeks), and mean weight was 798 g (range: 530 – 1015 g). All infants had a documented PDA with evidence of ductal shunting. As shown in 
+       
+ 
+  <linkHtml href="#SPLSERV-EF020122-2A01-991F-351B-780454241C00">Table 2</linkHtml>, 25% of infants on NeoProfen required rescue therapy versus 48% of infants on placebo (p=0.003 from logistic regression controlling for site).
+      
+
+ </paragraph>
+                  <table ID="SPLSERV-EF020122-2A01-991F-351B-780454241C00" width="80%">
+                     <caption>Table 2. Summary of Efficacy Results, n (%)</caption>
+                     <col align="left" width="60%"/>
+                     <col align="left" width="20%"/>
+                     <col align="left" width="20%"/>
+                     <thead>
+                        <tr>
+                           <th align="left" styleCode="Botrule Lrule Rrule Toprule"/>
+                           <th align="left" styleCode="Botrule Lrule Rrule Toprule">NeoProfen
+          
+    
+     <br/>
+                              <br/>N=68
+         
+   
+    </th>
+                           <th align="left" styleCode="Botrule Lrule Rrule Toprule">Placebo
+          
+    
+     <br/>
+                              <br/>N=68
+         
+   
+    </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td align="left" styleCode="Lrule Rrule">
+                              <content styleCode="bold"/>Required rescue through study day 14                           
+         
+   
+    </td>
+                           <td align="left" styleCode="Lrule Rrule"/>
+                           <td align="left" styleCode="Lrule Rrule"/>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Lrule Rrule">                              Total 
+          
+    
+     <content styleCode="bold"/>
+                           </td>
+                           <td align="left" styleCode="Lrule Rrule">17 (25)</td>
+                           <td align="left" styleCode="Lrule Rrule">33 (48)</td>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Lrule Rrule">                              By age at treatment                           </td>
+                           <td align="left" styleCode="Lrule Rrule"/>
+                           <td align="left" styleCode="Lrule Rrule"/>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Lrule Rrule">
+                              <content styleCode="bold">    </content>Birth to &lt; 24 hours                           
+         
+   
+    </td>
+                           <td align="left" styleCode="Lrule Rrule">3/14 (21)</td>
+                           <td align="left" styleCode="Lrule Rrule">8/16 (50)</td>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Lrule Rrule">
+                              <content styleCode="bold">    </content>24-48 hours                           
+         
+   
+    </td>
+                           <td align="left" styleCode="Lrule Rrule">9/32 (28)</td>
+                           <td align="left" styleCode="Lrule Rrule">16/37 (43)</td>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Lrule Rrule">
+                              <content styleCode="bold">    </content>&gt; 48 hours                           
+         
+   
+    </td>
+                           <td align="left" styleCode="Lrule Rrule">5/22 (23)</td>
+                           <td align="left" styleCode="Lrule Rrule">9/15 (60)</td>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Botrule Lrule Rrule"> </td>
+                           <td align="left" styleCode="Botrule Lrule Rrule"/>
+                           <td align="left" styleCode="Botrule Lrule Rrule"/>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Botrule Lrule Rrule">                              Echocardiographically proven PDA prior to rescue 
+          
+    
+     <content styleCode="bold"/>
+                           </td>
+                           <td align="left" styleCode="Botrule Lrule Rrule">17 (100)</td>
+                           <td align="left" styleCode="Botrule Lrule Rrule">32 (97)</td>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Lrule Rrule">                              Reasons for Rescue                           </td>
+                           <td align="left" styleCode="Lrule Rrule"/>
+                           <td align="left" styleCode="Lrule Rrule"/>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Lrule Rrule">Hemodynamically significant PDA per neonatologist</td>
+                           <td align="left" styleCode="Lrule Rrule">14 (82)</td>
+                           <td align="left" styleCode="Lrule Rrule">25 (76)</td>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Lrule Rrule">Bounding pulse</td>
+                           <td align="left" styleCode="Lrule Rrule">6 (35)</td>
+                           <td align="left" styleCode="Lrule Rrule">12 (36)</td>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Lrule Rrule">Systolic murmur</td>
+                           <td align="left" styleCode="Lrule Rrule">6 (35)</td>
+                           <td align="left" styleCode="Lrule Rrule">15 (45)</td>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Lrule Rrule">Pulmonary Edema</td>
+                           <td align="left" styleCode="Lrule Rrule">3 (18)</td>
+                           <td align="left" styleCode="Lrule Rrule">5 (15)</td>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Lrule Rrule">Hyperdynamic precordium</td>
+                           <td align="left" styleCode="Lrule Rrule">2 (12)</td>
+                           <td align="left" styleCode="Lrule Rrule">3 (9)</td>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Botrule Lrule Rrule">Increased cardiac silhouette</td>
+                           <td align="left" styleCode="Botrule Lrule Rrule">1 (6)</td>
+                           <td align="left" styleCode="Botrule Lrule Rrule">5 (15)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Of the infants requiring rescue within the first 14 days after the first dose of study drug, no statistically significant difference was observed between the NeoProfen and placebo groups for mean age at start of first rescue treatment (8.7 days, range 4-15 days, for the NeoProfen group and 6.9 days, range 2-15 days, for the placebo group).</paragraph>
+                  <paragraph>The groups were similar in the number of deaths by day 14, the number of patients on a ventilator or requiring oxygenation at day 1, 4 and 14, the number of patients requiring surgical ligation of their PDA (12%), the number of cases of Pulmonary Hemorrhage and Pulmonary Hypertension by day 14, and Bronchopulmonary Dysplasia at day 28. In addition, no significant differences were noted in the incidences of Stage 2 and 3 Necrotizing Enterocolitis, Grades 3 and 4 Intraventricular Hemorrhage, Periventricular Leukomalacia and Retinopathy of Prematurity between groups as determined at 36±1 weeks adjusted gestational age.</paragraph>
+                  <paragraph>Two supportive studies also determined that ibuprofen, either prophylactically (n=433, weight range: 400 – 2165 g) or as treatment (n=210, weight range: 400 – 2370 g), was superior to placebo (or no treatment) in preventing the need for rescue therapy for a symptomatic PDA.</paragraph>
+               </text>
+               <effectiveTime value="20131217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPLRHowSupplied">
+               <id root="6eeb71d8-f806-b10a-e053-2a91aa0ad0be"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">How Supplied</content>
+                  </paragraph>
+                  <paragraph>NeoProfen (ibuprofen lysine) Injection is dispensed in treated* clear glass single-use vials, each containing 2 mL of sterile solution (NDC 55292-122- 52). The solution is not buffered and contains no preservatives. Each milliliter contains 17.1 mg/mL (±)-ibuprofen L-lysine [equivalent to 10 mg/mL (±)-ibuprofen] dissolved in Water for Injection, USP. NeoProfen is supplied in a carton containing 3 single-use vials.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Storage and Handling </content>
+                  </paragraph>
+                  <paragraph>Store at 20 – 25°C (68 – 77°F); excursions permitted 15 – 30°C (59 – 86°F) [see USP Controlled Room Temperature]. Protect from light. Store vials in carton until contents have been used.</paragraph>
+                  <paragraph>*NeoProfen (ibuprofen lysine) is dispensed in a glass vial having a silicon dioxide coating or polymer coating that inhibits the formation of particulates that result from the interaction of the ibuprofen lysine with untreated glass.</paragraph>
+               </text>
+               <effectiveTime value="20171023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPLRPatientInfo">
+               <id root="6e145d58-db79-2f47-e053-2a91aa0a02db"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Infection</content>
+                  </paragraph>
+                  <paragraph>NeoProfen may alter signs of infection. Patients’ caregivers should be informed to monitor the infant for any signs of infection.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Platelet Aggregation</content>
+                  </paragraph>
+                  <paragraph>Patients’ caregivers should be informed that like other NSAIDS, NeoProfen can inhibit clot formation therefore their infant should be monitored for any signs of bleeding.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Administration</content>
+                  </paragraph>
+                  <paragraph>Patients’ caregivers should be informed that the infants’ skin and tissues should be monitored as leakage from administration may be irritating to tissue.</paragraph>
+                  <paragraph>Manufactured by: Alcami Carolinas Corporation, Charleston, SC 29405, U.S.A.</paragraph>
+                  <paragraph>For: Recordati Rare Diseases Inc., Lebanon, NJ 08833, U.S.A.</paragraph>
+                  <paragraph>RECORDATI RARE DISEASES GROUP</paragraph>
+                  <paragraph>® Trademark of Recordati Rare Diseases Inc.
+  <br/>
+PC4477E
+ </paragraph>
+               </text>
+               <effectiveTime value="20171023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPDP">
+               <id root="6e14570e-933a-7f1b-e053-2991aa0aa8a0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC </content>55292-122-52
+  <br/>
+                     <br/>
+                     <content styleCode="bold">3 x 2 mL Single Use Vials
+   <br/>
+                        <br/>
+NeoProfen
+   <sup>®</sup>
+                        <br/>
+                        <br/>
+(ibuprofen lysine) injection
+   <br/>
+                        <br/>
+20mg/2mL
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(10mg/mL)
+   <br/>
+                        <br/>
+Sterile Solution for IV Use Only
+   <br/>
+                        <br/>
+RECORDATI RARE DISEASES GROUP
+   <br/>
+                        <br/>
+Rx only
+   <br/>
+                        <br/>
+Each mL contains: 
+  </content>
+                     <br/>
+                     <br/>
+Ibuprofen 10 mg (as ibuprofen lysine) in Water for Injection, USP.
+  <br/>
+                     <br/>
+Dilute to an appropriate volume with dextrose or saline. Please refer to the Package Insert for full prescribing information.
+  <br/>
+                     <br/>
+Store at 20-25ºC (68-77ºF); excursions permitted 15-30ºC (59-86ºF). Store vials in carton until use.
+  <br/>
+                     <br/>
+Manufactured by: Alcami Carolinas Corporation
+  <br/>
+                     <br/>
+Charleston, SC 29405, U.S.A.
+  <br/>
+                     <br/>
+For: Recordati Rare Diseases Inc.
+  <br/>
+                     <br/>
+Lebanon, NJ 08833, U.S.A.
+  <br/>
+                     <br/>
+® Trademark of Recordati Rare Diseases Inc.
+  <br/>
+                     <br/>
+PC-4478E
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_6e145d58-dbb3-2f47-e053-2a91aa0a02db"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20180607"/>
+               <component>
+                  <observationMedia ID="img_6e145d58-dbb3-2f47-e053-2a91aa0a02db">
+                     <text>3VialCarton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="3VialCarton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

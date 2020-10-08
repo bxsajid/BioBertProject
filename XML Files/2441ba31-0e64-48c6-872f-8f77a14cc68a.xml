@@ -1,0 +1,1717 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2441ba31-0e64-48c6-872f-8f77a14cc68a"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">DICLOFENAC SODIUM GEL, 3%</content>
+   </title>
+   <effectiveTime value="20191231"/>
+   <setId root="74169b2d-ac56-4757-86c4-cdcfcd5f4eb5"/>
+   <versionNumber value="19"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="119723554" root="1.3.6.1.4.1.519.1"/>
+            <name>Actavis Pharma, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="a6386a6d-8bf5-4a19-9335-18d4e1d31ce2"/>
+               <code code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20191231"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0472-1783" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Diclofenac Sodium</name>
+                        <formCode code="C42934" displayName="GEL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Diclofenac Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="30"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="QTG126297Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DICLOFENAC SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="144O8QL0L1" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DICLOFENAC</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="YSE9PPT4TH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYALURONATE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ENK4Y6S66X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PEG-7 METHYL ETHER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" displayName="TUBE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0472-1783-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20160519"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA206493" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160519"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" displayName="TOPICAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9eb17b25-7ceb-4a4b-8876-4a48181f31e6">
+               <id root="b67bf137-c07f-4d79-a42e-9d4c5e5e8089"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR DERMATOLOGIC USE ONLY. NOT FOR OPHTHALMIC USE. </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_40ba232c-0ad1-45c0-a9dd-ef5aec5d5d7d">
+               <id root="5c23d4e4-c6ac-478a-a46e-1281ee92de2a"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING: RISK OF SERIOUS CARDIOVASCULAR EVENTS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">Cardiovascular Thrombotic Events</content>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>
+                        <content styleCode="bold">Nonsteroidal anti-inflammatory drugs (NSAIDs) cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal. This risk may occur early in treatment and may increase with duration of use.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Diclofenac sodium gel, 3% is contraindicated in the setting of coronary artery bypass graft (CABG) surgery<content styleCode="italics">.</content>
+                        </content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20191231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f73335c0-14e8-471d-b635-3c35fba7ecf1">
+               <id root="335ad2cf-8bd7-4fc9-86e3-115d15e185fc"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION
+</content>
+               </title>
+               <text>
+                  <paragraph>Diclofenac sodium gel, 3%, contains the active ingredient, diclofenac sodium USP, in a clear, transparent, colorless to slightly yellow gel base. Diclofenac sodium, USP is a white to slightly yellow crystalline powder. It is freely soluble in methanol, soluble in ethanol, sparingly soluble in water, slightly soluble in acetone, and partially insoluble in ether. The chemical name for diclofenac sodium is:</paragraph>
+                  <paragraph>Sodium [<content styleCode="italics">o</content>-(2,6-dichloranilino) phenyl] acetate</paragraph>
+                  <paragraph>Diclofenac sodium, USP has a molecular weight of 318.13.</paragraph>
+                  <paragraph>The CAS number is CAS-15307-79-6. The structural formula is represented below:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Diclofenac sodium gel, 3% also contains benzyl alcohol, hyaluronate sodium, polyethylene glycol monomethyl ether, and purified water.</paragraph>
+                  <paragraph>1 g of diclofenac sodium gel, 3% contains 30 mg of the active substance, diclofenac sodium, USP.</paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d8f29acd-5fd0-4695-8062-901d332e3ef4">
+               <id root="de982a79-8ec4-47a8-9552-dc937eb76ac2"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL PHARMACOLOGY
+</content>
+               </title>
+               <text>
+                  <paragraph>The mechanism of action of diclofenac sodium in the treatment of actinic keratoses (AK) is unknown. The contribution to efficacy of individual components of the vehicle has not been established.</paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+               <component>
+                  <section ID="LINK_06189f48-a6ee-43c8-96a5-a77d5ee26bbc">
+                     <id root="1e8eff11-b120-4468-b077-a87b564672db"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pharmacokinetics
+</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">
+                                 <content styleCode="underline">Absorption</content>
+                              </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>When diclofenac sodium gel, 3% is applied topically, diclofenac is absorbed into the epidermis. In a study in patients with compromised skin (mainly atopic dermatitis and other dermatitic conditions) of the hands, arms or face, approximately 10% of the applied dose (2 grams of 3% gel over 100 cm<sup>2</sup>) of diclofenac was absorbed systemically in both normal and compromised epidermis after seven days, with four times daily applications.</paragraph>
+                        <paragraph>After topical application of 2 g diclofenac sodium gel, 3% three times daily for six days to the calf of the leg in healthy subjects, diclofenac could be detected in plasma. Mean bioavailability parameters were AUC<sub>0-t</sub> 9±19 ng/hr/mL (mean±SD) with a C<sub>max</sub> of 4±5 ng/mL and a T<sub>max</sub> of 4.5±8 hours. In comparison, a single oral 75 mg dose of diclofenac (Voltaren<sup>®</sup>)† produced an AUC of 1600 ng/hr/mL. Therefore, the systemic bioavailability after topical application of diclofenac sodium gel, 3% is lower than after oral dosing.</paragraph>
+                        <paragraph>Comparative bioavailability studies have not been conducted between available diclofenac topical products (gels containing 1% to 3% diclofenac) which have different dosing regimens. A cross-study evaluation of the data indicates that diclofenac is more bioavailable when applied to diseased skin and less bioavailable when applied to intact skin.</paragraph>
+                        <paragraph>Blood drawn at the end of treatment from 60 patients with AK lesions treated with diclofenac sodium gel, 3% in three adequate and well-controlled clinical trials was assayed for diclofenac levels. Each patient was administered 0.5 g of diclofenac sodium gel, 3% twice a day for up to 105 days. There were up to three 5 cm X 5 cm treatment sites per patient on the face, forehead, hands, forearm, and scalp. Serum concentrations of diclofenac were, on average, at or below 20 ng/mL. These data indicate that systemic absorption of diclofenac in patients treated topically with diclofenac sodium gel, 3% is much lower than that occurring after oral daily dosing of diclofenac sodium.</paragraph>
+                        <paragraph>No information is available on the absorption of diclofenac when diclofenac sodium gel, 3% is used under occlusion.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">
+                                 <content styleCode="underline">Distribution</content>
+                              </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Diclofenac binds tightly to serum albumin. The volume of distribution of diclofenac following oral administration is approximately 550 mL/kg.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">
+                                 <content styleCode="underline">Metabolism</content>
+                              </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Biotransformation of diclofenac following oral administration involves conjugation at the carboxyl group of the side chain or single or multiple hydroxylations resulting in several phenolic metabolites, most of which are converted to glucuronide conjugates. Two of these phenolic metabolites are biologically active, however to a much smaller extent than diclofenac. Metabolism of diclofenac following topical administration is thought to be similar to that after oral administration. The small amounts of diclofenac and its metabolites appearing in the plasma following topical administration makes the quantification of specific metabolites imprecise.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">
+                                 <content styleCode="underline">Elimination</content>
+                              </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Diclofenac and its metabolites are excreted mainly in the urine after oral dosing. Systemic clearance of diclofenac from plasma is 263±56 mL/min (mean±SD). The terminal plasma half-life is 1 to 2 hours. Four of the metabolites also have short terminal half-lives of 1 to 3 hours.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a00563a6-5c20-4607-9740-c8ad59f37783">
+               <id root="4a576f2f-ed0d-4c34-a014-53c1ce3f82b6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS AND USAGE
+</content>
+               </title>
+               <text>
+                  <paragraph>Diclofenac sodium gel, 3% is indicated for the topical treatment of actinic keratoses (AK). Sun avoidance is indicated during therapy.</paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_efe7d697-0fa0-413a-be14-1e62b6dd831b">
+               <id root="dec364aa-0e41-40a5-99d6-8e42ba24f1ee"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL STUDIES
+</content>
+               </title>
+               <text>
+                  <paragraph>Clinical trials were conducted involving a total of 427 patients (213 treated with diclofenac sodium gel, 3% and 214 with a gel vehicle). Each patient had no fewer than five AK lesions in a major body area, which was defined as one of five 5 cm X 5 cm regions: scalp, forehead, face, forearm and hand. Up to three major body areas were studied in any patient. All patients were 18 years of age or older (male and female) with no clinically significant medical problems outside of the AK lesions and had undergone a 60-day washout period from disallowed medications (masoprocol, 5-fluorouracil, cyclosporine, retinoids, trichloroacetic acid/lactic acid/peel, 50% glycolic acid peel) and hyaluronan-containing cosmetics. Patients were excluded from participation for reasons of known or suspected hypersensitivity to any diclofenac sodium gel, 3% ingredient, pregnancy, allergies to aspirin or other nonsteroidal anti-inflammatory drugs (NSAIDs), or other dermatological conditions which might affect the absorption of the study medication. Application of dermatologic products such as sunscreens, cosmetics, and other drug products was not permitted. Patients were instructed to apply a small amount of diclofenac sodium gel, 3% (approximately 0.5 g) onto the affected skin, using their fingers, and gently smoothing the gel over the lesion. In addition, all patients were instructed to avoid sun exposure. Complete clearing of the AK lesions 30 days after completion of treatment was the primary efficacy variable. No long-term patient follow-ups, after the 30-day assessments, were performed for the detection of recurrence.</paragraph>
+                  <table>
+                     <caption> Complete Clearance of Actinic Keratosis Lesions 30 Days Post-Treatment (all locations)</caption>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <thead>
+                        <tr>
+                           <td valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top">  Diclofenac Sodium Gel, 3%</td>
+                           <td align="center" valign="top">  Vehicle</td>
+                           <td align="center" valign="top">  p-value</td>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td align="right" valign="top"> Study 1</td>
+                           <td valign="top"> 90 days treatment</td>
+                           <td align="center" valign="top"> 27/58 (47%)</td>
+                           <td align="center" valign="top"> 11/59 (19%)</td>
+                           <td align="center" valign="top"> &lt;0.001</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> Study 2</td>
+                           <td valign="top"> 90 days treatment</td>
+                           <td align="center" valign="top"> 18/53 (34%)</td>
+                           <td align="center" valign="top"> 10/55 (18%)</td>
+                           <td align="center" valign="top"> 0.061</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> Study 3</td>
+                           <td valign="top"> 60 days treatment</td>
+                           <td align="center" valign="top"> 15/48 (31%)</td>
+                           <td align="center" valign="top"> 5/49 (10%)</td>
+                           <td align="center" valign="top"> 0.021</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> </td>
+                           <td valign="top"> 30 days treatment</td>
+                           <td align="center" valign="top"> 7/49 (14%)</td>
+                           <td align="center" valign="top"> 2/49 (4%)</td>
+                           <td align="center" valign="top"> 0.221</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table>
+                     <caption> Complete Clearance of Actinic Keratosis Lesions 30 Days Post-Treatment (by location)</caption>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <thead>
+                        <tr>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top">  Scalp</td>
+                           <td align="center" valign="top">  Forehead</td>
+                           <td align="center" valign="top">  Face</td>
+                           <td align="center" valign="top">  Arm/Forearm</td>
+                           <td align="center" valign="top">  Back of Hand</td>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td align="right" valign="top"> Study 1 90 days treatment</td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> Diclofenac Sodium Gel, 3%</td>
+                           <td align="center" valign="top"> 1/4 (25%)</td>
+                           <td align="center" valign="top"> 17/30 (57%)</td>
+                           <td align="center" valign="top"> 9/17 (53%)</td>
+                           <td align="center" valign="top"> 4/12 (33%)</td>
+                           <td align="center" valign="top"> 6/16 (38%)</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> Vehicle</td>
+                           <td align="center" valign="top"> 3/9 (33%)</td>
+                           <td align="center" valign="top"> 8/24 (33%)</td>
+                           <td align="center" valign="top"> 5/17 (29%)</td>
+                           <td align="center" valign="top"> 4/12 (33%)</td>
+                           <td align="center" valign="top"> 0/14 (0)</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> p-value</td>
+                           <td align="center" valign="top"> 0.7646</td>
+                           <td align="center" valign="top"> 0.0908</td>
+                           <td align="center" valign="top"> 0.1682</td>
+                           <td align="center" valign="top"> 1.000</td>
+                           <td align="center" valign="top"> 0.0650</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> Study 2 90 days treatment</td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> Diclofenac Sodium Gel, 3%</td>
+                           <td align="center" valign="top"> 2/6 (33%)</td>
+                           <td align="center" valign="top"> 9/19 (47%)</td>
+                           <td align="center" valign="top"> 4/5 (80%)</td>
+                           <td align="center" valign="top"> 5/8 (63%)</td>
+                           <td align="center" valign="top"> 1/17 (6%)</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> Vehicle</td>
+                           <td align="center" valign="top"> 0/4 (0)</td>
+                           <td align="center" valign="top"> 6/22 (27%)</td>
+                           <td align="center" valign="top"> 2/8 (25%)</td>
+                           <td align="center" valign="top"> 0/5 (0)</td>
+                           <td align="center" valign="top"> 3/16 (19%)</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> p-value</td>
+                           <td align="center" valign="top"> 0.4235</td>
+                           <td align="center" valign="top"> 0.1870</td>
+                           <td align="center" valign="top"> 0.0727</td>
+                           <td align="center" valign="top"> 0.0888</td>
+                           <td align="center" valign="top"> 0.2818</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> Study 3 60 days treatment</td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> Diclofenac Sodium Gel, 3%</td>
+                           <td align="center" valign="top"> 3/7 (43%)</td>
+                           <td align="center" valign="top"> 13/31 (42%)</td>
+                           <td align="center" valign="top"> 10/19 (53%)</td>
+                           <td align="center" valign="top"> 0/1 (0)</td>
+                           <td align="center" valign="top"> 2/8 (25%)</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> Vehicle</td>
+                           <td align="center" valign="top"> 0/6 (0)</td>
+                           <td align="center" valign="top"> 5/36 (14%)</td>
+                           <td align="center" valign="top"> 2/13 (15%)</td>
+                           <td align="center" valign="top"> 0/2 (0)</td>
+                           <td align="center" valign="top"> 1/9 (11%)</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> p-value</td>
+                           <td align="center" valign="top"> 0.2271</td>
+                           <td align="center" valign="top"> 0.0153</td>
+                           <td align="center" valign="top"> 0.0433</td>
+                           <td align="center" valign="top"> -</td>
+                           <td align="center" valign="top"> 0.4637</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> 30 days treatment</td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> Diclofenac Sodium Gel, 3%</td>
+                           <td align="center" valign="top"> 2/5 (40%)</td>
+                           <td align="center" valign="top"> 4/29 (14%)</td>
+                           <td align="center" valign="top"> 3/14 (21%)</td>
+                           <td align="center" valign="top"> 0/0 (0)</td>
+                           <td align="center" valign="top"> 0/9 (0)</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> Vehicle</td>
+                           <td align="center" valign="top"> 0/5 (0)</td>
+                           <td align="center" valign="top"> 2/29 (7%)</td>
+                           <td align="center" valign="top"> 2/18 (11%)</td>
+                           <td align="center" valign="top"> 0/1 (0)</td>
+                           <td align="center" valign="top"> 1/9 (11%)</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> p-value</td>
+                           <td align="center" valign="top"> 0.2299</td>
+                           <td align="center" valign="top"> 0.3748</td>
+                           <td align="center" valign="top"> 0.4322</td>
+                           <td align="center" valign="top"> -</td>
+                           <td align="center" valign="top"> 0.6521</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> All data combined</td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                           <td align="center" valign="top"> </td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> Diclofenac Sodium Gel, 3%</td>
+                           <td align="center" valign="top"> 8/22 (36%)</td>
+                           <td align="center" valign="top"> 43/109 (39%)</td>
+                           <td align="center" valign="top"> 26/55 (47%)</td>
+                           <td align="center" valign="top"> 9/21 (43%)</td>
+                           <td align="center" valign="top"> 9/50 (18%)</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> Vehicle</td>
+                           <td align="center" valign="top"> 3/24 (13%)</td>
+                           <td align="center" valign="top"> 21/111 (19%)</td>
+                           <td align="center" valign="top"> 11/56 (20%)</td>
+                           <td align="center" valign="top"> 4/20 (20%)</td>
+                           <td align="center" valign="top"> 5/48 (10%)</td>
+                        </tr>
+                        <tr>
+                           <td align="right" valign="top"> p-value</td>
+                           <td align="center" valign="top"> 0.0903</td>
+                           <td align="center" valign="top"> 0.0013</td>
+                           <td align="center" valign="top"> 0.0016</td>
+                           <td align="center" valign="top"> 0.2043</td>
+                           <td align="center" valign="top"> 0.3662</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20191231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_5eda971d-009c-4711-8356-a42d49d51d4e">
+               <id root="342f2363-17ef-4e07-aab0-e656ab2ffc8f"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS
+</content>
+               </title>
+               <text>
+                  <paragraph>Diclofenac sodium gel, 3% is contraindicated in patients with a known hypersensitivity to diclofenac, benzyl alcohol, polyethylene glycol monomethyl ether 350 and/or hyaluronate sodium.</paragraph>
+                  <paragraph>Diclofenac sodium gel, 3% is contraindicated in the following patients: </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>In the setting of coronary artery bypass graft (CABG) surgery.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20191231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_405c57d9-0dfe-4587-9007-89d6d0ca4fa1">
+               <id root="368b1312-f3e5-4112-89e2-35ee1f66c89f"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS
+</content>
+               </title>
+               <text>
+                  <paragraph>As with other NSAIDs, anaphylactoid reactions may occur in patients without prior exposure to diclofenac. Diclofenac sodium should be given with caution to patients with the aspirin triad. The triad typically occurs in asthmatic patients who experience rhinitis with or without nasal polyps, or who exhibit severe, potentially fatal bronchospasm after taking aspirin or other NSAIDs.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="underline">Cardiovascular Thrombotic Events</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Clinical trials of several COX-2 selective and nonselective NSAIDs of up to three years duration have shown an increased risk of serious cardiovascular (CV) thrombotic events, including myocardial infarction (MI) and stroke, which can be fatal. Based on available data, it is unclear that the risk for CV thrombotic events is similar for all NSAIDs. The relative increase in serious CV thrombotic events over baseline conferred by NSAID use appears to be similar in those with and without known CV disease or risk factors for CV disease. However, patients with known CV disease or risk factors had a higher absolute incidence of excess serious CV thrombotic events, due to their increased baseline rate. Some observational studies found that this increased risk of serious CV thrombotic events began as early as the first weeks of treatment. The increase in CV thrombotic risk has been observed most consistently at higher doses. </paragraph>
+                  <paragraph>To minimize the potential risk for an adverse CV event in NSAID-treated patients, use the lowest effective dose for the shortest duration possible. Physicians and patients should remain alert for the development of such events, throughout the entire treatment course, even in the absence of previous CV symptoms. Patients should be informed about the symptoms of serious CV events and the steps to take if they occur. </paragraph>
+                  <paragraph>There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an NSAID, such as diclofenac, increases the risk of serious gastrointestinal (GI) events. </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Status Post Coronary Artery Bypass Graft (CABG) Surgery</content>
+                  </paragraph>
+                  <paragraph>Two large, controlled clinical trials of a COX-2 selective NSAID for the treatment of pain in the first 10 to 14 days following CABG surgery found an increased incidence of myocardial infarction and stroke. NSAIDs are contraindicated in the setting of CABG. </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Post-MI Patients</content>
+                  </paragraph>
+                  <paragraph>Observational studies conducted in the Danish National Registry have demonstrated that patients treated with NSAIDs in the post-MI period were at increased risk of reinfarction, CV-related death, and all-cause mortality beginning in the first week of treatment. In this same cohort, the incidence of death in the first year post MI was 20 per 100 person years in NSAID-treated patients compared to 12 per 100 person years in non-NSAID exposed patients. Although the absolute rate of death declined somewhat after the first year post-MI, the increased relative risk of death in NSAID users persisted over at least the next four years of follow-up.</paragraph>
+                  <paragraph>Avoid the use of diclofenac sodium gel, 3% in patients with a recent MI unless the benefits are expected to outweigh the risk of recurrent CV thrombotic events. If diclofenac sodium gel, 3% is used in patients with a recent MI, monitor patients for signs of cardiac ischemia. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="underline">Heart Failure and Edema</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>The Coxib and traditional NSAID Trialists’ Collaboration meta-analysis of randomized controlled trials demonstrated an approximately two-fold increase in hospitalizations for heart failure in COX-2 selective-treated patients and nonselective NSAID-treated patients compared to placebo-treated patients. In a Danish National Registry study of patients with heart failure, NSAID use increased the risk of MI, hospitalization for heart failure, and death. </paragraph>
+                  <paragraph>Additionally, fluid retention and edema have been observed in some patients treated with NSAIDs. Use of diclofenac may blunt the CV effects of several therapeutic agents used to treat these medical conditions [e.g., diuretics, ACE inhibitors, or angiotensin receptor blockers (ARBs)]. </paragraph>
+                  <paragraph>Avoid the use of diclofenac sodium gel, 3% in patients with severe heart failure unless the benefits are expected to outweigh the risk of worsening heart failure. If diclofenac sodium gel, 3% is used in patients with severe heart failure, monitor patients for signs of worsening heart failure.</paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1047ed16-cbe9-4460-8d8a-577d4d7fbdf5">
+               <id root="ccaabce3-10ba-4b59-88cf-67506b3b8145"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS
+</content>
+               </title>
+               <effectiveTime value="20191231"/>
+               <component>
+                  <section ID="LINK_8a89d34a-3f7d-4065-8287-8f07b819c742">
+                     <id root="05310488-b9cd-4900-82f0-905adc25f47c"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">General
+</content>
+                     </title>
+                     <text>
+                        <paragraph>Diclofenac sodium gel, 3% should be used with caution in patients with active gastrointestinal ulceration or bleeding and severe renal or hepatic impairments. Diclofenac sodium gel, 3% should not be applied to open skin wounds, infections, or exfoliative dermatitis. It should not be allowed to come in contact with the eyes.</paragraph>
+                        <paragraph>The safety of the concomitant use of sunscreens, cosmetics or other topical medications and diclofenac sodium gel, 3% is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5625c3bf-b021-4eeb-9f3e-1c45a0a99e67">
+                     <id root="0ba7b357-db36-4db2-8e61-a6aeea23425f"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Information for Patients
+</content>
+                     </title>
+                     <text>
+                        <paragraph>In clinical studies, localized dermal side effects such as contact dermatitis, exfoliation, dry skin and rash were found in patients treated with diclofenac sodium gel, 3% at a higher incidence than in those with placebo.</paragraph>
+                        <paragraph>Patients should understand the importance of monitoring and follow-up evaluation, the signs and symptoms of dermal adverse reactions, and the possibility of irritant or allergic contact dermatitis. If severe dermal reactions occur, treatment with diclofenac sodium gel, 3% may be interrupted until the condition subsides. Exposure to sunlight and the use of sunlamps should be avoided.</paragraph>
+                        <paragraph>Safety and efficacy of the use of diclofenac sodium gel, 3% together with other dermal products, including cosmetics, sunscreens, and other topical medications on the area being treated, have not been studied.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="underline">Cardiovascular Thrombotic Events </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Advise patients to be alert for the symptoms of cardiovascular thrombotic events, including chest pain, shortness of breath, weakness, or slurring of speech, and to report any of these symptoms to their health care provider immediately. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="underline">Heart Failure and Edema </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Advise patients to be alert for the symptoms of congestive heart failure including shortness of breath, unexplained weight gain, or edema and to contact their healthcare provider if such symptoms occur.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_219a4588-8a8c-4601-ac03-a8990310d799">
+                     <id root="abcd67cb-07d4-4a74-aac5-8f0a654c1117"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Drug Interactions
+</content>
+                     </title>
+                     <text>
+                        <paragraph>Specific interaction studies between diclofenac sodium gel, 3% and other topical or oral agents were not performed.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Oral Nonsteroidal Anti-Inflammatory Drugs</content>
+                        </paragraph>
+                        <paragraph>Although low, there is systemic exposure to diclofenac following labeled use of diclofenac sodium gel, 3%. Therefore, concomitant administration of diclofenac sodium gel, 3% with oral NSAIDS or aspirin may result in increased NSAID adverse effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_38a0430a-3004-4983-b522-c433517c674e">
+                     <id root="8a57b30c-1efc-4321-9784-d639a98860cb"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility
+</content>
+                     </title>
+                     <text>
+                        <paragraph>There did not appear to be any increase in drug-related neoplasms following daily topical applications of diclofenac sodium gel for 2 years at concentrations up to 0.035% diclofenac sodium and 2.5% hyaluronate sodium in albino mice. (Note: diclofenac sodium gel contains 3% diclofenac sodium.) When administered orally for 2 years, diclofenac showed no evidence of carcinogenic potential in rats given diclofenac sodium at up to 2 mg/kg/day (3 times the estimated systemic human exposure*), or in mice given diclofenac sodium at up to 0.3 mg/kg/day in males and 1 mg/kg/day in females (25% and 83%, respectively, of the estimated systemic human exposure).</paragraph>
+                        <paragraph>A photococarcinogenicity study with up to 0.035% diclofenac in the diclofenac sodium gel, 3% vehicle gel was conducted in hairless mice at topical doses up to 2.8 mg/kg/day. Median tumor onset was earlier in the 0.035% group (diclofenac sodium gel contains 3% diclofenac sodium).</paragraph>
+                        <paragraph>Diclofenac was not genotoxic in <content styleCode="italics">in vitro</content> point mutation assays in mammalian mouse lymphoma cells and Ames microbial test systems, or when tested in mammalian <content styleCode="italics">in vivo</content> assays including dominant lethal and male germinal epithelial chromosomal studies in mice, and nucleus anomaly and chromosomal aberration studies in Chinese hamsters. It was also negative in the transformation assay utilizing BALB/3T3 mouse embryo cells.</paragraph>
+                        <paragraph>Fertility studies have not been conducted with diclofenac sodium gel, 3%. Diclofenac sodium showed no evidence of impairment of fertility after oral treatment with 4 mg/kg/day (7 times the estimated systemic human exposure) in male or female rats.</paragraph>
+                        <paragraph>* Based on body surface area and assuming 10% bioavailability following topical application of 2 g diclofenac sodium gel, 3% per day (1 mg/kg diclofenac sodium).</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_0051935e-b70e-4846-b58d-685787ccf4d8">
+                     <id root="cbb9c604-25aa-48a9-b0f9-eec78784fb11"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pregnancy
+</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Teratogenic Effects: Pregnancy Category B</content>
+                        </paragraph>
+                        <paragraph>The safety of diclofenac sodium gel, 3% has not been established during pregnancy. However, reproductive studies performed with diclofenac sodium alone at oral doses up to 20 mg/kg/day (15 times the estimated systemic human exposure*) in mice, 10 mg/kg/day (15 times the estimated systemic human exposure) in rats, and 10 mg/kg/day (30 times the estimated systemic human exposure) in rabbits have revealed no evidence of teratogenicity despite the induction of maternal toxicity. In rats, maternally toxic doses were associated with dystocia, prolonged gestation, reduced fetal weights and growth, and reduced fetal survival.</paragraph>
+                        <paragraph>* Based on body surface area and assuming 10% bioavailability following topical application of 2 g diclofenac sodium gel, 3% per day (1 mg/kg diclofenac sodium).</paragraph>
+                        <paragraph>Diclofenac has been shown to cross the placental barrier in mice and rats. There are, however, no adequate and well controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should not be used during pregnancy unless the benefits to the mother justify the potential risk to the fetus. Because of the risk to the fetus resulting in premature closure of the ductus arteriosus, diclofenac should be avoided in late pregnancy.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_967026e1-e739-4277-b14d-4bcb26a06950">
+                     <id root="94f6bb12-4b75-448d-bbcb-45ded62ba095"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Labor and Delivery
+</content>
+                     </title>
+                     <text>
+                        <paragraph>The effects of diclofenac on labor and delivery in pregnant women are unknown. Because of the known effects of prostaglandin-inhibiting drugs on the fetal cardiovascular system (closure of the ductus arteriosus), use of diclofenac during late pregnancy should be avoided and, as with other nonsteroidal anti-inflammatory drugs, it is possible that diclofenac may inhibit uterine contractions and delay parturition.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e48acd01-a682-464a-ab37-25a76bb9a3f3">
+                     <id root="537a51a2-3c2c-43f9-929a-bcfafa5a1af4"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Nursing Mothers
+</content>
+                     </title>
+                     <text>
+                        <paragraph>Because of the potential for serious adverse reactions in nursing infants from diclofenac sodium, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c618ad25-208f-4c7e-9085-273967c0b183">
+                     <id root="195b2ca5-f148-4941-9c46-c0e4175b8dcb"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pediatric Use
+</content>
+                     </title>
+                     <text>
+                        <paragraph>Actinic keratoses is not a condition seen within the pediatric population. Diclofenac sodium gel, 3% should not be used by children.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_3a0b6b31-5448-42d6-afd6-8d0646bac983">
+                     <id root="1fd9064d-022e-43cf-81af-e35d78b20f3d"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">Geriatric Use
+</content>
+                     </title>
+                     <text>
+                        <paragraph>Of the 211 subjects treated with diclofenac sodium gel, 3% in controlled clinical studies, 143 subjects were 65 and over. Of those 143 subjects, 55 subjects were 75 and over. No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7872b072-b2a5-425f-aa56-9dea51777bdc">
+               <id root="5a687011-31c2-4631-b917-cb20921b04c0"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS
+</content>
+               </title>
+               <text>
+                  <paragraph>Of the 423 patients evaluable for safety in adequate and well-controlled trials, 211 were treated with diclofenac sodium gel, 3% drug product and 212 were treated with a vehicle gel. Eighty-seven percent (87%) of the diclofenac sodium gel, 3%-treated patients (183 patients) and 84% of the vehicle-treated patients (178 patients) experienced one or more adverse events (AEs) during the studies. The majority of these reactions were mild to moderate in severity and resolved upon discontinuation of therapy.</paragraph>
+                  <paragraph>Of the 211 patients treated with diclofenac sodium gel, 3%, 172 (82%) experienced AEs involving skin and the application site compared to 160 (75%) vehicle-treated patients. Application site reactions (ASRs) were the most frequent AEs in both diclofenac sodium gel, 3%-and vehicle-treated groups. Of note, four reactions, <content styleCode="italics">contact dermatitis, rash, dry skin and exfoliation</content> (scaling) were significantly more prevalent in the diclofenac sodium gel, 3% group than in the vehicle-treated patients.</paragraph>
+                  <paragraph>Eighteen percent of diclofenac sodium gel, 3%-treated patients and 4% of vehicle-treated patients discontinued from the clinical trials due to adverse events (whether considered related to treatment or not). These discontinuations were mainly due to skin irritation or related cutaneous adverse reactions.</paragraph>
+                  <paragraph>Table 1 below presents the AEs reported at an incidence of greater than 1% for patients treated with either diclofenac sodium gel, 3% or vehicle (60- and 90-day treatment groups) during the phase 3 studies.</paragraph>
+                  <table>
+                     <caption> Table 1. Adverse Events Reported (Greater Than 1% in Any Treatment Group) During Diclofenac Sodium Gel, 3% Phase 3 Clinical Trials Incidences for 60-Day and 90-Day Treatments</caption>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <thead>
+                        <tr>
+                           <td valign="top"> </td>
+                           <td align="center" valign="top" colspan="2"> <content styleCode="bold">60-day Treatment</content>
+                           </td>
+                           <td align="center" valign="top" colspan="2"> <content styleCode="bold">90-day Treatment</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> </td>
+                           <td align="center" valign="top"> <content styleCode="bold">Diclofenac Sodium Gel, 3% (%)</content>
+                           </td>
+                           <td align="center" valign="top"> <content styleCode="bold">Gel Vehicle (%)</content>
+                           </td>
+                           <td align="center" valign="top"> <content styleCode="bold">Diclofenac Sodium Gel, 3% (%)</content>
+                           </td>
+                           <td align="center" valign="top"> <content styleCode="bold">Gel Vehicle (%)</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> </td>
+                           <td align="center" valign="top">  N=48</td>
+                           <td align="center" valign="top">  N=49</td>
+                           <td align="center" valign="top">  N=114</td>
+                           <td align="center" valign="top">  N=114</td>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td> <content styleCode="bold">BODY AS A WHOLE </content>
+                           </td>
+                           <td align="center"> 21</td>
+                           <td align="center"> 20</td>
+                           <td align="center"> 20</td>
+                           <td align="center"> 18</td>
+                        </tr>
+                        <tr>
+                           <td> Abdominal Pain </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 1</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> Accidental Injury </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 2</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Allergic Reaction </td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 1</td>
+                           <td align="center" valign="top"> 3</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Asthenia </td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> Back Pain </td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 2</td>
+                        </tr>
+                        <tr>
+                           <td> Chest Pain </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 1</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> Chills </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> Flu Syndrome </td>
+                           <td align="center"> 10</td>
+                           <td align="center"> 6</td>
+                           <td align="center"> 1</td>
+                           <td align="center"> 4</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Headache </td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 6</td>
+                           <td align="center" valign="top"> 7</td>
+                           <td align="center" valign="top"> 6</td>
+                        </tr>
+                        <tr>
+                           <td> Infection </td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 6</td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 5</td>
+                        </tr>
+                        <tr>
+                           <td> Neck Pain </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> Pain </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 2</td>
+                        </tr>
+                        <tr>
+                           <td> <content styleCode="bold">CARDIOVASCULAR SYSTEM</content>
+                           </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 3</td>
+                           <td align="center"> 1</td>
+                        </tr>
+                        <tr>
+                           <td> Hypertension </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 1</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Migraine </td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 1</td>
+                           <td align="center" valign="top"> 0</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Phlebitis </td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> <content styleCode="bold">DIGESTIVE SYSTEM </content>
+                           </td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 6</td>
+                           <td align="center"> 8</td>
+                        </tr>
+                        <tr>
+                           <td> Constipation </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Diarrhea </td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 3</td>
+                        </tr>
+                        <tr>
+                           <td> Dyspepsia </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 3</td>
+                           <td align="center"> 4</td>
+                        </tr>
+                        <tr>
+                           <td> <content styleCode="bold">METABOLICS AND NUTRITIONAL DISORDERS</content>
+                           </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 8</td>
+                           <td align="center"> 7</td>
+                           <td align="center"> 2</td>
+                        </tr>
+                        <tr>
+                           <td> Creatine Phosphokinase Increased</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 1</td>
+                        </tr>
+                        <tr>
+                           <td> Creatinine Increased </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 1</td>
+                        </tr>
+                        <tr>
+                           <td> Edema </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> Hypercholesteremia </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 1</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Hyperglycemia </td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 1</td>
+                           <td align="center" valign="top"> 0</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> SGOT Increased </td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 3</td>
+                           <td align="center" valign="top"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> SGPT Increased </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> <content styleCode="bold">MUSCULOSKELETAL SYSTEM</content>
+                           </td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 3</td>
+                           <td align="center"> 4</td>
+                        </tr>
+                        <tr>
+                           <td> Arthralgia </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Arthrosis </td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> Myalgia </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 3</td>
+                           <td align="center"> 1</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> <content styleCode="bold">NERVOUS SYSTEM </content>
+                           </td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 5</td>
+                        </tr>
+                        <tr>
+                           <td> Anxiety </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 1</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Dizziness </td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 4</td>
+                        </tr>
+                        <tr>
+                           <td> Hypokinesia </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> <content styleCode="bold">RESPIRATORY SYSTEM </content>
+                           </td>
+                           <td align="center" valign="top"> 8</td>
+                           <td align="center" valign="top"> 8</td>
+                           <td align="center" valign="top"> 7</td>
+                           <td align="center" valign="top"> 6</td>
+                        </tr>
+                        <tr>
+                           <td> Asthma </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> Dyspnea </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Pharyngitis </td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 8</td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 4</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Pneumonia </td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 1</td>
+                        </tr>
+                        <tr>
+                           <td> Rhinitis </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 2</td>
+                        </tr>
+                        <tr>
+                           <td> Sinusitis </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> <content styleCode="bold">SKIN AND APPENDAGES </content>
+                           </td>
+                           <td align="center"> 75</td>
+                           <td align="center"> 86</td>
+                           <td align="center"> 86</td>
+                           <td align="center"> 71</td>
+                        </tr>
+                        <tr>
+                           <td> Acne </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 1</td>
+                        </tr>
+                        <tr>
+                           <td> Application Site Reaction </td>
+                           <td align="center"> 75</td>
+                           <td align="center"> 71</td>
+                           <td align="center"> 84</td>
+                           <td align="center"> 70</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">   Acne </td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 4</td>
+                           <td align="center" valign="top"> 1</td>
+                           <td align="center" valign="top"> 0</td>
+                        </tr>
+                        <tr>
+                           <td>   Alopecia </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 1</td>
+                           <td align="center"> 1</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">   Contact Dermatitis </td>
+                           <td align="center" valign="top"> 19</td>
+                           <td align="center" valign="top"> 4</td>
+                           <td align="center" valign="top"> 33</td>
+                           <td align="center" valign="top"> 4</td>
+                        </tr>
+                        <tr>
+                           <td>   Dry Skin </td>
+                           <td align="center"> 27</td>
+                           <td align="center"> 12</td>
+                           <td align="center"> 25</td>
+                           <td align="center"> 17</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">   Edema </td>
+                           <td align="center" valign="top"> 4</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 3</td>
+                           <td align="center" valign="top"> 0</td>
+                        </tr>
+                        <tr>
+                           <td>   Exfoliation </td>
+                           <td align="center"> 6</td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 24</td>
+                           <td align="center"> 13</td>
+                        </tr>
+                        <tr>
+                           <td>   Hyperesthesia </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 3</td>
+                           <td align="center"> 1</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">   Pain </td>
+                           <td align="center" valign="top"> 15</td>
+                           <td align="center" valign="top"> 22</td>
+                           <td align="center" valign="top"> 26</td>
+                           <td align="center" valign="top"> 30</td>
+                        </tr>
+                        <tr>
+                           <td>   Paresthesia </td>
+                           <td align="center"> 8</td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 20</td>
+                           <td align="center"> 20</td>
+                        </tr>
+                        <tr>
+                           <td>   Photosensitivity Reaction </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 3</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">   Pruritus </td>
+                           <td align="center" valign="top"> 31</td>
+                           <td align="center" valign="top"> 59</td>
+                           <td align="center" valign="top"> 52</td>
+                           <td align="center" valign="top"> 45</td>
+                        </tr>
+                        <tr>
+                           <td valign="bottom">   Rash </td>
+                           <td align="center" valign="bottom"> 35</td>
+                           <td align="center" valign="bottom"> 20</td>
+                           <td align="center" valign="bottom"> 46</td>
+                           <td align="center" valign="bottom"> 17</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">   Vesiculobullous Rash </td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 4</td>
+                           <td align="center" valign="top"> 1</td>
+                        </tr>
+                        <tr>
+                           <td> Contact Dermatitis </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> Dry Skin </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 3</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Herpes Simplex </td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 0</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Maculopapular Rash </td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 0</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Pain </td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 1</td>
+                           <td align="center" valign="top"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> Pruritus </td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 6</td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 1</td>
+                        </tr>
+                        <tr>
+                           <td> Rash </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 10</td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> Skin Carcinoma </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 6</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 2</td>
+                        </tr>
+                        <tr>
+                           <td> Skin Nodule </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> Skin Ulcer </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 1</td>
+                           <td align="center"> 0</td>
+                        </tr>
+                        <tr>
+                           <td> <content styleCode="bold">SPECIAL SENSES </content>
+                           </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 2</td>
+                        </tr>
+                        <tr>
+                           <td> Conjunctivitis </td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 4</td>
+                           <td align="center"> 1</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> Eye Pain </td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 2</td>
+                           <td align="center" valign="top"> 0</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> <content styleCode="bold">UROGENITAL SYSTEM </content>
+                           </td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 0</td>
+                           <td align="center" valign="top"> 4</td>
+                           <td align="center" valign="top"> 5</td>
+                        </tr>
+                        <tr>
+                           <td> Hematuria </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 2</td>
+                           <td align="center"> 1</td>
+                        </tr>
+                        <tr>
+                           <td> <content styleCode="bold">OTHER </content>
+                           </td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 0</td>
+                           <td align="center"> 3</td>
+                        </tr>
+                        <tr>
+                           <td valign="bottom"> Procedure </td>
+                           <td align="center" valign="bottom"> 0</td>
+                           <td align="center" valign="bottom"> 0</td>
+                           <td align="center" valign="bottom"> 0</td>
+                           <td align="center" valign="bottom"> 3</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Skin and Appendages Adverse Events Reported for Diclofenac Sodium Gel, 3% at Less Than 1% Incidence in the Phase 3 Studies:</content> skin hypertrophy, paresthesia, seborrhea, urticaria, application site reactions (skin carcinoma, hypertonia, skin hypertrophy lacrimation disorder, maculopapular rash, purpuric rash, vasodilation).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Adverse Reactions Reported for <content styleCode="italics">
+                           <content styleCode="underline">Oral </content>
+                        </content>Diclofenac Dosage Form (not topical Diclofenac Sodium Gel, 3%): </content>
+                  </paragraph>
+                  <paragraph>*Incidence greater than 1% marked with asterisk.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Body as a Whole:</content> abdominal pain or cramps*, headache*, fluid retention*, abdominal distention*, malaise, swelling of lips and tongue, photosensitivity, anaphylaxis, anaphylactoid reactions, chest pain.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiovascular:</content> hypertension, congestive heart failure, palpitations, flushing, tachycardia, premature ventricular contractions, myocardial infarction, hypotension.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Digestive:</content> diarrhea*, indigestion*, nausea*, constipation*, flatulence*, liver test abnormalities*, PUB*, i.e., peptic ulcer, with or without bleeding and/or perforation, or bleeding without ulcer, vomiting, jaundice, melena, esophageal lesions, aphthous stomatitis, dry mouth and mucous membranes, bloody diarrhea, hepatitis, hepatic necrosis, cirrhosis, hepatorenal syndrome, appetite change, pancreatitis with or without concomitant hepatitis, colitis, intestinal perforation.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hemic and Lymphatic:</content> hemoglobin decrease, leukopenia, thrombocytopenia, eosinophilia, hemolytic anemia, aplastic anemia, agranulocytosis, purpura, allergic purpura, bruising.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Metabolic and Nutritional Disorders:</content> azotemia, hypoglycemia, weight loss.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nervous System:</content> dizziness*, insomnia, drowsiness, depression, diplopia, anxiety, irritability, aseptic meningitis, convulsions, paresthesia, memory disturbance, nightmares, tremor, tic, abnormal coordination, disorientation, psychotic reaction.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory:</content> epistaxis, asthma, laryngeal edema, dyspnea, hyperventilation, edema of pharynx.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin and Appendages:</content> rash*, pruritus*, alopecia, urticaria, eczema, dermatitis, bullous eruption, erythema multiforme major, angioedema, Stevens-Johnson syndrome, excess perspiration, exfoliative dermatitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Special Senses:</content> tinnitus*, blurred vision, taste disorder, reversible and irreversible hearing loss, scotoma, vitreous floaters, night blindness, amblyopia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Urogenital:</content> nephrotic syndrome, proteinuria, oliguria, interstitial nephritis, papillary necrosis, acute renal failure, urinary frequency, nocturia, hematuria, impotence, vaginal bleeding.</paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3c9f86f7-3ed7-4028-8122-4bbc7fafe73e">
+               <id root="8d9a82c8-d9d3-47f2-8a2c-acd1840387bd"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">OVERDOSAGE
+</content>
+               </title>
+               <text>
+                  <paragraph>Due to the low systemic absorption of topically-applied diclofenac sodium gel, 3%, overdosage is unlikely. There have been no reports of ingestion of diclofenac sodium gel, 3%. In the event of oral ingestion, resulting in significant systemic side effects, it is recommended that the stomach be emptied by vomiting or lavage. Forced diuresis may theoretically be beneficial because the drug is excreted in the urine. The effect of dialysis or hemoperfusion in the elimination of diclofenac (99% protein-bound) remains unproven. In addition to supportive measures, the use of oral activated charcoal may help to reduce the absorption of diclofenac. Supportive and symptomatic treatment should be given for complications such as renal failure, convulsions, gastrointestinal irritation and respiratory depression.</paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_376248e2-42f6-4060-92d9-f878bd6f0e2d">
+               <id root="6636eefa-1706-4cd4-9cc7-c75f217f3022"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION
+</content>
+               </title>
+               <text>
+                  <paragraph>Diclofenac sodium gel, 3% is applied to lesion areas twice daily. It is to be smoothed onto the affected skin gently. The amount needed depends upon the size of the lesion site. Assure that enough diclofenac sodium gel, 3% is applied to adequately cover each lesion. Normally 0.5 g of gel is used on each 5 cm x 5 cm lesion site. The recommended duration of therapy is from 60 days to 90 days. Complete healing of the lesion(s) or optimal therapeutic effect may not be evident for up to 30 days following cessation of therapy. Lesions that do not respond to therapy should be carefully re-evaluated and management reconsidered.</paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d8a9b123-c97d-42fb-ac13-0fe5c2bc7014">
+               <id root="4b27b686-4341-4d07-9ff5-df0d00ddb7f1"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED </content>
+               </title>
+               <text>
+                  <paragraph>Available in tubes of 100 g (NDC 0472-1783-10). Each gram of gel contains 30 mg of diclofenac sodium, USP.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage:</content> Store at 20° to 25°C (68° to 77°F); excursions permitted between 15° to 30°C (59° to 86°F) [see USP Controlled Room Temperature]. Protect from heat. Avoid freezing. </paragraph>
+                  <paragraph>†Brands listed are the trademarks of their respective owners.</paragraph>
+                  <paragraph>Distributed by:<br/>Actavis Pharma, Inc.<br/>Parsippany, NJ 07054 USA</paragraph>
+                  <paragraph>Rev. A 12/2019<br/>3701600-6300 GW7341</paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e0746da7-7f28-4ac0-a573-a62cdb6c3daa">
+               <id root="aaf2062b-c713-4142-b8a4-1aa8c37764a4"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <title>
+                  <content styleCode="bold">Medication Guide</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Diclofenac Sodium (dye kloe'</content>
+                     <content styleCode="bold"> fen ak soe'</content>
+                     <content styleCode="bold"> dee um) </content>
+                     <content styleCode="bold">Gel, 3%</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about diclofenac sodium gel, 3% and medicines called Nonsteroidal Anti-</content>
+                     <content styleCode="bold">inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Diclofenac sodium gel, 3% is an NSAID medicine that is used on the skin only (topical). Do not use diclofenac sodium gel, 3% in or on the eyes. </content>
+                     <content styleCode="bold">NSAIDs can cause serious side effects, including:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>
+                        <content styleCode="bold">Increased risk of a heart attack or stroke that can lead to death</content>. This risk may happen early in treatment and may increase:<list listType="unordered" styleCode="Circle">
+                           <item>with increasing doses of NSAIDs</item>
+                           <item>with longer use of NSAIDs</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">Do not take or use NSAIDs right before or after a heart surgery called a “coronary artery bypass graft (CABG)". </content>
+                           <content styleCode="bold">Avoid taking NSAIDs after a recent heart attack, unless your healthcare provider tells you to. You may have an increased risk of another heart attack if you take or use NSAIDs after a recent heart attack.</content>
+                        </paragraph>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Increased risk of bleeding, ulcers, and tears (perforation) of the esophagus (tube leading from the mouth to the stomach), stomach and intestines:</content>
+                        <list listType="unordered" styleCode="Circle">
+                           <item>
+                              <content styleCode="bold">anytime during use</content>
+                           </item>
+                           <item>without warning symptoms</item>
+                           <item>that may cause death</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">The risk of getting an ulcer or bleeding increases with:   </content>
+                  </paragraph>
+                  <table width="750px" cellspacing="0" cellpadding="0">
+                     <col width="253.45pt"/>
+                     <col width="297.35pt"/>
+                     <tbody>
+                        <tr>
+                           <td colspan="2">○ past history of stomach ulcers, or stomach or intestinal bleeding with use of NSAIDs</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">
+                              <paragraph> ○ taking medicines called “corticosteroids”, “anticoagulants”, “SSRIs”, or “SNRIs”</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph> ○ increasing doses of NSAIDs</paragraph>
+                           </td>
+                           <td>
+                              <paragraph> ○ older age</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph> ○ longer use of NSAIDs</paragraph>
+                           </td>
+                           <td>
+                              <paragraph> ○ poor health</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph> ○ smoking</paragraph>
+                           </td>
+                           <td>
+                              <paragraph> ○ advanced liver disease</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph> ○ drinking alcohol</paragraph>
+                           </td>
+                           <td>
+                              <paragraph> ○ bleeding problems</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">NSAIDs should only be used:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>exactly as prescribed</item>
+                     <item>at the lowest dose possible for your treatment</item>
+                     <item>for the shortest time needed</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What is diclofenac sodium gel, 3%?</content>
+                  </paragraph>
+                  <paragraph> Diclofenac sodium gel, 3% is an NSAID that is used on the skin (topical) to treat a skin condition called actinic keratosis. Diclofenac sodium gel, 3% is not for use in children.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Who should not use diclofenac sodium gel, 3%? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not use diclofenac sodium gel, 3%:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>if you have had an allergic reaction to any of the ingredients in diclofenac sodium gel, 3%. See the end of this Medication Guide for a complete list of ingredients in diclofenac sodium gel, 3%.</item>
+                     <item>right before or after heart bypass surgery.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Before using diclofenac sodium gel, 3%, tell your healthcare provider about all of your medical conditions, including if you:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>have liver or kidney problems</item>
+                     <item>have high blood pressure</item>
+                     <item>have asthma</item>
+                     <item>are pregnant or plan to become pregnant. Talk to your healthcare provider if you are considering taking NSAIDs during pregnancy. <content styleCode="bold">You should not take or use NSAIDs after 29 weeks of pregnancy.</content>
+                     </item>
+                     <item>are breastfeeding or plan to breastfeed. You and your healthcare provider should decide if you will use diclofenac sodium gel, 3% or breastfeed. You should not do both.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Tell your healthcare provider about all of the medicines you take, including prescription or over-the-counter medicines, vitamins, or herbal supplements.</content> NSAIDs and some other medicines can interact with each other and cause serious side effects. <content styleCode="bold">Do not start taking any new medicine without talking to your healthcare provider first.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I use diclofenac sodium gel, 3%?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Use diclofenac sodium gel, 3% exactly as your healthcare provider tells you to use it.</item>
+                     <item>Apply diclofenac sodium gel, 3% 2 times a day.</item>
+                     <item>Apply enough diclofenac sodium gel, 3% to cover each skin lesion and gently rub in.</item>
+                     <item>Diclofenac sodium gel, 3% may be used for 60 to 90 days. You may not see improvement of skin lesions for up to 30 days after stopping treatment. See your healthcare provider if lesions do not respond to treatment.</item>
+                     <item>Wash your hands after applying diclofenac sodium gel, 3%.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What should I avoid while using diclofenac sodium gel, 3%?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Avoid spending time in sunlight or artificial light, such as tanning beds or sunlamps. Diclofenac sodium gel, 3% can make your skin sensitive to sunlight and the light from tanning beds and sunlamps.</item>
+                     <item>You should avoid applying diclofenac sodium gel, 3% to open skin wounds, skin infections, or peeling skin.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of diclofenac sodium gel, 3%?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Diclofenac sodium gel, 3% and other NSAIDs can cause serious side effects, including:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">See “What is the most important information I should know about diclofenac sodium gel, 3% and medicines called Nonsteroidal </content>
+                     <content styleCode="bold">Anti-inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>new or worse high blood pressure</item>
+                     <item>heart failure</item>
+                     <item>liver problems including liver failure</item>
+                     <item>kidney problems including kidney failure</item>
+                     <item>low red blood cells (anemia)</item>
+                     <item>life-threatening skin reactions</item>
+                     <item>life threatening allergic reactions</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Other side effects of NSAIDs include:</content> stomach pain, constipation, diarrhea, gas, heartburn, nausea, vomiting, and dizziness.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Get emergency help right away if you get any of the following symptoms:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>shortness of breath or trouble breathing</item>
+                     <item>chest pain</item>
+                     <item>weakness in one part or side of your body</item>
+                     <item>slurred speech</item>
+                     <item>swelling of the face or throat</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Stop using diclofenac sodium gel, 3% and call your healthcare provider right away if you get any of the following symptoms:</content>
+                  </paragraph>
+                  <table width="750px">
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <list listType="unordered" styleCode="Disk">
+                                 <item>nausea</item>
+                                 <item>more tired or weaker than usual</item>
+                                 <item>diarrhea</item>
+                                 <item>itching</item>
+                                 <item>your skin or eyes look yellow</item>
+                                 <item>indigestion or stomach pain</item>
+                                 <item>flu-like symptoms</item>
+                              </list>
+                           </td>
+                           <td>
+                              <list listType="unordered" styleCode="Disk">
+                                 <item>vomit blood</item>
+                                 <item>there is blood in your bowel movement <br/>or it is black and sticky like tar</item>
+                                 <item>unusual weight gain</item>
+                                 <item>skin rash or blisters with fever</item>
+                                 <item>     swelling of the arms, legs, hands and feet </item>
+                              </list>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Application site skin reactions are common with diclofenac sodium gel, 3% and include:</content> skin redness, itching, rash, dry skin, scaling, and peeling.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">If diclofenac sodium gel, 3% is accidentally taken by mouth, call your healthcare provider or get medical help right away.</content> These are not all the possible side effects of NSAIDs. For more information, ask your healthcare provider or pharmacist about NSAIDs.</paragraph>
+                  <paragraph> Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088. For more information call Actavis at 1-800-432-8534.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other information about NSAIDs</content>
+                  </paragraph>
+                  <paragraph>Aspirin is an NSAID but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines.</paragraph>
+                  <paragraph> Some NSAIDs are sold in lower doses without a prescription (over-the counter). Talk to your healthcare provider before using over-the-counter NSAIDs for more than 10 days.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I store diclofenac sodium gel, 3%?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Store diclofenac sodium gel, 3% at room temperature 68°F to 77°F (20°C to 25°C).</item>
+                     <item>Keep diclofenac sodium gel, 3% away from heat. Avoid freezing diclofenac sodium gel, 3%.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Keep diclofenac sodium gel, 3% and all medicines out of the reach of children. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General information about the safe and effective use of diclofenac sodium gel, 3%</content>
+                  </paragraph>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use diclofenac sodium gel, 3% for a condition for which it was not prescribed. Do not give diclofenac sodium gel, 3% to other people, even if they have the same symptoms that you have. It may harm them.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> If you would like more information about diclofenac sodium gel, 3%, talk with your healthcare provider. You can ask your pharmacist or healthcare provider for information about diclofenac sodium gel, 3% that is written for health professionals.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the ingredients in diclofenac sodium gel, 3%?</content>
+                  </paragraph>
+                  <paragraph>Active ingredient: diclofenac sodium<br/>Inactive ingredient: benzyl alcohol, hyaluronate sodium, polyethylene glycol monomethyl ether, and purified water.</paragraph>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>Distributed by:<br/>Actavis Pharma, Inc.<br/>Parsippany, NJ 07054 USA<br/>
+                  </paragraph>
+                  <paragraph>Rev. A 12/2019<br/>3701600-6300 GW7341</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20191231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1979d3b4-26e2-425d-85a5-707c548b3627">
+               <id root="7c680605-d3c9-4b77-a85a-b91644ea4966"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PACKAGE LABEL.PRINCIPAL DISPLAY PANEL </content>
+               </title>
+               <text>
+                  <paragraph>Actavis</paragraph>
+                  <paragraph>NDC 0472-1783-10</paragraph>
+                  <paragraph>Diclofenac Sodium Gel 3%</paragraph>
+                  <paragraph>PHARMACIST: Dispense the accompanying<br/>Medication Guide to each patient.</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>For External Use Only - Not for Ophthalmic Use </paragraph>
+                  <paragraph>Net Wt. 100 g</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20191231"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

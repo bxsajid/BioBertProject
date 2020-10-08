@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="a2208105-3810-4ae0-9fc5-25cdf2f6dfe7"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>DICLOFENAC SODIUM<br/>OPHTHALMIC SOLUTION, 0.1%
+</title>
+   <effectiveTime value="20181218"/>
+   <setId root="d9e299df-ad21-4ebb-a7a4-287a4c337e90"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="062649876" root="1.3.6.1.4.1.519.1"/>
+            <name>Akorn, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="603980319" root="1.3.6.1.4.1.519.1"/>
+                        <name>Akorn, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="17478-892" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="17478-892" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="17478-892" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="17478-892" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="17478-892" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="17478-892" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STERILIZE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="17478-892" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="ab7ee733-4c6d-4dcb-97e9-c9044e9c3ff4"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20111222"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="17478-892" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Diclofenac</name>
+                        <formCode code="C60992" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION/ DROPS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Diclofenac Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="QTG126297Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DICLOFENAC SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="144O8QL0L1" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DICLOFENAC</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="R57ZHV85D4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6D4M1DAL6O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYOXYL 35 CASTOR OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="X045WJ989B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="023C2WHX2V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TROMETHAMINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2.5" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="17478-892-25" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20080501"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="17478-892-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20080501"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20080501"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA077845" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="ffa6b703-632a-4317-b00f-688a58d22296"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Rx Only
+</paragraph>
+               </text>
+               <effectiveTime value="20111222"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="df8f736d-e373-4118-b915-d356d9085a32"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION:
+</title>
+               <text>
+                  <paragraph>Diclofenac Sodium Ophthalmic Solution, 0.1% is a sterile, topical, nonsteroidal anti-inflammatory product for ophthalmic use. Diclofenac Sodium is designated chemically as 2-[(2,6-dichlorophenyl)amino] benzeneacetic acid, monosodium salt, with an empirical formula of C<sub>14</sub>H<sub>10</sub>Cl<sub>2</sub>NO<sub>2</sub>Na. The structural formula of Diclofenac Sodium is:
+</paragraph>
+                  <renderMultiMedia ID="f01" referencedObject="mm01"/>
+                  <paragraph>Diclofenac Sodium Ophthalmic Solution, 0.1% is available as a sterile solution which contains diclofenac sodium 0.1% (1 mg/mL).
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Inactive Ingredients:</content> boric acid, edetate disodium (1 mg/mL), polyoxyl 35 castor oil, water for injection, sorbic acid (2 mg/mL), tromethamine.
+</paragraph>
+                  <paragraph>Diclofenac Sodium is a faintly yellow-white to light-beige, slightly hygroscopic crystalline powder. It is freely soluble in methanol, sparingly soluble in water, very slightly soluble in acetonitrile, and insoluble in chloroform and in 0.1N hydrochloric acid. Its molecular weight is 318.14. Diclofenac Sodium Ophthalmic Solution is an iso-osmotic solution with an osmolality of about 300 mOsmol/1000 g, buffered at approximately pH 7.2. Diclofenac Sodium Ophthalmic Solution has a faint characteristic odor of castor oil.
+</paragraph>
+               </text>
+               <effectiveTime value="20111222"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Structural Formula
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dic03-0002-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="bd11b419-2777-456c-988c-34648bc8972f"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY:
+</title>
+               <effectiveTime value="20111222"/>
+               <component>
+                  <section ID="s4">
+                     <id root="5ae1b337-2312-48bc-94ac-bdc69e1d5325"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>Pharmacodynamics
+</title>
+                     <text>
+                        <paragraph>Diclofenac Sodium is one of a series of phenylacetic acids that has demonstrated anti-inflammatory and analgesic properties in pharmacological studies. It is thought to inhibit the enzyme cyclooxygenase, which is essential in the biosynthesis of prostaglandins.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20111222"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s5">
+                     <id root="388717be-4ba1-4700-9cec-0906afed7a61"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Animal Studies
+</title>
+                     <text>
+                        <paragraph>Prostaglandins have been shown in many animal models to be mediators of certain kinds of intraocular inflammation. In studies performed in animal eyes, prostaglandins have been shown to produce disruption of the blood-aqueous humor barrier, vasodilation, increased vascular permeability, leukocytosis, and increased intraocular pressure.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20111222"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s6">
+                     <id root="50a2b0a7-ad3b-4e3c-9b3a-0d1765cebc50"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics
+</title>
+                     <text>
+                        <paragraph>Results from a bioavailability study established that plasma levels of diclofenac following ocular instillation of two drops of Diclofenac Sodium Ophthalmic Solution to each eye were below the limit of quantification (10 ng/mL) over a 4-hour period. This study suggests that limited, if any, systemic absorption occurs with Diclofenac Sodium Ophthalmic Solution.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20111222"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s7">
+                     <id root="46536051-8b62-4cae-ad93-21847255ee27"/>
+                     <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+                     <title>Clinical Trials:
+</title>
+                     <effectiveTime value="20111222"/>
+                     <component>
+                        <section ID="s8">
+                           <id root="072d4946-2bd8-488c-b006-5077111a206a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Postoperative Anti-Inflammatory Effects:
+</title>
+                           <text>
+                              <paragraph>In two double-masked, controlled, efficacy studies of postoperative inflammation, a total of 206 cataract patients were treated with Diclofenac Sodium Ophthalmic Solution and 103 patients were treated with vehicle placebo. Diclofenac Sodium Ophthalmic Solution was favored over vehicle placebo over a 2-week period for the clinical assessments of inflammation as measured by anterior chamber cells and flare.
+</paragraph>
+                              <paragraph>In double-masked, controlled studies of corneal refractive surgery (radial keratotomy (RK) and laser photorefractive keratectomy (PRK)) patients were treated with Diclofenac Sodium Ophthalmic Solution and/or vehicle placebo. The efficacy of Diclofenac Sodium Ophthalmic Solution given before and shortly after surgery was favored over vehicle placebo during the 6-hour period following surgery for the clinical assessments of pain and photophobia. Patients were permitted to use a hydrogel soft contact lens with Diclofenac Sodium Ophthalmic Solution for up to three days after PRK.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20111222"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s9">
+               <id root="dbe5171f-92f9-4445-88d4-0d79f00bac40"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE:
+</title>
+               <text>
+                  <paragraph>Diclofenac Sodium Ophthalmic Solution, 0.1% is indicated for the treatment of postoperative inflammation in patients who have undergone cataract extraction and for the temporary relief of pain and photophobia in patients undergoing corneal refractive surgery.
+</paragraph>
+               </text>
+               <effectiveTime value="20111222"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s10">
+               <id root="3536f948-6f11-4d01-ad57-bac3d64531bb"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS:
+</title>
+               <text>
+                  <paragraph>Diclofenac Sodium Ophthalmic Solution, 0.1% is contraindicated in patients who are hypersensitive to any component of the medication.
+</paragraph>
+               </text>
+               <effectiveTime value="20111222"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s11">
+               <id root="159e1242-92df-48af-8921-8678cda4e9a2"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS:
+</title>
+               <text>
+                  <paragraph>The refractive stability of patients undergoing corneal refractive procedures and treated with Diclofenac Sodium Ophthalmic Solution has not been established. Patients should be monitored for a year following use in this setting.
+</paragraph>
+                  <paragraph>With some nonsteroidal anti-inflammatory drugs, there exists the potential for increased bleeding time due to interference with thrombocyte aggregation. There have been reports that ocularly applied nonsteroidal anti-inflammatory drugs can cause increased bleeding of ocular tissues (including hyphemas) in conjunction with ocular surgery.
+</paragraph>
+                  <paragraph>There is the potential for cross-sensitivity to acetylsalicylic acid, phenylacetic acid derivatives, and other nonsteroidal anti-inflammatory agents. Therefore, caution should be used when treating individuals who have previously exhibited sensitivities to these drugs.
+</paragraph>
+               </text>
+               <effectiveTime value="20111222"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s12">
+               <id root="9b34708c-5c94-413f-85f9-2c79307af3b5"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS:
+</title>
+               <effectiveTime value="20111222"/>
+               <component>
+                  <section ID="s13">
+                     <id root="b6b0c4a4-8163-4443-accb-c635eb36a1ab"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General
+</title>
+                     <text>
+                        <paragraph>All topical nonsteroidal anti-inflammatory drugs (NSAIDs) may slow or delay healing. Topical corticosteroids are also known to slow or delay healing. Concomitant use of topical NSAIDs and topical steroids may increase the potential for healing problems.
+</paragraph>
+                        <paragraph>Use of topical NSAIDs may result in keratitis. In some susceptible patients continued use of topical NSAIDs may result in epithelial breakdown, corneal thinning, corneal infiltrates, corneal erosion, corneal ulceration, and corneal perforation. These events may be sight threatening. Patients with evidence of corneal epithelial breakdown should immediately discontinue use of topical NSAIDs and should be closely monitored for corneal health.
+</paragraph>
+                        <paragraph>Postmarketing experience with topical NSAIDs suggest that patients experiencing complicated ocular surgeries, corneal denervation, corneal epithelial defects, diabetes mellitus, ocular surface disease (e.g., dry eye syndrome), rheumatoid arthritis, or repeat ocular surgeries within a short period-of-time may be at increased risk for corneal adverse events, which may become sight threatening. Topical NSAIDs should be used with caution in these patients.
+</paragraph>
+                        <paragraph>Postmarketing experience with topical NSAIDs also suggests that use more than 24 hours prior to surgery or use beyond 14 days post surgery may increase patient risk for occurrence and severity of corneal adverse events.
+</paragraph>
+                        <paragraph>It is recommended that Diclofenac Sodium Ophthalmic Solution, like other NSAIDs, be used with caution in patients with known bleeding tendencies or who are receiving other medications which may prolong bleeding time.
+</paragraph>
+                        <paragraph>Results from clinical studies indicate that Diclofenac Sodium Ophthalmic Solution has no significant effect upon ocular pressure. However, elevation in intraocular pressure may occur following cataract surgery.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20111222"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s14">
+                     <id root="905475a2-dafe-4d83-8931-c146d496985c"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients
+</title>
+                     <text>
+                        <paragraph>Except of the use of a bandage hydrogel soft contact lens during the first 3 days following refractive surgery, Diclofenac Sodium Ophthalmic Solution should not be used by patients currently wearing soft contact lenses due to adverse events that have occurred in other circumstances.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20111222"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s15">
+                     <id root="7d2eebb0-c44a-471d-945a-73d0901d3ce4"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <text>
+                        <paragraph>Long-term carcinogenicity studies in rats given Diclofenac Sodium Ophthalmic Solution in oral doses up to 2 mg/kg/day (approximately 500 times the human topical ophthalmic dose) revealed no significant increases in tumor incidence. A 2-year carcinogenicity study conducted in mice employing oral Diclofenac Sodium Ophthalmic Solution up to 2 mg/kg/day did not reveal any oncogenic potential. Diclofenac Sodium Ophthalmic Solution did not show mutagenic potential in various mutagenicity studies including the Ames test. Diclofenac Sodium Ophthalmic Solution administered to male and female rats at 4 mg/kg/day (approximately 1000 times the human topical ophthalmic dose) did not effect fertility.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20111222"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s16">
+                     <id root="65eac1a0-27e4-4900-bdd4-0ad19f9e37f9"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use:
+</title>
+                     <text>
+                        <paragraph>No overall differences in safety or effectiveness have been observed between elderly and younger adult patients.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20111222"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s17">
+                     <id root="00dea188-141a-402b-8e5c-d0fa8ccc66f0"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>PREGNANCY:
+</title>
+                     <effectiveTime value="20111222"/>
+                     <component>
+                        <section ID="s18">
+                           <id root="d6c2b703-9414-49ee-842d-a3c2877bf7d2"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects
+</title>
+                           <text>
+                              <paragraph>Pregnancy Category C. Reproduction studies performed in mice at oral doses up to 5,000 times (20 mg/kg/day) and in rats and rabbits at oral doses up to 2,500 times (10 mg/kg/day) the human topical dose have revealed no evidence of teratogenicity due to Diclofenac Sodium Ophthalmic Solution despite the induction of maternal toxicity and fetal toxicity. In rats, maternally toxic doses were associated with dystocia, prolonged gestation, reduced fetal weights and growth, and reduced fetal survival. Diclofenac Sodium Ophthalmic Solution has been shown to cross the placental barrier in mice and rats.
+</paragraph>
+                              <paragraph>There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20111222"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s19">
+                     <id root="76e7d26b-404e-4315-8981-1d73d31769d3"/>
+                     <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                     <title>Non-teratogenic Effects
+</title>
+                     <text>
+                        <paragraph>Because of the known effects of prostaglandin biosynthesis-inhibiting drugs on the fetal cardiovascular system (closure of ductus arteriosus), the use of Diclofenac Sodium Ophthalmic Solution during late pregnancy should be avoided.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20111222"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s20">
+                     <id root="deb0b90c-0b86-40e9-af47-a3cfaca2f350"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use
+</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20111222"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s21">
+               <id root="198d3787-f270-4553-8b47-c4a851b5ed37"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS:
+</title>
+               <effectiveTime value="20111222"/>
+               <component>
+                  <section ID="s22">
+                     <id root="ecedd045-7356-421b-b60a-a72f8f4526dd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Clinical Practice:</content> The following events have been identified during postmarketing use of topical diclofenac sodium ophthalmic solution, 0.1% in clinical practice. Because they are reported voluntarily from a population of unknown size, estimates of frequency cannot be made. The events which have been chosen for inclusion due to either their seriousness, frequency of reporting, possible causal connection to topical diclofenac sodium ophthalmic Solution, 0.1%, or a combination of these factors, include corneal erosion, corneal infiltrates, corneal perforation, corneal thinning, corneal ulceration, epithelial breakdown, and superficial punctate keratitis (see <content styleCode="bold">
+                              <linkHtml href="#s13">Precautions, General</linkHtml>).</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20111222"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s23">
+                     <id root="f1e43247-c820-416f-9204-9aaf786c4352"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Ocular:</content> Transient burning and stinging were reported in approximately 15% of patients across studies with the use of Diclofenac Sodium Ophthalmic Solution. In cataract surgery studies, keratitis was reported in up to 28% of patients receiving Diclofenac Sodium Ophthalmic Solution, although in many of these cases keratitis was initially noted prior to the initiation of treatment. Elevated intraocular pressure following cataract surgery was reported in approximately 15% of patients undergoing cataract surgery. Lacrimation complaints were reported in approximately 30% of case studies undergoing incisional refractive surgery.
+</paragraph>
+                        <paragraph>The following adverse reactions were reported in approximately 5% or less of the patients: abnormal vision, acute elevated IOP, blurred vision, conjunctivitis, corneal deposits, corneal edema, corneal opacity, corneal lesions, discharge, eyelid swelling, injection, iritis, irritation, itching, lacrimation disorder and ocular allergy.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20111222"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s24">
+                     <id root="98f37810-4ff7-4a53-b0b0-22c5a26cfa97"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Systemic:</content> The following adverse reactions were reported in 3% or less of the patients: abdominal pain, asthenia, chills, dizziness, facial edema, fever, headache, insomnia, nausea, pain, rhinitis, viral infection, and vomiting.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20111222"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s25">
+               <id root="c7febaed-6fcf-4b01-888c-77c25f4922b0"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>Overdosage:
+</title>
+               <text>
+                  <paragraph>Overdosage will not ordinarily cause acute problems. If Diclofenac Sodium Ophthalmic Solution is accidentally ingested, fluids should be taken to dilute the medication.
+</paragraph>
+               </text>
+               <effectiveTime value="20111222"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s26">
+               <id root="4970ad87-b21a-4cb9-a695-e8a0e4f81aa0"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION:
+</title>
+               <text>
+                  <paragraph>Cataract Surgery: One drop of Diclofenac Sodium Ophthalmic Solution, 0.1% should be applied to the affected eye, 4 times daily beginning 24 hours after cataract surgery and continuing throughout the first 2 weeks of the post operative period.
+</paragraph>
+                  <paragraph>Corneal Refractive Surgery: One or two drops of Diclofenac Sodium Ophthalmic Solution, 0.1% should be applied to the operative eye within the hour prior to corneal refractive surgery. Within 15 minutes after surgery, one or two drops should be applied to the operative eye and continued 4 times daily for up to 3 days.
+</paragraph>
+               </text>
+               <effectiveTime value="20111222"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s27">
+               <id root="63af47db-4fa8-4c1e-b09d-0f570c74cb09"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED:
+</title>
+               <text>
+                  <paragraph>Diclofenac Sodium Ophthalmic Solution, 0.1% (1 mg/mL) Solution is supplied in a low density polyethylene (LDPE) white bottle with a LDPE Dropper Tip and Polypropylene grey closure. The 2.5 mL fill is supplied in a 10 mL size bottle. The 5.0 mL fill is also supplied in a 10.0 mL size bottle.
+</paragraph>
+                  <paragraph>Bottles of 2.5 mL                 NDC 17478-892-25
+</paragraph>
+                  <paragraph>Bottles of 5 mL                       NDC 17478-892-10
+</paragraph>
+               </text>
+               <effectiveTime value="20111222"/>
+               <component>
+                  <section ID="s28">
+                     <id root="e8846dbb-0152-4c33-b561-5884e53c57f6"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">STORAGE:</content> Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Protect from freezing and light.</content>
+                        </paragraph>
+                        <paragraph>Dispense in original, unopened container only.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Akorn<br/>
+                           </content>Manufactured by: Akorn Inc.<br/>Lake Forest, IL 60045
+</paragraph>
+                        <paragraph>DC00N                                                                                                                                               Rev. 06/16
+</paragraph>
+                     </text>
+                     <effectiveTime value="20111222"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s29">
+               <id root="574cb167-acae-4c77-b2e2-2a1207988f9f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>Principal Display Panel Text for Container Label:
+</paragraph>
+                  <paragraph>NDC 17478-892-25
+</paragraph>
+                  <paragraph>Diclofenac Sodium
+</paragraph>
+                  <paragraph>Ophthalmic Solution
+</paragraph>
+                  <paragraph>0.1%
+</paragraph>
+                  <paragraph>Sterile
+</paragraph>
+                  <paragraph>Rx only 2.5 mL
+</paragraph>
+                  <renderMultiMedia ID="f02" referencedObject="mm02"/>
+               </text>
+               <effectiveTime value="20141106"/>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>Principal Display Panel Text for Container Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dic03-0002-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s30">
+               <id root="1a51831d-6e26-4b65-b7b5-a85a64c85dae"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>Principal Display Panel Text for Carton Label:
+</paragraph>
+                  <paragraph>NDC 17478-892-25
+</paragraph>
+                  <paragraph>Diclofenac
+</paragraph>
+                  <paragraph>Sodium
+</paragraph>
+                  <paragraph>Ophthalmic
+</paragraph>
+                  <paragraph>Solution
+</paragraph>
+                  <paragraph>0.1%
+</paragraph>
+                  <paragraph>Sterile
+</paragraph>
+                  <paragraph>2.5 mL
+</paragraph>
+                  <paragraph>Rx only Akorn Logo
+</paragraph>
+                  <renderMultiMedia ID="f03" referencedObject="mm03"/>
+               </text>
+               <effectiveTime value="20141106"/>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>Principal Display Panel Text for Carton Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dic03-0002-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

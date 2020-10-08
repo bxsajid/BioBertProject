@@ -1,0 +1,2320 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4ad5fa04-03c3-4a42-abc3-781f435387e2"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">ETODOLAC TABLETS USP</content>
+      <br/>
+      <content styleCode="bold">0892</content>
+      <br/>
+      <content styleCode="bold">1893</content>
+      <br/>
+      <content styleCode="bold">Rx only</content>
+   </title>
+   <effectiveTime value="20191101"/>
+   <setId root="8e9e0c26-399c-48ec-b32d-cfb896b870f4"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="079196022" root="1.3.6.1.4.1.519.1"/>
+            <name>Proficient Rx LP</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="079196022" root="1.3.6.1.4.1.519.1"/>
+                        <name>Proficient Rx LP</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="63187-796" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="fe1daead-ad8d-403f-a35b-a0a81fd14d2b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20181201"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63187-796" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Etodolac</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Etodolac</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0093-0892" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="400"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2M36281008" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ETODOLAC</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2M36281008" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ETODOLAC</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="0VUT3PMY82" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE 2910 (3 MPA.S)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="R75537T0T4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE 2910 (5 MPA.S)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="B697894SGQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 400</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="30IQX730WE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 6000</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="U725QWY32X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE K30</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LMI26O6933" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALUMINUM OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="L06K8R7DQK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 2</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="D3741U8K7L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>INDIGOTINDISULFONATE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C YELLOW NO. 10</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="20"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63187-796-20" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20161201"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="30"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63187-796-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20161201"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="60"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63187-796-60" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20161201"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="90"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63187-796-90" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20161201"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075009" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19980520"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48328" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PINK" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="19" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE">
+                              <originalText>capsule-shaped</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">93;892</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMAGE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="00093089201.jpg"/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_9badeaf4-d29e-46bc-ac28-568b5356ff9a">
+               <id root="33a91790-72d0-4e36-b208-a785723ea124"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="i4i_table_id_befcbee2-1791-450b-ad28-ee639485b992">
+                     <id root="7aca6ac4-cc72-4e04-aca2-0679e94b040b"/>
+                     <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+                     <title/>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption> </caption>
+                              <content styleCode="bold">Cardiovascular Thrombotic Events</content>
+                           </item>
+                        </list>
+                        <list listType="ordered">
+                           <item>
+                              <caption>1.</caption>Nonsteroidal anti-inflammatory drugs (NSAIDs) cause an increased risk of serious</item>
+                        </list>
+                        <paragraph>             cardiovascular thrombotic events, including myocardial infarction and stroke, which can</paragraph>
+                        <paragraph>             be fatal. This risk may occur early in treatment and may increase with duration of use</paragraph>
+                        <paragraph>            (see<content styleCode="bold"> WARNINGS </content>and<content styleCode="bold"> PRECAUTIONS</content>).</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Etodolac tablets are contraindicated in the setting of coronary artery bypass graft (CABG) surgery (see<content styleCode="bold"> CONTRAINDICATIONS </content>and<content styleCode="bold"> WARNINGS</content>).</item>
+                           <item>
+                              <caption> </caption>
+                              <content styleCode="bold">Gastrointestinal Risk</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>NSAIDs cause an increased risk of serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients are at greater risk for serious gastrointestinal (GI) events (see <content styleCode="bold">WARNINGS</content>).</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_inv-908850cd-d329-4be3-9aed-c2680152ba73">
+               <id root="52ed5c9b-c46a-456d-aa58-30d5da058076"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Etodolac is a member of the pyranocarboxylic acid group of non-steroidal anti-inflammatory drugs (NSAIDs). Each tablet contains etodolac for oral administration. Etodolac is a racemic mixture of [+]S and [-]R-enantiomers. Etodolac is a white or almost white crystalline powder, insoluble in water but soluble in alcohols, chloroform, dimethyl sulfoxide, and aqueous polyethylene glycol.</paragraph>
+                  <paragraph>The chemical name is (±)1,8-diethyl-1,3,4,9-tetrahydropyrano-[3,4-b]indole-1-acetic acid. It has a pKa of 4.65 and an n-octanol:water partition coefficient of 11.4 at pH 7.4. It has the following structural formula:</paragraph>
+                  <renderMultiMedia ID="id511" referencedObject="ID_99a724ca-63a3-47a9-8427-d98c409944be"/>
+                  <paragraph>                                                         C<sub>17</sub>H<sub>21</sub>NO<sub>3 </sub>       M.W. 287.37</paragraph>
+                  <paragraph>The inactive ingredients in etodolac tablets include: colloidal silicon dioxide, hypromellose, lactose monohydrate, magnesium stearate, microcrystalline cellulose, polyethylene glycol, polysorbate 80, povidone, sodium starch glycolate, titanium dioxide, FD&amp;C Red No. 40, and FD&amp;C Blue No. 2. The 400 mg tablet also contains D&amp;C Yellow No. 10.</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <observationMedia ID="ID_99a724ca-63a3-47a9-8427-d98c409944be">
+                     <text>Structural formula for etodolac</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_inv-de1110b0-3ff5-4f14-9671-4444e21dc0d7">
+               <id root="b6fc284a-b6a9-44d5-ba04-c419e6a18403"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="i4i_section_id_inv-d7779774-e156-4168-a7f4-de9ba08b08bf">
+                     <id root="fc18905c-84c2-4495-be81-4c145253ff93"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Etodolac is a non-steroidal anti-inflammatory drug (NSAID) that exhibits anti-inflammatory, analgesic, and antipyretic activities in animal models. The mechanism of action of etodolac, like that of other NSAIDs, is not completely understood, but may be related to prostaglandin synthetase inhibition.</paragraph>
+                        <paragraph>Etodolac is a racemic mixture of [-]R- and [+]S-etodolac. As with other NSAIDs, it has been demonstrated in animals that the [+]S-form is biologically active. Both enantiomers are stable and there is no [-]R to [+]S conversion <content styleCode="italics">in vivo</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-039c769c-ac8f-4c66-ae03-035ae7c1e06b">
+                     <id root="502355ce-7ad0-424a-a480-300e78873d6f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <effectiveTime value="20181201"/>
+                     <component>
+                        <section ID="i4i_section_id_inv-f522d7ba-153a-450c-a549-02fc5dacdfd1">
+                           <id root="acdd2dce-0b3d-44f2-9538-3c71009fd994"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Absorption</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The systemic bioavailability of etodolac from etodolac tablets is 100% as compared to solution and at least 80% as determined from mass balance studies. Etodolac is well absorbed and had a relative bioavailability of 100% when 200 mg capsules were compared with a solution of etodolac. Based on mass balance studies, the systemic availability of etodolac from either the tablet or capsule formulation is at least 80%. Etodolac does not undergo significant first-pass metabolism following oral administration. Mean (± 1 SD) peak plasma concentrations (C<sub>max</sub>) range from approximately 14 ± 4 to 37 ± 9 mcg/mL after 200 to 600 mg single doses and are reached in 80 ± 30 minutes (see <content styleCode="bold">Table 1</content> for summary of pharmacokinetic parameters). The dose-proportionality based on the area under the plasma concentration-time curve (AUC) is linear following doses up to 600 mg every 12 hours. Peak concentrations are dose proportional for both total and free etodolac following doses up to 400 mg every 12 hours, but following a 600 mg dose, the peak is about 20% higher than predicted on the basis of lower doses. The extent of absorption of etodolac is not affected when etodolac is administered after a meal. Food intake, however, reduces the peak concentration reached by approximately one-half and increases the time to peak concentration by 1.4 to 3.8 hours.</paragraph>
+                              <table ID="_RefID0EHAAE" width="100%">
+                                 <caption>Table 1: Mean (CV%)<footnote ID="_RefIDB19D8D6348CE44B4AD2F35131BB74B2F">Coefficient of variation</footnote> Pharmacokinetic Parameters of Etodolac in Normal Healthy Adults and Various Special Populations</caption>
+                                 <col width="14%"/>
+                                 <col width="10%"/>
+                                 <col width="10%"/>
+                                 <col width="10%"/>
+                                 <col width="9%"/>
+                                 <col width="10%"/>
+                                 <col width="10%"/>
+                                 <col width="13%"/>
+                                 <col width="13%"/>
+                                 <tbody>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Toprule " valign="top">
+                                          <paragraph>PK Parameters</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Toprule " valign="top">
+                                          <paragraph>Normal Healthy Adults (18 to 65)<footnote ID="_RefID886FBB7348384421B570649C0E406E89">Age Range (years)</footnote>
+                                          </paragraph>
+                                          <paragraph>(n = 179)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Toprule " valign="top">
+                                          <paragraph>Healthy Males (18 to 65)   (n = 176)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Toprule " valign="top">
+                                          <paragraph>Healthy Females (27 to 65)   (n = 3)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Toprule " valign="top">
+                                          <paragraph>Elderly (&gt; 65) (70 to 84)</paragraph>
+                                       </td>
+                                       <td align="center" colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                          <paragraph>Hemodialysis (24 to 65) </paragraph>
+                                          <paragraph>(n = 9)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Toprule " valign="top">
+                                          <paragraph>Renal Impairment (46 to 73)   (n = 10)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Toprule " valign="top">
+                                          <paragraph>Hepatic Impairment (34 to 60)   (n = 9)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                                       <td valign="top"/>
+                                       <td valign="top"/>
+                                       <td valign="top"/>
+                                       <td valign="top"/>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Dialysis On</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Dialysis Off</paragraph>
+                                       </td>
+                                       <td valign="top"/>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>T<sub>max</sub>, h</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>1.4 (61%)<footnoteRef IDREF="_RefIDB19D8D6348CE44B4AD2F35131BB74B2F"/>
+                                          </paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>1.4 (60%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>1.7 (60%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>1.2 (43%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>1.7 (88%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>0.9 (67%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>2.1 (46%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>1.1 (15%)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Oral Clearance, mL/h/kg (CL/F)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>49.1 (33%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>49.4 (33%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>35.7 (28%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>45.7 (27%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>NA<footnote ID="_RefID085E4D194965417EBDB486056EBFF8A5">NA = not available</footnote>
+                                          </paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>NA<footnoteRef IDREF="_RefID085E4D194965417EBDB486056EBFF8A5"/>
+                                          </paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>58.3 (19%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>42.0 (43%)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Apparent Volume of Distribution, mL/kg (Vd/F)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>393 (29%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>394 (29%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>300 (8%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>414 (38%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>NA<footnoteRef IDREF="_RefID085E4D194965417EBDB486056EBFF8A5"/>
+                                          </paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>NA<footnoteRef IDREF="_RefID085E4D194965417EBDB486056EBFF8A5"/>
+                                          </paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>NA<footnoteRef IDREF="_RefID085E4D194965417EBDB486056EBFF8A5"/>
+                                          </paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>NA<footnoteRef IDREF="_RefID085E4D194965417EBDB486056EBFF8A5"/>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Botrule Lrule " valign="top">
+                                          <paragraph>Terminal Half-Life, h</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                          <paragraph>6.4 (22%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                          <paragraph>6.4 (22%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                          <paragraph>7.9 (35%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                          <paragraph>6.5 (24%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                          <paragraph>5.1 (22%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                          <paragraph>7.5 (34%)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                          <paragraph>NA<footnoteRef IDREF="_RefID085E4D194965417EBDB486056EBFF8A5"/>
+                                          </paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                          <paragraph>5.7 (24%)</paragraph>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-49a6efa7-599e-4297-8907-f9a65a439ea7">
+                           <id root="0fde2ebd-a9fa-4f6d-b058-f94dec0336d0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Distribution</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The mean apparent volume of distribution (Vd/F) of etodolac is approximately 390 mL/kg. Etodolac is more than 99% bound to plasma proteins, primarily to albumin. The free fraction is less than 1% and is independent of etodolac total concentration over the dose range studied. It is not known whether etodolac is excreted in human milk; however, based on its physical-chemical properties, excretion into breast milk is expected. Data from <content styleCode="italics">in vitro </content>studies, using peak serum concentrations at reported therapeutic doses in humans, show that the etodolac free fraction is not significantly altered by acetaminophen, ibuprofen, indomethacin, naproxen, piroxicam, chlorpropamide, glipizide, glyburide, phenytoin, and probenecid.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-a65a4594-ffd5-4c1d-b211-96eea967c16b">
+                           <id root="e09a59c0-8c53-4616-9133-8d30ea4a1845"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Metabolism</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Etodolac is extensively metabolized in the liver. The role, if any, of a specific cytochrome P450 system in the metabolism of etodolac is unknown. Several etodolac metabolites have been identified in human plasma and urine. Other metabolites remain to be identified. The metabolites include 6-, 7-, and 8-hydroxylated-etodolac and etodolac glucuronide. After a single dose of <sup>14</sup>C-etodolac, hydroxylated metabolites accounted for less than 10% of total drug in serum. On chronic dosing, hydroxylated-etodolac metabolite does not accumulate in the plasma of patients with normal renal function. The extent of accumulation of hydroxylated-etodolac metabolites in patients with renal dysfunction has not been studied. The hydroxylated-etodolac metabolites undergo further glucuronidation followed by renal excretion and partial elimination in the feces.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-b5f69105-b685-4511-9983-201e17bd9a9a">
+                           <id root="97a984f9-6063-46c7-9a2f-83c6c115670b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Excretion</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The mean oral clearance of etodolac following oral dosing is 49 (± 16) mL/h/kg. Approximately 1% of an etodolac dose is excreted unchanged in the urine with 72% of the dose excreted into urine as parent drug plus metabolite:</paragraph>
+                              <table width="100%">
+                                 <col width="87%"/>
+                                 <col width="13%"/>
+                                 <tbody>
+                                    <tr>
+                                       <td styleCode="Botrule Toprule " valign="top">
+                                          <paragraph>- etodolac, unchanged</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Botrule Toprule " valign="top">
+                                          <paragraph>1%</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Botrule " valign="top">
+                                          <paragraph>- etodolac glucuronide</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Botrule " valign="top">
+                                          <paragraph>13%</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Botrule " valign="top">
+                                          <paragraph>- hydroxylated metabolites (6-, 7-, and 8-OH)</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Botrule " valign="top">
+                                          <paragraph>5%</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Botrule " valign="top">
+                                          <paragraph>- hydroxylated metabolite glucuronides</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Botrule " valign="top">
+                                          <paragraph>20%</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Botrule " valign="top">
+                                          <paragraph>- unidentified metabolites</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Botrule " valign="top">
+                                          <paragraph>33%</paragraph>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>Although renal elimination is a significant pathway of excretion for etodolac metabolites, no dosing adjustment in patients with mild to moderate renal dysfunction is generally necessary. The terminal half-life (t<sub>½</sub>) of etodolac is 6.4 hours (22% CV). In patients with severe renal dysfunction or undergoing hemodialysis, dosing adjustment is not generally necessary.</paragraph>
+                              <paragraph>Fecal excretion accounted for 16% of the dose.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-a9b6e32f-b3fe-46d9-9ebb-b74b79085f86">
+                     <id root="ae7e63e3-989c-4115-bc7a-0fdef629f262"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Special Populations</title>
+                     <effectiveTime value="20181201"/>
+                     <component>
+                        <section ID="i4i_section_id_inv-dd5e4a62-1b06-435f-a690-40ebbad2cfaa">
+                           <id root="d388114f-be62-4205-b2a5-ee28a90bf940"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Geriatric</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>In etodolac clinical studies, no overall differences in safety or effectiveness were observed between these patients and younger patients. In pharmacokinetic studies, age was shown not to have any effect on etodolac half-life or protein binding, and there was no change in expected drug accumulation. Therefore, no dosage adjustment is generally necessary in the elderly on the basis of pharmacokinetics (see <content styleCode="bold">PRECAUTIONS</content>, <content styleCode="bold">Geriatric Use</content>).</paragraph>
+                              <paragraph>Etodolac is eliminated primarily by the kidney. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function (see <content styleCode="bold">WARNINGS</content>,<content styleCode="bold"> Renal Effects</content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-67fb2bf7-1493-4c4e-b2c6-df24838c1428">
+                           <id root="0b797ee2-1c38-42af-98ea-5016d7eede32"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Pediatric</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Safety and effectiveness in pediatric patients below the age of 18 years have not been established.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-dcba17cf-c0e2-4617-96fc-be0d2c97a6c6">
+                           <id root="07f89f71-0d38-4dca-9d31-f1d1f9e5c59b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Race</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Pharmacokinetic differences due to race have not been identified. Clinical studies included patients of many races, all of whom responded in a similar fashion.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-a6bc4bcc-2f60-4406-9170-eac2f41a3b84">
+                           <id root="615c97b7-d360-4880-a297-85fdbe11de12"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Hepatic Insufficiency</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Etodolac is predominantly metabolized by the liver. In patients with compensated hepatic cirrhosis, the disposition of total and free etodolac is not altered. Patients with acute and chronic hepatic diseases do not generally require reduced doses of etodolac compared to patients with normal hepatic function. However, etodolac clearance is dependent on liver function and could be reduced in patients with severe hepatic failure. Etodolac plasma protein binding did not change in patients with compensated hepatic cirrhosis given etodolac.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-6d39bbdf-4b3b-43a7-8fc7-753fa919971c">
+                           <id root="580f3a94-5d9a-4e91-85c9-af43357114ca"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Renal Insufficiency</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Etodolac pharmacokinetics have been investigated in subjects with renal insufficiency. Etodolac renal clearance was unchanged in the presence of mild-to-moderate renal failure (creatinine clearance 37 to 88 mL/min). Furthermore, there were no significant differences in the disposition of total and free etodolac in these patients. However, etodolac should be used with caution in such patients because, as with other NSAIDs, it may further decrease renal function in some patients. In patients undergoing hemodialysis, there was a 50% greater apparent clearance of total etodolac, due to a 50% greater unbound fraction. Free etodolac clearance was not altered, indicating the importance of protein binding in etodolac’s disposition. Etodolac is not significantly removed from the blood in patients undergoing hemodialysis.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_studies_id_inv-31188162-f4f4-40b2-96dc-949b8c6caac9">
+               <id root="2632e950-df68-4a77-bbbd-33ffa1b0ee1d"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>CLINICAL TRIALS</title>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="i4i_section_id_inv-2d8a2ad9-9fcc-453e-8be5-233a0be5acac">
+                     <id root="389e21a3-0cb8-4169-8d29-746aeb34dfb1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Analgesia</title>
+                     <text>
+                        <paragraph>Controlled clinical trials in analgesia were single-dose, randomized, double-blind, parallel studies in three pain models, including dental extractions. The analgesic effective dose for etodolac established in these acute pain models was 200 to 400 mg. The onset of analgesia occurred approximately 30 minutes after oral administration. Etodolac 200 mg provided efficacy comparable to that obtained with aspirin (650 mg). Etodolac 400 mg provided efficacy comparable to that obtained with acetaminophen with codeine (600 mg + 60 mg). The peak analgesic effect was between 1 to 2 hours. Duration of relief averaged 4 to 5 hours for 200 mg of etodolac and 5 to 6 hours for 400 mg of etodolac as measured by when approximately half of the patients required remedication.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-a48b5ac5-283f-48a6-86c9-3d9a0b7ad109">
+                     <id root="55f7cce1-4a71-4540-80ef-6d4e982801b2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Osteoarthritis</title>
+                     <text>
+                        <paragraph>The use of etodolac in managing the signs and symptoms of osteoarthritis of the hip or knee was assessed in double-blind, randomized, controlled clinical trials in 341 patients. In patients with osteoarthritis of the knee, etodolac, in doses of 600 to 1,000 mg/day, was better than placebo in two studies. The clinical trials in osteoarthritis used b.i.d. dosage regimens.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-b8b78fc6-47f0-4bad-894a-3c752963b9a6">
+                     <id root="afecdb51-08a6-4837-b608-f1eb36ac257c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Rheumatoid Arthritis</title>
+                     <text>
+                        <paragraph>In a 3 month study with 426 patients, etodolac 300 mg b.i.d. was effective in management of rheumatoid arthritis and comparable in efficacy to piroxicam 20 mg/day. In a long-term study with 1,446 patients in which 60% of patients completed 6 months of therapy and 20% completed 3 years of therapy, etodolac in a dose of 500 mg b.i.d. provided efficacy comparable to that obtained with ibuprofen 600 mg q.i.d. In clinical trials of rheumatoid arthritis patients, etodolac has been used in combination with gold, d-penicillamine, chloroquine, corticosteroids, and methotrexate.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_inv-8356014e-e4ab-432d-8a92-491866d24c33">
+               <id root="f6838f24-b06c-417f-9023-daeb4ba015a0"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Carefully consider the potential benefits and risks of etodolac tablets and other treatment options before deciding to use etodolac tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see <content styleCode="bold">WARNINGS</content>).</paragraph>
+                  <paragraph>Etodolac tablets are indicated:</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>For acute and long-term use in the management of signs and symptoms of the following:</item>
+                     <item>
+                        <caption> </caption>1.  Osteoarthritis</item>
+                     <item>
+                        <caption> </caption>2.  Rheumatoid arthritis</item>
+                     <item>
+                        <caption>2.</caption>For the management of acute pain</item>
+                  </list>
+               </text>
+               <effectiveTime value="20181201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_inv-fe6b60d6-3d49-4398-b800-4221ca7da059">
+               <id root="5ca0f4c5-8db1-470e-8f3f-4548bc999602"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Etodolac tablets are contraindicated in patients with known hypersensitivity to etodolac or other ingredients in etodolac tablets.</paragraph>
+                  <paragraph>Etodolac tablets should not be given to patients who have experienced asthma, urticaria, or other allergic-type reactions after taking aspirin or other NSAIDs. Severe, rarely fatal, anaphylactic-like reactions to NSAIDs have been reported in such patients (see <content styleCode="bold">WARNINGS</content>, <content styleCode="bold">Anaphylactoid Reactions </content>and <content styleCode="bold">PRECAUTIONS</content>, Preexisting Asthma).</paragraph>
+                  <paragraph>Etodolac tablets are contraindicated in the setting of coronary artery bypass graft (CABG) surgery (see <content styleCode="bold">WARNINGS</content>).</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_inv-6c73c3f9-084b-45b4-a3fc-890c53b5c219">
+               <id root="998b29c2-03b9-4a99-ba9b-6b0e43d583eb"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="i4i_section_id_inv-1efec962-a760-4462-a699-625007d2db56">
+                     <id root="903ed7a6-c699-4f74-acbc-51ccc115369e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardiovascular Effects</title>
+                     <effectiveTime value="20181201"/>
+                     <component>
+                        <section ID="i4i_section_id_inv-a5174056-09bc-4c67-8737-f09ecad6c188">
+                           <id root="705988d2-512c-4271-b61b-d8ee8fb40c94"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Cardiovascular Thrombotic Events</content>
+                              </content>
+                              <br/>
+                              <content styleCode="bold">Clinical trials of several COX-2 selective and nonselective NSAIDs of up to three years duration</content>
+                              <br/>
+                              <content styleCode="bold">have shown an increased risk of serious cardiovascular (CV) thrombotic events, including</content>
+                              <br/>
+                              <content styleCode="bold">myocardial infarction (MI) and stroke, which can be fatal. Based on available data, it is unclear</content>
+                              <br/>
+                              <content styleCode="bold">that the risk for CV thrombotic events is similar for all NSAIDs. The relative increase in serious</content>
+                              <br/>
+                              <content styleCode="bold">CV thrombotic events over baseline conferred by NSAID use appears to be similar in those with</content>
+                              <br/>
+                              <content styleCode="bold">and without known CV disease or risk factors for CV disease. However, patients with known CV</content>
+                              <br/>
+                              <content styleCode="bold">disease or risk factors had a higher absolute incidence of excess serious CV thrombotic events,</content>
+                              <br/>
+                              <content styleCode="bold">due to their increased baseline rate. Some observational studies found that this increased risk of</content>
+                              <br/>
+                              <content styleCode="bold">serious CV thrombotic events began as early as the first weeks of treatment. The increase in CV</content>
+                              <br/>
+                              <content styleCode="bold">thrombotic risk has been observed most consistently at higher doses.</content>
+                              <br/>
+                              <content styleCode="bold">To minimize the potential risk for an adverse CV event in NSAID-treated patients, use the lowest</content>
+                              <br/>
+                              <content styleCode="bold">effective dose for the shortest duration possible. Physicians and patients should remain alert for</content>
+                              <br/>
+                              <content styleCode="bold">the development of such events, throughout the entire treatment course, even in the absence of</content>
+                              <br/>
+                              <content styleCode="bold">previous CV symptoms. Patients should be informed about the symptoms of serious CV events</content>
+                              <br/>
+                              <content styleCode="bold">and the steps to take if they occur.</content>
+                              <br/>
+                              <content styleCode="bold">There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of</content>
+                              <br/>
+                              <content styleCode="bold">serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an</content>
+                              <br/>
+                              <content styleCode="bold">NSAID, such as etodolac, increases the risk of serious gastrointestinal (GI) events (see WARNINGS).</content>
+                              <br/>
+                              <content styleCode="bold">
+                                 <content styleCode="underline">Status Post Coronary Artery Bypass Graft (CABG) Surgery</content>
+                              </content>
+                              <br/>
+                              <content styleCode="bold">Two large, controlled clinical trials of a COX-2 selective NSAID for the treatment of pain in the</content>
+                              <br/>
+                              <content styleCode="bold">first 10 to 14 days following CABG surgery found an increased incidence of myocardial infarction</content>
+                              <br/>
+                              <content styleCode="bold">and stroke. NSAIDs are contraindicated in the setting of CABG (see CONTRAINDICATIONS).</content>
+                              <br/>
+                              <content styleCode="bold">
+                                 <content styleCode="underline">Post-MI Patients</content>
+                              </content>
+                              <br/>
+                              <content styleCode="bold">Observational studies conducted in the Danish National Registry have demonstrated that patients</content>
+                              <br/>
+                              <content styleCode="bold">treated with NSAIDs in the post-MI period were at increased risk of reinfarction, CV-related</content>
+                              <br/>
+                              <content styleCode="bold">death, and all-cause mortality beginning in the first week of treatment. In this same cohort, the</content>
+                              <br/>
+                              <content styleCode="bold">incidence of death in the first year post MI was 20 per 100 person years in NSAID-treated</content>
+                              <br/>
+                              <content styleCode="bold">patients compared to 12 per 100 person years in non-NSAID exposed patients. Although the</content>
+                              <br/>
+                              <content styleCode="bold">absolute rate of death declined somewhat after the first year post-MI, the increased relative risk of death in NSAID users persisted over at least the next four years of follow-up.</content>
+                              <br/>
+                              <content styleCode="bold">Avoid the use of etodolac tablets in patients with a recent MI unless the benefits are expected</content>
+                              <br/>
+                              <content styleCode="bold">to outweigh the risk of recurrent CV thrombotic events. If etodolac tablets are used in patients with a recent MI, monitor patients for signs of cardiac ischemia.</content>
+                              <br/>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Hypertension</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>NSAIDs, including etodolac tablets, can lead to onset of new hypertension or worsening of preexisting hypertension, either of which may contribute to the increased incidence of CV events. Patients taking thiazides or loop diuretics may have impaired response to these therapies when taking NSAIDs. NSAIDs, including etodolac tablets, should be used with caution in patients with hypertension. Blood pressure (BP) should be monitored closely during the initiation of NSAID treatment and throughout the course of therapy.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-aee9b39b-3759-4aea-874c-d24f3b3c2929">
+                           <id root="a3818a23-9474-4526-8faf-a996001643c1"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Heart Failure and Edema</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The Coxib and traditional NSAID Trialists’ Collaboration meta-analysis of randomized controlled trials demonstrated an approximately two-fold increase in hospitalizations for heart failure in COX-2 selective-treated patients and nonselective NSAID-treated patients compared to placebo-treated patients. In a Danish National Registry study of patients with heart failure, NSAID use increased the risk of MI, hospitalization for heart failure, and death.  </paragraph>
+                              <paragraph>Additionally, fluid retention and edema have been observed in some patients treated with NSAIDs. Use of etodolac may blunt the CV effects of several therapeutic agents used to treat these medical conditions [e.g., diuretics, ACE inhibitors, or angiotensin receptor blockers (ARBs)] (see <content styleCode="bold">Drug Interactions</content>).</paragraph>
+                              <paragraph>Avoid the use of etodolac tablets in patients with severe heart failure unless the benefits are expected to outweigh the risk of worsening heart failure. If etodolac tablets are used in patients with severe heart failure, monitor patients for signs of worsening heart failure.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-16956a6e-2b60-4d27-a0aa-7c03e2c69bd8">
+                     <id root="3785b148-3229-42d6-9e77-67e7db01ec74"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal Effects – Risk of Ulceration, Bleeding, and Perforation</title>
+                     <text>
+                        <paragraph>NSAIDs, including etodolac tablets, can cause serious gastrointestinal (GI) adverse events including inflammation, bleeding, ulceration, and perforation of the stomach, small intestine, or large intestine, which can be fatal. These serious adverse events can occur at any time, with or without warning symptoms, in patients treated with NSAIDs. Only one in five patients, who develop a serious upper GI adverse event on NSAID therapy, is symptomatic. Upper GI ulcers, gross bleeding, or perforation caused by NSAIDs occur in approximately 1% of patients treated for 3 to 6 months, and in about 2 to 4% of patients treated for one year. These trends continue with longer duration of use, increasing the likelihood of developing a serious GI event at some time during the course of therapy. However, even short-term therapy is not without risk. Physicians should inform patients about the signs and/or symptoms of serious GI toxicity and what steps to take if they occur.</paragraph>
+                        <paragraph>NSAIDs should be prescribed with extreme caution in those with a prior history of ulcer disease or gastrointestinal bleeding. Patients with a <content styleCode="italics">prior history of peptic ulcer disease, and/or gastrointestinal bleeding, </content>and who use NSAIDs have a greater than 10 fold increased risk for developing a GI bleed compared to patients with neither of these risk factors. Other factors that increase the risk for GI bleeding in patients treated with NSAIDs include concomitant use of oral corticosteroids or anticoagulants, longer duration of NSAID therapy, smoking, use of alcohol, older age, and poor general health status. Most spontaneous reports of fatal GI events are in elderly or debilitated patients, and therefore, special care should be taken in treating this population.</paragraph>
+                        <paragraph>To minimize the potential risk for an adverse GI event in patients treated with an NSAID, the lowest effective dose should be used for the shortest possible duration. Patients and physicians should remain alert for signs and symptoms of GI ulceration and bleeding during NSAID therapy and promptly initiate additional evaluation and treatment if a serious GI adverse event is suspected. This should include discontinuation of the NSAID until a serious GI adverse event is ruled out. For high risk patients, alternate therapies that do not involve NSAIDs should be considered.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-5d62ce08-41e1-48a6-bd04-b8af2e4f35c6">
+                     <id root="f81c1f83-5f8d-4e23-935b-fd93eab4ca7d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Renal Effects</title>
+                     <text>
+                        <paragraph>Long-term administration of NSAIDs has resulted in renal papillary necrosis and other renal injury. Renal toxicity has also been seen in patients in whom renal prostaglandins have a compensatory role in the maintenance of renal perfusion. In these patients, administration of a non-steroidal anti-inflammatory drug may cause a dose-dependent reduction in prostaglandin formation and, secondarily, in renal blood flow, which may precipitate overt renal decompensation. Patients at greater risk of this reaction are those with impaired renal function, heart failure, liver dysfunction, those taking diuretics and ACE inhibitors, and the elderly. Discontinuation of NSAID therapy is usually followed by recovery to the pretreatment state.</paragraph>
+                        <paragraph>Renal pelvic transitional epithelial hyperplasia, a spontaneous change occurring with variable frequency, was observed with increased frequency in treated male rats in a 2 year chronic study.</paragraph>
+                        <paragraph>Caution is recommended in patients with preexisting kidney disease.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-ade2f0e0-ad5a-4de5-8ada-7dd07ee39d1b">
+                     <id root="d6354ba3-52ea-4165-a325-a53b18c232fe"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Advanced Renal Disease</title>
+                     <text>
+                        <paragraph>No information is available from controlled clinical studies regarding the use of etodolac in patients with advanced renal disease. Therefore, treatment with etodolac tablets is not recommended in these patients with advanced renal disease. If etodolac tablet therapy must be initiated, close monitoring of the patient's renal function is advisable.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-45c2a553-ba9c-41a3-8de0-849b02011e42">
+                     <id root="59bc58f5-9685-4339-8e49-8445b09cdb94"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Anaphylactoid Reactions</title>
+                     <text>
+                        <paragraph>As with other NSAIDs, anaphylactoid reactions may occur in patients without prior exposure to etodolac. Etodolac tablets should not be given to patients with the aspirin triad. This symptom complex typically occurs in asthmatic patients who experience rhinitis with or without nasal polyps, or who exhibit severe, potentially fatal bronchospasm after taking aspirin or other NSAIDs. Fatal reactions have been reported in such patients (see <content styleCode="bold">CONTRAINDICATIONS </content>and <content styleCode="bold">PRECAUTIONS</content>, <content styleCode="bold">General</content>, Preexisting Asthma). Emergency help should be sought in cases where an anaphylactoid reaction occurs.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-b6854e7e-ed17-4439-ad4e-a6555cad15f4">
+                     <id root="3381e9a0-304f-4499-879c-fcd18eba558d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Skin Reactions</title>
+                     <text>
+                        <paragraph>NSAIDs, including etodolac tablets, can cause serious skin adverse events such as exfoliative dermatitis, Stevens-Johnson syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. These serious events may occur without warning. Patients should be informed about the signs and symptoms of serious skin manifestations and use of the drug should be discontinued at the first appearance of skin rash or any other sign of hypersensitivity.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-b5d1f0f8-7bd1-43a0-92bb-9bacce904bd0">
+                     <id root="d8b24992-1f30-4597-aded-cc57165b97f3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>In late pregnancy, the third trimester, as with other NSAIDs, etodolac tablets should be avoided because they may cause premature closure of the ductus arteriosus (see <content styleCode="bold">PRECAUTIONS</content>, <content styleCode="bold">Pregnancy</content>, Nonteratogenic Effects).</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_inv-097d776f-6452-4d1f-ad9f-84b96e29ed74">
+               <id root="13ae6547-5863-4486-ad5a-f267ce078e65"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="i4i_precautions_general_id_inv-d3d61d97-322e-4909-be2e-634ebc17f835">
+                     <id root="b877f1ad-304d-4591-9b6f-a09eaac6264d"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Etodolac tablets cannot be expected to substitute for corticosteroids or to treat corticosteroid insufficiency. Abrupt discontinuation of corticosteroids may lead to disease exacerbation. Patients on prolonged corticosteroid therapy should have their therapy tapered slowly if a decision is made to discontinue corticosteroids.</paragraph>
+                        <paragraph>The pharmacological activity of etodolac tablets in reducing fever and inflammation may diminish the utility of these diagnostic signs in detecting complications of presumed noninfectious, painful conditions.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                     <component>
+                        <section ID="i4i_section_id_inv-76c852c1-cec2-466a-80b4-ba7dfed1270b">
+                           <id root="9ce6719e-d3ec-41a9-9f52-2690a421dd30"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Hepatic Effects</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Borderline elevations of one or more liver tests may occur in up to 15% of patients taking NSAIDs including etodolac tablets. These laboratory abnormalities may progress, may remain unchanged, or may be transient with continuing therapy. Notable elevations of ALT or AST (approximately three or more times the upper limit of normal) have been reported in approximately 1% of patients in clinical trials with NSAIDs. In addition, rare cases of severe hepatic reactions, including jaundice and fatal fulminant hepatitis, liver necrosis, and hepatic failure, some of them with fatal outcomes, have been reported.</paragraph>
+                              <paragraph>A patient with symptoms and/or signs suggesting liver dysfunction, or in whom an abnormal liver test has occurred, should be evaluated for evidence of the development of a more severe hepatic reaction while on therapy with etodolac tablets. If clinical signs and symptoms consistent with liver disease develop, or if systemic manifestations occur (e.g., eosinophilia, rash, etc.), etodolac tablets should be discontinued.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-b2ba44f0-3c2d-4a77-bc12-bfa331088935">
+                           <id root="17ffd40f-ab3a-44b7-9b51-e742b66c9926"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Hematological Effects</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Anemia is sometimes seen in patients receiving NSAIDs including etodolac tablets. This may be due to fluid retention, occult or gross GI blood loss, or an incompletely described effect upon erythropoiesis. Patients on long-term treatment with NSAIDs, including etodolac tablets, should have their hemoglobin or hematocrit checked if they exhibit any signs or symptoms of anemia.</paragraph>
+                              <paragraph>NSAIDs inhibit platelet aggregation and have been shown to prolong bleeding time in some patients. Unlike aspirin, their effect on platelet function is quantitatively less, of shorter duration, and reversible. Patients receiving etodolac tablets who may be adversely affected by alterations in platelet function, such as those with coagulation disorders or patients receiving anticoagulants, should be carefully monitored.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-16116568-072a-42c7-b0d4-a86955a65a68">
+                           <id root="7a6a4015-79aa-4e92-bba5-5d57a80510e2"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Preexisting Asthma</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Patients with asthma may have aspirin-sensitive asthma. The use of aspirin in patients with aspirin-sensitive asthmas has been associated with severe bronchospasm which can be fatal. Since cross reactivity, including bronchospasm, between aspirin and other non-steroidal anti-inflammatory drugs has been reported in such aspirin-sensitive patients, etodolac tablets should not be administered to patients with this form of aspirin sensitivity and should be used with caution in all patients with preexisting asthma.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_info_patients_id_inv-d95e2952-22d6-4022-b7a7-29b926ecbd0e">
+                     <id root="0ddeae3c-84a2-4472-8505-7722226c2577"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Patients should be informed of the following information before initiating therapy with an NSAID and periodically during the course of ongoing therapy. Patients should also be encouraged to read the NSAID Medication Guide that accompanies each prescription dispensed.</content>
+                        </paragraph>
+                        <list listType="ordered">
+                           <item>
+                              <caption>1.</caption>
+                              <content styleCode="bold">
+                                 <content styleCode="underline">Cardiovascular Thrombotic Events</content>
+                              </content>
+                           </item>
+                           <item>
+                              <caption> </caption>Advise patients to be alert for the symptoms of cardiovascular thrombotic events, including chest</item>
+                           <item>
+                              <caption> </caption>pain, shortness of breath, weakness, or slurring of speech, and to report any of these symptoms to</item>
+                           <item>
+                              <caption> </caption>their health care provider immediately (see <content styleCode="bold">WARNINGS</content>).</item>
+                           <item>
+                              <caption>2.</caption>Etodolac tablets, like other NSAIDs, can cause GI discomfort and, rarely, serious GI side effects, such as ulcers and bleeding, which may result in hospitalization and even death. Although serious GI tract ulcerations and bleeding can occur without warning symptoms, patients should be alert for the signs and symptoms of ulcerations and bleeding, and should ask for medical advice when observing any indicative signs or symptoms including epigastric pain, dyspepsia, melena, and hematemesis. Patients should be apprised of the importance of this follow-up (see <content styleCode="bold">WARNINGS, Gastrointestinal Effects - Risk of Ulceration, Bleeding, and Perforation</content>).</item>
+                           <item>
+                              <caption>3.</caption>Etodolac tablets, like other NSAIDs, can cause serious skin side effects such as exfoliative dermatitis, SJS, and TEN, which may result in hospitalization and even death. Although serious skin reactions may occur without warning, patients should be alert for the signs and symptoms of skin rash and blisters, fever, or other signs of hypersensitivity such as itching, and should ask for medical advice when observing any indicative signs or symptoms. Patients should be advised to stop the drug immediately if they develop any type of rash and contact their physicians as soon as possible.</item>
+                           <item>
+                              <caption>4.</caption>
+                              <content styleCode="bold">
+                                 <content styleCode="underline">Heart Failure And Edema</content>
+                              </content>
+                              <br/>Advise patients to be alert for the symptoms of congestive heart failure including shortness of breath, unexplained weight gain, or edema and to contact their healthcare provider if such symptoms occur (see <content styleCode="bold">WARNINGS</content>).</item>
+                           <item>
+                              <caption>5.</caption>Patients should be informed of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, pruritus, jaundice, right upper quadrant tenderness, and "flu-like" symptoms). If these occur, patients should be instructed to stop therapy and seek immediate medical therapy.</item>
+                           <item>
+                              <caption>6.</caption>Patients should be informed of the signs of an anaphylactoid reaction (e.g., difficulty breathing, swelling of the face or throat). If these occur, patients should be instructed to seek immediate emergency help (see <content styleCode="bold">WARNINGS</content>).</item>
+                           <item>
+                              <caption>7.</caption>In late pregnancy, the third trimester, as with other NSAIDs, etodolac tablets should be avoided because they may cause premature closure of the ductus arteriosus.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_lab_tests_id_inv-1b234d38-3353-46f2-97f9-f74d61943f33">
+                     <id root="e24d42ef-5555-48ac-be78-893ab61ced53"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Because serious GI tract ulcerations and bleeding can occur without warning symptoms, physicians should monitor for signs or symptoms of GI bleeding. Patients on long-term treatment with NSAIDs should have their CBC and a chemistry profile checked periodically for signs or symptoms of anemia. Appropriate measures should be taken in case such signs of anemia occur. If clinical signs and symptoms consistent with liver or renal disease develop, systemic manifestations occur (e.g., eosinophilia, rash, etc.) or if abnormal liver tests persist or worsen, etodolac tablets should be discontinued.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_interactions_id_inv-b30de407-ae8f-413b-9da5-f6f6c255e102">
+                     <id root="b708e50f-cdb6-4995-ac62-163bca23e33d"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <effectiveTime value="20181201"/>
+                     <component>
+                        <section ID="i4i_section_id_inv-a3ed911f-8a4a-4037-81ec-d59d6df8e7a5">
+                           <id root="c29823a8-dd08-4ee7-81cf-8f5ddb9f603a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">ACE-inhibitors</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Reports suggest that NSAIDs may diminish the antihypertensive effect of ACE-inhibitors. This interaction should be given consideration in patients taking NSAIDs concomitantly with ACE-inhibitors (see <content styleCode="bold">WARNINGS</content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-727471a8-e9db-4b81-83d1-dd3afa455937">
+                           <id root="5e3d28b8-301e-4405-b2c0-f19c22d85188"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Antacids</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The concomitant administration of antacids has no apparent effect on the extent of absorption of etodolac tablets. However, antacids can decrease the peak concentration reached by 15% to 20% but have no detectable effect on the time-to-peak.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-82dcf6e7-3a2d-4a44-af5a-2bf13767afc8">
+                           <id root="56b9d450-0e18-438e-9a6f-df605b933697"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Aspirin</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>When etodolac is administered with aspirin, its protein binding is reduced, although the clearance of free etodolac is not altered. The clinical significance of this interaction is not known; however, as with other NSAIDs, concomitant administration of etodolac and aspirin is not generally recommended because of the potential of increased adverse effects.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-812f11fa-1c9c-48e7-849d-33555c97f01a">
+                           <id root="37217c3c-e626-4b6e-8b6a-92419566e36b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Cyclosporine, Digoxin, Methotrexate</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Etodolac tablets, like other NSAIDs, through effects on renal prostaglandins, may cause changes in the elimination of these drugs leading to elevated serum levels of cyclosporine, digoxin, methotrexate, and increased toxicity. Nephrotoxicity associated with cyclosporine may also be enhanced. Patients receiving these drugs who are given etodolac tablets, or any other NSAID, and particularly those patients with altered renal function, should be observed for the development of the specific toxicities of these drugs. NSAIDs, such as etodolac tablets, should not be administered prior to or concomitantly with high doses of methotrexate. NSAIDs have been reported to competitively inhibit methotrexate accumulation in rabbit kidney slices. This may indicate that they could enhance the toxicity of methotrexate. In general, caution should be used when NSAIDs are administered concomitantly with methotrexate.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-611d6dab-72eb-49db-8d07-9350d0c69956">
+                           <id root="33aabb0f-2d55-4ddb-8380-c5180e21e9eb"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Diuretics</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Etodolac has no apparent pharmacokinetic interaction when administered with furosemide or hydrochlorothiazide. Nevertheless, clinical studies, as well as postmarketing observations, have shown that etodolac can reduce the natriuretic effect of furosemide and thiazides in some patients with possible loss of blood pressure control. This response has been attributed to inhibition of renal prostaglandin synthesis. During concomitant therapy with NSAIDs, the patient should be observed closely for signs of renal insufficiency or failure (see <content styleCode="bold">WARNINGS</content>, <content styleCode="bold">Renal Effects</content>), as well as to assure diuretic efficacy.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-cadbd0e9-07a3-4140-af65-03af88294bd3">
+                           <id root="01b5dba3-c416-4dd9-85d3-d9fc932e90b0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Glyburide</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Etodolac has no apparent pharmacokinetic interaction when administered with glyburide.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-370d4261-1395-419b-a326-a1ae76cab395">
+                           <id root="b491b085-1346-4a20-a98d-d68c9b2cf90d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Lithium</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>NSAIDs have produced an elevation of plasma lithium levels and a reduction in renal lithium clearance. The mean minimum lithium concentration increased 15% and the renal clearance was decreased by approximately 20%. These effects have been attributed to inhibition of renal prostaglandin synthesis by the NSAID. Thus, when NSAIDs and lithium are administered concurrently, subjects should be observed carefully for signs of lithium toxicity. Careful monitoring of lithium levels is advised in the event NSAID dosage adjustments are required.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-4702e4cd-d40c-4aa6-97ce-8fd491a28cf8">
+                           <id root="ece7a7ce-dee8-4581-8169-c035b4e24037"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Phenylbutazone</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Phenylbutazone causes increase (by about 80%) in the free fraction of etodolac. Although <content styleCode="italics">in vivo</content> studies have not been done to see if etodolac clearance is changed by coadministration of phenylbutazone, it is not recommended that they be coadministered.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-eec7f122-7c19-4a55-b540-c3a70bd461a1">
+                           <id root="c2fa2a5e-7473-4de6-b422-e7497b26ad92"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Phenytoin</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Etodolac has no apparent pharmacokinetic interaction when administered with phenytoin.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_inv-5d103916-95d3-4412-812e-2a00e4cd0cbc">
+                           <id root="c432000a-4a39-4714-82c3-c3eded7f0352"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Warfarin</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The effects of warfarin and NSAIDs on GI bleeding are synergistic, such that users of both drugs together have a risk of serious GI bleeding higher than that of users of either drug alone. Short-term pharmacokinetic studies have demonstrated that concomitant administration of warfarin and etodolac tablets results in reduced protein binding of warfarin, but there was no change in the clearance of free warfarin. There was no significant difference in the pharmacodynamic effect of warfarin administered alone and warfarin administered with etodolac as measured by prothrombin time. Thus, concomitant therapy with warfarin and etodolac tablets should not require dosage adjustment of either drug. However, caution should be exercised because there have been a few spontaneous reports of prolonged prothrombin times, with or without bleeding, in etodolac-treated patients receiving concomitant warfarin therapy. Close monitoring of such patients is therefore recommended.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_drug_lab_interaction_id_inv-e38250e4-f258-40a4-8b94-67dc26518686">
+                     <id root="2b3c18a2-6dca-43ef-9c2f-03c21305593d"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions</title>
+                     <text>
+                        <paragraph>The urine of patients who take etodolac can give a false-positive reaction for urinary bilirubin (urobilin) due to the presence of phenolic metabolites of etodolac. Diagnostic dip-stick methodology, used to detect ketone bodies in urine, has resulted in false-positive findings in some patients treated with etodolac. Generally, this phenomenon has not been associated with other clinically significant events. No dose relationship has been observed.</paragraph>
+                        <paragraph>Etodolac treatment is associated with a small decrease in serum uric acid levels. In clinical trials, mean decreases of 1 to 2 mg/dL were observed in arthritic patients receiving etodolac (600 mg to 1,000 mg/day) after 4 weeks of therapy. These levels then remained stable for up to 1 year of therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_carcinogenesis_mutagenesis_fertility_id_inv-8c3e5cce-19b7-4110-a239-3c00cc904824">
+                     <id root="6ebf92e0-a38a-4a48-a539-f3d22be984e3"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No carcinogenic effect of etodolac was observed in mice or rats receiving oral doses of 15 mg/kg/day (45 to 89 mg/m<sup>2</sup>, respectively) or less for periods of 2 years or 18 months, respectively. Etodolac was not mutagenic in <content styleCode="italics">in vitro</content> tests performed with <content styleCode="italics">S. typhimurium</content> and mouse lymphoma cells as well as in an<content styleCode="italics"> in vivo</content> mouse micronucleus test. However, data from the <content styleCode="italics">in vitro</content> human peripheral lymphocyte test showed an increase in the number of gaps (3.0 to 5.3% unstained regions in the chromatid without dislocation) among the etodolac-treated cultures (50 to 200 mcg/mL) compared to negative controls (2.0%); no other difference was noted between the controls and drug-treated groups. Etodolac showed no impairment of fertility in male and female rats up to oral doses of 16 mg/kg (94 mg/m<sup>2</sup>). However, reduced implantation of fertilized eggs occurred in the 8 mg/kg group.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_id_inv-6b860710-77e3-4a08-91b3-63f0c3b90e70">
+                     <id root="84f10821-2b98-43ba-b40a-ef4a5374c13d"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20181201"/>
+                     <component>
+                        <section ID="i4i_teratogenic_id_inv-1a1bd129-6c08-49fe-9fd7-75df0eb839d9">
+                           <id root="a2cd3044-cdcd-415c-b806-4d74c472648f"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Teratogenic Effects</content>
+                              </content>
+                           </title>
+                           <effectiveTime value="20181201"/>
+                           <component>
+                              <section ID="i4i_section_id_b17f7ea3-f521-4e5c-a2c1-a1be85cd47cd">
+                                 <id root="88bd3807-7897-4fac-8604-59a6c34d3453"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>
+                                    <content styleCode="bold">
+                                       <content styleCode="underline">Pregnancy category C</content>
+                                    </content>
+                                 </title>
+                                 <text>
+                                    <paragraph>In teratology studies, isolated occurrences of alterations in limb development were found and included polydactyly, oligodactyly, syndactyly, and unossified phalanges in rats and oligodactyly and synostosis of metatarsals in rabbits. These were observed at dose levels (2 to 14 mg/kg/day) close to human clinical doses. However, the frequency and the dosage group distribution of these findings in initial or repeated studies did not establish a clear drug or dose-response relationship. Animal reproduction studies are not always predictive of human response. There are no adequate and well-controlled studies in pregnant women. Etodolac tablets should be used in pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20181201"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_non_teratogenic_id_inv-c54afc43-ff23-499f-b5fb-862cd7eb9bb9">
+                           <id root="7234b3a5-b23b-410c-8fae-f0c40a386a71"/>
+                           <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Nonteratogenic Effects</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Etodolac tablets should be used during pregnancy only if the potential benefits justify the potential risk to the fetus. Because of the known effects of non-steroidal anti-inflammatory drugs on the fetal cardiovascular system (closure of the ductus arteriosus), use during pregnancy (particularly during the third trimester) should be avoided.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_labour_delivery_id_inv-7db2e280-9a63-4acd-aa6d-2165b7d28b48">
+                     <id root="d6cb0758-1694-4b1e-a9fe-eff3521d3bfa"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery</title>
+                     <text>
+                        <paragraph>In rat studies with NSAIDs, as with other drugs known to inhibit prostaglandin synthesis, an increased incidence of dystocia, delayed parturition, and decreased pup survival occurred. The effects of etodolac on labor and delivery in pregnant women are unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_inv-61f9cd72-b731-4fdd-ae2b-734b512c1c15">
+                     <id root="89135210-7111-4faf-9a97-c9a4b2f1a8cf"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Trace amounts of some NSAIDs have been reported in human milk. It is not known whether etodolac is excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from etodolac, a decision should be made whether to discontinue nursing or to discontinue the drug taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_inv-cc1bde16-f0e5-47a4-b385-8367bc3d86c0">
+                     <id root="0428706b-fc5f-49cf-a277-dd37424205d3"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients below the age of 18 years have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_geriatric_use_id_inv-40ebaf22-1ae6-4a71-a3f2-d69cc920707d">
+                     <id root="22deb114-fe1b-4947-8d58-9ca7652e66fd"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>As with any NSAID, caution should be exercised in treating the elderly (65 years and older) and when increasing the dose (see <content styleCode="bold">WARNINGS</content>).</paragraph>
+                        <paragraph>In etodolac clinical studies, no overall differences in safety or effectiveness were observed between these patients and younger patients. In pharmacokinetic studies, age was shown not to have any effect on etodolac half-life or protein binding, and there was no change in expected drug accumulation. Therefore, no dosage adjustment is generally necessary in the elderly on the basis of pharmacokinetics (see <content styleCode="bold">CLINICAL PHARMACOLOGY</content>, <content styleCode="bold">Special Populations</content>).</paragraph>
+                        <paragraph>Elderly patients may be more sensitive to the antiprostaglandin effects of NSAIDs (on the gastrointestinal tract and kidneys) than younger patients (see <content styleCode="bold">WARNINGS</content>). In particular, elderly or debilitated patients who receive NSAID therapy seem to tolerate gastrointestinal ulceration or bleeding less well than other individuals, and most spontaneous reports of fatal GI events are in this population.</paragraph>
+                        <paragraph>Etodolac is eliminated primarily by the kidney. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function (see <content styleCode="bold">WARNINGS</content>, <content styleCode="bold">Renal Effects</content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_inv-dd1d7380-8f64-4bb9-998c-c69f17da14d7">
+               <id root="df700bb4-6537-42d0-ba60-16ba95822a13"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>In patients taking etodolac or other NSAIDs, the most frequently reported adverse experiences occurring in approximately 1 to 10% of patients are:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal experiences including:</content> abdominal pain, constipation, diarrhea, dyspepsia, flatulence, gross bleeding/perforation, heartburn, nausea, GI ulcers (gastric/duodenal), vomiting.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other events including: </content>abnormal renal function, anemia, dizziness, edema, elevated liver enzymes, headaches, increased bleeding time, pruritus, rashes, tinnitus.</paragraph>
+                  <paragraph>Adverse-reaction information for etodolac was derived from 2,629 arthritic patients treated with etodolac capsules and tablets in double-blind and open-label clinical trials of 4 to 320 weeks in duration and worldwide postmarketing surveillance studies. In clinical trials, most adverse reactions were mild and transient. The discontinuation rate in controlled clinical trials, because of adverse events, was up to 10% for patients treated with etodolac.</paragraph>
+                  <paragraph>New patient complaints (with an incidence greater than or equal to 1%) are listed below by body system. The incidences were determined from clinical trials involving 465 patients with osteoarthritis treated with 300 to 500 mg of etodolac b.i.d. (i.e., 600 to 1,000 mg/day).</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="i4i_section_id_inv-e1cf6107-f5ad-467c-98f6-10a9ac18d52d">
+                     <id root="a86b6792-2264-430d-94a1-bb3963647599"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Incidence Greater Than or Equal to 1% - Probably Causally Related</title>
+                     <text>
+                        <paragraph>Body as a whole - Chills and fever.</paragraph>
+                        <paragraph>Digestive system - Dyspepsia (10%), abdominal pain*, diarrhea*, flatulence*, nausea*, abdominal distension, epigastric pain, abnormal stools, constipation, gastritis, melena, vomiting.</paragraph>
+                        <paragraph>Nervous system - Asthenia/malaise*, dizziness*, depression, nervousness, fatigue.</paragraph>
+                        <paragraph>Skin and appendages - Pruritus, rash.</paragraph>
+                        <paragraph>Special senses - Blurred vision, tinnitus.</paragraph>
+                        <paragraph>Urogenital system - Dysuria, urinary frequency.</paragraph>
+                        <paragraph>Musculoskeletal - Arthralgia.</paragraph>
+                        <paragraph>* Drug-related patient complaints occurring in 3 to 9% of patients treated with etodolac.</paragraph>
+                        <paragraph>Drug-related patient complaints occurring in fewer than 3%, but more than 1%, are unmarked.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-cbd535d0-08ff-4a8f-b14d-8b2b3ed918fc">
+                     <id root="a4c9d727-d567-4dc2-b76f-bc951479d3e3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Incidence Less Than 1% - Probably Causally Related</title>
+                     <text>
+                        <paragraph>(Adverse reactions reported only in worldwide postmarketing experience, not seen in clinical trials, are considered rarer and are italicized.)</paragraph>
+                        <paragraph>Body as a whole - <content styleCode="italics">Allergic reaction, anaphylactic/anaphylactoid reactions (including shock)</content>.</paragraph>
+                        <paragraph>Cardiovascular system - Hypertension, congestive heart failure, flushing, palpitations, syncope, <content styleCode="italics">vasculitis (including necrotizing and allergic)</content>.</paragraph>
+                        <paragraph>Digestive system - Thirst, dry mouth, ulcerative stomatitis, anorexia, eructation, elevated liver enzymes, <content styleCode="italics">cholestatic hepatitis,</content> hepatitis, <content styleCode="italics">cholestatic jaundice, duodenitis, jaundice, hepatic failure, liver necrosis, fatal fulminant hepatitis, </content>peptic ulcer with or without bleeding and/or perforation, <content styleCode="italics">intestinal ulceration, pancreatitis</content>.</paragraph>
+                        <paragraph>Hemic and lymphatic system - Ecchymosis, anemia, thrombocytopenia, bleeding time increased, <content styleCode="italics">agranulocytosis, hemolytic anemia, aplastic anemia, leukopenia, neutropenia, pancytopenia</content>.</paragraph>
+                        <paragraph>Metabolic and nutritional - Edema, serum creatinine increase,<content styleCode="italics"> hyperglycemia in previously controlled diabetic patients</content>.</paragraph>
+                        <paragraph>Nervous system - Insomnia, somnolence.</paragraph>
+                        <paragraph>Respiratory system – Asthma, <content styleCode="italics">pulmonary infiltration with eosinophilia</content>.</paragraph>
+                        <paragraph>Skin and appendages - Angioedema, sweating, urticaria, exfoliative dermatitis, vesiculobullous rash, <content styleCode="italics">cutaneous vasculitis with purpura</content>, <content styleCode="italics">Stevens-Johnson syndrome, toxic epidermal necrolysis,leukocytoclastic vasculitis</content>, hyperpigmentation, <content styleCode="italics">erythema multiforme</content>.</paragraph>
+                        <paragraph>Special senses - Photophobia, transient visual disturbances.</paragraph>
+                        <paragraph>Urogenital system - <content styleCode="italics">Elevated BUN, renal failure, renal insufficiency, renal papillary necrosis</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-60dd252d-7267-4868-838a-0debdfaf7af6">
+                     <id root="eabdc228-6e3a-45ab-a619-b01b6df43f20"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Incidence Less Than 1% - Causal Relationship Unknown</title>
+                     <text>
+                        <paragraph>(Medical events occurring under circumstances where causal relationship to etodolac is uncertain. These reactions are listed as alerting information for physicians.)</paragraph>
+                        <paragraph>Body as a whole - Infection, headache.</paragraph>
+                        <paragraph>Cardiovascular system - Arrhythmias, myocardial infarction, cerebrovascular accident.</paragraph>
+                        <paragraph>Digestive system - Esophagitis with or without stricture or cardiospasm, colitis, GI discomfort, burning sensation, blood in stools, gastralgia, upper abdominal discomfort.</paragraph>
+                        <paragraph>Metabolic and nutritional - Change in weight.</paragraph>
+                        <paragraph>Nervous system - Paresthesia, confusion, irritability.</paragraph>
+                        <paragraph>Respiratory system - Bronchitis, bronchospasm, dyspnea, pharyngitis, rhinitis, sinusitis.</paragraph>
+                        <paragraph>Skin and appendages - Alopecia, maculopapular rash, photosensitivity, skin peeling.</paragraph>
+                        <paragraph>Special senses - Conjunctivitis, deafness, taste perversion, loss of taste.</paragraph>
+                        <paragraph>Urogenital system - Cystitis, hematuria, leukorrhea, renal calculus, interstitial nephritis, uterine bleeding irregularities, renal impairment.</paragraph>
+                        <paragraph>Musculoskeletal - Muscle pain.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-5fb09e83-2c0a-4647-947c-14b91ded9bfe">
+                     <id root="8cdeb514-ed5d-4968-b1d3-3bb470e1e44f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Additional Adverse Reactions Reported with NSAIDs</title>
+                     <text>
+                        <paragraph>Body as a whole – Sepsis, death.</paragraph>
+                        <paragraph>Cardiovascular system – Tachycardia.</paragraph>
+                        <paragraph>Digestive system – Gastric ulcers, gastritis, gastrointestinal bleeding, glossitis, hematemesis.</paragraph>
+                        <paragraph>Hemic and lymphatic system – Lymphadenopathy.</paragraph>
+                        <paragraph>Nervous system – Anxiety, dream abnormalities, convulsions, coma, hallucinations, meningitis, tremors, vertigo.</paragraph>
+                        <paragraph>Respiratory system – Respiratory depression, pneumonia.</paragraph>
+                        <paragraph>Urogenital system – Oliguria/polyuria, proteinuria.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_inv-46db003a-1fdc-43c9-8bbe-04b4ea5733e2">
+               <id root="6035086e-a99c-4da8-9887-a08229198f64"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Symptoms following acute NSAID overdose are usually limited to lethargy, drowsiness, nausea, vomiting, and epigastric pain, which are generally reversible with supportive care. Gastrointestinal bleeding can occur and coma has occurred following massive ibuprofen or mefenamic-acid overdose. Hypertension/hypotension, acute renal failure, and respiratory depression may occur but are rare. Anaphylactoid reactions have been reported with therapeutic ingestion of NSAIDs, and may occur following overdose.</paragraph>
+                  <paragraph>Patients should be managed by symptomatic and supportive care following an NSAID overdose. There are no specific antidotes. Emesis and/or activated charcoal (60 to 100 g in adults, 1 to 2 g/kg in children) and/or osmotic cathartic may be indicated in patients seen within 4 hours of ingestion with symptoms or following a large overdose (5 to 10 times the usual dose). Forced diuresis, alkalinization of the urine, hemodialysis, or hemoperfusion would probably not be useful due to etodolac’s high protein binding.</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_inv-2d5ffa9b-648c-4951-b0be-fc5eec0c69c6">
+               <id root="5696cdfc-eb5a-488a-bfc5-023f65eee2c8"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Carefully consider the potential benefits and risks of etodolac tablets and other treatment options before deciding to use etodolac tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see <content styleCode="bold">WARNINGS</content>).</paragraph>
+                  <paragraph>After observing the response to initial therapy with etodolac tablets, the dose and frequency should be adjusted to suit an individual patient's needs.</paragraph>
+                  <paragraph>Dosage adjustment of etodolac tablets is generally not required in patients with mild to moderate renal impairment. Etodolac tablets should be used with caution in such patients, because, as with other NSAIDs, they may further decrease renal function in some patients with impaired renal function (see <content styleCode="bold">WARNINGS</content>, <content styleCode="bold">Renal Effects</content>).</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="i4i_section_id_inv-03564695-8fee-45ca-9113-44c1d54a4cbb">
+                     <id root="0c1a9ae2-4114-46aa-bf6c-030678d6a94c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Analgesia</title>
+                     <text>
+                        <paragraph>The recommended total daily dose of etodolac tablets for acute pain is up to 1,000 mg, given as 200 to 400 mg every 6 to 8 hours. Doses of etodolac greater than 1,000 mg/day have not been adequately evaluated in well-controlled clinical trials.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-b196ffbe-64c0-41cb-90fe-eb7fddc1677b">
+                     <id root="5332f228-8b9a-4581-bda4-9fd2f914cb30"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Osteoarthritis and Rheumatoid Arthritis</title>
+                     <text>
+                        <paragraph>The recommended starting dose of etodolac tablets for the management of the signs and symptoms of osteoarthritis or rheumatoid arthritis is: 300 mg b.i.d., t.i.d., or 400 mg b.i.d., or 500 mg b.i.d. A lower dose of 600 mg/day may suffice for long-term administration. Physicians should be aware that doses above 1,000 mg/day have not been adequately evaluated in well-controlled clinical trials.</paragraph>
+                        <paragraph>In chronic conditions, a therapeutic response to therapy with etodolac tablets is sometimes seen within one week of therapy, but most often is observed by two weeks. After a satisfactory response has been achieved, the patient’s dose should be reviewed and adjusted as required.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_inv-e0f73a71-1705-4815-bcce-1058747d3267">
+               <id root="2b81e90f-f3fd-4600-be2e-aa82f2f5a9c6"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Etodolac tablets USP, 400 mg are available as pink, capsule-shaped, film-coated tablets debossed “93” on one side and “892” on the other side, in bottles of 20, 30, 60 and 90</paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Dispense in a tight, light-resistant container as defined in the USP, with a child-resistant closure (as required).</paragraph>
+                  <paragraph>Manufactured In Israel By:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TEVA PHARMACEUTICAL IND. LTD.</content>
+                  </paragraph>
+                  <paragraph>Jerusalem, 9777402, Israel</paragraph>
+                  <paragraph>Manufactured For:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TEVA PHARMACEUTICALS USA, INC.</content>
+                  </paragraph>
+                  <paragraph>North Wales, PA 19454</paragraph>
+                  <paragraph>Relabeled by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PROFICIENT RX LP</content>
+                  </paragraph>
+                  <paragraph>Thousand Oaks, CA 91320</paragraph>
+                  <paragraph>Rev. M 7/2015</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_medguide_id_inv-2820996b-7d8f-4b2a-a137-c12e7453c84c">
+               <id root="31951554-36e2-49c0-a9e7-43a146a014ec"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <table width="100%">
+                     <col width="50%"/>
+                     <col width="50%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Medication Guide for Nonsteroidal Anti-inflammatory Drugs (NSAIDs)</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)?</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NSAIDs can cause serious side effects, including:</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Increased risk of a heart attack or stroke that can lead to death. </content>This risk may happen early in treatment and may increase:</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>with increasing doses of NSAIDs</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>with longer use of NSAIDs</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="ordered">
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">Do not take NSAIDs right before or after a heart surgery called a “coronary artery bypass graft (CABG).”</content>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="ordered">
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">Avoid taking NSAIDs after a recent heart attack, unless your healthcare provider tells you to. You may have an increased risk of another heart attack if you take NSAIDs after a recent heart attack.</content>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Increased risk of bleeding, ulcers, and tears (perforation) of the esophagus (tube leading from the mouth to the stomach), stomach and intestines:</content>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>anytime during use</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>without warning symptoms</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>that may cause death</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="ordered">
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">The risk of getting an ulcer or bleeding increases with:</content>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>past history of stomach ulcers, or stomach or intestinal bleeding with use of NSAIDs</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>taking medicines called “corticosteroids”, “anticoagulants”, “SSRIs”, or “SNRIs”</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>increasing doses of NSAIDs</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>older age</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>longer use of NSAIDs</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>poor health</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>smoking</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>advanced liver disease</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>drinking alcohol</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>bleeding problems</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NSAIDs should only be used:</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>exactly as prescribed</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>at the lowest dose possible for your treatment</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>for the shortest time needed</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">What are NSAIDs?</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>NSAIDs are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as different types of arthritis, menstrual cramps, and other types of short-term pain.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Who should not take NSAIDs?</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Do not take NSAIDs:</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>if you have had an asthma attack, hives, or other allergic reaction with aspirin or any other NSAIDs.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>right before or after heart bypass surgery.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Before taking NSAIDs, tell your healthcare provider about all of your medical conditions, including if you</content>:</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>have liver or kidney problems</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>have high blood pressure</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>have asthma</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>are pregnant or plan to become pregnant. Talk to your healthcare provider if you are considering taking NSAIDs during pregnancy. <content styleCode="bold">You should not take NSAIDs after 29 weeks of pregnancy.</content>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>are breastfeeding or plan to breast feed.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Tell your healthcare provider about all of the medicines you take, including prescription or over-the-counter medicines, vitamins or herbal supplements.</content> NSAIDs and some other medicines can interact with each other and cause serious side effects. <content styleCode="bold">Do not start taking any new medicine without talking to your healthcare provider first.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">What are the possible side effects of NSAIDs?</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NSAIDs can cause serious side effects, including:</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">See “What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)?”</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>new or worse high blood pressure</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>heart failure</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>liver problems including liver failure</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>kidney problems including kidney failure</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>low red blood cells (anemia)</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>life-threatening skin reactions</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>life-threatening allergic reactions</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Other side effects of NSAIDs include:</content> stomach pain, constipation, diarrhea, gas, heartburn, nausea, vomiting, and dizziness.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Get emergency help right away if you get any of the following symptoms:</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>shortness of breath or trouble breathing</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>slurred speech</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>chest pain</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>swelling of the face or throat</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>weakness in one part or side of your body</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Stop taking your NSAID and call your healthcare provider right away if you get any of the following symptoms:</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>nausea</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>vomit blood</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>more tired or weaker than usual</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>there is blood in your bowel movement or it</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>diarrhea</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <paragraph>      is black and sticky like tar</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>itching</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>unusual weight gain</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>your skin or eyes look yellow</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>skin rash or blisters with fever</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>indigestion or stomach pain</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>swelling of the arms, legs, hands and feet</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>flu-like symptoms</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">If you take too much of your NSAID, call your healthcare provider or get medical help right away.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>These are not all the possible side effects of NSAIDs. For more information, ask your healthcare provider or pharmacist about NSAIDs.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Other information about NSAIDs</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Aspirin is an NSAID but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Some NSAIDs are sold in lower doses without a prescription (over-the-counter). Talk to your healthcare provider before using over-the-counter NSAIDs for more than 10 days.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">General information about the safe and effective use of NSAIDs</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use NSAIDs for a condition for which it was not prescribed. Do not give NSAIDs to other people, even if they have the same symptoms that you have. It may harm them.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>If you would like more information about NSAIDs, talk with your healthcare provider. You can ask your pharmacist or healthcare provider for information about NSAIDs that is written for health professionals.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" valign="top">
+                              <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration. Revised July 2015               </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule " valign="top"/>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20181201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_715d32b4-d9c7-446f-9267-703ed2d8b492">
+               <id root="c9fc5a08-fc17-453a-bad0-9f8ae1bc57e1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel</title>
+               <text>
+                  <renderMultiMedia ID="id1182" referencedObject="ID_08852598-06cf-4bd8-ac2d-6cbd888f6e6e"/>
+               </text>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="i4i_section_id_e8b41ab9-bda4-48d8-852d-758287ed0376">
+                     <id root="6e1c7977-e42b-45ef-8aca-598c41662766"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Etodolac Tablets USP 400 mg 20s Label Text</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">NDC</content> 63187-796-20</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Etodolac</content>
+                           <br/>
+                           <content styleCode="bold">Tablets USP</content>
+                           <br/>
+                           <content styleCode="bold">400 mg</content>
+                        </paragraph>
+                        <paragraph>PHARMACIST: Dispense the Medication Guide<br/>provided separately to each patient.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Rx only</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">20 TABLETS</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">TEVA</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <observationMedia ID="ID_08852598-06cf-4bd8-ac2d-6cbd888f6e6e">
+                     <text>63187-796-20</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

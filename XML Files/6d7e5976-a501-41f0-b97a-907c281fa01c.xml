@@ -1,0 +1,2584 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="6d7e5976-a501-41f0-b97a-907c281fa01c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use Diclofenac Sodium Topical Solution safely and effectively. See full prescribing information for Diclofenac Sodium Topical Solution.<br/>
+      <br/> Diclofenac Sodium Topical Solution, 1.5% w/w is for topical use only.<br/> Initial U.S. Approval: 1988</title>
+   <effectiveTime value="20191101"/>
+   <setId root="2e905c1f-9022-4c07-b240-39ff7d6fb12e"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="079196022" root="1.3.6.1.4.1.519.1"/>
+            <name>Proficient Rx LP</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="079196022" root="1.3.6.1.4.1.519.1"/>
+                        <name>Proficient Rx LP</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="63187-725" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3a34b5cc-4a21-4441-a93b-4de1d95542fa"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20181201"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63187-725" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Diclofenac Sodium</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Diclofenac Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="45861-062" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="16.05"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="QTG126297Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Diclofenac Sodium</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="144O8QL0L1" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Diclofenac</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="YOW8V9698H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>dimethyl sulfoxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>alcohol</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>glycerin</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>propylene glycol</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="150"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="63187-725-15" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20160601"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA203818" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150813"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="BOX">
+               <id root="04bc38bf-00ba-43a7-b8da-5f2e18b0db17"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+               <title>
+                  <content styleCode="emphasis">WARNING: CARDIOVASCULAR AND GASTROINTESTINAL RISK</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Cardiovascular Risk</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">Nonsteroidal anti-inflammatory drugs (NSAIDs) may cause an increased risk of serious cardiovascular thrombotic events, myocardial infarction, and stroke, which can be fatal. This risk may increase with duration of use. Patients with cardiovascular disease or risk factors for cardiovascular disease may be at greater risk<content styleCode="italics"> [see<linkHtml href="#S5.1"> Warnings and Precautions (5.1)</linkHtml>]</content>.</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">Diclofenac Sodium Topical Solution is contraindicated in the perioperative setting of coronary artery bypass graft (CABG) surgery<content styleCode="italics"> [see<linkHtml href="#S4"> Contraindications (4)</linkHtml>]</content>.</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal Risk</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">NSAIDs cause an increased risk of serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients are at greater risk for serious gastrointestinal events<content styleCode="italics"> [see<linkHtml href="#S5.2"> Warnings and Precautions (5.2)</linkHtml>]</content>.</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>WARNING: CARDIOVASCULAR AND GASTROINTESTINAL RISK</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">See full prescribing information for complete boxed warning.</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Cardiovascular Risk</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="bold">Nonsteroidal anti-inflammatory drugs (NSAIDs) may cause an increased risk of serious cardiovascular thrombotic events, myocardial infarction, and stroke, which can be fatal. Patients with cardiovascular disease or risk factors for cardiovascular disease may be at greater risk. (<linkHtml href="#S5.1">5.1</linkHtml>)</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="bold">Diclofenac sodium topical solution is contraindicated for the treatment of perioperative pain in the setting of coronary artery bypass graft (CABG) surgery. (<linkHtml href="#S4">4</linkHtml>)</content>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">Gastrointestinal Risk</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="bold">NSAIDs, including diclofenac sodium topical solution, cause an increased risk of serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients are at greater risk for serious gastrointestinal events. (<linkHtml href="#S5.2">5.2</linkHtml>)</content>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a7d1ce09-dcee-48f3-8aa2-7c3148e965d3">
+               <id root="8852a435-78c7-4828-b267-355203748c9d"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Dosage and Administration (<linkHtml href="#S2">2</linkHtml>)            10/2013</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S1">
+               <id root="e65c8dd1-c999-4da7-8bea-679bbfaf5cf2"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Diclofenac sodium topical solution is a nonsteroidal anti-inflammatory drug (NSAID) indicated for the treatment of signs and symptoms of osteoarthritis of the knee(s).</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Diclofenac sodium topical solution is a nonsteroidal anti-inflammatory drug (NSAID) indicated for the treatment of signs and symptoms of osteoarthritis of the knee(s). (<linkHtml href="#S1">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S2">
+               <id root="4dd30661-2ca5-4bea-8ebb-67ce0d6ce80b"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">For the relief of the signs and symptoms of osteoarthritis of the knee(s), the recommended dose is 40 drops on each painful knee, 4 times a day. (<linkHtml href="#S2">2</linkHtml>)</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Apply diclofenac sodium topical solution to clean, dry skin. (<linkHtml href="#S2.1">2.1</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Dispense diclofenac sodium topical solution 10 drops at a time either directly onto the knee or first into the hand and then onto the knee. Spread diclofenac sodium topical solution evenly around front, back and sides of the knee. Repeat this procedure until 40 drops have been applied and the knee is completely covered with solution. (<linkHtml href="#S2.1">2.1</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Wash hands completely after administering the product.</item>
+                           <item>
+                              <caption>•</caption>Wait until the area is completely dry before covering with clothing or applying sunscreen, insect repellent, cosmetics, topical medications, or other substances.</item>
+                           <item>
+                              <caption>•</caption>Until the treated knee(s) is completely dry, avoid skin-to-skin contact between other people and the treated knee(s). (<linkHtml href="#S2.2">2.2</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Do not get diclofenac sodium topical solution in your eyes, nose or mouth.</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S2.1">
+                     <id root="97010669-84c7-43a4-8d9d-64a39fc37b1d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 General Instructions</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="xmChange">For the relief of the signs and symptoms of osteoarthritis of the knee(s), the recommended dose is 40 drops per knee, 4 times a day.</content>
+                        </paragraph>
+                        <paragraph>Apply diclofenac sodium topical solution to clean, dry skin.</paragraph>
+                        <paragraph>To avoid spillage, dispense diclofenac sodium topical solution 10 drops at a time either directly onto the knee or first into the hand and then onto the knee. Spread diclofenac sodium topical solution evenly around front, back and sides of the knee. Repeat this procedure until 40 drops have been applied and the knee is completely covered with solution.</paragraph>
+                        <paragraph>To treat the other knee, if symptomatic, repeat the procedure.</paragraph>
+                        <paragraph>Application of diclofenac sodium topical solution in an amount exceeding or less than the recommended dose has not been studied and is therefore not recommended.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.2">
+                     <id root="ad19a959-8e4a-472e-bd47-eca47d2c2b73"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Special Precautions</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Avoid showering/bathing for at least 30 minutes after the application of diclofenac sodium topical solution to the treated knee.</item>
+                           <item>
+                              <caption>•</caption>Wash and dry hands after use.</item>
+                           <item>
+                              <caption>•</caption>Do not apply diclofenac sodium topical solution to open wounds.</item>
+                           <item>
+                              <caption>•</caption>Avoid contact of diclofenac sodium topical solution with eyes and mucous membranes.</item>
+                           <item>
+                              <caption>•</caption>Do not apply external heat and/or occlusive dressings to treated knees.</item>
+                           <item>
+                              <caption>•</caption>Avoid wearing clothing over the diclofenac sodium topical solution-treated knee(s) until the treated knee is dry.</item>
+                           <item>
+                              <caption>•</caption>Protect the treated knee(s) from sunlight.</item>
+                           <item>
+                              <caption>•</caption>Wait until the treated area is dry before applying sunscreen, insect repellant, lotion, moisturizer, cosmetics, or other topical medication to the same knee you have just treated with diclofenac sodium topical solution.</item>
+                           <item>
+                              <caption>•</caption>Until the treated knee(s) is completely dry, avoid skin-to-skin contact between other people and the treated knee(s).</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S3">
+               <id root="1fbc4ad4-450d-4d0a-a933-2ca8c70b50fd"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>1.5% w/w topical solution</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>1.5% w/w topical solution (<linkHtml href="#S3">3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S4">
+               <id root="4126a36c-0c62-4434-b77a-9e7ce9562812"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Diclofenac sodium topical solution is contraindicated in patients with a known hypersensitivity to diclofenac sodium or any other component of diclofenac sodium topical solution.</paragraph>
+                  <paragraph>Diclofenac sodium topical solution is contraindicated in patients who have experienced asthma, urticaria, or allergic-type reactions after taking aspirin or other NSAIDs. Severe, rarely fatal, anaphylactic-like reactions to NSAIDs have been reported in such patients<content styleCode="italics"> [see<linkHtml href="#S5.7"> Warnings and Precautions (5.7</linkHtml>,<linkHtml href="#S5.10"> 5.10)</linkHtml>]</content>.</paragraph>
+                  <paragraph>Diclofenac sodium topical solution is contraindicated in the setting of coronary artery bypass graft (CABG) surgery<content styleCode="italics"> [see<linkHtml href="#S5.1"> Warnings and Precautions (5.1)</linkHtml>]</content>.</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Known hypersensitivity to diclofenac sodium. (<linkHtml href="#S4">4</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>History of asthma, urticaria, or allergic-type reactions after taking aspirin or other NSAIDs. (<linkHtml href="#S4">4</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Use in the perioperative period of coronary artery bypass graft (CABG) surgery. (<linkHtml href="#S4">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S5">
+               <id root="07f20e02-150a-4f29-8e8c-60eac8c6b2a9"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Serious and potentially fatal cardiovascular thrombotic events, myocardial infarction, and stroke can occur with NSAID treatment. Use the lowest effective dose of diclofenac sodium topical solution in patients with known CV disease or risk factors for CV disease. (<linkHtml href="#S5.1">5.1</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>NSAIDs can cause serious gastrointestinal (GI) adverse events including inflammation, bleeding, ulceration, and perforation. Prescribe diclofenac sodium topical solution with caution in those with a prior history of ulcer disease or gastrointestinal bleeding. (<linkHtml href="#S5.2">5.2</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Elevation of one or more liver tests may occur during therapy with NSAIDs. Discontinue diclofenac sodium topical solution immediately if abnormal liver tests persist or worsen. (<linkHtml href="#S5.3">5.3</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Hypertension can occur with NSAID treatment. Monitor blood pressure closely with diclofenac sodium topical solution treatment. (<linkHtml href="#S5.4">5.4</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Use diclofenac sodium topical solution with caution in patients with fluid retention or heart failure. (<linkHtml href="#S5.5">5.5</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Long-term administration of NSAIDs can result in renal papillary necrosis and other renal injury. Use diclofenac sodium topical solution with caution in patients at greatest risk of this reaction, including the elderly, those with impaired renal function, heart failure, liver dysfunction, and those taking diuretics and ACE-inhibitors. (<linkHtml href="#S5.6">5.6</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Anaphylactoid reactions may occur in patients with the aspirin triad or in patients without prior exposure to diclofenac sodium topical solution. (<linkHtml href="#S5.7">5.7</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>NSAIDs can cause serious skin adverse events such as exfoliative dermatitis, Stevens-Johnson syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. (<linkHtml href="#S5.8">5.8</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Not for use during pregnancy. (<linkHtml href="#S5.9">5.9</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Do not administer to patients with aspirin sensitive asthma and use with caution in patients with preexisting asthma. (<linkHtml href="#S5.10">5.10</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Avoid exposure of treated knee(s) to natural or artificial sunlight. (<linkHtml href="#S5.11">5.11</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Avoid contact of diclofenac sodium topical solution with eyes and mucosa. (<linkHtml href="#S5.12">5.12</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Avoid concurrent use with oral NSAIDs. (<linkHtml href="#S5.13">5.13</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S5.1">
+                     <id root="e92c188b-1d75-4fb3-9b3e-a7ca865d4a5e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Cardiovascular Thrombotic Events</title>
+                     <text>
+                        <paragraph>Clinical trials of several oral COX-2 selective and nonselective NSAIDs of up to three years duration have shown an increased risk of serious cardiovascular (CV) thrombotic events, myocardial infarction (MI), and stroke, which can be fatal. All NSAIDs, including diclofenac sodium topical solution and COX-2 selective and nonselective orally administered NSAIDs, may have a similar risk. Patients with known CV disease or risk factors for CV disease may be at greater risk. To minimize the potential risk for an adverse CV event in patients treated with an NSAID, use the lowest effective dose for the shortest duration possible. Physicians and patients should remain alert for the development of such events, even in the absence of previous CV symptoms. Inform patients about the signs and/or symptoms of serious CV events and the steps to take if they occur.</paragraph>
+                        <paragraph>Two large, controlled, clinical trials of an orally administered COX-2 selective NSAID for the treatment of pain in the first 10 to 14 days following CABG surgery found an increased incidence of myocardial infarction and stroke<content styleCode="italics"> [see<linkHtml href="#S4"> Contraindications (4)</linkHtml>]</content>.</paragraph>
+                        <paragraph>There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and NSAIDs, such as diclofenac, does increase the risk of serious GI events<content styleCode="italics"> [see<linkHtml href="#S5.2"> Warnings and Precautions (5.2)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.2">
+                     <id root="bc4fb7b6-6d35-4530-ae46-dcb50028412f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Gastrointestinal Effects – Risk of GI Ulceration, Bleeding, and Perforation</title>
+                     <text>
+                        <paragraph>NSAIDs, including diclofenac, can cause serious gastrointestinal (GI) adverse events including bleeding, ulceration, and perforation of the stomach, small intestine, or large intestine, which can be fatal. These serious adverse events can occur at any time, with or without warning symptoms, in patients treated with NSAIDs. Only one in five patients who develop a serious upper GI adverse event on NSAID therapy is symptomatic. Upper GI ulcers, gross bleeding, or perforation caused by NSAIDs occur in approximately 1% of patients treated for 3 to 6 months, and in about 2 to 4% of patients treated for one year. These trends continue with longer duration of use, increasing the likelihood of developing a serious GI event at some time during the course of therapy. However, even short-term therapy is not without risk.</paragraph>
+                        <paragraph>Prescribe NSAIDs, including diclofenac sodium topical solution, with extreme caution in those with a prior history of ulcer disease or gastrointestinal bleeding. Patients with a prior history of peptic ulcer disease and/or gastrointestinal bleeding who use NSAIDs have a greater than 10-fold increased risk for developing a GI bleed compared to patients with neither of these risk factors. Other factors that increase the risk of GI bleeding in patients treated with NSAIDs include concomitant use of oral corticosteroids or anticoagulants, longer duration of NSAID therapy, smoking, use of alcohol, older age, and poor general health status. Most spontaneous reports of fatal GI events are in elderly or debilitated patients and therefore, use special care when treating this population.</paragraph>
+                        <paragraph>To minimize the potential risk for an adverse GI event, use the lowest effective dose for the shortest possible duration. Remain alert for signs and symptoms of GI ulceration and bleeding during diclofenac therapy and promptly initiate additional evaluation and treatment if a serious GI adverse event is suspected. For high-risk patients, consider alternate therapies that do not involve NSAIDs.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.3">
+                     <id root="72001816-0471-47a9-b8c3-201c2c4aa3f6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Hepatic Effects</title>
+                     <text>
+                        <paragraph>Borderline elevations (less than 3 times the upper limit of the normal [ULN] range) or greater elevations of transaminases occurred in about 15% of oral diclofenac-treated patients in clinical trials of indications other than acute pain. Of the markers of hepatic function, ALT (SGPT) is recommended for the monitoring of liver injury.</paragraph>
+                        <paragraph>In clinical trials of an oral diclofenac-misoprostol combination product, meaningful elevations (i.e., more than 3 times the ULN) of AST (SGOT) occurred in about 2% of approximately 5,700 patients at some time during diclofenac treatment (ALT was not measured in all studies).</paragraph>
+                        <paragraph>In an open-label, controlled trial of 3,700 patients treated for 2 to 6 months, patients with oral diclofenac were monitored first at 8 weeks and 1,200 patients were monitored again at 24 weeks. Meaningful elevations of ALT and/or AST occurred in about 4% of the 3,700 patients and included marked elevations (&gt;8 times the ULN) in about 1% of the 3,700 patients. In this open-label study, a higher incidence of borderline (less than 3 times the ULN), moderate (3 to 8 times the ULN), and marked (&gt;8 times the ULN) elevations of ALT or AST was observed in patients receiving diclofenac when compared to other NSAIDs. Elevations in transaminases were seen more frequently in patients with osteoarthritis than in those with rheumatoid arthritis. Almost all meaningful elevations in transaminases were detected before patients became symptomatic. Abnormal tests occurred during the first 2 months of therapy with oral diclofenac in 42 of the 51 patients in all trials who developed marked transaminase elevations. In postmarketing reports, cases of drug-induced hepatotoxicity have been reported in the first month, and in some cases, the first 2 months of NSAID therapy.</paragraph>
+                        <paragraph>Postmarketing surveillance has reported cases of severe hepatic reactions, including liver necrosis, jaundice, fulminant hepatitis with and without jaundice, and liver failure. Some of these reported cases resulted in fatalities or liver transplantation.</paragraph>
+                        <paragraph>In a European retrospective population-based, case-controlled study, 10 cases of oral diclofenac associated drug-induced liver injury with current use compared with non-use of diclofenac were associated with a statistically significant 4-fold adjusted odds ratio of liver injury. In this particular study, based on an overall number of 10 cases of liver injury associated with diclofenac, the adjusted odds ratio increased further with female gender, doses of 150 mg or more, and duration of use for more than 90 days.</paragraph>
+                        <paragraph>Measure transaminases (ALT and AST) periodically in patients receiving long-term therapy with diclofenac, because severe hepatotoxicity may develop without a prodrome of distinguishing symptoms. The optimum times for making the first and subsequent transaminase measurements are not known. Based on clinical trial data and postmarketing experiences, monitor transaminases within 4 to 8 weeks after initiating treatment with diclofenac. However, severe hepatic reactions can occur at any time during treatment with diclofenac. If abnormal liver tests persist or worsen, if clinical signs and/or symptoms consistent with liver disease develop, or if systemic manifestations occur (e.g., eosinophilia, rash, abdominal pain, diarrhea, dark urine, etc.), discontinue diclofenac sodium topical solution immediately.</paragraph>
+                        <paragraph>To minimize the possibility that hepatic injury will become severe between transaminase measurements, inform patients of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, diarrhea, pruritus, jaundice, right upper quadrant tenderness, and "flu-like" symptoms), and the appropriate action to take if these signs and symptoms appear.</paragraph>
+                        <paragraph>To minimize the potential risk for an adverse liver-related event in patients treated with diclofenac sodium topical solution, use the lowest effective dose for the shortest duration possible. Exercise caution when prescribing diclofenac sodium topical solution with concomitant drugs that are known to be potentially hepatotoxic (e.g., acetaminophen, certain antibiotics, antiepileptics). Caution patients to avoid taking unprescribed acetaminophen while using diclofenac sodium topical solution.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.4">
+                     <id root="d929d759-966d-47f9-8d45-0b1d4b6e8da2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Hypertension</title>
+                     <text>
+                        <paragraph>NSAIDs, including diclofenac, can lead to new onset or worsening of preexisting hypertension, either of which may contribute to the increased incidence of CV events. Use NSAIDs, including diclofenac sodium topical solution, with caution in patients with hypertension. Monitor blood pressure (BP) closely during the initiation of NSAID treatment and throughout the course of therapy.</paragraph>
+                        <paragraph>Patients taking ACE-inhibitors, thiazides or loop diuretics may have impaired response to these therapies when taking NSAIDs.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.5">
+                     <id root="c7587075-01a2-40a4-b8db-999cfebe3725"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Congestive Heart Failure and Edema</title>
+                     <text>
+                        <paragraph>Fluid retention and edema have been observed in some patients treated with NSAIDs, including diclofenac sodium topical solution. Use diclofenac sodium topical solution with caution in patients with fluid retention or heart failure.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.6">
+                     <id root="8c28229a-0d55-44bf-9183-d790a5e53d66"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Renal Effects</title>
+                     <text>
+                        <paragraph>Use caution when initiating treatment with diclofenac sodium topical solution in patients with considerable dehydration.</paragraph>
+                        <paragraph>Long-term administration of NSAIDs has resulted in renal papillary necrosis and other renal injury. Renal toxicity has also been seen in patients in whom renal prostaglandins have a compensatory role in the maintenance of renal perfusion. In these patients, administration of an NSAID may cause a dose-dependent reduction in prostaglandin formation and, secondarily, in renal blood flow, which may precipitate overt renal decompensation. Patients at greatest risk of this reaction are those with impaired renal function, heart failure, liver dysfunction, those taking diuretics and ACE-inhibitors, and the elderly. Discontinuation of NSAID therapy is usually followed by recovery to the pretreatment state.</paragraph>
+                        <paragraph>No information is available from controlled clinical studies regarding the use of diclofenac sodium topical solution in patients with advanced renal disease. Therefore, treatment with diclofenac sodium topical solution is not recommended in patients with advanced renal disease. If diclofenac sodium topical solution therapy is initiated, close monitoring of the patient's renal function is advisable.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.7">
+                     <id root="96c50707-5bf1-499f-b284-7abc2f2e9b99"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7 Anaphylactoid Reactions</title>
+                     <text>
+                        <paragraph>As with other NSAIDs, anaphylactoid reactions may occur in patients without prior exposure to diclofenac sodium topical solution. Do not prescribe diclofenac sodium topical solution to patients with the aspirin triad. This symptom complex typically occurs in asthmatic patients who experience rhinitis with or without nasal polyps, or who exhibit severe, potentially fatal bronchospasm after taking aspirin or other NSAIDs<content styleCode="italics"> [see<linkHtml href="#S4"> Contraindications (4) </linkHtml>and<linkHtml href="#S5.10"> Warnings and Precautions (5.10)</linkHtml>]</content>. Seek emergency help in cases where an anaphylactoid reaction occurs.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.8">
+                     <id root="eb258c25-8fff-4df1-ba76-09dfc5b3639e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.8 Skin Reactions</title>
+                     <text>
+                        <paragraph>Do not apply diclofenac sodium topical solution to open skin wounds, infections, inflammations, or exfoliative dermatitis, as it may affect absorption and tolerability of the drug.</paragraph>
+                        <paragraph>NSAIDs, including diclofenac sodium topical solution, can cause serious skin adverse events such as exfoliative dermatitis, Stevens-Johnson syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. These serious events may occur without warning. Inform patients about the signs and symptoms of serious skin manifestations, and discontinue use of the drug at the first appearance of skin rash or any other signs of hypersensitivity.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.9">
+                     <id root="ea549a29-da11-41db-ba2d-1dfd4cac1932"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.9 Pregnancy</title>
+                     <text>
+                        <paragraph>Diclofenac sodium topical solution should not be used by pregnant or nursing women or those intending to become pregnant.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.10">
+                     <id root="38e931d4-ef2e-410c-b3e7-f5c0bf0b81db"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.10 Preexisting Asthma</title>
+                     <text>
+                        <paragraph>Patients with asthma may have aspirin-sensitive asthma. The use of aspirin in patients with aspirin-sensitive asthma has been associated with severe bronchospasm, which can be fatal. Since cross-reactivity, including bronchospasm, between aspirin and other nonsteroidal anti-inflammatory drugs has been reported in such aspirin-sensitive patients, do not administer diclofenac sodium topical solution to patients with this form of aspirin sensitivity and use with caution in patients with preexisting asthma.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.11">
+                     <id root="bb1ea963-f982-4549-9d11-36d243a42dde"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.11 Sun Exposure</title>
+                     <text>
+                        <paragraph>Instruct patients to avoid exposure to natural or artificial sunlight on treated knee(s) because studies in animals indicated topical diclofenac treatment resulted in an earlier onset of ultraviolet light-induced skin tumors. The potential effects of diclofenac sodium topical solution on skin response to ultraviolet damage in humans are not known.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.12">
+                     <id root="ffe6bcc6-c236-4d6d-8398-db9d5f0f3435"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.12 Eye Exposure</title>
+                     <text>
+                        <paragraph>Avoid contact of diclofenac sodium topical solution with eyes and mucosa. Advise patients that if eye contact occurs, immediately wash out the eye with water or saline and consult a physician if irritation persists for more than an hour.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.13">
+                     <id root="26e594ef-92b2-4acb-ad7c-8ac8d781d89c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.13 Oral Nonsteroidal Anti-Inflammatory Drugs</title>
+                     <text>
+                        <paragraph>Concomitant use of oral NSAIDs with diclofenac sodium topical solution resulted in a higher rate of rectal hemorrhage, more frequent abnormal creatinine, urea and hemoglobin. Therefore, do not use combination therapy with diclofenac sodium topical solution and an oral NSAID unless the benefit outweighs the risk and conduct periodic laboratory evaluations.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.14">
+                     <id root="77de1737-7e49-4d78-8c44-1bc81b344f30"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.14 Corticosteroid Treatment</title>
+                     <text>
+                        <paragraph>Diclofenac sodium topical solution cannot be expected to substitute for corticosteroids or to treat corticosteroid insufficiency. Abrupt discontinuation of corticosteroids may lead to exacerbation of corticosteroid-response illness. For patients on prolonged corticosteroid therapy, taper slowly if a decision is made to discontinue corticosteroids.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.15">
+                     <id root="034b66e7-fdff-4c01-961c-e79813275ef6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.15 Inflammation</title>
+                     <text>
+                        <paragraph>The pharmacological activity of diclofenac sodium topical solution in reducing inflammation, and possibly fever, may diminish the utility of these diagnostic signs in detecting complications of presumed noninfectious, painful conditions.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.16">
+                     <id root="c86db555-fdad-47cc-8c26-c7728a98b93e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.16 Hematological Effects</title>
+                     <text>
+                        <paragraph>The effects of diclofenac sodium topical solution on platelet function were studied in 10 healthy subjects administered 80 drops four times a day for 7 days. There was no significant change in platelet aggregation following one week of treatment<content styleCode="italics"> [see<linkHtml href="#S12.4"> Clinical Pharmacology (12.4)</linkHtml>]</content>.</paragraph>
+                        <paragraph>Anemia is sometimes seen in patients receiving NSAIDs. This may be due to fluid retention, occult or gross GI blood loss, or an incompletely described effect upon erythropoiesis. Check hemoglobin or hematocrit of patients on diclofenac sodium topical solution if they exhibit any signs or symptoms of anemia or blood loss.</paragraph>
+                        <paragraph>NSAIDs inhibit platelet aggregation and have been shown to prolong bleeding time in some patients. Unlike aspirin, their effect on platelet function is quantitatively less, of shorter duration and reversible. Carefully monitor patients receiving diclofenac sodium topical solution who may be adversely affected by alterations in platelet function, such as those with coagulation disorders or patients receiving anticoagulants.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.17">
+                     <id root="7e2030fd-b552-4df4-8ffc-1d6088b7a418"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.17 Monitoring</title>
+                     <text>
+                        <paragraph>Because serious GI tract ulcerations and bleeding can occur without warning symptoms in patients taking NSAIDs, monitor patients for signs or symptoms of GI bleeding. Check CBC and a chemistry profile periodically in patients on long-term treatment with NSAIDs. Discontinue diclofenac sodium topical solution if abnormal liver tests or renal tests persist or worsen.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S6">
+               <id root="d51e84a6-7de9-4e66-8e3c-fd4ed545f924"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most common adverse events with diclofenac sodium topical solution are application site reactions. (<linkHtml href="#S6.1">6.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact the FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S6.1">
+                     <id root="00e40675-5618-4b5d-83f3-7f89f8e019a8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1 Clinical Studies Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. The data described below reflect exposure to diclofenac sodium topical solution of 911 patients treated between 4 and 12 weeks (mean duration of 49 days) in seven Phase 3 controlled trials, as well as exposure of 793 patients treated in an open-label study, including 463 patients treated for at least 6 months, and 144 patients treated for at least 12 months. The population mean age was approximately 60 years, 89% of patients were Caucasians, 64% were females, and all patients had primary osteoarthritis. The most common adverse events with diclofenac sodium topical solution were application site skin reactions. These events were the most common reason for withdrawing from the studies.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                     <component>
+                        <section ID="ID_e6cfedaa-ec9e-4751-b983-d8816bf23084">
+                           <id root="d74fc348-a485-4e39-8930-faf7aab2cd27"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">
+                                    <content styleCode="underline">Application Site Reactions</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>In controlled trials, the most common treatment-related adverse events in patients receiving diclofenac sodium topical solution were application site skin reactions. Application site reactions were characterized by one or more of the following: dryness, erythema, induration, vesicles, paresthesia, pruritus, vasodilation, acne, and urticaria. The most frequent of these reactions were dry skin (32%), contact dermatitis characterized by skin erythema and induration (9%), contact dermatitis with vesicles (2%) and pruritus (4%). In one controlled trial, a higher rate of contact dermatitis with vesicles (4%) was observed after treatment of 152 subjects with the combination of diclofenac sodium topical solution and oral diclofenac. In the open label uncontrolled long-term safety study, contact dermatitis occurred in 13% and contact dermatitis with vesicles in 10% of patients, generally within the first 6 months of exposure, leading to a withdrawal rate for an application site event of 14%.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_243f0490-4738-4458-91a1-ad970434a623">
+                           <id root="ad636129-10cf-472d-9e43-5157159849bf"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">
+                                    <content styleCode="underline">Adverse Events Common to the NSAID Class</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>In controlled trials, subjects treated with diclofenac sodium topical solution experienced some adverse events associated with the NSAID class more frequently than subjects using placebo (constipation, diarrhea, dyspepsia, nausea, flatulence, abdominal pain, edema; see <content styleCode="bold">
+                                    <linkHtml href="#_Reftable1"> Table 1</linkHtml>
+                                 </content>). The combination of diclofenac sodium topical solution and oral diclofenac, compared to oral diclofenac alone, resulted in a higher rate of rectal hemorrhage (3% vs. less than 1%), and more frequent abnormal creatinine (12% vs. 7%), urea (20% vs. 12%), and hemoglobin (13% vs. 9%), but no difference in elevation of liver transaminases.</paragraph>
+                              <paragraph>Table 1 lists all adverse reactions occurring in ≥1% of patients receiving diclofenac sodium topical solution, where the rate in the diclofenac sodium topical solution group exceeded placebo, from seven controlled studies conducted in patients with osteoarthritis. Since these trials were of different durations, these percentages do not capture cumulative rates of occurrence.</paragraph>
+                              <table ID="_Reftable1" width="75%">
+                                 <caption>Table 1: Adverse reactions occurring in ≥1% of patients treated with Diclofenac Sodium Topical Solution in placebo and oral diclofenac-controlled trials.</caption>
+                                 <col width="46%"/>
+                                 <col width="26%"/>
+                                 <col width="15%"/>
+                                 <thead>
+                                    <tr>
+                                       <th align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                          <content styleCode="bold">Treatment Group:</content>
+                                       </th>
+                                       <th align="left" styleCode="Rrule Botrule Toprule " valign="top">
+                                          <content styleCode="bold">Diclofenac Sodium Topical Solution</content>
+                                          <br/>
+                                          <content styleCode="bold">N=911</content>
+                                       </th>
+                                       <th align="left" styleCode="Rrule Botrule Toprule " valign="top">
+                                          <content styleCode="bold">Topical Placebo</content>
+                                          <br/>
+                                          <content styleCode="bold">N=332</content>
+                                       </th>
+                                    </tr>
+                                    <tr>
+                                       <th align="left" styleCode="Rrule Lrule Botrule " valign="top">
+                                          <content styleCode="bold">Adverse Reaction</content>
+                                          <footnote ID="_Reftable1a">Preferred Term according to COSTART</footnote>
+                                       </th>
+                                       <th align="left" styleCode="Rrule Botrule " valign="top">
+                                          <content styleCode="bold">N (%)</content>
+                                       </th>
+                                       <th align="left" styleCode="Rrule Botrule " valign="top">
+                                          <content styleCode="bold">N (%)</content>
+                                       </th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                          <paragraph>Dry Skin (Application Site)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Toprule Botrule " valign="top">
+                                          <paragraph>292 (32)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Toprule Botrule " valign="top">
+                                          <paragraph>17 (5)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Contact Dermatitis (Application Site)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>83 (9)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>6 (2)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Dyspepsia</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>72 (8)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>13 (4)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Abdominal Pain</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>54 (6)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>10 (3)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Flatulence</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>35 (4)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>1 (&lt;1)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Pruritus (Application Site)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>34 (4)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>7 (2)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Diarrhea</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>33 (4)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>7 (2)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Nausea</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>33 (4)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>3 (1)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Pharyngitis</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>40 (4)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>13 (4)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Constipation</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>29 (3)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>1 (&lt;1)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Edema</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>26 (3)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>0</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Rash (Non-Application Site)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>25 (3)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>5 (2)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Infection</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>25 (3)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>8 (2)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Ecchymosis</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>19 (2)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>1 (&lt;1)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Dry Skin (Non-Application Site)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>19 (2)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>1 (&lt;1)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Contact Dermatitis, vesicles (Application Site)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>18 (2)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>0</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Paresthesia (Non-Application Site)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>14 (2)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>3 (&lt;1)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Accidental Injury</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>22 (2)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>7 (2)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Pruritus (Non-Application Site)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>15 (2)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>2 (&lt;1)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Sinusitis</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>10 (1)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>2 (&lt;1)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>Halitosis</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>11 (1)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="top">
+                                          <paragraph>1 (&lt;1)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule Botrule Lrule " valign="top">
+                                          <paragraph>Application Site Reaction (not otherwise specified)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="middle">
+                                          <paragraph>11 (1)</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule " valign="middle">
+                                          <paragraph>3 (&lt;1)</paragraph>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S6.2">
+                     <id root="03bfa27b-8d4b-44ff-9030-6f791947d471"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.2 Postmarketing Experience</title>
+                     <text>
+                        <paragraph>In non-U.S. postmarketing surveillance, the following adverse reactions have been reported during post-approval use of diclofenac sodium topical solution. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Body as a Whole: </content>abdominal pain, accidental injury, allergic reaction, asthenia, back pain, body odor, chest pain, edema, face edema, halitosis, headache, lack of drug effect, neck rigidity, pain</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cardiovascular: </content>palpitation, cardiovascular disorder</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Digestive: </content>diarrhea, dry mouth, dyspepsia, gastroenteritis, decreased appetite, mouth ulceration, nausea, rectal hemorrhage, ulcerative stomatitis</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolic and Nutritional: </content>creatinine increased</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Musculoskeletal: </content>leg cramps, myalgia</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Nervous: </content>depression, dizziness, drowsiness, lethargy, paresthesia, paresthesia at application site</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Respiratory: </content>asthma, dyspnea, laryngismus, laryngitis, pharyngitis</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Skin and Appendages: At the Application Site: </content>contact dermatitis, contact dermatitis with vesicles, dry skin, pruritus, rash;<content styleCode="italics"> Other Skin and Appendages Adverse Reactions: </content>eczema, rash, pruritus, skin discoloration, urticaria</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Special Senses: </content>abnormal vision, blurred vision, cataract, ear pain, eye disorder, eye pain, taste perversion</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S7">
+               <id root="70f6e8e9-b651-4874-b0f2-acf962578573"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>Drug interactions with the use of diclofenac sodium topical solution have not been studied. The following drug interactions [sections 7.1 to 7.7] are noted for oral diclofenac sodium.</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Concomitant administration of diclofenac and aspirin is not generally recommended because of the potential of increased adverse effects including increased GI bleeding. (<linkHtml href="#S7.1">7.1</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Concomitant use of anticoagulants and diclofenac have a risk of serious GI bleeding higher than users of either drug alone. (<linkHtml href="#S7.2">7.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S7.1">
+                     <id root="60c4db4b-3594-41aa-b82c-d4bc8484c31c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Aspirin</title>
+                     <text>
+                        <paragraph>When diclofenac is administered with aspirin, the binding of diclofenac to protein is reduced, although the clearance of free diclofenac is not altered. The clinical significance of this interaction is not known; however, as with other NSAIDs, concomitant administration of diclofenac and aspirin is not generally recommended because of the potential of increased adverse effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S7.2">
+                     <id root="c3e8c651-2fa9-4828-bafd-ce2c654c180b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2 Anticoagulants</title>
+                     <text>
+                        <paragraph>The effects of anticoagulants such as warfarin and NSAIDs on GI bleeding are synergistic, such that users of both drugs together have a risk of serious GI bleeding higher than users of either drug alone.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S7.3">
+                     <id root="e7f5d112-86fb-4f66-ba68-2baf7d3bfe65"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.3 ACE-Inhibitors</title>
+                     <text>
+                        <paragraph>NSAIDs may diminish the antihypertensive effect of angiotensin converting enzyme (ACE) inhibitors. Consider this interaction in patients taking NSAIDs concomitantly with ACE-inhibitors.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S7.4">
+                     <id root="3b8d5135-1e08-47a0-a128-15e0fa72fa79"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.4 Diuretics</title>
+                     <text>
+                        <paragraph>Clinical studies, as well as postmarketing observations, have shown that NSAIDs can reduce the natriuretic effect of furosemide and thiazides in some patients. The response has been attributed to inhibition of renal prostaglandin synthesis. During concomitant therapy with NSAIDs, observe the patient closely for signs of renal failure<content styleCode="italics"> [see<linkHtml href="#S5.6"> Warnings and Precautions (5.6)</linkHtml>]</content>, as well as to assure diuretic efficacy.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S7.5">
+                     <id root="ae8cd99d-82b3-425b-9c32-2b4a53d4b5f1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.5 Lithium</title>
+                     <text>
+                        <paragraph>NSAIDs have produced an elevation of plasma lithium levels and a reduction in renal lithium clearance. The mean minimum lithium concentration increased 15% and the renal clearance was decreased by approximately 20%. These effects have been attributed to inhibition of renal prostaglandin synthesis by the NSAID. Thus, when NSAIDs, including diclofenac, and lithium are administered concurrently, observe patients carefully for signs of lithium toxicity.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S7.6">
+                     <id root="4352f6be-5ac2-4773-ae4c-712b339e353d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.6 Methotrexate</title>
+                     <text>
+                        <paragraph>NSAIDs have been reported to competitively inhibit methotrexate accumulation in rabbit kidney slices. This may indicate that they could enhance the toxicity of methotrexate. Use caution when NSAIDs, including diclofenac, are administered concomitantly with methotrexate.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S7.7">
+                     <id root="8e7079bb-a99d-45f6-8ffa-08a2fcc3e626"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.7 Cyclosporine</title>
+                     <text>
+                        <paragraph>Diclofenac, like other NSAIDs, may affect renal prostaglandins and increase the toxicity of certain drugs. Therefore, concomitant therapy with diclofenac may increase cyclosporine's nephrotoxicity. Use caution when diclofenac is administered concomitantly with cyclosporine.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S7.8">
+                     <id root="dea4b648-8d62-4773-8203-f316993b9baa"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.8 Oral Nonsteroidal Anti-Inflammatory Drugs</title>
+                     <text>
+                        <paragraph>Concomitant use of oral NSAIDs with diclofenac sodium topical solution has been evaluated in one Phase 3 controlled trial and in combination with oral diclofenac, compared to oral diclofenac alone, resulted in a higher rate of rectal hemorrhage (3% vs. less than 1%), and more frequent abnormal creatinine (12% vs. 7%), urea (20% vs. 12%) and hemoglobin (13% vs. 9%). Therefore, do not use combination therapy with diclofenac sodium topical solution and an oral NSAID unless the benefit outweighs the risk and conduct periodic laboratory evaluations.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S7.9">
+                     <id root="472f159b-3e2e-4831-beaf-e92d15f422ff"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.9 Topical Treatments</title>
+                     <text>
+                        <paragraph>Instruct patients that before applying sunscreen, insect repellant, lotion, moisturizer, cosmetics, or other topical medication to the same skin surface of the knee treated with diclofenac sodium topical solution, they must wait until the treated area is completely dry.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S8">
+               <id root="b9406079-abcc-41c8-92f6-ea0b3ac8e541"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Pregnancy: Not recommended for use during pregnancy. (<linkHtml href="#S8.1">8.1</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Nursing Mothers: Use with caution, as it is not known if diclofenac is excreted in human milk. (<linkHtml href="#S8.3">8.3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S8.1">
+                     <id root="59e43bdd-5964-4950-91c8-7467459be80f"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>Pregnancy Category C prior to 30 weeks gestation; Category D starting 30 weeks gestation.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                     <component>
+                        <section ID="ID_0b09253e-fe4a-4152-9ae7-4ae1eb5dc4de">
+                           <id root="fc18d1ae-bf7d-4c61-8acb-2ef9ed97228e"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">
+                                    <content styleCode="underline">Teratogenic Effects</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>There are no adequate and well-controlled studies of diclofenac sodium topical solution in pregnant women. Diclofenac sodium topical solution should not be used by pregnant women as its safe use has not been adequately determined and starting at 30 weeks gestation, diclofenac and other NSAIDs should be avoided by pregnant women as premature closure of the ductus arteriosus in the fetus may occur. Developmental studies in animals demonstrated that diclofenac sodium administration did not produce teratogenicity despite the induction of maternal toxicity and fetal toxicity in mice at doses up to 20 mg/kg/day (0.6-fold the maximum recommended human dose [MRHD] of 154 mg/day based on body surface area comparison), and in rats and rabbits at doses up to 10 mg/kg/day (approximately 0.6-fold and 1.3-fold the MRHD, respectively). Published reproductive and developmental studies of dimethyl sulfoxide (DMSO, the solvent used in diclofenac sodium topical solution) are equivocal as to potential teratogenicity.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_4ca26171-0276-40a7-b689-556ed79cb5d9">
+                           <id root="3a6d9046-ba82-4cd7-8dc8-30c0e84586af"/>
+                           <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">
+                                    <content styleCode="underline">Nonteratogenic Effects</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>In rats, maternally toxic doses of diclofenac were associated with dystocia, prolonged gestation, reduced fetal weights and growth, and reduced fetal survival.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.2">
+                     <id root="dac278c0-a9c9-42fc-ba80-7e2398dbb791"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>8.2 Labor and Delivery</title>
+                     <text>
+                        <paragraph>The effects of diclofenac sodium topical solution on labor and delivery in pregnant women are unknown. In rat studies maternal exposure to diclofenac, as with other NSAID drugs, known to inhibit prostaglandin synthesis, increased the incidence of dystocia, delayed parturition, and decreased offspring survival.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.3">
+                     <id root="6bb3ae6f-e7c7-4d82-88ca-71518d88abc6"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>8.3 Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk; however, there is a case report in the literature indicating that diclofenac can be detected at low levels in breast milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from diclofenac sodium topical solution, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.4">
+                     <id root="27564572-77e1-4b9d-b402-1b6bea66632e"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.5">
+                     <id root="26382d1e-9b2a-4e56-8978-6cb0c6d530bf"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Of the 911 patients treated with diclofenac sodium topical solution in seven controlled, Phase 3 clinical trials, 444 subjects were 65 years of age and over. There was no age-related difference in the incidence of adverse events. Of the 793 patients treated with diclofenac sodium topical solution in one open-labeled safety trial, 334 subjects were 65 years of age and over including 107 subjects 75 and over. There was no difference in the incidence of adverse events with long-term exposure to diclofenac sodium topical solution for this elderly population. As with any NSAID, use caution in treating the elderly (65 years and older) and it may be useful to monitor renal function since they are more likely to have decreased baseline renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S10">
+               <id root="8e3f5947-dd0f-4fa1-b8e6-c2b029bad312"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>There have been no known experiences of overdose with diclofenac sodium topical solution.</paragraph>
+                  <paragraph>Symptoms following acute NSAID overdose are usually limited to lethargy, drowsiness, nausea, vomiting, and epigastric pain, which are generally reversible with supportive care. Gastrointestinal bleeding can occur. Hypertension, acute renal failure, respiratory depression and coma may occur, but are rare. Anaphylactoid reactions have been reported with therapeutic ingestion of NSAIDs, and may occur following an overdose.</paragraph>
+                  <paragraph>Manage patients using symptomatic and supportive care following an NSAID overdose. There are no specific antidotes. Emesis is not recommended due to a possibility of aspiration and subsequent respiratory irritation by DMSO contained in diclofenac sodium topical solution. Activated charcoal (60 to 100 g in adults, 1 to 2 g/kg in children) and/or osmotic cathartic may be indicated in patients seen within 4 hours of ingestion with symptoms or following a large overdose (5 to 10 times the usual dose). Forced diuresis, alkalinization of urine, hemodialysis, or hemoperfusion may not be useful due to high protein binding.</paragraph>
+                  <paragraph>For additional information about overdose treatment, call a poison control center (1-800-222-1222).</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S11">
+               <id root="73d64fde-3373-416c-a271-c35518db78d3"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Diclofenac sodium topical solution is a clear, colorless to faintly pink-orange solution for topical application.</paragraph>
+                  <paragraph>Diclofenac sodium topical solution contains 1.5% w/w diclofenac sodium, a benzeneacetic acid derivative that is a nonsteroidal anti-inflammatory drug (NSAID), designated chemically as 2-[(2,6-dichlorophenyl)amino]-benzeneacetic acid, monosodium salt. The molecular weight is 318.14. Its molecular formula is C<sub>14</sub>H<sub>10</sub>Cl<sub>2</sub>NNaO<sub>2</sub> and it has the following structural formula:</paragraph>
+                  <renderMultiMedia ID="id972" referencedObject="ID_509ed0c5-ead9-4cd0-82a4-343928d7ad84"/>
+                  <paragraph>Each 1 mL of solution contains 16.05 mg of diclofenac sodium. In addition, diclofenac sodium topical solution contains the following inactive ingredients: dimethyl sulfoxide USP (DMSO, 45.5% w/w), ethanol, glycerin, propylene glycol and purified water.</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <observationMedia ID="ID_509ed0c5-ead9-4cd0-82a4-343928d7ad84">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="diclofenac-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S12">
+               <id root="06216030-e396-4dd4-bacf-5fb703ce968d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="S12.1">
+                     <id root="edb4d6fe-7a91-4de2-bab1-153082765757"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>The mechanism of action of diclofenac is similar to that of other nonsteroidal anti-inflammatory drugs. Diclofenac inhibits the enzyme, cyclooxygenase (COX), an early component of the arachidonic acid cascade, resulting in the reduced formation of prostaglandins, thromboxanes and prostacylin. It is not completely understood how reduced synthesis of these compounds results in therapeutic efficacy.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.2">
+                     <id root="ec82f868-60f4-48fb-8a46-2eed77f88c06"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Diclofenac, the active component of diclofenac sodium topical solution has anti-inflammatory, anti-nociception, and antipyretic effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.3">
+                     <id root="40a9e913-c24a-4044-88a6-35414bf6a7fd"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>After topical administration to healthy human volunteers of single and multiple maximum doses of diclofenac sodium topical solution, 40 drops (approximately 1.2 mL) to each knee (80 drops total dose), the following diclofenac pharmacokinetic parameters were obtained: (see <content styleCode="bold">
+                              <linkHtml href="#_Reftable2"> Table 2</linkHtml>
+                           </content>).</paragraph>
+                        <table ID="_Reftable2" width="75%">
+                           <caption>Table 2: Single-Dose (80 drops) and Multiple Dose (80 drops four times daily for 7 days) Diclofenac Sodium Topical Solution Pharmacokinetic Parameters</caption>
+                           <col width="29%"/>
+                           <col width="27%"/>
+                           <col width="30%"/>
+                           <thead>
+                              <tr>
+                                 <th align="left" styleCode="Rrule Botrule Lrule Toprule " valign="top"/>
+                                 <th align="left" colspan="2" styleCode="Rrule Botrule Toprule " valign="top">
+                                    <content styleCode="bold">Diclofenac sodium</content>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <th align="left" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <content styleCode="bold">Pharmacokinetic Parameters</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Normal Adults [N=18] (Age: 18-55 years)</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Normal Adults [N=19] (Age: 18-55 years)</content>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <th align="left" styleCode="Rrule Lrule Botrule " valign="top"/>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Single Dose</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Multiple Dose</content>
+                                    <br/>
+                                    <content styleCode="bold">Four times daily for 7 days</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>AUC<sub>0-t</sub>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>177.5 ± 72.6 ng∙h/mL</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>695.4 ± 348.9 ng∙h/mL</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>AUC<sub>0-inf</sub>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>196.3 ± 68.5 ng∙h/mL</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>745.2 ± 374.7 ng∙h/mL</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Plasma C<sub>max</sub>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>8.1 ± 5.9 ng/mL</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>19.4 ± 9.3 ng/mL</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Plasma T<sub>max</sub> (h)</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>11.0 ± 6.4</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>4.0 ± 6.5</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Plasma t<sub>1/2</sub> (h)</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>36.7 ± 20.8</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>79.0 ± 38.1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Kel (h<sup>-1</sup>)</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>0.024 ± 0.010</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>0.011 ± 0.004</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>CL/F (L/h)</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>244.7 ± 84.7<footnote ID="_Reftable2a">Apparent total body clearance</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>--</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                     <component>
+                        <section ID="ID_0ebd820e-451e-415a-adb6-5667da36d222">
+                           <id root="7ab6bda8-2ce6-43b0-90fc-62bfe7a89b9e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">
+                                    <content styleCode="underline">Absorption</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>Diclofenac systemic exposure from diclofenac sodium topical solution application (4 times daily for 1 week) was approximately 1/3 of the diclofenac systemic exposure from the diclofenac topical gel application (twice daily for 4 weeks).</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_23f5a6c3-496c-4560-a2e4-8fa81a8a8ee5">
+                           <id root="2db55ac3-832e-47c5-8e4b-1abdb1bebb00"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">
+                                    <content styleCode="underline">Distribution</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>Diclofenac is more than 99% bound to human serum proteins, primarily to albumin.</paragraph>
+                              <paragraph>Diclofenac diffuses into and out of the synovial fluid. Diffusion into the joint occurs when plasma levels are higher than those in the synovial fluid, after which the process reverses and synovial fluid levels are higher than plasma levels. It is not known whether diffusion into the joint plays a role in the effectiveness of diclofenac.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_60ea25db-313a-4af6-bcc6-0eee7638f8d6">
+                           <id root="4d4152e9-a716-4484-8c6a-f00714717bc3"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">
+                                    <content styleCode="underline">Metabolism</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>Five diclofenac metabolites have been identified in human plasma and urine. The metabolites include 4'hydroxy-, 5-hydroxy-, 3'-hydroxy-, 4',5-dihydroxy- and 3'-hydroxy-4'-methoxy diclofenac. The major diclofenac metabolite, 4'-hydroxy-diclofenac, has very weak pharmacologic activity. The formation of 4'-hydroxy diclofenac is primarily mediated by CPY2C9. Both diclofenac and its oxidative metabolites undergo glucuronidation or sulfation followed by biliary excretion. Acylglucuronidation mediated by UGT2B7 and oxidation mediated by CPY2C8 may also play a role in diclofenac metabolism. CYP3A4 is responsible for the formation of minor metabolites, 5-hydroxy and 3'-hydroxy-diclofenac.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_ac35ed9a-a65e-4675-a14a-5df815180919">
+                           <id root="5a5e4521-819c-41c2-be00-3cb1d2819a0d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">
+                                    <content styleCode="underline">Excretion</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>Diclofenac is eliminated through metabolism and subsequent urinary and biliary excretion of the glucuronide and the sulfate conjugates of the metabolites. Little or no free unchanged diclofenac is excreted in the urine.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_a99b3e5f-0025-43b9-9cc1-962386b21644">
+                           <id root="d0c0deb5-1b21-4f7c-ac0a-fe9fd0d5cad1"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">
+                                    <content styleCode="underline">Special Populations</content>
+                                 </content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                           <component>
+                              <section ID="ID_f0b2357e-52d2-4115-8ba8-e5fb95c87bb6">
+                                 <id root="ff475541-07e5-4f18-97dc-53a7f0ee4714"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Pediatric: </content>The pharmacokinetics of diclofenac sodium topical solution has not been investigated in pediatric patients.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20181201"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="ID_57b7f74c-910a-4b90-a4ab-1afb3ac2b130">
+                                 <id root="76c61218-70a7-449e-97a4-6d4647ff66d6"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Race: </content>Pharmacokinetic differences due to race have not been studied.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20181201"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.4">
+                     <id root="24778399-2bbd-4c7a-b6de-fac65781e768"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>12.4 Platelets</title>
+                     <text>
+                        <paragraph>The effect of diclofenac sodium topical solution on platelet function was evaluated in 10 healthy human volunteers as a sub-study of a multiple-dose pharmacokinetic study<content styleCode="italics"> [see<linkHtml href="#S12.3"> Clinical Pharmacology (12.3)</linkHtml>]</content>. Average (range) platelet aggregation time following stimulation with adenosine diphosphate, collagen, epinephrine and arachidonic acid was 101.3% (73.3 to 128.1), 99.8% (69.6 to 112.9), 109.9% (66.2 to 178.1) and 99.0% (15.5 to 126.6) of baseline value, respectively. These results indicate that there was no effect on platelet aggregation after application of the maximum clinical dose for 7 days<content styleCode="italics"> [see<linkHtml href="#S12.3"> Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S13">
+               <id root="d7e0a558-8768-484a-a345-badc713ee3f6"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="S13.1">
+                     <id root="07f336b3-9443-43d7-b5eb-9cee84729d11"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <effectiveTime value="20181201"/>
+                     <component>
+                        <section ID="ID_284f461a-ee2c-4792-bec7-242fd239e22a">
+                           <id root="8b1e3be4-7fb1-4e50-a584-76dc1654d38e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Carcinogenicity studies in mice and rats administered diclofenac sodium as a dietary constituent for 2 years resulted in no significant increases in tumor incidence at doses up to 2 mg/kg/day corresponding to approximately 0.35- and 0.7-fold (mouse and rat, respectively) of the maximum recommended human topical dose (MRHD) of diclofenac sodium topical solution (based on apparent bioavailability and body surface area comparison).</paragraph>
+                              <paragraph>In a dermal carcinogenicity study conducted in albino mice, daily topical applications of diclofenac sodium for two years at concentrations up to 0.035% diclofenac sodium (a 43-fold lower diclofenac sodium concentration than present in diclofenac sodium topical solution) did not increase neoplasm incidence.</paragraph>
+                              <paragraph>In a photococarcinogenicity study conducted in hairless mice, topical application of diclofenac sodium at doses up to 0.035% diclofenac sodium (a 43-fold lower diclofenac sodium concentration than present in diclofenac sodium topical solution) resulted in an earlier median time of onset of tumors.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_f4e0b937-4cdd-43e1-9f4f-e44afb7bc042">
+                           <id root="714035d9-f3fd-44ab-ad68-651e2981f3a6"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Mutagenesis: Diclofenac was not mutagenic or clastogenic in a battery of genotoxicity tests that included the bacterial reverse mutation assay, <content styleCode="italics">in vitro</content> mouse lymphoma point mutation assay, chromosomal aberration studies in Chinese hamster ovarian cells <content styleCode="italics">in vitro</content>, and <content styleCode="italics">in vivo</content> rat chromosomal aberration assay of bone marrow cells.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_9a8ac182-4337-4768-be77-4099d928706e">
+                           <id root="a1f35261-7c24-4d5a-b4d2-dd5922e5bee8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Impairment of Fertility: Fertility studies have not been conducted with diclofenac sodium topical solution. Diclofenac sodium administered to male and female rats at doses up to 4 mg/kg/day (1.4-fold of the MRHD of diclofenac sodium topical solution based on apparent bioavailability and body surface area comparison) did not affect fertility. Studies have not been conducted to determine the safety of DMSO on fertility.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S13.2">
+                     <id root="8072e752-0230-4b2b-8fd8-0bd7d6dbdce9"/>
+                     <code code="34091-9" codeSystem="2.16.840.1.113883.6.1" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+                     <title>13.2 Animal Toxicology and/or Pharmacology</title>
+                     <effectiveTime value="20181201"/>
+                     <component>
+                        <section ID="ID_06f4a5e8-7566-4ce1-8770-5265f2c0a943">
+                           <id root="563c96e5-7428-40e0-871f-e53bb8f57136"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">
+                                    <content styleCode="underline">Ocular Effects</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>No adverse effects were observed using indirect ophthalmoscopy after multiple-daily dermal application to rats for 26 weeks and minipigs for 52 weeks of DMSO at twice the concentration found in diclofenac sodium topical solution. Published studies of dermal or oral administration of DMSO to rabbits, dogs and pigs described refractive changes of lens curvature and cortical fibers indicative of myopic changes and/or incidences of lens opacity or discoloration when evaluated using slit-lamp biomicroscopy examination, although no ocular abnormalities were observed in rhesus monkeys during daily oral or dermal treatment with DMSO for 9 to 18 months.</paragraph>
+                           </text>
+                           <effectiveTime value="20181201"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S14">
+               <id root="d7aef46d-8227-480c-8b22-e7902c9b71cf"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <effectiveTime value="20191101"/>
+               <component>
+                  <section ID="S14.1">
+                     <id root="d668d8c3-3c2c-409a-8f03-baf995efc468"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.1 Pivotal Studies in Osteoarthritis of the Knee</title>
+                     <text>
+                        <paragraph>The use of diclofenac sodium topical solution for the treatment of the signs and symptoms of osteoarthritis of the knee was evaluated in two double-blind controlled trials conducted in the U.S. and Canada, involving patients treated with diclofenac sodium topical solution at a dose of 40 drops four times a day for 12 weeks. Diclofenac sodium topical solution was compared to topical placebo (2.3% DMSO with other excipients) and/or topical vehicle solution (45.5% w/w DMSO with other excipients), applied directly to the study knee. In both trials, diclofenac sodium topical solution treatment resulted in statistically significant clinical improvement compared to placebo and/or vehicle, in all three primary efficacy variables pain, physical function (Western Ontario and McMaster Universities LK3.1 OA Index (WOMAC) pain and physical function dimensions) and Patient Overall Health Assessment (POHA)/Patient Global Assessment (PGA). Numerical results are summarized in Tables 3 and 4.</paragraph>
+                        <table ID="_Reftable3" width="75%">
+                           <caption>Table 3: Change in treatment outcomes after 12 weeks of treatment in one study of efficacy of Diclofenac Sodium Topical Solution</caption>
+                           <col width="16%"/>
+                           <col width="16%"/>
+                           <col width="18%"/>
+                           <col width="18%"/>
+                           <col width="18%"/>
+                           <thead>
+                              <tr>
+                                 <th align="center" rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                                    <content styleCode="bold">Efficacy Variable</content>
+                                 </th>
+                                 <th align="left" colspan="4" styleCode="Rrule Botrule Toprule " valign="top">
+                                    <content styleCode="bold">Study I</content>
+                                    <br/>
+                                    <content styleCode="bold">Mean baseline score and mean change in efficacy variables after 12 weeks of treatment</content>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <th align="center" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Mean Baseline score</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Diclofenac Sodium Topical Solution</content>
+                                    <br/>
+                                    <content styleCode="bold">N=154</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Topical placebo</content>
+                                    <footnote ID="_Reftable3a">placebo formulation included 2.3% DMSO</footnote>
+                                    <br/>
+                                    <content styleCode="bold">N=155</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Topical vehicle</content>
+                                    <footnote ID="_Reftable3b">vehicle formulation included 45.5% DMSO</footnote>
+                                    <br/>
+                                    <content styleCode="bold">N=161</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>WOMAC pain score<br/>(Likert 3.1, 0–20)</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>13</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>-6.0</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>-4.7</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>-4.7</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>WOMAC physical function<br/>(Likert 3.1, 0–68)</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>42</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>-15.7</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>-12.3</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>-12.1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>POHA (0–4)</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>2.3</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>-1.0</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>-0.4</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>-0.6</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <table ID="_Reftable4" width="75%">
+                           <caption>Table 4: Change in treatment outcomes after 12 weeks of treatment in one study of efficacy of Diclofenac Sodium Topical Solution</caption>
+                           <col width="22%"/>
+                           <col width="22%"/>
+                           <col width="22%"/>
+                           <col width="22%"/>
+                           <thead>
+                              <tr>
+                                 <th align="center" rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                                    <content styleCode="bold">Efficacy Variable</content>
+                                 </th>
+                                 <th align="left" colspan="3" styleCode="Rrule Botrule Toprule " valign="top">
+                                    <content styleCode="bold">Study II</content>
+                                    <br/>
+                                    <content styleCode="bold">Mean baseline score and mean change in efficacy variables after 12 weeks of treatment</content>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <th align="center" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Mean Baseline score</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Diclofenac Sodium Topical Solution</content>
+                                    <br/>
+                                    <content styleCode="bold"> N=164</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Topical vehicle</content>
+                                    <footnote ID="_Reftable4a">vehicle formulation included 45.5% DMSO</footnote>
+                                    <br/>
+                                    <content styleCode="bold"> N=162</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>WOMAC pain score<br/>(Likert 3.1, 0–20)</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>13</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>-5.9</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>-4.4</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>WOMAC physical function<br/>(Likert 3.1, 0–68)</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>42</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>-15.3</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>-10.3</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>PGA (0–4)</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>3.1</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>-1.3</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>-1.0</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20191101"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S17">
+               <id root="7745b982-19c1-42da-8fe9-a7438dbcd694"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">See FDA-Approved patient labeling (<linkHtml href="#_Ref">Medication Guide</linkHtml> and <linkHtml href="#_Ref">Instructions for Use</linkHtml>).</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="S17.1">
+                     <id root="478e118b-cfab-4c59-bec1-4fa972929f80"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.1 Patient/Caregiver Instructions</title>
+                     <text>
+                        <paragraph>Inform patients of the following information before initiating therapy with an NSAID and periodically during the course of ongoing therapy. Encourage patients to read the NSAID Medication Guide that accompanies each prescription dispensed prior to using diclofenac sodium topical solution<content styleCode="italics"> [see <linkHtml href="#_Ref">Medication Guide</linkHtml> and <linkHtml href="#_Ref">Instructions for Use</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S17.2">
+                     <id root="0e86370c-5ccf-494c-8048-462e954481a0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.2 Cardiovascular Effects</title>
+                     <text>
+                        <paragraph>Diclofenac sodium topical solution, like other NSAIDs, may cause serious CV side effects, such as MI or stroke, which may result in hospitalization and even death. Although serious CV events can occur without warning symptoms, instruct patients to be alert for the signs and symptoms of chest pain, shortness of breath, weakness, slurring of speech, and to ask for medical advice when observing any indicative sign or symptoms. Inform patients of the importance of this follow-up<content styleCode="italics"> [see<linkHtml href="#S5.1"> Warnings and Precautions (5.1)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S17.3">
+                     <id root="8bb02007-1d2c-4aac-9851-d50891e94427"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.3 Gastrointestinal Effects</title>
+                     <text>
+                        <paragraph>Diclofenac sodium topical solution, like other NSAIDs, may cause GI discomfort and, rarely, serious GI side effects, such as ulcers and bleeding, which may result in hospitalization and even death. Although serious GI tract ulcerations and bleeding can occur without warning symptoms, inform patients to be alert for the signs and symptoms of ulceration and bleeding, and to ask for medical advice when observing any indicative sign or symptoms including epigastric pain, dyspepsia, melena, and hematemesis. Instruct patients of the importance of this follow-up<content styleCode="italics"> [see<linkHtml href="#S5.2"> Warnings and Precautions (5.2)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S17.4">
+                     <id root="b8fe98a6-3513-471c-bd90-508d7d3dc949"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.4 Hepatotoxicity</title>
+                     <text>
+                        <paragraph>Inform patients of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, pruritus, jaundice, right upper quadrant tenderness, and "flu-like" symptoms). If these occur, instruct patients to stop therapy with diclofenac sodium topical solution and seek immediate medical therapy<content styleCode="italics"> [see<linkHtml href="#S5.3"> Warnings and Precautions (5.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S17.5">
+                     <id root="5f445dfc-cf74-4267-91f6-6c4f93e49f97"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.5 Adverse Skin Reactions</title>
+                     <text>
+                        <paragraph>Diclofenac sodium topical solution, like other NSAIDs, can cause serious systemic skin side effects such as exfoliative dermatitis, SJS, and TEN, which may result in hospitalizations and even death. Although serious systemic skin reactions may occur without warning, instruct patients to be alert for the signs and symptoms of skin rash and blisters, fever, or other signs of hypersensitivity such as itching, and to ask for medical advice when observing any indicative signs or symptoms<content styleCode="italics"> [see<linkHtml href="#S5.8"> Warnings and Precautions (5.8)</linkHtml>]</content>.</paragraph>
+                        <paragraph>Advise patients to stop diclofenac sodium topical solution immediately if they develop any type of generalized rash and contact their physicians as soon as possible.</paragraph>
+                        <paragraph>Diclofenac sodium topical solution can cause a localized skin reaction at the application site. Advise patients to contact their physicians as soon as possible if they develop any type of localized application site rash.</paragraph>
+                        <paragraph>Instruct patients not to apply diclofenac sodium topical solution to open skin wounds, infections, inflammations, or exfoliative dermatitis, as it may affect absorption and reduce tolerability of the drug.</paragraph>
+                        <paragraph>Instruct patients to wait until the area treated with diclofenac sodium topical solution is completely dry before applying sunscreen, insect repellant, lotion, moisturizer, cosmetics, or other topical medication.</paragraph>
+                        <paragraph>Instruct patients to minimize or avoid exposure of treated knee(s) to natural or artificial sunlight.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S17.6">
+                     <id root="7f75de59-ed21-4d08-b545-89f822fd77f3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.6 Weight Gain and Edema</title>
+                     <text>
+                        <paragraph>Instruct patients to promptly report to their physician signs or symptoms of unexplained weight gain or edema following treatment with diclofenac sodium topical solution<content styleCode="italics"> [see<linkHtml href="#S5.5"> Warnings and Precautions (5.5)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S17.7">
+                     <id root="a3082b17-cac9-40b3-b3b3-9845fdc98c1c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.7 Anaphylactoid Reactions</title>
+                     <text>
+                        <paragraph>Inform patients of the signs of an anaphylactoid reaction (e.g., difficulty breathing, swelling of the face or throat). If these occur, instruct patients to seek immediate emergency help<content styleCode="italics"> [see<linkHtml href="#S5.7"> Warnings and Precautions (5.7)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S17.8">
+                     <id root="62734121-8026-4e94-8542-60a454f87b00"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.8 Effects During Pregnancy</title>
+                     <text>
+                        <paragraph>Instruct patients who are pregnant or intending to become pregnant not to use diclofenac sodium topical solution<content styleCode="italics"> [see<linkHtml href="#S8.1"> Use in Specific Populations (8.1) </linkHtml>and<linkHtml href="#S13.1"> Nonclinical Toxicology (13.1)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S17.9">
+                     <id root="df90997b-00de-44e6-bc21-95d589497eee"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.9 Eye Exposure</title>
+                     <text>
+                        <paragraph>Instruct patients to avoid contact of diclofenac sodium topical solution with the eyes and mucosa. Advise patients that if eye contact occurs, immediately wash out the eye with water or saline and consult a physician if irritation persists for more than an hour.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_0c59d5e8-46c6-4ace-9443-14cc7154bad5">
+                     <id root="c51b721f-a042-48ac-a48c-63cf4cb6aba3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.10 Prevention of Secondary Exposure</title>
+                     <text>
+                        <paragraph>Instruct patients to avoid skin-to-skin contact between other people and the knee(s) to which diclofenac sodium topical solution was applied until the knee(s) is completely dry.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a7bd2770-2e95-4d5f-8cc8-d117da0f7f1e">
+               <id root="cd3e87a2-f26f-4119-828c-a54459b5d784"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured for: Pharmaceutica North America Inc., Glendale, CA 91204<br/>Made in Canada</paragraph>
+                  <paragraph>Relabeled by: Proficient Rx LP  Thousand Oaks, CA 91320</paragraph>
+                  <paragraph>Issued: August 2015</paragraph>
+                  <paragraph>PPK-7915-0 54</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="MG">
+               <id root="99b99dd6-51cf-4a9e-95d7-2d17a82770b3"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">Medication Guide For</content>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="underline">Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">(See the end of this Medication Guide for a </content>
+                     <linkHtml href="#_Ref">list of prescription NSAID medicines</linkHtml>
+                     <content styleCode="underline">.)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about medicines called Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NSAID medicines may increase the chance of a heart attack or stroke that can lead to death.</content>
+                  </paragraph>
+                  <paragraph>This chance increases:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>with longer use of NSAID medicines</item>
+                     <item>
+                        <caption>•</caption>in people who have heart disease</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">NSAID medicines should never be used right before or after a heart surgery called a "coronary artery bypass graft (CABG)."</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NSAID medicines can cause ulcers and bleeding in the stomach and intestines at any time during treatment. Ulcers and bleeding:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>can happen without warning symptoms</item>
+                     <item>
+                        <caption>•</caption>may cause death</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">The chance of a person getting an ulcer or bleeding increases with:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>taking medicines called "corticosteroids" and "anticoagulants"</item>
+                     <item>
+                        <caption>•</caption>longer use</item>
+                     <item>
+                        <caption>•</caption>smoking</item>
+                     <item>
+                        <caption>•</caption>drinking alcohol</item>
+                     <item>
+                        <caption>•</caption>older age</item>
+                     <item>
+                        <caption>•</caption>having poor health</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">NSAID medicines should only be used:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>exactly as prescribed</item>
+                     <item>
+                        <caption>•</caption>at the lowest dose possible for your treatment</item>
+                     <item>
+                        <caption>•</caption>for the shortest time needed</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <paragraph>NSAID medicines are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>different types of arthritis</item>
+                     <item>
+                        <caption>•</caption>menstrual cramps and other types of short-term pain</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Who should not take a Non-Steroidal Anti-Inflammatory Drug (NSAID)?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not take an NSAID medicine:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>if you had an asthma attack, hives, or other allergic reaction with aspirin or any other NSAID medicine</item>
+                     <item>
+                        <caption>•</caption>for pain right before or after heart bypass surgery</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Tell your healthcare provider:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>about all of your medical conditions.</item>
+                     <item>
+                        <caption>•</caption>about all of the medicines you take. NSAIDs and some other medicines can interact with each other and cause serious side effects.<content styleCode="bold"> Keep a list of your medicines to show to your healthcare provider and pharmacist.</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>if you are pregnant.<content styleCode="bold"> NSAID medicines should not be used by pregnant women late in their pregnancy.</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>if you are breastfeeding. <content styleCode="bold">Talk to your doctor.</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <table width="75%">
+                     <col width="50%"/>
+                     <col width="36%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Serious side effects include:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Other side effects include:</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>heart attack</item>
+                                 <item>
+                                    <caption>•</caption>stroke</item>
+                                 <item>
+                                    <caption>•</caption>high blood pressure</item>
+                                 <item>
+                                    <caption>•</caption>heart failure from body swelling (fluid retention)</item>
+                                 <item>
+                                    <caption>•</caption>kidney problems including kidney failure</item>
+                                 <item>
+                                    <caption>•</caption>bleeding and ulcers in the stomach and intestine</item>
+                                 <item>
+                                    <caption>•</caption>low red blood cells (anemia)</item>
+                                 <item>
+                                    <caption>•</caption>life-threatening skin reactions</item>
+                                 <item>
+                                    <caption>•</caption>life-threatening allergic reactions</item>
+                                 <item>
+                                    <caption>•</caption>liver problems including liver failure</item>
+                                 <item>
+                                    <caption>•</caption>asthma attacks in people who have asthma</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>stomach pain</item>
+                                 <item>
+                                    <caption>•</caption>constipation</item>
+                                 <item>
+                                    <caption>•</caption>diarrhea</item>
+                                 <item>
+                                    <caption>•</caption>gas</item>
+                                 <item>
+                                    <caption>•</caption>heartburn</item>
+                                 <item>
+                                    <caption>•</caption>nausea</item>
+                                 <item>
+                                    <caption>•</caption>vomiting</item>
+                                 <item>
+                                    <caption>•</caption>dizziness</item>
+                              </list>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Get emergency help right away if you have any of the following symptoms:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>shortness of breath or trouble breathing</item>
+                     <item>
+                        <caption>•</caption>chest pain</item>
+                     <item>
+                        <caption>•</caption>slurred speech</item>
+                     <item>
+                        <caption>•</caption>weakness in one part or side of your body</item>
+                     <item>
+                        <caption>•</caption>swelling of the face or throat</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Stop your NSAID medicine and call your healthcare provider right away if you have any of the following symptoms:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>nausea</item>
+                     <item>
+                        <caption>•</caption>more tired or weaker than usual</item>
+                     <item>
+                        <caption>•</caption>itching</item>
+                     <item>
+                        <caption>•</caption>your skin or eyes look yellow</item>
+                     <item>
+                        <caption>•</caption>stomach pain</item>
+                     <item>
+                        <caption>•</caption>flu-like symptoms</item>
+                     <item>
+                        <caption>•</caption>vomit blood</item>
+                     <item>
+                        <caption>•</caption>there is blood in your bowel movement or it is black and sticky like tar</item>
+                     <item>
+                        <caption>•</caption>unusual weight gain</item>
+                     <item>
+                        <caption>•</caption>skin rash or blisters with fever</item>
+                     <item>
+                        <caption>•</caption>swelling of the arms and legs, hands and feet</item>
+                  </list>
+                  <paragraph>These are not all the side effects with NSAID medicines. Talk to your healthcare provider or pharmacist for more information about NSAID medicines.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other information about Non-Steroidal Anti-Inflammatory Drugs (NSAIDs):</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Aspirin is an NSAID medicine but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines.</item>
+                     <item>
+                        <caption>•</caption>Some of these NSAID medicines are sold in lower doses without a prescription (overthe-counter). Talk to your healthcare provider before using over-the-counter NSAIDs for more than 10 days.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">NSAID medicines that need a prescription</content>
+                     </content>
+                  </paragraph>
+                  <table width="75%">
+                     <col width="19%"/>
+                     <col width="68%"/>
+                     <thead>
+                        <tr>
+                           <th align="left" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <content styleCode="bold">Generic Name</content>
+                           </th>
+                           <th align="left" styleCode="Rrule Botrule Toprule " valign="top">
+                              <content styleCode="bold">Tradename</content>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>Celecoxib</paragraph>
+                           </td>
+                           <td styleCode="Rrule Toprule Botrule " valign="top">
+                              <paragraph>Celebrex<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Diclofenac</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Flector, Cataflam<sup>®</sup>, Voltaren<sup>®</sup>, Arthrotec™ (combined with misoprostol), PENNSAID<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Diflunisal</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Dolobid<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Etodolac</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Lodine<sup>®</sup>, Lodine<sup>®</sup>XL</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Fenoprofen</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Nalfon<sup>®</sup>, Nalfon<sup>®</sup>200</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Flurbiprofen</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Ansaid<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Ibuprofen</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Motrin<sup>®</sup>, Tab-Profen<sup>®</sup>, Vicoprofen<sup>®</sup> (combined with hydrocodone), Combunox™ (combined with oxycodone)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Indomethacin</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Indocin<sup>®</sup>, Indocin<sup>®</sup>SR, Indo-Lemmon™, Indomethagan™</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Ketoprofen</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Oruvail<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Ketorolac</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Toradol<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Mefenamic Acid</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Ponstel<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Meloxicam</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Mobic<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Nabumetone</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Relafen<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Naproxen</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Naprosyn<sup>®</sup> Anaprox<sup>®</sup> Anaprox<sup>®</sup>DS, EC-Naproxyn<sup>®</sup> , Naprelan<sup>®</sup>, Naprapac<sup>®</sup>, (copackaged with lansoprazole)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Oxaprozin</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Daypro<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Piroxicam</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Feldene<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Sulindac</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Clinoril<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule " valign="top">
+                              <paragraph>Tolmetin</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>Tolectin<sup>®</sup>, Tolectin DS<sup>®</sup> ,Tolectin<sup>®</sup>600</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">This Medication Guide has been approved by the U.S. Food and Drug Administration.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Instructions">
+               <id root="3c706dc3-e537-4c60-98b5-95eb0b8e5454"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title>Instructions for Use<br/>Diclofenac Sodium Topical Solution</title>
+               <text>
+                  <paragraph>Read the Medication Guide that comes with diclofenac sodium topical solution first. Be sure that you read, understand and follow these Instructions for Use before you use diclofenac sodium topical solution for the first time.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Important: For use on the skin only (topical). Do not get diclofenac sodium topical solution in your eyes, nose or mouth.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Before you use Diclofenac Sodium Topical Solution:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Apply diclofenac sodium topical solution exactly as your healthcare provider tells you. Talk with your healthcare provider or pharmacist if you are not sure.</item>
+                     <item>
+                        <caption>•</caption>Only use diclofenac sodium topical solution to treat pain from osteoarthritis in your knee or knees.</item>
+                     <item>
+                        <caption>•</caption>Apply diclofenac sodium topical solution on clean, dry skin that does not have any cuts, infections or rashes.</item>
+                     <item>
+                        <caption>•</caption>Use diclofenac sodium topical solution 4 times each day on your knee or knees as prescribed.</item>
+                     <item>
+                        <caption>•</caption>Your total dose for each knee is 40 drops of diclofenac sodium topical solution, each time you use it.</item>
+                     <item>
+                        <caption>•</caption>If you get diclofenac sodium topical solution in your eyes, rinse your eyes right away with water or saline. Call your healthcare provider if your eyes are irritated for more than one hour.</item>
+                  </list>
+                  <table width="80%">
+                     <col width="13%"/>
+                     <col width="37%"/>
+                     <col width="4%"/>
+                     <col width="38%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Steps for using Diclofenac Sodium Topical Solution:</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Step 1.</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Wash your hands with soap and water before applying diclofenac sodium topical solution.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Step 2.</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Put 10 drops of diclofenac sodium topical solution <content styleCode="bold">either</content> on your hand <content styleCode="bold">or</content> directly on your knee (see <content styleCode="bold">
+                                    <linkHtml href="#_Ref">Figure A</linkHtml>
+                                 </content>).</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top"/>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Figure A</content>
+                                 <renderMultiMedia ID="id-133949915" referencedObject="DDAA1F20-FBF2-4CB8-A9D6-7230E6B8CA15"/>
+                              </paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>or</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <renderMultiMedia ID="id-582451053" referencedObject="ID_51d79d26-b2fd-4db4-a4ea-85dc90a75184"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Step 3.</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Spread diclofenac sodium topical solution evenly on the front, back and sides of your knee (see <content styleCode="bold">
+                                    <linkHtml href="#_Ref">Figures B</linkHtml>
+                                 </content> and <content styleCode="bold">
+                                    <linkHtml href="#_Ref">C</linkHtml>
+                                 </content>). Repeat steps 2 and 3, three times so that your knee is completely covered with a <content styleCode="bold">total</content> of 40 drops of diclofenac sodium topical solution.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top"/>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Figure B</content>
+                                 <renderMultiMedia ID="id-321121956" referencedObject="ID_4dc9cbc2-d74d-46b2-9e95-1973d6ee3ace"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top"/>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Figure C</content>
+                                 <renderMultiMedia ID="id885219247" referencedObject="ID_4b36bd5d-f6f6-4d05-81e4-c77b5d238e51"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Step 4.</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>If your healthcare provider has prescribed diclofenac sodium topical solution for both knees, repeat steps 2 and 3 for the other knee.</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">After you use Diclofenac Sodium Topical Solution:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Wash your hands with soap and water right away after applying diclofenac sodium topical solution.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Do not:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>touch the treated knee or allow another person to touch the knee treated with diclofenac sodium topical solution until your knee is completely dry.</item>
+                     <item>
+                        <caption>•</caption>cover your knee with clothing until your knee is completely dry.</item>
+                     <item>
+                        <caption>•</caption>put sunscreen, insect repellant, lotion, moisturizer, cosmetics, or other topical medicines on your knee until it is completely dry.</item>
+                     <item>
+                        <caption>•</caption>take a shower or a bath for at least 30 minutes after you put diclofenac sodium topical solution on your knee.</item>
+                     <item>
+                        <caption>•</caption>use heating pads or cover the treated area with bandages where you have applied diclofenac sodium topical solution.</item>
+                     <item>
+                        <caption>•</caption>use sunlamps and tanning beds. Protect your treated knee from sunlight. Wear clothes that cover your skin and if have to be in sunlight.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">How should I store Diclofenac Sodium Topical Solution?</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Store diclofenac sodium topical solution at room temperature between 68°F to 77°F (20°C to 25°C).</item>
+                  </list>
+                  <paragraph>Keep diclofenac sodium topical solution and all medicines out of the reach of children.</paragraph>
+                  <paragraph>Other brands are trademarks of their respective owners.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">This Instructions for Use has been approved by the U.S. Food and Drug Administration.</content>
+                  </paragraph>
+                  <paragraph>Manufactured for: Pharmaceutica North America, Inc., Glendale, CA 91204<br/>Made in Canada</paragraph>
+                  <paragraph>Relabeled by: Proficient Rx LP  Thousand Oaks, CA 91320</paragraph>
+                  <paragraph>Issued: August, 2015<br/>PPK-7915-0 54</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <observationMedia ID="DDAA1F20-FBF2-4CB8-A9D6-7230E6B8CA15">
+                     <text>Figure A</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_51d79d26-b2fd-4db4-a4ea-85dc90a75184">
+                     <text>Figure A</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_4dc9cbc2-d74d-46b2-9e95-1973d6ee3ace">
+                     <text>Figure B</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_4b36bd5d-f6f6-4d05-81e4-c77b5d238e51">
+                     <text>Figure B</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2cdb9919-052b-4dff-8a6d-82da5b372192">
+               <id root="e8ff059a-a5b3-4bf8-b7c0-dbbd5cd39f84"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL </title>
+               <text>
+                  <renderMultiMedia ID="id-500120916" referencedObject="ID_93db59e1-0aee-420b-be39-d7ed2b364663"/>
+               </text>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <observationMedia ID="ID_93db59e1-0aee-420b-be39-d7ed2b364663">
+                     <text>63187-725-15</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

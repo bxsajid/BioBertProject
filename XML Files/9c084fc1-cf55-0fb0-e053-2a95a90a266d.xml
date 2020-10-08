@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9c084fc1-cf55-0fb0-e053-2a95a90a266d"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Theraflex™ Advance</title>
+   <effectiveTime value="20200113"/>
+   <setId root="8fbde87b-d0d9-4a62-b8a3-9320cbb727a5"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="785159372"/>
+            <name>Bayer HealthCare LLC.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9c088c9c-8d65-915a-e053-2995a90adcda"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20200113"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="61841-152" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Theraflex Advance</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>IBUPROFEN, GLUCOSAMINE SULFATE, and CHONDROITIN SULFATE (BOVINE)</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="68401960MK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="100"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IBUPROFEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IBUPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="250"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1FW7WLR731" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLUCOSAMINE SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="N08U5BOQ1K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLUCOSAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="200"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6IC1M3OG5Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CHONDROITIN SULFATE (BOVINE)</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7SI2UZG934" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CONDOLIASE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="61841-152-72" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20141211"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="120" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="61841-152-12" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20141211"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73590" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Export only"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20141211"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48333" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="blue" xsi:type="CE">
+                              <originalText>Blue opaque</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="22" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">Theraflex;Advance</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9c084fc1-cf56-0fb0-e053-2a95a90a266d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Drug Facts</content>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141211"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9c084fc1-cf57-0fb0-e053-2a95a90a266d"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <effectiveTime value="20141211"/>
+               <component>
+                  <section>
+                     <id root="9c084fc1-cf5e-0fb0-e053-2a95a90a266d"/>
+                     <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+                     <text>
+                        <table width="60%">
+                           <col width="65%" align="left" valign="top"/>
+                           <col width="35%" align="left" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th>Active ingredients (in each capsule)</th>
+                                 <th>Purposes</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Glucosamine Sulfate 250 mg</td>
+                                 <td>Dietary Supplement</td>
+                              </tr>
+                              <tr>
+                                 <td>Chondroitin Sulfate 200 mg</td>
+                                 <td>Dietary Supplement</td>
+                              </tr>
+                              <tr>
+                                 <td>Ibuprofen 100 mg</td>
+                                 <td>Analgesic</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20141211"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9c084fc1-cf58-0fb0-e053-2a95a90a266d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Uses</title>
+               <text>
+                  <list listType="unordered" styleCode="Square">
+                     <item>temporarily relieves minor aches and pains associated with
+        
+  
+   <list listType="unordered" styleCode="Square">
+                           <item>backache</item>
+                           <item>arthritis.</item>
+                        </list>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20141211"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9c084fc1-cf59-0fb0-e053-2a95a90a266d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <effectiveTime value="20141211"/>
+               <component>
+                  <section>
+                     <id root="9c084fc1-cf5f-0fb0-e053-2a95a90a266d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Allergy alert</title>
+                     <text>
+                        <paragraph>Ibuprofen may cause a severe allergic reaction wich may include:</paragraph>
+                        <list listType="unordered" styleCode="Square">
+                           <item>hives</item>
+                           <item>facial swelling</item>
+                           <item>asthma (wheezing)</item>
+                           <item>shock.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20141211"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="9c084fc1-cf60-0fb0-e053-2a95a90a266d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Alcohol warning</title>
+                     <text>
+                        <paragraph>If you consume 3 or more alcoholic drinks every day, ask your doctor whether you should take ibuprofen or other pain relieves/fever reducers. Ibuprofen may cause stomach bleeding.</paragraph>
+                     </text>
+                     <effectiveTime value="20141211"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="9c084fc1-cf62-0fb0-e053-2a95a90a266d"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <title>Do not use</title>
+                     <text>
+                        <list listType="unordered" styleCode="Square">
+                           <item>if you have ever had an allergic reaction to any other pain reliever/fever reducer.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20141211"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="9c084fc1-cf61-0fb0-e053-2a95a90a266d"/>
+                     <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+                     <title>When using this product</title>
+                     <text>
+                        <list listType="unordered" styleCode="Square">
+                           <item>take with food or milk if stomach upset occurs.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20141211"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="9c084fc1-cf63-0fb0-e053-2a95a90a266d"/>
+                     <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+                     <text>
+                        <paragraph>I
+         
+ 
+  <content styleCode="bold">f pregnant or breast-feeding,</content> ask a health professional before use.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20141211"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="9c084fc1-cf64-0fb0-e053-2a95a90a266d"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Keep out of reach of children.</content> In case of overdose, get medical help or contact a Poison Control Center right away.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20141211"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="9c084fc1-cf65-0fb0-e053-2a95a90a266d"/>
+                     <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">It is especially important not to use ibuprofen during the last 3 months of pregnancy unless specifically directed to do so by a doctor because it may cause problems in the unborn child or</content> c
+         
+ 
+  <content styleCode="bold">omplications during delivery.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20141211"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9c084fc1-cf5a-0fb0-e053-2a95a90a266d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <effectiveTime value="20141211"/>
+               <component>
+                  <section>
+                     <id root="9c084fc1-cf66-0fb0-e053-2a95a90a266d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Adults</title>
+                     <text>
+                        <paragraph>Take 1 capsule every 4 to 6 hours while symptoms persist. If pain or fever does not respond to 1 capsule, 2 capsules may be used, but do not exceed 6 capsules in 24 hours, unless directed by a doctor. The smallest effective dose should be used.</paragraph>
+                     </text>
+                     <effectiveTime value="20141211"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="9c084fc1-cf67-0fb0-e053-2a95a90a266d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Children</title>
+                     <text>
+                        <paragraph>Do not give this product to children under 12 unless directed by a doctor.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Do not exceed recommended dose.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20141211"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9c084fc1-cf5b-0fb0-e053-2a95a90a266d"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>Other information</title>
+               <text>
+                  <list listType="unordered" styleCode="Square">
+                     <item>store at room temperature, USP.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20141211"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9c084fc1-cf5c-0fb0-e053-2a95a90a266d"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive ingredients</title>
+               <text>
+                  <paragraph>Corn Starch, Crospovidone, Gelatin, Magnesium Stearate, Microcrystalline Cellulose, Polyvinylpyrrolidone, Pregelatinized Starch, Silica, Sodium Starch Glycolate, Stearic Acid, Titanium Dioxide, FD&amp;C Blue#1 Lake.</paragraph>
+               </text>
+               <effectiveTime value="20141211"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_9c083b7e-6ca1-1ebe-e053-2a95a90a5b47">
+               <id root="9c0821a7-22f4-2ce0-e053-2a95a90a60d7"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 60 Capsule Bottle Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">THERAFLEX</content>™
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">ADVANCE</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">60 CAPSULES</content>
+                  </paragraph>
+                  <paragraph>Ibuprofen 100 mg
+  <br/>
+                     <br/>
+Glucosamine Sulfate 250 mg
+  <br/>
+                     <br/>
+Chondroitin Sulfate 200 mg
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_9c0880e7-2a65-3855-e053-2995a90aec9a"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20141211"/>
+               <component>
+                  <observationMedia ID="img_9c0880e7-2a65-3855-e053-2995a90aec9a">
+                     <text>Carton 60 count</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Theraflex A 60 BX Engl-j.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

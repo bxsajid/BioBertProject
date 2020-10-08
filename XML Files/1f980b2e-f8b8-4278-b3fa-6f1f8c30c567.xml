@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1f980b2e-f8b8-4278-b3fa-6f1f8c30c567"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Walgreen Co. Migraine Relief Drug Facts</title>
+   <effectiveTime value="20191203"/>
+   <setId root="5dcc2b01-6556-46bc-a451-f09dd0bd1eed"/>
+   <versionNumber value="9"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="008965063" root="1.3.6.1.4.1.519.1"/>
+            <name>Walgreen Company</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="19e9d909-3bb1-4f08-b5f3-b0b584565efa"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20191203"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0363-0374" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>migraine relief</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Acetaminophen, Aspirin, Caffeine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="250"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETAMINOPHEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACETAMINOPHEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="250"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="R16CO5Y76E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ASPIRIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="R16CO5Y76E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ASPIRIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="65"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3G6A5W338E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CAFFEINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3G6A5W338E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CAFFEINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="R12CBM0EIZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARNAUBA WAX</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="68401960MK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE (15 MPA.S AT 5%)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="SB8ZUX40TY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SACCHARIN SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0363-0374-78" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20020502"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="250"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0363-0374-85" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20020502"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="24"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0363-0374-62" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20020502"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="200"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0363-0374-82" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20020502"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075794" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20020502"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="17" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">L374</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Active_Ingredient_id_d3161f8f-023a-41d4-8c23-e61e3edeb959">
+               <id root="640860d1-a1b6-4f86-850b-9a1a3ec41b7e"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active ingredients (in each caplet)</title>
+               <text>
+                  <paragraph>Acetaminophen 250 mg</paragraph>
+                  <paragraph>Aspirin 250 mg (NSAID*)</paragraph>
+                  <paragraph>Caffeine 65 mg</paragraph>
+                  <paragraph>*nonsteroidal anti-inflammatory drug</paragraph>
+               </text>
+               <effectiveTime value="20131022"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Purpose_id_31b80ada-0663-47e3-8125-4a6c4431a4f9">
+               <id root="4adf52b9-ae92-4e4e-873c-7f2b39e77dda"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purposes</title>
+               <text>
+                  <paragraph>Pain reliever</paragraph>
+                  <paragraph>Pain reliever aid</paragraph>
+               </text>
+               <effectiveTime value="20090717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_273dfc00-b91f-4d3b-8633-d0c0a7c12ed0">
+               <id root="4f50ca49-bd8a-4c8e-9179-296e6d0d9458"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Use</title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>treats migraine</item>
+                  </list>
+               </text>
+               <effectiveTime value="20131022"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_0758a970-1433-4261-bff4-08bcf28858ac">
+               <id root="03b69200-20c9-49c5-b526-a941bc3e246b"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Reye’s syndrome:</content> Children and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye’s syndrome, a rare but serious illness.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Allergy alert:</content>  Acetaminophen may cause severe skin reactions.  Symptoms may include:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>skin reddening</item>
+                     <item>
+                        <caption>•</caption>blisters</item>
+                     <item>
+                        <caption>•</caption>rash</item>
+                  </list>
+                  <paragraph>If a skin reaction occurs, stop use and seek medical help right away.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Allergy alert:</content> Aspirin may cause a severe allergic reaction which may include:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>hives</item>
+                     <item>
+                        <caption>•</caption>facial swelling</item>
+                     <item>
+                        <caption>•</caption>asthma (wheezing)</item>
+                     <item>
+                        <caption>•</caption>shock</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Liver warning:</content> This product contains acetaminophen. Severe liver damage may occur if you take</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>more than 2 caplets in 24 hours, which is the maximum daily amount</item>
+                     <item>
+                        <caption>•</caption>with other drugs containing acetaminophen</item>
+                     <item>
+                        <caption>•</caption>3 or more alcoholic drinks every day while using this product</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Stomach bleeding warning: </content>This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>are age 60 or older</item>
+                     <item>
+                        <caption>•</caption>have had stomach ulcers or bleeding problems</item>
+                     <item>
+                        <caption>•</caption>take a blood thinning (anticoagulant) or steroid drug</item>
+                     <item>
+                        <caption>•</caption>take other drugs containing prescription or nonprescription NSAIDs (aspirin, ibuprofen, naproxen, or others)</item>
+                     <item>
+                        <caption>•</caption>have 3 or more alcoholic drinks every day while using this product</item>
+                     <item>
+                        <caption>•</caption>take more or for a longer time than directed</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Medication overuse headache warning:</content> Headaches may worsen if this product is used for 10 or more days per month.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caffeine warning:</content> The recommended dose of this product contains about as much caffeine as a cup of coffee.  Limit the use of caffeine-containing medications, foods, or beverages while taking this product because too much caffeine may cause nervousness, irritability, sleeplessness, and, occasionally, rapid heart beat.</paragraph>
+               </text>
+               <effectiveTime value="20180803"/>
+               <component>
+                  <section ID="i4i_OTC_Do_not_use_id_b1c1fde0-6b72-4d6e-802a-c4468c03a459">
+                     <id root="7afa7050-c74c-4133-ae93-609f3448a6ac"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <title>Do not use</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>if you have ever had an allergic reaction to acetaminophen, aspirin or any other pain reliever/fever reducer</item>
+                           <item>
+                              <caption>•</caption>with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20131022"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Ask_Doctor_id_e22871ba-2d4f-4faa-97e7-76301dbe3a6d">
+                     <id root="899279a5-7b25-4f4f-82c9-c3c5509c91ef"/>
+                     <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+                     <title>Ask a doctor before use if</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>you have never had migraines diagnosed by a health professional</item>
+                           <item>
+                              <caption>•</caption>you have a headache that is different from your usual migraines</item>
+                           <item>
+                              <caption>•</caption>you have the worst headache of your life</item>
+                           <item>
+                              <caption>•</caption>you have fever and stiff neck</item>
+                           <item>
+                              <caption>•</caption>you have headaches beginning after or caused by head injury, exertion, coughing or bending</item>
+                           <item>
+                              <caption>•</caption>you experienced your first headache after the age of 50</item>
+                           <item>
+                              <caption>•</caption>you have daily headaches</item>
+                           <item>
+                              <caption>•</caption>you have a migraine so severe as to require bed rest</item>
+                           <item>
+                              <caption>•</caption>you have liver disease</item>
+                           <item>
+                              <caption>•</caption>stomach bleeding warning applies to you</item>
+                           <item>
+                              <caption>•</caption>you have a history of stomach problems, such as heartburn</item>
+                           <item>
+                              <caption>•</caption>you have high blood pressure, heart disease, liver cirrhosis, or kidney disease</item>
+                           <item>
+                              <caption>•</caption>you are taking a diuretic</item>
+                           <item>
+                              <caption>•</caption>you have asthma</item>
+                           <item>
+                              <caption>•</caption>you have problems or serious side effects from taking pain relievers or fever reducers</item>
+                           <item>
+                              <caption>•</caption>you have vomiting with your migraine headache</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20151022"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Ask_Doctor_Pharmacist_id_da9a0cff-b478-46e3-91b1-cc0bfde74aaf">
+                     <id root="93409bfd-6691-4745-9aa5-6e4994bb3c08"/>
+                     <code code="50568-5" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR/PHARMACIST SECTION"/>
+                     <title>Ask a doctor or pharmacist before use if you are</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>taking a prescription drug for:</item>
+                           <item>
+                              <caption>•</caption>diabetes</item>
+                           <item>
+                              <caption>•</caption>gout</item>
+                           <item>
+                              <caption>•</caption>arthritis</item>
+                           <item>
+                              <caption>•</caption>under a doctor’s care for any serious condition</item>
+                           <item>
+                              <caption>•</caption>taking any other drug</item>
+                           <item>
+                              <caption>•</caption>taking any other product that contains aspirin, acetaminophen, or any other pain reliever/fever reducer</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20140422"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Stop_Use_id_0db09367-9de9-4444-85a5-701a3e95379f">
+                     <id root="0974f72b-ecd4-43ab-aab5-cc2f47807308"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <title>Stop use and ask a doctor if</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>an allergic reaction occurs. Seek medical help right away.</item>
+                           <item>
+                              <caption>•</caption>you experience any of the following signs of stomach bleeding:</item>
+                           <item>
+                              <caption>•</caption>feel faint</item>
+                           <item>
+                              <caption>•</caption>vomit blood</item>
+                           <item>
+                              <caption>•</caption>have bloody or black stools</item>
+                           <item>
+                              <caption>•</caption>have stomach pain that does not get better</item>
+                           <item>
+                              <caption>•</caption>your migraine is not relieved or worsens after first dose</item>
+                           <item>
+                              <caption>•</caption>new or unexpected symptoms occur</item>
+                           <item>
+                              <caption>•</caption>ringing in the ears or loss of hearing occurs</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20140422"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Pregancy_Breastfeeding_id_2be120f4-6b27-4b41-a34e-8aeef6868adc">
+                     <id root="49be5471-ab6b-4a1d-9f79-79e966e67c2d"/>
+                     <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+                     <title>If pregnant or breast-feeding,</title>
+                     <text>
+                        <paragraph>ask a health professional before use.  It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery.</paragraph>
+                     </text>
+                     <effectiveTime value="20090717"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Keep_Away_Children_id_259ecc16-08f6-4a34-b676-ddfc6e182614">
+                     <id root="a7fbc7e2-8b44-4f68-bf9a-a84f739bc2bf"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <title>Keep out of reach of children.</title>
+                     <text>
+                        <paragraph>In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222) Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms.</paragraph>
+                     </text>
+                     <effectiveTime value="20131022"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_109f94bb-3d75-4c26-a5ad-89c05d98ed9f">
+               <id root="cb126aa7-1ab6-4231-9231-192f9cb86574"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">do not use more than directed</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>adults: take 2 caplets with a glass of water</item>
+                     <item>
+                        <caption>•</caption>if symptoms persist or worsen, ask your doctor</item>
+                     <item>
+                        <caption>•</caption>do not take more than 2 caplets in 24 hours, unless directed by a doctor</item>
+                     <item>
+                        <caption>•</caption>under 18 years of age: ask a doctor</item>
+                  </list>
+               </text>
+               <effectiveTime value="20180803"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_storage_id_abca67a4-e34a-40ca-9992-3c4bc230f5c3">
+               <id root="0ff0eb40-5654-459a-b26c-4b0dc6fa4de5"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>Other information</title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>store at 20°-25°C (68°-77°F)</item>
+                     <item>
+                        <caption>•</caption>close cap tightly after use</item>
+                     <item>
+                        <caption>•</caption>read all product information before using.  Keep this box for important information.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20140422"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_inactive_ingredients_id_6b7a9918-b7eb-4eef-8ecf-662f3f44ac5a">
+               <id root="f43093f0-593c-45c3-8fef-0e2938edbb1c"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive ingredients</title>
+               <text>
+                  <paragraph>carnauba wax, crospovidone, FD&amp;C blue #1 aluminum lake, hypromellose, microcrystalline cellulose, povidone, pregelatinized starch, propylene glycol, saccharin sodium, stearic acid, titanium dioxide</paragraph>
+               </text>
+               <effectiveTime value="20090717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Questions_id_5075769c-6327-424b-9e6d-fcc7a7a7978b">
+               <id root="fc8bc78b-4015-40d9-b4f5-40f414b5c21b"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>Questions or comments?</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">1-800-719-9260</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_dc5f2b27-2bc5-4196-8902-27532e0a275f">
+               <id root="2f6b892e-1792-4bac-a71d-62f738ad6779"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <paragraph>Compare to Excedrin<sup>®</sup> Migraine active ingredients</paragraph>
+                  <paragraph>Migraine Relief</paragraph>
+                  <paragraph>ACETAMINOPHEN / ASPIRIN (NSAID) / CAFFEINE TABLETS</paragraph>
+                  <paragraph>PAIN RELIEVER / PAIN RELIEVER AID</paragraph>
+                  <paragraph>COATED CAPLETS</paragraph>
+                  <paragraph>ACTUAL SIZE</paragraph>
+                  <paragraph>100 COATED CAPLETS**</paragraph>
+                  <paragraph>(**CAPSULE- SHAPED TABLETS)</paragraph>
+                  <paragraph>SEE NEW WARNINGS INFORMATION</paragraph>
+                  <renderMultiMedia ID="id-1656522351" referencedObject="ID_44f1b739-b047-48af-b415-0cbad192782e"/>
+               </text>
+               <effectiveTime value="20191203"/>
+               <component>
+                  <observationMedia ID="ID_44f1b739-b047-48af-b415-0cbad192782e">
+                     <text>37494-migraine-relief.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="37494-migraine-relief.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

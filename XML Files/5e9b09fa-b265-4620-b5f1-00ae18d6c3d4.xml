@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5e9b09fa-b265-4620-b5f1-00ae18d6c3d4"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>INFANT'S ADVIL CONCENTRATED DROPS<br/>INFANT'S ADVIL CONCENTRATED DROPS (Dye-Free)<br/>(Ibuprofen)</title>
+   <effectiveTime value="20190604"/>
+   <setId root="db5ed801-7a7e-3c83-0172-77f914daaa5a"/>
+   <versionNumber value="15"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="828831730" root="1.3.6.1.4.1.519.1"/>
+            <name>Wyeth Consumer Healthcare LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="113480771" root="1.3.6.1.4.1.519.1"/>
+                  <name>Pfizer Inc</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="203812479" root="1.3.6.1.4.1.519.1"/>
+                        <name>PF Consumer Healthcare Canada ULC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0573-0191" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0573-0191" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0573-0191" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0573-0191" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="b15ae4a7-83c9-4fc7-b1f1-9f726e8ffe54"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20190604"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0573-0191" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>INFANTS ADVIL</name>
+                        <formCode code="C60995" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUSPENSION/ DROPS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ibuprofen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="50" unit="mg"/>
+                              <denominator value="1.25" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IBUPROFEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IBUPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Q40Q9N063P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1P9D0Z171K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUTYLATED HYDROXYTOLUENE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="K679OBS311" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOXYMETHYLCELLULOSE SODIUM, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OJ245FE5EU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BENZOATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C151H8M554" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUCROSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>XANTHAN GUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0573-0191-20" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19980130"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0573-0191-50" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19980130"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0573-0191-22" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20140130"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="22.5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0573-0191-75" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19980130"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020812" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19980130"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+                              <originalText>Translucent off-white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GRAPE" xsi:type="CE">
+                              <originalText>White grape</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c5f773db-3e06-44ed-8b78-465a741cccb1"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold italics">Drug Facts</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190604"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9d1f8f67-ead2-4899-ac28-0ff52f595f86"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="italics">Active ingredient (in each 1.25 mL)</content>
+               </title>
+               <text>
+                  <paragraph>Ibuprofen 50 mg (NSAID)<footnote>nonsteroidal anti-inflammatory drug</footnote>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190604"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="36cb5353-6bce-4e17-9ae3-94dce1842e69"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>
+                  <content styleCode="italics">Purpose</content>
+               </title>
+               <text>
+                  <paragraph>Fever reducer/Pain reliever</paragraph>
+               </text>
+               <effectiveTime value="20190604"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="82fd7739-cc95-4060-887e-edf6a1e96134"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="italics">Uses</content>
+               </title>
+               <text>
+                  <paragraph>temporarily:</paragraph>
+                  <list listType="unordered" styleCode="square">
+                     <item>reduces fever</item>
+                     <item>relieves minor aches and pains due to the common cold, flu, headaches and toothaches</item>
+                  </list>
+               </text>
+               <effectiveTime value="20190604"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fb051c8d-d37f-493a-a24c-7aece79af1d1"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="italics">Warnings</content>
+               </title>
+               <effectiveTime value="20190604"/>
+               <component>
+                  <section>
+                     <id root="137b513f-6413-4937-9ff5-716e7973bb3b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Allergy alert</title>
+                     <text>
+                        <paragraph>Ibuprofen may cause a severe allergic reaction, especially in people allergic to aspirin. Symptoms may include:</paragraph>
+                        <list listType="unordered" styleCode="square">
+                           <item>hives</item>
+                           <item>facial swelling</item>
+                           <item>asthma (wheezing)</item>
+                           <item>shock</item>
+                           <item>skin reddening</item>
+                           <item>rash</item>
+                           <item>blisters</item>
+                        </list>
+                        <paragraph>If an allergic reaction occurs, stop use and seek medical help right away.</paragraph>
+                     </text>
+                     <effectiveTime value="20190604"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="e9049298-caf2-4be2-9fc1-73470e53b82b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Stomach bleeding warning</title>
+                     <text>
+                        <paragraph>This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if the child</paragraph>
+                        <list listType="unordered" styleCode="square">
+                           <item>has had stomach ulcers or bleeding problems</item>
+                           <item>takes a blood thinning (anticoagulant) or steroid drug</item>
+                           <item>takes other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others]</item>
+                           <item>takes more or for a longer time than directed</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20190604"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="de9c7dc6-3c06-4f01-bfd0-23a83c8c803c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Heart attack and stroke warning</title>
+                     <text>
+                        <paragraph>NSAIDs, except aspirin, increase the risk of heart attack, heart failure, and stroke. These can be fatal. The risk is higher if you use more than directed or for longer than directed.</paragraph>
+                     </text>
+                     <effectiveTime value="20190604"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="c272350e-2ec4-40a1-8ecf-d89807b64582"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <title>Do not use</title>
+                     <text>
+                        <list listType="unordered" styleCode="square">
+                           <item>if the child has ever had an allergic reaction to any other pain reliever/fever reducer</item>
+                           <item>right before or after heart surgery</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20190604"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="50a76f7e-c7c2-4708-8c77-4fc5c293003f"/>
+                     <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+                     <title>Ask a doctor before use if</title>
+                     <text>
+                        <list listType="unordered" styleCode="square">
+                           <item>stomach bleeding warning applies to the child</item>
+                           <item>child has problems or serious side effects from taking pain relievers or fever reducers</item>
+                           <item>child has a history of stomach problems, such as heartburn</item>
+                           <item>child has high blood pressure, heart disease, liver cirrhosis, kidney disease, asthma, or had a stroke</item>
+                           <item>child has not been drinking fluids</item>
+                           <item>child has lost a lot of fluid due to vomiting or diarrhea</item>
+                           <item>child is taking a diuretic</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20190604"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="af676f93-c679-42a7-8bfb-b4c374dbb58c"/>
+                     <code code="50568-5" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR/PHARMACIST SECTION"/>
+                     <title>Ask a doctor or pharmacist before use if the child is</title>
+                     <text>
+                        <list listType="unordered" styleCode="square">
+                           <item>under a doctor's care for any serious condition</item>
+                           <item>taking any other drug</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20190604"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="53d8425c-10ef-4ac2-8b77-af33f6262c19"/>
+                     <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+                     <title>When using this product</title>
+                     <text>
+                        <list listType="unordered" styleCode="square">
+                           <item>take with food or milk if stomach upset occurs</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20190604"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="c55bec3c-b58d-48bb-881d-94c8f9529632"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <title>Stop use and ask a doctor if</title>
+                     <text>
+                        <list listType="unordered" styleCode="square">
+                           <item>child experiences any of the following signs of stomach bleeding:<list listType="unordered" styleCode="square">
+                                 <item>feels faint</item>
+                                 <item>vomits blood</item>
+                                 <item>has bloody or black stools</item>
+                                 <item>has stomach pain that does not get better</item>
+                              </list>
+                           </item>
+                           <item>child has symptoms of heart problems or stroke:<list listType="unordered" styleCode="square">
+                                 <item>chest pain</item>
+                                 <item>trouble breathing</item>
+                                 <item>weakness in one part or side of the body</item>
+                                 <item>slurred speech</item>
+                                 <item>leg swelling</item>
+                              </list>
+                           </item>
+                           <item>child does not get any relief within first day (24 hours) of treatment</item>
+                           <item>fever or pain gets worse or lasts more than 3 days</item>
+                           <item>redness or swelling is present in the painful area</item>
+                           <item>any new symptoms appear</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20190604"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="88291677-8a78-4e45-84a5-16ccef80f2ce"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Keep out of reach of children. </content>In case of overdose, get medical help or contact a Poison Control Center right away.</paragraph>
+                     </text>
+                     <effectiveTime value="20190604"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="918f102f-63e5-49d8-b8e0-9ba83dad146d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="italics">Directions</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="square">
+                     <item>
+                        <content styleCode="bold">this product does not contain directions or complete warnings for adult use</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">do not give more than directed</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">shake well before using</content>
+                     </item>
+                     <item>find right dose on chart below. If possible, use weight to dose; otherwise use age.</item>
+                     <item>repeat dose every <content styleCode="bold">6-8 hours, </content>if needed</item>
+                     <item>do not use more than<content styleCode="bold"> 4 times a day</content>
+                     </item>
+                     <item>measure with the dosing device provided. Do not use with any other device.</item>
+                  </list>
+                  <table width="60%">
+                     <caption>Dosing Chart</caption>
+                     <col width="33%" align="center" valign="top"/>
+                     <col width="34%" align="center" valign="top"/>
+                     <col width="33%" align="center" valign="top"/>
+                     <thead>
+                        <tr>
+                           <th styleCode="Lrule Rrule">Weight (lb)</th>
+                           <th styleCode="Rrule">Age (mos)</th>
+                           <th styleCode="Rrule">Dose (mL)</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="2">under 6 mos</td>
+                           <td styleCode="Rrule">ask a doctor</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">12-17 lb</td>
+                           <td styleCode="Rrule">6-11 mos</td>
+                           <td styleCode="Rrule">1.25 mL</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">18-23 lb</td>
+                           <td styleCode="Rrule">12-23 mos</td>
+                           <td styleCode="Rrule">1.875 mL</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20190604"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e47c5a30-eb7f-4869-bf01-7901030d3fcd"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>
+                  <content styleCode="italics">Other Information</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="square">
+                     <item>one dose lasts 6-8 hours</item>
+                     <item>store at 20-25°C (68-77°F)</item>
+                     <item>see bottom of box for lot number and expiration date</item>
+                  </list>
+               </text>
+               <effectiveTime value="20190604"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1667b7bf-be6d-4fe6-9a47-d3ab81bbf409"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="italics">Inactive ingredients</content>
+               </title>
+               <text>
+                  <paragraph>acetic acid, artificial flavor, butylated hydroxytoluene, carboxymethylcellulose sodium, citric acid monohydrate, edetate disodium, glycerin, microcrystalline cellulose, polysorbate 80, propylene glycol, purified water, sodium benzoate, sorbitol solution, sucrose, xanthan gum</paragraph>
+               </text>
+               <effectiveTime value="20190604"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="dfdd8673-e1fc-477e-86e4-90cfd4fa70c3"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>
+                  <content styleCode="italics">Questions or comments?</content>
+               </title>
+               <text>
+                  <paragraph>Call toll-free<content styleCode="bold"> 1-800-88-ADVIL </content>or ask your pharmacist, doctor or health care professional</paragraph>
+                  <paragraph>For most recent product information, visit www.Advil.com.</paragraph>
+               </text>
+               <effectiveTime value="20190604"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2740a333-02e2-468f-8a9a-ddcc2e42a574"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 15 mL Bottle Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Infants'<br/>Advil<sup>®</sup>
+                        <br/>Concentrated Drops</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ibuprofen Oral Suspension<br/>50 mg per 1.25 mL<br/>Pain Reliever/Fever Reducer (NSAID)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">White Grape-Flavored Drops</content>
+                  </paragraph>
+                  <paragraph>1/2 FL OZ (15 mL)</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20190604"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL - 15 mL Bottle Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="infants-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5994022d-844d-422f-b9a1-ba5682745a78"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 15 mL Bottle Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Infants'<br/>Advil<sup>®</sup>
+                        <br/>Concentrated Drops</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ibuprofen Oral Suspension<br/>50 mg per 1.25 mL<br/>Pain Reliever/Fever Reducer (NSAID)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Fever</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Aches &amp; Pains</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Lasts Up To<br/>8<br/>Hours</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dye-Free</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">White Grape Flavored Drops<br/>for ages 6–23 months</content>
+                  </paragraph>
+                  <paragraph>1/2 FL OZ (15 mL)<br/>Alcohol-Free</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20190604"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Principal Display Panel - 15 mL Bottle Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="infants-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="de1c5e55-31ad-4c11-b42c-f85f43b36cec"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 30 mL Bottle Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Infants'<br/>Advil<sup>®</sup>
+                        <br/>Concentrated Drops</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ibuprofen Oral Suspension<br/>50 mg per 1.25 mL<br/>Pain Reliever/Fever Reducer (NSAID)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">White Grape-Flavored Drops</content>
+                  </paragraph>
+                  <paragraph>1 FL OZ (30 mL)</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20190604"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Principal Display Panel - 30 mL Bottle Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="infants-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="964c25c5-b99c-4cf7-9528-a278a7778dbd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 30 mL Bottle Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">VALUE Size</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Infants'<br/>Advil</content>
+                     <sup>®</sup>
+                     <br/>
+                     <content styleCode="bold">Concentrated Drops</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ibuprofen Oral Suspension<br/>50 mg per 1.25 mL<br/>Pain Reliever/Fever Reducer (NSAID)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Fever</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Aches &amp; Pains</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Lasts Up To<br/>8<br/>Hours</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dye-Free</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">White Grape Flavored Drops<br/>for ages 6–23 months</content>
+                  </paragraph>
+                  <paragraph>1 FL OZ (30 mL)<br/>Alcohol-Free</paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20190604"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Principal Display Panel - 30 mL Bottle Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="infants-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d4351af6-d8e3-4c85-8f45-87f448ed97ef"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 22.5 mL Bottle Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Infants'<br/>Advil<sup>®</sup>
+                        <br/>Concentrated Drops</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ibuprofen Oral Suspension<br/>50 mg per 1.25 mL<br/>Pain Reliever/Fever Reducer (NSAID)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">White Grape-Flavored Drops</content>
+                  </paragraph>
+                  <paragraph>3/4 FL OZ (22.5 mL)</paragraph>
+                  <renderMultiMedia referencedObject="MM5"/>
+               </text>
+               <effectiveTime value="20190604"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>PRINCIPAL DISPLAY PANEL - 22.5 mL Bottle Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="infants-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d28b77ac-8814-4bbb-adb3-6974d201c426"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 22.5 mL Bottle Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">50<sup>%</sup> MORE <content styleCode="italics">FREE</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Infants'<br/>Advil</content>
+                     <sup>®</sup>
+                     <br/>
+                     <content styleCode="bold">Concentrated Drops</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ibuprofen Oral Suspension<br/>50 mg per 1.25 mL<br/>Pain Reliever/Fever Reducer (NSAID)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Fever</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Aches &amp; Pains</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Lasts Up To<br/>8<br/>Hours</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dye-Free</content>
+                  </paragraph>
+                  <paragraph>Alcohol-Free</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">White Grape Flavored Drops<br/>for ages 6–23 months</content>
+                  </paragraph>
+                  <paragraph>1/2 FL OZ <content styleCode="bold">+<br/>							1/4 FL OZ <br/>FREE<br/>= </content>3/4 FL OZ (22.5 mL)</paragraph>
+                  <renderMultiMedia referencedObject="MM6"/>
+               </text>
+               <effectiveTime value="20190604"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>PRINCIPAL DISPLAY PANEL - 22.5 mL Bottle Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="infants-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

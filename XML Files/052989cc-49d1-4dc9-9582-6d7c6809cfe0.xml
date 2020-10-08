@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="052989cc-49d1-4dc9-9582-6d7c6809cfe0"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">  </content>
+      <br/>
+      <content styleCode="bold">These highlights do not include all the information needed to use </content>
+      <content styleCode="bold">ACUVAIL</content>
+      <content styleCode="bold">
+         <sup>®</sup>
+      </content>
+      <content styleCode="bold"> </content>
+      <content styleCode="bold">safely and effectively. </content>
+      <content styleCode="bold">See full prescribing information for</content>
+      <content styleCode="bold"> </content>
+      <content styleCode="bold">ACUVAIL</content>
+      <content styleCode="bold">
+         <sup>®</sup>
+      </content>
+      <content styleCode="bold">.</content>
+      <content styleCode="bold"> </content>
+      <br/>
+      <content styleCode="bold">  </content>
+      <br/>
+      <content styleCode="bold">ACUVAIL</content>
+      <content styleCode="bold">
+         <sup>®</sup>
+      </content>
+      <content styleCode="bold"> (ketorolac tromethamine ophthalmic solution) 0.4</content>
+      <content styleCode="bold">5</content>
+      <content styleCode="bold">%</content>
+      <content styleCode="bold"> </content>
+      <br/>
+      <content styleCode="bold">Initial U.S. Approval:</content>
+      <content styleCode="bold"> </content>
+      <content styleCode="bold">1</content>
+      <content styleCode="bold">9</content>
+      <content styleCode="bold">91</content>
+      <br/>
+   </title>
+   <effectiveTime value="20190213"/>
+   <setId root="3cea5803-a446-4d2c-9747-f3fb034332c8"/>
+   <versionNumber value="13"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="144796497" root="1.3.6.1.4.1.519.1"/>
+            <name>Allergan, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="c3418316-5546-437a-b31a-136bfc5caa5d"/>
+               <code code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20200630"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0023-3507" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ACUVAIL</name>
+                        <formCode code="C60992" displayName="SOLUTION/ DROPS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ketorolac tromethamine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="4.5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4EVE5946BQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>KETOROLAC TROMETHAMINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="YZI5105V0L" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>KETOROLAC</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="K679OBS311" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOXYMETHYLCELLULOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="B22547B95K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRISODIUM CITRATE DIHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="0.4"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43216" displayName="VIAL, SINGLE-USE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="5"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0023-3507-05" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20090801"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="0.4"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43216" displayName="VIAL, SINGLE-USE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="30"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0023-3507-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20090801"/>
+                                          <high value="20201001"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="0.4"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43216" displayName="VIAL, SINGLE-USE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="30"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0023-3507-31" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20090801"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA022427" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20090801"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" displayName="OPHTHALMIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="_1_INDICATIONS_AND">
+               <id root="72bc490d-f427-48a4-bfc0-3e6d2e15bd79"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">1</content>
+		     
+	<content styleCode="bold">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">ACUVAIL</content>
+                     <sup>®</sup> ophthalmic solution is indicated for the treatment of pain and inflammation following cataract surgery. </paragraph>
+               </text>
+               <effectiveTime value="20190213"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>ACUVAIL ophthalmic solution is a nonsteroidal, anti-inflammatory indicated for the treatment of pain and inflammation following cataract surgery. (<linkHtml href="#_1_INDICATIONS_AND">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="bd44d0ca-d0d9-49f6-af02-cb7905a398bb"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">2</content>
+                  <content styleCode="bold">
+		     
+	DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <effectiveTime value="20190213"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>One drop of ACUVAIL should be applied by the patient to the affected eye twice daily beginning 1 day prior to cataract surgery, and continued through the first 2 weeks of the postoperative period. (<linkHtml href="#_2_1__Recommended">2.1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_2_1__Recommended">
+                     <id root="e966ac03-5e80-40f1-8119-c0b0da5bb5f4"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">2.1 </content>
+                        <content styleCode="bold">
+		     
+	Recommended Dosing</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Patient D</content>
+                           <content styleCode="bold">osing</content>
+                        </paragraph>
+                        <paragraph>One drop of ACUVAIL should be applied to the affected eye twice daily beginning 1 day prior to cataract surgery, continued on the day of surgery, and through the first 2 weeks of the postoperative period. </paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="0dcc6a06-320a-4762-8fcc-b9ac6995ca4a"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">2.2</content>
+		     
+	<content styleCode="bold">Use </content>
+                        <content styleCode="bold">W</content>
+                        <content styleCode="bold">ith Other Topical Ophthalmic Medications</content>
+                     </title>
+                     <text>
+                        <paragraph>ACUVAIL ophthalmic solution may be administered in conjunction with other topical ophthalmic medications such as alpha-agonists, beta-blockers, carbonic anhydrase inhibitors, cycloplegics, and mydriatics. Drops should be administered at least 5 minutes apart.</paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_3_DOSAGE_FORMS">
+               <id root="fc52aa05-16df-4e0c-a75b-a3e775dae1f6"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="43678-2" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>
+                  <content styleCode="bold">3</content>
+                  <content styleCode="bold">
+		     
+	DOSAGE FORMS AND STRENGTHS</content>
+               </title>
+               <text>
+                  <paragraph>4.5 mg/mL ketorolac tromethamine solution (0.45%) in a single-use vial.</paragraph>
+               </text>
+               <effectiveTime value="20190213"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>ACUVAIL ophthalmic solution containing 4.5 mg/mL ketorolac tromethamine in a single-use vial. (<linkHtml href="#_3_DOSAGE_FORMS">3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="_4_CONTRAINDICATIONS">
+               <id root="afc69719-70cd-4628-8086-8e2722a33e7f"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34070-3" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">4</content>
+                  <content styleCode="bold">
+		     
+	CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>ACUVAIL solution is contraindicated in patients with previously demonstrated hypersensitivity to any of the ingredients in the formulation.</paragraph>
+               </text>
+               <effectiveTime value="20190213"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Hypersensitivity to any component of this product. (<linkHtml href="#_4_CONTRAINDICATIONS">4</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="360318ea-b774-4f73-b0f2-351518ff62dd"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="43685-7" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">5</content>
+		     
+	<content styleCode="bold">WARNINGS AND PRECAUTIONS</content>
+               </title>
+               <effectiveTime value="20190213"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Delayed healing (<linkHtml href="#_5_1_Delayed_Healing">5.1</linkHtml>)<br/>
+                           </item>
+                           <item>Cross-sensitivity or hypersensitivity (<linkHtml href="#_5_2__">5.2</linkHtml>) <br/>
+                           </item>
+                           <item>Increased bleeding time due to interference with thrombocyte aggregation (<linkHtml href="#_5_3__Increased">5.3</linkHtml>)<br/>
+                           </item>
+                           <item>Corneal effects including keratitis (<linkHtml href="#_5_4__">5.4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_5_1_Delayed_Healing">
+                     <id root="ef97459c-dc0d-452a-898c-8ae0cf87ad7d"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.1</content>
+                        <content styleCode="bold">
+		     
+	Delayed Healing</content>
+                     </title>
+                     <text>
+                        <paragraph>Topical nonsteroidal anti-inflammatory drugs (NSAIDs) may slow or delay healing. Topical corticosteroids are also known to slow or delay healing. Concomitant use of topical NSAIDs and topical steroids may increase the potential for healing problems. </paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_5_2__">
+                     <id root="9e8c5f93-f182-46d0-aaa3-ea5c1b65bc93"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.</content>
+                        <content styleCode="bold">2</content>
+		     
+	<content styleCode="bold">Cross-Sensitivity or Hypersensitivity</content>
+                     </title>
+                     <text>
+                        <paragraph>There is the potential for cross-sensitivity to acetylsalicylic acid, phenylacetic acid derivatives, and other NSAIDs. There have been reports of bronchospasm or exacerbation of asthma associated with the use of ketorolac tromethamine ophthalmic solution in patients who either have a known hypersensitivity to aspirin/non-steroidal anti-inflammatory drugs, or a past medical history of asthma. Therefore, caution should be used when treating individuals who have previously exhibited sensitivities to these drugs.</paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_5_3__Increased">
+                     <id root="c3be212b-b1d1-4b8c-a8a8-7f6c99d6fda6"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.</content>
+                        <content styleCode="bold">3</content>
+                        <content styleCode="bold"> </content>
+		     
+	<content styleCode="bold">Increased Bleeding Time</content>
+                     </title>
+                     <text>
+                        <paragraph>With some NSAIDs, there exists the potential for increased bleeding time due to interference with thrombocyte aggregation. There have been reports that ocularly applied nonsteroidal anti-inflammatory drugs may cause increased bleeding of ocular tissues (including hyphemas) in conjunction with ocular surgery. </paragraph>
+                        <paragraph>It is recommended that ACUVAIL ophthalmic solution be used with caution in patients with known bleeding tendencies or who are receiving other medications, which may prolong bleeding time.<content styleCode="bold"> </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_5_4__">
+                     <id root="ffe4ec8a-c465-4598-ac1e-eda5df863c9f"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.</content>
+                        <content styleCode="bold">4</content>
+		     
+	<content styleCode="bold">Corneal E</content>
+                        <content styleCode="bold">ffects</content>
+                     </title>
+                     <text>
+                        <paragraph>Use of topical NSAIDs may result in keratitis. In some susceptible patients, continued use of topical NSAIDs may result in epithelial breakdown, corneal thinning, corneal erosion, corneal ulceration, or corneal perforation. These events may be sight threatening. Patients with evidence of corneal epithelial breakdown should immediately discontinue use of topical NSAIDs and should be closely monitored for corneal health.</paragraph>
+                        <paragraph>Postmarketing experience with topical NSAIDs suggests that patients with complicated ocular surgeries, corneal denervation, corneal epithelial defects, diabetes mellitus, ocular surface diseases (e.g., dry eye syndrome), rheumatoid arthritis, or repeat ocular surgeries within a short period of time may be at increased risk for corneal adverse events which may become sight threatening. Topical NSAIDs should be used with caution in these patients. </paragraph>
+                        <paragraph>Postmarketing experience with topical NSAIDs also suggests that use more than 1 day prior to surgery or use beyond 14 days post-surgery may increase patient risk for the occurrence and severity of corneal adverse events.</paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="dbd7704a-9b18-4ae1-843d-0dcfd25b985a"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.5</content>
+		     
+	<content styleCode="bold">Contact Lens Wear</content>
+                     </title>
+                     <text>
+                        <paragraph>ACUVAIL should not be administered while wearing contact lenses.</paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="39a69607-e663-4e6d-9ba7-be214d8c7ae2"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34084-4" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">6</content>
+                  <content styleCode="bold">
+		     
+	ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>Because clinical studies are conducted under widely varying conditions, adverse reaction rates observed in the clinical studies of a drug cannot be directly compared to the rates in the clinical studies of another drug and may not reflect the rates observed in practice.</paragraph>
+               </text>
+               <effectiveTime value="20190213"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions occurring in 1-6% of patients were increased intraocular pressure, conjunctival hemorrhage, and vision blurred. (<linkHtml href="#_6_1_Clinical_Studies">6.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <br/>
+                              <br/>To report SUSPECTED ADVERSE REACTIONS, contact Allergan at 1-800-678-1605 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_6_1_Clinical_Studies">
+                     <id root="0f437e33-8548-4271-80f3-58d3e4c65d79"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">6.1</content>
+                        <content styleCode="bold">
+		     
+	Clinical Studies</content>
+                        <content styleCode="bold"> Experience</content>
+                     </title>
+                     <text>
+                        <paragraph>The most common adverse reactions were reported in 1-6% of patients and included increased intraocular pressure, conjunctival hyperemia and/or hemorrhage, corneal edema, ocular pain, headache, tearing and vision blurred. Some of these reactions may be the consequence of the cataract surgical procedure. </paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="6d08dc0f-1528-467f-9189-c46095223714"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="90375-7" displayName="POSTMARKETING EXPERIENCE SECTION"/>
+                     <title>
+                        <content styleCode="bold">6.2</content>
+		     
+	<content styleCode="bold">Postmarketing Experience </content>
+                     </title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during postmarketing use of ketorolac tromethamine ophthalmic solutions in clinical practice. Because they are reported voluntarily from a population of unknown size, estimates of frequency cannot be made. The reactions, which have been chosen for inclusion due to either their seriousness, frequency of reporting, possible causal connection to topical ketorolac tromethamine ophthalmic solutions or a combination of these factors, include bronchospasm, exacerbation of asthma, corneal erosion, corneal perforation, corneal thinning and corneal melt, epithelial breakdown <content styleCode="italics">[see Warnings and Precautions (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#_5_2__">5.2</linkHtml>
+                           </content>
+                           <content styleCode="italics">, </content>
+                           <content styleCode="italics">
+                              <linkHtml href="#_5_4__">5.4</linkHtml>
+                           </content>
+                           <content styleCode="italics">)]</content> and ulcerative keratitis.    </paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="26bb2184-d099-4768-96d2-3a560a2e200c"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="43684-0" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">8</content>
+		     
+	<content styleCode="bold">USE IN SPECIFIC POPULATIONS</content>
+               </title>
+               <effectiveTime value="20190213"/>
+               <component>
+                  <section>
+                     <id root="b7a81cb2-489a-4c11-a8e2-b1643e607b21"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42228-7" displayName="PREGNANCY SECTION"/>
+                     <title>
+                        <content styleCode="bold">8.1</content>
+                        <content styleCode="bold">
+		     
+	Pregnancy</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Teratogenic Effects.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy Category C</content>
+                           <content styleCode="bold">:</content> Ketorolac tromethamine, administered during organogenesis, was not teratogenic in rabbits and rats at oral doses of 3.6 mg/kg/day and 10 mg/kg/day, respectively. These doses are approximately 600 times and 1700 times higher respectively than the typical human topical ophthalmic daily dose of 0.35 mg (4.5 mg/mL x 0.04 mL/drop, twice daily) to an affected eye on a mg/kg basis. Additionally, when administered to rats after Day 17 of gestation at oral doses up to 1.5 mg/kg/day (approximately 300 times the typical human topical ophthalmic daily dose), ketorolac tromethamine resulted in dystocia and increased pup mortality. There are no adequate and well-controlled studies in pregnant women. ACUVAIL solution should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Nonteratogenic </content>
+                           <content styleCode="bold">E</content>
+                           <content styleCode="bold">ffects</content>
+                           <content styleCode="bold">:</content> Because of the known effects of prostaglandin-inhibiting drugs on the fetal cardiovascular system (closure of the ductus arteriosus), the use of ACUVAIL solution during late pregnancy should be avoided.</paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="b44cfee3-5225-4c89-8655-d768c49097e9"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34080-2" displayName="NURSING MOTHERS SECTION"/>
+                     <title>
+                        <content styleCode="bold">8.3</content>
+                        <content styleCode="bold">
+		     
+	Nursing Mothers</content>
+                     </title>
+                     <text>
+                        <paragraph>Because many drugs are excreted in human milk, caution should be exercised when ACUVAIL is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4d4cf945-9219-4b1e-9b7c-bcff97e9d8bd"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34081-0" displayName="PEDIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">8.4</content>
+                        <content styleCode="bold">
+		     
+	Pediatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="fba73834-a9ad-490e-86eb-a0546ee5aec0"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34082-8" displayName="GERIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">8.5</content>
+                        <content styleCode="bold">
+		     
+	Geriatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>No overall clinical differences in safety or effectiveness have been observed between elderly and other adult patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="aa49a910-2751-474e-8b60-ccb2d6efaf23"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34089-3" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">11</content>
+                  <content styleCode="bold">
+		     
+	DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>ACUVAIL (ketorolac tromethamine ophthalmic solution) 0.45% is a member of the pyrrolo-pyrrole group of nonsteroidal anti-inflammatory drugs (NSAIDs) for ophthalmic use. Its chemical name is (±)-5-Benzoyl-2,3-dihydro-1<content styleCode="italics">H</content>-pyrrolizine-1-carboxylic acid, compound with 2-amino-2-(hydroxymethyl)-1,3-propanediol (1:1), and its molecular weight is 376.40. Its molecular formula is C<sub>19</sub>H<sub>24</sub>N<sub>2</sub>O<sub>6</sub>. Its chemical structure is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000001"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ACUVAIL</content>
+                     <content styleCode="bold"> </content>solution is supplied as a sterile isotonic aqueous 0.45% preservative-free solution, with a pH of approximately 6.8. ACUVAIL solution contains a racemic mixture of R-(+) and S-(-)- ketorolac tromethamine. Ketorolac tromethamine may exist in three crystal forms. All forms are equally soluble in water. The pKa of ketorolac is 3.5. This white to off-white crystalline substance discolors on prolonged exposure to light. The osmolality of ACUVAIL solution is approximately 285 mOsml/kg.</paragraph>
+                  <paragraph>Each mL of ACUVAIL ophthalmic solution contains:<content styleCode="bold"> Active: </content>ketorolac tromethamine 0.45%. <content styleCode="bold">Inactives:</content>
+                     <content styleCode="bold"> </content>carboxymethylcellulose sodium; sodium chloride; sodium citrate dihydrate; and purified water with sodium hydroxide and/or hydrochloric acid to adjust pH. </paragraph>
+               </text>
+               <effectiveTime value="20190213"/>
+               <component>
+                  <observationMedia ID="MM03000001">
+                     <text>The chemical structure for ACUVAIL® (ketorolac tromethamine ophthalmic solution) 0.45% is a member of the pyrrolo-pyrrole group of nonsteroidal anti-inflammatory drugs (NSAIDs) for ophthalmic use. Its chemical name is (±)-5-Benzoyl-2,3-dihydro-1H-pyrrolizine-1-carboxylic acid, compound with 2-amino-2-(hydroxymethyl)-1,3-propanediol (1:1), and its molecular weight is 376.40. Its molecular formula is C19H24N2O6. </text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="acuvail-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5c42efe1-5136-4292-b890-ded07021562a"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">12</content>
+                  <content styleCode="bold">
+		     
+	CLINICAL PHARMACOLOGY</content>
+               </title>
+               <effectiveTime value="20190213"/>
+               <component>
+                  <section>
+                     <id root="cca75606-5357-4ccd-a67d-2ee91d94cee3"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="43679-0" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>
+                        <content styleCode="bold">12.1</content>
+                        <content styleCode="bold">
+		     
+	Mechanism of Action</content>
+                     </title>
+                     <text>
+                        <paragraph>Ketorolac tromethamine is a nonsteroidal anti-inflammatory drug which, when administered systemically, has demonstrated analgesic, anti-inflammatory, and anti-pyretic activity. The mechanism of its action is thought to be due to its ability to inhibit prostaglandin biosynthesis. </paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="0bd7841f-a5e7-42fc-8bf7-71db86c04bbc"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="43682-4" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>
+                        <content styleCode="bold">12.3</content>
+                        <content styleCode="bold">
+		     
+	Pharmacokinetics</content>
+                     </title>
+                     <text>
+                        <paragraph>Two drops of 0.5% ketorolac tromethamine ophthalmic solution instilled into the eyes of patients 12 hours and 1 hour prior to cataract extraction achieved a mean ketorolac concentration of 95 ng/mL in the aqueous humor of 8 of 9 eyes tested (range 40 to 170 ng/mL). </paragraph>
+                        <paragraph>One drop of 0.5% ketorolac tromethamine ophthalmic solution was instilled into 1 eye and 1 drop of vehicle into the other eye three times daily in 26 healthy subjects. Five (5) of 26 subjects had detectable concentrations of ketorolac in their plasma (range 11 to 23 ng/mL) at Day 10 during topical ocular treatment. The range of concentrations following three times daily dosing of 0.5% ketorolac tromethamine ophthalmic solution are approximately 4 to 8% of the steady state mean minimum plasma concentration observed following four times daily oral administration of 10 mg ketorolac in humans (290 ± 70 ng/mL).</paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b9b9f6b4-19c6-4b2b-bf04-49251002195e"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="43680-8" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">13</content>
+                  <content styleCode="bold">
+		     
+	NONCLINICAL TOXICOLOGY</content>
+               </title>
+               <effectiveTime value="20190213"/>
+               <component>
+                  <section>
+                     <id root="c522ffd1-8edf-4b02-89ea-097fc97226e2"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34083-6" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="bold">13.1</content>
+                        <content styleCode="bold">
+		     
+	Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                     </title>
+                     <text>
+                        <paragraph>Ketorolac tromethamine was not carcinogenic in either rats given up to 5 mg/kg/day orally for 24 months or in mice given 2 mg/kg/day orally for 18 months. These doses are approximately 900 times and 300 times higher respectively than the typical human topical ophthalmic daily dose given as twice daily to an affected eye on a mg/kg basis. </paragraph>
+                        <paragraph>Ketorolac tromethamine was not mutagenic <content styleCode="italics">in vitro</content> in the Amesassay or in forward mutation assays. Similarly, it did not result in an <content styleCode="italics">in vitro</content> increase in unscheduled DNA synthesis or an <content styleCode="italics">in vivo</content> increase in chromosome breakage in mice. However, ketorolac tromethamine did result in an increased incidence in chromosomal aberrations in Chinese hamster ovary cells.</paragraph>
+                        <paragraph>Ketorolac tromethamine did not impair fertility when administered orally to male and female rats at doses up to 9 mg/kg/day and 16 mg/kg/day, respectively. These doses are respectively 1500 and 2700 times higher than the typical human topical ophthalmic daily dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="bb06cd74-01bf-473d-b838-3f2fab5269f2"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34092-7" displayName="CLINICAL STUDIES SECTION"/>
+               <title>
+                  <content styleCode="bold">14</content>
+                  <content styleCode="bold">
+		     
+	CLINICAL STUDIES</content>
+               </title>
+               <text>
+                  <paragraph>Two multicenter, randomized, double-masked, parallel group comparison studies including approximately 500 patients were conducted to evaluate the effects of ACUVAIL on anterior chamber cell and flare, and ocular pain relief following cataract extraction with posterior chamber intraocular lens (IOL) implantation. Results of these studies indicated that patients receiving ACUVAIL had a significantly higher incidence of clearing of anterior chamber inflammation 53% (167/318) versus patients receiving vehicle 26% (41/155) at day 14.</paragraph>
+                  <paragraph>ACUVAIL was also significantly superior to vehicle in resolving ocular pain. On Day 1 post cataract surgery, 72% (233/322) of patients in the ACUVAIL group were pain free compared to 40% (62/156) of patients in the vehicle group.</paragraph>
+                  <paragraph>Results from clinical studies indicate that ketorolac tromethamine has no significant effect upon intraocular pressure; however, changes in intraocular pressure may occur following cataract surgery.</paragraph>
+               </text>
+               <effectiveTime value="20190213"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e06fbe53-5d5c-4fe8-8c9f-cc8159fd1af9"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34069-5" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">16</content>
+                  <content styleCode="bold">
+		     
+	HOW SUPPLIED/STORAGE AND HANDLING</content>
+               </title>
+               <text>
+                  <paragraph>ACUVAIL (ketorolac tromethamine ophthalmic solution) 0.45% is available as a sterile solution supplied in clear, LDPE, single-use vials packaged in 3 foil pouches, 10 vials per pouch:</paragraph>
+                  <paragraph>30 Single-Use Vials 0.4 mL each: NDC 0023-3507-31</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage</content>
+                     <content styleCode="bold">:</content> Store at 15<sup>o</sup>-30º C (59<sup>o</sup>-86º F). Store the vials in the pouch, protected from light. Fold pouch ends closed.</paragraph>
+               </text>
+               <effectiveTime value="20190213"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c11af1d0-560d-47f0-aea1-136a4313dab6"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34076-0" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>
+                  <content styleCode="bold">17</content>
+                  <content styleCode="bold">
+		     
+	PATIENT COUNSELING INFORMATION</content>
+               </title>
+               <effectiveTime value="20190213"/>
+               <component>
+                  <section>
+                     <id root="20e12a67-3108-4c97-b19e-04f07827cd6d"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">17.1</content>
+		     
+	<content styleCode="bold">Slow or Delayed Healing</content>
+                     </title>
+                     <text>
+                        <paragraph>Patients should be informed of the possibility that slow or delayed healing may occur while using nonsteroidal anti-inflammatory drugs (NSAIDs).</paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="413c155b-689c-49ba-9c75-b728e6817a60"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">17.2</content>
+		     
+	<content styleCode="bold">Avoiding Contamination of the Product</content>
+                     </title>
+                     <text>
+                        <paragraph>Patients should be instructed that the solution from one individual single-use vial is to be used immediately after opening for administration to the affected eye.  The remaining vial contents should be discarded. </paragraph>
+                        <paragraph>The use of the same single-use vial of topical eye drops for both eyes following bilateral ocular surgery is not recommended. In these circumstances, advise patients to use one vial for each eye immediately after opening and discard the remaining contents after use.</paragraph>
+                        <paragraph>Patients should be instructed to avoid allowing the tip of the vial to contact the eye or surrounding structures because this could cause the tip to become contaminated by common bacteria known to cause ocular infections or cause injury to the eye. Serious damage to the eye and subsequent loss of vision may result from using contaminated solutions.</paragraph>
+                        <paragraph>Store the vials in the pouch, protected from light. Fold pouch ends closed.</paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="88412434-59f9-42f4-9e53-e0701298323f"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">17.</content>
+                        <content styleCode="bold">3</content>
+		     
+	<content styleCode="bold">Contact Lens Wear</content>
+                     </title>
+                     <text>
+                        <paragraph>Patients should be advised that ACUVAIL solution should not be administered while wearing contact lenses.</paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="426396e8-7b66-49f3-8c68-1ee923b97ffc"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">17.4</content>
+		     
+	<content styleCode="bold">Intercurrent</content>
+                        <content styleCode="bold"> Ocular Conditions</content>
+                     </title>
+                     <text>
+                        <paragraph>Patients should be advised that if they develop an intercurrent ocular condition (e.g., trauma or infection) or have ocular surgery, they should immediately seek their physician’s advice concerning the continued use of <content styleCode="bold">ACUVAIL</content>
+                           <sup>®</sup>. </paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="8d697ae9-f8c8-4093-826c-a4b383ff6f67"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">17.5</content>
+		     
+	<content styleCode="bold">Concomitant</content>
+                        <content styleCode="bold"> Topical Ocular Therapy</content>
+                     </title>
+                     <text>
+                        <paragraph>Patients should be advised that if more than one topical ophthalmic medication is being used, the medicines should be administered at least 5 minutes apart.<content styleCode="bold"> </content>
+                        </paragraph>
+                        <paragraph>Distributed by: Allergan USA, Inc.</paragraph>
+                        <paragraph>Madison, NJ 07940</paragraph>
+                        <paragraph>© 2019 Allergan. All rights reserved.</paragraph>
+                        <paragraph>All trademarks are the property of their respective owners.</paragraph>
+                        <paragraph>Patented. See: www.allergan.com/patents</paragraph>
+                        <paragraph>v2.0USPI3507</paragraph>
+                     </text>
+                     <effectiveTime value="20190213"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="dc1aebd8-22b0-492b-b1f8-52d77f2cf9a1"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 0023-3507-31<br/>ACUVAIL<br/>(ketorolac tromethamine<br/>ophthalmic solution)0.45%<br/>Preservative-Free<br/>FOR SINGLE-USE ONLY<br/>Rx Only<br/>sterile</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000003"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190213"/>
+               <component>
+                  <observationMedia ID="MM03000003">
+                     <text>PRINCIPAL DISPLAY PANEL
+NDC 0023-3507-31
+ACUVAIL
+(ketorolac tromethamine
+ophthalmic solution)0.45%
+Preservative-Free
+FOR SINGLE-USE ONLY
+Rx Only
+sterile
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="acuvail-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="02d7f377-86df-4069-9711-89895ff59a2b"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 0023-3507-30<br/>ACUVAIL<br/>(ketorolac tromethamine<br/>ophthalmic solution)0.45%<br/>Preservative-Free<br/>FOR SINGLE-USE ONLY<br/>Rx Only<br/>sterile</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000004"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190213"/>
+               <component>
+                  <observationMedia ID="MM03000004">
+                     <text>NDC 0023-3507-30
+ACUVAIL
+(ketorolac tromethamine
+ophthalmic solution)0.45%
+Preservative-Free
+FOR SINGLE-USE ONLY
+Rx Only
+sterile
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="acuvail-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

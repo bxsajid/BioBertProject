@@ -37,9 +37,9 @@ def download_files():
             open('skipped_files.txt', 'a').write(SET_ID + '\n')
             continue
 
-        listOfFileNames = z.namelist()
+        list_of_file_names = z.namelist()
 
-        for fileName in listOfFileNames:
+        for fileName in list_of_file_names:
             # extract XML file ONLY
             if fileName.endswith('.xml'):
                 z.extract(fileName, out_dir)
@@ -86,13 +86,13 @@ if __name__ == '__main__':
     download_files()
 
     # download labelings in JSON format
-    xml_files = [f for f in glob.glob('XML Files/*.xml')]
-    labels = []
-
-    for i, xml_file in enumerate(xml_files):
-        print(f'parsing file [{i}]: {xml_file}')
-
-        parsed_items = parse_xml(xml_file)
-        labels.append({xml_file: parsed_items})
-
-    dump_to_json(labels, 'json_data.json')
+    # xml_files = [f for f in glob.glob('XML Files/*.xml')]
+    # labels = []
+    #
+    # for i, xml_file in enumerate(xml_files):
+    #     print(f'parsing file [{i}]: {xml_file}')
+    #
+    #     parsed_items = parse_xml(xml_file)
+    #     labels.append({xml_file: parsed_items})
+    #
+    # dump_to_json(labels, 'json_data.json')

@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5600a405-ae99-4b5f-8f22-f13348950bf6"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="Human OTC Drug Label"/>
+   <title/>
+   <effectiveTime value="20200818"/>
+   <setId root="403ec259-3be1-4e0b-ab7b-fee213b7eabe"/>
+   <versionNumber value="9"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="925822975" root="1.3.6.1.4.1.519.1"/>
+            <name>MARKSANS PHARMA LIMITED</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="925822975" root="1.3.6.1.4.1.519.1"/>
+                        <name>MARKSANS PHARMA LIMITED</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="25000-062" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="25000-133" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="5c0f95ae-2031-47f6-8759-3248c8c477c6"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20200817"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="25000-133" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ibuprofen<suffix/>
+                        </name>
+                        <formCode code="C42954" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE, LIQUID FILLED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ibuprofen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="200" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IBUPROFEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IBUPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5138Q19F1X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3P3ONR6O1S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C GREEN NO. 3</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="46N107B71O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SHELLAC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="06XEA2VD56" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITAN MONOOLEATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZH3C48M4T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="G7036X8B5H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERROUS OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C9H2L21V7U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MEDIUM-CHAIN TRIGLYCERIDES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2000" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25000-133-23" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43193" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DRUM"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20170901"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2500" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="4" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25000-133-18" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20170901"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="32" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25000-133-04" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20170901"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="600" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25000-133-13" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20170901"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25000-133-43" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20170901"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25000-133-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20170901"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="300" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="25000-133-69" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20170901"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA079205" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20170901"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48329" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GREEN"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" unit="mm" value="19"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">133</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="25000-062" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ibuprofen<suffix/>
+                        </name>
+                        <formCode code="C42954" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE, LIQUID FILLED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ibuprofen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="200" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IBUPROFEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IBUPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5138Q19F1X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3P3ONR6O1S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C GREEN NO. 3</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="46N107B71O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SHELLAC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="06XEA2VD56" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITAN MONOOLEATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZH3C48M4T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="G7036X8B5H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERROUS OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C9H2L21V7U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MEDIUM-CHAIN TRIGLYCERIDES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25000-062-43" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20200818"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="01" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25000-062-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20200818"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="32" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25000-062-04" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20200818"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="80" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25000-062-67" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20200818"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="600" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="25000-062-13" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20200818"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2500" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25000-062-87" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20200818"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA079205" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200818"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48329" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GREEN"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" unit="mm" value="6"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">62</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_0">
+               <id root="28e441ae-cda4-40da-9757-9f9d6e9c9ef3"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>ACTIVE INGREDIENT(S)</title>
+               <text>
+                  <paragraph>Solubilized ibuprofen equal to 200 mg ibuprofen <br/> (present as the free acid and potassium salt)</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="207888f3-47eb-4f9d-97a3-39ad3076a107"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>PURPOSE</title>
+               <text>
+                  <paragraph>(NSAID)*Pain reliever/Fever reducer </paragraph>
+                  <paragraph>*nonsteroidal anti-inflammatory drug</paragraph>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="9b128958-4501-4780-91d5-1bd63ab8e04d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>USE(S)</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>temporarily relieves minor aches and pains due to: <content styleCode="bold"/>
+                     </item>
+                     <item>headache</item>
+                     <item>toothache</item>
+                     <item>backache </item>
+                     <item>menstrual cramps </item>
+                     <item>the common cold</item>
+                     <item>muscular aches</item>
+                     <item>minor pain of arthritis</item>
+                     <item>temporarily reduces fever </item>
+                  </list>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="1f9d0aa5-f82f-4207-a0f1-6c1dcb27024c"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Allergy alert:</content> Ibuprofen may cause a severe allergic reaction, especially in people allergic to aspirin. Symptoms may include:</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>hives</item>
+                     <item>facial swelling</item>
+                     <item>asthma (wheezing)</item>
+                     <item>shock</item>
+                     <item>skin reddening</item>
+                     <item>rash </item>
+                     <item>blisters </item>
+                  </list>
+                  <paragraph> If an allergic reaction occurs, stop use and seek medical help right away.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Stomach bleeding warning: </content>This product contains nonsteroidal anti - inflammatory drug (NSAIDs), which may cause severe stomach bleeding. The chance is higher if you</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>are age 60 or older </item>
+                     <item>have had stomach ulcers or bleeding problems </item>
+                     <item>take a blood thinning (anticoagulant) or steroid drug </item>
+                     <item>take other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others] </item>
+                     <item>have 3 or more alcoholic drinks every day while using this product</item>
+                     <item>take more or for a longer time than directed. <content styleCode="bold"/>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold"> Heart attack and stroke warning: </content>NSAIDs, except aspirin, increase the risk of heart attack, heart failure and stroke. These can be fatal. The risk is higher if you use more than directed or for longer than directed.</paragraph>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="0f026990-3cf6-4ff5-b360-fbc5e0b975b7"/>
+               <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+               <title>DO NOT USE</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>if you have ever had an allergic reaction to any other pain reliever/fever reducer</item>
+                     <item>right before or after heart surgery</item>
+                  </list>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="11613069-d145-4606-a14b-0bec6f11c84b"/>
+               <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+               <title>ASK A DOCTOR BEFORE USE IF</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>the stomach bleeding warning applies to you</item>
+                     <item>you have problems or serious side effects from taking pain relievers or fever reducers</item>
+                     <item>you have a history of stomach problems, such as heartburn</item>
+                     <item>you have high blood pressure, heart disease, liver cirrhosis, kidney disease, asthma, or had a stroke</item>
+                     <item>you are taking a diuretic</item>
+                  </list>
+                  <br/>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="5fd5990f-069f-46d7-b823-8f0dac4cb687"/>
+               <code code="50568-5" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR/PHARMACIST SECTION"/>
+               <title>ASK A DOCTOR OR PHARMACIST BEFORE USE IF YOU ARE</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>under a doctor's care for any serious condition </item>
+                     <item>taking aspirin for heart attack or stroke, because ibuprofen may decrease this benefit of aspirin</item>
+                     <item>taking any other drug</item>
+                  </list>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="605655cc-4899-4baf-b1b3-bc3c7c581a01"/>
+               <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+               <title>WHEN USING THIS PRODUCT</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>take with food or milk if stomach upset occurs </item>
+                  </list>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_8">
+               <id root="d9b3ee22-d7ec-4bf9-be5f-10a7150df1a4"/>
+               <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+               <title>STOP USE AND ASK A DOCTOR IF</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>you experience any of the following signs of stomach bleeding:</item>
+                     <item> feel faint</item>
+                     <item> vomit blood </item>
+                     <item> have bloody or black stools</item>
+                     <item> have stomach pain that does not get better </item>
+                  </list>
+                  <br/>
+                  <list listType="unordered" styleCode="disc">
+                     <item>you have symptoms of heart problems or stroke:</item>
+                     <item> chest pain </item>
+                     <item> trouble breathing</item>
+                     <item> weakness in one part or side of body</item>
+                     <item> slurred speech </item>
+                     <item> leg swelling</item>
+                     <item>pain gets worse or lasts more than 10 days </item>
+                     <item>fever gets worse or lasts   more than 3 days </item>
+                     <item>redness or swelling is present in the painful area </item>
+                     <item>any new symptoms appear</item>
+                  </list>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="7d09db76-481c-4a01-bb89-03b4864589c0"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>OTHER REQUIRED WARNINGS</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>each capsule contains: <content styleCode="bold">potassium 20 mg</content>
+                     </item>
+                     <item>read all warnings and directions before use. Keep carton.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="7fa66e50-b152-40b1-924b-d36d3a9df8bb"/>
+               <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+               <title>PREGNANCY/BREASTFEEDING</title>
+               <text>
+                  <paragraph> Ask a health professional before use. It is especially important not to use ibuprofen during the last 3 months of pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery. </paragraph>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="1d81ebad-135e-4401-ab3b-6a0edaf557d5"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title>KEEP OUT OF REACH OF CHILDREN</title>
+               <text>
+                  <paragraph>In case of overdose, get medical help or contact a Poison Control Center right away.</paragraph>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_12">
+               <id root="2b384ee2-ae10-4418-bc09-2dee5a8d1bac"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DIRECTIONS</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>
+                        <content styleCode="bold">do not take more than directed</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">the smallest effective dose should be used</content>
+                     </item>
+                     <item>adults and children 12 years and over: take 1 capsule every 4 to 6 hours while symptoms persist<content styleCode="bold"/>
+                     </item>
+                     <item>if pain or fever does not respond to 1 capsule, 2 capsules may be used</item>
+                     <item>do not exceed 6 capsules in 24 hours, unless directed by a doctor</item>
+                     <item>children under 12 years: ask a doctor</item>
+                  </list>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Unclassified_Section_1">
+               <id root="84ff1cd5-67a0-4a62-843e-fc59c165c19f"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>INACTIVE INGREDIENTS</title>
+               <text>
+                  <paragraph>Ammonium Hydroxide, FD&amp;C Green No. 3, Gelatin, Iron oxide black, Medium-chain triglycerides, Polyethylene glycol, Propylene glycol, Potassium hydroxide, Purified water, Shellac, Sorbitol sorbitan, Sorbitan monooleate.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Questions or comments?</content>
+                  </paragraph>
+                  <paragraph>Call toll free <content styleCode="bold">1-877-376-4271</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_13">
+               <id root="5ade6db3-38c1-45b2-919e-77c7fe24fb36"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>store at 20-25°C (68-77°F) </item>
+                     <item>avoid excessive heat above 40°C (104°F)</item>
+                  </list>
+               </text>
+               <effectiveTime value="20200817"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_16">
+               <id root="101be073-51a1-41c3-b8b2-9f5ee50d4fc8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>Ibuprofen capsules 200 mg (liquid filled Capsules)<br/> 10's bottle label<br/> NDC 25000-133-43</paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <br/>
+                  <paragraph> 10's carton label<br/>  NDC 25000-133-43</paragraph>
+                  <br/>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <br/>
+                  <paragraph> 20's bottle label<br/> NDC 25000-133-01</paragraph>
+                  <br/>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM3"/>
+                  <br/>
+                  <br/>
+                  <paragraph> 20's carton label<br/> NDC 25000-133-01</paragraph>
+                  <br/>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM4"/>
+                  <br/>
+                  <br/>
+                  <paragraph> 32's bottle label<br/> NDC 25000-133-04</paragraph>
+                  <br/>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM5"/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <paragraph> 32's Carton Label<br/> NDC 25000-133-04</paragraph>
+                  <br/>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM6"/>
+                  <br/>
+                  <br/>
+                  <paragraph> 600's bottle label<br/> NDC 25000-133-13</paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM7"/>
+                  <br/>
+                  <br/>
+                  <paragraph> 300's bottle label<br/> NDC 25000-133-69</paragraph>
+                  <br/>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM8"/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <paragraph> Ibuprofen capsules 200 mg (mini liquid filled)<br/>
+                     <br/> 10's bottle label<br/> NDC 25000-062-43</paragraph>
+                  <br/>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM9"/>
+                  <br/>
+                  <paragraph> 10's carton label<br/> NDC 25000-062-43</paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM10"/>
+                  <br/>
+                  <br/>
+                  <paragraph> 20's bottle label<br/> NDC 25000-062-01</paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM11"/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <paragraph> 20's carton label<br/> NDC 25000-062-01</paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM12"/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <paragraph> 32's bottle label<br/> NDC 25000-062-04</paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM13"/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <paragraph> 32's carton label<br/> NDC 25000-062-04</paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM14"/>
+                  <br/>
+                  <br/>
+                  <paragraph> 80's bottle label<br/> NDC 25000-062-67</paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM15"/>
+                  <br/>
+                  <br/>
+                  <paragraph> 80's carton label<br/> NDC 25000-062-67</paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM16"/>
+                  <br/>
+                  <br/>
+                  <paragraph> 600's bottle label<br/> NDC 25000-062-13</paragraph>
+                  <br/>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM17"/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20200817"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>10s-ibucap-bot-labl</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibu-10s-bott-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>10s-ibucap-cart-labl</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibu-10s-cart-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>20s-ibucap-bot-labl</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibu-20s-bott-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>20s-ibucap-cart-labl</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibu-20s-cart-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>32s-ibucap-bot-labl</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibu-32s-bott-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>32s-ibucap-cart-labl</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibu-32s-carton-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>600s-ibucap-bot-labl</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibu-600s-bottle-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM8">
+                     <text>300's-bott-lab</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibu-300s-bottle-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM9">
+                     <text>10sbott-ibusgc-mini-caps</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibumini-10s-bott-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM10">
+                     <text>10scart-ibumini-caps</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibumini-10s-cart-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM11">
+                     <text>20sbott-ibusgc-mini-caps</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibumini-20s-bott-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM12">
+                     <text>20scart-ibusgc-mini-caps</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibumini-20s-cart-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM13">
+                     <text>32sbott-ibusgc-mini-caps</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibumini-32s-bott-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM14">
+                     <text>32scart-ibusgc-mini-caps</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibumini-32s-cart-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM15">
+                     <text>80sbott-ibusgc-mini-caps</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibumini-80s-bott-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM16">
+                     <text>80scart-ibusgc-mini-caps</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibumini-80s-cart-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM17">
+                     <text>600sbott-ibusgc-mini-caps</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibumini-600s-bott-labl.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

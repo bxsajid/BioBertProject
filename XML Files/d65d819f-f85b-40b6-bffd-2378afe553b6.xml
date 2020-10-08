@@ -1,0 +1,2209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="d65d819f-f85b-40b6-bffd-2378afe553b6"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use VOLTAREN<sup>®</sup> GEL safely and effectively. See full prescribing information for VOLTAREN<sup>®</sup> GEL.<br/>VOLTAREN<sup>®</sup> GEL (diclofenac sodium topical gel), 1%, for topical use only<br/>Initial U.S. Approval: 1988</title>
+   <effectiveTime value="20181201"/>
+   <setId root="9d6cf386-7fa1-433d-8fe9-4aa3617ba0e1"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="079196022" root="1.3.6.1.4.1.519.1"/>
+            <name>Proficient Rx LP</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="079502574" root="1.3.6.1.4.1.519.1"/>
+                        <name>Proficient Rx LP</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="63187-582" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="63187-582" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="e580b01b-d32b-4a29-a877-dfb179f755fa"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20181201"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63187-582" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Voltaren</name>
+                        <formCode code="C42934" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GEL"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>diclofenac sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="63481-684" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="QTG126297Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DICLOFENAC SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="144O8QL0L1" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DICLOFENAC</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5138Q19F1X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4Q93RCW27E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOMER HOMOPOLYMER TYPE C (ALLYL PENTAERYTHRITOL CROSSLINKED)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8D9H4QU99H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>COCO-CAPRYLATE/CAPRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="T5L8T28FGP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="YRC528SWUY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYOXYL 20 CETOSTEARYL ETHER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="63187-582-00" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20181201"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA022122" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20071017"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_9e499be3-8ee8-49ed-b96f-08f4c8e551d4">
+               <id root="2d324cde-373c-4d77-b69c-2fef055eddd9"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+               <title>WARNING: CARDIOVASCULAR AND GASTROINTESTINAL RISK</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Cardiovascular Risk</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">Non-steroidal anti-inflammatory drugs (NSAIDs) may cause an increased risk of serious cardiovascular thrombotic events, myocardial infarction, and stroke, which can be fatal. This risk may increase with duration of use. Patients with cardiovascular disease or risk factors for cardiovascular disease may be at greater risk <content styleCode="italics">
+                              <linkHtml href="#i4i_section_id_49e09819-294d-49b1-9b14-b125f3d52e75">[see Warnings and Precautions (5.1)]</linkHtml>
+                           </content>.</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">VOLTAREN<sup>®</sup> GEL is contraindicated for the treatment of peri-operative pain in the setting of coronary artery bypass graft (CABG) surgery</content>
+                        <linkHtml href="#i4i_contraindications_id_9007640d-0e8e-4d7d-bc2b-78825818283b">[see Contraindications (4)]</linkHtml>
+                        <content styleCode="bold">
+                           <content styleCode="italics">[see Contraindications (4)]</content>.</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal Risk </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">NSAIDs cause an increased risk of serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. Elderly patients are at greater risk for serious gastrointestinal events <content styleCode="italics">
+                              <linkHtml href="#i4i_section_id_a4102012-8aad-42f2-ae2b-d063bfad095a">[see Warnings and Precautions (5.2)]</linkHtml>
+                           </content>
+                        </content>
+                        <content styleCode="italics">.</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>WARNING: CARDIOVASCULAR AND GASTROINTESTINAL RISK</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">See full prescribing information for complete boxed warning.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Cardiovascular Risk</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="bold">Non-steroidal anti-inflammatory drugs (NSAIDs) may cause an increased risk of serious cardiovascular thrombotic events, myocardial infarction, and stroke, which can be fatal. (<linkHtml href="file:///G:/BusUnits/Regulatory%20Affairs/OTC/2.%20Global%20Labeling%20&amp;amp;%20Compliance/1.%20US%20Labeling%20Database/PAIN/VOLTAREN/SPL/V005/Voltaren%20SPL%20V005%202014DEC03%20-%20Copy.docx">5.1</linkHtml>).</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="bold">VOLTAREN<sup>®</sup> GEL is contraindicated for the treatment of peri-operative pain in the setting of coronary artery bypass graft (CABG) surgery.</content>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">Gastrointestinal Risk (<linkHtml href="file:///G:/BusUnits/Regulatory%20Affairs/OTC/2.%20Global%20Labeling%20&amp;amp;%20Compliance/1.%20US%20Labeling%20Database/PAIN/VOLTAREN/SPL/V005/Voltaren%20SPL%20V005%202014DEC03%20-%20Copy.docx">4</linkHtml>, <linkHtml href="file:///G:/BusUnits/Regulatory%20Affairs/OTC/2.%20Global%20Labeling%20&amp;amp;%20Compliance/1.%20US%20Labeling%20Database/PAIN/VOLTAREN/SPL/V005/Voltaren%20SPL%20V005%202014DEC03%20-%20Copy.docx">5.1</linkHtml>)</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="bold">Non-steroidal anti-inflammatory drugs (NSAIDs), including VOLTAREN<sup>®</sup> GEL, cause an increased risk of serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. Elderly patients are at greater risk for serious gastrointestinal events. (<linkHtml href="file:///G:/BusUnits/Regulatory%20Affairs/OTC/2.%20Global%20Labeling%20&amp;amp;%20Compliance/1.%20US%20Labeling%20Database/PAIN/VOLTAREN/SPL/V005/Voltaren%20SPL%20V005%202014DEC03%20-%20Copy.docx">5.2</linkHtml>)</content>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_96ad06c2-6ed0-4e8d-832d-bd1e8e16611a">
+               <id root="744640c5-4ad4-420c-a97a-db6d9bd77955"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>VOLTAREN<sup>®</sup> GEL is indicated for the relief of the pain of osteoarthritis of joints amenable to topical treatment, such as the knees and those of the hands.</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>VOLTAREN<sup>®</sup> GEL has not been evaluated for use on the spine, hip, or shoulder.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>VOLTAREN<sup>®</sup> GEL is indicated for the relief of the pain of osteoarthritis of joints amenable to topical treatment, such as the knees and those of the hands. <linkHtml href="#i4i_indications_id_96ad06c2-6ed0-4e8d-832d-bd1e8e16611a">(1)</linkHtml>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>VOLTAREN<sup>®</sup> GEL has not been evaluated for use on the spine, hip, or shoulder. <linkHtml href="#i4i_section_id_66380812-140c-45cd-85da-6616ce0195b4">(14.1)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_ff400e4c-0755-4edf-b01e-5d55ce789d10">
+               <id root="4c58b9ae-0dec-45a4-8a2d-2c2efe35d0eb"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Total dose should not exceed 32 g per day, over all affected joints. (<linkHtml href="#i4i_section_id_3831254d-276d-45ab-ba0f-f7962860cd05">2.3</linkHtml>) VOLTAREN<sup>®</sup> GEL should be measured onto the enclosed dosing card to the appropriate 2 g or 4 g designation. (<linkHtml href="#i4i_dosage_admin_id_ff400e4c-0755-4edf-b01e-5d55ce789d10">2</linkHtml>)</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Lower extremities: Apply the gel (4 g) to the affected area 4 times daily. Do not apply more than 16 g daily to any one affected joint of the lower extremities. (<linkHtml href="#_Ref">2.2</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Upper extremities: Apply the gel (2 g) to the affected area 4 times daily. Do not apply more than 8 g daily to any one affected joint of the upper extremities. (<linkHtml href="#i4i_section_id_3831254d-276d-45ab-ba0f-f7962860cd05">2.3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_b9b20f75-2058-4b8a-9bf7-ea22d6087771">
+                     <id root="d65ae0a0-b145-4587-8e5a-8408b62af276"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Dosing Card <content styleCode="italics">[See the patient Instructions for Use]</content>
+                     </title>
+                     <text>
+                        <paragraph>The dosing card can be found attached to the inside of the carton.</paragraph>
+                        <paragraph>The proper amount of VOLTAREN® GEL should be measured using the dosing card supplied in the drug product carton. The dosing card is made of clear polypropylene. The dosing card should be used for each application of drug product. The gel should be applied within the oblong area of the dosing card up to the 2 gram or 4 gram line (2 g for each elbow, wrist, or hand, and 4 g for each knee, ankle, or foot). The 2 g line is 2.25 inches long. The 4 g line is 4.5 inches long. The dosing card containing VOLTAREN® GEL can be used to apply the gel. The hands should then be used to gently rub the gel into the skin. After using the dosing card, hold with fingertips, rinse, and dry. If treatment site is the hands, patients should wait at least one (1) hour to wash their hands.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_3831254d-276d-45ab-ba0f-f7962860cd05">
+                     <id root="3c5d59b5-04b1-4b23-9336-bb3c2ddbc676"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Lower extremities, including the knees, ankles, and feet</title>
+                     <text>
+                        <paragraph>Apply the gel (4 g) to the affected foot or knee or ankle, 4 times daily. VOLTAREN® GEL should be gently massaged into the skin ensuring application to the entire affected foot or knee or ankle. The entire foot includes the sole, top of the foot and the toes. Do not apply more than 16 g daily to any single joint of the lower extremities.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_ee04c601-6936-412d-bf56-e3fcbe26d19c">
+                     <id root="9ffce129-fdf3-4173-8ad6-2f144c853012"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Upper extremities including the elbows, wrists and hands</title>
+                     <text>
+                        <paragraph>Apply the gel (2 g) to the affected hand or elbow or wrist, 4 times daily. VOLTAREN® GEL should be gently massaged into the skin ensuring application to the entire affected hand or elbow or wrist. The entire hand includes the palm, back of the hands, and the fingers. Do not apply more than 8 g daily to any single joint of the upper extremities.<br/>Total dose should not exceed 32 g per day, over all affected joints. </paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_cdc408e7-8790-4fd3-8fc0-05a5c8bb9a28">
+                     <id root="6b4598af-0e46-421b-b954-6437e722682f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.4 Special Precautions</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Showering/bathing should be avoided for at least 1 hour after the application. Patient should wash his/her hands after use, unless the hands are the treated joint. If VOLTAREN® GEL is applied to the hand(s) for treatment; patient should not wash the treated hand(s) for at least 1 hour after the application.</item>
+                           <item>
+                              <caption>•</caption>VOLTAREN® GEL should not be applied to open wounds.</item>
+                           <item>
+                              <caption>•</caption>Contact of VOLTAREN® GEL with eyes and mucous membranes should be avoided.</item>
+                           <item>
+                              <caption>•</caption>External heat and/or occlusive dressings should not be applied to treated joints.</item>
+                           <item>
+                              <caption>•</caption>Exposure of the treated joint(s) to sunlight should be avoided.</item>
+                           <item>
+                              <caption>•</caption>Avoid concomitant use of VOLTAREN® GEL on the treated skin with other topical products including sunscreens, cosmetics, lotions, moisturizers, insect repellants, or other topical medications <linkHtml href="#i4i_section_id_0b9664e4-82f2-45d2-90b5-c07f4de4cacc">[see Drug Interactions (7.9)]</linkHtml>.</item>
+                           <item>
+                              <caption>•</caption>Concomitant use of VOLTAREN® GEL with oral non-steroidal anti-inflammatory drugs (NSAIDs) has not been evaluated, and may increase adverse NSAIDs effects. </item>
+                        </list>
+                        <paragraph>Wearing of clothing or gloves should be avoided for at least 10 minutes after applying VOLTAREN® GEL.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_8ff61c94-2b10-43ac-a9bd-a2eac6319a9c">
+               <id root="e7ccbb80-9dab-4f94-9c93-ce95327c1c8d"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>1% gel</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>1% gel</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_9007640d-0e8e-4d7d-bc2b-78825818283b">
+               <id root="25a5cd48-dd04-412a-b67e-b8fe487b7bb1"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>The use of VOLTAREN<sup>®</sup> GEL is contraindicated in patients with a known hypersensitivity to diclofenac.<br/>VOLTAREN<sup>®</sup> GEL should not be administered in patients who have experienced asthma, urticaria, or other allergic-type reactions after taking aspirin or other NSAIDs. Severe, rarely fatal, anaphylactic-like reactions to NSAIDs have been reported in such patients <content styleCode="italics">
+                        <linkHtml href="#i4i_section_id_49e09819-294d-49b1-9b14-b125f3d52e75">[see Warnings and Precautions (5.1)].</linkHtml>
+                     </content>
+                     <br/>VOLTAREN<sup>®</sup> GEL is contraindicated in the setting of coronary artery bypass graft (CABG) surgery <content styleCode="italics">
+                        <linkHtml href="#i4i_section_id_49e09819-294d-49b1-9b14-b125f3d52e75">[see Warnings and Precautions (5.1)]</linkHtml>
+                     </content>.</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Known hypersensitivity to diclofenac, aspirin, or other NSAIDs. (<linkHtml href="#i4i_contraindications_id_9007640d-0e8e-4d7d-bc2b-78825818283b">4</linkHtml>, <linkHtml href="#i4i_section_id_a4102012-8aad-42f2-ae2b-d063bfad095a">5.2</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>History of asthma, urticaria, or other allergic-type reactions after taking aspirin or other NSAIDs. (<linkHtml href="#i4i_contraindications_id_9007640d-0e8e-4d7d-bc2b-78825818283b">4</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Use during the peri-operative period in the setting of coronary artery bypass graft (CABG) surgery. (<linkHtml href="#i4i_contraindications_id_9007640d-0e8e-4d7d-bc2b-78825818283b">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_precautions_id_e1e0a576-4e0f-4910-9baf-2634bd70312d">
+               <id root="4331ee3f-b95b-4752-9001-5ddaafad0e7b"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Serious and potentially fatal cardiovascular (CV) thrombotic events, myocardial infarction, and stroke can occur with NSAID treatment. The lowest possible dose of VOLTAREN<sup>®</sup> GEL should be used in patients with known CV disease or risk factors for CV disease. (<linkHtml href="#i4i_section_id_49e09819-294d-49b1-9b14-b125f3d52e75">5.1</linkHtml>) </item>
+                           <item>
+                              <caption>•</caption>NSAIDs, including diclofenac, can cause serious gastrointestinal (GI) adverse events including inflammation, bleeding, ulceration, and perforation. VOLTAREN<sup>®</sup> GEL should be prescribed with caution in those with a prior history of ulcer disease or gastrointestinal bleeding. (<linkHtml href="#i4i_section_id_a4102012-8aad-42f2-ae2b-d063bfad095a">5.2</linkHtml>) </item>
+                           <item>
+                              <caption>•</caption>Elevation of one or more liver tests may occur during therapy with diclofenac. VOLTAREN<sup>®</sup> GEL should be discontinued immediately if abnormal liver tests persist or worsen. (<linkHtml href="#i4i_section_id_0a9173ed-25af-4d2b-82bb-261d39805daa">5.3</linkHtml>) </item>
+                           <item>
+                              <caption>•</caption>Long-term administration of NSAIDs can result in renal papillary necrosis and other renal injury. VOLTAREN<sup>®</sup> GEL should be used with caution in patients at greatest risk of this reaction, including the elderly, those with impaired renal function, heart failure, liver dysfunction, and those taking diuretics and ACE-inhibitors. (<linkHtml href="#i4i_section_id_f1ee462e-6625-4c06-891c-7be01a1f0393">5.6</linkHtml>) </item>
+                           <item>
+                              <caption>•</caption>Hypertension can occur with NSAID treatment. Blood pressure should be monitored closely during treatment with VOLTAREN<sup>®</sup> GEL. (<linkHtml href="#i4i_section_id_68f89947-6cce-42a2-8a95-c68923ec8c43">5.4</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Fluid retention and edema have been observed in some patients taking NSAIDs. VOLTAREN<sup>®</sup> GEL should be used with caution in patients with fluid retention or heart failure. (<linkHtml href="#i4i_section_id_b37dbc80-282c-4f05-a3c5-fa0c5009ddfa">5.5</linkHtml>) </item>
+                           <item>
+                              <caption>•</caption>Anaphylactoid reactions may occur in patients with the aspirin triad or in patients without prior exposure to VOLTAREN<sup>®</sup> GEL and should be discontinued immediately if an anaphylactoid reaction occurs. (<linkHtml href="#i4i_section_id_7ad48f2e-1ce4-4b56-8ba1-7c55afcb24dd">5.7</linkHtml>) </item>
+                           <item>
+                              <caption>•</caption>NSAIDs can cause serious skin adverse events such as exfoliative dermatitis, Stevens-Johnson Syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. VOLTAREN<sup>®</sup> GEL should be discontinued if rash or other signs of local skin reaction occur. (<linkHtml href="#i4i_section_id_98b6da27-fbd7-49e3-9270-daa411ed343c">5.8</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="i4i_section_id_49e09819-294d-49b1-9b14-b125f3d52e75">
+                     <id root="ff47c7a5-e791-49e8-bf7f-78f49439b105"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Cardiovascular Thrombotic Events</title>
+                     <text>
+                        <paragraph>Clinical trials of several COX-2 selective and nonselective NSAIDs of up to three years duration have shown an increased risk of serious cardiovascular (CV) thrombotic events, myocardial infarction, and stroke, which can be fatal. All NSAIDs, both COX-2 selective and nonselective, may have a similar risk. Patients with known CV disease or risk factors for CV disease may be at greater risk. To minimize the potential risk for an adverse CV event in patients treated with NSAIDs, the lowest effective dose should be used for the shortest duration possible. Physicians and patients should remain alert for the development of such events, even in the absence of previous CV symptoms. Patients should be informed about the signs and/or symptoms of serious CV toxicity and the steps to take if they occur. <br/>There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAIDs use. The concurrent use of aspirin and NSAIDs such as diclofenac, does increase the risk of serious GI events <content styleCode="italics">
+                              <linkHtml href="#i4i_section_id_a4102012-8aad-42f2-ae2b-d063bfad095a">[see Warnings and Precautions (5.2)]</linkHtml>
+                           </content>.<br/>Two large, controlled, clinical trials of a COX-2 selective NSAID for the treatment of pain in the first 10-14 days following CABG surgery found an increased incidence of myocardial infarction and stroke <content styleCode="italics">
+                              <linkHtml href="#i4i_contraindications_id_9007640d-0e8e-4d7d-bc2b-78825818283b">[see Contraindications (4)]</linkHtml>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_a4102012-8aad-42f2-ae2b-d063bfad095a">
+                     <id root="5077283c-69c3-409f-bd94-43170c01de81"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Gastrointestinal Effects – Risk of GI Ulceration, Bleeding, and Perforation</title>
+                     <text>
+                        <paragraph>NSAIDs, including diclofenac, can cause serious gastrointestinal (GI) events including bleeding, ulceration, and perforation of the stomach, small intestine or large intestine, which can be fatal. These serious adverse events can occur at any time, with or without warning symptoms, in patients treated with NSAIDs. Only one in five patients who develop a serious upper GI adverse event on NSAID therapy is symptomatic. Upper GI ulcers, gross bleeding, or perforation caused by NSAIDs occur in approximately 1% of patients treated for 3-6 months, and in about 2-4% of patients treated for one year. These trends continue with longer duration of use, increasing the likelihood of developing a serious GI event at some time during the course of therapy. However, even short-term therapy is not without risk.<br/>NSAIDs should be prescribed with extreme caution in patients with a prior history of ulcer disease or gastrointestinal bleeding. Patients with a prior history of peptic ulcer disease and/or gastrointestinal bleeding who use NSAIDs have a greater than 10-fold increased risk for developing a GI bleed compared to patients with neither of these risk factors. Other factors that increase the risk of GI bleeding in patients treated with NSAIDs include concomitant use of oral corticosteroids or anticoagulants, longer duration of NSAIDs therapy, smoking, use of alcohol, older age, and poor general health status. Most spontaneous reports of fatal GI events are in elderly or debilitated patients and therefore special care should be taken in treating this population.<br/>To minimize the potential risk for an adverse GI event, the lowest effective dose should be used for the shortest possible duration. Physicians and patients should remain alert for signs and symptoms of GI ulceration and bleeding during diclofenac therapy and promptly initiate additional evaluation and treatment if a serious GI adverse event is suspected. For high-risk patients, alternate therapies that do not involve NSAIDs should be considered.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_0a9173ed-25af-4d2b-82bb-261d39805daa">
+                     <id root="afd29d08-ffc4-4ea2-bd9c-66603f5a9d75"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Hepatic Effects</title>
+                     <text>
+                        <paragraph>Elevations of one or more liver tests may occur during therapy with diclofenac sodium. These laboratory abnormalities may progress, may remain unchanged, or may be transient with continued therapy. Borderline elevations (i.e. less than 3 times the ULN [ULN = the upper limit of normal range]) or greater elevations of transaminases occurred in about 15% of diclofenac-treated patients. Of the markers of hepatic function, ALT (SGPT) is recommended for the monitoring of liver injury.<br/>In clinical trials, meaningful elevations (i.e., more than 3 times the ULN) of AST (GOT) (ALT was not measured in all studies) occurred in about 2% of approximately 5,700 patients at some time during diclofenac treatment. In a large, open-label, controlled trial of 3,700 patients treated for 2-6 months, patients were monitored first at 8 weeks and 1,200 patients were monitored again at 24 weeks. Meaningful elevations of ALT and/or AST occurred in about 4% of patients and included marked elevations (i.e., more than 8 times the ULN) in about 1% of the 3,700 patients. In that open-label study, a higher incidence of borderline (less than 3 times the ULN), moderate (3-8 times the ULN), and marked (&gt;8 times the ULN) elevations of ALT or AST was observed in patients receiving diclofenac when compared to other NSAIDs. Elevations in transaminases were seen more frequently in patients with osteoarthritis than in those with rheumatoid arthritis.<br/>Almost all meaningful elevations in transaminases were detected before patients became symptomatic. Abnormal tests occurred during the first 2 months of therapy with diclofenac in 42 of the 51 patients in all trials who developed marked transaminase elevations.<br/>In postmarketing reports, cases of drug-induced hepatotoxicity have been reported in the first month, and in some cases, the first 2 months of therapy, but can occur at any time during treatment with diclofenac. Postmarketing surveillance has reported cases of severe hepatic reactions, including liver necrosis, jaundice, fulminant hepatitis with and without jaundice, and liver failure. Some of these reported cases resulted in fatalities or liver transplantation.<br/>Physicians should measure transaminases periodically in patients receiving long-term therapy with diclofenac, because severe hepatotoxicity may develop without a prodrome of distinguishing symptoms. The optimum times for making the first and subsequent transaminase measurements are not known. Based on clinical trial data and postmarketing experiences, transaminases should be monitored within 4 to 8 weeks after initiating treatment with diclofenac. However, severe hepatic reactions can occur at any time during treatment with diclofenac.<br/>If abnormal liver tests persist or worsen, if clinical signs and/or symptoms consistent with liver disease develop, or if systemic manifestations occur (e.g., eosinophilia, rash, abdominal pain, diarrhea, dark urine, etc.), diclofenac sodium should be discontinued immediately. To minimize the possibility that hepatic injury will become severe between transaminase measurements, physicians should inform patients of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, diarrhea, pruritus, jaundice, right upper quadrant tenderness, and “flu-like” symptoms), and the appropriate action patients should take if these signs and symptoms appear.<br/>To minimize the potential risk for an adverse liver related event in patients treated with diclofenac sodium, the lowest effective dose should be used for the shortest duration possible. Caution should be exercised in prescribing diclofenac sodium with concomitant drugs that are known to be potentially hepatotoxic (e.g., antibiotics, anti-epileptics).</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_68f89947-6cce-42a2-8a95-c68923ec8c43">
+                     <id root="e7681b28-09d2-4686-914a-b6f2b39a77dc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Hypertension</title>
+                     <text>
+                        <paragraph>NSAIDs, including VOLTAREN<sup>®</sup> GEL, can lead to the onset of new hypertension or worsening of preexisting hypertension, either of which may contribute to the increased incidence of cardiovascular events. Patients taking thiazides or loop diuretics may have impaired response to these therapies when taking NSAIDs. NSAIDs, including VOLTAREN<sup>® </sup>GEL should be used with caution in patients with hypertension. Blood pressure should be monitored closely during the initiation of therapy with VOLTAREN<sup>®</sup> GEL and throughout the course of therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_b37dbc80-282c-4f05-a3c5-fa0c5009ddfa">
+                     <id root="2a3e3c2d-34a0-419f-a487-86d8ce799f09"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Congestive Heart Failure and Edema</title>
+                     <text>
+                        <paragraph>Fluid retention and edema have been observed in some patients treated with NSAIDs, including VOLTAREN<sup>®</sup> GEL. VOLTAREN<sup>®</sup> GEL should be used with caution in patients with fluid retention or heart failure.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_f1ee462e-6625-4c06-891c-7be01a1f0393">
+                     <id root="273a8712-e4c8-4d22-a7a4-da45e0c8675f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Renal Effects</title>
+                     <text>
+                        <paragraph>Long-term administration of NSAIDs has resulted in renal papillary necrosis and other renal injury. Renal toxicity has also been seen in patients in whom renal prostaglandins have a compensatory role in the maintenance of renal perfusion. In these patients, administration of an NSAID may cause a dose-dependent reduction in prostaglandin formation and, secondarily, in renal blood flow, which may precipitate overt renal decompensation. Patients at greatest risk of this reaction are those with impaired renal function, heart failure, liver dysfunction, those taking diuretics and ACE-inhibitors, and the elderly. Discontinuation of NSAID therapy is usually followed by recovery to the pretreatment state. <br/>No information is available from controlled clinical studies regarding the use of VOLTAREN<sup>®</sup> GEL in patients with advanced renal disease. Therefore, treatment with VOLTAREN<sup>®</sup> GEL is not recommended in patients with advanced renal disease. If VOLTAREN<sup>®</sup> GEL therapy is initiated, close monitoring of the patient's renal function is advisable.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_7ad48f2e-1ce4-4b56-8ba1-7c55afcb24dd">
+                     <id root="32f65161-46b0-466d-b944-5c7f788ea3ae"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7 Anaphylactoid Reactions</title>
+                     <text>
+                        <paragraph>As with other NSAIDs, anaphylactoid reactions may occur in patients without prior exposure to VOLTAREN<sup>®</sup> GEL. VOLTAREN<sup>®</sup> GEL should not be given to patients with the aspirin triad. This symptom complex typically occurs in asthmatic patients who experience rhinitis with or without nasal polyps, or who exhibit severe, potentially fatal bronchospasm after taking aspirin or other NSAIDs <content styleCode="italics">
+                              <linkHtml href="#i4i_contraindications_id_9007640d-0e8e-4d7d-bc2b-78825818283b">[see Contraindications (4)</linkHtml>
+                           </content>
+                           <content styleCode="underline">, </content>
+                           <content styleCode="italics">
+                              <linkHtml href="#i4i_section_id_7ad48f2e-1ce4-4b56-8ba1-7c55afcb24dd">Warnings and Precautions (5.7)</linkHtml>
+                              <content styleCode="underline">]</content>. </content>Emergency help should be sought in cases where an anaphylactoid reaction occurs.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_98b6da27-fbd7-49e3-9270-daa411ed343c">
+                     <id root="0f113a46-cad4-4d5d-8409-2449711f8377"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.8 Skin Reactions</title>
+                     <text>
+                        <paragraph>NSAIDs, including VOLTAREN<sup>®</sup> GEL, can cause serious skin adverse events such as exfoliative dermatitis, Stevens-Johnson Syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. These serious events may occur without warning. Patients should be informed about the signs and symptoms of serious skin manifestations, and the use of the drug should be discontinued at the first appearance of skin rash or any other signs of hypersensitivity. <br/>VOLTAREN<sup>®</sup> GEL should not be applied to open skin wounds, infections, inflammations, or exfoliative dermatitis, as it may affect absorption and tolerability of the drug. VOLTAREN<sup>®</sup> GEL should not be allowed to come into contact with the eyes or with mucous membranes.<br/>The effect of VOLTAREN<sup>®</sup> GEL under occlusive dressings has not been evaluated, and should be avoided.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_duplicate_id_97075c3c-776c-4b20-a05f-65d83c7d060f">
+                     <id root="88be06e3-d0a0-4010-9c86-ddb65473b9e0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.9 Pregnancy</title>
+                     <text>
+                        <paragraph>As with other NSAIDs, VOLTAREN<sup>®</sup> GEL should be avoided in late pregnancy, because it may cause premature closure of the ductus arteriosus.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_7428645c-e0eb-41a1-a589-c2e5cfb79b74">
+                     <id root="7fe24674-2e29-4df0-b121-92516f1a53cd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.10 Corticosteroid treatment</title>
+                     <text>
+                        <paragraph>VOLTAREN<sup>®</sup> GEL cannot be expected to substitute for corticosteroids or to treat corticosteroid insufficiency. Abrupt discontinuation of corticosteroids may lead to exacerbation of corticosteroid-responsive illness. Patients on prolonged corticosteroid therapy should have their therapy tapered slowly if a decision is made to discontinue corticosteroids.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_c4a26d6d-1289-48c8-a51f-3282b1759948">
+                     <id root="2dfdbd4d-14d2-4d00-94da-63fe565d6d80"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.11 Inflammation</title>
+                     <text>
+                        <paragraph>The pharmacological activity of diclofenac in reducing inflammation, and possibly fever, may diminish the utility of these diagnostic signs in detecting infectious complications of presumed noninfectious, painful conditions.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_eb3f349f-a22c-4302-b87c-31f200a93236">
+                     <id root="e9bce185-4aeb-4e06-80a2-548baf00e0cf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.12 Hematological Effects</title>
+                     <text>
+                        <paragraph>Anemia is sometimes seen in patients receiving NSAIDs. This may be due to fluid retention, occult or gross GI blood loss, or an incompletely described effect upon erythropoeisis. Patients on long-term treatment with NSAIDs, including VOLTAREN<sup>®</sup> GEL, should have their hemoglobin or hematocrit checked if they exhibit any signs or symptoms of anemia or blood loss.<br/>NSAIDs inhibit platelet aggregation and have been shown to prolong bleeding time in some patients. Unlike aspirin, their effect on platelet function is quantitatively less, of shorter duration, and reversible. Patients treated with VOLTAREN<sup>®</sup> GEL who may be adversely affected by alteration in platelet function, such as those with coagulation disorders or patients receiving anticoagulants should be carefully monitored.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_b9ed9219-c4fd-45a3-a063-2ab4ffb72b93">
+                     <id root="41287045-ed08-446b-a473-bd29e274cab3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.13 Preexisting Asthma</title>
+                     <text>
+                        <paragraph>Patients with asthma may have aspirin-sensitive asthma. The use of aspirin in patients with aspirin sensitive asthma has been associated with severe bronchospasm, which can be fatal. Since cross reactivity, including bronchospasm, between aspirin and other non-steroidal anti-inflammatory drugs has been reported in such aspirin-sensitive patients, VOLTAREN<sup>®</sup> GEL should not be administered to patients with this form of aspirin sensitivity and should be used with caution in patients with preexisting asthma.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_e2611104-d82d-42e7-b813-586c4dbff5ed">
+                     <id root="df3d2eea-8653-41fd-8ed3-910ab1e8f29a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.14 Sun Exposure</title>
+                     <text>
+                        <paragraph>Patients should minimize or avoid exposure to natural or artificial sunlight on treated areas because studies in animals indicated topical diclofenac treatment resulted in an earlier onset of ultraviolet light induced skin tumors. The potential effects of VOLTAREN<sup>®</sup> GEL on skin response to ultraviolet damage in humans are not known.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_ba878a7f-5624-4411-be01-2f9fbe18d0dc">
+                     <id root="cb92a8f1-5924-4753-b2e5-e2152d58f269"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.15 Eye Exposure</title>
+                     <text>
+                        <paragraph>Contact of VOLTAREN<sup>®</sup> GEL with eyes and mucosa, although not studied, should be avoided. Patients should be advised that if eye contact occurs, they should immediately wash out the eye with water or saline and consult a physician if irritation persists for more than an hour.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_lab_tests_id_4410d14d-7d2f-49ca-b0a6-a6c0c0fed1dc">
+                     <id root="daf0328b-5e97-4862-9704-8b1e0b0bb9ad"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>5.16 Laboratory Tests</title>
+                     <text>
+                        <paragraph>Because serious GI tract ulcerations and bleeding can occur without warning symptoms, physicians should monitor for signs or symptoms of GI bleeding. Patients on long-term treatment with NSAIDs, should have a CBC and a chemistry profile checked periodically. If abnormal liver tests or renal tests persist or worsen, VOLTAREN<sup>®</sup> GEL should be discontinued.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_1f7f34c0-f816-4cee-972c-db1ff84fc445">
+               <id root="2c11fb57-2d52-438f-ad3b-2ed9f9428f28"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (incidence &gt;2% of patients treated with VOLTAREN<sup>®</sup> GEL and greater than placebo) are application site reactions, including dermatitis. <linkHtml href="#_Ref">(6.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Sandoz Inc. at 1-800-398-5876 or FDA at 1-800-FDA-1088 or </content>
+                           <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch</linkHtml>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="i4i_section_id_07edaec4-a76f-4f1e-8ac2-5303a09bdf8e">
+                     <id root="87ab8a98-b00d-4d3a-bf7a-5dce17517e7c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared with rates in the clinical trials of another drug and may not reflect the rates observed in practice.<br/>During clinical development, 913 patients were exposed to VOLTAREN<sup>®</sup> GEL in randomized, double-blind, multicenter, vehicle-controlled, parallel-group studies in osteoarthritis of the superficial joints of the extremities. Of these, 513 patients received VOLTAREN<sup>®</sup> GEL for osteoarthritis of the knee and 400 were treated for osteoarthritis of the hand. Additionally, 583 patients were exposed to VOLTAREN<sup>®</sup> GEL in an uncontrolled, open-label, long-term safety trial in osteoarthritis of the knee. Of these, 355 patients were treated for osteoarthritis of 1 knee and 228 were treated for osteoarthritis of both knees. Duration of exposure ranged from 8 to 12 weeks for the placebo-controlled studies, and up to 12 months for the open-label safety trial.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="underline">Short-Term Placebo-Controlled Trials:</content>
+                           </content>
+                           <br/>
+                           <content styleCode="italics">Adverse reactions observed in at least 1% of patients treated with VOLTAREN<sup>®</sup> GEL: </content>Non-serious adverse reactions that were reported during the short-term placebo-controlled studies comparing VOLTAREN<sup>®</sup> GEL and placebo (vehicle gel) over study periods of 8 to 12 weeks (16 g per day), were application site reactions. These were the only adverse reactions that occurred in &gt; 1% of treated patients with a greater frequency in the VOLTAREN<sup>®</sup> GEL group (7%) than the placebo group (2%). <br/>Table 1 lists the types of application site reactions reported. Application site dermatitis was the most frequent type of application site reaction and was reported by 4% of patients treated with VOLTAREN<sup>®</sup> GEL, compared to 1% of placebo patients.</paragraph>
+                        <table ID="_Refid_4fdfb671-7c49-4675-802b-5d28aa373" width="100%">
+                           <caption>Table 1: Non-serious Application Site Adverse Reactions (≥1% Voltaren<sup>®</sup> Gel Patients) – Short-term Controlled Trials</caption>
+                           <col width="45%"/>
+                           <col width="25%"/>
+                           <col width="30%"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Adverse Reaction<sup>†</sup>
+                                       </content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Voltaren<sup>®</sup> Gel</content>
+                                       <br/>
+                                       <content styleCode="bold">N = 913</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Placebo (vehicle)</content>
+                                       <br/>
+                                       <content styleCode="bold">N = 876</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>N (%)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>N (%)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="italics">Any application site reaction</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="italics">62 (7)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="italics">19 (2)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Application site dermatitis</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>32 (4)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>6 (&lt;1)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Application site pruritus</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>7 (&lt;1)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1 (&lt;1)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Application site erythema</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>6 (&lt;1)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>3 (&lt;1)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Application site paresthesia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>5 (&lt;1)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>3 (&lt;1)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Application site dryness</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>4 (&lt;1)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>3 (&lt;1)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Application site vesicles</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>3 (&lt;1)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>0 </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Application site irritation </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>2 (&lt;1)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>0 </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>Application site papules</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>1 (&lt;1)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>0 </paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <sup>†</sup>
+                           </content>Preferred Term according to MedDRA 9.1.</paragraph>
+                        <paragraph>In the placebo-controlled trials, the discontinuation rate due to adverse reactions was 5% for patients treated with VOLTAREN<sup>®</sup> GEL, and 3% for patients in the placebo group. Application site reactions, including application site dermatitis, were the most frequent reason for treatment discontinuation. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="underline">Long-term Open-label Safety Trial:</content>
+                           </content>
+                           <br/> In the open-label, long-term safety study, distribution of adverse reactions was similar to that in the placebo-controlled studies. In this study, where patients were treated for up to 1 year with VOLTAREN<sup>®</sup> GEL up to 32 g per day, application site dermatitis was observed in 11% of patients. Adverse reactions that led to the discontinuation of the study drug were experienced in 12% of patients. The most common adverse reaction that led to discontinuation of the study was application site dermatitis, which was experienced by 6% of patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_interactions_id_5eff9203-05e7-43ce-a6ec-9035a133d5a3">
+               <id root="2f6b6768-a316-45c5-ad60-07c893ce47b9"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20181201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Concomitant administration of diclofenac and aspirin is not generally recommended because of the potential of increased adverse effects including increased GI bleeding. (<linkHtml href="#_Ref">7.1</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Concomitant use of anticoagulants and diclofenac have a risk of serious GI bleeding higher than users of either drug alone. (<linkHtml href="#i4i_section_id_8ac73136-afe4-47e3-ad8d-38c5f1d905ac">7.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="i4i_section_id_e2234142-54fb-4177-9378-032948bcb783">
+                     <id root="276c3075-fc9c-4fea-b185-b501fab8189a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Aspirin</title>
+                     <text>
+                        <paragraph>When diclofenac is administered with aspirin, the binding of diclofenac to protein is reduced, although the clearance of free diclofenac is not altered. The clinical significance of this interaction is not known; however, as with other NSAIDs, concomitant administration of diclofenac and aspirin is not generally recommended because of the potential of increased adverse effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_8ac73136-afe4-47e3-ad8d-38c5f1d905ac">
+                     <id root="9eccd329-aea8-4180-bd77-481dd10831d0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2 Anticoagulants</title>
+                     <text>
+                        <paragraph>The effects of anticoagulants such as warfarin and NSAIDs on GI bleeding are synergistic, such that users of both drugs together have a risk of serious GI bleeding higher than users of either drug alone. </paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_3106cb1e-5b6d-46f9-ae6e-3b95764b573b">
+                     <id root="3b5413c8-8d58-4a83-bcad-e23d73ea635f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.3 ACE-Inhibitors</title>
+                     <text>
+                        <paragraph>NSAIDs may diminish the antihypertensive effect of angiotensin converting enzyme (ACE) inhibitors. This interaction should be given consideration in patients taking NSAIDs concomitantly with ACE-inhibitors.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_c59fcf58-1240-4469-b855-21527dcc3c5e">
+                     <id root="18fdcb54-2cd0-4395-b8ea-53b5e082ee35"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.4 Diuretics</title>
+                     <text>
+                        <paragraph>Clinical studies, as well as post-marketing observations, have shown that NSAIDs can reduce the natriuretic effect of furosemide and thiazides in some patients. The response has been attributed to inhibition of renal prostaglandin synthesis. During concomitant therapy with NSAIDs, the patient should be observed closely for signs of renal failure <content styleCode="italics">
+                              <linkHtml href="#i4i_section_id_f1ee462e-6625-4c06-891c-7be01a1f0393">[see Warnings and Precautions (5.6)]</linkHtml>
+                           </content>, as well as to assure diuretic efficacy.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_966510fe-dc50-43c4-86ab-4eab1aae5046">
+                     <id root="f70059ff-408f-44f8-a452-d4296c847d68"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.5 Lithium</title>
+                     <text>
+                        <paragraph>NSAIDs have produced an elevation of plasma lithium levels and a reduction in renal lithium clearance. The mean minimum lithium concentration increased 15% and the renal clearance was decreased by approximately 20%. These effects have been attributed to inhibition of renal prostaglandin synthesis by the NSAID. Thus, when NSAIDs, including diclofenac, and lithium are administered concurrently, patients should be observed carefully for signs of lithium toxicity.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_ffacd227-3325-4eb0-b791-3509e2a70245">
+                     <id root="7ce3b701-77cd-4f7f-b9e7-d7ebde7067e5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.6 Methotrexate</title>
+                     <text>
+                        <paragraph>NSAIDs have been reported to competitively inhibit methotrexate accumulation in rabbit kidney slices. This may indicate that they could enhance the toxicity of methotrexate. Caution should be used when NSAIDs, including diclofenac, are administered concomitantly with methotrexate. </paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_f9e4a98f-c05f-421c-b348-017485eee585">
+                     <id root="f8471663-2654-4dc5-b437-9a7bf53e7ec5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.7 Cyclosporine</title>
+                     <text>
+                        <paragraph>Diclofenac, like other NSAIDs, may affect renal prostaglandins and increase the toxicity of certain drugs. Therefore concomitant therapy with diclofenac may increase cyclosporine’s nephrotoxicity. Caution should be used when diclofenac is administered concomitantly with cyclosporine.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_b5df0bcd-eb4a-4e5b-9e31-a66e266d6c69">
+                     <id root="0a63186b-8ff3-4bd5-916f-fc940800c15c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.8 Oral Nonsteroidal Anti-inflammatory Drugs</title>
+                     <text>
+                        <paragraph>Specific interaction studies of VOLTAREN<sup>®</sup> GEL and oral NSAIDs were not performed. Also, the clinical trials of VOLTAREN<sup>®</sup> GEL prohibited concomitant use of oral NSAIDS. There is systemic exposure to diclofenac following normal use of Voltaren® Gel, up to 6% of the systemic levels of a single oral dose of diclofenac sodium. <content styleCode="italics">
+                              <linkHtml href="#i4i_pharmacokinetics_id_810ab500-4e0e-414f-b5d8-04ea5541bdc3">[see Clinical Pharmacology (12.3)]</linkHtml>
+                           </content>Therefore, concomitant administration of VOLTAREN<sup>®</sup> GEL with oral NSAIDs or aspirin may result in increased adverse NSAID effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_0b9664e4-82f2-45d2-90b5-c07f4de4cacc">
+                     <id root="ffcff15b-6ca5-4ace-93cb-bddc4b0d1f5d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.9 Topical Treatments</title>
+                     <text>
+                        <paragraph>Concomitant use of VOLTAREN<sup>®</sup> GEL with other topical products, including topical medications, sunscreens, lotions, moisturizers, and cosmetics, on the same skin site has not been tested and should be avoided because of the potential to alter local tolerability and absorption.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_specific_populations_id_f7edbf10-9cce-40a6-95eb-2c9a5c09f811">
+               <id root="00eb0f9c-3f73-4ca4-9e16-83311d11ac3e"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="i4i_pregnancy_id_326a1e4d-7236-43ad-9658-b0fa98d87004">
+                     <id root="989a5312-83bb-45ba-bcba-18483c0b0769"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>The safety of VOLTAREN<sup>®</sup> GEL has not been established during pregnancy. There are no well-controlled studies of diclofenac in pregnant women. Human and animal studies indicate that diclofenac crosses the placenta. In late pregnancy, as with other NSAIDs, VOLTAREN<sup>®</sup> GEL should be avoided because it may cause premature closure of the ductus arteriosus.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Teratogenic Effects</content>
+                           <br/>Pregnancy Category C: Studies in mice, rats, and rabbits in which diclofenac was administered orally throughout gestation revealed no evidence of teratogenicity despite the induction of maternal toxicity and fetal toxicity corresponding to a human equivalent dose approximately 4.5-, 2-, and 9-fold (mouse, rat, rabbit, respectively) of the maximum human topical dose of VOLTAREN<sup>®</sup> GEL (based on bioavailability and body surface area comparison).</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Nonteratogenic Effects</content>
+                           <br/>The use of diclofenac, as with other NSAIDs, is associated with the adverse fetal cardiovascular effect of premature closure of the ductus arteriosus.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_labour_delivery_id_737a4f63-5266-477c-b94e-faeb41ec7d32">
+                     <id root="bd64017d-bdbb-45a6-9ba9-73f40211113a"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>8.2 Labor and Delivery</title>
+                     <text>
+                        <paragraph>In rat studies with oral NSAIDs, including diclofenac, as with other drugs known to inhibit prostaglandin synthesis, there is an increased incidence of dystocia and delayed parturition corresponding to a human equivalent dose approximately similar to the maximum recommended clinical dose (based on bioavailability and body surface area comparison). The effects of VOLTAREN<sup>®</sup> GEL on labor and delivery in pregnant women are unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_854913b6-f99b-4877-970e-d2f0ea6d0ec0">
+                     <id root="ebab8c17-2d55-4cd8-abef-1d796089d552"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>8.3 Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether diclofenac is excreted in human milk; however, studies in animals detected diclofenac in the milk after oral administration. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from VOLTAREN<sup>®</sup> GEL a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_b7ef260c-9ed4-40bf-8f95-f512b8ac96ef">
+                     <id root="c5809641-d83b-4bc5-88fd-4b3e5efa0768"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_geriatric_use_id_3f8be6ec-db6f-4401-84bb-dad85bec341d">
+                     <id root="bdecf32b-539a-4ca7-865f-59ac86ad67e6"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Of the total number of subjects treated with VOLTAREN<sup>®</sup> GEL in clinical studies, 498 were 65 years of age and over. No overall differences in effectiveness or safety were observed between these subjects and younger subjects, but greater sensitivity to the effect of NSAIDs in some older individuals cannot be ruled out.<br/>Diclofenac, as with any NSAID, is known to be substantially excreted by the kidney, and the risk of toxic reactions to VOLTAREN<sup>®</sup> GEL may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken when using VOLTAREN<sup>®</sup> GEL in the elderly, and it may be useful to monitor renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_fff5003a-fbce-447c-9556-204a7802ff0c">
+               <id root="1888def9-1d87-4db3-8bb9-09e1e9ffa3b3"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>There has been no experience of overdose with VOLTAREN<sup>®</sup> GEL.<br/>No events of accidental ingestion have been reported with VOLTAREN<sup>®</sup> GEL. Effects similar to those observed after an overdose of diclofenac tablets can be expected if substantial amounts of VOLTAREN<sup>®</sup> GEL are ingested. Symptoms following acute oral NSAID overdoses are usually limited to lethargy, drowsiness, nausea, vomiting, and epigastric pain, which are generally reversible with supportive care. Gastrointestinal bleeding can occur. Hypertension, acute renal failure, respiratory depression, and coma may occur. Anaphylactoid reactions have been reported with therapeutic ingestion of NSAIDs, and may occur after an overdose. <br/>In the event of oral ingestion resulting in significant systemic side effects, it is recommended that the stomach be emptied by vomiting or lavage. Forced diuresis may theoretically be beneficial because the drug is excreted in the urine. The effect of dialysis or hemoperfusion in the elimination of diclofenac (99% protein-bound) remains unproven. In addition to supportive measures, the use of oral activated charcoal may help to reduce the absorption of diclofenac. Supportive and symptomatic treatment should be given for complications such as renal failure, convulsions, gastrointestinal irritation, and respiratory depression. <br/>For additional information about overdose treatment, call a Poison Control Center (1-800-222-1222).</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_a3ba4a65-c0a9-4543-b2d4-ad93a7ae13ca">
+               <id root="5d268166-a764-4bd4-8b8c-03d58b166e40"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>VOLTAREN<sup>®</sup> GEL (diclofenac sodium topical gel) is a nonsteroidal anti-inflammatory drug (NSAID) for topical use only. It contains the active ingredient, diclofenac sodium, in an opaque, white gel base. Diclofenac sodium is a white to slightly yellow crystalline powder. Diclofenac sodium is a benzene–acetic acid derivative. The chemical name is 2-[(2,6-dichlorophenyl)amino]benzeneacetic acid, monosodium salt. The molecular weight is 318.14. Its molecular formula is C<sub>14</sub>H<sub>10</sub>Cl<sub>2</sub>NNaO<sub>2</sub>. It has the following structural formula:</paragraph>
+                  <renderMultiMedia ID="id708" referencedObject="C6EF923F-221E-4217-B953-3FB9519079D0"/>
+                  <paragraph>VOLTAREN<sup>®</sup> GEL also contains carbomer homopolymer Type C, cocoyl caprylocaprate, fragrance, isopropyl alcohol, mineral oil, polyoxyl 20 cetostearyl ether, propylene glycol, purified water, and strong ammonia solution.</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <observationMedia ID="C6EF923F-221E-4217-B953-3FB9519079D0">
+                     <text>Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="49eb4b61-9e67-48ee-871d-d3d42c36c813-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_43474af3-5d1f-4187-895e-642bf42eb4df">
+               <id root="77ab2e7e-8d4b-4103-bb67-a7e5f549487c"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="i4i_mechanism_action_id_bdac5d17-e285-45a5-8979-52695860cae1">
+                     <id root="4ddab78a-2495-4499-a4fc-62e274e1b94d"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>The mechanism of action of diclofenac is similar to that of other non-steroidal anti-inflammatory drugs. Diclofenac inhibits the enzyme, cyclooxygenase (COX), an early component of the arachidonic acid cascade, resulting in the reduced formation of prostaglandins, thromboxanes and prostacylin. It is not completely understood how reduced synthesis of these compounds results in therapeutic efficacy.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pharmacodynamics_id_d459bd3c-6703-401d-81ef-306e5b105989">
+                     <id root="df11971c-1478-402e-a3ef-8f59c774172b"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Diclofenac, the active component of VOLTAREN<sup>®</sup> GEL has anti-inflammatory, anti-nociception, and antipyretic effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pharmacokinetics_id_810ab500-4e0e-414f-b5d8-04ea5541bdc3">
+                     <id root="82457965-016b-4162-a1ae-2f5073a58bcc"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>The pharmacokinetics of VOLTAREN<sup>®</sup> GEL were assessed in healthy volunteers following repeated applications during 7 days of VOLTAREN<sup>®</sup> GEL to 1 knee (4 x 4 g per day) or to 2 knees and 2 hands (4 x 12 g per day) versus the recommended oral dose of diclofenac sodium for the treatment of osteoarthritis (3 x 50 mg per day). A summary of the pharmacokinetic parameters is presented in Table 2.</paragraph>
+                        <table ID="_Refid_fdce4412-b38a-489d-9735-ca2b17208" width="100%">
+                           <caption>Table 2. Pharmacokinetic Parameters and Comparison of Voltaren<sup>®</sup> Gel to Oral Diclofenac Sodium Tablets After Repeated Administration</caption>
+                           <col width="29%"/>
+                           <col width="25%"/>
+                           <col width="19%"/>
+                           <col width="28%"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Treatment</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">C<sub>max</sub> (ng/mL)</content>
+                                       <br/>
+                                       <content styleCode="bold">Mean ± SD</content>
+                                       <br/>
+                                       <content styleCode="bold">% of Oral (CI)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">t<sub>max</sub> (hr)</content>
+                                       <br/>
+                                       <content styleCode="bold">Median (range)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">AUC<sub>0-24</sub> (ng•h/mL)</content>
+                                       <br/>
+                                       <content styleCode="bold">Mean ± SD</content>
+                                       <br/>
+                                       <content styleCode="bold">% of Oral (CI)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Voltaren<sup>®</sup> Gel <br/>4 x 4 g per day <br/>(=160 mg diclofenac sodium per day)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>15± 7.3<br/>0.6% </paragraph>
+                                    <paragraph>(0.5-0.7)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>14 (0-24)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>233 ± 128<br/>5.8% <br/>(5-6.7)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Voltaren<sup>®</sup> Gel <br/>4 x 12 g per day <br/>(=480 mg diclofenac sodium per day)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>53.8 ± 32<br/>2.2% <br/>(1.9-2.6)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>10 (0-24)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>807 ± 478<br/>19.7% <br/>(17-22.8)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>Diclofenac sodium tablets, orally<br/>3 x 50 mg<content styleCode="bold"> </content>per day <br/>(=150 mg diclofenac sodium per day)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>2270 ± 778<br/>100%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>6.5 (1-14)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>3890 ± 1710<br/>100%</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>      C<sub>max</sub> = maximum plasma concentration; t<sub>max</sub> = time of C<sub>max</sub>;<sub> </sub>AUC<sub>0-24</sub> = area </paragraph>
+                        <paragraph>      under the concentration-time curve; SD = standard deviation; CI = confidence interval.</paragraph>
+                        <paragraph>Systemic exposure (area under the concentration-time curve) and maximum plasma concentrations of diclofenac are significantly lower with VOLTAREN<sup>®</sup> GEL than with comparable oral treatment of diclofenac sodium.<br/>Systemic exposure with recommended use of VOLTAREN<sup>®</sup> GEL (4 x 4 g per day applied to 1 knee) is on average 17 times lower than with oral treatment. (Basis: treatment with VOLTAREN<sup>®</sup> GEL of 1 knee, 4 times a day versus 50 mg, 3 times a day of oral diclofenac tablets). The amount of diclofenac sodium that is systemically absorbed from VOLTAREN<sup>®</sup> GEL is on average 6% of the systemic exposure from an oral form of diclofenac sodium.<br/>The average peak plasma concentration with recommended use of VOLTAREN<sup>®</sup> GEL (4 x 4 g per day applied to 1 knee) is 158 times lower than with the oral treatment. <br/>The pharmacokinetics of VOLTAREN<sup>®</sup> GEL has been tested under conditions of moderate heat (application of a heat patch for 15 minutes prior to gel application) and of moderate exercise (first gel application followed by a 20-minute treadmill exercise). No clinically relevant differences of systemic absorption and of tolerability were found between applications of VOLTAREN<sup>®</sup> GEL (4 x 4 g per day on 1 knee) with and under the conditions tested. However, the pharmacokinetics of VOLTAREN<sup>®</sup> GEL were not tested under the condition of heat application following gel application. Therefore, concurrent use of VOLTAREN<sup>®</sup> GEL and heat is not recommended.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_nonclinical_toxicology_id_914ebabf-5d76-408d-9d8d-69dc0570f3a2">
+               <id root="09c0341b-1cdf-41bd-9b32-08cad5b1f924"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="i4i_carcinogenesis_mutagenesis_fertility_id_8e8b1d83-1940-437e-aa59-ad8ad83dde5e">
+                     <id root="df4219e6-e4d8-46ba-ae86-b94fcb199bb2"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Carcinogenicity studies in mice and rats administered diclofenac sodium as a dietary constituent for 2 years at does up to 2 mg/kg/day resulted in no significant increases in tumor incidence corresponding to a human equivalent dose approximately 0.5- and 1-fold (mouse and rat, respectively) of the maximum human topical dose of VOLTAREN<sup>®</sup> GEL (based on bioavailability and body surface area comparison). </paragraph>
+                        <paragraph>In a dermal carcinogenicity study conducted in albino mice, daily topical applications of a diclofenac sodium gel product for two years at concentrations up to 0.035% diclofenac sodium (a 29-fold lower diclofenac sodium concentration than present in VOLTAREN<sup>®</sup> GEL) did not increase neoplasm incidence.</paragraph>
+                        <paragraph>In a photococarcinogenicity study conducted in hairless mice, topical application of a diclofenac sodium gel product at doses up to 0.035% diclofenac sodium (a 29-fold lower diclofenac sodium concentration than present in VOLTAREN<sup>®</sup> GEL) resulted in an earlier median time of onset of tumors. <br/>Diclofenac was not mutagenic or clastogenic in a battery of genotoxicity tests that included the bacterial reverse mutation assay, <content styleCode="italics">in vitro </content>mouse lymphoma point mutation assay, chromosomal aberration studies in Chinese hamster ovarian cells <content styleCode="italics">in vitro</content>, and <content styleCode="italics">in vivo </content>rat chromosomal aberration assay of bone marrow cells.<br/>Diclofenac did not affect male or female fertility in rats at doses up to 4 mg/kg/day which induced toxicity, corresponding to a human equivalent dose approximately 2-fold greater than the maximum human topical dose of VOLTAREN<sup>®</sup> GEL (based on bioavailability and body surface area comparison). </paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_studies_id_90f71699-ab69-4757-8a3d-1ebb25c04256">
+               <id root="ab184f6f-60d8-4c24-98d7-14ac6eea6f1a"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="i4i_section_id_66380812-140c-45cd-85da-6616ce0195b4">
+                     <id root="da8c495a-98df-4c8f-a4cc-e6ba453c95d4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.1 Pivotal Studies in Osteoarthritis of the Superficial Joints of the Extremities</title>
+                     <text>
+                        <paragraph>Study 1 evaluated the efficacy of VOLTAREN<sup>®</sup> GEL for the treatment of osteoarthritis of the knee in a 12-week, randomized, double-blind, multicenter, placebo-controlled, parallel-group trial. VOLTAREN<sup>®</sup> GEL was administered at a dose of 4 g, 4 times daily, on 1 knee (16 g per day). Pain as assessed by the patients at Week 12 using the WOMAC (Western Ontario and McMaster Universities Osteoarthritis Index) Pain Subindex was lower in the VOLTAREN<sup>®</sup> GEL group than the placebo group.<br/>Study 2 evaluated the efficacy of VOLTAREN<sup>®</sup> GEL for the treatment of osteoarthritis in subjects with osteoarthritis of the hand in an 8-week, randomized, double-blind, multicenter, placebo-controlled, parallel-group study. VOLTAREN<sup>® </sup>GEL was administered at a dose of 2 g per hand, 4 times daily, on both hands (16 g per day). Pain in the target hand as assessed by the patients at Weeks 4 and 6 on a visual analog scale from 0 to 100 was lower in the VOLTAREN<sup>®</sup> GEL group than the placebo group.</paragraph>
+                        <table ID="_Refid_74ad4bf9-67ff-405a-94b9-311dbc7a4" width="100%">
+                           <caption>Table 3. Efficacy outcomes of Voltaren<sup>®</sup> Gel in Studies 1 and 2</caption>
+                           <col width="20%"/>
+                           <col width="20%"/>
+                           <col width="20%"/>
+                           <col width="20%"/>
+                           <col width="21%"/>
+                           <tbody>
+                              <tr>
+                                 <td colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="top"/>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Voltaren<sup>®</sup> Gel</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Placebo (Vehicle)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Adjusted Difference (Placebo - Voltaren<sup>®</sup> Gel )</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Study 1 (Knee)</content>
+                                       <br/>
+                                       <content styleCode="bold">WOMAC Pain <sup>* # </sup>
+                                       </content>
+                                       <br/>
+                                       <content styleCode="bold">at Week 12</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Sample Size</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>127</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>119</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Mean outcome</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>28</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>37</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>∆ = 7<sup>†</sup>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>95% confidence interval</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>(1, 12)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Study 2 (Hand)</content>
+                                       <br/>
+                                       <content styleCode="bold">Pain Intensity <sup>#</sup>
+                                       </content>
+                                       <br/>
+                                       <content styleCode="bold">at Week 4</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Sample size</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>198</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>187</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Mean outcome</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>43</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>50</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>∆ = 7 <sup>††</sup>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph> 95% confidence interval</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>(2, 12)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Study 2 (Hand)</content>
+                                       <br/>
+                                       <content styleCode="bold">Pain Intensity <sup>#</sup>
+                                       </content>
+                                       <br/>
+                                       <content styleCode="bold">at Week 6</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Sample size</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>198</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>187</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Mean outcome</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>40</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>47</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>∆ = 7 <sup>††</sup>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph> 95% confidence interval</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top"/>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top"/>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>(1, 13)</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>* WOMAC = Western Ontario McMaster Osteoarthritis Index.</paragraph>
+                        <paragraph># Scale from 0 (best) to 100 (worst), </paragraph>
+                        <paragraph>† Difference is adjusted using an analysis of covariance (ANCOVA) model with main effects of treatment and center and baseline covariate.</paragraph>
+                        <paragraph>†† Difference is adjusted using an analysis of covariance (ANCOVA) model with main effects of treatment, center, indicator for pain in the CMC-1 joint, and baseline as a covariate, and the treatment-by-CMC-1 indicator interaction. Difference is weighted by size of CMC-1 strata</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_b96d002e-6c44-4a8b-933c-367748d4104d">
+               <id root="542cd963-698d-4422-ba63-d273384c92ac"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>VOLTAREN<sup>®</sup> GEL is available in tubes containing 100 g of the topical gel in each tube. Each tube contains diclofenac sodium in a gel base (10 mg of diclofenac sodium per gram of gel or 1%).</paragraph>
+                  <paragraph>100 g tube……………………………………NDC 63187-582-00<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage</content>
+                     <br/>Store at 20°C to 25°C (68°F to 77°F). Keep from freezing. Store the dosing card with your VOLTAREN<sup>®</sup> GEL.</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_info_patients_id_d0f85046-57a4-45fc-8ebb-384503d179c9">
+               <id root="a383567e-964f-4df3-9a2a-20639e1c5559"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (NSAIDs Medication Guide and Instructions for Use) prior to using VOLTAREN<sup>®</sup> GEL.</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <section ID="i4i_section_id_cf648538-faa8-4e6b-9a6b-a91842e496b7">
+                     <id root="4d35e6dd-f281-4c90-b41f-ce8c80ff2441"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>Inform patients of the following information before initiating therapy with an NSAID and periodically during the course of ongoing therapy</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_23016729-16af-4273-90ad-ac700975092f">
+                     <id root="a28ba223-4307-4b89-a6e1-2fbeea0ff541"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Cardiovascular Effects</content>
+                        </paragraph>
+                        <paragraph>VOLTAREN<sup>®</sup> GEL, like other NSAIDs, may cause serious CV side effects, such as MI or stroke, which may result in hospitalization and even death. Although serious CV events can occur without warning symptoms, patients should be alert for the signs and symptoms of chest pain, shortness of breath, weakness, slurring of speech, and should ask for medical advice when observing any indicative sign or symptoms. Advise patients of the importance of this follow-up <content styleCode="italics">
+                              <linkHtml href="#i4i_section_id_49e09819-294d-49b1-9b14-b125f3d52e75">[see Warnings and Precautions (5.1)]</linkHtml>.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_2e68acad-d54c-4b90-b879-a7988d7505e6">
+                     <id root="fb3733ba-79d2-4ad8-9af0-92d4d81c22de"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Gastrointestinal Effects</content>
+                        </paragraph>
+                        <paragraph>VOLTAREN<sup>®</sup> GEL, like other NSAIDs, can cause GI discomfort and, rarely, more serious GI side effects, such as ulcers and bleeding, which may result in hospitalization and even death. Although serious GI tract ulcerations and bleeding can occur without warning symptoms, patients should be alert for the signs and symptoms of ulcerations and bleeding. Instruct patients to ask for medical advice when observing any indicative sign or symptoms including epigastric pain, dyspepsia, melena, and hematemesis. Patients should be apprised of the importance of this follow-up <content styleCode="italics">
+                              <linkHtml href="#i4i_section_id_a4102012-8aad-42f2-ae2b-d063bfad095a">[see Warnings and Precautions (5.2)]</linkHtml>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_d4f99fc5-24b3-4faf-9039-8f1109dc0cb5">
+                     <id root="7f08c668-600c-49cd-9a51-e471aea54934"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Hepatotoxicity</content>
+                        </paragraph>
+                        <paragraph>Inform patients of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, diarrhea, pruritus, jaundice, right upper quadrant tenderness, and “flulike” symptoms). If these occur, patients should be instructed to stop therapy with VOLTAREN<sup>®</sup> GEL and seek immediate medical therapy <content styleCode="italics">
+                              <linkHtml href="#i4i_section_id_0a9173ed-25af-4d2b-82bb-261d39805daa">[see Warnings and Precautions (5.3)]</linkHtml>.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_99a604e5-6e2f-4b5a-81ab-825d1e3317c3">
+                     <id root="af102f2f-5b30-4e5e-97c2-1ad87cb956f4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Adverse Skin Reactions</content>
+                        </paragraph>
+                        <paragraph>VOLTAREN<sup>®</sup> GEL, like other NSAIDs, can cause serious skin side effects such as exfoliative dermatitis, SJS, and TEN, which may result in hospitalization and even death. Although serious skin reactions may occur without warning, patients should be alert for the signs and symptoms of skin rash and blisters, fever, or other signs of hypersensitivity such as itching. Instruct patients to ask for medical advice when observing any indicative signs or symptoms <content styleCode="italics">
+                              <linkHtml href="#i4i_section_id_98b6da27-fbd7-49e3-9270-daa411ed343c">[see Warnings and Precautions (5.8)]</linkHtml>.</content>
+                           <br/>Advise patients to stop VOLTAREN<sup>®</sup> GEL immediately if they develop any type of rash and contact their physicians as soon as possible.<br/>Instruct patients not to apply VOLTAREN<sup>®</sup> GEL to open skin wounds, infections, inflammations, or exfoliative dermatitis, as it may affect absorption and tolerability of the drug.<br/>Instruct patients to avoid concomitant use of VOLTAREN<sup>®</sup> GEL with other topical products, including sunscreens, cosmetics, lotions, moisturizers, and insect repellants. Concomitant use may result in skin reactions or change the absorption of VOLTAREN<sup>®</sup> GEL.<br/>Instruct patients to minimize or avoid exposure of treated areas to natural or artificial sunlight.</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_6ff04795-93e2-4af8-a3a9-0814afde475f">
+                     <id root="79357658-67be-43b0-9ccf-73b7798eeafa"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Weight Gain and Edema</content>
+                        </paragraph>
+                        <paragraph>Instruct patients to report to their physicians signs or symptoms of unexplained weight gain or edema following treatment with VOLTAREN<sup>®</sup> GEL <content styleCode="italics">
+                              <linkHtml href="#i4i_section_id_b37dbc80-282c-4f05-a3c5-fa0c5009ddfa">[see Warnings and Precautions (5.5)]</linkHtml>. </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_ea68ca67-2a0f-430a-b676-359a556966a1">
+                     <id root="d37975d9-17f6-4b68-ac7b-8a59b96c7358"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Anaphylactoid Reactions</content>
+                        </paragraph>
+                        <paragraph>Inform patients of the signs of an anaphylactoid reaction (e.g., difficulty breathing, swelling of the face or throat). If these occur, patients should be instructed to seek immediate emergency help <content styleCode="italics">
+                              <linkHtml href="#_Ref">[see Warnings and Precautions (5.7)]</linkHtml>.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_fc1e5f7e-974a-4da8-b25f-c733cdb17232">
+                     <id root="036a072b-7fcd-49b9-9421-9bf5eee2c748"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Effects During Pregnancy</content>
+                        </paragraph>
+                        <paragraph>In late pregnancy, as with other NSAIDs, VOLTAREN<sup>®</sup> GEL should be avoided because it will cause premature closure of the ductus arteriosus <content styleCode="italics">
+                              <linkHtml href="#i4i_pregnancy_duplicate_id_97075c3c-776c-4b20-a05f-65d83c7d060f">[see Warnings and Precautions (5.9)]</linkHtml>.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_349225a1-80af-41f7-9437-a7c5294cabdc">
+                     <id root="5f4dc4ed-b88c-4df6-bdcc-e722ff002968"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Eye Exposure</content>
+                        </paragraph>
+                        <paragraph>Instruct patients to avoid contact of VOLTAREN<sup>®</sup> GEL with the eyes and mucosa, although not studied, should be avoided. Patients should be advised that if eye contact occurs, they should immediately wash out the eye with water or saline and consult a physician if irritation persists for more than an hour.                       </paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_713eef33-ea8c-43eb-a448-781afe756087">
+                     <id root="9a723184-9587-4ba2-917e-9a8069df84ba"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Proper Application</content>
+                        </paragraph>
+                        <paragraph>Instruct patients how to use the dosing card to measure the proper dose of VOLTAREN<sup>®</sup> GEL to apply.<br/>If the patient loses their dosing card, instruct them that they can call 1-800-398-5876to request a replacement dosing card or ask their pharmacist for a new dosing card.  Instruct patients how to correctly measure the 2.25 inches (2 g) dose or 4.5 inches (4 g) dose while waiting for a replacement dosing card.</paragraph>
+                        <paragraph>Comments or Questions?<br/>Call toll-free 1-800-398-5876</paragraph>
+                        <paragraph>Marketed by: Endo Pharmaceuticals Inc.    <br/>Malvern, PA 19355</paragraph>
+                        <paragraph>Manufactured by: Novartis Pharma Produktions GmbH<br/>Wehr, Germany for </paragraph>
+                        <paragraph>Sandoz Inc., Princeton, NJ 08540</paragraph>
+                        <paragraph>Revised: November 2014</paragraph>
+                     </text>
+                     <effectiveTime value="20181201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_medguide_id_19227e4f-f911-4171-a503-004472bb02af">
+               <id root="a0fbf3d9-e83a-42a3-adfa-14a61414173d"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <table width="100%">
+                     <col width="100%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">
+                                    <content styleCode="underline">Medication Guide </content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">
+                                    <content styleCode="underline">for Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)</content>
+                                 </content>
+                                 <br/>
+                                 <content styleCode="underline">(See the end of this Medication Guide for a list of prescription NSAID medicines.)</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about medicines called Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</content>
+                     <br/>
+                     <content styleCode="bold">NSAID medicines may increase the chance of a heart attack or stroke that can lead to death. </content>This chance increases:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>with longer use of NSAID medicines </item>
+                     <item>
+                        <caption>•</caption>in people who have heart disease</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">NSAID medicines should never be used right before or after a heart surgery called a “coronary artery bypass graft (CABG).”</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NSAID medicines can cause ulcers and bleeding in the stomach and intestines at any time during treatment. Ulcers and bleeding:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>can happen without warning symptoms</item>
+                     <item>
+                        <caption>•</caption>may cause death</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">The chance of a person getting an ulcer or bleeding increases with:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>taking medicines called “corticosteroids” and “anticoagulants”</item>
+                     <item>
+                        <caption>•</caption>longer use</item>
+                     <item>
+                        <caption>•</caption>smoking</item>
+                     <item>
+                        <caption>•</caption>drinking alcohol</item>
+                     <item>
+                        <caption>•</caption>older age</item>
+                     <item>
+                        <caption>•</caption>having poor health</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">NSAID medicines should only be used:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>exactly as prescribed</item>
+                     <item>
+                        <caption>•</caption>at the lowest dose possible for your treatment</item>
+                     <item>
+                        <caption>•</caption>for the shortest time needed</item>
+                  </list>
+                  <table width="100%">
+                     <col width="100%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Toprule " valign="top"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">What are Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <paragraph>NSAID medicines are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>different types of arthritis</item>
+                     <item>
+                        <caption>•</caption>menstrual cramps and other types of short-term pain</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Who should not take a Non-Steroidal Anti-Inflammatory Drug (NSAID)?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not take an NSAID medicine:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>if you had an asthma attack, hives, or other allergic reaction with aspirin or any other NSAID medicine</item>
+                     <item>
+                        <caption>•</caption>for pain right before or after heart bypass surgery</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Tell your healthcare provider:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>about all of your medical conditions.</item>
+                     <item>
+                        <caption>•</caption>about all of the medicines you take. NSAIDs and some other medicines can interact with each other and cause serious side effects. <content styleCode="bold">Keep a list of your medicines to show to your healthcare provider and pharmacist.</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>if you are pregnant. <content styleCode="bold">NSAID medicines should not be used by pregnant women late in their pregnancy.</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>if you are breastfeeding. <content styleCode="bold">Talk to your healthcare provider.</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <table width="100%">
+                     <col width="58%"/>
+                     <col width="42%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Serious side effects include: </content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>heart attack </item>
+                                 <item>
+                                    <caption>•</caption>stroke </item>
+                                 <item>
+                                    <caption>•</caption>high blood pressure </item>
+                                 <item>
+                                    <caption>•</caption>heart failure from body swelling (fluid retention) </item>
+                                 <item>
+                                    <caption>•</caption>kidney problems including kidney failure </item>
+                                 <item>
+                                    <caption>•</caption>bleeding and ulcers in the stomach and intestine </item>
+                                 <item>
+                                    <caption>•</caption>low red blood cells (anemia) </item>
+                                 <item>
+                                    <caption>•</caption>life-threatening skin reactions </item>
+                                 <item>
+                                    <caption>•</caption>life-threatening allergic reactions </item>
+                                 <item>
+                                    <caption>•</caption>liver problems including liver failure </item>
+                                 <item>
+                                    <caption>•</caption>asthma attacks in people who have asthma </item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Other side effects include:</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>stomach pain </item>
+                                 <item>
+                                    <caption>•</caption>constipation </item>
+                                 <item>
+                                    <caption>•</caption>diarrhea </item>
+                                 <item>
+                                    <caption>•</caption>gas </item>
+                                 <item>
+                                    <caption>•</caption>heartburn </item>
+                                 <item>
+                                    <caption>•</caption>nausea </item>
+                                 <item>
+                                    <caption>•</caption>vomiting </item>
+                                 <item>
+                                    <caption>•</caption>dizziness </item>
+                              </list>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Get emergency help right away if you have any of the following symptoms:</content>
+                  </paragraph>
+                  <table width="100%">
+                     <col width="55%"/>
+                     <col width="45%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Toprule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>shortness of breath or trouble breathing </item>
+                                 <item>
+                                    <caption>•</caption>chest pain </item>
+                                 <item>
+                                    <caption>•</caption>weakness in one part or side of your body </item>
+                              </list>
+                           </td>
+                           <td styleCode="Botrule Toprule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>slurred speech </item>
+                                 <item>
+                                    <caption>•</caption>swelling of the face or throat </item>
+                              </list>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Stop your NSAID medicine and call your healthcare provider right away if you have any of the following symptoms:</content>
+                  </paragraph>
+                  <table width="100%">
+                     <col width="55%"/>
+                     <col width="45%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Toprule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>nausea </item>
+                                 <item>
+                                    <caption>•</caption>more tired or weaker than usual </item>
+                                 <item>
+                                    <caption>•</caption>itching </item>
+                                 <item>
+                                    <caption>•</caption>your skin or eyes look yellow </item>
+                                 <item>
+                                    <caption>•</caption>stomach pain </item>
+                                 <item>
+                                    <caption>•</caption>flu-like symptoms </item>
+                                 <item>
+                                    <caption>•</caption>vomit blood </item>
+                              </list>
+                           </td>
+                           <td styleCode="Botrule Toprule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>there is blood in your bowel movement or it is black and sticky like tar </item>
+                                 <item>
+                                    <caption>•</caption>unusual weight gain </item>
+                                 <item>
+                                    <caption>•</caption>skin rash or blisters with fever </item>
+                                 <item>
+                                    <caption>•</caption>swelling of the arms and legs, hands and feet </item>
+                              </list>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>These are not all the side effects with NSAID medicines. Talk to your healthcare provider or pharmacist for more information about NSAID medicines.<br/>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other information about Non-Steroidal Anti-Inflammatory Drugs (NSAIDs):</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Aspirin is an NSAID medicine but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines.</item>
+                     <item>
+                        <caption>•</caption>Some of these NSAID medicines are sold in lower doses without a prescription (over-the-counter). Talk to your healthcare provider before using over-the-counter NSAIDs for more than 10 days.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">NSAID medicines that need a prescription</content>
+                     </content>
+                  </paragraph>
+                  <table width="100%">
+                     <col width="26%"/>
+                     <col width="74%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Generic Name </content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Tradename</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Celecoxib</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Celebrex<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Diclofenac</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Flector<sup>®</sup>, Cataflam<sup>®</sup>, Cambia<sup>®</sup>, Voltaren<sup>®</sup>, Voltaren<sup>®</sup> Gel, Arthrotec<sup>®</sup> (combined with misoprostol), Pennsaid<sup>®</sup>, Zipsor<sup>®</sup>, Zorvolex™</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Diflunisal</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Dolobid<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Etodolac</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Lodine<sup>®</sup>, Lodine<sup>® </sup>XL</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Fenoprofen</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Nalfon<sup>®</sup>, Nalfon<sup>® </sup>200</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Flurbirofen</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Ansaid<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Ibuprofen</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Motrin<sup>®</sup>, Tab-Profen<sup>®</sup>, Vicoprofen<sup>®*</sup> (combined with hydrocodone), Combunox™ (combined with oxycodone), Duexis<sup>®</sup> (combined with famotidine)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Indomethacin</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Indocin<sup>®</sup>, Indocin<sup>® </sup>SR, Indo-Lemmon™, Indomethagan™</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Ketoprofen</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Oruvail<sup>®</sup>, Nexcede™</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Ketorolac</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Toradol<sup>®</sup>, Sprix<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Mefenamic Acid</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Ponstel<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Meloxicam</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Mobic<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Nabumetone</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Relafen<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Naproxen</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Naprosyn<sup>®</sup>, Anaprox<sup>®</sup>, Anaprox<sup>® </sup>DS, EC-Naprosyn<sup>®</sup>, Naprelan<sup>®</sup>, Naprapac<sup>®</sup> (co-packaged with lansoprazole), Treximet<sup>®</sup> (combined with sumatriptan succinate), Vimovo<sup>®</sup> (combined with esomeprazole magnesium)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Oxaprozin</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Daypro<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Piroxicam</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Feldene<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Sulindac</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Clinoril<sup>®</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Tolmetin</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Tolectin<sup>®</sup>, Tolectin<sup>®</sup> DS, Tolectin<sup>® </sup>600</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Botrule Lrule " valign="top">
+                              <paragraph>*Vicoprofen<sup>®</sup> contains the same dose of ibuprofen as over-the-counter (OTC) NSAID, and is usually used for less than 10 days to treat pain. The OTC NSAID label warns that long term continuous use may increase the risk of heart attack or stroke.</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20181201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_patient_package_insert_id_8f5bc6c8-c09c-40c0-9824-fddf8a90fe62">
+               <id root="c4ab02b5-1dcd-4bfe-ae83-763525668d08"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title>
+                  <br/>Instructions for Use</title>
+               <text>
+                  <paragraph>VOLTAREN<sup>®</sup> GEL (diclofenac sodium)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Important: Use the dosing card that is inside the VOLTAREN<sup>®</sup> GEL carton to correctly measure each dose. The dosing card is re-usable. Do not throw the dosing card away. Before you </content>use VOLTAREN<sup>®</sup> GEL for<content styleCode="bold"> the first time, your healthcare provider or pharmacist should show you how to correctly measure your dose using the dosing card.</content>
+                  </paragraph>
+                  <paragraph>
+                     <br/>Read this <content styleCode="bold">Instructions for Use</content> before you start using VOLTAREN<sup>®</sup> GEL and each time you get a refill. There may be new information. This information does not take the place of talking to your healthcare provider about your medical condition or your treatment.</paragraph>
+                  <paragraph>Your healthcare provider has prescribed VOLTAREN<sup>®</sup> GEL to help relieve arthritis pain in some of your joints. VOLTAREN<sup>®</sup> GEL may be used to treat arthritis pain in the arms (hands, wrists, and elbows) and in the legs (feet, ankles, and knees).  It is not known if VOLTAREN<sup>®</sup> GEL is safe and effective if used on your spine, hips, or shoulders.</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Use VOLTAREN<sup>®</sup> GEL exactly how your healthcare provider prescribes it for you. Do not apply VOLTAREN<sup>®</sup> GEL anywhere other than where your doctor tells you to.</item>
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">Do not use more than a total of 32 grams of VOLTAREN<sup>®</sup> GEL each day.  If you add up the amount of VOLTAREN<sup>®</sup> GEL as directed by your healthcare provider, it should not be more than 32 grams in one day.</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">The dose for your hands, wrists, or elbows is 2 grams of VOLTAREN<sup>®</sup> GEL each time you apply it.</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Apply VOLTAREN<sup>®</sup> GEL 4 times a day (a total of 8 grams each day).  Do not apply more than 8 grams each day to any one of your affected hands, wrists, or elbows.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">The dose for your feet, ankles, or knees is 4 grams of VOLTAREN<sup>®</sup> GEL each time you apply it.</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Apply VOLTAREN<sup>®</sup> GEL 4 times a day (a total of 16 grams each day).  Do not apply more than 16 grams each day to any one of your affected knees, ankles, or feet.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Some examples of VOLTAREN<sup>®</sup> GEL applications include:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>If you use 2 grams of VOLTAREN<sup>®</sup> GEL on one hand, 4 times a day, your total dose for one day is 8 grams</item>
+                     <item>
+                        <caption>•</caption>If you use 4 grams of VOLTAREN<sup>®</sup> GEL on one knee, 4 times a day, your total dose for one day is 16 grams.</item>
+                     <item>
+                        <caption>•</caption>Your total dose for one day, treating one hand and one knee, is 8 grams plus 16 grams, which equals 24 grams of VOLTAREN<sup>®</sup> GEL.</item>
+                  </list>
+                  <renderMultiMedia ID="id-1480219887" referencedObject="ID_7fbe6da3-f83c-48a2-b14b-cdb67f8db8a6"/>
+                  <paragraph>Figure A</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Before you use a new tube of VOLTAREN<sup>®</sup> GEL for the first time, open the foil seal that covers the tube opening by using the spiked top of the cap. Remember to remove the dosing card from the carton to measure your dose (See Figure A).</item>
+                     <item>
+                        <caption>•</caption>Apply VOLTAREN<sup>®</sup> GEL to clean, dry skin that does not have any cuts, infections or rashes. </item>
+                     <item>
+                        <caption>•</caption>Do not use heating pads or apply bandages where you have applied VOLTAREN<sup>®</sup> GEL.</item>
+                     <item>
+                        <caption>•</caption>Avoid exposing skin where you apply VOLTAREN<sup>®</sup> GEL to sunlight and artificial light, such as tanning booths.</item>
+                     <item>
+                        <caption>•</caption>Do not use sunscreens, cosmetics, lotions, moisturizers, insect repellants, or other topical medicines on the same skin areas where you have applied VOLTAREN<sup>®</sup> GEL.  </item>
+                     <item>
+                        <caption>•</caption>Do not get VOLTAREN<sup>®</sup> GEL in your eyes, nose, or mouth. VOLTAREN<sup>®</sup> GEL is only to be used on your skin (topical use). If you get VOLTAREN<sup>®</sup> GEL in your eyes, rinse your eyes right away with water or saline. Talk with your healthcare provider if eye irritation lasts for more than one hour.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What if I miss a dose:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>If you miss a dose of VOLTAREN<sup>®</sup> GEL, continue with your next scheduled dose using the prescribed amount of VOLTAREN<sup>®</sup> GEL.  <content styleCode="bold">Do not double the dose</content>. <sup>  </sup>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Applying 2 grams (2 g) of VOLTAREN<sup>®</sup> GEL to hands, wrists, or elbows:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 1.</content> Remove the dosing card that is attached inside the VOLTAREN<sup>®</sup> GEL carton. Use the dosing card to correctly measure each dose of VOLTAREN<sup>®</sup> GEL. To measure the correct amount of VOLTAREN<sup>®</sup> GEL, place the dosing card on a flat surface so that you can read the print. If the print is backwards, flip dosing card over (See Figure A). If you lose or misplace your dosing card, you can ask your pharmacist for a new one or call 1-800-398-5876. Ask your healthcare provider or pharmacist to show you how to correctly measure your dose of VOLTAREN<sup>®</sup> GEL while you are waiting to receive your new dosing card.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 2.</content> Squeeze VOLTAREN<sup>®</sup> GEL onto the dosing card evenly, up to the 2 g line (a 2.25 inch length of gel). Make sure that the gel covers the entire 2 gram area of the dosing card (See Figure B). Put the cap back on the tube of VOLTAREN<sup>®</sup> GEL. Ask your healthcare provider or pharmacist if you are not sure how to correctly measure your dose of VOLTAREN<sup>®</sup> GEL.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 3</content>. Apply the gel to your hand, wrist, or elbow. You can use the dosing card to apply the gel (See Figure C). Then, use your hands to gently rub the gel into the skin (See Figure D). Do not share your dosing card with another person.  Make sure to cover the entire affected hand, wrist or elbow with the gel. Remember that the hand includes the palm of your hand, the top of your hand, and your fingers.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 4</content>. After using the dosing card, hold end with fingertips, rinse and dry. <content styleCode="bold">Store the dosing card until next use.  </content>Do not shower or bathe for at least 1 hour after applying VOLTAREN<sup>®</sup> GEL. Do not wash your treated hands for at least 1 hour after applying the VOLTAREN<sup>®</sup> GEL.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 5.</content> After applying VOLTAREN<sup>®</sup> GEL, wait 10 minutes before covering the treated skin with gloves or clothing.</paragraph>
+                  <renderMultiMedia ID="id284779527" referencedObject="C27D28EF-205B-487E-A275-005108A1060B"/>
+                  <paragraph>
+                     <content styleCode="bold">Applying 4 grams (4 g) of VOLTAREN<sup>®</sup> GEL to feet, ankles, or knees:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption> </caption>
+                        <content styleCode="bold">Step 1</content>. Refer to <content styleCode="bold">Step 1</content> above.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Step 2.</content>Squeeze VOLTAREN<sup>®</sup> GEL onto the dosing card evenly up to the 4 g line (a 4.5 inch length of gel), making sure the gel covers the 4 g area of the dosing card (See Figure E). Put the cap back on the tube of VOLTAREN<sup>®</sup> GEL. Ask your healthcare provider or pharmacist if you are not sure how to correctly measure your dose of VOLTAREN<sup>®</sup> GEL.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 3.</content> Apply VOLTAREN<sup>®</sup> GEL to your foot, ankle, or knee. You can use the dosing card to apply the gel (See Figure F). Then, use your hands to gently rub the gel into the skin (See Figure G). Do not share your dosing card with another person.  Make sure to cover your entire foot, ankle, or knee area with the gel. For example, cover the skin above, below, inside and outside the knee cap. Remember that the foot includes the sole of your foot, the top of your foot and your toes.  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Refer to Steps 4 and 5 above.</content>  Wash your hands after applying VOLTAREN<sup>®</sup> GEL to your foot, ankle, or knee.</paragraph>
+                  <renderMultiMedia ID="id-1182039732" referencedObject="ID_208c6b86-ec5e-475f-961d-0849c6c464f8"/>
+                  <paragraph>
+                     <content styleCode="bold">What are the ingredients in VOLTAREN<sup>®</sup> GEL?</content>
+                     <br/>
+                     <content styleCode="bold">Active ingredient:</content> diclofenac sodium</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Inactive ingredients</content>: carbomer homopolymer Type C, cocoyl caprylocaprate, fragrance, isopropyl alcohol, mineral oil, polyoxyl 20 cetostearyl ether, propylene glycol, purified water, and strong ammonia solution.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I store VOLTAREN<sup>®</sup> GEL?  </content>Store at 20°C to 25°C (68°F to 77°F).  Do not freeze VOLTAREN<sup>®</sup> GEL.  Store the dosing card with your VOLTAREN<sup>®</sup> GEL.  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Keep VOLTAREN<sup>®</sup> GEL, the dosing card, and all medicines out of the reach of children.</content>
+                  </paragraph>
+                  <paragraph>This Medication Guide and Instructions for Use have been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>Marketed by: </paragraph>
+                  <paragraph>Endo Pharmaceuticals Inc., Malvern, PA 19355     </paragraph>
+                  <paragraph>Manufactured by: </paragraph>
+                  <paragraph>Novartis Pharma Produktions GmbH, </paragraph>
+                  <paragraph>Wehr, Germany for</paragraph>
+                  <paragraph>Sandoz Inc., Princeton, NJ 08540</paragraph>
+                  <paragraph>Relabeled by:</paragraph>
+                  <paragraph>Proficient Rx, LP</paragraph>
+                  <paragraph>Thousand Oaks, CA 91320</paragraph>
+                  <paragraph>Revised: November 2014</paragraph>
+               </text>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <observationMedia ID="ID_7fbe6da3-f83c-48a2-b14b-cdb67f8db8a6">
+                     <text>Dosing Card</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="49eb4b61-9e67-48ee-871d-d3d42c36c813-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="C27D28EF-205B-487E-A275-005108A1060B">
+                     <text>Figures B-C-D</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="49eb4b61-9e67-48ee-871d-d3d42c36c813-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_208c6b86-ec5e-475f-961d-0849c6c464f8">
+                     <text>Figures E F G</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="49eb4b61-9e67-48ee-871d-d3d42c36c813-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_d5b201e4-df1f-4245-b0f9-ce6e2fff4c4e">
+               <id root="c3411e15-1000-4fe6-8d6b-8633f18a60d2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <renderMultiMedia ID="id457925678" referencedObject="ID_98f081d2-a189-4c36-aada-469b28fcee29"/>
+               </text>
+               <effectiveTime value="20181201"/>
+               <component>
+                  <observationMedia ID="ID_98f081d2-a189-4c36-aada-469b28fcee29">
+                     <text>63187-582-00</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="49eb4b61-9e67-48ee-871d-d3d42c36c813-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
