@@ -17,16 +17,28 @@ def dump_to_json(json_data, filename):
 
 
 if __name__ == '__main__':
-    with open('json_data.json', 'r') as f:
+    with open('json_data.json', mode='r') as f:
         descriptions = json.load(f)
 
+    description_next_index_filename = 'description_next_index.txt'
+    description_skip_index_filename = 'description_skip_index.txt'
+    mesh_ids_filename = 'mesh_ids.txt'
+
+    # read next description index from file, if file exists
+    description_start_index = 0
+    if os.path.isfile(description_next_index_filename):
+        content = open(description_next_index_filename, mode='r').read()
+        description_start_index = int(content) if content.strip() and isinstance(int(content), int) else 0
+
     SIZE = 2
-    mesh_ids = []
-    error_descriptions = []
+    ERROR_COUNT_LIMIT = 3
     error_count = 0
     description_len = len(descriptions)
 
-    for file_counter, i in enumerate(range(0, description_len, SIZE)):
+    for file_counter, i in enumerate(range(description_start_index, description_len, SIZE)):
+        # write next description index to file
+        open(description_next_index_filename, mode='w').write(str(i + SIZE))
+
         description = ' '.join(descriptions[i:i + SIZE])
         description = re.sub('\\s+', ' ', description)  # remove whitespace chars
         description = re.sub('"', '\'', description)  # replace " with '
@@ -34,15 +46,18 @@ if __name__ == '__main__':
         open(f'description/description_{file_counter + 1}.txt', mode='w', encoding='utf-8').write(description)
 
         file_size = os.stat(f'description/description_{file_counter + 1}.txt').st_size
-        print(f'parsing description [{i + 1}-{i + SIZE} of {description_len}], files: {[round(len(descriptions[j]) / 1024, 2) for j in range(i, i + SIZE)]}, total: {(file_size / 1024):.2f} KB')
+        print(f'parsing description [{i}:{i + SIZE} of {description_len}], sizes: {[round(len(descriptions[j]) / 1024, 2) for j in range(i, i + SIZE)]}, total: {(file_size / 1024):.2f} KB')
 
         try:
             response = query_raw(description)
         except Exception as e:
             traceback.print_exc()
-            error_descriptions.append(description)
+
+            # keep record of descriptions which has error
+            open(description_skip_index_filename, mode='a').write(f'{i}:{i + SIZE}\n')
+
             error_count += 1
-            if error_count == 3:
+            if error_count == ERROR_COUNT_LIMIT:
                 break
             continue
 
@@ -50,10 +65,4 @@ if __name__ == '__main__':
             for id in denotation['id']:
                 if id.startswith('MESH'):
                     mesh_id = id.lstrip('MESH:')
-                    mesh_ids.append(mesh_id)
-
-    # remove duplicate MESH ids
-    mesh_ids = list(set(mesh_ids))
-
-    dump_to_json(mesh_ids, 'mesh_ids.json')
-    dump_to_json(error_descriptions, 'error_descriptions.json')
+                    open(mesh_ids_filename, mode='a').write(f'{mesh_id}\n')
