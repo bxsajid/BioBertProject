@@ -1,6 +1,6 @@
 import json
-import re
 import os
+import re
 import traceback
 
 import requests
@@ -8,12 +8,6 @@ import requests
 
 def query_raw(text, url='https://bern.korea.ac.kr/plain'):
     return requests.post(url, data={'sample_text': text}).json()
-
-
-def dump_to_json(json_data, filename):
-    data = json.dumps(json_data)
-    with open(filename, 'w') as f:
-        f.write(data)
 
 
 if __name__ == '__main__':
@@ -57,12 +51,19 @@ if __name__ == '__main__':
             open(description_skip_index_filename, mode='a').write(f'{i}:{i + SIZE}\n')
 
             error_count += 1
+
+            # stop script on ERROR_COUNT_LIMIT successive error response
             if error_count == ERROR_COUNT_LIMIT:
                 # remove temporary description file
-                os.remove(description_filename)
+                if os.path.isfile(description_filename):
+                    os.remove(description_filename)
                 break
             continue
 
+        # reset error_count on success response
+        error_count = 0
+
+        # extract MESH id from BERN server response
         for denotation in response['denotations']:
             for id in denotation['id']:
                 if id.startswith('MESH'):
@@ -70,4 +71,5 @@ if __name__ == '__main__':
                     open(mesh_ids_filename, mode='a').write(f'{mesh_id}\n')
 
     # remove temporary description file
-    os.remove(description_filename)
+    if os.path.isfile(description_filename):
+        os.remove(description_filename)
