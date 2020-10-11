@@ -1,5 +1,8 @@
 import json
 
+import matplotlib.pyplot as plt
+import networkx as nx
+
 from helper.dump_to_json import dump_to_json
 
 if __name__ == '__main__':
@@ -14,17 +17,23 @@ if __name__ == '__main__':
     term_distribution_across_labeling = {}
     term_count_across_labeling = {}
     total_terms = 0
+    G = nx.Graph()
 
     for filename, mesh_dict in content.items():
         term_count = len(mesh_dict)
         term_count_across_labeling[filename] = term_count
         total_terms += term_count
 
+        G.add_node(filename)
+
         for id, term in mesh_dict.items():
             if term not in term_distribution_across_labeling:
                 term_distribution_across_labeling[term] = 1
             else:
                 term_distribution_across_labeling[term] += 1
+
+            G.add_node(term)
+            G.add_edge(filename, term)
 
     # Question 1. What's distribution of MESH terms across the labeling?
     term_count_across_labeling = {k: v for k, v in sorted(term_count_across_labeling.items(), key=lambda item: item[1])}
@@ -45,3 +54,9 @@ if __name__ == '__main__':
         'top_terms': list(term_distribution_across_labeling.keys())[:10]
     }
     dump_to_json(summary, summary_filename, indent=True)
+
+    # Question 3: Relation between labeling and MESH terms
+    nx.draw(G, with_labels=True, font_weight='bold')
+    plt.show()
+    plt.clf()
+    plt.close()
