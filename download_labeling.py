@@ -1,7 +1,6 @@
 import glob
 import io
 import json
-import re
 import zipfile
 
 import pandas as pd
