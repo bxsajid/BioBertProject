@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5aae32e6-038f-43d4-ab07-9a9b4c2b8188"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Nabumetone Tablets USP<br/>500 mg and 750 mg<br/>
+      <br/>
+      <br/>Rx Only</title>
+   <effectiveTime value="20191205"/>
+   <setId root="cf96d189-5417-4181-a5fb-169b269560a2"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="089153071" root="1.3.6.1.4.1.519.1"/>
+            <name>Lupin Pharmaceuticals, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="675923163" root="1.3.6.1.4.1.519.1"/>
+                  <name>LUPIN LIMITED</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="677600414" root="1.3.6.1.4.1.519.1"/>
+                        <name>LUPIN LIMITED</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68180-141" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68180-142" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="43130fc3-3327-4296-b529-291f6ce16cd5"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL Product Data Elements Section"/>
+               <effectiveTime value="20191205"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="68180-141" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Nabumetone</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>nabumetone</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="500" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LW0TIW155Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NABUMETONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LW0TIW155Z" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NABUMETONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="0VUT3PMY82" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE 2910 (3 MPA.S)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="B697894SGQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 400</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68180-141-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20110112"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68180-141-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20110112"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA090445" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20110112"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE">
+                              <originalText>White to off white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL">
+                              <originalText>Biconvex</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" value="6" unit="mm"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">LU;V01</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="68180-142" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Nabumetone</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>nabumetone</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="750" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LW0TIW155Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NABUMETONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LW0TIW155Z" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NABUMETONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="9H4L916OBU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE 2208 (3 MPA.S)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="B697894SGQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 400</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68180-142-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20110112"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68180-142-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20110112"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA090445" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20110112"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE">
+                              <originalText>White to off white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL">
+                              <originalText>Biconvex</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" value="7" unit="mm"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">LU;V02</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID1">
+               <id root="efa6ea01-9e06-4714-bc20-7d39748b0d48"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <text>
+                  <paragraph ID="ID2">
+                     <content styleCode="bold">Cardiovascular Thrombotic Events</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID3" styleCode="Disc">
+                     <item>Nonsteroidal anti-inflammatory drugs (NSAIDs<sup>1</sup>) cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction, and stroke, which can be fatal. This risk may occur early in treatment and may increase with duration of use <content styleCode="italics">(see <linkHtml href="#ID32">WARNINGS </linkHtml>and <linkHtml href="#ID47">PRECAUTIONS</linkHtml>)</content> .</item>
+                     <item>Nabumetone tablets are contraindicated in the setting of coronary artery bypass graft (CABG) surgery <content styleCode="italics">(see <linkHtml href="#ID30">CONTRAINDICATINS </linkHtml>and <linkHtml href="#ID32">WARNINGS</linkHtml>).</content>
+                     </item>
+                  </list>
+                  <paragraph ID="ID4">
+                     <content styleCode="bold">Gastrointestinal Risk</content>
+                  </paragraph>
+                  <paragraph>NSAIDs<sup>1</sup> cause an increased risk of serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients are at greater risk for serious gastrointestinal events <content styleCode="italics">(see <linkHtml href="#ID32">WARNINGS</linkHtml>). </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID5">
+               <id root="a9986640-f46c-4b7f-a5ac-490c0c4be470"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph ID="ID6">Nabumetone is a naphthylalkanone designated chemically as 4-(6-methoxy-2-naphthalenyl)-2-butanone. It has the following structure:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph ID="ID8">C<sub>15</sub>H<sub>16</sub>O<sub>2</sub> M.W. 228.3</paragraph>
+                  <paragraph>Nabumetone is a white to off-white crystalline substance. It is nonacidic and practically insoluble in water, but soluble in alcohol and most organic solvents. It has an n-octanol:phosphate buffer partition coefficient of 2,400 at pH 7.4.</paragraph>
+                  <paragraph>Each tablet, for oral administration, contains either 500 mg or 750 mg of nabumetone. In addition, each tablet contains the following inactive ingredients: colloidal silicon dioxide, hypromellose, magnesium stearate, microcrystalline cellulose, polyethylene glycol, sodium lauryl sulfate, sodium starch glycolate and titanium dioxide. </paragraph>
+               </text>
+               <effectiveTime value="20150731"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nabumetonetablets-figure-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID9">
+               <id root="6b5c07b2-e2c2-42ea-8dfc-10ee806ed163"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph ID="ID10">Nabumetone is a non-steroidal anti-inflammatory drug (NSAID) that exhibits anti-inflammatory, analgesic, and antipyretic properties in pharmacologic studies. As with other non-steroidal anti-inflammatory agents, its mode of action is not known; however, the ability to inhibit prostaglandin synthesis may be involved in the anti-inflammatory effect.</paragraph>
+                  <paragraph>The parent compound is a prodrug, which undergoes hepatic biotransformation to the active component, 6-methoxy-2-naphthylacetic acid (6MNA), that is a potent inhibitor of prostaglandin synthesis.</paragraph>
+                  <renderMultiMedia referencedObject="MM2">
+                     <caption>6-methoxy-2-naphthylacetic acid (6MNA)</caption>
+                  </renderMultiMedia>
+                  <paragraph ID="ID12">It is acidic and has an n-octanol:phosphate buffer partition coefficient of 0.5 at pH 7.4.</paragraph>
+               </text>
+               <effectiveTime value="20150731"/>
+               <component>
+                  <section ID="ID13">
+                     <id root="f69b8f21-f79c-426e-98e3-a4f2bf254943"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph ID="ID15">After oral administration, approximately 80% of a radiolabeled dose of nabumetone is found in the urine, indicating that nabumetone is well absorbed from the gastrointestinal tract. Nabumetone itself is not detected in the plasma because, after absorption, it undergoes rapid biotransformation to the principal active metabolite, 6-methoxy-2-naphthylacetic acid (6MNA). Approximately 35% of a 1,000 mg oral dose of nabumetone is converted to 6MNA and 50% is converted into unidentified metabolites which are subsequently excreted in the urine. Following oral administration of nabumetone, 6MNA exhibits pharmacokinetic characteristics that generally follow a one-compartment model with first order input and first order elimination.</paragraph>
+                        <paragraph>6MNA is more than 99% bound to plasma proteins. The free fraction is dependent on total concentration of 6MNA and is proportional to dose over the range of 1,000 mg to 2,000 mg. It is 0.2% to 0.3% at concentrations typically achieved following administration of 1,000 mg of nabumetone and is approximately 0.6% to 0.8% of the total concentrations at steady state following daily administration of 2,000 mg.</paragraph>
+                        <paragraph>Steady-state plasma concentrations of 6MNA are slightly lower than predicted from single-dose data. This may result from the higher fraction of unbound 6MNA which undergoes greater hepatic clearance.</paragraph>
+                        <paragraph>Coadministration of food increases the rate of absorption and subsequent appearance of 6MNA in the plasma but does not affect the extent of conversion of nabumetone into 6MNA. Peak plasma concentrations of 6MNA are increased by approximately one third.</paragraph>
+                        <paragraph>Coadministration with an aluminum-containing antacid had no significant effect on the bioavailability of 6MNA.</paragraph>
+                        <table ID="ID16" width="100%">
+                           <caption>Table 1: Mean Pharmacokinetic Parameters of Nabumetone Active Metabolite (6MNA) at Steady State Following Oral Administration of 1,000 mg or 2,000 mg Doses of Nabumetone </caption>
+                           <col width="20%"/>
+                           <col width="26%"/>
+                           <col width="32%"/>
+                           <col width="22%"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                                    <content styleCode="bold">Abbreviation </content>
+                                    <content styleCode="bold">(</content>
+                                    <content styleCode="bold">units</content>
+                                    <content styleCode="bold">)</content>
+                                    <content styleCode="bold">
+                                       <br/>
+                                    </content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                                    <content styleCode="bold">Young </content>
+                                    <content styleCode="bold">Adults </content>
+                                    <content styleCode="bold">Mean </content>
+                                    <content styleCode="bold">± </content>
+                                    <content styleCode="bold">SD </content>
+                                    <content styleCode="bold">1</content>
+                                    <content styleCode="bold">,</content>
+                                    <content styleCode="bold">000 </content>
+                                    <content styleCode="bold">mg </content>
+                                    <content styleCode="bold">n </content>
+                                    <content styleCode="bold">= </content>
+                                    <content styleCode="bold">31</content>
+                                    <content styleCode="bold">
+                                       <br/>
+                                    </content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                                    <content styleCode="bold">Young </content>
+                                    <content styleCode="bold">Adults </content>
+                                    <content styleCode="bold">Mean </content>
+                                    <content styleCode="bold">± </content>
+                                    <content styleCode="bold">SD </content>
+                                    <content styleCode="bold">2</content>
+                                    <content styleCode="bold">,</content>
+                                    <content styleCode="bold">000 </content>
+                                    <content styleCode="bold">mg </content>
+                                    <content styleCode="bold">n </content>
+                                    <content styleCode="bold">= </content>
+                                    <content styleCode="bold">12</content>
+                                    <content styleCode="bold">
+                                       <br/>
+                                    </content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                                    <content styleCode="bold">Elderly </content>
+                                    <content styleCode="bold">Mean </content>
+                                    <content styleCode="bold">± </content>
+                                    <content styleCode="bold">SD </content>
+                                    <content styleCode="bold">1</content>
+                                    <content styleCode="bold">,</content>
+                                    <content styleCode="bold">000 </content>
+                                    <content styleCode="bold">mg </content>
+                                    <content styleCode="bold">n </content>
+                                    <content styleCode="bold">= </content>
+                                    <content styleCode="bold">27</content>
+                                    <content styleCode="bold">
+                                       <br/>
+                                    </content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">T<sub>m</sub>
+                                    <sub>a</sub>
+                                    <sub>x</sub> (hr)<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">3 (1 to 12)<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">2.5 (1 to 8)<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">4 (1 to 10)<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">t<sub>1</sub>
+                                    <sub>/</sub>
+                                    <sub>2</sub>
+                                    <sub> </sub>(hr)<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">22.5 ± 3.7<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">26.2 ± 3.7<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">29.8 ± 8.1<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">CL<sub>S</sub>
+                                    <sub>S</sub>/F (mL/min)<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">26.1 ± 17.3<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">21 ± 4.0<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">18.6 ± 13.4<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">Vd<sub>S</sub>
+                                    <sub>S</sub>/F (L)<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">55.4 ± 26.4<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">53.4 ± 11.3<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">50.2 ± 25.3<br/>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph ID="ID17">The simulated curves in the graph below illustrate the range of active metabolite plasma concentrations that would be expected from 95% of patients following 1,000 mg to 2,000 mg doses to steady state. The cross-hatched area represents the expected overlap in plasma concentrations due to intersubject variation following oral administration of 1,000 mg to 2,000 mg of nabumetone.</paragraph>
+                        <renderMultiMedia referencedObject="MM3">
+                           <caption>Nabumetone Active Metabolite (6MNA) Plasma Concentrations at Steady State Following Once-Daily Dosing of Nabumetone 1,000 mg (n = 31) 2,000 mg (n = 12)</caption>
+                        </renderMultiMedia>
+                        <paragraph ID="ID19">6MNA undergoes biotransformation in the liver, producing inactive metabolites that are eliminated as both free metabolites and conjugates. None of the known metabolites of 6MNA has been detected in plasma. Preliminary <content styleCode="italics">in vivo </content>and <content styleCode="italics">in vitro </content>studies suggest that unlike other NSAIDs, there is no evidence of enterohepatic recirculation of the active metabolite. Approximately 75% of a radiolabeled dose was recovered in urine in 48 hours. Approximately 80% was recovered in 168 hours. A further 9% appeared in the feces. In the first 48 hours, metabolites consisted of:</paragraph>
+                        <table ID="ID20" width="100%">
+                           <col width="76%"/>
+                           <col width="24%"/>
+                           <tbody>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">-nabumetone, unchanged<br/>
+                                 </td>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">not detectable<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">-6-methoxy-2-naphthylacetic acid (6MNA), unchanged<br/>
+                                 </td>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">&lt; 1%<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">-6MNA, conjugated<br/>
+                                 </td>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">11%<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">-6-hydroxy-2-naphthylacetic acid (6HNA), unchanged<br/>
+                                 </td>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">5%<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">-6HNA, conjugated<br/>
+                                 </td>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">7%<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">-4-(6-hydroxy-2-naphthyl)-butan-2-ol, conjugated<br/>
+                                 </td>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">9%<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">-<content styleCode="italics">O</content>-desmethyl-nabumetone, conjugated<br/>
+                                 </td>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">7%<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">-unidentified minor metabolites<br/>
+                                 </td>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">34%<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">Total % Dose:<br/>
+                                 </td>
+                                 <td align="justify" valign="top" styleCode=" Lrule Rrule Botrule Toprule">73%<br/>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph ID="ID21">Following oral administration of dosages of 1,000 mg to 2,000 mg to steady state, the mean plasma clearance of 6MNA is 20 to 30 mL/min and the elimination half-life is approximately 24 hours.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Elderly Patients:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Steady-state plasma concentrations in elderly patients were generally higher than in young healthy subjects <content styleCode="italics">(see <linkHtml href="#ID20">Table 1</linkHtml> for summary of pharmacokinetic parameters).</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20150731"/>
+                     <component>
+                        <section ID="ID91">
+                           <id root="ae5f0a15-2a17-484d-85f6-bb606b53138c"/>
+                           <title styleCode="bold italics">Renal Insufficiency:</title>
+                           <text>
+                              <paragraph ID="ID92">In moderate renal insufficiency patients (creatinine clearance 30 to 49 mL/min), the terminal half-life of 6MNA was increased by approximately 50% (39.2 ± 7.8 hrs, N = 12) compared to the normal subjects (26.9 ± 3.3 hrs, N = 13), and there was a 50% increase in the plasma levels of unbound 6MNA.</paragraph>
+                              <paragraph>Additionally, the renal excretion of 6MNA in the moderate renal impaired patients decreased on average by 33% compared to that in the normal patients. A similar increase in the mean terminal half-life of 6MNA was seen in a small study of patients with severe renal dysfunction (creatinine clearance &lt; 30 mL/min). In patients undergoing hemodialysis, steady-state plasma concentrations of the active metabolite 6MNA were similar to those observed in healthy subjects. Due to extensive protein binding, 6MNA is not dialyzable.</paragraph>
+                              <paragraph>Dosage adjustment of nabumetone generally is not necessary in patients with mild renal insufficiency (≥ 50 mL/min). Caution should be used in prescribing nabumetone to patients with moderate or severe renal insufficiency. The maximum starting doses of nabumetone in patients with moderate or severe renal insufficiency should not exceed 750 mg or 500 mg, respectively once daily. Following careful monitoring of renal function in patients with moderate or severe renal insufficiency, daily doses may be increased to a maximum of 1,500 mg and 1,000 mg, respectively<content styleCode="italics"> (see <linkHtml href="#ID37">WARNINGS, Renal Effects</linkHtml>).</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">
+                                    <content styleCode="italics">Hepatic Impairment:</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>Data in patients with severe hepatic impairment are limited. Biotransformation of nabumetone to 6MNA and the further metabolism of 6MNA to inactive metabolites is dependent on hepatic function and could be reduced in patients with severe hepatic impairment (history of or biopsy-proven cirrhosis).</paragraph>
+                           </text>
+                           <effectiveTime value="20150731"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID22">
+                     <id root="5bb58e3e-0d71-4fa3-9eaa-ff97c825d259"/>
+                     <title>Special Studies</title>
+                     <text>
+                        <paragraph ID="ID23">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Gastrointestinal:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Nabumetone was compared to aspirin in inducing gastrointestinal blood loss. Food intake was not monitored. Studies utilizing <sup>51</sup>Cr-tagged red blood cells in healthy males showed no difference in fecal blood loss after 3 or 4 weeks' administration of 1,000 mg or 2,000 mg of nabumetone daily when compared to either placebo-treated or non-treated subjects. In contrast, aspirin 3,600 mg daily produced an increase in fecal blood loss when compared to subjects who received nabumetone, placebo, or no treatment. The clinical relevance of the data is unknown.</paragraph>
+                        <paragraph>The following endoscopy trials entered patients who had been previously treated with NSAIDs. These patients had varying baseline scores and different courses of treatment. The trials were not designed to correlate symptoms and endoscopy scores. The clinical relevance of these endoscopy trials, i.e., either G.I. symptoms or serious G.I. events, is not known.</paragraph>
+                        <paragraph>Ten endoscopy studies were conducted in 488 patients who had baseline and post-treatment endoscopy. In 5 clinical trials that compared a total of 194 patients on 1,000 mg of nabumetone daily or naproxen 250 mg or 500 mg twice daily for 3 to 12 weeks, treatment with nabumetone resulted in fewer patients with endoscopically detected lesions (&gt; 3 mm). In 2 trials a total of 101 patients administered 1,000 mg or 2,000 mg of nabumetone daily or piroxicam 10 mg to 20 mg for 7 to 10 days, there were fewer patients treated with nabumetone with endoscopically detected lesions. In 3 trials of a total of 47 patients on 1,000 mg of nabumetone daily or indomethacin 100 mg to 150 mg daily for 3 to 4 weeks, the endoscopy scores were higher with indomethacin. Another 12 week trial in a total of 171 patients compared the results of treatment with 1,000 mg of nabumetone daily to ibuprofen 2,400 mg/day and ibuprofen 2,400 mg/day plus misoprostol 800 mcg/day. The results showed that patients treated with nabumetone had a lower number of endoscopically detected lesions (&gt; 5 mm) than patients treated with ibuprofen alone but comparable to the combination of ibuprofen plus misoprostol. The results did not correlate with abdominal pain.</paragraph>
+                     </text>
+                     <effectiveTime value="20150731"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID93">
+                     <id root="434747a5-b2f2-411b-9aa0-27dea0ac73cd"/>
+                     <title styleCode="bold italics">Other:</title>
+                     <text>
+                        <paragraph ID="ID94">In 1 week, repeat-dose studies in healthy volunteers, 1,000 mg of nabumetone daily had little effect on collagen-induced platelet aggregation and no effect on bleeding time. In comparison, naproxen 500 mg daily suppressed collagen-induced platelet aggregation and significantly increased bleeding time.</paragraph>
+                     </text>
+                     <effectiveTime value="20150731"/>
+                  </section>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Clinical Pharm Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nabumetonetablets-figure-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Graph</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nabumetonetablets-figure-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID24">
+               <id root="1aa19990-14d1-4c15-be8b-90b8d51f7fcd"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>CLINICAL TRIALS</title>
+               <text>
+                  <paragraph ID="ID25">
+                     <content styleCode="bold">Osteoarthritis</content>
+                  </paragraph>
+                  <paragraph>The use of nabumetone in relieving the signs and symptoms of osteoarthritis (OA) was assessed in double-blind, controlled trials in which 1,047 patients were treated for 6 weeks to 6 months. In these trials, nabumetone in a dose of 1,000 mg/day administered at night was comparable to naproxen 500 mg/day and to aspirin 3,600 mg/day.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rheumatoid Arthritis</content>
+                  </paragraph>
+                  <paragraph>The use of nabumetone in relieving the signs and symptoms of rheumatoid arthritis (RA) was assessed in double-blind, randomized, controlled trials in which 770 patients were treated for 3 weeks to 6 months. Nabumetone, in a dose of 1,000 mg/day administered at night, was comparable to naproxen 500 mg/day and to aspirin 3,600 mg/day.</paragraph>
+                  <paragraph>In controlled clinical trials of rheumatoid arthritis patients, nabumetone has been used in combination with gold, d-penicillamine, and corticosteroids.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Patient Exposure in Clinical Trials of Osteoarthritis and Rheumatoid Arthritis</content>
+                  </paragraph>
+                  <paragraph>In clinical trials with osteoarthritis and rheumatoid arthritis patients, most patients responded to nabumetone in doses of 1,000 mg/day administered nightly; total daily dosages up to 2,000 mg were used. In open-labeled studies, 1,490 patients were permitted dosage increases and were followed for approximately 1 year (mode). Twenty percent of patients (n = 294) were withdrawn for lack of effectiveness during the first year of these open-labelled studies. The following table provides patient-exposure to doses used in the U.S. clinical trials:</paragraph>
+                  <table ID="ID26" width="100%">
+                     <caption>Table 2: Clinical Double-Blinded and Open-Labeled Trials of Nabumetone in Osteoarthritis and Rheumatoid Arthritis</caption>
+                     <col width="23%"/>
+                     <col width="19%"/>
+                     <col width="17%"/>
+                     <col width="23%"/>
+                     <col width="18%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="top" colspan="1" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="bold">Dose </content>
+                              <content styleCode="bold">of</content>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                              <content styleCode="bold">Nabumetone</content>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="center" valign="top" colspan="2" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="bold">Number </content>
+                              <content styleCode="bold">of </content>
+                              <content styleCode="bold">Patients</content>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="center" valign="top" colspan="2" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="bold">Mean</content>
+                              <content styleCode="bold">/</content>
+                              <content styleCode="bold">Mode </content>
+                              <content styleCode="bold">Duration </content>
+                              <content styleCode="bold">of</content>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                              <content styleCode="bold">Treatment </content>
+                              <content styleCode="bold">(</content>
+                              <content styleCode="bold">yr</content>
+                              <content styleCode="bold">)</content>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="bold">OA</content>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="bold">RA</content>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="bold">OA</content>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="bold">RA</content>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">500 mg<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">17<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">6<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">0.4/-<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">0.2/-<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">1,000 mg<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">917<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">701<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">1.2/1<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">1.4/1<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">1,500 mg<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">645<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">224<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">2.3/1<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">1.7/1<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">2,000 mg<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">15<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">100<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">0.6/1<br/>
+                           </td>
+                           <td align="center" valign="top" styleCode=" Lrule Rrule Botrule Toprule">1.3/1<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="ID27">As with other NSAIDs, the lowest dose should be sought for each patient. Patients weighing under 50 kg may be less likely to require dosages beyond 1,000 mg; therefore, after observing the response to initial therapy, the dose should be adjusted to meet individual patients’ requirements.</paragraph>
+               </text>
+               <effectiveTime value="20150731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID28">
+               <id root="b4b557b0-1973-46de-a788-2ab9a03ed3ee"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph ID="ID29">Carefully consider the potential benefits and risks of nabumetone tablets USP and other treatment options before deciding to use nabumetone tablets USP. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals <content styleCode="italics">(see <linkHtml href="#ID32">WARNINGS</linkHtml>).</content>
+                  </paragraph>
+                  <paragraph>Nabumetone tablets USP are indicated for relief of signs and symptoms of osteoarthritis and rheumatoid arthritis.</paragraph>
+               </text>
+               <effectiveTime value="20150731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID30">
+               <id root="78bc2d43-4235-467e-847a-345ede061e17"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph ID="ID31">Nabumetone tablets are contraindicated in patients with known hypersensitivity to nabumetone or product excipients.</paragraph>
+                  <paragraph>Nabumetone tablets should not be given to patients who have experienced asthma, urticaria, or allergic-type reactions after taking aspirin or other NSAIDs. Severe, rarely fatal, anaphylactic-like reactions to NSAIDs have been reported in such patients <content styleCode="italics">(see <linkHtml href="#ID41">WARNINGS, Anaphylactoid Reactions </linkHtml>and <linkHtml href="#ID50">PRECAUTIONS, General, Preexisting Asthma</linkHtml>).</content>
+                  </paragraph>
+                  <paragraph>• In the setting of coronary artery bypass graft (CABG) surgery <content styleCode="italics">(see <linkHtml href="#ID32">WARNINGS</linkHtml>).</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID32">
+               <id root="9f177a2c-ce51-49a7-8f52-82d03f8cb5fa"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20150731"/>
+               <component>
+                  <section ID="ID33">
+                     <id root="ae56322f-b2a5-4998-9163-5eb0b8d0f8d3"/>
+                     <title styleCode="bold">Cardiovascular Effects</title>
+                     <text>
+                        <paragraph ID="ID34">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Cardiovascular Thrombotic Events</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Clinical trials of several COX-2 selective and nonselective NSAIDs of up to three years duration have shown an increased risk of serious cardiovascular (CV) thrombotic events, including myocardial infarction (MI) and stroke, which can be fatal. Based on available data, it is unclear that the risk for CV thrombotic events is similar for all NSAIDs. The relative increase in serious CV thrombotic events over baseline conferred by NSAID use appears to be similar in those with and without known CV disease or risk factors for CV disease. However, patients with known CV disease or risk factors had a higher absolute incidence of excess serious CV thrombotic events, due to their increased baseline rate. Some observational studies found that this increased risk of serious CV thrombotic events began as early as the first weeks of treatment. The increase in CV thrombotic risk has been observed most consistently at higher doses.</paragraph>
+                        <paragraph>To minimize the potential risk for an adverse CV event in NSAID-treated patients, use the lowest effective dose for the shortest duration possible. Physicians and patients should remain alert for the development of such events, throughout the entire treatment course, even in the absence of previous CV symptoms. Patients should be informed about the symptoms of serious CV events and the steps to take if they occur.</paragraph>
+                        <paragraph>There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an NSAID, such as nabumetone, increases the risk of serious gastrointestinal (GI) events <content styleCode="italics">[see <linkHtml href="#ID32">WARNINGS</linkHtml>].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Status Post Coronary Artery Bypass Graft (CABG) Surgery</content>
+                        </paragraph>
+                        <paragraph>Two large, controlled clinical trials of a COX-2 selective NSAID for the treatment of pain in the first 10 to 14 days following CABG surgery found an increased incidence of myocardial infarction and stroke. NSAIDs are contraindicated in the setting of CABG <content styleCode="italics">[see <linkHtml href="#ID30">CONTRAINDICATIONS</linkHtml>].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Post-MI Patients</content>
+                        </paragraph>
+                        <paragraph>Observational studies conducted in the Danish National Registry have demonstrated that patients treated with NSAIDs in the post-MI period were at increased risk of reinfarction, CV-related death, and all-cause mortality beginning in the first week of treatment. In this same cohort, the incidence of death in the first year post MI was 20 per 100 person years in NSAID-treated patients compared to 12 per 100 person years in non-NSAID exposed patients. Although the absolute rate of death declined somewhat after the first year post-MI, the increased relative risk of death in NSAID users persisted over at least the next four years of follow-up.</paragraph>
+                        <paragraph>Avoid the use of nabumetone tablets in patients with a recent MI unless the benefits are expected to outweigh the risk of recurrent CV thrombotic events. If nabumetone tablets are used in patients with a recent MI, monitor patients for signs of cardiac ischemia.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Hypertension:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>NSAIDs, including nabumetone tablets, can lead to onset of new hypertension or worsening of preexisting hypertension, either of which may contribute to the increased incidence of CV events. Patients taking thiazides or loop diuretics may have impaired response to these therapies when taking NSAIDs. NSAIDs, including nabumetone tablets, should be used with caution in patients with hypertension. Blood pressure (BP) should be monitored closely during the initiation of NSAID treatment and throughout the course of therapy.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Heart Failure and Edema</content>
+                        </paragraph>
+                        <paragraph>The Coxib and traditional NSAID Trialists' Collaboration meta-analysis of randomized controlled trials demonstrated an approximately two-fold increase in hospitalizations for heart failure in COX-2 selective-treated patients and nonselective NSAID-treated patients compared to placebo-treated patients. In a Danish National Registry study of patients with heart failure, NSAID use increased the risk of MI, hospitalization for heart failure, and death.</paragraph>
+                        <paragraph>Additionally, fluid retention and edema have been observed in some patients treated with NSAIDs. Use of nabumetone may blunt the CV effects of several therapeutic agents used to treat these medical conditions [e.g., diuretics, ACE inhibitors, or angiotensin receptor blockers (ARBs)] <content styleCode="italics">[see DRUG INTERACTIONS]</content>.</paragraph>
+                        <paragraph>Avoid the use of nabumetone tablets in patients with severe heart failure unless the benefits are expected to outweigh the risk of worsening heart failure. If nabumetone tablets are used in patients with severe heart failure, monitor patients for signs of worsening heart failure.</paragraph>
+                     </text>
+                     <effectiveTime value="20150731"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID35">
+                     <id root="10b90d8e-147d-43f6-a2b9-1183c60d07fb"/>
+                     <title styleCode="bold">Gastrointestinal Effects – Risk of Ulceration, Bleeding, and Perforation</title>
+                     <text>
+                        <paragraph ID="ID36">NSAIDs, including nabumetone tablets, can cause serious gastrointestinal (GI) adverse events including inflammation, bleeding, ulceration, and perforation of the stomach, small intestine, or large intestine, which can be fatal. These serious adverse events can occur at any time, with or without warning symptoms, in patients treated with NSAIDs. Only 1 in 5 patients, who develop a serious upper GI adverse event on NSAID therapy, is symptomatic. Upper GI ulcers, gross bleeding, or perforation caused by NSAIDs occur in approximately 1% of patients treated for 3 to 6 months, and in about 2 to 4% of patients treated for 1 year. These trends continue with longer duration of use, increasing the likelihood of developing a serious GI event at some time during the course of therapy. However, even short-term therapy is not without risk.</paragraph>
+                        <paragraph>In controlled clinical trials involving 1,677 patients treated with nabumetone (1,140 followed for 1 year and 927 for 2 years), the cumulative incidence of peptic ulcers was 0.3% (95% CI; 0%, 0.6%) at 3 to 6 months, 0.5% (95% CI; 0.1%, 0.9%) at 1 year and 0.8% (95% CI; 0.3%, 1.3%) at 2 years. In patients with active peptic ulcer, physicians must weigh the benefits of therapy with nabumetone against possible hazards, institute an appropriate ulcer treatment regimen and monitor the patients' progress carefully.</paragraph>
+                        <paragraph>NSAIDs should be prescribed with extreme caution in those with a prior history of ulcer disease or gastrointestinal bleeding. Patients with a <content styleCode="italics">prior history of peptic ulcer disease and/or gastrointestinal bleeding</content> who use NSAIDs have a greater than 10 fold increased risk for developing a GI bleed compared to patients with neither of these risk factors. Other factors that increase the risk for GI bleeding in patients treated with NSAIDs include concomitant use of oral corticosteroids or anticoagulants, longer duration of NSAID therapy, smoking, use of alcohol, older age, and poor general health status. Most spontaneous reports of fatal GI events are in elderly or debilitated patients and therefore, special care should be taken in treating this population.</paragraph>
+                        <paragraph>To minimize the potential risk for an adverse GI event in patients treated with an NSAID, the lowest effective dose should be used for the shortest possible duration. Patients and physicians should remain alert for signs and symptoms of GI ulceration and bleeding during NSAID therapy and promptly initiate additional evaluation and treatment if a serious GI adverse event is suspected. This should include discontinuation of the NSAID until a serious GI adverse event is ruled out. For high risk patients, alternate therapies that do not involve NSAIDs should be considered.</paragraph>
+                     </text>
+                     <effectiveTime value="20150731"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID37">
+                     <id root="013aa848-f9dc-44ec-90a9-c98342a35aba"/>
+                     <title styleCode="bold">Renal Effects</title>
+                     <text>
+                        <paragraph ID="ID38">Long-term administration of NSAIDs has resulted in renal papillary necrosis and other renal injury. Renal toxicity has also been seen in patients in whom renal prostaglandins have a compensatory role in the maintenance of renal perfusion. In these patients, administration of an NSAID results in a dose-dependent decrease in prostaglandin synthesis and, secondarily, in a reduction of renal blood flow, which may precipitate overt renal decompensation. Patients at greatest risk of this reaction are those with impaired renal function, heart failure, liver dysfunction, those taking diuretics, and the elderly. Discontinuation of NSAID therapy is usually followed by recovery to the pretreatment state.</paragraph>
+                     </text>
+                     <effectiveTime value="20150731"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID39">
+                     <id root="9199d1c9-9f86-4102-8559-7e19d86e9477"/>
+                     <title>Advanced Renal Disease</title>
+                     <text>
+                        <paragraph ID="ID40">No information is available from controlled clinical studies regarding the use of nabumetone tablets in patients with advanced renal disease. Therefore, treatment with nabumetone tablets is not recommended in these patients with advanced renal disease. If nabumetone tablet therapy must be initiated, close monitoring of the patient's renal function is advisable.</paragraph>
+                        <paragraph>Because nabumetone undergoes extensive hepatic metabolism, no adjustment of the dosage of nabumetone is generally necessary in patients with mild renal insufficiency; however, as with all NSAIDs, patients with impaired renal function should be monitored more closely than patients with normal renal function <content styleCode="italics">(see <linkHtml href="#ID92">CLINICAL PHARMACOLOGY, Pharmacokinetics, Renal Insufficiency</linkHtml>).</content> In subjects with moderate renal impairment (creatinine clearance 30 to 49 mL/min) there is a 50% increase in unbound plasma 6MNA and dose adjustment may be warranted. The oxidized and conjugated metabolites of 6MNA are eliminated primarily by the kidneys.</paragraph>
+                     </text>
+                     <effectiveTime value="20150731"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID41">
+                     <id root="486d49ff-a874-42cc-8e83-4b23506780d3"/>
+                     <title styleCode="bold">Anaphylactoid Reactions</title>
+                     <text>
+                        <paragraph ID="ID42">As with other NSAIDs, anaphylactoid reactions may occur in patients without known prior exposure to nabumetone tablets. Nabumetone tablets should not be given to patients with the aspirin triad. This symptom complex typically occurs in asthmatic patients who experience rhinitis with or without nasal polyps, or who exhibit severe, potentially fatal bronchospasm after taking aspirin or other NSAIDs <content styleCode="italics">(see <linkHtml href="#ID30">CONTRAINDICATIONS</linkHtml> and <linkHtml href="#ID50">PRECAUTIONS, General, Preexisting Asthma</linkHtml>).</content> Emergency help should be sought in cases where an anaphylactoid reaction occurs.</paragraph>
+                     </text>
+                     <effectiveTime value="20150731"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID43">
+                     <id root="1d72e9b1-020e-45ba-bd9e-0f1e4bfb0965"/>
+                     <title styleCode="bold">Skin Reactions</title>
+                     <text>
+                        <paragraph ID="ID44">NSAIDs, including nabumetone tablets, can cause serious skin adverse events such as exfoliative dermatitis, Stevens-Johnson syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. These serious events may occur without warning. Patients should be informed about the signs and symptoms of serious skin manifestations and use of the drug should be discontinued at the first appearance of skin rash or any other sign of hypersensitivity.</paragraph>
+                     </text>
+                     <effectiveTime value="20150731"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID45">
+                     <id root="97dbdd25-d2b9-4ce1-bbfd-a925ffa39b02"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph ID="ID46">In late pregnancy, as with other NSAIDs, nabumetone tablets should be avoided because it may cause premature closure of the ductus arteriosus.</paragraph>
+                     </text>
+                     <effectiveTime value="20150731"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID47">
+               <id root="e504f55a-0d8a-4631-8a83-8681f5cac912"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20150731"/>
+               <component>
+                  <section ID="ID48">
+                     <id root="e4df1469-e45c-48a9-b7f3-909b7c974d70"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph ID="ID49">Nabumetone tablets cannot be expected to substitute for corticosteroids or to treat corticosteroid insufficiency. Abrupt discontinuation of corticosteroids may lead to disease exacerbation. Patients on prolonged corticosteroid therapy should have their therapy tapered slowly if a decision is made to discontinue corticosteroids.</paragraph>
+                        <paragraph>The pharmacological activity of nabumetone tablets in reducing fever and inflammation may diminish the utility of these diagnostic signs in detecting complications of presumed noninfectious, painful conditions.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Hepatic Effects:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Borderline elevations of 1 or more liver function tests may occur in up to 15% of patients taking NSAIDs including nabumetone tablets. These laboratory abnormalities may progress, may remain unchanged, or may be transient with continuing therapy. Notable elevations of ALT or AST (approximately 3 or more times the upper limit of normal) have been reported in approximately 1% of patients in clinical trials with NSAIDs. In addition, rare cases of severe hepatic reactions, including jaundice and fatal fulminant hepatitis, liver necrosis and hepatic failure, some of them with fatal outcomes have been reported. A patient with symptoms and/or signs suggesting liver dysfunction, or in whom an abnormal liver test has occurred, should be evaluated for evidence of the development of a more severe hepatic reaction while on therapy with nabumetone tablets. If clinical signs and symptoms consistent with liver disease develop, or if systemic manifestations occur (e.g., eosinophilia, rash, etc.), nabumetone tablets should be discontinued.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Hematological Effects:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Anemia is sometimes seen in patients receiving NSAIDs, including nabumetone tablets. This may be due to fluid retention, occult or gross GI blood loss, or an incompletely described effect upon erythropoiesis. Patients on long-term treatment with NSAIDs, including nabumetone tablets, should have their hemoglobin or hematocrit checked if they exhibit any signs or symptoms of anemia.</paragraph>
+                        <paragraph>NSAIDs inhibit platelet aggregation and have been shown to prolong bleeding time in some patients. Unlike aspirin, their effect on platelet function is quantitatively less, of shorter duration, and reversible. Patients receiving nabumetone tablets who may be adversely affected by alterations in platelet function, such as those with coagulation disorders or patients receiving anticoagulants, should be carefully monitored <content styleCode="italics">(see <linkHtml href="#ID93">CLINICAL PHARMACOLOGY, Special Studies, Other</linkHtml>).</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20150731"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID50">
+                     <id root="18169af5-6562-41f6-b5f4-f7db1013d0ea"/>
+                     <title styleCode="bold italics">Preexisting Asthama</title>
+                     <text>
+                        <paragraph ID="ID51">Patients with asthma may have aspirin-sensitive asthma. The use of aspirin in patients with aspirin-sensitive asthma has been associated with severe bronchospasm which can be fatal. Since cross reactivity, including bronchospasm, between aspirin and other non-steroidal anti-inflammatory drugs has been reported in such aspirin-sensitive patients, nabumetone tablets should not be administered to patients with this form of aspirin sensitivity and should be used with caution in patients with preexisting asthma.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold italics">Photosensitivity:</content>
+                        </paragraph>
+                        <paragraph>Based on ultraviolet (U.V.) light photosensitivity testing, nabumetone may be associated with more reactions to sun exposure than might be expected based on skin tanning types.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Information for Patients:</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Patients should be informed of the following information before initiating therapy with an NSAID and periodically during the course of ongoing therapy. Patients should also be encouraged to read the NSAID Medication Guide that accompanies each prescription dispensed. </content>
+                        </paragraph>
+                        <list listType="ordered" ID="ID52">
+                           <item>
+                              <content styleCode="bold">Cardiovascular Thrombotic Events: </content>Advise patients to be alert for the symptoms of cardiovascular thrombotic events, including chest pain, shortness of breath, weakness, or slurring of speech, and to report any of these symptoms to their health care provider immediately <content styleCode="italics">[see <linkHtml href="#ID32">WARNINGS</linkHtml>].</content>
+                           </item>
+                           <item>Nabumetone tablets, like other NSAIDs, can cause GI discomfort and, rarely, serious GI side effects, such as ulcers and bleeding, which may result in hospitalization and even death. Although serious GI tract ulcerations and bleeding can occur without warning symptoms, patients should be alert for the signs and symptoms of ulcerations and bleeding, and should ask for medical advice when observing any indicative signs or symptoms including epigastric pain, dyspepsia, melena, and hematemesis. Patients should be apprised of the importance of this follow-up <content styleCode="italics">(see <linkHtml href="#ID35">WARNINGS, Gastrointestinal Effects - Risk of Ulceration, Bleeding, and Perforation</linkHtml>). </content>
+                           </item>
+                           <item>Nabumetone tablets, like other NSAIDs, can cause serious skin side effects such as exfoliative dermatitis, SJS, and TEN, which may result in hospitalization and even death. Although serious skin reactions may occur without warning, patients should be alert for the signs and symptoms of skin rash and blisters, fever, or other signs of hypersensitivity such as itching, and should ask for medical advice when observing any indicative signs or symptoms. Patients should be advised to stop the drug immediately if they develop any type of rash and contact their physicians as soon as possible.</item>
+                           <item>
+                              <content styleCode="bold">Heart Failure And Edema: </content>Advise patients to be alert for the symptoms of congestive heart failure including shortness of breath, unexplained weight gain, or edema and to contact their healthcare provider if such symptoms occur <content styleCode="italics">[see <linkHtml href="#ID32">WARNINGS</linkHtml>]</content>.</item>
+                           <item>Patients should be informed of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, pruritus, jaundice, right upper quadrant tenderness, and "flu-like" symptoms). If these occur, patients should be instructed to stop therapy and seek immediate medical therapy.</item>
+                           <item>Patients should be informed of the signs of an anaphylactoid reaction (e.g., difficulty breathing, swelling of the face or throat). If these occur, patients should be instructed to seek immediate emergency help <content styleCode="italics">(see <linkHtml href="#ID32">WARNINGS</linkHtml>).</content>
+                           </item>
+                           <item>In late pregnancy, as with other NSAIDs, nabumetone tablets should be avoided because they may cause premature closure of the ductus arteriosus.</item>
+                        </list>
+                        <paragraph ID="ID53">
+                           <content styleCode="bold">Laboratory Tests</content>
+                        </paragraph>
+                        <paragraph>Because serious GI tract ulcerations and bleeding can occur without warning symptoms, physicians should monitor for signs or symptoms of GI bleeding. Patients on long-term treatment with NSAIDs, should have their CBC and a chemistry profile checked periodically. If clinical signs and symptoms consistent with liver or renal disease develop, systemic manifestations occur (e.g., eosinophilia, rash, etc.) or if abnormal liver tests persist or worsen, nabumetone tablets should be discontinued.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Drug Interactions</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">ACE-Inhibitors:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Reports suggest that NSAIDs may diminish the antihypertensive effect of ACE-inhibitors. This interaction should be given consideration in patients taking NSAIDs concomitantly with ACE-inhibitors.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Aspirin:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>When nabumetone tablets are administered with aspirin, its protein binding is reduced, although the clearance of free nabumetone is not altered. The clinical significance of this interaction is not known; however, as with other NSAIDs, concomitant administration of nabumetone tablets and aspirin is not generally recommended because of the potential of increased adverse effects.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Diuretics:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Clinical studies, as well as postmarketing observations, have shown that nabumetone tablets can reduce the natriuretic effect of furosemide and thiazides in some patients. This response has been attributed to inhibition of renal prostaglandin synthesis. During concomitant therapy with NSAIDs, the patient should be observed closely for signs of renal failure <content styleCode="italics">(see <linkHtml href="#ID37">WARNINGS, Renal Effects</linkHtml>)</content>, as well as to assure diuretic efficacy.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Lithium:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>NSAIDs have produced an elevation of plasma lithium levels and a reduction in renal lithium clearance. The mean minimum lithium concentration increased 15% and the renal clearance was decreased by approximately 20%. These effects have been attributed to inhibition of renal prostaglandin synthesis by the NSAID. Thus, when NSAIDs and lithium are administered concurrently, subjects should be observed carefully for signs of lithium toxicity.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Methotrexate:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>NSAIDs have been reported to competitively inhibit methotrexate accumulation in rabbit kidney slices. This may indicate that they could enhance the toxicity of methotrexate. Caution should be used when NSAIDs are administered concomitantly with methotrexate.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Warfarin:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>The effects of warfarin and NSAIDs on GI bleeding are synergistic, such that users of both drugs together have a risk of serious GI bleeding higher than users of either drug alone.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content> studies have shown that, because of its affinity for protein, 6MNA may displace other protein-bound drugs from their binding site. Caution should be exercised when administering nabumetone tablets with warfarin since interactions have been seen with other NSAIDs.</paragraph>
+                        <paragraph>Concomitant administration of an aluminum-containing antacid had no significant effect on the bioavailability of 6MNA. When administered with food or milk, there is more rapid absorption; however, the total amount of 6MNA in the plasma is unchanged <content styleCode="italics">(see <linkHtml href="#ID13">CLINICAL PHARMACOLOGY, Pharmacokinetics</linkHtml>).</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20150731"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID55">
+                     <id root="2fb1cc7e-0284-4e60-8e30-411f3f43cce5"/>
+                     <title styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph ID="ID56">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Carcinogenesis, Mutagenesis:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>In 2 year studies conducted in mice and rats, nabumetone had no statistically significant tumorigenic effect. Nabumetone did not show mutagenic potential in the Ames test and mouse micronucleus test <content styleCode="italics">in vivo</content>; however, nabumetone- and 6MNA-treated lymphocytes in culture showed chromosomal aberrations at 80 mcg/mL and higher concentrations (equal to the average human exposure to nabumetone at the maximum recommended dose).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Impairment of Fertility:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Nabumetone did not impair fertility of male or female rats treated orally at doses of 320 mg/kg/day (1,888 mg/m<sup>2</sup>) before mating.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Teratogenic Effects:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Pregnancy category C</content>: Reproductive studies conducted in rats and rabbits have not demonstrated evidence of developmental abnormalities. However, animal reproduction studies are not always predictive of human response. There are no adequate, well-controlled studies in pregnant women. Nabumetone tablets should be used in pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Nonteratogenic Effects:</content>
+                        </paragraph>
+                        <paragraph>Because of the known effects of non-steroidal anti-inflammatory drugs on the fetal cardiovascular system (closure of ductus arteriosus), use during pregnancy (particularly late pregnancy) should be avoided.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Labor and Delivery</content>
+                        </paragraph>
+                        <paragraph>In rat studies with NSAIDs, as with other drugs known to inhibit prostaglandin synthesis, an increased incidence of dystocia, delayed parturition, and decreased pup survival occurred. The effects of nabumetone tablets on labor and delivery in pregnant women are unknown.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Nursing Mothers</content>
+                        </paragraph>
+                        <paragraph>It is not known whether this drug is excreted in human milk, however 6MNA is excreted in the milk of lactating rats. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from nabumetone, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Pediatric Use</content>
+                        </paragraph>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Geriatric Use</content>
+                        </paragraph>
+                        <paragraph>As with any NSAIDs, caution should be exercised in treating the elderly (65 years and older). Of the 1,677 patients in U.S. clinical studies who were treated with nabumetone, 411 patients (24%) were 65 years or older; 22 patients (1%) were 75 years or older. No overall differences in efficacy or safety were observed between these older patients and younger ones. Similar results were observed in a 1 year, non-U.S. postmarketing surveillance study of 10,800 patients treated with nabumetone, of whom 4,577 patients (42%) were 65 years or older.</paragraph>
+                     </text>
+                     <effectiveTime value="20150731"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID57">
+               <id root="c3d9a571-d428-4e79-8afb-c92f98c8fa36"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph ID="ID58">Adverse reaction information was derived from blinded-controlled and open-labeled clinical trials and from worldwide marketing experience. In the description below, rates of the more common events (greater than 1%) and many of the less common events (less than 1%) represent results of U.S. clinical studies.</paragraph>
+                  <paragraph>Of the 1,677 patients who received nabumetone during U.S. clinical trials, 1,524 were treated for at least 1 month, 1,327 for at least 3 months, 929 for at least a year, and 750 for at least 2 years. More than 300 patients have been treated for 5 years or longer.</paragraph>
+                  <paragraph>The most frequently reported adverse reactions were related to the gastrointestinal tract and included diarrhea, dyspepsia, and abdominal pain.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Incidence ≥ 1% - Probably Causally Related</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Gastrointestinal:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Diarrhea (14%), dyspepsia (13%), abdominal pain (12%), constipation<sup>2</sup>, flatulence<sup>2</sup>, nausea<sup>2</sup>, positive stool guaiac<sup>2</sup>, dry mouth, gastritis, stomatitis, vomiting.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Central Nervous System:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Dizziness<sup>2</sup>, headache<sup>2</sup>, fatigue, increased sweating, insomnia, nervousness, somnolence.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Dermatologic:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Pruritus<sup>2</sup>, rash<sup>2</sup>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Special Senses:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Tinnitus<sup>2</sup>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Miscellaneous:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Edema<sup>2</sup>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Incidence &lt; 1% - Probably Causally Related<sup>3</sup>:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Gastrointestinal:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Anorexia, jaundice, duodenal ulcer, dysphagia, gastric ulcer, gastroenteritis, gastrointestinal bleeding, increased appetite, liver function abnormalities, melena, <content styleCode="italics">hepatic failure</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Central Nervous System:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Asthenia, agitation, anxiety, confusion, depression, malaise, paresthesia, tremor, vertigo.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Dermatologic:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Bullous eruptions, photosensitivity, urticaria, pseudoporphyria cutanea tarda, <content styleCode="italics">toxic epidermal necrolysis</content>
+                     <content styleCode="italics">, erythema multiforme, Stevens-Johnson syndrome</content>. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Cardiovascular:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Vasculitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Metabolic:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Weight Gain.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Respiratory:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Dyspnea, <content styleCode="italics">eosinophilic pneumonia</content>
+                     <content styleCode="italics">, hypersensitivity pneumonitis, idiopathic interstitial pneumonitis</content>. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Genitourinary:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Albuminuria, azotemia, <content styleCode="italics">hyperuricemia</content>
+                     <content styleCode="italics">, interstitial nephritis, nephrotic syndrome, vaginal bleeding, renal failure</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Special Senses:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Abnormal vision.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hematologic/Lymphatic:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Thrombocytopenia.</content> </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hypersensitivity:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Anaphylactoid reaction</content>
+                     <content styleCode="italics">, anaphylaxis</content>, angioneurotic edema.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Incidence &lt; 1% - Causal Relationship Unknown</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Gastrointestinal:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Bilirubinuria, duodenitis, eructation, gallstones, gingivitis, glossitis, pancreatitis, rectal bleeding.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Central Nervous System:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Nightmares.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Dermatologic:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Acne, alopecia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Cardiovascular:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Angina, arrhythmia, hypertension, myocardial infarction, palpitations, syncope, thrombophlebitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Respiratory:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Asthma, cough.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Genitourinary:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Dysuria, hematuria, impotence, renal stones.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Special Senses:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Taste disorder.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Body as a Whole:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Fever, chills.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hematologic/Lymphatic:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Anemia, leukopenia, granulocytopenia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Metabolic/Nutritional:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Hyperglycemia, hypokalemia, weight loss.</paragraph>
+               </text>
+               <effectiveTime value="20150731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID59">
+               <id root="bd39f0b5-db71-4159-8d0c-6ee487cd7e30"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph ID="ID60">Symptoms following acute NSAIDs overdoses are usually limited to lethargy, drowsiness, nausea, vomiting, and epigastric pain, which are generally reversible with supportive care. Gastrointestinal bleeding can occur. Hypertension, acute renal failure, respiratory depression, and coma may occur, but are rare. Anaphylactoid reactions have been reported with therapeutic ingestion of NSAIDs, and may occur following an overdose.</paragraph>
+                  <paragraph>Patients should be managed by symptomatic and supportive care following a NSAIDs overdose. There are no specific antidotes. Emesis and/or activated charcoal (60 to 100 grams in adults, 1 to 2 g/kg in children), and/or osmotic cathartic may be indicated in patients seen within 4 hours of ingestion with symptoms or following a large overdose (5 to 10 times the usual dose). Forced diuresis, alkalinization of urine, hemodialysis, or hemoperfusion may not be useful due to high protein binding.</paragraph>
+                  <paragraph>There have been overdoses of up to 25 grams of nabumetone reported with no long-term sequelae following standard emergency treatment (i.e., activated charcoal, gastric lavage, IV H<sub>2</sub>-blockers, etc.).</paragraph>
+               </text>
+               <effectiveTime value="20150731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID61">
+               <id root="8b965834-7870-40d4-85bd-da0eaf63afc0"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph ID="ID62">Carefully consider the potential benefits and risks of nabumetone tablets and other treatment options before deciding to use nabumetone tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals <content styleCode="italics">(see <linkHtml href="#ID32">WARNINGS</linkHtml>).</content>
+                  </paragraph>
+                  <paragraph>After observing the response to initial therapy with nabumetone tablets, the dose and frequency should be adjusted to suit an individual patient's needs.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Osteoarthritis and Rheumatoid Arthritis:</content>
+                  </paragraph>
+                  <paragraph>The recommended starting dose is 1,000 mg taken as a single dose with or without food. Some patients may obtain more symptomatic relief from 1,500 mg to 2,000 mg per day. Nabumetone tablets can be given in either a single or twice-daily dose. Dosages greater than 2,000 mg per day have not been studied. The lowest effective dose should be used for chronic treatment <content styleCode="italics">(see <linkHtml href="#ID37">WARNINGS, Renal Effects</linkHtml>).</content> Patients weighing under 50 kg may be less likely to require dosages beyond 1,000 mg; therefore, after observing the response to initial therapy, the dose should be adjusted to meet individual patients' requirements.</paragraph>
+               </text>
+               <effectiveTime value="20150731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID63">
+               <id root="ea391f7c-7757-4e3f-b0bf-5853e8ab2790"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph ID="ID64">Nabumetone Tablets USP, 500 mg are available as white to off white, oval shaped, biconvex, film-coated tablets, debossed with "LU" on one side and "V01" on  the other side.</paragraph>
+                  <paragraph>They are supplied as follows:</paragraph>
+                  <paragraph>NDC 68180-141-01    Bottles of 100's</paragraph>
+                  <paragraph>NDC 68180-141-03    Bottles of 1000's</paragraph>
+                  <paragraph>Nabumetone Tablets USP, 750 mg are available as white to off white, oval shaped, biconvex, film-coated tablets, debossed with "LU" on one side and "V02" on the other side.</paragraph>
+                  <paragraph>They are supplied as follows:</paragraph>
+                  <paragraph>NDC 68180-142-01    Bottles of 100's</paragraph>
+                  <paragraph>NDC 68180-142-03    Bottles of 1000's</paragraph>
+                  <paragraph>Store at 25°C (77°F); excursions permitted to 15°-30°C (59°- 86°F) [see USP Controlled Room Temperature]. Preserve in well-closed containers.</paragraph>
+                  <paragraph>Dispense in a tight, light-resistant container as defined in the USP, with a child-resistant closure (as required).</paragraph>
+                  <paragraph>_____________________________________________________________________________________________________</paragraph>
+                  <paragraph>
+                     <sup>1</sup>Throughout this package insert, the term NSAID refers to a non-aspirin non- steroidal anti-inflammatory drug. </paragraph>
+                  <paragraph>
+                     <sup>2</sup>Incidence of reported reaction between 3% and 9%. Reactions occurring in 1% to 3% of the patients are unmarked. </paragraph>
+                  <paragraph>
+                     <sup>3</sup>
+                     <sup>†</sup>Adverse reactions reported only in worldwide postmarketing experience or in the literature, not seen in clinical trials, are considered rarer and are italicized. </paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Lupin Pharmaceuticals, Inc.</content>
+                  </paragraph>
+                  <paragraph>Baltimore, Maryland 21202</paragraph>
+                  <paragraph>United States</paragraph>
+                  <paragraph> </paragraph>
+                  <paragraph>Manufactured by: </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Lupin Limited</content>
+                  </paragraph>
+                  <paragraph>Goa 403722</paragraph>
+                  <paragraph>INDIA</paragraph>
+                  <paragraph>August 7, 2015                                                                                               ID#: 242328</paragraph>
+               </text>
+               <effectiveTime value="20150731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID65">
+               <id root="189fa2cb-c750-429d-9ea7-f2fe84927ed9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph ID="ID66">
+                     <content styleCode="bold">MEDICATION GUIDE</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NSAIDs can cause serious side effects, including:</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID67" styleCode="Disc">
+                     <item>
+                        <content styleCode="bold">Increased risk of a heart attack or stroke that can lead to death</content> . This risk may happen early in treatment and may increase:<list listType="unordered" styleCode="Circle">
+                           <item>with increasing doses of NSAIDs</item>
+                           <item>with longer use of NSAIDs</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph ID="ID68">
+                     <content styleCode="bold">Do not take NSAIDs right before or after a heart surgery called a "coronary artery bypass graft (CABG)." Avoid taking NSAIDs after a recent heart attack, unless your healthcare provider tells you to. You may have an increased risk of another heart attack if you take NSAIDs after a recent heart attack.</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID69" styleCode="Disc">
+                     <item>
+                        <content styleCode="bold">Increased risk of bleeding, ulcers, and tears (perforation) of the esophagus (tube leading from the mouth to the stomach), stomach and intestines:</content>
+                        <list listType="unordered" styleCode="Circle">
+                           <item>anytime during use</item>
+                           <item>without warning symptoms</item>
+                           <item>that may cause death</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph ID="ID70">
+                     <content styleCode="bold">The risk of getting an ulcer or bleeding increases with:</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID71" styleCode="Circle">
+                     <item>past history of stomach ulcers, or stomach or intestinal bleeding with use of NSAIDs</item>
+                     <item>taking medicines called "corticosteroids", "anticoagulants", "SSRIs", or "SNRIs"</item>
+                     <item>increasing doses of NSAIDs</item>
+                     <item>longer use of NSAIDs</item>
+                     <item>smoking</item>
+                     <item>drinking alcohol</item>
+                     <item>older age</item>
+                     <item>poor health</item>
+                     <item>advanced liver disease</item>
+                     <item>bleeding problems</item>
+                  </list>
+                  <paragraph ID="ID72">
+                     <content styleCode="bold">NSAIDs should only be used:</content> </paragraph>
+                  <list listType="unordered" ID="ID73" styleCode="Circle">
+                     <item>exactly as prescribed</item>
+                     <item>at the lowest dose possible for your treatment</item>
+                     <item>for the shortest time needed</item>
+                  </list>
+                  <paragraph ID="ID74">
+                     <content styleCode="bold">What are NSAIDs?</content>
+                  </paragraph>
+                  <paragraph>NSAIDs are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as different types of arthritis, menstrual cramps, and other types of short-term pain.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Who should not take NSAIDs?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not take NSAIDs:</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID75" styleCode="Disc">
+                     <item>if you have had an asthma attack, hives, or other allergic reaction with aspirin or any other NSAIDs.</item>
+                     <item>right before or after heart bypass surgery.</item>
+                  </list>
+                  <paragraph ID="ID76">
+                     <content styleCode="bold">Before taking NSAIDS, tell your healthcare provider about all of your medical conditions, including if you:</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID77" styleCode="Disc">
+                     <item>have liver or kidney problems</item>
+                     <item>have high blood pressure</item>
+                     <item>have asthma</item>
+                     <item>are pregnant or plan to become pregnant. Talk to your healthcare provider if you are considering taking NSAIDs during pregnancy. <content styleCode="bold">You should not take NSAIDs after 29 weeks of pregnancy.</content>
+                     </item>
+                     <item>are breastfeeding or plan to breast feed.</item>
+                  </list>
+                  <paragraph ID="ID78">
+                     <content styleCode="bold">Tell your healthcare provider about all of the medicines you take, including prescription or over-the-counter medicines, vitamins or herbal supplements. </content>NSAIDs and some other medicines can interact with each other and cause serious side effects. <content styleCode="bold">Do not start taking any new medicine without talking to your healthcare provider first.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of NSAIDs?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NSAIDs can cause serious side effects, including:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">See "What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID79" styleCode="Disc">
+                     <item>new or worse high blood pressure</item>
+                     <item>heart failure</item>
+                     <item>liver problems including liver failure</item>
+                     <item>kidney problems including kidney failure</item>
+                     <item>low red blood cells (anemia)</item>
+                     <item>life-threatening skin reactions</item>
+                     <item>life threatening allergic reactions</item>
+                     <item>
+                        <content styleCode="bold">Other side effects of NSAIDs include: </content> stomach pain, constipation, diarrhea, gas, heartburn, nausea, vomiting, and dizziness.</item>
+                  </list>
+                  <paragraph ID="ID80">
+                     <content styleCode="bold">Get emergency help right away if you get any of the following symptoms:</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID83" styleCode="Disc">
+                     <item>shortness of breath or trouble breathing</item>
+                     <item>chest pain</item>
+                     <item>weakness in one part or side of your body</item>
+                     <item>slurred speech</item>
+                     <item>swelling of the face or throat</item>
+                  </list>
+                  <paragraph ID="ID84">
+                     <content styleCode="bold">Stop taking your NSAID and call your healthcare provider right away if you get any of the following symptoms:</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID85" styleCode="Disc">
+                     <item>nausea</item>
+                     <item>more tired or weaker than usual</item>
+                     <item>diarrhea</item>
+                     <item>itching</item>
+                     <item>your skin or eyes look yellow</item>
+                     <item>indigestion or stomach pain</item>
+                     <item>flu-like symptoms</item>
+                     <item>vomit blood</item>
+                     <item>there is blood in your bowel movement or it is black and sticky like tar</item>
+                     <item>unusual weight gain</item>
+                     <item>skin rash or blisters with fever</item>
+                     <item>swelling of the arms, legs, hands and feet</item>
+                  </list>
+                  <paragraph ID="ID86">
+                     <content styleCode="bold">If you take too much of your NSAID, call your healthcare provider or get medical help right away.</content>
+                  </paragraph>
+                  <paragraph>These are not all the possible side effects of NSAIDs. For more information, ask your healthcare provider or pharmacist about NSAIDs.</paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other information about NSAIDs</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID87" styleCode="Disc">
+                     <item>Aspirin is an NSAID but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines.</item>
+                     <item>Some NSAIDs are sold in lower doses without a prescription (over-the counter). Talk to your healthcare provider before using over-the-counter NSAIDs for more than 10 days.</item>
+                  </list>
+                  <paragraph ID="ID88">
+                     <content styleCode="bold">General information about the safe and effective use of NSAIDs</content>
+                  </paragraph>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use NSAIDs for a condition for which it was not prescribed. Do not give NSAIDs to other people, even if they have the same symptoms that you have. It may harm them.</paragraph>
+                  <paragraph>If you would like more information about NSAIDs, talk with your healthcare provider. You can ask your pharmacist or healthcare provider for information about NSAIDs that is written for health professionals.</paragraph>
+                  <paragraph>For more information about nabumetone tablets, call 1-800-399-2561 or go to www.lupinpharmaceuticals.com.</paragraph>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Lupin Pharmaceuticals, Inc.</content>
+                  </paragraph>
+                  <paragraph>Baltimore, Maryland 21202</paragraph>
+                  <paragraph>United States</paragraph>
+                  <paragraph> </paragraph>
+                  <paragraph>Manufactured by: </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Lupin Limited</content>
+                  </paragraph>
+                  <paragraph>Goa 403722</paragraph>
+                  <paragraph>INDIA</paragraph>
+                  <paragraph>August 7, 2015                                                                                                   ID#: 242329</paragraph>
+               </text>
+               <effectiveTime value="20150731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID95">
+               <id root="f04468a9-28b5-4678-a9b7-4306c3916e50"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph ID="ID96">
+                     <content styleCode="bold">NDC 68180-141-01</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NABUMETONE TABLETS USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">500 MG</content>
+                  </paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Bottle of 100 Tablets</paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+                  <paragraph ID="ID98">
+                     <content styleCode="bold">NDC 68180-142-01</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NABUMETONE TABLETS USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">750 MG</content>
+                  </paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Bottle of 100 Tablets</paragraph>
+                  <renderMultiMedia referencedObject="MM5"/>
+               </text>
+               <effectiveTime value="20150731"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>500 MG 100 count</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nabumetonetablets-figure-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>750 MG 100s count</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nabumetonetablets-figure-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

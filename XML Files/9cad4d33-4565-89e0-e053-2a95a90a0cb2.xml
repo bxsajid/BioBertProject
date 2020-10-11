@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9cad4d33-4565-89e0-e053-2a95a90a0cb2"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">SULINDAC</content>
+   </title>
+   <effectiveTime value="20200121"/>
+   <setId root="13a2cdb5-580f-470e-8b64-cc22ed56a8bb"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+            <name>Direct Rx</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                        <name>Direct Rx</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="61919-211" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="61919-211" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9cad4bbf-1584-9278-e053-2a95a90a5f37"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20200121"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="61919-211" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>SUNLINDAC</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SULINDAC</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="53489-479" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="200"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="184SNS8VUH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SULINDAC</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="184SNS8VUH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SULINDAC</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61919-211-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20140402"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA072051" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="10" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">MP;116</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3afdbe23-965b-3acd-e054-00144ff8d46c">
+               <id root="9cad4d33-456e-89e0-e053-2a95a90a0cb2"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <text>
+                  <paragraph>Cardiovascular Risk</paragraph>
+                  <paragraph>NSAIDs may cause an increased risk of serious cardiovascular thrombotic events, myocardial infarction, and stroke, which can be fatal. This risk may increase with duration of use. Patients with cardiovascular disease or risk factors for cardiovascular disease may be at greater risk. (See WARNINGS.)
+  <br/>
+Sulindac tablets are contraindicated for the treatment of peri-operative pain in the setting of coronary artery bypass graft (CABG) surgery (see WARNINGS).
+  <br/>
+Gastrointestinal Risk
+ </paragraph>
+                  <paragraph>NSAIDs cause an increased risk of serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients are at greater risk for serious gastrointestinal events. (See WARNINGS.)</paragraph>
+               </text>
+               <effectiveTime value="20160826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3afdbe23-965d-3acd-e054-00144ff8d46c">
+               <id root="9cad4d33-456b-89e0-e053-2a95a90a0cb2"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Sulindac is a non-steroidal, anti-inflammatory indene derivative designated chemically as (Z)-5-fluoro-2-methyl-1-[[p-(methylsulfinyl)phenyl]methylene]-1H-indene-3-acetic acid. It is not a salicylate, pyrazolone or propionic acid derivative. Its empirical formula is C20H17FO3S, with a molecular weight of 356.42. Sulindac, a yellow crystalline compound, is a weak organic acid practically insoluble in water below pH 4.5, but very soluble as the sodium salt or in buffers of pH 6 or higher.</paragraph>
+                  <paragraph>Sulindac tablets are available in 150 and 200 mg tablets for oral administration. Each tablet contains the following inactive ingredients: magnesium stearate, microcrystalline cellulose, and pregelatinized starch.</paragraph>
+                  <paragraph>Following absorption, sulindac undergoes two major biotransformations — reversible reduction to the sulfide metabolite, and irreversible oxidation to the sulfone metabolite. Available evidence indicates that the biological activity resides with the sulfide metabolite.</paragraph>
+                  <paragraph>The structural formulas of sulindac and its metabolites are:</paragraph>
+                  <paragraph>Chemical Structure</paragraph>
+               </text>
+               <effectiveTime value="20160826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3afdbe23-966c-3acd-e054-00144ff8d46c">
+               <id root="9cad4d33-4569-89e0-e053-2a95a90a0cb2"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>Pharmacodynamics</paragraph>
+                  <paragraph>Sulindac tablets are a non-steroidal anti-inflammatory drug (NSAID) that exhibits anti-inflammatory, analgesic and antipyretic activities in animal models. The mechanism of action, like that of other NSAIDs, is not completely understood but may be related to prostaglandin synthetase inhibition.</paragraph>
+                  <paragraph>Pharmacokinetics</paragraph>
+                  <paragraph>Absorption</paragraph>
+                  <paragraph>The extent of sulindac absorption from sulindac tablets is similar as compared to sulindac solution.</paragraph>
+                  <paragraph>There is no information regarding food effect on sulindac absorption. Antacids containing magnesium hydroxide 200 mg and aluminum hydroxide 225 mg per 5 mL have been shown not to significantly decrease the extent of sulindac absorption.</paragraph>
+                  <paragraph>TABLE 1
+  <br/>
+PHARMACOKINETIC PARAMETERS    NORMAL    ELDERLY
+  <br/>
+S   = Sulindac
+  <br/>
+SF = Sulindac Sulfide
+  <br/>
+SP = Sulindac Sulfone
+  <br/>
+Tmax    Age 19–41 (n=24)    Age 65–87 (n=12) (400 mg qd)
+  <br/>
+                     <br/>
+      (200 mg tablet)    2.54 ± 1.52 S
+  <br/>
+            5.75 ± 2.81 SF
+  <br/>
+      3.38 ± 2.30 S    6.83 ± 4.19 SP
+  <br/>
+      4.88 ± 2.57 SP      
+  <br/>
+      4.96 ± 2.36 SF      
+  <br/>
+                     <br/>
+      (150 mg tablet)      
+  <br/>
+                     <br/>
+      3.90 ± 2.30 S      
+  <br/>
+      5.85 ± 4.49 SP      
+  <br/>
+      6.15 ± 3.07 SF      
+  <br/>
+Renal Clearance    (200 mg tablet)      
+  <br/>
+                     <br/>
+      68.12 ± 27.56 mL/min S      
+  <br/>
+      36.58 ± 12.61 mL/min SP      
+  <br/>
+                     <br/>
+      (150 mg tablet)      
+  <br/>
+                     <br/>
+      74.39 ± 34.15 mL/min S      
+  <br/>
+      41.75 ± 13.72 mL/min SP      
+  <br/>
+Mean effective Half life (h)      7.8 S
+  <br/>
+16.4 SF      
+  <br/>
+Distribution
+ </paragraph>
+                  <paragraph>Sulindac, and its sulfone and sulfide metabolites, are 93.1, 95.4, and 97.9% bound to plasma proteins, predominantly to albumin. Plasma protein binding measured over a concentration range (0.5–2.0 µg/mL) was constant. Following an oral, radiolabeled dose of sulindac in rats, concentrations of radiolabel in red blood cells were about 10% of those in plasma. Sulindac penetrates the blood-brain and placental barriers. Concentrations in brain did not exceed 4% of those in plasma. Plasma concentrations in the placenta and in the fetus were less than 25% and 5% respectively, of systemic plasma concentrations. Sulindac is excreted in rat milk; concentrations in milk were 10 to 20% of those levels in plasma. It is not known if sulindac is excreted in human milk.</paragraph>
+                  <paragraph>Metabolism</paragraph>
+                  <paragraph>Sulindac undergoes two major biotransformations of its sulfoxide moiety: oxidation to the inactive sulfone and reduction to the pharmacologically active sulfide. The latter is readily reversible in animals and in man. These metabolites are present as unchanged compounds in plasma and principally as glucuronide conjugates in human urine and bile. A dihydroxydihydro analog has also been identified as a minor metabolite in human urine.</paragraph>
+                  <paragraph>With the twice-a-day dosage regimen, plasma concentrations of sulindac and its two metabolites accumulate: mean concentration over a dosage interval at steady state relative to the first dose averages 1.5 and 2.5 times higher, respectively, for sulindac and its active sulfide metabolite.</paragraph>
+                  <paragraph>Sulindac and its sulfone metabolite undergo extensive enterohepatic circulation relative to the sulfide metabolite in animals. Studies in man have also demonstrated that recirculation of the parent drug sulindac and its sulfone metabolite is more extensive than that of the active sulfide metabolite. The active sulfide metabolite accounts for less than six percent of the total intestinal exposure to sulindac and its metabolites.</paragraph>
+                  <paragraph>Biochemical as well as pharmacological evidence indicates that the activity of sulindac resides in its sulfide metabolite. An in-vitro assay for inhibition of cyclooxygenase activity exhibited an EC50 of 0.02 µM for sulindac sulfide. In-vivo models of inflammation indicate that activity is more highly correlated with concentrations of the metabolite than with parent drug concentrations.</paragraph>
+                  <paragraph>Elimination</paragraph>
+                  <paragraph>Approximately 50% of the administered dose of sulindac is excreted in the urine with the conjugated sulfone metabolite accounting for the major portion. Less than 1% of the administered dose of sulindac appears in the urine as the sulfide metabolite. Approximately 25% is found in the feces, primarily as the sulfone and sulfide metabolites.</paragraph>
+                  <paragraph>The mean effective half-life (T1/2) is 7.8 and 16.4 hours, respectively, for sulindac and its active sulfide metabolite.</paragraph>
+                  <paragraph>Because sulindac tablets are excreted in the urine primarily as biologically inactive forms, it may possibly affect renal function to a lesser extent than other non-steroidal anti-inflammatory drugs; however, renal adverse experiences have been reported with sulindac tablets (see ADVERSE REACTIONS).</paragraph>
+                  <paragraph>In a study of patients with chronic glomerular disease treated with therapeutic doses of sulindac tablets, no effect was demonstrated on renal blood flow, glomerular filtration rate, or urinary excretion of prostaglandin E2 and the primary metabolite of prostacyclin, 6-keto-PGF1α. However, in other studies in healthy volunteers and patients with liver disease, sulindac tablets were found to blunt the renal responses to intravenous furosemide, i.e., the diuresis, natriuresis, increments in plasma renin activity and urinary excretion of prostaglandins. These observations may represent a differentiation of the effects of sulindac tablets on renal functions based on differences in pathogenesis of the renal prostaglandin dependence associated with differing dose-response relationships of different NSAIDs to the various renal functions influenced by prostaglandins (see PRECAUTIONS).</paragraph>
+                  <paragraph>In healthy men, the average fecal blood loss, measured over a two-week period during administration of 400 mg per day of sulindac tablets, was similar to that for placebo, and was statistically significantly less than that resulting from 4800 mg per day of aspirin.</paragraph>
+                  <paragraph>Special Populations</paragraph>
+                  <paragraph>Pediatric</paragraph>
+                  <paragraph>The pharmacokinetics of sulindac have not been investigated in pediatric patients.</paragraph>
+                  <paragraph>Race</paragraph>
+                  <paragraph>Pharmacokinetic differences due to race have not been identified.</paragraph>
+                  <paragraph>Hepatic Insufficiency</paragraph>
+                  <paragraph>Patients with acute and chronic hepatic disease may require reduced doses of sulindac tablets compared to patients with normal hepatic function since hepatic metabolism is an important elimination pathway.</paragraph>
+                  <paragraph>Following a single dose, plasma concentrations of the active sulfide metabolite have been reported to be higher in patients with alcoholic liver disease compared to healthy normal subjects.</paragraph>
+                  <paragraph>Renal Insufficiency</paragraph>
+                  <paragraph>Sulindac pharmacokinetics have been investigated in patients with renal insufficiency. The disposition of sulindac was studied in end-stage renal disease patients requiring hemodialysis. Plasma concentrations of sulindac and its sulfone metabolite were comparable to those of normal healthy volunteers whereas concentrations of the active sulfide metabolite were significantly reduced. Plasma protein binding was reduced and the AUC of the unbound sulfide metabolite was about half that in healthy subjects.</paragraph>
+                  <paragraph>Sulindac and its metabolites are not significantly removed from the blood in patients undergoing hemodialysis.</paragraph>
+                  <paragraph>Since sulindac tablets are eliminated primarily by the kidneys, patients with significantly impaired renal function should be closely monitored.</paragraph>
+                  <paragraph>A lower daily dosage should be anticipated to avoid excessive drug accumulation.</paragraph>
+                  <paragraph>In controlled clinical studies sulindac tablets were evaluated in the following five conditions:</paragraph>
+                  <paragraph>1. Osteoarthritis</paragraph>
+                  <paragraph>In patients with osteoarthritis of the hip and knee, the anti-inflammatory and analgesic activity of sulindac tablets was demonstrated by clinical measurements that included: assessments by both patient and investigator of overall response; decrease in disease activity as assessed by both patient and investigator; improvement in ARA Functional Class; relief of night pain; improvement in overall evaluation of pain, including pain on weight bearing and pain on active and passive motion; improvement in joint mobility, range of motion, and functional activities; decreased swelling and tenderness; and decreased duration of stiffness following prolonged inactivity.</paragraph>
+                  <paragraph>In clinical studies in which dosages were adjusted according to patient needs, sulindac tablets 200 to 400 mg daily were shown to be comparable in effectiveness to aspirin 2400 to 4800 mg daily. Sulindac tablets were generally well tolerated, and patients on it had a lower overall incidence of total adverse effects, of milder gastrointestinal reactions, and of tinnitus than did patients on aspirin. (See ADVERSE REACTIONS.)</paragraph>
+                  <paragraph>2. Rheumatoid arthritis</paragraph>
+                  <paragraph>In patients with rheumatoid arthritis, the anti-inflammatory and analgesic activity of sulindac tablets was demonstrated by clinical measurements that included: assessments by both patient and investigator of overall response; decrease in disease activity as assessed by both patient and investigator; reduction in overall joint pain; reduction in duration and severity of morning stiffness; reduction in day and night pain; decrease in time required to walk 50 feet; decrease in general pain as measured on a visual analog scale; improvement in the Ritchie articular index; decrease in proximal interphalangeal joint size; improvement in ARA Functional Class; increase in grip strength; reduction in painful joint count and score; reduction in swollen joint count and score; and increased flexion and extension of the wrist.</paragraph>
+                  <paragraph>In clinical studies in which dosages were adjusted according to patient needs, sulindac tablets 300 to 400 mg daily were shown to be comparable in effectiveness to aspirin 3600 to 4800 mg daily. Sulindac tablets were generally well tolerated, and patients on it had a lower overall incidence of total adverse effects, of milder gastrointestinal reactions, and of tinnitus than did patients on aspirin. (See ADVERSE REACTIONS.)</paragraph>
+                  <paragraph>In patients with rheumatoid arthritis, sulindac tablets may be used in combination with gold salts at usual dosage levels. In clinical studies, sulindac tablets added to the regimen of gold salts usually resulted in additional symptomatic relief but did not alter the course of the underlying disease.</paragraph>
+                  <paragraph>3. Ankylosing spondylitis</paragraph>
+                  <paragraph>In patients with ankylosing spondylitis, the anti-inflammatory and analgesic activity of sulindac tablets was demonstrated by clinical measurements that included: assessments by both patient and investigator of overall response; decrease in disease activity as assessed by both patient and investigator; improvement in ARA Functional Class; improvement in patient and investigator evaluation of spinal pain, tenderness and/or spasm; reduction in the duration of morning stiffness; increase in the time to onset of fatigue; relief of night pain; increase in chest expansion; and increase in spinal mobility evaluated by fingers-to-floor distance, occiput to wall distance, the Schober Test, and the Wright Modification of the Schober Test. In a clinical study in which dosages were adjusted according to patient need, sulindac tablets 200 to 400 mg daily were as effective as indomethacin 75 to 150 mg daily. In a second study, sulindac tablets 300 to 400 mg daily were comparable in effectiveness to phenylbutazone 400 to 600 mg daily. Sulindac tablets were better tolerated than phenylbutazone. (See ADVERSE REACTIONS.)</paragraph>
+                  <paragraph>4. Acute painful shoulder (Acute subacromial bursitis/supraspinatus tendinitis)</paragraph>
+                  <paragraph>In patients with acute painful shoulder (acute subacromial bursitis/supraspinatus tendinitis), the anti-inflammatory and analgesic activity of sulindac tablets was demonstrated by clinical measurements that included: assessments by both patient and investigator of overall response; relief of night pain, spontaneous pain, and pain on active motion; decrease in local tenderness; and improvement in range of motion measured by abduction, and internal and external rotation. In clinical studies in acute painful shoulder, sulindac tablets 300 to 400 mg daily and oxyphenbutazone 400 to 600 mg daily were shown to be equally effective and well tolerated.</paragraph>
+                  <paragraph>5. Acute gouty arthritis</paragraph>
+                  <paragraph>In patients with acute gouty arthritis, the anti-inflammatory and analgesic activity of sulindac tablets was demonstrated by clinical measurements that included: assessments by both the patient and investigator of overall response; relief of weight-bearing pain; relief of pain at rest and on active and passive motion; decrease in tenderness; reduction in warmth and swelling; increase in range of motion; and improvement in ability to function. In clinical studies, sulindac tablets at 400 mg daily and phenylbutazone at 600 mg daily were shown to be equally effective. In these short-term studies in which reduction of dosage was permitted according to response, both drugs were equally well tolerated.</paragraph>
+               </text>
+               <effectiveTime value="20160826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3afdbe23-966e-3acd-e054-00144ff8d46c">
+               <id root="9cad4d33-456a-89e0-e053-2a95a90a0cb2"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Carefully consider the potential benefits and risks of sulindac tablets and other treatment options before deciding to use sulindac tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS).</paragraph>
+                  <paragraph>Sulindac tablets are indicated for acute or long-term use in the relief of signs and symptoms of the following:</paragraph>
+                  <paragraph>Osteoarthritis
+  <br/>
+Rheumatoid arthritis1
+  <br/>
+Ankylosing spondylitis
+  <br/>
+Acute painful shoulder (Acute subacromial bursitis/supraspinatus tendinitis)
+  <br/>
+Acute gouty arthritis
+  <br/>
+1 The safety and effectiveness of sulindac tablets have not been established in rheumatoid arthritis patients who are designated in the American Rheumatism Association classification as Functional Class IV (incapacitated, largely or wholly bedridden, or confined to wheelchair; little or no self-care).
+ </paragraph>
+               </text>
+               <effectiveTime value="20160826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3afdd52b-5fcb-428a-e054-00144ff8d46c">
+               <id root="9cad4d33-456c-89e0-e053-2a95a90a0cb2"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Sulindac tablets are contraindicated in patients with known hypersensitivity to sulindac or the excipients (see DESCRIPTION).</paragraph>
+                  <paragraph>Sulindac tablets should not be given to patients who have experienced asthma, urticaria, or allergic-type reactions after taking aspirin or other NSAIDs. Severe, rarely fatal, anaphylactic/anaphylactoid reactions to NSAIDs have been reported in such patients (see WARNINGS – ANAPHYLACTIC/ANAPHYLACTOID REACTIONS, and PRECAUTIONS – PREEXISTING ASTHMA).</paragraph>
+                  <paragraph>Sulindac tablets are contraindicated for the treatment of peri-operative pain in the setting of coronary artery bypass graft (CABG) surgery (see WARNINGS).</paragraph>
+               </text>
+               <effectiveTime value="20160826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3afdbe23-9670-3acd-e054-00144ff8d46c">
+               <id root="9cad4d33-456d-89e0-e053-2a95a90a0cb2"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>Sulindac tablets cannot be expected to substitute for corticosteroids or to treat corticosteroid insufficiency. Abrupt discontinuation of corticosteroids may lead to disease exacerbation. Patients on prolonged corticosteroid therapy should have their therapy tapered slowly if a decision is made to discontinue corticosteroids.</paragraph>
+                  <paragraph>The pharmacological activity of sulindac tablets in reducing fever and inflammation may diminish the utility of these diagnostic signs in detecting complications of presumed noninfectious, painful conditions.</paragraph>
+                  <paragraph>Hematological Effects</paragraph>
+                  <paragraph>Anemia is sometimes seen in patients receiving NSAIDs, including sulindac tablets. This may be due to fluid retention, occult or gross GI blood loss, or an incompletely described effect upon erythropoiesis. Patients on long-term treatment with NSAIDs, including sulindac tablets, should have their hemoglobin or hematocrit checked if they exhibit any signs or symptoms of anemia.</paragraph>
+                  <paragraph>NSAIDs inhibit platelet aggregation and have been shown to prolong bleeding time in some patients. Unlike aspirin, their effect on platelet function is quantitatively less, of shorter duration, and reversible. Patients receiving sulindac tablets who may be adversely affected by alterations in platelet function, such as those with coagulation disorders or patients receiving anticoagulants, should be carefully monitored.</paragraph>
+                  <paragraph>Preexisting Asthma</paragraph>
+                  <paragraph>Patients with asthma may have aspirin-sensitive asthma. The use of aspirin in patients with aspirin-sensitive asthma has been associated with severe bronchospasm which can be fatal. Since cross reactivity, including bronchospasm, between aspirin and other non-steroidal anti-inflammatory drugs has been reported in such aspirin-sensitive patients, sulindac tablets should not be administered to patients with this form of aspirin sensitivity and should be used with caution in patients with preexisting asthma.</paragraph>
+                  <paragraph>Renal Calculi</paragraph>
+                  <paragraph>Sulindac metabolites have been reported rarely as the major or a minor component in renal stones in association with other calculus components. Sulindac tablets should be used with caution in patients with a history of renal lithiasis, and they should be kept well hydrated while receiving sulindac tablets.</paragraph>
+                  <paragraph>Pancreatitis</paragraph>
+                  <paragraph>Pancreatitis has been reported in patients receiving sulindac tablets (see ADVERSE REACTIONS). Should pancreatitis be suspected, the drug should be discontinued and not restarted, supportive medical therapy instituted, and the patient monitored closely with appropriate laboratory studies (e.g., serum and urine amylase, amylase/creatinine clearance ratio, electrolytes, serum calcium, glucose, lipase, etc.). A search for other causes of pancreatitis as well as those conditions which mimic pancreatitis should be conducted.</paragraph>
+                  <paragraph>Ocular Effects</paragraph>
+                  <paragraph>Because of reports of adverse eye findings with non-steroidal anti-inflammatory agents, it is recommended that patients who develop eye complaints during treatment with sulindac tablets have ophthalmologic studies.</paragraph>
+                  <paragraph>Hepatic Insufficiency</paragraph>
+                  <paragraph>In patients with poor liver function, delayed, elevated and prolonged circulating levels of the sulfide and sulfone metabolites may occur. Such patients should be monitored closely; a reduction of daily dosage may be required.</paragraph>
+                  <paragraph>SLE and Mixed Connective Tissue Disease</paragraph>
+                  <paragraph>In patients with systemic lupus erythematosus (SLE) and mixed connective tissue disease, there may be an increased risk of aseptic meningitis (see ADVERSE REACTIONS).</paragraph>
+                  <paragraph>Information for Patients</paragraph>
+                  <paragraph>Patients should be informed of the following information before initiating therapy with an NSAID and periodically during the course of ongoing therapy. Patients should also be encouraged to read the NSAID Medication Guide that accompanies each prescription dispensed.</paragraph>
+                  <paragraph>Sulindac tablets, like other NSAIDs, may cause serious CV side effects, such as MI or stroke, which may result in hospitalization and even death. Although serious CV events can occur without warning symptoms, patients should be alert for the signs and symptoms of chest pain, shortness of breath, weakness, slurring of speech, and should ask for medical advice when observing any indicative sign or symptoms. Patients should be apprised of the importance of this follow-up (see WARNINGS, CARDIOVASCULAR EFFECTS).
+  <br/>
+Sulindac tablets, like other NSAIDs, can cause GI discomfort and, rarely, serious GI side effects, such as ulcers and bleeding, which may result in hospitalization and even death. Although serious GI tract ulcerations and bleeding can occur without warning symptoms, patients should be alert for the signs and symptoms of ulcerations and bleeding, and should ask for medical advice when observing any indicative sign or symptoms including epigastric pain, dyspepsia, melena, and hematemesis. Patients should be apprised of the importance of this follow-up (see WARNINGS, GASTROINTESTINAL EFFECTS - RISK OF ULCERATION, BLEEDING, AND PERFORATION).
+  <br/>
+Sulindac tablets, like other NSAIDs, can cause serious skin side effects such as exfoliative dermatitis, SJS, and TEN, which may result in hospitalizations and even death. Although serious skin reactions may occur without warning, patients should be alert for the signs and symptoms of skin rash and blisters, fever, or other signs of hypersensitivity such as itching, and should ask for medical advice when observing any indicative signs or symptoms. Patients should be advised to stop the drug immediately if they develop any type of rash and contact their physicians as soon as possible.
+  <br/>
+Patients should promptly report signs or symptoms of unexplained weight gain or edema to their physicians.
+  <br/>
+Patients should be informed of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, pruritus, jaundice, right upper quadrant tenderness, and "flu-like" symptoms). If these occur, patients should be instructed to stop therapy and seek immediate medical therapy.
+  <br/>
+Patients should be informed of the signs of an anaphylactic/anaphylactoid reaction (e.g., difficulty breathing, swelling of the face or throat). If these occur, patients should be instructed to seek immediate emergency help (see WARNINGS).
+  <br/>
+In late pregnancy, as with other NSAIDs, sulindac tablets should be avoided because it may cause premature closure of the ductus arteriosus.
+  <br/>
+Laboratory Tests
+ </paragraph>
+                  <paragraph>Because serious GI tract ulcerations and bleeding can occur without warning symptoms, physicians should monitor for signs or symptoms of GI bleeding. Patients on long-term treatment with NSAIDs should have their CBC and a chemistry profile checked periodically. If clinical signs and symptoms consistent with liver or renal disease develop, systemic manifestations occur (e.g., eosinophilia, rash, etc.) or if abnormal liver tests persist or worsen, sulindac tablets should be discontinued.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>ACE-Inhibitors and Angiotensin II Antagonists</paragraph>
+                  <paragraph>Reports suggest that NSAIDs may diminish the antihypertensive effect of ACE-inhibitors and angiotensin II antagonists. These interactions should be given consideration in patients taking NSAIDs concomitantly with ACE-inhibitors or angiotensin II antagonists. In some patients with compromised renal function (e.g., elderly patients or patients who are volume-depleted, including those on diuretic therapy) who are being treated with non-steroidal anti-inflammatory drugs, the co-administration of an NSAID and an ACE-inhibitor or an angiotensin II antagonist may result in further deterioration of renal function, including possible acute renal failure, which is usually reversible. Therefore, monitor renal function periodically in patients receiving ACEIs or AIIAs and NSAIDs in combination therapy.</paragraph>
+                  <paragraph>Acetaminophen</paragraph>
+                  <paragraph>Acetaminophen had no effect on the plasma levels of sulindac or its sulfide metabolite.</paragraph>
+                  <paragraph>Aspirin</paragraph>
+                  <paragraph>The concomitant administration of aspirin with sulindac significantly depressed the plasma levels of the active sulfide metabolite. A double-blind study compared the safety and efficacy of sulindac tablets 300 or 400 mg daily given alone or with aspirin 2.4 g/day for the treatment of osteoarthritis. The addition of aspirin did not alter the types of clinical or laboratory adverse experiences for sulindac tablets; however, the combination showed an increase in the incidence of gastrointestinal adverse experiences. Since the addition of aspirin did not have a favorable effect on the therapeutic response to sulindac tablets, the combination is not recommended.</paragraph>
+                  <paragraph>Cyclosporine</paragraph>
+                  <paragraph>Administration of non-steroidal anti-inflammatory drugs concomitantly with cyclosporine has been associated with an increase in cyclosporine-induced toxicity, possibly due to decreased synthesis of renal prostacyclin. NSAIDs should be used with caution in patients taking cyclosporine, and renal function should be carefully monitored.</paragraph>
+                  <paragraph>Diflunisal</paragraph>
+                  <paragraph>The concomitant administration of sulindac tablets and diflunisal in normal volunteers resulted in lowering of the plasma levels of the active sulindac sulfide metabolite by approximately one-third.</paragraph>
+                  <paragraph>Diuretics</paragraph>
+                  <paragraph>Clinical studies, as well as post marketing observations, have shown that sulindac tablets can reduce the natriuretic effect of furosemide and thiazides in some patients. This response has been attributed to inhibition of renal prostaglandin synthesis. During concomitant therapy with NSAIDs, the patient should be observed closely for signs of renal failure (see WARNINGS, RENAL EFFECTS), as well as to assure diuretic efficacy.</paragraph>
+                  <paragraph>DMSO</paragraph>
+                  <paragraph>DMSO should not be used with sulindac. Concomitant administration has been reported to reduce the plasma levels of the active sulfide metabolite and potentially reduce efficacy. In addition, this combination has been reported to cause peripheral neuropathy.</paragraph>
+                  <paragraph>Lithium</paragraph>
+                  <paragraph>NSAIDs have produced an elevation of plasma lithium levels and a reduction in renal lithium clearance. The mean minimum lithium concentration increased 15% and the renal clearance was decreased by approximately 20%. These effects have been attributed to inhibition of renal prostaglandin synthesis by the NSAID. Thus, when NSAIDs and lithium are administered concurrently, subjects should be observed carefully for signs of lithium toxicity.</paragraph>
+                  <paragraph>Methotrexate</paragraph>
+                  <paragraph>NSAIDs have been reported to competitively inhibit methotrexate accumulation in rabbit kidney slices. This may indicate that they could enhance the toxicity of methotrexate. Caution should be used when NSAIDs are administered concomitantly with methotrexate.</paragraph>
+                  <paragraph>NSAIDs</paragraph>
+                  <paragraph>The concomitant use of sulindac tablets with other NSAIDs is not recommended due to the increased possibility of gastrointestinal toxicity, with little or no increase in efficacy.</paragraph>
+                  <paragraph>Oral anticoagulants</paragraph>
+                  <paragraph>Although sulindac and its sulfide metabolite are highly bound to protein, studies in which sulindac tablets were given at a dose of 400 mg daily have shown no clinically significant interaction with oral anticoagulants. However, patients should be monitored carefully until it is certain that no change in their anticoagulant dosage is required. Special attention should be paid to patients taking higher doses than those recommended and to patients with renal impairment or other metabolic defects that might increase sulindac blood levels. The effects of warfarin and NSAIDs on GI bleeding are synergistic, such that users of both drugs together have a risk of serious GI bleeding higher than users of either drug alone.</paragraph>
+                  <paragraph>Oral hypoglycemic agents</paragraph>
+                  <paragraph>Although sulindac and its sulfide metabolite are highly bound to protein, studies in which sulindac tablets were given at a dose of 400 mg daily, have shown no clinically significant interaction with oral hypoglycemic agents. However, patients should be monitored carefully until it is certain that no change in their hypoglycemic dosage is required. Special attention should be paid to patients taking higher doses than those recommended and to patients with renal impairment or other metabolic defects that might increase sulindac blood levels.</paragraph>
+                  <paragraph>Probenecid</paragraph>
+                  <paragraph>Probenecid given concomitantly with sulindac had only a slight effect on plasma sulfide levels, while plasma levels of sulindac and sulfone were increased. Sulindac was shown to produce a modest reduction in the uricosuric action of probenecid, which probably is not significant under most circumstances.</paragraph>
+                  <paragraph>Propoxyphene hydrochloride</paragraph>
+                  <paragraph>Propoxyphene hydrochloride had no effect on the plasma levels of sulindac or its sulfide metabolite.</paragraph>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>Teratogenic Effects. Pregnancy Category C.</paragraph>
+                  <paragraph>Reproductive studies conducted in rats and rabbits have not demonstrated evidence of developmental abnormalities. However, animal reproduction studies are not always predictive of human response. There are no adequate and well-controlled studies in pregnant women. Sulindac tablets should be used in pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                  <paragraph>Nonteratogenic Effects</paragraph>
+                  <paragraph>Because of the known effects of non-steroidal anti-inflammatory drugs on the fetal cardiovascular system (closure of ductus arteriosus), use during pregnancy (particularly late pregnancy) should be avoided.</paragraph>
+                  <paragraph>The known effects of drugs of this class on the human fetus during the third trimester of pregnancy include: constriction of the ductus arteriosus prenatally, tricuspid incompetence, and pulmonary hypertension; non-closure of the ductus arteriosus postnatally which may be resistant to medical management; myocardial degenerative changes, platelet dysfunction with resultant bleeding, intracranial bleeding, renal dysfunction or failure, renal injury/dysgenesis which may result in prolonged or permanent renal failure, oligohydramnios, gastrointestinal bleeding or perforation, and increased risk of necrotizing enterocolitis.</paragraph>
+                  <paragraph>In reproduction studies in the rat, a decrease in average fetal weight and an increase in numbers of dead pups were observed on the first day of the postpartum period at dosage levels of 20 and 40 mg/kg/day (2½ and 5 times the usual maximum daily dose in humans), although there was no adverse effect on the survival and growth during the remainder of the postpartum period. Sulindac tablets prolong the duration of gestation in rats, as do other compounds of this class. Visceral and skeletal malformations observed in low incidence among rabbits in some teratology studies did not occur at the same dosage levels in repeat studies, nor at a higher dosage level in the same species.</paragraph>
+                  <paragraph>Labor and Delivery</paragraph>
+                  <paragraph>In rat studies with NSAIDs, as with other drugs known to inhibit prostaglandin synthesis, an increased incidence of dystocia, delayed parturition, and decreased pup survival occurred. The effects of sulindac tablets on labor and delivery in pregnant women are unknown.</paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>It is not known whether this drug is excreted in human milk; however, it is secreted in the milk of lactating rats. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from sulindac tablets, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                  <paragraph>Pediatric Use</paragraph>
+                  <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                  <paragraph>Geriatric Use</paragraph>
+                  <paragraph>As with any NSAID, caution should be exercised in treating the elderly (65 years and older) since advancing age appears to increase the possibility of adverse reactions. Elderly patients seem to tolerate ulceration or bleeding less well than other individuals and many spontaneous reports of fatal GI events are in this population (see WARNINGS, GASTROINTESTINAL EFFECTS - RISK OF ULCERATION, BLEEDING, AND PERFORATION).</paragraph>
+                  <paragraph>Sulindac tablets are known to be substantially excreted by the kidney and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection and it may be useful to monitor renal function (see WARNINGS, RENAL EFFECTS).</paragraph>
+               </text>
+               <effectiveTime value="20160826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3afdd747-3d20-3810-e054-00144ff88e88">
+               <id root="9cad4d33-4567-89e0-e053-2a95a90a0cb2"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>The following adverse reactions were reported in clinical trials or have been reported since the drug was marketed. The probability exists of a causal relationship between sulindac tablets and these adverse reactions. The adverse reactions which have been observed in clinical trials encompass observations in 1,865 patients, including 232 observed for at least 48 weeks.</paragraph>
+                  <paragraph>Incidence Greater Than 1%</paragraph>
+                  <paragraph>Gastrointestinal</paragraph>
+                  <paragraph>The most frequent types of adverse reactions occurring with sulindac tablets are gastrointestinal; these include gastrointestinal pain (10%), dyspepsia2, nausea2 with or without vomiting, diarrhea2, constipation2, flatulence, anorexia and gastrointestinal cramps.</paragraph>
+                  <paragraph>Dermatologic</paragraph>
+                  <paragraph>Rash2, pruritus.</paragraph>
+                  <paragraph>Central Nervous System</paragraph>
+                  <paragraph>Dizziness2, headache2, nervousness.</paragraph>
+                  <paragraph>Special Senses</paragraph>
+                  <paragraph>Tinnitus.</paragraph>
+                  <paragraph>Miscellaneous</paragraph>
+                  <paragraph>Edema (see WARNINGS).</paragraph>
+                  <paragraph>2 Incidence between 3% and 9%. Those reactions occurring in 1% to 3% of patients are not marked with an asterisk.
+  <br/>
+Incidence Less Than 1 in 100
+ </paragraph>
+                  <paragraph>Gastrointestinal</paragraph>
+                  <paragraph>Gastritis, gastroenteritis or colitis. Peptic ulcer and gastrointestinal bleeding have been reported. GI perforation and intestinal strictures (diaphragms) have been reported rarely.</paragraph>
+                  <paragraph>Liver function abnormalities; jaundice, sometimes with fever; cholestasis; hepatitis; hepatic failure.</paragraph>
+                  <paragraph>There have been rare reports of sulindac metabolites in common bile duct "sludge" and in biliary calculi in patients with symptoms of cholecystitis who underwent a cholecystectomy.</paragraph>
+                  <paragraph>Pancreatitis (see PRECAUTIONS).</paragraph>
+                  <paragraph>Ageusia; glossitis.</paragraph>
+                  <paragraph>Dermatologic</paragraph>
+                  <paragraph>Stomatitis, sore or dry mucous membranes, alopecia, photosensitivity.</paragraph>
+                  <paragraph>Erythema multiforme, toxic epidermal necrolysis, Stevens-Johnson syndrome, and exfoliative dermatitis have been reported.</paragraph>
+                  <paragraph>Cardiovascular</paragraph>
+                  <paragraph>Congestive heart failure, especially in patients with marginal cardiac function; palpitation; hypertension.</paragraph>
+                  <paragraph>Hematologic</paragraph>
+                  <paragraph>Thrombocytopenia; ecchymosis; purpura; leukopenia; agranulocytosis; neutropenia; bone marrow depression, including aplastic anemia; hemolytic anemia; increased prothrombin time in patients on oral anticoagulants (see PRECAUTIONS).</paragraph>
+                  <paragraph>Genitourinary</paragraph>
+                  <paragraph>Urine discoloration; dysuria; vaginal bleeding; hematuria; proteinuria; crystalluria; renal impairment, including renal failure; interstitial nephritis; nephrotic syndrome.</paragraph>
+                  <paragraph>Renal calculi containing sulindac metabolites have been observed rarely.</paragraph>
+                  <paragraph>Metabolic</paragraph>
+                  <paragraph>Hyperkalemia.</paragraph>
+                  <paragraph>Musculoskeletal</paragraph>
+                  <paragraph>Muscle weakness.</paragraph>
+                  <paragraph>Psychiatric</paragraph>
+                  <paragraph>Depression; psychic disturbances including acute psychosis.</paragraph>
+                  <paragraph>Nervous System</paragraph>
+                  <paragraph>Vertigo; insomnia; somnolence; paresthesia; convulsions; syncope; aseptic meningitis (especially in patients with systemic lupus erythematosus (SLE) and mixed connective tissue disease, see PRECAUTIONS).</paragraph>
+                  <paragraph>Special Senses</paragraph>
+                  <paragraph>Blurred vision; visual disturbances; decreased hearing; metallic or bitter taste.</paragraph>
+                  <paragraph>Respiratory</paragraph>
+                  <paragraph>Epistaxis.</paragraph>
+                  <paragraph>Hypersensitivity Reactions</paragraph>
+                  <paragraph>Anaphylaxis; angioneurotic edema; urticaria; bronchial spasm; dyspnea.</paragraph>
+                  <paragraph>Hypersensitivity vasculitis.</paragraph>
+                  <paragraph>A potentially fatal apparent hypersensitivity syndrome has been reported. This syndrome may include constitutional symptoms (fever, chills, diaphoresis, flushing), cutaneous findings (rash or other dermatologic reactions — see above), conjunctivitis, involvement of major organs (changes in liver function including hepatic failure, jaundice, pancreatitis, pneumonitis with or without pleural effusion, leukopenia, leukocytosis, eosinophilia, disseminated intravascular coagulation, anemia, renal impairment, including renal failure), and other less specific findings (adenitis, arthralgia, arthritis, myalgia, fatigue, malaise, hypotension, chest pain, tachycardia).</paragraph>
+                  <paragraph>Causal Relationship Unknown</paragraph>
+                  <paragraph>A rare occurrence of fulminant necrotizing fasciitis, particularly in association with Group A β-hemolytic streptococcus, has been described in persons treated with non-steroidal anti-inflammatory agents, sometimes with fatal outcome (see also PRECAUTIONS, GENERAL).</paragraph>
+                  <paragraph>Other reactions have been reported in clinical trials or since the drug was marketed, but occurred under circumstances where a causal relationship could not be established. However, in these rarely reported events, that possibility cannot be excluded. Therefore, these observations are listed to serve as alerting information to physicians.</paragraph>
+                  <paragraph>Cardiovascular</paragraph>
+                  <paragraph>Arrhythmia.</paragraph>
+                  <paragraph>Metabolic</paragraph>
+                  <paragraph>Hyperglycemia.</paragraph>
+                  <paragraph>Nervous System</paragraph>
+                  <paragraph>Neuritis.</paragraph>
+                  <paragraph>Special Senses</paragraph>
+                  <paragraph>Disturbances of the retina and its vasculature.</paragraph>
+                  <paragraph>Miscellaneous</paragraph>
+                  <paragraph>Gynecomastia.</paragraph>
+               </text>
+               <effectiveTime value="20160826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3afdd747-3d2f-3810-e054-00144ff88e88">
+               <id root="9cad4d33-4566-89e0-e053-2a95a90a0cb2"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>Cases of overdosage have been reported and rarely, deaths have occurred. The following signs and symptoms may be observed following overdosage: stupor, coma, diminished urine output and hypotension.</paragraph>
+                  <paragraph>In the event of overdosage, the stomach should be emptied by inducing vomiting or by gastric lavage, and the patient carefully observed and given symptomatic and supportive treatment.</paragraph>
+                  <paragraph>Animal studies show that absorption is decreased by the prompt administration of activated charcoal and excretion is enhanced by alkalinization of the urine.</paragraph>
+               </text>
+               <effectiveTime value="20160826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3afdd747-3d31-3810-e054-00144ff88e88">
+               <id root="9cad4d33-4568-89e0-e053-2a95a90a0cb2"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>Carefully consider the potential benefits and risks of sulindac tablets and other treatment options before deciding to use sulindac tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS).</paragraph>
+                  <paragraph>After observing the response to initial therapy with sulindac tablets, the dose and frequency should be adjusted to suit an individual patient's needs.</paragraph>
+                  <paragraph>Sulindac tablets should be administered orally twice a day with food. The maximum dosage is 400 mg per day. Dosages above 400 mg per day are not recommended.</paragraph>
+                  <paragraph>In osteoarthritis, rheumatoid arthritis, and ankylosing spondylitis, the recommended starting dosage is 150 mg twice a day. The dosage may be lowered or raised depending on the response.</paragraph>
+                  <paragraph>A prompt response (within one week) can be expected in about one-half of patients with osteoarthritis, ankylosing spondylitis, and rheumatoid arthritis. Others may require longer to respond.</paragraph>
+                  <paragraph>In acute painful shoulder (acute subacromial bursitis/supraspinatus tendinitis) and acute gouty arthritis, the recommended dosage is 200 mg twice a day. After a satisfactory response has been achieved, the dosage may be reduced according to the response. In acute painful shoulder, therapy for 7–14 days is usually adequate. In acute gouty arthritis, therapy for 7 days is usually adequate.</paragraph>
+               </text>
+               <effectiveTime value="20160826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lae04d889-9bcd-44ca-b9e9-0ea7729d4405">
+               <id root="9cad4d33-456f-89e0-e053-2a95a90a0cb2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_3460973d-c889-186e-e054-00144ff8d46c"/>
+                  </paragraph>
+                  <paragraph>211</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20140402"/>
+               <component>
+                  <observationMedia ID="img_3460973d-c889-186e-e054-00144ff8d46c">
+                     <text>211</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="211-30.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

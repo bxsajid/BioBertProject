@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="71c0cfa5-6918-4034-bbb8-5f2a6ecae02a"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>CHILDREN'S IBUPROFEN ORAL SUSPENSION</title>
+   <effectiveTime value="20181003"/>
+   <setId root="1984374e-7639-4a4f-bf96-a614e663e0c4"/>
+   <versionNumber value="6"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="035886746" root="1.3.6.1.4.1.519.1"/>
+            <name>Precision Dose Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="006013346" root="1.3.6.1.4.1.519.1"/>
+                        <name>L. Perrigo Company</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68094-494" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68094-503" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="d638f5f3-5d6b-4a95-ad80-e750b80f7492"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20181003"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="68094-494" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Childrens Ibuprofen</name>
+                        <formCode code="C42994" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ibuprofen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="100" unit="mg"/>
+                              <denominator value="5" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Ibuprofen</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Ibuprofen</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>anhydrous citric acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C yellow NO. 10</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C red NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>glycerin</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XY6UN3QB6S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>high fructose corn syrup</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>polysorbate 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OJ245FE5EU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sodium benzoate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sorbitol</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>xanthan gum</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68094-494-59" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43188" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CUP, UNIT-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="3" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="68094-494-62" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20040413"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68094-494-59" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43188" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CUP, UNIT-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="10" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="68094-494-61" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20040413"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43202" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="5" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="68094-494-58" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20040413"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA074937" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20040413"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48331" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORANGE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73365" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BERRY" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="68094-503" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Childrens Ibuprofen</name>
+                        <formCode code="C42994" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ibuprofen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="200" unit="mg"/>
+                              <denominator value="10" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Ibuprofen</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Ibuprofen</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>anhydrous citric acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C yellow NO. 10</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C red NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>glycerin</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XY6UN3QB6S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>high fructose corn syrup</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>polysorbate 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OJ245FE5EU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sodium benzoate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sorbitol</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>xanthan gum</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68094-503-59" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43188" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CUP, UNIT-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="3" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="68094-503-62" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20060914"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68094-503-59" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43188" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CUP, UNIT-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="10" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="68094-503-61" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20060914"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA074937" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20060914"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48331" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORANGE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73365" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BERRY" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3fb1f592-3319-40ed-945f-b49ead69cc3b"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Berry Flavor</paragraph>
+                  <paragraph>100 mg/5 mL  200 mg/10 mL</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">For Hospital Use Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">Drug Facts</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181003"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="323c9fae-50ac-42ce-b950-be43716773dc"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active ingredient (in each 5 mL)</title>
+               <text>
+                  <paragraph>Ibuprofen 100 mg (NSAID)<footnote>nonsteroidal anti-inflammatory drug</footnote>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181003"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="55af8f75-728f-4edf-990e-2b15484069d1"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purposes</title>
+               <text>
+                  <paragraph>Pain reliever/fever reducer</paragraph>
+               </text>
+               <effectiveTime value="20181003"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="698cce13-a28e-4e51-acff-85bc841690b2"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Uses</title>
+               <text>
+                  <paragraph>temporarily:</paragraph>
+                  <list listType="unordered" styleCode="square">
+                     <item>relieves minor aches and pains due to the common cold, flu, sore throat, headache and toothache</item>
+                     <item>reduces fever</item>
+                     <item>
+                        <content styleCode="bold">Important: Read all product information before using.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">This product is intended for use in children.</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20181003"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="acf19050-317c-4682-8753-6954931a9987"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <effectiveTime value="20181003"/>
+               <component>
+                  <section>
+                     <id root="bbc9f90d-9013-4339-8faa-239e46aafdbd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Allergy alert</title>
+                     <text>
+                        <paragraph>Ibuprofen may cause a severe allergic reaction, especially in people allergic to aspirin. Symptoms may include:</paragraph>
+                        <list listType="unordered" styleCode="square">
+                           <item>hives</item>
+                           <item>facial swelling</item>
+                           <item>asthma (wheezing)</item>
+                           <item>shock</item>
+                           <item>skin reddening</item>
+                           <item>rash</item>
+                           <item>blisters</item>
+                        </list>
+                        <paragraph>If an allergic reaction occurs, stop use and seek medical help right away.</paragraph>
+                     </text>
+                     <effectiveTime value="20181003"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="f7e370fe-009d-490a-9923-4ed313a94ae9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Stomach bleeding warning</title>
+                     <text>
+                        <paragraph>This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if your child:</paragraph>
+                        <list listType="unordered" styleCode="square">
+                           <item>has had stomach ulcers or bleeding problems</item>
+                           <item>takes a blood thinning (anticoagulant) or steroid drug</item>
+                           <item>takes other drugs containing prescription or nonprescription NSAIDs (aspirin, ibuprofen, naproxen, or others)</item>
+                           <item>takes more or for a longer time than directed</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20181003"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="d9350334-d669-48fb-987f-94da2e306f26"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Heart attack and stroke warning</title>
+                     <text>
+                        <paragraph>NSAIDs, except aspirin, increase the risk of heart attack, heart failure, and stroke. These can be fatal. The risk is higher if you use more than directed or for longer than directed.</paragraph>
+                     </text>
+                     <effectiveTime value="20181003"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4ef5bb40-022a-486b-952f-1c37b8ed7bba"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Sore throat warning</title>
+                     <text>
+                        <paragraph>Severe or persistent sore throat or sore throat accompanied by high fever, headache, nausea, and vomiting may be serious. Consult doctor promptly. Do not use more than 2 days or administer to children under 3 years of age unless directed by doctor.</paragraph>
+                     </text>
+                     <effectiveTime value="20181003"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="bc9ea0b0-1d58-4f15-a154-baf068624dba"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <title>Do not use</title>
+                     <text>
+                        <list listType="unordered" styleCode="square">
+                           <item>if the child has ever had an allergic reaction to ibuprofen or any other pain reliever/fever reducer</item>
+                           <item>right before or after heart surgery</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20181003"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4636e38a-7093-448b-8694-72073e2d802a"/>
+                     <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+                     <title>Ask a doctor before use if</title>
+                     <text>
+                        <list listType="unordered" styleCode="square">
+                           <item>stomach bleeding warning applies to your child</item>
+                           <item>child has a history of stomach problems, such as heartburn</item>
+                           <item>child has problems or serious side effects from taking pain relievers or fever reducers</item>
+                           <item>child has not been drinking fluids</item>
+                           <item>child has lost a lot of fluid due to vomiting or diarrhea</item>
+                           <item>child has high blood pressure, heart disease, liver cirrhosis, kidney disease, or had a stroke</item>
+                           <item>child has asthma</item>
+                           <item>child is taking a diuretic</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20181003"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="3809f97e-e6b4-479a-965a-f8bd65880e98"/>
+                     <code code="50568-5" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR/PHARMACIST SECTION"/>
+                     <title>Ask a doctor or pharmacist before use if the child is</title>
+                     <text>
+                        <list listType="unordered" styleCode="square">
+                           <item>under a doctor's care for any serious condition</item>
+                           <item>taking any other drug</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20181003"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="f12f0192-a5e6-4154-9a26-c118cf8b816e"/>
+                     <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+                     <title>When using this product</title>
+                     <text>
+                        <list listType="unordered" styleCode="square">
+                           <item>give with food or milk if stomach upset occurs</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20181003"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="bf74ff48-3afe-46f0-9a9e-35b3f770b85c"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <title>Stop use and ask a doctor if</title>
+                     <text>
+                        <list listType="unordered" styleCode="square">
+                           <item>child experiences any of the following signs of stomach bleeding:<list listType="unordered" styleCode="square">
+                                 <item>feels faint</item>
+                                 <item>vomits blood</item>
+                                 <item>has bloody or black stools</item>
+                                 <item>has stomach pain that does not get better</item>
+                              </list>
+                           </item>
+                           <item>child has symptoms of heart problems or stroke:<list listType="unordered" styleCode="square">
+                                 <item>chest pain</item>
+                                 <item>trouble breathing</item>
+                                 <item>weakness in one part or side of body</item>
+                                 <item>slurred speech</item>
+                                 <item>leg swelling</item>
+                              </list>
+                           </item>
+                           <item>the child does not get any relief within first day (24 hours) of treatment</item>
+                           <item>fever or pain gets worse or lasts more than 3 days</item>
+                           <item>redness or swelling is present in the painful area</item>
+                           <item>any new symptoms appear</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20181003"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="c21007b9-8da7-40a7-9f54-5cf029bf175a"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Keep out of reach of children.</content> In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222)</paragraph>
+                     </text>
+                     <effectiveTime value="20181003"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0190f093-90bb-432e-9ebb-e1e902eef843"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <list listType="unordered" styleCode="square">
+                     <item>
+                        <content styleCode="bold">Use as directed per healthcare professional.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">this product does not contain directions or complete warnings for adult use</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">do not give more than directed</content>
+                     </item>
+                     <item>shake cups well before using</item>
+                     <item>mL = milliliter</item>
+                     <item>find right dose on chart. If possible, use weight to dose; otherwise use age.</item>
+                     <item>if needed, repeat dose every <content styleCode="bold">6-8 hours</content>
+                     </item>
+                     <item>do not use more than <content styleCode="bold">4 times a day</content>
+                     </item>
+                  </list>
+                  <table width="65%">
+                     <caption>Dosing Chart</caption>
+                     <col width="33%" align="center" valign="top"/>
+                     <col width="33%" align="center" valign="top"/>
+                     <col width="34%" align="center" valign="top"/>
+                     <thead>
+                        <tr>
+                           <th styleCode="Lrule Rrule">Weight (lb)</th>
+                           <th styleCode="Rrule">Age (yr)</th>
+                           <th styleCode="Rrule">Dose (mL)<footnote>or as directed by a doctor</footnote>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">under 24 lbs</td>
+                           <td styleCode="Rrule">under 2 years</td>
+                           <td styleCode="Rrule">ask a doctor</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">24-35 lbs</td>
+                           <td styleCode="Rrule">2-3 years</td>
+                           <td styleCode="Rrule">5 mL</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">36-47 lbs</td>
+                           <td styleCode="Rrule">4-5 years</td>
+                           <td styleCode="Rrule">7.5 mL</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">48-59 lbs</td>
+                           <td styleCode="Rrule">6-8 years</td>
+                           <td styleCode="Rrule">10 mL </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">60-71 lbs</td>
+                           <td styleCode="Rrule">9-10 years</td>
+                           <td styleCode="Rrule">12.5 mL</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">72-95 lbs</td>
+                           <td styleCode="Rrule">11 years</td>
+                           <td styleCode="Rrule">15 mL</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20181003"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f2c14b9a-6fb6-4b04-b8a8-399f36170887"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>Other information</title>
+               <text>
+                  <list listType="unordered" styleCode="square">
+                     <item>
+                        <content styleCode="bold">each 5 mL contains:</content> sodium 2 mg</item>
+                     <item>store at 20-25°C (68-77°F)</item>
+                     <item>do not freeze</item>
+                     <item>See individual label or shipper for lot number and expiration date.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20181003"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="204fac24-e271-43a9-a20a-6455b94a2d75"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive ingredients</title>
+               <text>
+                  <paragraph>anhydrous citric acid, artificial mixed berry flavor, D&amp;C yellow #10, FD&amp;C red #40, glycerin, high fructose corn syrup, hypromellose, polysorbate 80, purified water, sodium benzoate, sorbitol solution, xanthan gum</paragraph>
+               </text>
+               <effectiveTime value="20181003"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="760b82f3-5ccf-4d1e-ab61-a41f2530b51e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Alcohol Free, Gluten Free</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181003"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0c6ad270-9cb9-4e03-abb5-fc783c867ebd"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>How Supplied</title>
+               <text>
+                  <paragraph>NDC 68094-494-58<br/>5 mL per unit dose syringe<br/>Fifty (50) syringes per shipper</paragraph>
+                  <paragraph>NDC 68094-494-61<br/>5 mL per unit dose cup<br/>One hundred (100) cups per shipper</paragraph>
+                  <paragraph>NDC 68094-494-62<br/>5 mL per unit dose cup<br/>Thirty (30) cups per shipper</paragraph>
+                  <paragraph>NDC 68094-503-61<br/>10 mL per unit dose cup<br/>One hundred (100) cups per shipper</paragraph>
+                  <paragraph>NDC 68094-503-62<br/>10 mL per unit dose cup<br/>Thirty (30) cups per shipper</paragraph>
+               </text>
+               <effectiveTime value="20181003"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f680288b-86f2-4152-9889-c2175ed93633"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Distributed By<br/>
+                     <content styleCode="bold">Perrigo Company</content>
+                     <br/>Allegan, MI 49010</paragraph>
+                  <paragraph>Packaged By<br/>
+                     <content styleCode="bold">Precision Dose, Inc.</content>
+                     <br/>South Beloit, IL 61080</paragraph>
+                  <paragraph>LI587   Rev. 02/18</paragraph>
+               </text>
+               <effectiveTime value="20181003"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="06c566f8-03dd-4245-b1ef-021324ebcc5c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 5 mL Cup Label</title>
+               <text>
+                  <paragraph>NDC# 68094-494-58</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Children's IBUPROFEN Oral Suspension, 100 mg/5 mL</content>
+                  </paragraph>
+                  <paragraph>Delivers 5 mL<br/>(NSAID)<br/>For Hospital Use Only</paragraph>
+                  <paragraph>Each 5 mL contains: sodium 2 mg</paragraph>
+                  <paragraph>Alcohol Free<br/>Gluten Free</paragraph>
+                  <paragraph>Store at 20°-25°C (68°-77°F)<br/>Protect from freezing</paragraph>
+                  <paragraph>Pkg: Precision Dose, Inc. S. Beloit, IL 61080</paragraph>
+                  <paragraph>LSY495 Rev. 04/11</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Oral Use Only</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20181003"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL - 5 mL Cup Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibuprofen-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c7f0bd33-7900-40b1-b8b6-0087787f838b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 200 mg/10 mL Lid</title>
+               <text>
+                  <paragraph>NDC 68094-503-59</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PrecisionDose™</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Children's IBUPROFEN<br/>Oral Suspension<br/>200 mg/10 mL</content>
+                  </paragraph>
+                  <paragraph>Delivers 10 mL Shake Well (NSAID) Alcohol Free Gluten Free<br/>Each 5 mL contains: sodium 2 mg</paragraph>
+                  <paragraph>Hospital Use Only<br/>Store at 20-25°C (68-77°F)<br/>Pkg. By: Precision Dose, Inc.<br/>S. Beloit, IL 61080</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20181003"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 200 mg/10 mL Lid</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibuprofen-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

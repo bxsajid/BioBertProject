@@ -51,28 +51,17 @@ def download_files():
 def parse_xml(filename):
     file_content = open(filename, mode='r', encoding='utf-8').read()
     soup = BeautifulSoup(file_content, 'lxml')
-
-    labelings = []
+    labeling = []
 
     codes = ['34066-1', '43685-7', '34084-4']
     for code in codes:
         content_items = soup.find(attrs={'code': code})
-
         if content_items is None:
-            labelings.append({code: []})
             continue
 
-        items = []
+        labeling.append(content_items.parent.text.strip())
 
-        content_items = content_items.parent.select('excerpt text list item')
-        for content_item in content_items:
-            match = re.findall('(.*)\\s*\\(', content_item.text)
-            if len(match) > 0:
-                items.append(match[0].strip())
-
-        labelings.append({code: items})
-
-    return labelings
+    return labeling
 
 
 def dump_to_json(json_data, filename):
@@ -83,16 +72,14 @@ def dump_to_json(json_data, filename):
 
 if __name__ == '__main__':
     # download XML files
-    download_files()
+    # download_files()
 
-    # download labelings in JSON format
-    # xml_files = [f for f in glob.glob('XML Files/*.xml')]
-    # labels = []
-    #
-    # for i, xml_file in enumerate(xml_files):
-    #     print(f'parsing file [{i}]: {xml_file}')
-    #
-    #     parsed_items = parse_xml(xml_file)
-    #     labels.append({xml_file: parsed_items})
-    #
-    # dump_to_json(labels, 'json_data.json')
+    # download labeling in JSON format
+    xml_files = [f for f in glob.glob('XML Files/*.xml')]
+    labels = {}
+
+    for i, xml_file in enumerate(xml_files):
+        print(f'parsing file [{i}]: {xml_file}')
+        labels[xml_file] = parse_xml(xml_file)
+
+    dump_to_json(labels, 'json_data.json')

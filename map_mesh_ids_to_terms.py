@@ -1,7 +1,7 @@
 import gzip
 import json
 
-mesh_ids_filename = 'mesh_ids.txt'
+mesh_ids_filename = 'mesh_ids.json'
 mesh_terms_filename = 'mesh_terms.txt'
 mesh_dict_filename = 'mesh.json.gz'
 

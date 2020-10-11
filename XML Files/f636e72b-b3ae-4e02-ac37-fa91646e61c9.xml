@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="f636e72b-b3ae-4e02-ac37-fa91646e61c9"/>
+   <code code="34390-5" displayName="HUMAN OTC DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>Drug Facts</title>
+   <effectiveTime value="20191031"/>
+   <setId root="fbf5138d-91a9-4f46-9b39-fe8600e2a24d"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="062312574" root="1.3.6.1.4.1.519.1"/>
+            <name>CVS Pharmacy</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="d2d27e50-8c9f-47e3-9700-6879cc3e3b02"/>
+               <code code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20191031"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69842-165" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ibuprofen PM</name>
+                        <formCode code="C42954" displayName="CAPSULE, LIQUID FILLED" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>IBUPROFEN, DIPHENHYDRAMINE HCL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="200"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IBUPROFEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IBUPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="25"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TC2D6JAD40" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIPHENHYDRAMINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="8GTS82S83M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DIPHENHYDRAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZH3C48M4T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6O92ICV9RU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITAN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="40"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43173" displayName="BOTTLE, PLASTIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="69842-165-40" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" displayName="BOX" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20160930"/>
+                                          <high value="20201231"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA090397" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20160930"/>
+                              <high value="20201231"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48333" displayName="BLUE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">IBUPM</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" displayName="OVAL" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="15" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c98e7aab-2e06-43c6-8327-36a3dd3cfb53">
+               <id root="285b5076-ddbb-4cef-9000-2381fac6572e"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active ingredient (in each capsule)</title>
+               <text>
+                  <paragraph>Diphenhydramine hydrochloride 25 mg</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Solubilized ibuprofen equal to 200 mg ibuprofen (NSAID)* <br/>(present as the free acid and potassium salt)<br/>*non-steroidal anti-inflammatory drug</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_71a01f3c-e509-4f94-a316-4b47cb82310c">
+               <id root="8263ce16-3b1b-4719-930d-8c676fa3bea4"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purpose</title>
+               <text>
+                  <paragraph>Nighttime sleep-aid</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pain Reliever<br/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4e71fa34-284e-4e13-922d-1b736c0b6be8">
+               <id root="0e0f6256-7689-4499-bf39-dce067fd9229"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Uses</title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>for relief of occasional sleeplessness when associated with minor aches and pains </item>
+                     <item>helps you fall asleep and stay asleep</item>
+                  </list>
+               </text>
+               <effectiveTime value="20191031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_69aefe3b-c350-4116-a616-24edb51f277b">
+               <id root="b0b59e69-ca2c-46fa-8ffe-9c5cb0ca41e4"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Allergy alert:</content> Ibuprofen may cause a severe allergic reaction, especially in people allergic to aspirin. Symptoms may include:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>hives </item>
+                     <item>facial swelling </item>
+                     <item>asthma (wheezing) </item>
+                     <item>shock </item>
+                     <item>skin reddening </item>
+                     <item>rash </item>
+                     <item>blisters</item>
+                  </list>
+                  <paragraph>If an allergic reaction occurs, stop use and seek medical help right away.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Stomach bleeding warning:</content> This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>have had stomach ulcers or bleeding problems </item>
+                     <item>take a blood thinning (anticoagulant) or steroid drug </item>
+                     <item>are age 60 or older </item>
+                     <item>take other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others] </item>
+                     <item>take more or for a longer time than directed </item>
+                     <item>have 3 or more alcoholic drinks every day while using this product</item>
+                  </list>
+               </text>
+               <effectiveTime value="20191031"/>
+               <component>
+                  <section ID="LINK_94f3996d-628f-4661-a13d-e67ffe0cfa77">
+                     <id root="177b2897-985a-4353-96df-33e17740be05"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <title>Do not use</title>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>in children under 12 years of age </item>
+                           <item>if you have ever had an allergic reaction to any other pain reliever/fever reducer </item>
+                           <item>right before or after heart surgery </item>
+                           <item>unless you have time for a full night’s sleep </item>
+                           <item>with any other product containing diphenhydramine, even one used on skin </item>
+                           <item>if you have sleeplessness without pain</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20191031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_43d9b6a1-8689-4f2c-acfb-921f3e904262">
+                     <id root="22ffb505-eda6-48e6-b873-3a71831e19ae"/>
+                     <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+                     <title>Ask a doctor before use if</title>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>the stomach bleeding warning applies to you 
+
+</item>
+                           <item>you have a history of stomach problems, such as heartburn 
+
+</item>
+                           <item>you have glaucoma 
+
+</item>
+                           <item>you have high blood pressure, heart disease, liver cirrhosis, kidney disease, or asthma 
+
+</item>
+                           <item>you are taking a diuretic 
+
+</item>
+                           <item>you have problems or serious side effects from taking pain relievers or fever reducers 
+
+</item>
+                           <item>you have a breathing problem such as emphysema or chronic bronchitis 
+
+</item>
+                           <item>you have trouble urinating due to an enlarged prostate gland</item>
+                        </list>
+                        <br/>
+                     </text>
+                     <effectiveTime value="20191031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e3ebe81b-a401-485b-a0a7-e762225350a8">
+                     <id root="53e0a0c1-ad84-486d-a0f2-28b6afdd8cc2"/>
+                     <code code="50568-5" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR/PHARMACIST SECTION"/>
+                     <title>Ask a doctor or pharmacist before use if you are</title>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>taking sedatives or tranquilizers, or any other sleep-aid </item>
+                           <item>taking any other drug </item>
+                           <item>taking any other antihistamines </item>
+                           <item>taking aspirin for heart attack or stroke, because ibuprofen may decease this benefit of aspirin </item>
+                           <item>under a doctor's care for any continuing medical illness</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20191031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1d73cfa8-c991-4706-95ec-0ad40e8e149d">
+                     <id root="98c95f81-00a1-409b-abb1-612d141e9420"/>
+                     <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+                     <title>When using this product</title>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>drowsiness will occur </item>
+                           <item>avoid alcoholic drinks </item>
+                           <item>do not drive a motor vehicle or operate machinery </item>
+                           <item>take with food or milk if stomach upset occurs </item>
+                           <item>the risk of heart attack or stroke may increase if you use more than directed or for longer than directed</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20191031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1042d4a2-e3cd-41f9-b41b-7671724e8edc">
+                     <id root="d477584a-c4ad-4720-9980-6782563e6950"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <title>Stop use and ask a doctor if</title>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>you experience any of the following signs of stomach bleeding: 
+<list listType="unordered" styleCode="Circle">
+                                 <item>feel faint </item>
+                                 <item>have bloody or black stools </item>
+                                 <item>vomit blood </item>
+                                 <item>have stomach pain that does not get better </item>
+                              </list>
+                           </item>
+                           <item>you have symptoms of heart problem or stroke:
+<list listType="unordered" styleCode="Circle">
+                                 <item>chest pain </item>
+                                 <item>trouble breathing </item>
+                                 <item>leg swelling</item>
+                                 <item>slurred speech</item>
+                                 <item>weakness in one part or side of body</item>
+                              </list>
+                           </item>
+                           <item>pain gets worse or last more than 10 days </item>
+                           <item>sleeplessness persists continuously for more than 2 weeks. Insomnia may be a symptom of a serious underlying medical illness </item>
+                           <item>redness or swelling is present in the painful area </item>
+                           <item>any new symptoms appear</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20191031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_14b4b1ba-0308-4cbd-a11e-d59ff5ec50f2">
+                     <id root="dbe75972-2970-44c3-86e9-7ff120af45ee"/>
+                     <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+                     <title>If pregnant or breast-feeding,</title>
+                     <text>
+                        <paragraph>ask a health professional before use. It is especially important not to use ibuprofen during the last 3 months of pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery.</paragraph>
+                     </text>
+                     <effectiveTime value="20191031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ce120ca7-4df4-48f7-ae9a-17df85f48b44">
+                     <id root="8be4c680-7812-43af-a86a-00a6281b250c"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <title>Keep out of reach of children.</title>
+                     <text>
+                        <paragraph>In case of overdose, get medical help or contact a Poison Control Center right away.</paragraph>
+                     </text>
+                     <effectiveTime value="20191031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9b4201dc-efc1-4cf3-bb38-ede7bf0b687d">
+               <id root="2d060b92-7222-4413-ac64-d7c409e465f6"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>
+                        <content styleCode="bold">do not take more than directed</content>
+                     </item>
+                     <item>adults and childlren 12 years and over: 
+<list listType="unordered" styleCode="Circle">
+                           <item>take 2 capsules at bedtime </item>
+                           <item>do not take more than 2 capsules in 24 hours</item>
+                        </list>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20191031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_808b672b-684d-43c9-ba73-33dcd4024cd5">
+               <id root="38738c0b-157c-4cb6-9df0-50be8e444c87"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>Other information</title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>each capsule contains: <content styleCode="bold">potassium 20 mg</content>
+                     </item>
+                     <item>read all warnings and directions before use. Keep carton. </item>
+                     <item>store at 20° to 25°C (68° to 77°F) </item>
+                     <item>avoid high humidity and excessive heat above 40°C (104°F) </item>
+                     <item>protect from light </item>
+                     <item>do not chew,crush, or dissolve capsule before swallowing</item>
+                  </list>
+               </text>
+               <effectiveTime value="20191031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3f5028eb-ca5a-4f31-9e31-12c164787b72">
+               <id root="4ed4c5e1-5c0f-46fd-a18f-5e6bb24115da"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive ingredients</title>
+               <text>
+                  <paragraph>FD&amp;C blue #1, FD&amp;C red #40, gelatin, pharmaceutical ink, polyethylene glycol, potassium hydroxide, purified water, sorbitan, sorbitol</paragraph>
+               </text>
+               <effectiveTime value="20191031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_680e1ab9-a259-4c06-a480-3b3f45aa0666">
+               <id root="400fe1ef-c4ac-4a08-9959-2deb393fa271"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>Questions or comments?</title>
+               <text>
+                  <paragraph>Call<content styleCode="bold"> 1-877-753-3935 Monday-Friday 9AM-5PM EST</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_73a4a1e2-06d2-48ec-a776-ed97163f853a">
+               <id root="4373b2f8-43ea-49c7-a6fd-bec91958febd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">SEE NEW WARNINGS</content>
+                  </paragraph>
+                  <paragraph>Compare to the active ingredient in Advil® PM LIQUI-GELS®†</paragraph>
+                  <paragraph>Ibuprofen <content styleCode="bold">PM</content>
+                  </paragraph>
+                  <paragraph>IBUPROFEN, 200 mg</paragraph>
+                  <paragraph>DIPHENHYDRAMINE HCl, 25 mg</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pain reliever (NSAID) </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nighttime sleep-aid</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">SOFTGELS</content>**</paragraph>
+                  <paragraph>**liquid filled capsules</paragraph>
+                  <paragraph>†This product is not manufactured or distributed by Pfizer Consumer Healthcare, distributor Advil® PM Liqui-Gels®.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">KEEP OUTER CARTON FOR COMPLETE WARNINGS AND PRODUCT INFORMATION.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TAMPER EVIDENT: DO NOT USE IF PRINTED SAFETY SEAL UNDER CAP IS BROKEN OR MISSING.</content>
+                  </paragraph>
+                  <paragraph>Distributed by: CVS Pharmacy, Inc.</paragraph>
+                  <paragraph>One CVS Drive, Woonsocket, RI 02895</paragraph>
+                  <paragraph>CVS.com 1-800-SHOP CVS</paragraph>
+               </text>
+               <effectiveTime value="20191031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b0573ee8-7cba-40ae-afc1-f6e11dc44b7b">
+               <id root="ba1a23f8-7366-47bd-bad6-f970efa63dec"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Product Packaging</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM1">
+                     <caption>CVS HEALTH Ibuprofen PM Softgels</caption>
+                  </renderMultiMedia>
+               </text>
+               <effectiveTime value="20191031"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Diphenhydramine HCI 25 mg, Solubilized ibuprofen equal to 200 mg ibuprofen (NSAID)* (present as the free acid and potassium salt) *nonsteroidal anti-inflammatory drug</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibuprofen-pm-softgels-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

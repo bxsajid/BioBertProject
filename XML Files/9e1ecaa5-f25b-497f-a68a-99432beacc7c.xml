@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9e1ecaa5-f25b-497f-a68a-99432beacc7c"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <effectiveTime value="20150409"/>
+   <setId root="344f908c-934e-4c98-aeef-68fd09d47c72"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="114477180"/>
+            <name>ADVANCED FIRST AID, INC.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="114477180" root="1.3.6.1.4.1.519.1"/>
+                  <name>ADVANCED FIRST AID, INC.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="085752004"/>
+                        <name>ULTRA SEAL CORPORATION</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="67060-000" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="925822975"/>
+                        <name>MARKSANS PHARMA LIMITED</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="67060-000" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="af56d1c8-694a-45a7-92b2-276fe91e3f6f"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20150409"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67060-000" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NAPROXEN SODIUM</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>NAPROXEN SODIUM</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="200" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9TN87S3A3C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NAPROXEN SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="57Y76R9ATQ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NAPROXEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="L06K8R7DQK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 2</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43199" displayName="PACKET" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="50" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="67060-000-68" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20150409"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150409"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA090545" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48333" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="blue" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="10" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">141</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L7c3a5d07-391d-4701-869e-e5c81c055ea9">
+               <id root="b4bb0d07-5b8d-4fbb-b22b-38dfa21770fd"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>ACTIVE INGREDIENT IN EACH TABLET-</paragraph>
+                  <paragraph>Naproxen 200 mg</paragraph>
+                  <paragraph>(naproxen 200 mg)(NSAID)* </paragraph>
+                  <paragraph>*nonsteroidal anti-inflammatory drug</paragraph>
+               </text>
+               <effectiveTime value="20150409"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L98488e00-4ad7-4aa7-aa5b-98555aeb328d">
+               <id root="73518d73-6b7a-464a-8241-5a9c54d7fab5"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <text>
+                  <paragraph>pain reliever/fever reducer</paragraph>
+               </text>
+               <effectiveTime value="20150409"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L4b4dd106-5b69-4edf-9e18-4ebb1695a1b4">
+               <id root="a7abf51d-6502-4f1a-94eb-018396527b15"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Uses: temporarily relieves minor aches and pains due to: • minor pain of arthritis • muscular aches • backache • menstrual cramps • headaches • toothache • temporarily reduces fever</paragraph>
+               </text>
+               <effectiveTime value="20150409"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L429330ab-2e22-44c3-8425-d310d7b5911b">
+               <id root="b36c994b-b9b8-45f2-9851-5daf86fb55a2"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>Warnings:</paragraph>
+                  <paragraph>Allergy alert: Naproxen sodium may cause a severe allergic reaction, especially in people allergic to aspirin.</paragraph>
+                  <paragraph>Symptoms may include:• hives • facial swelling • asthma (wheezing) • shock • skin reddening • rash • blisters</paragraph>
+                  <paragraph>Stomach Bleeding Warning: This product contains NSAID, which may cause severe stomach bleeding. The chance is higher if you:</paragraph>
+                  <paragraph>• are age 60 or older • have had stomach ulcers or bleeding problems • take a blood thinning (anticoagulant) or steroid drug • take other drugs containing prescription or nonprescription NSAIDs (aspirin,</paragraph>
+                  <paragraph>ibuprofen, naproxen or others) • have 3 or more alcoholic drinks every day while using this product • take more or for a longer time than directed</paragraph>
+                  <paragraph>Do not use: • if you have ever had an allergic reaction to any other pain reliever/fever reducer • right before or after heart surgery</paragraph>
+                  <paragraph>Ask a doctor before use if: • the stomach bleeding warning applies to you • you have a history of stomach problems such as heartburn</paragraph>
+                  <paragraph>• you have high blood pressure, heart disease, liver cirrhosis or kidney disease • you are taking a diuretic • you have problems or serious side effects from taking pain relievers or fever reducers • you have asthma</paragraph>
+                  <paragraph>Ask a doctor or pharmacist before use if you are • under a doctor’s care for any serious condition • taking any other drug</paragraph>
+                  <paragraph>When using this product • take with food or milk if stomach upset occurs • the risk of heart attack or stroke may increase if you use more than directed or for longer than directed</paragraph>
+                  <paragraph>Stop use and ask a doctor if • you experience any of the following signs of stomach bleeding: • feel faint • vomit blood • have bloody or black stools • have stomach pain that does not get better • pain gets worse or lasts for more than 10 days • fever gets worse or lasts more than 3 days • you have difficulty swallowing • it feels like the pill is stuck in your throat • redness or swelling is present in the painful area • any new symptoms appear</paragraph>
+               </text>
+               <effectiveTime value="20150409"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ldaea21bd-2de7-403f-86cc-ac746c21f3e8">
+               <id root="ad99d3af-e2b5-4db7-9dcd-767e657505bf"/>
+               <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+               <text>
+                  <paragraph>If pregnant or breast-feeding, ask a health professional before use. It is especially important not to use naproxen sodium during the last 3 months of pregnancy unless specifically directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery.</paragraph>
+               </text>
+               <effectiveTime value="20150409"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc39046a5-7920-4808-bccc-4f8f16a252dd">
+               <id root="6dba612d-f374-4aa7-b285-e759013af7a4"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <text>
+                  <paragraph>KEEP OUT OF REACH OF CHILDREN. In case of overdose, get medical help or contact a Poison Control Center right away.</paragraph>
+               </text>
+               <effectiveTime value="20150409"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L167204e3-dc1d-4d44-bdac-5170e2baddf0">
+               <id root="0b500a43-91d4-486b-9263-66d7e10fc533"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>Directions: • do not use more than directed • the smallest effective dose should be used • drink a full glass of water with each dose</paragraph>
+                  <paragraph>Adults and children 12 years of age and older:  • Take 1 tablet every 8 - 12 hours while symptoms last • for the first dose you may take</paragraph>
+                  <paragraph>2 tablets within the first hour • Do not exceed 2 tablets in any 8 to 12 hour period • do not exceed 3 tablets in a 24 hour period</paragraph>
+                  <paragraph>Children under 12 years: ASK a doctor.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20150409"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L14482297-d751-44e4-84df-c4cf3842d748">
+               <id root="3a0717de-ce71-43f5-9451-dd5d5ec3721f"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>Inactive Ingredients: FD&amp;C blue #2 lake, hypromellose, magnesium stearate, microcrystalline cellulose, propylene glycol, povidone, talc, titanium dioxide</paragraph>
+               </text>
+               <effectiveTime value="20150409"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lfe82efeb-3608-4947-9275-dbccf93a848a">
+               <id root="e2ccf317-111b-44ea-b0fb-bd6deb53c5ba"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L0cf50656-cd21-4082-80a8-0c0f3fab6f42"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150409"/>
+               <component>
+                  <observationMedia ID="L0cf50656-cd21-4082-80a8-0c0f3fab6f42">
+                     <text>ADVANCED NAPROXEN</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="advanced naproxen.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
