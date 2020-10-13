@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:voc="urn:hl7-org:v3/voc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7b3b36fc-a47e-43cd-88e8-074d97b6e22f"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use INDOCIN® SUPPOSITORIES (INDOMETHACIN SUPPOSITORIES) safely and effectively. See full prescribing information for INDOCIN SUPPOSITORIES (INDOMETHACIN SUPPOSITORIES).<br/>
+      </content>
+      <content styleCode="bold">
+         <br/>
+      </content>
+      <content styleCode="bold">INDOCIN Suppositories (Indomethacin Suppositories), for rectal use<br/>
+      </content>
+      <content styleCode="bold">Initial U.S. Approval: 1965</content>
+   </title>
+   <effectiveTime value="20181101"/>
+   <setId root="e30a54dc-b62a-4ef7-9bea-daa8f5a685be"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="796831217" root="1.3.6.1.4.1.519.1"/>
+            <name>Iroko Pharmaceuticals, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="001271188" root="1.3.6.1.4.1.519.1"/>
+                  <name>G&amp;W Laboratories, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="001271188" root="1.3.6.1.4.1.519.1"/>
+                        <name>G&amp;W Laboratories, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="42211-102" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="ID_f96f8bcc-0c13-44ac-b4aa-afe0ab984a14">
+               <id root="f31542be-04e1-48d4-9a38-74b6bd218deb"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20181204"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="42211-102" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>INDOCIN</name>
+                        <formCode code="C42993" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUPPOSITORY"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Indomethacin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="50"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XXE1CET956" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Indomethacin</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="XXE1CET956" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Indomethacin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="REK4960K2U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Butylated Hydroxyanisole</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1P9D0Z171K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Butylated Hydroxytoluene</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="9G34HU7RV0" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Edetic Acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Glycerin</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="G2M7P15E5P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Polyethylene Glycol 3350</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Q662QK8M3B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Polyethylene Glycol 8000</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Chloride</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="30"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="42211-102-43" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19920831"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19920831"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA073314" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38295" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RECTAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="MM60416">
+                     <text>carton-30</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="carton-30.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7be83735-b713-4e45-bb18-584bf7c166cf">
+               <id root="f2ef1ec3-b21d-4105-b333-fc338e3a00a0"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <effectiveTime value="20181023"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Boxed Warning                                                                                        5/2016<br/>Warnings and Precautions, Cardiovascular Thrombotic Events (<linkHtml href="#ID_2cc5eb95-f351-4717-9cc6-b7f835ca1dcd">5.1</linkHtml>)     5/2016<br/>Warnings and Precautions, Heart Failure and Edema (<linkHtml href="#ID_c865d34b-7fd3-40d3-91a8-729084ecb3b9">5.5</linkHtml>)                    5/2016  </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <observationMedia ID="MM60237">
+                     <text>molec-struc</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="0176chemstructure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_85e6ec82-df10-479e-bffa-cc9708ab1ca6">
+               <id root="3692e315-5d48-4a59-aa8f-b54dbc664e36"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNING: RISK OF SERIOUS CARDIOVASCULAR AND GASTROINTESTINAL EVENTS</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                     <content styleCode="bold">
+                        <content styleCode="underline">Cardiovascular Thrombotic Events</content>
+                     </content>
+                     <br/>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold">Nonsteroidal anti-inflammatory drugs (NSAIDs) cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal.  This risk may occur early in treatment and may increase with duration of use [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_2cc5eb95-f351-4717-9cc6-b7f835ca1dcd">5.1</linkHtml>)</content>].</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">INDOCIN is contraindicated in the setting of coronary artery bypass graft (CABG) surgery [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Contraindications (<linkHtml href="#ID_114160b1-8f3c-438e-80db-312a167c5f96">4</linkHtml>) and Warnings and Precautions (<linkHtml href="#ID_2cc5eb95-f351-4717-9cc6-b7f835ca1dcd">5.1</linkHtml>)</content>]<content styleCode="italics">.</content>
+                        </content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">Gastrointestinal Bleeding, Ulceration, and Perforation</content>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold">NSAIDs cause an increased risk of serious gastrointestinal (GI) adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms.  Elderly patients and patients with a prior history of peptic ulcer disease and/or GI bleeding are at greater risk for serious GI events [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_03340e96-c06c-4eec-b309-a612fc466a38">5.2</linkHtml>)</content>].</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20181023"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">WARNING: </content>
+                           <content styleCode="bold">RISK </content>
+                           <content styleCode="bold">OF </content>
+                           <content styleCode="bold">SERIOUS </content>
+                           <content styleCode="bold">CARDIOVASCULAR </content>
+                           <content styleCode="bold">AND GASTROINTESTINAL EVENTS<br/>
+                           </content>
+                           <content styleCode="bold">
+                              <content styleCode="italics">See full prescribing information for complete boxed warning.</content>
+                           </content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="bold">Nonsteroidal anti-inflammatory drugs (NSAIDs) cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal. This risk may occur early in treatment and may increase with duration of use (<linkHtml href="#ID_2cc5eb95-f351-4717-9cc6-b7f835ca1dcd">5.1</linkHtml>)</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">INDOCIN Suppositories are contraindicated in the setting of coronary artery bypass graft (CABG) surgery (<linkHtml href="#ID_114160b1-8f3c-438e-80db-312a167c5f96">4</linkHtml>, <linkHtml href="#ID_2cc5eb95-f351-4717-9cc6-b7f835ca1dcd">5.1</linkHtml>)</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">NSAIDs cause an increased risk of serious gastrointestinal (GI) adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients and patients with a prior history of peptic ulcer disease and/or GI bleeding are at greater risk for serious GI events (<linkHtml href="#ID_03340e96-c06c-4eec-b309-a612fc466a38">5.2</linkHtml>)</content>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_58fd8ee8-b4ab-49f5-83e3-d50eb398f2d2">
+               <id root="b1d1fa68-a2ed-40a9-a1c9-c5fd12241759"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>INDOCIN Suppository is indicated for: </paragraph>
+                  <list listType="unordered">
+                     <item>Moderate to severe rheumatoid arthritis including acute flares of chronic disease</item>
+                     <item>Moderate to severe ankylosing spondylitis</item>
+                     <item>Moderate to severe osteoarthritis</item>
+                     <item>Acute painful shoulder (bursitis and/or tendinitis)</item>
+                     <item>Acute gouty arthritis</item>
+                  </list>
+               </text>
+               <effectiveTime value="20181019"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>INDOCIN is a nonsteroidal anti-inflammatory drug indicated for: </paragraph>
+                        <list listType="unordered">
+                           <item>Moderate to severe rheumatoid arthritis including acute flares of chronic disease</item>
+                           <item>Moderate to severe ankylosing spondylitis</item>
+                           <item>Moderate to severe osteoarthritis</item>
+                           <item>Acute painful shoulder (bursitis and/or tendinitis)</item>
+                           <item>Acute gouty arthritis (<linkHtml href="#ID_58fd8ee8-b4ab-49f5-83e3-d50eb398f2d2">1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_11737834-e95a-4285-a855-e6757dd1e4b1">
+               <id root="ca6cbfc7-58eb-4aab-aff2-644ab39d817c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text/>
+               <effectiveTime value="20181023"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Use the lowest effective dosage for shortest duration consistent with individual patient treatment goals (<linkHtml href="#ID_5323297c-6c1c-4b09-969c-43da83481f76">2.1</linkHtml>)</item>
+                           <item>INDOCIN suppositories 50 mg can be substituted for indomethacin capsules, USP; however, there will be significant differences between the two dosage regimens in indomethacin blood levels (<linkHtml href="#ID_af31f63e-6528-4849-ae5b-db9055e5d090">12.3</linkHtml>)</item>
+                           <item>The dosage for moderate to severe rheumatoid arthritis including acute flares of chronic disease; moderate to severe ankylosing spondylitis; and moderate to severe osteoarthritis is indomethacin capsules, USP 25 mg two or three times a day (<linkHtml href="#ID_d2befd56-757d-4526-ab0c-fd3f7a739471">2.3</linkHtml>)</item>
+                           <item>The dosage for acute painful shoulder (bursitis and/or tendinitis) is indomethacin capsules, USP 75-150 mg daily in 3 or 4 divided doses (<linkHtml href="#ID_5c9b6ae3-06b0-4694-be8b-c82fdaf25c66">2.4</linkHtml>)</item>
+                           <item>The dosage for acute gouty arthritis is indomethacin capsules, USP 50 mg three times a day (<linkHtml href="#ID_480ba17d-894f-4a22-9c22-3add4b334484">2.5</linkHtml>)</item>
+                           <item>INDOCIN Suppositories are not for oral or intravaginal use</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_5323297c-6c1c-4b09-969c-43da83481f76">
+                     <id root="bec57be1-29d6-4ccd-947e-7fd3f3bce515"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 General Dosing Instructions</title>
+                     <text>
+                        <paragraph>Carefully consider the potential benefits and risks of INDOCIN and other treatment options before deciding to use INDOCIN. Use the lowest effective dosage for the shortest duration consistent with individual patient treatment goals [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_100c2dca-7704-4934-a42a-effc362318a3">5</linkHtml>)</content>].<br/>
+                           <br/>After observing the response to initial therapy with indomethacin, the dose and frequency should be adjusted to suit an individual patient’s needs.<br/>
+                           <br/>Adverse reactions generally appear to correlate with the dose of indomethacin. Therefore, every effort should be made to determine the lowest effective dosage for the individual patient.<br/>
+                           <br/>
+                           <content styleCode="bold">SUPPOSITORIES:  INDOCIN Suppositories are available as 50 mg suppositories for rectal use only. INDOCIN Suppositories are not for oral or intravaginal use.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_dc896ac9-53b6-4c9a-9074-5e008cc50804">
+                     <id root="3f439c8c-4f0c-4b64-bd60-c530e158f1af"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Suppository Dosing Instructions</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">THIS SECTION PREDOMINANTLY MAKES REFERENCE TO INDOMETHACIN CAPSULE, USP ORAL DOSAGE FOR GUIDANCE IN USING SUPPOSITORIES.</content>
+                           <br/>
+                           <br/>
+                           <content styleCode="bold">INDOCIN suppositories 50 mg can be substituted for indomethacin capsules, USP; however, there will be significant differences between the two dosage regimens in indomethacin blood levels [see Clinical Pharmacology (<linkHtml href="#ID_af31f63e-6528-4849-ae5b-db9055e5d090">12.3</linkHtml>)].</content>
+                           <br/>
+                           <br/>Oral dosage recommendations for active stages of the following:    </paragraph>
+                     </text>
+                     <effectiveTime value="20181023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_d2befd56-757d-4526-ab0c-fd3f7a739471">
+                     <id root="54ab6aec-d082-4597-aa95-dc6adce064e2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Moderate to severe rheumatoid arthritis including acute flares of chronic disease; moderate to severe ankylosing spondylitis; and moderate to severe osteoarthritis</title>
+                     <text>
+                        <paragraph>Indomethacin capsules, USP 25 mg twice a day. or three times a day. If this is well tolerated, increase the daily dosage by 25 mg or by 50 mg, if required by continuing symptoms, at weekly intervals until a satisfactory response is obtained or until a total daily dose of 150-200 mg is reached. Doses above this amount generally do not increase the effectiveness of the drug.<br/>
+                           <br/>In patients who have persistent night pain and/or morning stiffness, the giving of a large portion, up to a maximum of 100 mg, of the total daily dose at bedtime, either orally or by rectal suppositories, may be helpful in affording relief. The total daily dose should not exceed 200 mg. In acute flares of chronic rheumatoid arthritis, it may be necessary to increase the dosage by 25 mg or, if required, by 50 mg daily.<br/>
+                           <br/>If minor adverse effects develop as the dosage is increased, reduce the dosage rapidly to a tolerated dose and observe the patient closely.<br/>
+                           <br/>If severe adverse reactions occur, stop the drug. After the acute phase of the disease is under control, an attempt to reduce the daily dose should be made repeatedly until the patient is receiving the smallest effective dose or the drug is discontinued.<br/>
+                           <br/>Careful instructions to, and observations of, the individual patient are essential to the prevention of serious, irreversible, including fatal, adverse reactions.<br/>
+                           <br/>As advancing years appear to increase the possibility of adverse reactions, INDOCIN should be used with greater care in the elderly. [see <content styleCode="italics">Use in Specific Populations (<linkHtml href="#ID_d310e6f4-7370-4b20-8b25-787454bbc463">8.5</linkHtml>)</content>]  </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_5c9b6ae3-06b0-4694-be8b-c82fdaf25c66">
+                     <id root="836ea8e3-7ce5-4738-a20a-95f18ae2d101"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.4 Acute painful shoulder (bursitis and/or tendinitis)</title>
+                     <text>
+                        <paragraph>Indomethacin capsules, USP 75-150 mg daily in 3 or 4 divided doses.<br/>
+                           <br/>The drug should be discontinued after the signs and symptoms of inflammation have been controlled for several days. The usual course of therapy is 7-14 days.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181017"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_480ba17d-894f-4a22-9c22-3add4b334484">
+                     <id root="3486e633-9784-4ebe-a895-b9d354cd125f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.5 Acute Gouty Arthritis</title>
+                     <text>
+                        <paragraph>Indomethacin capsules, USP 50 mg three times a day. Until pain is tolerable. The dose should then be rapidly reduced to complete cessation of the drug. Definite relief of pain has been reported within 2 to 4 hours. Tenderness and heat usually subside in 24 to 36 hours and swelling gradually disappears in 3 to 5 days.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181017"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f3f3a291-544c-4425-a461-ad2b8162b147">
+               <id root="ee883393-fa72-4e94-b25e-69665a19418e"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>INDOCIN Suppositories: 50 mg of indomethacin. White and opaque. </paragraph>
+               </text>
+               <effectiveTime value="20181019"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>INDOCIN Suppositories: 50 mg (<linkHtml href="#ID_f3f3a291-544c-4425-a461-ad2b8162b147">3</linkHtml>) </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_114160b1-8f3c-438e-80db-312a167c5f96">
+               <id root="5dca7dc0-65f8-48e0-9300-1362e3466770"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>INDOCIN is contraindicated in the following patients:</paragraph>
+                  <list listType="unordered">
+                     <item>Known hypersensitivity (e.g., anaphylactic reactions and serious skin reactions) to indomethacin or any components of the drug product [<content styleCode="italics">see</content>
+                        <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_79db222c-f444-4244-a1b0-c5090294f214">5.7</linkHtml>, <linkHtml href="#ID_662c0c69-8a85-4b4c-b081-14cf44fda96a">5.9</linkHtml>)</content>] </item>
+                     <item>History of asthma, urticaria, or other allergic-type reactions after taking aspirin or other NSAIDs. Severe, sometimes fatal, anaphylactic reactions to NSAIDs have been reported in such patients [<content styleCode="italics">see</content>
+                        <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_79db222c-f444-4244-a1b0-c5090294f214">5.7</linkHtml>, <linkHtml href="#ID_59867907-5902-4028-977d-26e0d5b313e8">5.8</linkHtml>)</content>] </item>
+                     <item>In the setting of coronary artery bypass graft (CABG) surgery [<content styleCode="italics">see</content>
+                        <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_2cc5eb95-f351-4717-9cc6-b7f835ca1dcd">5.1</linkHtml>)</content>] </item>
+                     <item>In patients with a history of proctitis or recent rectal bleeding</item>
+                  </list>
+               </text>
+               <effectiveTime value="20181019"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Known hypersensitivity to indomethacin or any components of the drug product (<linkHtml href="#ID_114160b1-8f3c-438e-80db-312a167c5f96">4</linkHtml>)</item>
+                           <item>History of asthma, urticaria, or other allergic-type reactions after taking aspirin or other NSAIDs (<linkHtml href="#ID_114160b1-8f3c-438e-80db-312a167c5f96">4</linkHtml>)<br/>
+                           </item>
+                           <item>In the setting of CABG surgery (<linkHtml href="#ID_114160b1-8f3c-438e-80db-312a167c5f96">4</linkHtml>)</item>
+                           <item>In patients with a history of proctitis or recent rectal bleeding (<linkHtml href="#ID_114160b1-8f3c-438e-80db-312a167c5f96">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_100c2dca-7704-4934-a42a-effc362318a3">
+               <id root="493905e7-b98b-4f70-a106-436473f0a1a3"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text/>
+               <effectiveTime value="20181019"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="underline">Hepatotoxicity</content>: Inform patients of warning signs and symptoms of hepatotoxicity. Discontinue if abnormal liver tests persist or worsen or if clinical signs and symptoms of liver disease develop (<linkHtml href="#ID_f711e04f-40a3-46f5-b121-570bb0206e3b">5.3</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Hypertension</content>: Patients taking some antihypertensive medications may have impaired response to these therapies when taking NSAIDs. Monitor blood pressure (<linkHtml href="#ID_a7843931-e79f-4171-adf4-e35ef50b139e">5.4</linkHtml>, <linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Heart Failure and Edema</content>: Avoid use of INDOCIN in patients with severe heart failure unless benefits are expected to outweigh risk of worsening heart failure (<linkHtml href="#ID_c865d34b-7fd3-40d3-91a8-729084ecb3b9">5.5</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Renal Toxicity</content>: Monitor renal function in patients with renal or hepatic impairment, heart failure, dehydration, or hypovolemia. Avoid use of INDOCIN in patients with advanced renal disease unless benefits are expected to outweigh risk of worsening renal function (<linkHtml href="#ID_fd07114f-e316-4fe0-abae-1d1ce8dcb1e4">5.6</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Anaphylactic Reactions</content>: Seek emergency help if an anaphylactic reaction occurs (<linkHtml href="#ID_79db222c-f444-4244-a1b0-c5090294f214">5.7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Exacerbation of Asthma Related to Aspirin Sensitivity</content>: INDOCIN is contraindicated in patients with aspirin-sensitive asthma. Monitor patients with preexisting asthma (without aspirin sensitivity) (<linkHtml href="#ID_59867907-5902-4028-977d-26e0d5b313e8">5.8</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Serious Skin Reactions</content>: Discontinue INDOCIN at first appearance of skin rash or other signs of hypersensitivity (<linkHtml href="#ID_662c0c69-8a85-4b4c-b081-14cf44fda96a">5.9</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Premature Closure of Fetal Ductus Arteriosus</content>: Avoid use in pregnant women starting at 30 weeks gestation (<linkHtml href="#ID_40548e99-fcba-4e0d-89f9-f91b6e38ebdc">5.10</linkHtml>, <linkHtml href="#ID_4d09e5e0-c9d6-4c6b-92f9-3f5fa60fd60c">8.1</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Hematologic Toxicity</content>: Monitor hemoglobin or hematocrit in patients with any signs or symptoms of anemia (<linkHtml href="#ID_c543fde5-dfa8-481f-b8ae-db68cca68a89">5.11</linkHtml>, <linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_2cc5eb95-f351-4717-9cc6-b7f835ca1dcd">
+                     <id root="b66aeaef-836f-46e0-aafe-1fb90e86d25b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Cardiovascular Thrombotic Events</title>
+                     <text>
+                        <paragraph>Clinical trials of several COX-2 selective and nonselective NSAIDs of up to three years duration have shown an increased risk of serious cardiovascular (CV) thrombotic events, including myocardial infarction (MI) and stroke, which can be fatal. Based on available data, it is unclear that the risk for CV thrombotic events is similar for all NSAIDs. The relative increase in serious CV thrombotic events over baseline conferred by NSAID use appears to be similar in those with and without known CV disease or risk factors for CV disease. However, patients with known CV disease or risk factors had a higher absolute incidence of excess serious CV thrombotic events, due to their increased baseline rate. Some observational studies found that this increased risk of serious CV thrombotic events began as early as the first weeks of treatment. The increase in CV thrombotic risk has been observed most consistently at higher doses.<br/>
+                           <br/>To minimize the potential risk for an adverse CV event in NSAID-treated patients, use the lowest effective dose for the shortest duration possible. Physicians and patients should remain alert for the development of such events, throughout the entire treatment course, even in the absence of previous CV symptoms. Patients should be informed about the symptoms of serious CV events and the steps to take if they occur.<br/>
+                           <br/>There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an NSAID, such as indomethacin, increases the risk of serious gastrointestinal (GI) events [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_03340e96-c06c-4eec-b309-a612fc466a38">5.2</linkHtml>)</content>].<br/>
+                           <content styleCode="underline">
+                              <br/>Status Post Coronary Artery Bypass Graft (CABG) Surgery</content>
+                           <br/>Two large, controlled clinical trials of a COX-2 selective NSAID for the treatment of pain in the first 10–14 days following CABG surgery found an increased incidence of myocardial infarction and stroke. NSAIDs are contraindicated in the setting of CABG [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Contraindications (<linkHtml href="#ID_114160b1-8f3c-438e-80db-312a167c5f96">4</linkHtml>)</content>].<br/>
+                           <content styleCode="underline">
+                              <br/>Post-MI Patients</content>
+                           <br/>Observational studies conducted in the Danish National Registry have demonstrated that patients treated with NSAIDs in the post-MI period were at increased risk of reinfarction, CV-related death, and all-cause mortality beginning in the first week of treatment. In this same cohort, the incidence of death in the first year post-MI was 20 per 100 person years in NSAID-treated patients compared to 12 per 100 person years in non-NSAID exposed patients. Although the absolute rate of death declined somewhat after the first year post-MI, the increased relative risk of death in NSAID users persisted over at least the next four years of follow-up.   Avoid the use of INDOCIN in patients with a recent MI unless the benefits are expected to outweigh the risk of recurrent CV thrombotic events. If INDOCIN is used in patients with a recent MI, monitor patients for signs of cardiac ischemia.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_03340e96-c06c-4eec-b309-a612fc466a38">
+                     <id root="75eaa8c3-9c82-4d51-9f59-e989d7a19535"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Gastrointestinal Bleeding, Ulceration, and Perforation</title>
+                     <text>
+                        <paragraph>NSAIDs, including indomethacin, cause serious gastrointestinal (GI) adverse events including inflammation, bleeding, ulceration, and perforation of the esophagus, stomach, small intestine, or large intestine, which can be fatal. These serious adverse events can occur at any time, with or without warning symptoms, in patients treated with NSAIDs.  Only one in five patients who develop a serious upper GI adverse event on NSAID therapy is symptomatic. Upper GI ulcers, gross bleeding, or perforation caused by NSAIDs occurred in approximately 1% of patients treated for 3-6 months, and in about 2%-4% of patients treated for one year. However, even short-term NSAID therapy is not without risk.<br/>
+                           <br/>
+                           <content styleCode="underline">Risk Factors for GI Bleeding, Ulceration, and Perforation</content>
+                           <br/>Patients with a prior history of peptic ulcer disease and/or GI bleeding who used NSAIDs had a greater than 10-fold increased risk for developing a GI bleed compared to patients without these risk factors. Other factors that increase the risk of GI bleeding in patients treated with NSAIDs include longer duration of NSAID therapy; concomitant use of oral corticosteroids, aspirin, anticoagulants, or selective serotonin reuptake inhibitors (SSRIs); smoking; use of alcohol; older age; and poor general health status. Most postmarketing reports of fatal GI events occurred in elderly or debilitated patients. Additionally, patients with advanced liver disease and/or coagulopathy are at increased risk for GI bleeding.<br/>
+                           <br/>
+                           <content styleCode="underline">Strategies to Minimize the GI Risks in NSAID-treated patients:</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>Use the lowest effective dosage for the shortest possible duration.</item>
+                           <item>Avoid administration of more than one NSAID at a time.</item>
+                           <item>Avoid use in patients at higher risk unless benefits are expected to outweigh the increased risk of bleeding. For such patients, as well as those with active GI bleeding, consider alternate therapies other than NSAIDs.</item>
+                           <item>Remain alert for signs and symptoms of GI ulceration and bleeding during NSAID therapy.</item>
+                           <item>If a serious GI adverse event is suspected, promptly initiate evaluation and treatment, and discontinue INDOCIN until a serious GI adverse event is ruled out.</item>
+                           <item>In the setting of concomitant use of low-dose aspirin for cardiac prophylaxis, monitor patients more closely for evidence of GI bleeding [<content styleCode="italics">see</content>
+                              <content styleCode="italics"> Drug Interactions (<linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)</content>].</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_f711e04f-40a3-46f5-b121-570bb0206e3b">
+                     <id root="93d50c8e-b2c8-4a01-83a7-a8d0917894bf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Hepatotoxicity</title>
+                     <text>
+                        <paragraph>Elevations of ALT or AST (three or more times the upper limit of normal [ULN]) have been reported in approximately 1% of NSAID-treated patients in clinical trials. In addition, rare, sometimes fatal, cases of severe hepatic injury, including fulminant hepatitis, liver necrosis, and hepatic failure have been reported.<br/>
+                           <br/>Elevations of ALT or AST (less than three times ULN) may occur in up to 15% of patients treated with NSAIDs including indomethacin.<br/>
+                           <br/>Inform patients of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, diarrhea, pruritus, jaundice, right upper quadrant tenderness, and "flu-like" symptoms). If clinical signs and symptoms consistent with liver disease develop, or if systemic manifestations occur (e.g., eosinophilia, rash, etc.), discontinue INDOCIN immediately, and perform a clinical evaluation of the patient.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181017"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_a7843931-e79f-4171-adf4-e35ef50b139e">
+                     <id root="c8c197b0-fe47-4a83-9257-374421cee892"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Hypertension</title>
+                     <text>
+                        <paragraph>NSAIDs, including INDOCIN, can lead to new onset of hypertension or worsening of preexisting hypertension, either of which may contribute to the increased incidence of CV events. Patients taking angiotensin converting enzyme (ACE) inhibitors, thiazide diuretics, or loop diuretics may have impaired response to these therapies when taking NSAIDs [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Drug Interactions (<linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)</content>].<br/>
+                           <br/>Monitor blood pressure (BP) during the initiation of NSAID treatment and throughout the course of therapy.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_c865d34b-7fd3-40d3-91a8-729084ecb3b9">
+                     <id root="c859bd29-37ec-41dd-b9ec-8bdedb1b4af3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Heart Failure and Edema</title>
+                     <text>
+                        <paragraph>The Coxib and traditional NSAID Trialists’ Collaboration meta-analysis of randomized controlled trials demonstrated an approximately two-fold increase in hospitalizations for heart failure in COX-2 selective-treated patients and nonselective NSAID-treated patients compared to placebo-treated patients. In a Danish National Registry study of patients with heart failure, NSAID use increased the risk of MI, hospitalization for heart failure, and death.<br/>
+                           <br/>Additionally, fluid retention and edema have been observed in some patients treated with NSAIDs.  Use of indomethacin may blunt the CV effects of several therapeutic agents used to treat these medical conditions (e.g., diuretics, ACE inhibitors, or angiotensin receptor blockers [ARBs]) [<content styleCode="italics">see Drug Interactions (<linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)</content>].<br/>
+                           <br/>Avoid the use of INDOCIN in patients with severe heart failure unless the benefits are expected to outweigh the risk of worsening heart failure. If INDOCIN is used in patients with severe heart failure, monitor patients for signs of worsening heart failure.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_fd07114f-e316-4fe0-abae-1d1ce8dcb1e4">
+                     <id root="0b1a0694-08c2-44a7-9b4d-01810633e757"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Renal Toxicity and Hyperkalemia</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Renal Toxicity</content>
+                           <br/>Long-term administration of NSAIDs has resulted in renal papillary necrosis and other renal injury.<br/>
+                           <br/>Renal toxicity has also been seen in patients in whom renal prostaglandins have a compensatory role in the maintenance of renal perfusion. In these patients, administration of an NSAID may cause a dose-dependent reduction in prostaglandin formation and, secondarily, in renal blood flow, which may precipitate overt renal decompensation. Patients at greatest risk of this reaction are those with impaired renal function, dehydration, hypovolemia, heart failure, liver dysfunction, those taking diuretics and ACE inhibitors or ARBs, and the elderly.  Discontinuation of NSAID therapy is usually followed by recovery to the pretreatment state.<br/>
+                           <br/>No information is available from controlled clinical studies regarding the use of INDOCIN in patients with advanced renal disease. The renal effects of INDOCIN may hasten the progression of renal dysfunction in patients with preexisting renal disease.<br/>
+                           <br/>Correct volume status in dehydrated or hypovolemic patients prior to initiating INDOCIN. Monitor renal function in patients with renal or hepatic impairment, heart failure, dehydration, or hypovolemia during use of INDOCIN [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Drug Interactions (<linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)</content>]<content styleCode="italics">. </content>Avoid the use of INDOCIN in patients with advanced renal disease unless the benefits are expected to outweigh the risk of worsening renal function. If INDOCIN is used in patients with advanced renal disease, monitor patients for signs of worsening renal function.<br/>
+                           <br/>It has been reported that the addition of the potassium-sparing diuretic, triamterene, to a maintenance schedule of indomethacin resulted in reversible acute renal failure in two of four healthy volunteers. Indomethacin and triamterene should not be administered together.<br/>
+                           <br/>
+                           <content styleCode="underline">Hyperkalemia</content>
+                           <br/>Increases in serum potassium concentration, including hyperkalemia, have been reported with use of NSAIDs, even in some patients without renal impairment. In patients with normal renal function, these effects have been attributed to a hyporeninemic-hypoaldosteronism state.<br/>
+                           <br/>Both indomethacin and potassium-sparing diuretics may be associated with increased serum potassium levels. The potential effects of indomethacin and potassium-sparing diuretics on potassium levels and renal function should be considered when these agents are administered concurrently. </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_79db222c-f444-4244-a1b0-c5090294f214">
+                     <id root="6b28cede-183e-47d2-bf07-6a06f4c625e7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7 Anaphylactic Reactions</title>
+                     <text>
+                        <paragraph>Indomethacin has been associated with anaphylactic reactions in patients with and without known hypersensitivity to indomethacin and in patients with aspirin-sensitive asthma [see <content styleCode="italics">Contraindications (<linkHtml href="#ID_114160b1-8f3c-438e-80db-312a167c5f96">4</linkHtml>) and Warnings and Precautions (<linkHtml href="#ID_59867907-5902-4028-977d-26e0d5b313e8">5.8</linkHtml>)</content>].<br/>
+                           <br/>Seek emergency help if an anaphylactic reaction occurs.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_59867907-5902-4028-977d-26e0d5b313e8">
+                     <id root="38c02c6c-add3-49e5-99a6-22c05cd82924"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.8 Exacerbation of Asthma Related to Aspirin Sensitivity</title>
+                     <text>
+                        <paragraph>A subpopulation of patients with asthma may have aspirin-sensitive asthma which may include chronic rhinosinusitis complicated by nasal polyps; severe, potentially fatal bronchospasm; and/or intolerance to aspirin and other NSAIDs. Because cross-reactivity between aspirin and other NSAIDs has been reported in such aspirin-sensitive patients, INDOCIN is contraindicated in patients with this form of aspirin sensitivity [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Contraindications (<linkHtml href="#ID_114160b1-8f3c-438e-80db-312a167c5f96">4</linkHtml>)</content>]. When INDOCIN is used in patients with preexisting asthma (without known aspirin sensitivity), monitor patients for changes in the signs and symptoms of asthma.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_662c0c69-8a85-4b4c-b081-14cf44fda96a">
+                     <id root="bacc7293-50c9-4e8c-bca8-fccd96243407"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.9 Serious Skin Reactions</title>
+                     <text>
+                        <paragraph>NSAIDs, including indomethacin, can cause serious skin adverse reactions such as exfoliative dermatitis, Stevens-Johnson Syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. These serious events may occur without warning. Inform patients about the signs and symptoms of serious skin reactions, and to discontinue the use of INDOCIN at the first appearance of skin rash or any other sign of hypersensitivity. INDOCIN is contraindicated in patients with previous serious skin reactions to NSAIDs [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Contraindications (<linkHtml href="#ID_114160b1-8f3c-438e-80db-312a167c5f96">4</linkHtml>)</content>].  </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_40548e99-fcba-4e0d-89f9-f91b6e38ebdc">
+                     <id root="5756bf7e-fb2f-4f80-8446-a50f9665b964"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.10 Premature Closure of Fetal Ductus Arteriosus</title>
+                     <text>
+                        <paragraph>Indomethacin may cause premature closure of the fetal ductus arteriosus. Avoid use of NSAIDs, including INDOCIN, in pregnant women starting at 30 weeks of gestation (third trimester) [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Use in Specific Populations (<linkHtml href="#ID_4d09e5e0-c9d6-4c6b-92f9-3f5fa60fd60c">8.1</linkHtml>)</content>].  </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_c543fde5-dfa8-481f-b8ae-db68cca68a89">
+                     <id root="0d120ef7-34cf-4ccf-8ed3-0c4ab4dd34c1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.11 Hematologic Toxicity</title>
+                     <text>
+                        <paragraph>Anemia has occurred in NSAID-treated patients. This may be due to occult or gross blood loss, fluid retention, or an incompletely described effect on erythropoiesis. If a patient treated with INDOCIN has any signs or symptoms of anemia, monitor hemoglobin or hematocrit.<br/>
+                           <br/>NSAIDs, including INDOCIN, may increase the risk of bleeding events. Co-morbid conditions, such as coagulation disorders, or concomitant use of warfarin, other anticoagulants, antiplatelet agents (e.g., aspirin), serotonin reuptake inhibitors (SSRIs) and serotonin norepinephrine reuptake inhibitors (SNRIs) may increase this risk. Monitor these patients for signs of bleeding [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Drug Interactions (</content>
+                           <linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>
+                           <content styleCode="italics">)</content>].  </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_56ce7747-165e-4517-ad29-4ef2f12cdf3a">
+                     <id root="c06054a4-f384-4510-af7a-586c53236727"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.12 Masking of Inflammation and Fever</title>
+                     <text>
+                        <paragraph>The pharmacological activity of INDOCIN in reducing inflammation, and possibly fever, may diminish the utility of diagnostic signs in detecting infections.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181017"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_794f1ab6-7506-40b6-9480-920a080e92e6">
+                     <id root="1ff90844-f48a-4a14-9e8c-24624633a0cc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.13 Laboratory Monitoring</title>
+                     <text>
+                        <paragraph>Because serious GI bleeding, hepatotoxicity, and renal injury can occur without warning symptoms or signs, consider monitoring patients on long-term NSAID treatment with a CBC and a chemistry profile periodically [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_03340e96-c06c-4eec-b309-a612fc466a38">5.2</linkHtml>, <linkHtml href="#ID_f711e04f-40a3-46f5-b121-570bb0206e3b">5.3</linkHtml>, <linkHtml href="#ID_fd07114f-e316-4fe0-abae-1d1ce8dcb1e4">5.6</linkHtml>)</content>].  </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_cea52921-675f-484c-847e-8311c85f2f31">
+                     <id root="44eaa7a6-dbeb-474f-92e8-03d5b8a9b869"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.14 Central Nervous System Effects</title>
+                     <text>
+                        <paragraph>INDOCIN may aggravate depression or other psychiatric disturbances, epilepsy, and parkinsonism, and should be used with considerable caution in patients with these conditions. Discontinue INDOCIN if severe CNS adverse reactions develop.<br/>
+                           <br/>INDOCIN may cause drowsiness; therefore, caution patients about engaging in activities requiring mental alertness and motor coordination, such as driving a car.  Indomethacin may also cause headache.  Headache which persists despite dosage reduction requires cessation of therapy with INDOCIN.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181017"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_5bc3dfba-0be8-4836-8b98-c506ca076759">
+                     <id root="69be523b-895b-4feb-9f03-4880c60d89f6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.15 Ocular Effects</title>
+                     <text>
+                        <paragraph>Corneal deposits and retinal disturbances, including those of the macula, have been observed in some patients who had received prolonged therapy with INDOCIN.  Be alert to the possible association between the changes noted and INDOCIN.  It is advisable to discontinue therapy if such changes are observed.  Blurred vision may be a significant symptom and warrants a thorough ophthalmological examination.  Since these changes may be asymptomatic, ophthalmologic examination at periodic intervals is desirable in patients receiving prolonged therapy.  INDOCIN is not indicated for long-term treatment.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181017"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_02c93e16-8c06-414b-be43-7af54dd46d6e">
+               <id root="b8298bea-816f-43ce-831a-b2ac7a8ea552"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions are discussed in greater detail in other sections of the labeling:   </paragraph>
+                  <list listType="unordered">
+                     <item>Cardiovascular Thrombotic Events [<content styleCode="italics">see</content>
+                        <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_2cc5eb95-f351-4717-9cc6-b7f835ca1dcd">5.1</linkHtml>)</content>]</item>
+                     <item>GI Bleeding, Ulceration and Perforation [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID_03340e96-c06c-4eec-b309-a612fc466a38">5.2</linkHtml>)</content>]</item>
+                     <item>Hepatotoxicity [<content styleCode="italics">see</content>
+                        <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_f711e04f-40a3-46f5-b121-570bb0206e3b">5.3</linkHtml>)</content>]</item>
+                     <item>Hypertension [<content styleCode="italics">see</content>
+                        <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_a7843931-e79f-4171-adf4-e35ef50b139e">5.4</linkHtml>)</content>]</item>
+                     <item>Heart Failure and Edema [<content styleCode="italics">see</content>
+                        <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_c865d34b-7fd3-40d3-91a8-729084ecb3b9">5.5</linkHtml>)</content>]</item>
+                     <item>Renal Toxicity and Hyperkalemia [<content styleCode="italics">see</content>
+                        <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_fd07114f-e316-4fe0-abae-1d1ce8dcb1e4">5.6</linkHtml>)</content>]</item>
+                     <item>Anaphylactic Reactions [<content styleCode="italics">see</content>
+                        <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_79db222c-f444-4244-a1b0-c5090294f214">5.7</linkHtml>)</content>]</item>
+                     <item>Serious Skin Reactions [<content styleCode="italics">see</content>
+                        <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_662c0c69-8a85-4b4c-b081-14cf44fda96a">5.9</linkHtml>)</content>]</item>
+                     <item>Hematologic Toxicity [<content styleCode="italics">see</content>
+                        <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_c543fde5-dfa8-481f-b8ae-db68cca68a89">5.11</linkHtml>)</content>]</item>
+                  </list>
+               </text>
+               <effectiveTime value="20181023"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (incidence ≥ 3%) are headache, dizziness, dyspepsia, and nausea. (<linkHtml href="#ID_02c93e16-8c06-414b-be43-7af54dd46d6e">6</linkHtml>)<br/>
+                           <content styleCode="bold">
+                              <br/>To report SUSPECTED ADVERSE REACTIONS, contact G&amp;W Laboratories, Inc. at 1-800-922-1038 or FDA at 1-800-FDA-1088 or<linkHtml href="http://www.fda.gov/medwatch"> www.fda.gov/medwatch</linkHtml>.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_c0da3238-e7fd-4d14-8401-c2405b479356">
+                     <id root="0dd6ecf9-f62a-42ff-89de-ea9d7d74263d"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice.<br/>
+                           <br/>In a gastroscopic study in 45 healthy subjects, the number of gastric mucosal abnormalities was significantly higher in the group receiving indomethacin capsules than in the group taking INDOCIN Suppositories or placebo.<br/>
+                           <br/>In a double-blind comparative clinical study involving 175 patients with rheumatoid arthritis, however, the incidence of upper gastrointestinal adverse effects with INDOCIN Suppositories or indomethacin capsules was comparable. The incidence of lower gastrointestinal adverse effects was greater in the suppository group.<br/>
+                           <br/>The adverse reactions for indomethacin capsules listed in the following table have been arranged into two groups: (1) incidence greater than 1%; and (2) incidence less than 1%. The incidence for group (1) was obtained from 33 double-blind controlled clinical trials reported in the literature (1,092 patients). The incidence for group (2) was based on reports in clinical trials, in the literature, and on voluntary reports since marketing. The probability of a causal relationship exists between indomethacin and these adverse reactions, some of which have been reported only rarely.<br/>
+                           <br/>The adverse reactions reported with indomethacin capsules may occur with use of the suppositories. In addition, rectal irritation and tenesmus have been reported in patients who have received the suppositories. </paragraph>
+                        <table border="1" cellpadding="2" cellspacing="0" rules="all" width="90%">
+                           <caption>Table 1 Summary of Adverse Reactions for Indomethacin Capsules</caption>
+                           <colgroup>
+                              <col width="33%"/>
+                              <col width="34%"/>
+                              <col width="33%"/>
+                           </colgroup>
+                           <thead>
+                              <tr>
+                                 <th>
+                                    <content styleCode="italics">Incidence greater than 1%</content>
+                                 </th>
+                                 <th>
+                                    <content styleCode="italics">Incidence less than 1%</content>
+                                 </th>
+                                 <th/>
+                              </tr>
+                           </thead>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="3">* Reactions occurring in 3% to 9% of patients treated with indomethacin capsules. (Those reactions occurring in less than 3% of the patients are unmarked.) </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td colspan="3" styleCode="Botrule Lrule Rrule Toprule">GASTROINTESTINAL </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>nausea* with or without vomiting </paragraph>
+                                    <paragraph>dyspepsia* (including indigestion, heartburn and epigastric pain)</paragraph>
+                                    <paragraph>diarrhea</paragraph>
+                                    <paragraph>abdominal distress or pain</paragraph>
+                                    <paragraph>constipation</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>anorexia</paragraph>
+                                    <paragraph>bloating (includes distension)</paragraph>
+                                    <paragraph>flatulence</paragraph>
+                                    <paragraph>peptic ulcer</paragraph>
+                                    <paragraph>gastroenteritis</paragraph>
+                                    <paragraph>rectal bleeding</paragraph>
+                                    <paragraph>proctitis</paragraph>
+                                    <paragraph>single or multiple ulcerations, <br/>including perforation and hemorrhage of the esophagus, stomach, duodenum or small and large intestines</paragraph>
+                                    <paragraph>intestinal ulceration associated with stenosis and obstruction</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>gastrointestinal bleeding without obvious ulcer formation and perforation of pre-existing sigmoid lesions (diverticulum, carcinoma, etc.) development of ulcerative colitis and regional ileitis</paragraph>
+                                    <paragraph>ulcerative stomatitis</paragraph>
+                                    <paragraph>toxic hepatitis and jaundice (some fatal cases have been reported)</paragraph>
+                                    <paragraph>intestinal strictures (diaphragms)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3" styleCode="Botrule Lrule Rrule Toprule">CENTRAL NERVOUS SYSTEM </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>headache (11.7%)</paragraph>
+                                    <paragraph>dizziness*</paragraph>
+                                    <paragraph>vertigo</paragraph>
+                                    <paragraph>somnolence</paragraph>
+                                    <paragraph>depression and fatigue (including malaise and listlessness)</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>anxiety (includes nervousness)</paragraph>
+                                    <paragraph>muscle weakness</paragraph>
+                                    <paragraph>involuntary muscle movements</paragraph>
+                                    <paragraph>insomnia</paragraph>
+                                    <paragraph>muzziness</paragraph>
+                                    <paragraph>psychic disturbances including psychotic episodes</paragraph>
+                                    <paragraph>mental confusion</paragraph>
+                                    <paragraph>drowsiness</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>light-headedness</paragraph>
+                                    <paragraph>syncope</paragraph>
+                                    <paragraph>paresthesia</paragraph>
+                                    <paragraph>aggravation of epilepsy and parkinsonism</paragraph>
+                                    <paragraph>depersonalization</paragraph>
+                                    <paragraph>coma</paragraph>
+                                    <paragraph>peripheral neuropathy</paragraph>
+                                    <paragraph>convulsion</paragraph>
+                                    <paragraph>dysarthria</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3" styleCode="Botrule Lrule Rrule Toprule">SPECIAL SENSES </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>tinnitus</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>ocular - corneal deposits and retinal disturbances, including those of the macula, have been reported in some patients on prolonged therapy with indomethacin capsules</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>blurred vision</paragraph>
+                                    <paragraph>diplopia</paragraph>
+                                    <paragraph>hearing disturbances, deafness</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3" styleCode="Botrule Lrule Rrule Toprule">CARDIOVASCULAR </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>None</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>hypertension</paragraph>
+                                    <paragraph>hypotension</paragraph>
+                                    <paragraph>tachycardia</paragraph>
+                                    <paragraph>chest pain</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>congestive heart failure</paragraph>
+                                    <paragraph>arrhythmia; palpitations</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3" styleCode="Botrule Lrule Rrule Toprule">METABOLIC </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>None</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>edema</paragraph>
+                                    <paragraph>weight gain</paragraph>
+                                    <paragraph>fluid retention</paragraph>
+                                    <paragraph>flushing or sweating</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>hyperglycemia</paragraph>
+                                    <paragraph>glycosuria</paragraph>
+                                    <paragraph>hyperkalemia</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3" styleCode="Botrule Lrule Rrule Toprule">INTEGUMENTARY </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>None</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>pruritus</paragraph>
+                                    <paragraph>rash; urticaria</paragraph>
+                                    <paragraph>petechiae or ecchymosis</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>exfoliative dermatitis</paragraph>
+                                    <paragraph>erythema nodosum</paragraph>
+                                    <paragraph>loss of hair</paragraph>
+                                    <paragraph>Stevens-Johnson syndrome</paragraph>
+                                    <paragraph>erythema multiforme</paragraph>
+                                    <paragraph>toxic epidermal necrolysis</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3" styleCode="Botrule Lrule Rrule Toprule">HEMATOLOGIC </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>None</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>leukopenia</paragraph>
+                                    <paragraph>bone marrow depression</paragraph>
+                                    <paragraph>anemia secondary to obvious or occult gastrointestinal bleeding</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>aplastic anemia</paragraph>
+                                    <paragraph>hemolytic anemia</paragraph>
+                                    <paragraph>agranulocytosis</paragraph>
+                                    <paragraph>thrombocytopenic purpura</paragraph>
+                                    <paragraph>disseminated intravascular coagulation</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3" styleCode="Botrule Lrule Rrule Toprule">HYPERSENSITIVITY </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>None</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>acute anaphylaxis</paragraph>
+                                    <paragraph>acute respiratory distress</paragraph>
+                                    <paragraph>rapid fall in blood pressure resembling a shock-like state</paragraph>
+                                    <paragraph>angioedema</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>dyspnea</paragraph>
+                                    <paragraph>asthma</paragraph>
+                                    <paragraph>purpura</paragraph>
+                                    <paragraph>angiitis</paragraph>
+                                    <paragraph>pulmonary edema</paragraph>
+                                    <paragraph>fever</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3" styleCode="Botrule Lrule Rrule Toprule">GENITOURINARY </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>None</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>hematuria</paragraph>
+                                    <paragraph>vaginal bleeding</paragraph>
+                                    <paragraph>proteinuria</paragraph>
+                                    <paragraph>nephrotic syndrome</paragraph>
+                                    <paragraph>interstitial nephritis</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>BUN elevation</paragraph>
+                                    <paragraph>renal insufficiency, including renal failure</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3" styleCode="Botrule Lrule Rrule Toprule">MISCELLANEOUS </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>None</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                    <paragraph>epistaxis</paragraph>
+                                    <paragraph>breast changes, including enlargement and tenderness, or gynecomastia</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"/>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="bold">Causal relationship unknown: </content>Other reactions have been reported but occurred under circumstances where a causal relationship could not be established. However, in these rarely reported events, the possibility cannot be excluded. Therefore, these observations are being listed to serve as alerting information to physicians: <br/>
+                           <content styleCode="italics">
+                              <br/>Cardiovascular</content>:  Thrombophlebitis <br/>
+                           <content styleCode="italics">
+                              <br/>Hematologic</content>:  Although there have been several reports of leukemia, the supporting information is weak<br/>
+                           <br/>
+                           <content styleCode="italics">Genitourinary</content>: Urinary frequency<br/>
+                           <br/>A rare occurrence of fulminant necrotizing fasciitis, particularly in association with Group Aβ hemolytic streptococcus, has been described in persons treated with nonsteroidal anti-inflammatory agents, including indomethacin, sometimes with fatal outcome  </paragraph>
+                     </text>
+                     <effectiveTime value="20181023"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">
+               <id root="22c9cc37-8232-4d82-b724-ccdcc6118e6d"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>See Table 2 for clinically significant drug interactions with indomethacin. </paragraph>
+                  <table border="1" cellpadding="2" cellspacing="0" rules="all" width="90%">
+                     <caption>Table 2 Clinically Significant Drug Interactions with Indomethacin</caption>
+                     <colgroup>
+                        <col width="15%"/>
+                        <col width="85%"/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Drugs That Interfere with Hemostasis</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <list listType="unordered">
+                                 <item>Indomethacin and anticoagulants such as warfarin have a synergistic effect on bleeding. The concomitant use of indomethacin and anticoagulants have an increased risk of serious bleeding compared to the use of either drug alone.</item>
+                                 <item>Serotonin release by platelets plays an important role in hemostasis. Case-control and cohort epidemiological studies showed that concomitant use of drugs that interfere with serotonin reuptake and an NSAID may potentiate the risk of bleeding more than an NSAID alone.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>Monitor patients with concomitant use of INDOCIN with anticoagulants (e.g., warfarin), antiplatelet agents (e.g., aspirin), selective serotonin reuptake inhibitors (SSRIs), and serotonin norepinephrine reuptake inhibitors (SNRIs) for signs of bleeding [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID_c543fde5-dfa8-481f-b8ae-db68cca68a89">5.11</linkHtml>)</content>].</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Aspirin</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>Controlled clinical studies showed that the concomitant use of NSAIDs and analgesic doses of aspirin does not produce any greater therapeutic effect than the use of NSAIDs alone. In a clinical study, the concomitant use of an NSAID and aspirin was associated with a significantly increased incidence of GI adverse reactions as compared to use of the NSAID alone [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID_03340e96-c06c-4eec-b309-a612fc466a38">5.2</linkHtml>)</content>].</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>Concomitant use of INDOCIN and analgesic doses of aspirin is not generally recommended because of the increased risk of bleeding [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID_c543fde5-dfa8-481f-b8ae-db68cca68a89">5.11</linkHtml>)</content>].</paragraph>
+                              <paragraph>INDOCIN is not a substitute for low dose aspirin for cardiovascular protection.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">ACE Inhibitors, Angiotensin Receptor Blockers, and Beta-Blockers</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <list listType="unordered">
+                                 <item>NSAIDs may diminish the antihypertensive effect of angiotensin converting enzyme (ACE) inhibitors, angiotensin receptor blockers (ARBs), or beta-blockers (including propranolol).</item>
+                                 <item>In patients who are elderly, volume-depleted (including those on diuretic therapy), or have renal impairment, co-administration of an NSAID with ACE inhibitors or ARBs may result in deterioration of renal function, including possible acute renal failure. These effects are usually reversible.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <list listType="unordered">
+                                 <item>During concomitant use of INDOCIN and ACE inhibitors, ARBs, or beta blockers, monitor blood pressure to ensure that the desired blood pressure is obtained.</item>
+                                 <item>During concomitant use of INDOCIN and ACE-inhibitors or ARBs in patients who are elderly, volume-depleted, or have impaired renal function, monitor for signs of worsening renal function [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID_fd07114f-e316-4fe0-abae-1d1ce8dcb1e4">5.6</linkHtml>)</content>]<content styleCode="italics">.</content>
+                                 </item>
+                                 <item>When these drugs are administered concomitantly, patients should be adequately hydrated. Assess renal function at the beginning of the concomitant treatment and periodically thereafter.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Diuretics</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>Clinical studies, as well as post-marketing observations, showed that NSAIDs reduced the natriuretic effect of loop diuretics (e.g., furosemide) and thiazide diuretics in some patients. This effect has been attributed to the NSAID inhibition of renal prostaglandin synthesis.</paragraph>
+                              <paragraph>It has been reported that the addition of triamterene to a maintenance schedule of INDOCIN resulted in reversible acute renal failure in two of four healthy volunteers. INDOCIN and triamterene should not be administered together.</paragraph>
+                              <paragraph>Both INDOCIN and potassium-sparing diuretics may be associated with increased serum potassium levels. The potential effects of INDOCIN and potassium-sparing diuretics on potassium levels and renal function should be considered when these agents are administered concurrently. </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>Indomethacin and triamterene should not be administered together. During concomitant use of INDOCIN with diuretics, observe patients for signs of worsening renal function, in addition to assuring diuretic efficacy including antihypertensive effects. Be aware that indomethacin and potassium-sparing diuretics may both be associated with increased serum potassium levels [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID_fd07114f-e316-4fe0-abae-1d1ce8dcb1e4">5.6</linkHtml>)                                  </content>].</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Digoxin</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>The concomitant use of indomethacin with digoxin has been reported to increase the serum concentration and prolong the half-life of digoxin.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>During concomitant use of INDOCIN and digoxin, monitor serum digoxin levels.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Lithium</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>NSAIDs have produced elevations in plasma lithium levels and reductions in renal lithium clearance<content styleCode="italics">. </content>The mean minimum lithium concentration increased 15%, and the renal clearance decreased by approximately 20%. This effect has been attributed to NSAID inhibition of renal prostaglandin synthesis.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>During concomitant use of INDOCIN and lithium, monitor patients for signs of lithium toxicity.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Methotrexate</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>Concomitant use of NSAIDs and methotrexate may increase the risk for methotrexate toxicity (e.g., neutropenia, thrombocytopenia, renal dysfunction).</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>During concomitant use of INDOCIN and methotrexate, monitor patients for methotrexate toxicity.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Cyclosporine</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>Concomitant use of INDOCIN and cyclosporine may increase cyclosporine's nephrotoxicity.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>During concomitant use of INDOCIN and cyclosporine, monitor patients for signs of worsening renal function.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NSAIDs and Salicylates</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>Concomitant use of indomethacin with other NSAIDs or salicylates (e.g., diflunisal, salsalate) increases the risk of GI toxicity, with little or no increase in efficacy [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID_03340e96-c06c-4eec-b309-a612fc466a38">5.2</linkHtml>)</content>]. <br/>
+                                 <br/>Combined use with diflunisal may be particularly hazardous because diflunisal causes significantly higher plasma levels of indomethacin [<content styleCode="italics">see Clinical Pharmacology (<linkHtml href="#ID_af31f63e-6528-4849-ae5b-db9055e5d090">12.3</linkHtml>)</content>]. In some patients, combined use of indomethacin and diflunisal has been associated with fatal gastrointestinal hemorrhage. </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>The concomitant use of indomethacin with other NSAIDs or salicylates, especially diflunisal, is not recommended. </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Pemetrexed</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>Concomitant use of INDOCIN and pemetrexed may increase the risk of pemetrexed-associated myelosuppression, renal, and GI toxicity (see the pemetrexed prescribing information).</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>During concomitant use of INDOCIN and pemetrexed, in patients with renal impairment whose creatinine clearance ranges from 45 to 79 mL/min, monitor for myelosuppression, renal and GI toxicity.</paragraph>
+                              <paragraph/>
+                              <paragraph>NSAIDs with short elimination half-lives (e.g., diclofenac, indomethacin) should be avoided for a period of two days before, the day of, and two days following administration of pemetrexed.</paragraph>
+                              <paragraph/>
+                              <paragraph>In the absence of data regarding potential interaction between pemetrexed and NSAIDs with longer half-lives (e.g., meloxicam, nabumetone), patients taking these NSAIDs should interrupt dosing for at least five days before, the day of, and two days following pemetrexed administration.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Probenecid</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="middle">
+                              <paragraph>When indomethacin is given to patients receiving probenecid, the plasma levels of indomethacin are likely to be increased.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" valign="middle">
+                              <paragraph>During the concomitant use of INDOCIN and probenecid, a lower total daily dosage of indomethacin may produce a satisfactory therapeutic effect.  When increases in the dose of indomethacin are made, they should be made carefully and in small increments.</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="underline">Effects on Laboratory Tests</content>
+                     <br/>INDOCIN reduces basal plasma renin activity (PRA), as well as those elevations of PRA induced by furosemide administration, or salt or volume depletion. These facts should be considered when evaluating plasma renin activity in hypertensive patients.   False-negative results in the dexamethasone suppression test (DST) in patients being treated with indomethacin have been reported. Thus, results of the DST should be interpreted with caution in these patients.  </paragraph>
+               </text>
+               <effectiveTime value="20181023"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="underline">Drugs that Interfere with Hemostasis (e.g. warfarin, aspirin, SSRIs/SNRIs)</content>: Monitor patients for bleeding who are concomitantly taking INDOCIN with drugs that interfere with hemostasis. Concomitant use of INDOCIN and analgesic doses of aspirin is not generally recommended (<linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">ACE Inhibitors, Angiotensin Receptor Blockers (ARB), or Beta-Blockers</content>: Concomitant use with INDOCIN may diminish the antihypertensive effect of these drugs. Monitor blood pressure (<linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">ACE Inhibitors and ARBs</content>: Concomitant use with INDOCIN in elderly, volume depleted, or those with renal impairment may result in deterioration of renal function. In such high risk patients, monitor for signs of worsening renal function (<linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Diuretics</content>: NSAIDs can reduce natriuretic effect of furosemide and thiazide diuretics. Monitor patients to assure diuretic efficacy including antihypertensive effects (<linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Digoxin</content>: Concomitant use with INDOCIN can increase serum concentration and prolong half-life of digoxin. Monitor serum digoxin levels (<linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_327f3344-9dce-41e3-b696-5f60a365ed10">
+               <id root="b843a99e-17e6-432b-8993-46b766e7f44a"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text/>
+               <effectiveTime value="20181019"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Pregnancy</content>: Use of NSAIDs during the third trimester of pregnancy increases the risk of premature closure of the fetal ductus arteriosus. Avoid use of NSAIDs in pregnant women starting at 30 weeks gestation (<linkHtml href="#ID_40548e99-fcba-4e0d-89f9-f91b6e38ebdc">5.10</linkHtml>, <linkHtml href="#ID_4d09e5e0-c9d6-4c6b-92f9-3f5fa60fd60c">8.1</linkHtml>)<br/>
+                           <content styleCode="underline">
+                              <br/>Infertility</content>: NSAIDs are associated with reversible infertility. Consider withdrawal of INDOCIN in women who have difficulties conceiving (<linkHtml href="#ID_bbdeb6c2-5d79-4cd3-b25a-4d890fb5a1b8">8.3</linkHtml>)  </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_4d09e5e0-c9d6-4c6b-92f9-3f5fa60fd60c">
+                     <id root="4db02ca3-41d2-4cbf-af1e-d98240c1fcd0"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text/>
+                     <effectiveTime value="20181019"/>
+                     <component>
+                        <section ID="ID_9defe831-15ae-4d8b-8ff1-94ec95fefcf8">
+                           <id root="3c46f1c9-8fcd-498f-b5a6-410b432c3d5d"/>
+                           <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                           <title>
+                              <content styleCode="underline">Risk Summary</content>
+                           </title>
+                           <text>
+                              <paragraph>Use of NSAIDs, including INDOCIN, during the third trimester of pregnancy increases the risk of premature closure of the fetal ductus arteriosus. Avoid use of NSAIDs, including INDOCIN, in pregnant women starting at 30 weeks of gestation (third trimester).<br/>
+                                 <br/>There are no adequate and well-controlled studies of INDOCIN in pregnant women. Data from observational studies regarding potential embryofetal risks of NSAID use in women in the first or second trimesters of pregnancy are inconclusive. In the general U.S. population, all clinically recognized pregnancies, regardless of drug exposure, have a background rate of 2-4% for major malformations, and 15-20% for pregnancy loss.  In animal reproduction studies retarded fetal ossification was observed with administration of indomethacin to mice and rats during organogenesis at doses 0.1 and 0.2 times, respectively, the maximum recommended human dose (MRHD, 200 mg). In published studies in pregnant mice, indomethacin produced maternal toxicity and death, increased fetal resorptions, and fetal malformations at 0.1 times the MRHD.  When rat and mice dams were dosed during the last three days of gestation, indomethacin produced neuronal necrosis in the offspring at 0.1 and 0.05 times the MRHD, respectively [<content styleCode="italics">see</content>
+                                 <content styleCode="italics">
+                                    <linkHtml href="#ID_6b069266-7dae-46a6-b40a-2e72cf55be32">Data</linkHtml>
+                                 </content>]. Based on animal data, prostaglandins have been shown to have an important role in endometrial vascular permeability, blastocyst implantation, and decidualization. In animal studies, administration of prostaglandin   synthesis inhibitors such as indomethacin, resulted in increased pre- and post-implantation loss.  </paragraph>
+                           </text>
+                           <effectiveTime value="20181019"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_e96f5b09-2e06-410a-90d7-5c7e4b7b7a90">
+                           <id root="cfcb3fc6-d36c-4668-89b0-b2d2a4e7f477"/>
+                           <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                           <title>
+                              <content styleCode="underline">Clinical Considerations</content>
+                           </title>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Labor or Delivery<br/>
+                                 </content>There are no studies on the effects of INDOCIN during labor or delivery. In animal studies, NSAIDs, including indomethacin, inhibit prostaglandin synthesis, cause delayed parturition, and increase the incidence of stillbirth.  </paragraph>
+                           </text>
+                           <effectiveTime value="20181019"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_6b069266-7dae-46a6-b40a-2e72cf55be32">
+                           <id root="c44b7cc7-55c3-4c95-9ebd-6ddb8912da31"/>
+                           <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                           <title>
+                              <content styleCode="underline">Data</content>
+                           </title>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Animal data<br/>
+                                 </content>Reproductive studies were conducted in mice and rats at dosages of 0.5, 1.0, 2.0, and 4.0 mg/kg/day.  Except for retarded fetal ossification at 4 mg/kg/day (0.1 times [mice] and 0.2 times [rats] the MRHD on a mg/m<sup>2</sup> basis, respectively) considered secondary to the decreased average fetal weights, no increase in fetal malformations was observed as compared with control groups.  Other studies in mice reported in the literature using higher doses (5 to 15 mg/kg/day, 0.1 to 0.4 times MRHD on a mg/m<sup>2</sup> basis) have described maternal toxicity and death, increased fetal resorptions, and fetal malformations.  Comparable studies in rodents using high doses of aspirin have shown similar maternal and fetal effects.<br/>
+                                 <br/>In rats and mice, maternal indomethacin administration of 4.0 mg/kg/day (0.2 times and 0.1 times the MRHD on a mg/m<sup>2</sup> basis) during the last 3 days of gestation was associated with an increased incidence of neuronal necrosis in the diencephalon in the live-born fetuses however no increase in neuronal necrosis was observed at 2.0 mg/kg/day as compared to the control groups (0.1 times and 0.05 times the MRHD on a mg/m<sup>2</sup> basis).  Administration of 0.5 or 4.0 mg/kg/day to offspring during the first 3 days of life did not cause an increase in neuronal necrosis at either dose level.  </paragraph>
+                           </text>
+                           <effectiveTime value="20181019"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_a4237946-45d6-45aa-ac35-fc13ef0e4a34">
+                     <id root="b69bcfe0-4043-4cd1-ad33-4829a051eaea"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                           <br/>Based on available published clinical data, indomethacin may be present in human milk.  The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for INDOCIN and any potential adverse effects on the breastfed infant from the INDOCIN or from the underlying maternal condition.<br/>
+                           <br/>
+                           <content styleCode="underline">Data</content>
+                           <br/>In one study, levels of indomethacin in breast milk were below the sensitivity of the assay (&lt;20 mcg/L) in 11 of 15 women using doses ranging from 75 mg orally to 300 mg rectally daily (0.94 to 4.29 mg/kg daily) in the postpartum period.  Based on these levels, the average concentration present in breast milk was estimated to be 0.27% of the maternal weight- adjusted dose.  In another study indomethacin levels were measured in breast milk of eight postpartum women using doses of 75 mg daily and the results were used to calculate an estimated infant daily dose.  The estimated infant dose of indomethacin from breast milk was less than 30 mcg/day or 4.5 mcg/kg/day assuming breast milk intake of 150 mL/kg/day.  This is 0.5% of the maternal weight-adjusted dosage or about 3% of the neonatal dose for treatment of patent ductus arteriosus.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181017"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_bbdeb6c2-5d79-4cd3-b25a-4d890fb5a1b8">
+                     <id root="a10621a3-aff6-4c6a-9dbe-0b05bcd2831f"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>8.3 Females and Males of Reproductive Potential</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Infertility<br/>
+                           </content>
+                           <content styleCode="italics">Females<br/>
+                           </content>Based on the mechanism of action, the use of prostaglandin-mediated NSAIDs, including INDOCIN, may delay or prevent rupture of ovarian follicles, which has been associated with reversible infertility in some women. Published animal studies have shown that administration of prostaglandin synthesis inhibitors has the potential to disrupt prostaglandin-mediated follicular rupture required for ovulation. Small studies in women treated with NSAIDs have also shown a reversible delay in ovulation. Consider withdrawal of NSAIDs, including INDOCIN, in women who have difficulties conceiving or who are undergoing investigation of infertility.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181017"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_bc6386a2-0ce7-489b-8f68-9c7eb4acb718">
+                     <id root="8cb4381a-00a4-4133-906a-e17f58e4519c"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients 14 years of age and younger has not been established.<br/>
+                           <br/>INDOCIN should not be prescribed for pediatric patients 14 years of age and younger unless toxicity or lack of efficacy associated with other drugs warrants the risk.<br/>
+                           <br/>In experience with more than 900 pediatric patients reported in the literature or to the manufacturer who were treated with indomethacin capsules, side effects in pediatric patients were comparable to those reported in adults. Experience in pediatric patients has been confined to the use of indomethacin capsules.<br/>
+                           <br/>If a decision is made to use indomethacin for pediatric patients two years of age or older, such patients should be monitored closely and periodic assessment of liver function is recommended. There have been cases of hepatotoxicity reported in pediatric patients with juvenile rheumatoid arthritis, including fatalities. If indomethacin treatment is instituted, a suggested starting dose is 1-2 mg/kg/day given in divided doses. Maximum daily dosage should not exceed 3 mg/kg/day or 150-200 mg/day, whichever is less. Limited data are available to support the use of a maximum daily dosage of 4 mg/kg/day or 150-200 mg/day, whichever is less. As symptoms subside, the total daily dosage should be reduced to the lowest level required to control symptoms, or the drug should be discontinued.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181017"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_d310e6f4-7370-4b20-8b25-787454bbc463">
+                     <id root="79aa2002-0ec2-4d67-be87-adbc9d0dc29e"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Elderly patients, compared to younger patients, are at greater risk for NSAID-associated serious cardiovascular, gastrointestinal, and/or renal adverse reactions. If the anticipated benefit for the elderly patient outweighs these potential risks, start dosing at the low end of the dosing range, and monitor patients for adverse effects [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID_2cc5eb95-f351-4717-9cc6-b7f835ca1dcd">5.1</linkHtml>, <linkHtml href="#ID_03340e96-c06c-4eec-b309-a612fc466a38">5.2</linkHtml>, <linkHtml href="#ID_f711e04f-40a3-46f5-b121-570bb0206e3b">5.3</linkHtml>, <linkHtml href="#ID_fd07114f-e316-4fe0-abae-1d1ce8dcb1e4">5.6</linkHtml>, <linkHtml href="#ID_794f1ab6-7506-40b6-9480-920a080e92e6">5.13</linkHtml>)</content>].<br/>
+                           <br/>Indomethacin may cause confusion or rarely, psychosis [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Adverse Reactions (<linkHtml href="#ID_c0da3238-e7fd-4d14-8401-c2405b479356">6.1</linkHtml>)</content>]<content styleCode="italics">;</content> physicians should remain alert to the possibility of such adverse effects in the elderly.<br/>
+                           <br/>Indomethacin and its metabolites are known to be substantially excreted by the kidneys, and the risk of adverse reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, use caution in this patient population, and it may be useful to monitor renal function [see <content styleCode="italics">Clinical Pharmacology (<linkHtml href="#ID_af31f63e-6528-4849-ae5b-db9055e5d090">12.3</linkHtml>
+                           </content>)].  </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ad2967af-f018-4dea-8892-558dcb4b8ed2">
+               <id root="d3cc3639-bc32-439a-8b8b-9c4467655e4b"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Symptoms following acute NSAID overdosages have been typically limited to lethargy, drowsiness, nausea, vomiting, and epigastric pain, which have been generally reversible with supportive care. Gastrointestinal bleeding has occurred. Hypertension, acute renal failure, respiratory depression, and coma have occurred, but were rare [<content styleCode="italics">see</content>
+                     <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_2cc5eb95-f351-4717-9cc6-b7f835ca1dcd">5.1</linkHtml>, <linkHtml href="#ID_03340e96-c06c-4eec-b309-a612fc466a38">5.2</linkHtml>, <linkHtml href="#ID_a7843931-e79f-4171-adf4-e35ef50b139e">5.4</linkHtml>, <linkHtml href="#ID_fd07114f-e316-4fe0-abae-1d1ce8dcb1e4">5.6</linkHtml>)</content>].<br/>
+                     <br/>Manage patients with symptomatic and supportive care following an NSAID overdosage. There are no specific antidotes. Consider emesis and/or activated charcoal (60 to 100 grams in adults, 1 to 2 grams per kg of body weight in pediatric patients) and/or osmotic cathartic in symptomatic patients seen within four hours of ingestion or in patients with a large overdosage (5 to 10 times the recommended dosage). Forced diuresis, alkalinization of urine, hemodialysis, or hemoperfusion may not be useful due to high protein binding.<br/>
+                     <br/>For additional information about overdosage treatment contact a poison control center (1-­800-222-1222).  </paragraph>
+               </text>
+               <effectiveTime value="20181019"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_4c54b326-68e1-4418-97c8-84eb98622c79">
+               <id root="ae95fbaf-15a7-4c4e-987a-f80ab53d252e"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>INDOCIN Suppositories are a nonsteroidal anti-inflammatory drug, available as a suppository containing 50 mg of indomethacin administered for rectal use. The chemical name is 1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1<content styleCode="italics">H</content>-indole-3-acetic acid. The molecular weight is 357.8. Its molecular formula is C<sub>19</sub>H<sub>16</sub>ClNO<sub>4</sub>, and it has the following chemical structure.  </paragraph>
+                  <renderMultiMedia referencedObject="MM60237"/>
+                  <paragraph>Indomethacin is a white to yellow crystalline powder. It is practically insoluble in water and sparingly soluble in alcohol. It has a pKa of 4.5 and is stable in neutral or slightly acidic media and decomposes in strong alkali.<br/>
+                     <br/>The inactive ingredients in INDOCIN Suppositories include: butylated hydroxyanisole, butylated hydroxytoluene, edetic acid, glycerin, polyethylene glycol 3350, polyethylene glycol 8000, purified water and sodium chloride. INDOCIN Suppositories, 50 mg each, are white, opaque, rectal suppositories.  </paragraph>
+               </text>
+               <effectiveTime value="20181017"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a65c776e-f02b-48b1-ba3d-76bf744d541a">
+               <id root="6303c2ae-3b49-4db0-931f-40d8aab9970c"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text/>
+               <effectiveTime value="20181019"/>
+               <component>
+                  <section ID="ID_5202b393-0735-4b2c-b025-645bc50fec20">
+                     <id root="61d29010-f9b4-4bdb-a254-efaa99d3bbac"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Indomethacin has analgesic, anti-inflammatory, and antipyretic properties.<br/>
+                           <br/>The mechanism of action of INDOCIN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2).<br/>
+                           <br/>Indomethacin is a potent inhibitor of prostaglandin synthesis <content styleCode="italics">in vitro</content>. Indomethacin concentrations reached during therapy have produced <content styleCode="italics">in vivo</content> effects. Prostaglandins sensitize afferent nerves and potentiate the action of bradykinin in inducing pain in animal models. Prostaglandins are mediators of inflammation. Because indomethacin is an inhibitor of prostaglandin synthesis, its mode of action may be due to a decrease of prostaglandins in peripheral tissues.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181017"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_af31f63e-6528-4849-ae5b-db9055e5d090">
+                     <id root="dd98584a-1042-4ba1-b424-ef2fe40364ab"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Absorption</content>
+                           <br/>Following single oral doses of indomethacin capsules 25 mg or 50 mg, indomethacin is readily absorbed, attaining peak plasma concentrations of about 1 and 2 mcg/mL, respectively, at about 2 hours.  Orally administered indomethacin capsules are virtually 100% bioavailable, with 90% of the dose absorbed within 4 hours.  With a typical therapeutic regimen of 25 or 50 mg three times a day, the steady-state plasma concentrations of indomethacin are an average 1.4 times those following the first dose.<br/>
+                           <br/>The rate of absorption is more rapid from the rectal suppository than from indomethacin capsules. Ordinarily, therefore, the total amount absorbed from the suppository would be expected to be at least equivalent to the capsule. In controlled clinical trials, however, the amount of indomethacin absorbed was found to be somewhat less (80-90%) than that absorbed from indomethacin capsules. This is probably because some subjects did not retain the material from the suppository for the one hour necessary to assure complete absorption. Since the suppository dissolves rather quickly rather than melting slowly, it is seldom recovered in recognizable form if the patient retains the suppository for more than a few minutes.<br/>
+                           <content styleCode="underline">
+                              <br/>Distribution</content>
+                           <br/>Indomethacin is highly bound to protein in plasma (about 99%) over the expected range of therapeutic plasma concentrations. Indomethacin has been found to cross the blood-brain barrier and the placenta, and appears in breast milk.<br/>
+                           <content styleCode="underline">
+                              <br/>Elimination<br/>
+                           </content>
+                           <content styleCode="italics">Metabolism</content>
+                           <br/>Indomethacin exists in the plasma as the parent drug and its desmethyl, desbenzoyl, and desmethyldesbenzoyl metabolites, all in the unconjugated form.  Appreciable formation of glucuronide conjugates of each metabolite and of indomethacin are formed.<br/>
+                           <br/>
+                           <content styleCode="italics">Excretion</content>
+                           <br/>Indomethacin is eliminated via renal excretion, metabolism, and biliary excretion. Indomethacin undergoes appreciable enterohepatic circulation. About 60% of an oral dose is recovered in urine as drug and metabolites (26% as indomethacin and its glucuronide), and 33% is recovered in feces (1.5% as indomethacin).  The mean half-life of indomethacin is estimated to be about 4.5 hours.<br/>
+                           <br/>
+                           <content styleCode="underline">Specific Populations<br/>
+                           </content>
+                           <content styleCode="italics">Pediatric: </content>The pharmacokinetics of INDOCIN has not been investigated in pediatric patients.<br/>
+                           <br/>
+                           <content styleCode="italics">Race: </content>Pharmacokinetic differences due to race have not been identified. <br/>
+                           <content styleCode="italics">
+                              <br/>Hepatic Impairment: </content>The pharmacokinetics of INDOCIN has not been investigated in patients with hepatic impairment. <content styleCode="italics">
+                              <br/>
+                              <br/>Renal Impairment: </content>The pharmacokinetics of INDOCIN has not been investigated in patients with renal impairment [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_fd07114f-e316-4fe0-abae-1d1ce8dcb1e4">5.6</linkHtml>)]</content>.<br/>
+                           <br/>
+                           <content styleCode="underline">Drug Interaction Studies<br/>
+                           </content>
+                           <content styleCode="italics">Aspirin:<br/>
+                           </content>In a study in normal volunteers, it was found that chronic concurrent administration of 3.6 g of aspirin per day decreases indomethacin blood levels approximately 20% [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Drug Interactions (<linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)]</content>.<br/>
+                           <br/>When NSAIDs were administered with aspirin, the protein binding of NSAIDs were reduced, although the clearance of free NSAID was not altered. The clinical significance of this interaction is not known. See Table 2 for clinically significant drug interactions of NSAIDs with aspirin [<content styleCode="italics">see Drug Interactions (<linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)</content>]<content styleCode="italics">.<br/>
+                           </content>
+                           <content styleCode="italics">
+                              <br/>Diflunisal:<br/>
+                           </content>In normal volunteers receiving indomethacin, the administration of diflunisal decreased the renal clearance and significantly increased the plasma levels of indomethacin [<content styleCode="italics">see</content>
+                           <content styleCode="italics"> Drug Interactions (<linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)</content>]<content styleCode="italics">.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b4002b57-e75c-4ab4-b034-f9a2807c3a7b">
+               <id root="430da7ac-798d-41eb-879d-ecf858fe5d88"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <text/>
+               <effectiveTime value="20181019"/>
+               <component>
+                  <section ID="ID_86ad4854-959e-4d8c-ba04-4744fc8d792a">
+                     <id root="c8ffe836-af7b-47c2-91ba-3f2378471869"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Carcinogenesis</content>
+                           <br/>In an 81-week chronic oral toxicity study in the rat at doses up to 1 mg/kg/day (0.05 times the MRHD on a mg/m<sup>2</sup> basis), indomethacin had no tumorigenic effect.  Indomethacin produced no neoplastic or hyperplastic changes related to treatment in carcinogenic studies in the rat (dosing period 73 to 110 weeks) and the mouse (dosing period 62 to 88 weeks) at doses up to 1.5 mg/kg/day (0.04 times [mice] and 0.07 times [rats] the MRHD on a mg/m<sup>2</sup> basis, respectively).   <content styleCode="underline">
+                              <br/>
+                              <br/>Mutagenesis</content>
+                           <br/>Indomethacin did not have any mutagenic effect in <content styleCode="italics">in vitro</content> bacterial tests and a series of <content styleCode="italics">in vivo</content> tests including the host-mediated assay, sex-linked recessive lethals in Drosophila, and the micronucleus test in mice.<br/>
+                           <content styleCode="underline">
+                              <br/>Impairment of Fertility</content>
+                           <br/>Indomethacin at dosage levels up to 0.5 mg/kg/day had no effect on fertility in mice in a two generation reproduction study (0.01 times the MRHD on a mg/m<sup>2</sup> basis) or a two litter reproduction study in rats (0.02 times the MRHD on a mg/m<sup>2</sup> basis).  </paragraph>
+                     </text>
+                     <effectiveTime value="20181019"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_dfad14b4-80f5-4d91-978b-9e5396a49a15">
+               <id root="4d5127c0-7d96-4937-ac31-e58fef0d1685"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>INDOCIN has been shown to be an effective anti-inflammatory agent, appropriate for long- term use in rheumatoid arthritis, ankylosing spondylitis, and osteoarthritis.<br/>
+                     <br/>INDOCIN affords relief of symptoms; it does not alter the progressive course of the underlying disease.<br/>
+                     <br/>INDOCIN suppresses inflammation in rheumatoid arthritis as demonstrated by relief of pain, and reduction of fever, swelling and tenderness. Improvement in patients treated with INDOCIN for rheumatoid arthritis has been demonstrated by a reduction in joint swelling, average number of joints involved, and morning stiffness; by increased mobility as demonstrated by a decrease in walking time; and by improved functional capability as demonstrated by an increase in grip strength. INDOCIN may enable the reduction of steroid dosage in patients receiving steroids for the more severe forms of rheumatoid arthritis. In such instances the steroid dosage should be reduced slowly and the patients followed very closely for any possible adverse effects.  </paragraph>
+               </text>
+               <effectiveTime value="20181017"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_e690740e-7e5c-4605-ac14-439102b231b7">
+               <id root="0fff2ffc-4489-4749-932c-b9705818c3c7"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>INDOCIN<sup>®</sup> Suppositories (Indomethacin Suppositories USP), 50 mg each, are white, opaque, rectal suppositories and supplied in boxes of 30 (NDC 42211-102-43). <br/>
+                     <content styleCode="underline">
+                        <br/>Storage</content>
+                     <br/>Store refrigerated between 2°- 8°C (36°- 46°F).  </paragraph>
+               </text>
+               <effectiveTime value="20181017"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_d7ca551c-4ab5-4fa3-b355-b337d927108b">
+               <id root="d4b7253b-d182-47f4-8b7c-68388d04f90b"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Medication Guide) that accompanies each prescription dispensed. Inform patients, families, or their caregivers of the following information before initiating therapy with INDOCIN and periodically during the course of ongoing therapy.  INDOCIN Suppositories are for rectal use only.  Advise patients not to use INDOCIN Suppositories orally or intra-vaginally.<br/>
+                     <content styleCode="underline">
+                        <br/>Cardiovascular Thrombotic Events</content>
+                     <br/>Advise patients to be alert for the symptoms of cardiovascular thrombotic events, including chest pain, shortness of breath, weakness, or slurring of speech, and to report any of these symptoms to their health care provider immediately [<content styleCode="italics">see</content>
+                     <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_2cc5eb95-f351-4717-9cc6-b7f835ca1dcd">5.1</linkHtml>)</content>]. <br/>
+                     <content styleCode="underline">
+                        <br/>Gastrointestinal Bleeding, Ulceration, and Perforation</content>
+                     <br/>Advise patients to report symptoms of ulcerations and bleeding, including epigastric pain, dyspepsia, melena, and hematemesis to their health care provider. In the setting of concomitant use of low-dose aspirin for cardiac prophylaxis, inform patients of the increased risk for and the signs and symptoms of GI bleeding [<content styleCode="italics">see</content>
+                     <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_03340e96-c06c-4eec-b309-a612fc466a38">5.2</linkHtml>)</content>]. <br/>
+                     <content styleCode="underline">
+                        <br/>Hepatotoxicity</content>
+                     <br/>Inform patients of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, pruritus, diarrhea, jaundice, right upper quadrant tenderness, and “flu-like” symptoms).  If these occur, instruct patients to stop INDOCIN and seek immediate medical therapy [<content styleCode="italics">see</content>
+                     <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_f711e04f-40a3-46f5-b121-570bb0206e3b">5.3</linkHtml>)</content>]. <br/>
+                     <br/>
+                     <content styleCode="underline">Heart Failure and Edema</content>
+                     <br/>Advise patients to be alert for the symptoms of congestive heart failure including shortness of breath, unexplained weight gain, or edema and to contact their healthcare provider if such symptoms occur [<content styleCode="italics">see</content>
+                     <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_c865d34b-7fd3-40d3-91a8-729084ecb3b9">5.5</linkHtml>)</content>].  <br/>
+                     <content styleCode="underline">
+                        <br/>Anaphylactic Reactions</content>
+                     <br/>Inform patients of the signs of an anaphylactic reaction (e.g., difficulty breathing, swelling of the face or throat).  Instruct patients to seek immediate emergency help if these occur [<content styleCode="italics">see Contraindications (<linkHtml href="#ID_114160b1-8f3c-438e-80db-312a167c5f96">4</linkHtml>
+                     </content>
+                     <content styleCode="italics">) </content>and<content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_79db222c-f444-4244-a1b0-c5090294f214">5.7</linkHtml>
+                     </content>)]. <br/>
+                     <content styleCode="underline">
+                        <br/>Serious Skin Reactions</content>
+                     <br/>Advise patients to stop INDOCIN immediately if they develop any type of rash and to contact their healthcare provider as soon as possible [<content styleCode="italics">see</content>
+                     <content styleCode="italics"> Warnings and Precautions (<linkHtml href="#ID_662c0c69-8a85-4b4c-b081-14cf44fda96a">5.9</linkHtml>)</content>]. <br/>
+                     <content styleCode="underline">
+                        <br/>Female Fertility</content>
+                     <br/>Advise females of reproductive potential who desire pregnancy that NSAIDs, including INDOCIN, may be associated with a reversible delay in ovulation [<content styleCode="italics">see</content>
+                     <content styleCode="italics"> Use in Specific Populations (<linkHtml href="#ID_bbdeb6c2-5d79-4cd3-b25a-4d890fb5a1b8">8.3</linkHtml>)</content>]. <br/>
+                     <content styleCode="underline">
+                        <br/>Fetal Toxicity</content>
+                     <br/>Inform pregnant women to avoid use of INDOCIN and other NSAIDs starting at 30 weeks gestation because of the risk of the premature closing of the fetal ductus arteriosus [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID_40548e99-fcba-4e0d-89f9-f91b6e38ebdc">5.10</linkHtml>) </content>and<content styleCode="italics"> Use in Specific Populations (<linkHtml href="#ID_4d09e5e0-c9d6-4c6b-92f9-3f5fa60fd60c">8.1</linkHtml>)</content>]. <br/>
+                     <content styleCode="underline">
+                        <br/>Avoid Concomitant Use of NSAIDs</content>
+                     <br/>Inform patients that the concomitant use of INDOCIN with other NSAIDs or salicylates (e.g., diflunisal, salsalate) is not recommended due to the increased risk of gastrointestinal toxicity, and little or no increase in efficacy [see <content styleCode="italics">Warnings and Precautions (</content>
+                     <linkHtml href="#ID_03340e96-c06c-4eec-b309-a612fc466a38">5.2</linkHtml>
+                     <content styleCode="italics">) </content>and<content styleCode="italics"> Drug Interactions (</content>
+                     <linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>
+                     <content styleCode="italics">)</content>]. Alert patients that NSAIDs may be present in “over the counter” medications for treatment of colds, fever, or insomnia. <br/>
+                     <content styleCode="underline">
+                        <br/>Use of NSAIDs and Low-Dose Aspirin</content>
+                     <br/>Inform patients not to use low-dose aspirin concomitantly with INDOCIN until they talk to their healthcare provider [<content styleCode="italics">see</content>
+                     <content styleCode="italics"> Drug Interactions (<linkHtml href="#ID_6859b731-88f5-41b4-9fa4-25b67d0e414e">7</linkHtml>)</content>]. <br/>
+                     <br/>Manufactured by G&amp;W Laboratories, Inc., South Plainfield, NJ 07080 <br/>Distributed by IROKO Pharmaceutical, LLC, Philadelphia, PA 19112 <br/>
+                     <br/>8-0176IRO3 <br/>Rev. 08/18  </paragraph>
+               </text>
+               <effectiveTime value="20181023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_fe07e1a4-1145-489b-a5f0-8bb6df44a5fe">
+               <id root="5c67ef04-6507-4a18-829f-9470b9e4d875"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <title>Medication Guide for Nonsteroidal Anti-inflammatory Drugs (NSAIDs)</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about medicines called Nonsteroidal Anti- inflammatory Drugs (NSAIDs)? <br/>NSAIDs can cause serious side effects, including: <br/>
+                     </content>• <content styleCode="bold">Increased risk of a heart attack or stroke that can lead to death. </content>This risk may happen early in treatment and may increase: <br/>   ° with increasing doses of NSAIDs <br/>   ° with longer use of NSAIDs <br/>
+                     <content styleCode="bold">Do not take NSAIDs right before or after a heart surgery called a “coronary artery bypass graft (CABG).”<br/>Avoid taking NSAIDs after a recent heart attack, unless your healthcare provider tells you to. You may have an increased risk of another heart attack if you take NSAIDs after a recent heart attack. <br/>
+                     </content>• <content styleCode="bold">Increased risk of bleeding, ulcers, and tears (perforation) of the esophagus (tube leading from the mouth to the stomach),</content>
+                     <content styleCode="bold"> stomach and intestines: <br/>
+                     </content>   ° anytime during use <br/>   ° without warning symptoms <br/>   ° that may cause death <br/>
+                     <content styleCode="bold">   The risk of getting an ulcer or bleeding increases with: <br/>
+                     </content>   ° past history of stomach ulcers, or stomach or intestinal bleeding with use of NSAIDs <br/>   ° taking medicines called “corticosteroids”, “anticoagulants”, “SSRIs”, or “SNRIs” <br/>   ° increasing doses of NSAIDs <br/>   ° older age <br/>   ° longer use of NSAIDs <br/>   ° poor health <br/>   ° smoking <br/>   ° advanced liver disease <br/>   ° drinking alcohol <br/>   ° bleeding problems <br/>
+                     <content styleCode="bold">   NSAIDs should only be used: <br/>
+                     </content>   ° exactly as prescribed <br/>   ° at the lowest dose possible for your treatment <br/>   ° for the shortest time needed </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are NSAIDs? <br/>
+                     </content>NSAIDs are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as different types of arthritis, menstrual cramps, and other types of short-term pain. <br/>
+                     <content styleCode="bold">
+                        <br/>Who should not take NSAIDs? <br/>Do not take NSAIDs: <br/>
+                     </content>• if you have had an asthma attack, hives, or other allergic reaction with aspirin or any other NSAIDs. <br/>• right before or after heart bypass surgery. <br/>
+                     <content styleCode="bold">
+                        <br/>Before taking NSAIDS, tell your healthcare provider about all of your medical conditions, including if you: <br/>
+                     </content>• have liver or kidney problems <br/>• have high blood pressure <br/>• have asthma <br/>• are pregnant or plan to become pregnant. Talk to your healthcare provider if you are considering taking NSAIDs during pregnancy. <br/>
+                     <content styleCode="bold">You should not take NSAIDs after 29 weeks of pregnancy. <br/>
+                     </content>• are breastfeeding or plan to breast feed. <br/>
+                     <content styleCode="bold">Tell your healthcare provider about all of the medicines you take, including prescription or over-the-counter medicines, vitamins or herbal supplements. </content>NSAIDs and some other medicines can interact with each other and cause serious side effects. <content styleCode="bold">Do not start</content>
+                     <content styleCode="bold"> taking any new medicine without talking to your healthcare provider first.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of NSAIDs? <br/>NSAIDs can cause serious side effects, including: <br/>See “What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)?” <br/>
+                     </content>• new or worse high blood pressure <br/>• heart failure <br/>• liver problems including liver failure <br/>• kidney problems including kidney failure <br/>• low red blood cells (anemia) <br/>• life-threatening skin reactions <br/>• life threatening allergic reactions <br/>• <content styleCode="bold">Other side effects of NSAIDs include: </content>stomach pain, constipation, diarrhea, gas, heartburn, nausea, vomiting, and dizziness. <br/>
+                     <content styleCode="bold">Get emergency help right away if you get any of the following symptoms: <br/>
+                     </content>• shortness of breath or trouble breathing <br/>• chest pain <br/>• weakness in one part or side of your body <br/>• slurred speech <br/>• swelling of the face or throat <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Stop taking your NSAID and call your healthcare provider right away if you get any of the following symptoms: <br/>
+                     </content>• nausea <br/>• more tired or weaker than usual <br/>• diarrhea <br/>• itching <br/>• your skin or eyes look yellow <br/>• indigestion or stomach pain <br/>• flu-like symptoms <br/>• vomit blood <br/>• there is blood in your bowel movement or it is black and sticky like tar <br/>• unusual weight gain <br/>• skin rash or blisters with fever <br/>• swelling of the arms, legs, hands and feet <br/>
+                     <content styleCode="bold">
+                        <br/>If you take too much of your NSAID, call your healthcare provider or get medical help right away. <br/>
+                     </content>These are not all the possible side effects of NSAIDs. For more information, ask your healthcare provider or pharmacist about NSAIDs. <br/>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088. <br/>
+                     <content styleCode="bold">
+                        <br/>Other information about NSAIDs <br/>
+                     </content>• Aspirin is an NSAID but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines. <br/>• Some NSAIDs are sold in lower doses without a prescription (over-the-counter). Talk to your healthcare provider before using over-the-counter NSAIDs for more than 10 days. <br/>
+                     <content styleCode="bold">
+                        <br/>General information about the safe and effective use of NSAIDs <br/>
+                     </content>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use NSAIDs for a condition for which it was not prescribed. Do not give NSAIDs to other people, even if they have the same symptoms that you have. It may harm them. <br/>If you would like more information about NSAIDs, talk with your healthcare provider. You can ask your pharmacist or healthcare provider for information about NSAIDs that is written for health professionals. <br/>
+                     <content styleCode="bold">
+                        <br/>Manufactured by:  </content>G&amp;W Laboratories, Inc., South Plainfield, NJ 07080 <br/>
+                     <content styleCode="bold">Distributed by:</content> Iroko Pharmaceuticals, LLC, Philadelphia, PA 19112  For more information, call 1-800-922-1038 <br/>
+                     <br/>This Medication Guide has been approved by the U.S. Food and Drug Administration. <br/>
+                     <br/>Revised: August 2018 <br/>8-0176IROPI3<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_295B5BAD-D670-73FC-CA17-B91C4ABE2475">
+               <id root="efb4f3c0-6560-4bfa-aaf9-16dce9fedad5"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM60416"/>
+               </text>
+               <effectiveTime value="20181023"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

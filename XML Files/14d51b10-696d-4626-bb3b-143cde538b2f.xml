@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="14d51b10-696d-4626-bb3b-143cde538b2f"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <effectiveTime value="20130429"/>
+   <setId root="db492dad-ab1c-459d-842c-062e4b3f4c57"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="677378339" root="1.3.6.1.4.1.519.1"/>
+            <name>A P J Laboratories Limited</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="677378339" root="1.3.6.1.4.1.519.1"/>
+                  <name>A P J Laboratories Limited</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="677378339" root="1.3.6.1.4.1.519.1"/>
+                        <name>A P J Laboratories Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="46084-091" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="39d8c26d-2f02-4fa5-83c7-fd1fb7ad1eab"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20130502"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="46084-091" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>IBUPROFEN COLD AND SINUS<suffix>A P J</suffix>
+                        </name>
+                        <formCode code="C42897" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>IBUPROFEN, PSEUDOEPHEDRINE HYDROCHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="200" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IBUPROFEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IBUPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="30" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6V9V2RYJ8N" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PSEUDOEPHEDRINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7CUC9DDI9F" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PSEUDOEPHEDRINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="20" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="H0G9379FGK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CALCIUM CARBONATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="8" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value=".5" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value=".2" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="6" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="4" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="3" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="1.5" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSCARMELLOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="60" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="150" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="588X2YUY0A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLENE CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="1.5" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="1">
+                                 <translation code="C48542" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                              </numerator>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="46084-091-60" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130601"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA074567" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">091</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="15" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8ada53e8-22f3-4c15-bd1f-baaadc038e26"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>IBUPROFEN</paragraph>
+                  <paragraph>PSEUDOEPHEDRINE HYDROCHLORIDE</paragraph>
+               </text>
+               <effectiveTime value="20130502"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1d0bf414-8785-4565-8aed-02e54b3779ca"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <text>
+                  <paragraph>
+Pain reliever/Fever reducer</paragraph>
+                  <paragraph>Nasal decongestant</paragraph>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <content>
+                     <content/>
+                  </content>
+               </text>
+               <effectiveTime value="20130502"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="cdb8ba90-68a8-476e-8c9b-5654f4e6b901"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <text>
+                  <paragraph>In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222).</paragraph>
+               </text>
+               <effectiveTime value="20130502"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="92116b1a-d5e7-42dc-861e-0e35458f5681"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>uses</title>
+               <text>
+                  <paragraph>temporarily relieves these symptoms associated with the common cold or flu: </paragraph>
+                  <paragraph>•fever </paragraph>
+                  <paragraph>•sinus pressure </paragraph>
+                  <paragraph>•nasal congestion </paragraph>
+                  <paragraph>•headache </paragraph>
+                  <paragraph>•minor body aches and pains</paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20130502"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8b6c71f3-dee7-4688-8dc9-74bb5ded92de"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Allergy alert:</content> Ibuprofen may cause a severe allergic reaction, especially in people allergic to aspirin. Symptoms may include:</paragraph>
+                  <paragraph>•hives </paragraph>
+                  <paragraph>•facial swelling </paragraph>
+                  <paragraph>•asthma (wheezing) </paragraph>
+                  <paragraph>•shock</paragraph>
+                  <paragraph>•skin reddening </paragraph>
+                  <paragraph>•rash </paragraph>
+                  <paragraph>•blisters</paragraph>
+                  <paragraph>If an allergic reaction occurs, stop use and seek medical help right away.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <br/>Stomach bleeding warning:</content> This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you:</paragraph>
+                  <paragraph>•are age 60 or older</paragraph>
+                  <paragraph>•have had stomach ulcers or bleeding problems</paragraph>
+                  <paragraph>•take a blood thinning (anticoagulant) or steroid drug</paragraph>
+                  <paragraph>•take other drugs containing prescription or nonprescription NSAIDs, [aspirin, ibuprofen, naproxen, or others] </paragraph>
+                  <paragraph>•have 3 or more alcoholic drinks every day while using this product</paragraph>
+                  <paragraph>•take more or for a longer time than directed</paragraph>
+                  <br/>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20130502"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5c480b62-2565-4e33-803d-bd156e8890d2"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>•do not take more than directed </paragraph>
+                  <paragraph>•the smallest effective dose should be used.</paragraph>
+                  <paragraph>•adults and children 12 years of age and over:</paragraph>
+                  <paragraph>•take 1 caplet every 4 to 6 hours while symptoms persist. If symptoms do not respond to 1 caplet, 2 caplets may be used.</paragraph>
+                  <paragraph>•do not use more than 6 caplets in any 24-hour period unless directed by a doctor.</paragraph>
+                  <paragraph>•children under 12 years of age: do not use.</paragraph>
+                  <content>
+                     <content/>
+                  </content>
+               </text>
+               <effectiveTime value="20130502"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="61e81a03-fda3-4f4c-a709-7e520824d62e"/>
+               <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+               <text>
+                  <paragraph>if you have ever had an allergic reaction to any other pain reliever/fever reducer</paragraph>
+                  <paragraph>•if you are now taking a prescription monoamine oxidase inhibitor (MAOI) (certain drugs for depression, psychiatric, or emotional conditions, or Parkinson’s disease), or for 2 weeks after stopping the MAOI drug. If you do not know if your prescription drug contains an MAOI, ask a doctor or pharmacist before taking this product.</paragraph>
+                  <paragraph>•in children under 12 years of age</paragraph>
+                  <paragraph>•right before or after heart surgery</paragraph>
+               </text>
+               <effectiveTime value="20130502"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6b71067a-13e2-4efd-b947-cebe8f4e4200"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>•CALCIUM CARBONATE</paragraph>
+                  <paragraph>•STARCH, CORN</paragraph>
+                  <paragraph>•METHYLPARABEN</paragraph>
+                  <paragraph>•PROPYLPARABEN</paragraph>
+                  <paragraph>•SODIUM STARCH GLYCOLATE TYPE A POTATO</paragraph>
+                  <paragraph>•TALC</paragraph>
+                  <paragraph>•MAGNESIUM STEARATE</paragraph>
+                  <paragraph>•SILICON DIOXIDE</paragraph>
+                  <paragraph>•CROSCARMELLOSE SODIUM</paragraph>
+                  <paragraph>•SODIUM LAURYL SULFATE</paragraph>
+                  <paragraph>•ISOPROPYL ALCOHOL</paragraph>
+                  <paragraph>•METHYLENE CHLORIDE</paragraph>
+                  <paragraph>•TITANIUM DIOXIDE</paragraph>
+               </text>
+               <effectiveTime value="20130502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2f359d72-f3ea-4f2f-be50-53f1e0a6f943">
+               <id root="a69a46ba-3a9e-4935-ba66-57ac8930dc1c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L95d93f3a-43a9-4e23-b451-a44628f2312c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130502"/>
+               <component>
+                  <observationMedia ID="L95d93f3a-43a9-4e23-b451-a44628f2312c">
+                     <text>product</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="mm1_product.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

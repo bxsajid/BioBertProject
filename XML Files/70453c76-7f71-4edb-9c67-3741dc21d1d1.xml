@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="70453c76-7f71-4edb-9c67-3741dc21d1d1"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="Human OTC Drug Label"/>
+   <title/>
+   <effectiveTime value="20130517"/>
+   <setId root="70453c76-7f71-4edb-9c67-3741dc21d1d1"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="005290028" root="1.3.6.1.4.1.519.1"/>
+            <name>Weeks &amp; Leo Co., Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="005290028" root="1.3.6.1.4.1.519.1"/>
+                  <name>Weeks &amp; Leo Co., Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="925822975" root="1.3.6.1.4.1.519.1"/>
+                        <name>Marksans Pharma Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="11383-151" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="1c303723-4798-4df7-8611-6f3ba11dac2c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20130517"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="11383-151" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ibuprofen<suffix/>
+                        </name>
+                        <formCode code="C42897" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ibuprofen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="200" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IBUPROFEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IBUPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>COLLOIDAL SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSCARMELLOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1K09F3G675" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE RED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOLS</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="532B59J990" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYVINYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="11383-151-50" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="11383-151-11" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="200" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="11383-151-21" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA091239" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130517"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BROWN"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" unit="mm" value="15"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">117</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_0">
+               <id root="e2159d36-b443-4499-bf30-cf7804dd99a3"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>ACTIVE INGREDIENT(S)</title>
+               <text>
+                  <paragraph>Ibuprofen 200 mg (NSAID)*</paragraph>
+                  <paragraph>* nonstreoidal anti-inflammatory drug</paragraph>
+               </text>
+               <effectiveTime value="20130517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="d636f7f1-571f-454b-bc29-2020812551a3"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>PURPOSE</title>
+               <text>
+                  <paragraph>Pain reliever / fever reducer</paragraph>
+               </text>
+               <effectiveTime value="20130517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="542e08dd-612d-4c11-825a-a16b94d67fb8"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>USE(S)</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>temporarily relieves minor aches and pain due to : </item>
+                     <item>backache </item>
+                     <item>headache </item>
+                     <item>menstrual cramps </item>
+                     <item>minor pain of arthritis </item>
+                     <item>muscular aches </item>
+                     <item>the common cold </item>
+                     <item>toothache </item>
+                     <item>temporarily reduces fever</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="befebc53-b80f-4368-a3f8-b5b060f11008"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Allergy alerts:</content> Ibuprofen may cause a severe allergy reaction, especially in people allergic to aspirin. </paragraph>
+                  <paragraph>Symptoms may include: </paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>asthma (wheezing) </item>
+                     <item>blisters </item>
+                     <item>facial swelling </item>
+                     <item>hives </item>
+                     <item>rash </item>
+                     <item>shock </item>
+                     <item>skin reddening</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>If an allergic reaction occurs, stop use and seek medical help right away.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Stomach bleeding warning: </content>This product contains a nonsteroidal anti-inflammatory drug (NSAID), which may cause stomach bleeding. The chance is higher if you: </paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>are age 60 or older </item>
+                     <item>have bad stomach ulcers or bleeding problems </item>
+                     <item>take a blood thinning (anticoagulant) or steroid drug </item>
+                     <item>take other drug containing prescription NSAID (aspirin, ibuprofen, naproxen, or others) </item>
+                     <item>have 3 or more alcoholic drinks every day while using this product </item>
+                     <item>the more or for a longer time than directed</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="5222d065-019e-48ae-81ae-aacbaeee6179"/>
+               <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+               <title>DO NOT USE</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>if you have ever had an allergic reaction to any other pain reliever/fever reducer </item>
+                     <item>right before or after heart surgery</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="770ad1fa-20f3-4761-b368-2b58fc0c2d59"/>
+               <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+               <title>ASK A DOCTOR BEFORE USE IF</title>
+               <text>
+                  <paragraph>you have</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>problems or serious side effects from taking pain relievers or fever reducers </item>
+                     <item>stomach problems that last or come back, such as heartburn, upset stomach, or stomach pain </item>
+                     <item>ulcers </item>
+                     <item>bleeding problems </item>
+                     <item>high blood pressure </item>
+                     <item>heart or kidney disease </item>
+                     <item>taken a diuretics </item>
+                     <item>reached age 60 or older</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="2c0d2f71-caef-482b-b736-86c44b29662a"/>
+               <code code="50568-5" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR/PHARMACIST SECTION"/>
+               <title>ASK A DOCTOR OR PHARMACIST BEFORE USE IF</title>
+               <text>
+                  <paragraph>you are</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>taking any other drugs containg an NSAID (prescription or nonprescription) </item>
+                     <item>taking a blood thining (anticoagulant) or steriod drug </item>
+                     <item>under a doctor’s care for any serious condition </item>
+                     <item>taking aspirin for heart attacks or stroke, because ibuprofen may decrease this benefit of aspirin </item>
+                     <item>taking any other drug</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="c74acb86-9a99-440e-95f8-c7df9edbb153"/>
+               <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+               <title>WHEN USING THIS PRODUCT</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>take with food or milk if stomach upset occurs </item>
+                     <item>long term continuous use may increase the risk of heart attack or stroke</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_8">
+               <id root="9d52fb33-ecca-4558-85fa-620f03d28e17"/>
+               <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+               <title>STOP USE AND ASK DOCTOR IF</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>you feel faint, vomit blood, or have bloody or black stools.</item>
+                  </list>
+                  <paragraph>        These are signs of stomach bleeding.</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>pain gets worse or lasts more than 10 days </item>
+                     <item>fever gets worse or lasts more than 3 days </item>
+                     <item>stomach pain or upset gets worse or lasts </item>
+                     <item>redness or swelling is present in painful area </item>
+                     <item>any new symptoms appear</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="f45d1a6f-a0f7-486c-9359-525e683b4ab0"/>
+               <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+               <title>PREGNANCY/BREASTFEEDING</title>
+               <text>
+                  <paragraph>Ask a health professional before use. It is especially important not to use ibuprofen during the last 3 months of pregnancy unless definitely directed to do so by a doctor because it may cause a problems in the unborn child or complications during delivery.</paragraph>
+               </text>
+               <effectiveTime value="20130517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="2d81a825-7e85-452a-860e-89003c31c2b5"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title>KEEP OUT OF REACH OF CHILDREN</title>
+               <text>
+                  <paragraph>In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222)</paragraph>
+               </text>
+               <effectiveTime value="20130517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_12">
+               <id root="a2bd1437-e4c6-4c15-a740-aaa7b6201aa3"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DIRECTIONS</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>
+                        <content styleCode="bold">do not take more than directed</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">the smallest effective dose should be used</content>
+                     </item>
+                     <item>do not take longer than 10 days, unless directed by a doctor <br/>    (see Warnings)</item>
+                  </list>
+                  <paragraph>  </paragraph>
+                  <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td valign="top" styleCode="Lrule Rrule">adults and children 12 years and older<br/>
+                           </td>
+                           <td valign="top" styleCode="Rrule">
+                              <list listType="unordered" styleCode="disc">
+                                 <item>take 1 tablet every 4 to 6 hours while symptoms persist </item>
+                                 <item>if pain or fever does not respond to 1 tablet, 2 tablets may be used </item>
+                                 <item>do not exceed 6 tablets in 24 hours, unless directed by a doctor.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">Children under 12 years<br/>
+                           </td>
+                           <td valign="top" styleCode="Rrule">
+                              <list listType="unordered" styleCode="disc">
+                                 <item>ask a doctor</item>
+                              </list>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20130517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_13">
+               <id root="97d10dbf-a1be-4cd6-be80-279fbdeee4bd"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE</title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>Store between 20-25<sup>0</sup>C<sup/>(68-77 <sup>0</sup>F). </item>
+                     <item>
+                        <content styleCode="bold">Do not use if seal under bottle cap imprinted with "SEALED  for YOUR PROTECTION" is broken or missing.</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20130517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_14">
+               <id root="5f5d903b-b010-4da4-ab7a-9b9cc9858481"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="Inactive ingredient section"/>
+               <title>INACTIVE INGREDIENTS</title>
+               <text>
+                  <paragraph>colloidal silicon dioxide, croscarmellose sodium, iron oxide red, magnesium stearate, microcrystalline cellulose, polyethylene glycol, polyvinyl alcohol, pregelatinised starch, talc, titanium dioxide. </paragraph>
+               </text>
+               <effectiveTime value="20130517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_15">
+               <id root="58bc4928-3885-44b0-b103-111d9fd6a0ec"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Carton Label PDP<br/>
+                        <br/>Ibuprofen 200mg CAPLET<br/>
+                        <br/>PAIN RELIEVER/ FEVER REDUCER (NSAID)<br/>
+                        <br/>
+                        <renderMultiMedia referencedObject="MM1"/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <renderMultiMedia referencedObject="MM2"/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <renderMultiMedia referencedObject="MM3"/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <renderMultiMedia referencedObject="MM4"/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <renderMultiMedia referencedObject="MM5"/>
+                        <br/>
+                        <br/>
+                        <br/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130517"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>ibubr cap</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibuprofen-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Ibu-cap-br</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibuprofen-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Ibu-cap-br</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibuprofen-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Ibu-cap-br</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibuprofen-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>ibu-cap-br</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibuprofen-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="33553019-97f2-43b5-9562-a5fc25e2ac30"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>These highlights do not include all the information needed to use IBUPROFEN LYSINE INJECTION safely and effectively. See full prescribing information for IBUPROFEN LYSINE INJECTION.<br/>
+      <br/>IBUPROFEN LYSINE Injection, for intravenous use <br/>
+      <br/>Initial U.S. Approval: 2006</title>
+   <effectiveTime value="20200130"/>
+   <setId root="6cfdec66-9483-4abe-98d3-3a7d389cc952"/>
+   <versionNumber value="16"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="790169531" root="1.3.6.1.4.1.519.1"/>
+            <name>X-GEN Pharmaceuticals, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="8c900642-31ce-4d68-9443-01a112b8cf36"/>
+               <code code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20181010"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="39822-1030" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ibuprofen Lysine</name>
+                        <formCode code="C42986" displayName="SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ibuprofen Lysine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="N01ORX9D6S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IBUPROFEN LYSINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IBUPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="2"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="39822-1030-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="3"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="39822-1030-2" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20160408"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA202402" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160408"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8bdd01ba-ceb5-4bd6-b619-1e42a5f316c3">
+               <id root="bc550cb8-5164-4831-a264-049df03310a4"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Ibuprofen Lysine Injection is indicated to close a clinically significant patent ductus arteriosus (PDA) in premature infants weighing between 500 and 1500 g, who are no more than 32 weeks gestational age when usual medical management (e.g., fluid restriction, diuretics, respiratory support, etc.) is ineffective. The clinical trial was conducted among infants with an asymptomatic PDA. However, the consequences beyond 8 weeks after treatment have not been evaluated; therefore, treatment should be reserved for infants with clear evidence of a clinically significant PDA.</paragraph>
+               </text>
+               <effectiveTime value="20200130"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Ibuprofen Lysine Injection is a nonsteroidal indicated to close a clinically significant patent ductus arteriosus (PDA) in premature infants weighing between 500 and 1500 g, who are no more than 32 weeks gestational age when usual medical management is ineffective. The clinical trial was conducted among infants with an asymptomatic PDA. However, the consequences beyond 8 weeks after treatment have not been evaluated; therefore, treatment should be reserved for infants with clear evidence of a clinically significant PDA. <linkHtml href="#LINK_83c844f5-5498-4330-9e25-0d2a2764e862">(1)</linkHtml>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ce837a7f-1ee1-4830-902a-894444cae90f">
+               <id root="f77155c8-8bb2-4127-86a3-07096b25c7f1"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20181010"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>A course of therapy is three doses administered I.V. <linkHtml href="#LINK_9a4b47d4-f513-4049-8361-3f06046351e2">(2.1)</linkHtml>
+                           </item>
+                           <item>An initial dose of 10 mg/kg (based on birth weight) is followed by two doses of 5 mg/kg each, after 24 and 48 hours <linkHtml href="#LINK_9a4b47d4-f513-4049-8361-3f06046351e2">(2.1)</linkHtml>
+                           </item>
+                           <item>Do not administer if anuria or marked oliguria (&lt;0.6 mL/kg/hr) is evident at the scheduled time of the second or third dose <linkHtml href="#LINK_9a4b47d4-f513-4049-8361-3f06046351e2">(2.1)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_9c4437d2-95e1-48ef-a5f5-4ff482aeac2f">
+                     <id root="c2fd8769-0ace-4b8f-a190-b2e801fd277b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Recommended Dose</title>
+                     <text>
+                        <paragraph>A course of therapy is three doses of Ibuprofen Lysine Injection administered intravenously (administration via an umbilical arterial line has not been evaluated). An initial dose of 10 mg per kilogram is followed by two doses of 5 mg per kilogram each, after 24 and 48 hours. All doses should be based on birth weight. If anuria or marked oliguria (urinary output &lt;0.6 mL/kg/hr) is evident at the scheduled time of the second or third dose of Ibuprofen Lysine Injection, no additional dosage should be given until laboratory studies indicate that renal function has returned to normal. If the ductus arteriosus closes or is significantly reduced in size after completion of the first course of Ibuprofen Lysine Injection, no further doses are necessary. If during continued medical management the ductus arteriosus fails to close or reopens, then a second course of Ibuprofen Lysine Injection, alternative pharmacological therapy, or surgery may be necessary.</paragraph>
+                     </text>
+                     <effectiveTime value="20181010"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_078db456-0993-4d9c-b3bc-bdff9723fb65">
+                     <id root="b4cba2f9-4b55-4556-b26d-7a6017b7bb3b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Directions for Use</title>
+                     <text>
+                        <paragraph>For Intravenous administration only. Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit. </paragraph>
+                        <paragraph>Do not use Ibuprofen Lysine Injection if particulate matter is observed. </paragraph>
+                        <paragraph>After the first withdrawal from the vial, any solution remaining must be discarded because Ibuprofen Lysine Injection contains no preservative. </paragraph>
+                        <paragraph>For administration, Ibuprofen Lysine Injection should be diluted to an appropriate volume with dextrose or saline. Ibuprofen Lysine Injection should be prepared for infusion and administered within 30 minutes of preparation and infused continuously over a period of 15 minutes. The drug should be administered via the IV port that is nearest the insertion site. After the first withdrawal from the vial, any solution remaining must be discarded because Ibuprofen Lysine Injection contains no preservative.</paragraph>
+                        <paragraph>Since Ibuprofen Lysine Injection is potentially irritating to tissues, it should be administered carefully to avoid extravasation.</paragraph>
+                        <paragraph>Ibuprofen Lysine Injection should not be simultaneously administered in the same intravenous line with Total Parenteral Nutrition (TPN). If necessary, TPN should be interrupted for a 15-minute period prior to and after drug administration. Line patency should be maintained by using dextrose or saline.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181010"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_96da1f8d-a398-48d4-810d-4e19daec3e56">
+               <id root="89c9790c-7c26-4a34-b945-1ff218b92d16"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>
+3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>10 mg/mL as a clear sterile preservative-free solution of the L-lysine salt of ibuprofen in a 2 mL single-use vial.</paragraph>
+               </text>
+               <effectiveTime value="20181010"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>10 mg/mL as a clear sterile preservative-free solution of the L-lysine salt of ibuprofen in a 2 mL single-use vial <linkHtml href="#LINK_5f1f1b6f-510c-4b5f-8257-30c19d760c0d">(3)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_647cde1e-b0fa-4f57-a361-ea44969e4726">
+               <id root="7b1c6c07-6339-459d-a12f-a003f3b36d0e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Ibuprofen Lysine Injection is contraindicated in:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Preterm infants with proven or suspected infection that is untreated;</item>
+                     <item>Preterm infants with congenital heart disease in whom patency of the PDA is necessary for satisfactory pulmonary or systemic blood flow (e.g., pulmonary atresia, severe tetralogy of Fallot, severe coarctation of the aorta);</item>
+                     <item>Preterm infants who are bleeding, especially those with active intracranial hemorrhage or gastrointestinal bleeding;</item>
+                     <item>Preterm infants with thrombocytopenia;</item>
+                     <item>Preterm infants with coagulation defects;</item>
+                     <item>Preterm infants with or who are suspected of having necrotizing enterocolitis;</item>
+                     <item>Preterm infants with significant impairment of renal function.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20181010"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Ibuprofen Lysine Injection is contraindicated in preterm infants:</paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>With proven or suspected infection that is untreated <linkHtml href="#LINK_cc21659a-bacb-4413-b58d-b3f4bfbda745">(4)</linkHtml>
+                           </item>
+                           <item>With congenital heart disease in whom patency of the PDA is necessary for satisfactory pulmonary or systemic blood flow <linkHtml href="#LINK_cc21659a-bacb-4413-b58d-b3f4bfbda745">(4)</linkHtml>
+                           </item>
+                           <item>With impaired renal function <linkHtml href="#LINK_cc21659a-bacb-4413-b58d-b3f4bfbda745">(4)</linkHtml>
+                           </item>
+                           <item>With  thrombocytopenia, coagulation defects or who are bleeding <linkHtml href="#LINK_cc21659a-bacb-4413-b58d-b3f4bfbda745">(4)</linkHtml>
+                           </item>
+                           <item>With or who are suspected of having necrotizing enterocolitis <linkHtml href="#LINK_cc21659a-bacb-4413-b58d-b3f4bfbda745">(4)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b6faf038-b05c-4cf1-8486-221e29690ebc">
+               <id root="4a3af365-399c-4b9c-97be-1a2caaca7ae6"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20181010"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Ibuprofen Lysine Injection has not been assessed for neurodevelopmental outcome and growth <linkHtml href="#LINK_dcab792f-4d9d-4650-a318-453c5e02aa73">(5.1)</linkHtml>
+                           </item>
+                           <item>Ibuprofen Lysine Injection may alter the usual signs of infection <linkHtml href="#LINK_69c0fe71-68ca-4b36-99d0-e6eead16d743">(5.2)</linkHtml>
+                           </item>
+                           <item>Ibuprofen Lysine Injection can inhibit platelet aggregation, and has been shown to prolong bleeding time in normal adult subjects <linkHtml href="#LINK_303ab4e6-d92a-45ed-bb3a-03c6b734b10f">(5.3)</linkHtml>
+                           </item>
+                           <item>Ibuprofen has been shown to displace bilirubin from albumin binding-sites <linkHtml href="#LINK_b4036e28-e88e-48d1-8380-aed614850b20">(5.4)</linkHtml>
+                           </item>
+                           <item>Ibuprofen Lysine Injection should be administered carefully to avoid extravascular injection or leakage <linkHtml href="#LINK_3f7de4da-ebe8-4fa6-9958-4a57e44f5103">(5.5)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_f663c8e5-84c3-4fe7-9e5f-92a8c27a6a5f">
+                     <id root="ad7863e8-7201-4833-bac0-0838f49d8b2f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+5.1 General</title>
+                     <text>
+                        <paragraph>There are no long-term evaluations of the infants treated with ibuprofen at durations greater than the 36 weeks post-conceptual age observation period. Ibuprofen’s effects on neurodevelopmental outcome and growth as well as disease processes associated with prematurity (such as retinopathy of prematurity and chronic lung disease) have not been assessed.</paragraph>
+                     </text>
+                     <effectiveTime value="20181010"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e9c95c75-ebc3-456e-b404-25ae6a8f0bff">
+                     <id root="c7c9460b-a74b-41d4-8b63-9cc0a92b5a4d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Infection</title>
+                     <text>
+                        <paragraph>Ibuprofen Lysine Injection may alter the usual signs of infection. The physician must be continually on the alert and should use the drug with extra care in the presence of controlled infection and in infants at risk of infection.</paragraph>
+                     </text>
+                     <effectiveTime value="20181010"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_69992686-3a0e-4005-91be-d5f4cc9a17f0">
+                     <id root="52042e37-d7ba-42a0-94f8-3182b7bef214"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Platelet Aggregation</title>
+                     <text>
+                        <paragraph>Ibuprofen Lysine Injection, like other non-steroidal anti-inflammatory agents, can inhibit platelet aggregation. Preterm infants should be observed for signs of bleeding. Ibuprofen has been shown to prolong bleeding time (but within the normal range) in normal adult subjects. This effect may be exaggerated in patients with underlying hemostatic defects (see <linkHtml href="#LINK_cc21659a-bacb-4413-b58d-b3f4bfbda745">CONTRAINDICATIONS</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20181010"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_0149a5d4-fbad-4b90-828b-e332450fe5fc">
+                     <id root="25a0b528-a5e2-44f1-bf1e-f4e764683f84"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+5.4 Bilirubin Displacement</title>
+                     <text>
+                        <paragraph>Ibuprofen has been shown to displace bilirubin from albumin binding-sites; therefore, it should be used with caution in patients with elevated total bilirubin. </paragraph>
+                     </text>
+                     <effectiveTime value="20181010"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5b6c09cb-3988-4184-b737-78a10311cbc0">
+                     <id root="abe30282-b7c4-4d46-a15a-7aacbb20d4bb"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Administration</title>
+                     <text>
+                        <paragraph>Ibuprofen Lysine Injection should be administered carefully to avoid extravascular injection or leakage, as solution may be irritating to tissue.</paragraph>
+                     </text>
+                     <effectiveTime value="20181010"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a13b8603-9798-4f2e-b1bf-5bd134a338a0">
+               <id root="fe4efbd2-7113-4b41-b163-75ea961576f9"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text/>
+               <effectiveTime value="20200130"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (≥10%) are sepsis, anemia, intraventricular bleeding, apnea, gastrointestinal disorders, impaired renal function, respiratory infection, skin lesions, hypoglycemia, hypocalcemia, respiratory failure. <linkHtml href="#LINK_9c0af54b-d469-40a9-ad8b-9a17c2a532a5">(6)</linkHtml>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <br/>To report SUSPECTED ADVERSE REACTIONS, contact X-GEN Pharmaceuticals Inc. at 1-866-390-4411, or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_181b5af8-1a2d-493e-91e9-2ab0d35ec2da">
+                     <id root="55fdd5f5-b3af-4375-9063-744ae4c81223"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>The most frequently reported adverse events with Ibuprofen Lysine Injection were as shown in Table 1.</paragraph>
+                        <table>
+                           <caption>Table 1. Adverse Events within 30 Days of Therapy in the Multicenter Study<footnote ID="FOOT_7822">Within 30 days of therapy, with an event rate greater on NeoProfen than on placebo, and greater than 2 events on NeoProfen.</footnote>
+                           </caption>
+                           <col width="1px"/>
+                           <col width="1px"/>
+                           <col width="1px"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="     Toprule         Lrule          Rrule     "> </td>
+                                 <td colspan="2" styleCode="     Toprule         Lrule          Rrule     "> <content styleCode="bold">% Incidence</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule         Lrule          Rrule     "> <content styleCode="bold">Adverse Event</content>
+                                 </td>
+                                 <td styleCode="     Botrule         Lrule          Rrule     ">
+                                    <content styleCode="bold">Ibuprofen Lysine Injection</content>
+                                 </td>
+                                 <td styleCode="     Botrule         Lrule          Rrule     "> <content styleCode="bold">Placebo</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">  Sepsis</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">43</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">37</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">  Anemia</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">32</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">25</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">  Total Bleeding<content styleCode="bold">
+                                       <footnote ID="FOOT_7823">A given subject may have experienced more than one specific event within these adverse event categories. Only the most severe grade of IVH counted for a given subject.</footnote>
+                                    </content> **     </td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">32</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">29</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">        Intraventricular Hemorrhage, Grades 1/2</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">15</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">13</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">        Intraventricular Hemorrhage, Grades 3/4</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">15</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">10</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">        Other Bleeding</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">6</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">13</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">  Intraventricular Hemorrhage, All Grades</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">29</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">24</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">  Apnea</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">28</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">26</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Toprule         Lrule          Rrule     ">  Gastrointestinal Disorders</td>
+                                 <td styleCode="     Toprule         Lrule          Rrule     ">22     </td>
+                                 <td styleCode="     Toprule         Lrule          Rrule     ">18     </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule         Lrule          Rrule     "> <content styleCode="bold">    </content>non-Necrotizing Enterocolitis</td>
+                                 <td styleCode="     Botrule         Lrule          Rrule     ">  </td>
+                                 <td styleCode="     Botrule         Lrule          Rrule     ">  </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">  Total Renal Events<content styleCode="bold">
+                                       <footnoteRef IDREF="FOOT_7823"/>
+                                    </content>
+                                 </td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">21</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">15</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">        Renal Failure</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">1</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">3</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">        Renal Insufficiency, Impairment</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">6</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">4</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">        Urine Output Reduced</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">3</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">1</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">        Blood Creatinine Increased</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">3</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">1</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">        Blood Urea Increased with Hematuria</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">1</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">1</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">        Blood Urea Increased</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">7</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">4</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">  Respiratory Infection</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">19</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">13</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">  Skin Lesion/Irritation</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">16</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">6</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     "> Hypoglycemia</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">12</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">6</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">  Hypocalcemia</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">12</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">9</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     "> Respiratory Failure</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">10</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">4</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">  Urinary Tract Infection</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     "> 9</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">4</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     "> Adrenal Insufficiency</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">7</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">1</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     "> Hypernatremia</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">7</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">4</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">  Edema</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">4</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">  Atelectasis</td>
+                                 <td styleCode="     Botrule     ">4</td>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">1</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20200130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_0e84d75c-1e8d-4e5b-b854-7a87230c9622">
+                     <id root="ca666a59-20ae-49f1-a481-f630073e9f39"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+6.2 Renal Function</title>
+                     <text>
+                        <paragraph>Compared to placebo, there was a small decrease in urinary output in the ibuprofen group on days 2-6 of life, with a compensatory increase in urine output on day 9. In other studies, adverse events classified as renal insufficiency including oliguria, elevated BUN, elevated creatinine, or renal failure were reported in ibuprofen treated infants.</paragraph>
+                     </text>
+                     <effectiveTime value="20181010"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_58049639-c828-4d33-9d68-473a8f2146c1">
+                     <id root="e3a06b25-6af4-418d-ab72-4379d4a5f696"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+6.3 Additional Adverse Events</title>
+                     <text>
+                        <paragraph>The adverse events reported in the multicenter study and of unknown association include tachycardia, cardiac failure, abdominal distension, gastroesophageal reflux, gastritis, ileus, inguinal hernia, injection site reactions, cholestasis, various infections, feeding problems, convulsions, jaundice, hypotension, and various laboratory abnormalities including neutropenia, thrombocytopenia, and hyperglycemia.</paragraph>
+                     </text>
+                     <effectiveTime value="20181010"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_8b4ed533-ea58-4928-a1c5-7cd28f0e19af">
+                     <id root="78a9cb41-8588-4eb4-8fe0-850f443435f9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.4 Post-marketing Experience</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified from spontaneous post-marketing reports or published literature: gastrointestinal perforation, necrotizing enterocolitis and Pulmonary hypertension. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency, or establish a causal relationship to drug exposure.</paragraph>
+                     </text>
+                     <effectiveTime value="20181010"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4af49876-c569-4dfe-845c-1185996d6703">
+               <id root="7b5da606-1f34-42e4-88f3-fbccfedaf917"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Diuretics: Ibuprofen may reduce the effect of diuretics; diuretics can increase the risk of nephrotoxicity of NSAIDs in dehydrated patients. Monitor renal function in patients receiving concomitant diuretics.</item>
+                     <item>Amikacin: Ibuprofen may decrease the clearance of amikacin.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20200130"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Diuretics: Increased risk of renal dysfunction.</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a7fdfaee-ce93-4eb6-81ae-381b1e4ae543">
+               <id root="3a57635c-786a-4711-94aa-ed8ebd0124c0"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text/>
+               <effectiveTime value="20200130"/>
+               <component>
+                  <section ID="LINK_7feb7885-b7e1-477f-a829-da8721aab0a4">
+                     <id root="c5c9f380-b4c3-4228-9c64-309fe8bb636a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">8.4 Pediatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>Safety and effectiveness have only been established in premature infants.<br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20200130"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c03dab3a-57e2-48d9-a211-2f0985dd4156">
+               <id root="b41e459c-4ddb-44bc-80a8-7062a197e2d6"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>The following signs and symptoms have occurred in individuals (not necessarily in premature infants) following an overdose of oral ibuprofen: breathing difficulties, coma, drowsiness, irregular heartbeat, kidney failure, low blood pressure, seizures, and vomiting. There are no specific measures to treat acute overdosage with Ibuprofen Lysine Injection. The patient should be followed for several days because gastrointestinal ulceration and hemorrhage may occur.</paragraph>
+               </text>
+               <effectiveTime value="20181010"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_55b0c9b5-cfff-4bb8-955e-4ddb05c6d335">
+               <id root="d75ecb02-8fe8-4b50-9329-3cce3a570e67"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Ibuprofen Lysine Injection is a clear sterile preservative-free solution of the L-lysine salt of (±)-ibuprofen which is the active ingredient. (±)-Ibuprofen is a nonsteroidal anti-inflammatory agent (NSAID). L-lysine is used to create a water-soluble drug product salt suitable for intravenous administration. Each mL of Ibuprofen Lysine Injection contains 17.1 mg of ibuprofen lysine (equivalent to 10 mg of (±)-ibuprofen) in Water for Injection, USP. The pH is adjusted to 7.0 with sodium hydroxide or hydrochloric acid.</paragraph>
+                  <paragraph>The structural formula is:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Ibuprofen Lysine Injection is designated chemically as α-methyl-4-(2-methyl propyl) benzeneacetic acid lysine salt. Its molecular weight is 352.48. Its empirical formula is C<sub>19</sub>H<sub>32</sub>N<sub>2</sub>O<sub>4</sub>. It occurs as a white crystalline solid which is soluble in water and slightly soluble in ethanol.</paragraph>
+               </text>
+               <effectiveTime value="20181010"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Structural Formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibuprofen-lysine-injection-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_86cf3c67-8fb7-4fa5-9831-1ec7e04d62db">
+               <id root="b92b5ab8-286b-4612-ab9b-5de787b8403b"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20181010"/>
+               <component>
+                  <section ID="LINK_a00488fc-0d32-4bfe-a856-5c7ef7937a49">
+                     <id root="8748c2d5-7d2c-408e-b0da-ed08a3379529"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>
+12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>The mechanism of action through which ibuprofen causes closure of a patent ductus arteriosus (PDA) in neonates is not known. In adults, ibuprofen is an inhibitor of prostaglandin synthesis.</paragraph>
+                     </text>
+                     <effectiveTime value="20181010"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c31e5b6c-db40-4029-977a-9c5cd2eefb56">
+                     <id root="9a293f07-8a41-4556-925a-ba2e8235ea54"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacokinetics and Bioavailability Studies</title>
+                     <text>
+                        <paragraph>The pharmacokinetic data were obtained from 54 Ibuprofen Lysine Injection-treated premature infants included in a double-blind, placebo-controlled, randomized, multicenter study. Infants were less than 30 weeks gestational age, weighed between 500 and 1000 g, and exhibited asymptomatic PDA with evidence of echocardiographic documentation of ductal shunting. Dosing was initially 10 mg/kg followed by 5 mg/kg at 24 and 48 hours.</paragraph>
+                        <paragraph>The population average clearance and volume of distribution values of racemic ibuprofen for premature infants at birth were 3 mL/kg/h and 320 mL/kg, respectively. Clearance increased rapidly with post-natal age (an average increase of approximately 0.5 mL/kg/h per day). Inter-individual variability in clearance and volume of distribution were 55% and 14%, respectively. In general, the half-life in infants is more than 10 times longer than in adults.</paragraph>
+                        <paragraph>The metabolism and excretion of ibuprofen in premature infants have not been studied.</paragraph>
+                        <paragraph>In adults, renal elimination of unchanged ibuprofen accounts for only 10-15% of the dose. The excretion of ibuprofen and metabolites occurs rapidly in both urine and feces. Approximately 80% of the dose administered orally is recovered in urine as hydroxyl and carboxyl metabolites, respectively, as a mixture of conjugated and unconjugated forms. Ibuprofen is eliminated primarily by metabolism in the liver where CYP2C9 mediates the 2- and 3-hydroxylations of R- and S-ibuprofen. Ibuprofen and its metabolites are further conjugated to acyl glucuronides.</paragraph>
+                        <paragraph>In neonates, renal function and the enzymes associated with drug metabolism are underdeveloped at birth and substantially increase in the days after birth.</paragraph>
+                     </text>
+                     <effectiveTime value="20181010"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9960fc63-5469-49ff-80f6-051640e35265">
+               <id root="cc4f696c-1c28-4b6a-b925-7d2c0ffe2149"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>In a double-blind, multicenter clinical study premature infants of birth weight between 500 and 1000 g, less than 30 weeks post-conceptional age, and with echocardiographic evidence of a PDA were randomized to placebo or NeoProfen. These infants were asymptomatic from their PDA at the time of enrollment. The primary efficacy parameter was the need for rescue therapy (indomethacin, open-label ibuprofen, or surgery) to treat a hemodynamically significant PDA by study day 14. An infant was rescued if there was clinical evidence of a hemodynamically significant PDA that was echocardiographically confirmed. A hemodynamically significant PDA was defined by three of the following five criteria ― bounding pulse, hyperdynamic precordium, pulmonary edema, increased cardiac silhouette, or systolic murmur ― or hemodynamically significant ductus as determined by a neonatologist.</paragraph>
+                  <paragraph>One hundred and thirty-six premature infants received either placebo or Ibuprofen Lysine Injection (10 mg/kg on the first dose and 5 mg/kg at 24 and 48 hours). Mean birth age was 1.5 days (range: 4.6 – 73.0 hours), mean gestational age was 26 weeks (range: 23 – 30 weeks), and mean weight was 798 g (range: 530 – 1015 g). All infants had a documented PDA with evidence of ductal shunting. As shown in Table 2, 25% of infants on Ibuprofen Lysine Injection required rescue therapy versus 48% of infants on placebo (p=0.003 from logistic regression controlling for site).</paragraph>
+                  <table>
+                     <caption>Table 2. Summary of Efficacy Results, n (%)</caption>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <thead>
+                        <tr>
+                           <th styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <br/>
+                           </th>
+                           <th> Ibuprofen Lysine Injection<br/>
+                              <br/>N=68</th>
+                           <th styleCode="     Botrule          Toprule         Lrule          Rrule     "> Placebo<br/>
+                              <br/>N=68</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td styleCode="    Lrule          Rrule     ">
+                              <content styleCode="bold"> Required rescue through study day 14                           </content>
+                           </td>
+                           <td styleCode="    Lrule          Rrule     "> </td>
+                           <td styleCode="    Lrule          Rrule     "> </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="    Lrule          Rrule     ">
+                              <content styleCode="bold">                               Total </content>
+                           </td>
+                           <td styleCode="    Lrule          Rrule     "> 17 (25)</td>
+                           <td styleCode="    Lrule          Rrule     "> 33 (48)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="    Lrule          Rrule     ">
+                              <content styleCode="bold">                               By age at treatment                           </content>
+                           </td>
+                           <td styleCode="    Lrule          Rrule     "> </td>
+                           <td styleCode="    Lrule          Rrule     "> </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="    Lrule          Rrule     "> <content styleCode="bold">    </content>Birth to &lt; 24 hours                           </td>
+                           <td styleCode="    Lrule          Rrule     "> 3/14 (21)</td>
+                           <td styleCode="    Lrule          Rrule     "> 8/16 (50)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="    Lrule          Rrule     "> <content styleCode="bold">    </content>24-48 hours                           </td>
+                           <td styleCode="    Lrule          Rrule     "> 9/32 (28)</td>
+                           <td styleCode="    Lrule          Rrule     "> 16/37 (43)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="    Lrule          Rrule     ">
+                              <content styleCode="bold">     &gt; 48 hours                           </content>
+                           </td>
+                           <td styleCode="    Lrule          Rrule     "> 5/22 (23)</td>
+                           <td styleCode="    Lrule          Rrule     "> 9/15 (60)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Botrule         Lrule          Rrule     ">  </td>
+                           <td styleCode="     Botrule         Lrule          Rrule     "> </td>
+                           <td styleCode="     Botrule         Lrule          Rrule     "> </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Botrule         Lrule          Rrule     ">                               Echocardiographically proven PDA prior to rescue </td>
+                           <td styleCode="     Botrule         Lrule          Rrule     "> 17 (100)</td>
+                           <td styleCode="     Botrule         Lrule          Rrule     "> 32 (97)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="    Lrule          Rrule     ">                               Reasons for Rescue                           </td>
+                           <td styleCode="    Lrule          Rrule     "> </td>
+                           <td styleCode="    Lrule          Rrule     "> </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="    Lrule          Rrule     "> Hemodynamically significant PDA per neonatologist</td>
+                           <td styleCode="    Lrule          Rrule     "> 14 (82)</td>
+                           <td styleCode="    Lrule          Rrule     "> 25 (76)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="    Lrule          Rrule     "> Bounding pulse</td>
+                           <td styleCode="    Lrule          Rrule     "> 6 (35)</td>
+                           <td styleCode="    Lrule          Rrule     "> 12 (36)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="    Lrule          Rrule     "> Systolic murmur</td>
+                           <td styleCode="    Lrule          Rrule     "> 6 (35)</td>
+                           <td styleCode="    Lrule          Rrule     "> 15 (45)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="    Lrule          Rrule     "> Pulmonary Edema</td>
+                           <td styleCode="    Lrule          Rrule     "> 3 (18)</td>
+                           <td styleCode="    Lrule          Rrule     "> 5 (15)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="    Lrule          Rrule     "> Hyperdynamic precordium</td>
+                           <td styleCode="    Lrule          Rrule     "> 2 (12)</td>
+                           <td styleCode="    Lrule          Rrule     "> 3 (9)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Botrule         Lrule          Rrule     "> Increased cardiac silhouette</td>
+                           <td styleCode="     Botrule         Lrule          Rrule     "> 1 (6)</td>
+                           <td styleCode="     Botrule         Lrule          Rrule     "> 5 (15)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+                  <paragraph>Of the infants requiring rescue within the first 14 days after the first dose of study drug, no statistically significant difference was observed between the Ibuprofen Lysine Injection and placebo groups for mean age at start of first rescue treatment (8.7 days, range 4-15 days, for the Ibuprofen Lysine Injection group and 6.9 days, range 2-15 days, for the placebo group).</paragraph>
+                  <paragraph>The groups were similar in the number of deaths by day 14, the number of patients on a ventilator or requiring oxygenation at day 1, 4 and 14, the number of patients requiring surgical ligation of their PDA (12%), the number of cases of Pulmonary Hemorrhage and Pulmonary Hypertension by day 14, and Bronchopulmonary Dysplasia at day 28. In addition, no significant differences were noted in the incidences of Stage 2 and 3 Necrotizing Enterocolitis, Grades 3 and 4 Intraventricular Hemorrhage, Periventricular Leukomalacia and Retinopathy of Prematurity between groups as determined at 36±1 weeks adjusted gestational age.</paragraph>
+                  <paragraph>Two supportive studies also determined that ibuprofen, either prophylactically (n=433, weight range: 400 – 2165 g) or as treatment (n=210, weight range: 400 – 2370 g), was superior to placebo (or no treatment) in preventing the need for rescue therapy for a symptomatic PDA.</paragraph>
+               </text>
+               <effectiveTime value="20200130"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2c3e8d9c-68b0-4e57-b16e-ae81186a8456">
+               <id root="b1fe0ace-b7bf-4c97-9787-b689e37edbb5"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="underline">How Supplied</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Ibuprofen Lysine Injection is dispensed in clear plastic single-use vials, each containing 2 mL of sterile solution (NDC 39822-1030-1). The solution is not buffered and contains no preservatives. Each milliliter contains 17.1 mg/mL (±)-ibuprofen L-lysine [equivalent to 10 mg/mL (±)-ibuprofen] dissolved in Water for Injection, USP. Ibuprofen Lysine Injection is supplied in a carton containing 3 single-use vials (NDC 39822-1030-2).</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">
+                        <content styleCode="italics">Storage and Handling</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Store at 20 to 25°C (68 to 77°F); excursions permitted 15 to 30°C (59 to 86°F) [see USP Controlled Room Temperature]. Protect from light. Store vials in carton until contents have been used.</paragraph>
+               </text>
+               <effectiveTime value="20200130"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b52b0d40-a200-4bf9-a159-8b4d0573bab9">
+               <id root="5428029c-84e2-4dfc-97b0-a308ba9859c1"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text/>
+               <effectiveTime value="20200130"/>
+               <component>
+                  <section ID="LINK_e3b4a1af-ae71-451e-a5c7-5afe4a84d245">
+                     <id root="937d61b8-9390-4ab9-b9d3-0b56848bac59"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Infection</title>
+                     <text>
+                        <paragraph>Ibuprofen Lysine Injection may alter signs of infection. Patients’ caregivers should be informed that the infant will be carefully monitored for any signs of infection.</paragraph>
+                     </text>
+                     <effectiveTime value="20181010"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_714ee2e3-ef8e-4e18-9540-e4067afa7f45">
+                     <id root="9fc9eb06-44d4-428c-89f3-fd37465743a5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Platelet Aggregation</title>
+                     <text>
+                        <paragraph>Patients’ caregivers should be informed that like other NSAIDS, Ibuprofen Lysine Injection can inhibit clot formation therefore their infant will be monitored for any signs of bleeding.</paragraph>
+                     </text>
+                     <effectiveTime value="20181010"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_90a47bae-6a49-476c-9f5d-2eafd4199575">
+                     <id root="580f1170-b2c3-4ec7-bbd3-70947a0240de"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Administration</title>
+                     <text>
+                        <paragraph>Patients’ caregivers should be informed that the infants’ skin and tissues will be monitored as leakage from administration may be irritating to tissue.</paragraph>
+                        <paragraph>Manufactured by:  Exela Pharma Sciences, LLC Lenoir, NC 28645</paragraph>
+                        <paragraph>Manufactured for: X-GEN Pharmaceuticals, Inc. Big Flats, NY 14814<br/>
+                           <br/>IBUL-PI-07</paragraph>
+                     </text>
+                     <effectiveTime value="20200130"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0267878e-cbb0-4e02-8acc-39f4911aa7f0">
+               <id root="164fa729-3689-496d-ab11-c1093b208866"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC </content>39822-1030-1<br/>
+                     <br/>
+                     <content styleCode="bold">3 x 2 mL Single Use Vials<br/>
+                        <br/>Ibuprofen Lysine Injection<br/>
+                        <br/>10 mg/mL<br/>
+                        <br/>Sterile Solution for IV Use Only<br/>
+                        <renderMultiMedia referencedObject="MM2"/>
+                        <br/>
+                        <br/>Rx only<br/>
+                        <br/>Each mL contains:<br/>
+                     </content>Ibuprofen 10 mg (as ibuprofen lysine) in Water for Injection, USP.<br/>
+                     <br/>Dilute to an appropriate volume with dextrose or saline. Please refer to the Package Insert for full prescribing information.<br/>
+                     <br/>Store at 20-25ºC (68-77ºF); excursions permitted 15-30ºC (59-86ºF). Store vials in carton until use.<br/>
+                     <br/>Manufactures for:</paragraph>
+                  <paragraph>X-GEN Pharmaceuticals, Inc.</paragraph>
+                  <paragraph>Big Flats, NY 14814<br/>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200130"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>ibul-vl-03</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="ibuprofen-lysine-injection-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

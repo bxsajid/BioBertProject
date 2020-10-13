@@ -1,0 +1,2471 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="f1b40b09-2845-4ad8-9acc-1a3d16d53dc7"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use INDOMETHACIN CAPSULES safely and effectively. See full prescribing information for INDOMETHACIN CAPSULES.<br/>
+      <br/>INDOMETHACIN capsules, for oral use<br/>
+      <br/>Initial U.S. Approval: 1965</title>
+   <effectiveTime value="20190425"/>
+   <setId root="692fac74-c17e-4c73-854a-10622385fe64"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="156861945" root="1.3.6.1.4.1.519.1"/>
+            <name>Zydus Pharmaceuticals (USA) Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="156861945" root="1.3.6.1.4.1.519.1"/>
+                  <name>Zydus Pharmaceuticals (USA) Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="918596198" root="1.3.6.1.4.1.519.1"/>
+                        <name>Cadila Healthcare Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68382-293" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68382-294" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68382-293" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68382-294" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="7dd4dad9-d96b-4510-be48-5ad6a8a9e982"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL Product Data Elements Section"/>
+               <effectiveTime value="20190425"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="68382-294" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>indomethacin</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>indomethacin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="50" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XXE1CET956" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>INDOMETHACIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="XXE1CET956" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>INDOMETHACIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XM0M87F357" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERROSOFERRIC OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="I753WB2F1M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C YELLOW NO. 5</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="SMD1X3XO9M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POWDERED CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="AG9B65PV6B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68382-294-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160721"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68382-294-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160721"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68382-294-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160721"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68382-294-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160721"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA090403" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160721"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48329" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GREEN">
+                              <originalText>GREEN</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE">
+                              <originalText>CAPSULE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" value="19" unit="mm"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">294;50mg</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="68382-293" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>indomethacin</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>indomethacin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="25" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XXE1CET956" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>INDOMETHACIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="XXE1CET956" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>INDOMETHACIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XM0M87F357" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERROSOFERRIC OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="I753WB2F1M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C YELLOW NO. 5</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="SMD1X3XO9M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POWDERED CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="AG9B65PV6B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68382-293-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160721"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68382-293-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160721"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68382-293-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160721"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68382-293-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160721"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA090403" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160721"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48329" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GREEN">
+                              <originalText>GREEN</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE">
+                              <originalText>CAPSULE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" value="16" unit="mm"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">293;25mg</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID332">
+               <id root="8d2cef93-4504-4fbd-94da-f297d1b1e725"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING: RISK OF SERIOUS CARDIOVASCULAR AND GASTROINTESTINAL EVENTS</title>
+               <text>
+                  <paragraph ID="ID333">
+                     <content styleCode="bold">
+                        <content styleCode="underline">Cardiovascular Thrombotic Events</content>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID334" styleCode="Disc">
+                     <item>
+                        <content styleCode="bold">Nonsteroidal      anti-inflammatory drugs (NSAIDs) cause an increased risk of serious      cardiovascular thrombotic events, including myocardial infarction and      stroke, which can be fatal. This risk may occur early in treatment and may      increase with duration of use [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID227">5.1</linkHtml>)</content> ].</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Indomethacin capsules are      contraindicated in the setting of coronary artery bypass graft (CABG)      surgery [<content styleCode="italics">see Contraindications (<linkHtml href="#ID222">4</linkHtml>) and      Warnings and Precautions (<linkHtml href="#ID227">5.1</linkHtml>)</content> ].</content>
+                     </item>
+                  </list>
+                  <paragraph ID="ID335">
+                     <content styleCode="bold">
+                        <content styleCode="underline">Gastrointestinal Bleeding, Ulceration, and Perforation</content>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID336" styleCode="Disc">
+                     <item>
+                        <content styleCode="bold">NSAIDs cause an increased risk of serious gastrointestinal (GI) adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients and patients with a prior history of peptic ulcer disease and/or GI bleeding are at greater risk for serious GI events [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID229">5.2</linkHtml>)</content> ].</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20160527"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph ID="ID338">
+                           <content styleCode="bold">
+                              <content styleCode="italics">See full prescribing information for complete boxed warning.</content>
+                           </content>
+                        </paragraph>
+                        <list listType="unordered" ID="ID339" styleCode="Disc">
+                           <item>
+                              <content styleCode="bold">Nonsteroidal      anti-inflammatory drugs (NSAIDs) cause an increased risk of serious      cardiovascular thrombotic events, including myocardial infarction and      stroke, which can be fatal. This risk may occur early in treatment and may      increase with duration of use (<linkHtml href="#ID227">5.1</linkHtml>)</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Indomethacin capsules are      contraindicated in the setting of coronary artery bypass graft (CABG)      surgery (<linkHtml href="#ID222">4</linkHtml>, <linkHtml href="#ID227">5.1</linkHtml>)</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">NSAIDs cause an increased      risk of serious gastrointestinal (GI) adverse events including bleeding,      ulceration, and perforation of the stomach or intestines, which can be      fatal. These events can occur at any time during use and without warning      symptoms. Elderly patients and patients with a prior history of peptic      ulcer disease and/or GI bleeding are at greater risk for serious GI events      (<linkHtml href="#ID229">5.2</linkHtml>)</content>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID207">
+               <id root="576260db-b9ac-4e6e-8b1b-4ebb9afb96e4"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <effectiveTime value="20160527"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph ID="ID327">Indomethacin capsules are a nonsteroidal anti-inflammatory drug indicated for:</paragraph>
+                        <list listType="unordered" ID="ID328" styleCode="Disc">
+                           <item>Moderate to severe rheumatoid      arthritis including acute flares of chronic disease</item>
+                           <item>Moderate to severe ankylosing      spondylitis</item>
+                           <item>Moderate to severe      osteoarthritis</item>
+                           <item>Acute painful shoulder      (bursitis and/or tendinitis)</item>
+                           <item>Acute gouty arthritis (<linkHtml href="#ID207">1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID208">
+                     <id root="095b8bb0-acf6-4fd0-90df-047e9fefce46"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph ID="ID209">Indomethacin capsules are indicated for: </paragraph>
+                        <list listType="unordered" ID="ID210" styleCode="Disc">
+                           <item>Moderate to severe rheumatoid arthritis including acute      flares of chronic disease</item>
+                           <item>Moderate to severe ankylosing spondylitis</item>
+                           <item>Moderate to severe osteoarthritis</item>
+                           <item>Acute painful shoulder (bursitis and/or tendinitis)</item>
+                           <item>Acute gouty arthritis</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID211">
+               <id root="b4bb0e92-4b37-4509-9ca8-8ed12722b161"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20160527"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" ID="ID341" styleCode="Disc">
+                           <item>Use the lowest effective dosage      for shortest duration consistent with individual patient treatment goals (<linkHtml href="#ID212">2.1</linkHtml>)</item>
+                           <item>The dosage for moderate to      severe rheumatoid arthritis including acute flares of chronic disease;      moderate to severe ankylosing spondylitis; and moderate to severe      osteoarthritis is indomethacin capsules 25 mg two or three times a day (<linkHtml href="#ID214">2.2</linkHtml>)</item>
+                           <item>The dosage for acute painful      shoulder (bursitis and/or tendinitis) is 75-150 mg daily in 3 or 4 divided      doses (<linkHtml href="#ID216">2.3</linkHtml>)</item>
+                           <item>The dosage for acute gouty      arthritis is indomethacin capsules 50 mg three times a day (<linkHtml href="#ID218">2.4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID212">
+                     <id root="5980418c-c4a7-4a66-b19f-427f03dfde85"/>
+                     <title>2.1 General Dosing Instructions</title>
+                     <text>
+                        <paragraph ID="ID213">Carefully consider the potential benefits and risks of indomethacin capsules and other treatment options before deciding to use indomethacin capsules. Use the lowest effective dosage for the shortest duration consistent with individual patient treatment goals [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID226">5</linkHtml>)</content>].</paragraph>
+                        <paragraph>After observing the response to initial therapy with indomethacin, the dose and frequency should be adjusted to suit an individual patient's needs. </paragraph>
+                        <paragraph>Adverse reactions generally appear to correlate with the dose of indomethacin. Therefore, every effort should be made to determine the lowest effective dosage for the individual patient.</paragraph>
+                        <paragraph>Dosage recommendations for active stages of the following:</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID214">
+                     <id root="5dc5e0bf-3f76-462c-a9ed-a646ac259f46"/>
+                     <title>2.2 Moderate to severe rheumatoid arthritis including acute flares of chronic disease; moderate to severe ankylosing spondylitis; and moderate to severe osteoarthritis</title>
+                     <text>
+                        <paragraph ID="ID215">Indomethacin capsules 25 mg twice a day or three times a day. If this is well tolerated, increase the daily dosage by 25 mg or by 50 mg, if required by continuing symptoms, at weekly intervals until a satisfactory response is obtained or until a total daily dose of 150 - 200 mg is reached. Doses above this amount generally do not increase the effectiveness of the drug.</paragraph>
+                        <paragraph>In patients who have persistent night pain and/or morning stiffness, the giving of a large portion, up to a maximum of 100 mg, of the total daily dose at bedtime may be helpful in affording relief. The total daily dose should not exceed 200 mg. In acute flares of chronic rheumatoid arthritis, it may be necessary to increase the dosage by 25 mg or, if required, by 50 mg daily. </paragraph>
+                        <paragraph>If minor adverse effects develop as the dosage is increased, reduce the dosage rapidly to a tolerated dose and observe the patient closely. </paragraph>
+                        <paragraph>If severe adverse reactions occur, stop the drug. After the acute phase of the disease is under control, an attempt to reduce the daily dose should be made repeatedly until the patient is receiving the smallest effective dose or the drug is discontinued. </paragraph>
+                        <paragraph>Careful instructions to, and observations of, the individual patient are essential to the prevention of serious, irreversible, including fatal, adverse reactions. </paragraph>
+                        <paragraph>As advancing years appear to increase the possibility of adverse reactions, indomethacin capsules should be used with greater care in the elderly [see <content styleCode="italics">Use in Specific Populations (<linkHtml href="#ID279">8.5</linkHtml>)</content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID216">
+                     <id root="8cb854da-0efb-48e9-bff6-1ba062b5a373"/>
+                     <title>2.3 Acute painful shoulder (bursitis and/or tendinitis)</title>
+                     <text>
+                        <paragraph ID="ID217">Indomethacin capsules 75 to 150 mg daily in 3 or 4 divided doses. The drug should be discontinued after the signs and symptoms of inflammation have been controlled for several days. The usual course of therapy is 7 to 14 days.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID218">
+                     <id root="8f167d04-9238-48d8-9c59-415297b84fd7"/>
+                     <title>2.4 Acute Gouty Arthritis</title>
+                     <text>
+                        <paragraph ID="ID219">Indomethacin capsules 50 mg three times a day until pain is tolerable. The dose should then be rapidly reduced to complete cessation of the drug. Definite relief of pain has been reported within 2 to 4 hours. Tenderness and heat usually subside in 24 to 36 hours, and swelling gradually disappears in 3 to 5 days.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID342">
+               <id root="7e20339e-7dde-47f7-96b8-a992c0e574a7"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph ID="ID343">Indomethacin Capsules USP, 25 mg are off-white to light yellow, free flowing granular powder filled in size '3' hard gelatin capsules with green colored cap imprinted with "293" in black ink and green colored body imprinted with "25 mg" in black ink.</paragraph>
+                  <paragraph>Indomethacin Capsules USP, 50 mg are off-white to light yellow, free flowing granular powder filled in size '1' hard gelatin capsules with green colored cap imprinted with "294" in black ink and green colored body imprinted with "50 mg" in black ink.</paragraph>
+               </text>
+               <effectiveTime value="20160527"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph ID="ID345">Indomethacin capsules, USP: 25 mg and 50 mg (<linkHtml href="#ID342">3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID222">
+               <id root="e4993f85-796f-47a4-a94f-77404a2ce9c7"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <effectiveTime value="20160527"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" ID="ID347" styleCode="Disc">
+                           <item>Known hypersensitivity to      indomethacin or any components of the drug product (<linkHtml href="#ID222">4</linkHtml>)</item>
+                           <item>History of asthma, urticaria,      or other allergic-type reactions after taking aspirin or other NSAIDs (<linkHtml href="#ID222">4</linkHtml>)</item>
+                           <item>In the setting of CABG surgery      (<linkHtml href="#ID222">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID223">
+                     <id root="d5c816b1-ca66-4d58-9395-ccab128b684c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph ID="ID224">Indomethacin capsules are contraindicated in the following patients: </paragraph>
+                        <list listType="unordered" ID="ID225" styleCode="Disc">
+                           <item>Known hypersensitivity (e.g.,      anaphylactic reactions and serious skin reactions) to indomethacin or any      components of the drug product [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID240">5.7</linkHtml>,<linkHtml href="#ID244">5.9</linkHtml>)</content> ]</item>
+                           <item>History of asthma, urticaria,      or other allergic-type reactions after taking aspirin or other NSAIDs.      Severe, sometimes fatal, anaphylactic reactions to NSAIDs have been      reported in such patients [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID240">5.7</linkHtml>,<linkHtml href="#ID242">5.8</linkHtml>)</content> ]</item>
+                           <item>In the setting of coronary      artery bypass graft (CABG) surgery [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID227">5.1</linkHtml>)</content> ]</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID226">
+               <id root="40dd4ceb-c0db-42e1-99dc-142bbffe4eca"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20160527"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" ID="ID349" styleCode="Disc">
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Hepatotoxicity</content>
+                              </content> :      Inform patients of warning signs and symptoms of hepatotoxicity.      Discontinue if abnormal liver tests persist or worsen or if clinical signs      and symptoms of liver disease develop (<linkHtml href="#ID232">5.3</linkHtml>)</item>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Hypertension</content>
+                              </content> :      Patients taking some antihypertensive medications may have impaired      response to these therapies when taking NSAIDs. Monitor blood pressure (<linkHtml href="#ID234">5.4</linkHtml>,<linkHtml href="#ID266">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Heart Failure and Edema</content>
+                              </content> :      Avoid use of indomethacin capsules in patients with severe heart failure      unless benefits are expected to outweigh risk of worsening heart failure (<linkHtml href="#ID236">5.5</linkHtml>)</item>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Renal Toxicity</content>
+                              </content> :      Monitor renal function in patients with renal or hepatic impairment, heart      failure, dehydration, or hypovolemia. Avoid use of indomethacin capsules      in patients with advanced renal disease unless benefits are expected to      outweigh risk of worsening renal function (<linkHtml href="#ID238">5.6</linkHtml>)</item>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Anaphylactic Reactions</content>
+                              </content> :      Seek emergency help if an anaphylactic reaction occurs (<linkHtml href="#ID240">5.7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Exacerbation of Asthma      Related to Aspirin Sensitivity</content>
+                              </content> : indomethacin capsules are      contraindicated in patients with aspirin-sensitive asthma. Monitor      patients with preexisting asthma (without aspirin sensitivity) (<linkHtml href="#ID242">5.8</linkHtml>)</item>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Serious Skin Reactions</content>
+                              </content> :      Discontinue indomethacin capsules at first appearance of skin rash or      other signs of hypersensitivity (<linkHtml href="#ID244">5.9</linkHtml>)</item>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Premature Closure of      Fetal Ductus Arteriosus</content>
+                              </content> : Avoid use in pregnant women starting at      30 weeks gestation (<linkHtml href="#ID246">5.10</linkHtml>, <linkHtml href="#ID271">8.1</linkHtml>)</item>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Hematologic Toxicity</content>
+                              </content> :      Monitor hemoglobin or hematocrit in patients with any signs or symptoms of      anemia (<linkHtml href="#ID248">5.11</linkHtml>, <linkHtml href="#ID266">7</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID227">
+                     <id root="30051711-5714-4b03-a432-858ed75819d7"/>
+                     <title>5.1 Cardiovascular Thrombotic Events</title>
+                     <text>
+                        <paragraph ID="ID228">Clinical trials of several COX-2 selective and nonselective NSAIDs of up to three years duration have shown an increased risk of serious cardiovascular (CV) thrombotic events, including myocardial infarction (MI) and stroke, which can be fatal. Based on available data, it is unclear that the risk for CV thrombotic events is similar for all NSAIDs. The relative increase in serious CV thrombotic events over baseline conferred by NSAID use appears to be similar in those with and without known CV disease or risk factors for CV disease. However, patients with known CV disease or risk factors had a higher absolute incidence of excess serious CV thrombotic events, due to their increased baseline rate. Some observational studies found that this increased risk of serious CV thrombotic events began as early as the first weeks of treatment. The increase in CV thrombotic risk has been observed most consistently at higher doses.</paragraph>
+                        <paragraph>To minimize the potential risk for an adverse CV event in NSAID-treated patients, use the lowest effective dose for the shortest duration possible. Physicians and patients should remain alert for the development of such events, throughout the entire treatment course, even in the absence of previous CV symptoms. Patients should be informed about the symptoms of serious CV events and the steps to take if they occur.</paragraph>
+                        <paragraph>There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an NSAID, such as indomethacin, increases the risk of serious gastrointestinal (GI) events [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID229">5.2</linkHtml>)</content>].</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Status Post Coronary Artery Bypass Graft (CABG) Surgery</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Two large, controlled clinical trials of a COX-2 selective NSAID for the treatment of pain in the first 10–14 days following CABG surgery found an increased incidence of myocardial infarction and stroke. NSAIDs are contraindicated in the setting of CABG [<content styleCode="italics">see Contraindications (<linkHtml href="#ID222">4</linkHtml>)</content>].</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Post-MI Patients</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Observational studies conducted in the Danish National Registry have demonstrated that patients treated with NSAIDs in the post-MI period were at increased risk of reinfarction, CV-related death, and all-cause mortality beginning in the first week of treatment. In this same cohort, the incidence of death in the first year post-MI was 20 per 100 person years in NSAID-treated patients compared to 12 per 100 person years in non-NSAID exposed patients. Although the absolute rate of death declined somewhat after the first year post-MI, the increased relative risk of death in NSAID users persisted over at least the next four years of follow-up.</paragraph>
+                        <paragraph>Avoid the use of indomethacin capsules in patients with a recent MI unless the benefits are expected to outweigh the risk of recurrent CV thrombotic events. If indomethacin capsules are used in patients with a recent MI, monitor patients for signs of cardiac ischemia.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID229">
+                     <id root="9a0b1c9f-1961-431c-bff3-bc5711a45d5e"/>
+                     <title>5.2 Gastrointestinal Bleeding, Ulceration, and Perforation</title>
+                     <text>
+                        <paragraph ID="ID230">NSAIDs, including indomethacin, cause serious gastrointestinal (GI) adverse events including inflammation, bleeding, ulceration, and perforation of the esophagus, stomach, small intestine, or large intestine, which can be fatal. These serious adverse events can occur at any time, with or without warning symptoms, in patients treated with NSAIDs. Only one in five patients who develop a serious upper GI adverse event on NSAID therapy is symptomatic. Upper GI ulcers, gross bleeding, or perforation caused by NSAIDs occurred in approximately 1% of patients treated for 3 to 6 months, and in about 2% to 4% of patients treated for one year. However, even short-term NSAID therapy is not without risk.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Risk Factors for GI Bleeding, Ulceration, and Perforation</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Patients with a prior history of peptic ulcer disease and/or GI bleeding who used NSAIDs had a greater than 10-fold increased risk for developing a GI bleed compared to patients without these risk factors. Other factors that increase the risk of GI bleeding in patients treated with NSAIDs include longer duration of NSAID therapy; concomitant use of oral corticosteroids, aspirin, anticoagulants, or selective serotonin reuptake inhibitors (SSRIs); smoking; use of alcohol; older age; and poor general health status. Most postmarketing reports of fatal GI events occurred in elderly or debilitated patients. Additionally, patients with advanced liver disease and/or coagulopathy are at increased risk for GI bleeding.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Strategies to Minimize the GI Risks in NSAID-treated patients:</content>
+                           </content>
+                        </paragraph>
+                        <list listType="unordered" ID="ID231" styleCode="Disc">
+                           <item>Use the lowest effective dosage      for the shortest possible duration.</item>
+                           <item>Avoid administration of more      than one NSAID at a time.</item>
+                           <item>Avoid use in patients at higher      risk unless benefits are expected to outweigh the increased risk of      bleeding. For such patients, as well as those with active GI bleeding,      consider alternate therapies other than NSAIDs.</item>
+                           <item>Remain alert for signs and      symptoms of GI ulceration and bleeding during NSAID therapy.</item>
+                           <item>If a serious GI adverse event      is suspected, promptly initiate evaluation and treatment, and discontinue      indomethacin capsules until a serious GI adverse event is ruled out.</item>
+                           <item>In the setting of concomitant      use of low-dose aspirin for cardiac prophylaxis, monitor patients more      closely for evidence of GI bleeding [<content styleCode="italics">see Drug Interactions (<linkHtml href="#ID266">7</linkHtml>)</content> ].</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID232">
+                     <id root="491f5be7-5cac-4dd1-a796-f8c957f38dd6"/>
+                     <title>5.3 Hepatotoxicity</title>
+                     <text>
+                        <paragraph ID="ID233">Elevations of ALT or AST (three or more times the upper limit of normal [ULN]) have been reported in approximately 1% of NSAID-treated patients in clinical trials. In addition, rare, sometimes fatal, cases of severe hepatic injury, including fulminant hepatitis, liver necrosis, and hepatic failure have been reported.</paragraph>
+                        <paragraph>Elevations of ALT or AST (less than three times ULN) may occur in up to 15% of patients treated with NSAIDs including indomethacin. </paragraph>
+                        <paragraph>Inform patients of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, diarrhea, pruritus, jaundice, right upper quadrant tenderness, and "flu-like" symptoms). If clinical signs and symptoms consistent with liver disease develop, or if systemic manifestations occur (e.g., eosinophilia, rash, etc.), discontinue indomethacin capsules immediately, and perform a clinical evaluation of the patient.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID234">
+                     <id root="f0f64274-4c5c-4b05-a32d-9b587ed1a8d4"/>
+                     <title>5.4 Hypertension</title>
+                     <text>
+                        <paragraph ID="ID235">NSAIDs, including indomethacin capsules, can lead to new onset of hypertension or worsening of preexisting hypertension, either of which may contribute to the increased incidence of CV events. Patients taking angiotensin converting enzyme (ACE) inhibitors, thiazide diuretics, or loop diuretics may have impaired response to these therapies when taking NSAIDs [<content styleCode="italics">see Drug Interactions (<linkHtml href="#ID266">7</linkHtml>)</content>].</paragraph>
+                        <paragraph>Monitor blood pressure (BP) during the initiation of NSAID treatment and throughout the course of therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID236">
+                     <id root="39448d8c-d1d3-40d3-b636-a5bcf63d12a6"/>
+                     <title>5.5 Heart Failure and Edema</title>
+                     <text>
+                        <paragraph ID="ID237">The Coxib and traditional NSAID Trialists' Collaboration meta-analysis of randomized controlled trials demonstrated an approximately two-fold increase in hospitalizations for heart failure in COX-2 selective-treated patients and nonselective NSAID-treated patients compared to placebo-treated patients. In a Danish National Registry study of patients with heart failure, NSAID use increased the risk of MI, hospitalization for heart failure, and death.</paragraph>
+                        <paragraph>Additionally, fluid retention and edema have been observed in some patients treated with NSAIDs. Use of indomethacin may blunt the CV effects of several therapeutic agents used to treat these medical conditions (e.g., diuretics, ACE inhibitors, or angiotensin receptor blockers [ARBs]) [<content styleCode="italics">see Drug Interactions (<linkHtml href="#ID266">7</linkHtml>)</content>].</paragraph>
+                        <paragraph>Avoid the use of indomethacin capsules in patients with severe heart failure unless the benefits are expected to outweigh the risk of worsening heart failure. If indomethacin capsules is used in patients with severe heart failure, monitor patients for signs of worsening heart failure.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID238">
+                     <id root="eb8f9d49-682b-45cd-b3f3-74b0651d7ef4"/>
+                     <title>5.6 Renal Toxicity and Hyperkalemia</title>
+                     <text>
+                        <paragraph ID="ID239">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Renal Toxicity</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Long-term administration of NSAIDs has resulted in renal papillary necrosis and other renal injury. </paragraph>
+                        <paragraph>Renal toxicity has also been seen in patients in whom renal prostaglandins have a compensatory role in the maintenance of renal perfusion. In these patients, administration of an NSAID may cause a dose-dependent reduction in prostaglandin formation and, secondarily, in renal blood flow, which may precipitate overt renal decompensation. Patients at greatest risk of this reaction are those with impaired renal function, dehydration, hypovolemia, heart failure, liver dysfunction, those taking diuretics and ACE inhibitors or ARBs, and the elderly. Discontinuation of NSAID therapy is usually followed by recovery to the pretreatment state.</paragraph>
+                        <paragraph>No information is available from controlled clinical studies regarding the use of indomethacin capsules in patients with advanced renal disease. The renal effects of indomethacin capsules may hasten the progression of renal dysfunction in patients with preexisting renal disease.</paragraph>
+                        <paragraph>Correct volume status in dehydrated or hypovolemic patients prior to initiating indomethacin capsules. Monitor renal function in patients with renal or hepatic impairment, heart failure, dehydration, or hypovolemia during use of indomethacin capsules [<content styleCode="italics">see Drug Interactions (<linkHtml href="#ID266">7</linkHtml>)</content>]<content styleCode="italics">. </content>Avoid the use of indomethacin capsules in patients with advanced renal disease unless the benefits are expected to outweigh the risk of worsening renal function. If indomethacin capsules are used in patients with advanced renal disease, monitor patients for signs of worsening renal function. </paragraph>
+                        <paragraph>It has been reported that the addition of the potassium-sparing diuretic, triamterene, to a maintenance schedule of indomethacin resulted in reversible acute renal failure in two of four healthy volunteers. Indomethacin and triamterene should not be administered together.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Hyperkalemia </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Increases in serum potassium concentration, including hyperkalemia, have been reported with use of NSAIDs, even in some patients without renal impairment. In patients with normal renal function, these effects have been attributed to a hyporeninemic-hypoaldosteronism state.</paragraph>
+                        <paragraph>Both indomethacin and potassium-sparing diuretics may be associated with increased serum potassium levels. The potential effects of indomethacin and potassium-sparing diuretics on potassium levels and renal function should be considered when these agents are administered concurrently.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID240">
+                     <id root="a4716cba-7529-4093-8b52-176c9a9c83b9"/>
+                     <title>5.7 Anaphylactic Reactions</title>
+                     <text>
+                        <paragraph ID="ID241">Indomethacin has been associated with anaphylactic reactions in patients with and without known hypersensitivity to indomethacin and in patients with aspirin-sensitive asthma [<content styleCode="italics">see Contraindications (<linkHtml href="#ID222">4</linkHtml>) and Warnings and Precautions (<linkHtml href="#ID242">5.8</linkHtml>)</content>].</paragraph>
+                        <paragraph>Seek emergency help if an anaphylactic reaction occurs. </paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID242">
+                     <id root="d144c76e-878e-4003-aaef-39bb37e4afb7"/>
+                     <title>5.8 Exacerbation of Asthma Related to Aspirin Sensitivity</title>
+                     <text>
+                        <paragraph ID="ID243">A subpopulation of patients with asthma may have aspirin-sensitive asthma which may include chronic rhinosinusitis complicated by nasal polyps; severe, potentially fatal bronchospasm; and/or intolerance to aspirin and other NSAIDs. Because cross-reactivity between aspirin and other NSAIDs has been reported in such aspirin-sensitive patients, indomethacin capsules are contraindicated in patients with this form of aspirin sensitivity [<content styleCode="italics">see Contraindications (<linkHtml href="#ID222">4</linkHtml>)</content>]. When indomethacin capsules are used in patients with preexisting asthma (without known aspirin sensitivity), monitor patients for changes in the signs and symptoms of asthma.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID244">
+                     <id root="81864f2b-beca-4d45-8c4d-d8f8e12f73e6"/>
+                     <title>5.9 Serious Skin Reactions</title>
+                     <text>
+                        <paragraph ID="ID245">NSAIDs, including indomethacin, can cause serious skin adverse reactions such as exfoliative dermatitis, Stevens-Johnson Syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. These serious events may occur without warning. Inform patients about the signs and symptoms of serious skin reactions, and to discontinue the use of indomethacin capsules at the first appearance of skin rash or any other sign of hypersensitivity. </paragraph>
+                        <paragraph>Indomethacin capsules are contraindicated in patients with previous serious skin reactions to NSAIDs [<content styleCode="italics">see Contraindications (<linkHtml href="#ID222">4</linkHtml>)</content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID246">
+                     <id root="9d03ecaa-f3a0-4cec-b65f-420ef8b8685c"/>
+                     <title>5.10 Premature Closure of Fetal Ductus Arteriosus</title>
+                     <text>
+                        <paragraph ID="ID247">Indomethacin may cause premature closure of the fetal ductus arteriosus. Avoid use of NSAIDs, including indomethacin capsules, in pregnant women starting at 30 weeks of gestation (third trimester) [<content styleCode="italics">see Use in Specific Populations (<linkHtml href="#ID271">8.1</linkHtml>)</content>]. </paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID248">
+                     <id root="91dbbfc1-bf60-4591-8236-2b82441b6e35"/>
+                     <title>5.11 Hematologic Toxicity</title>
+                     <text>
+                        <paragraph ID="ID249">Anemia has occurred in NSAID-treated patients. This may be due to occult or gross blood loss, fluid retention, or an incompletely described effect on erythropoiesis. If a patient treated with indomethacin capsules have any signs or symptoms of anemia, monitor hemoglobin or hematocrit. </paragraph>
+                        <paragraph>NSAIDs, including indomethacin capsules, may increase the risk of bleeding events. Co-morbid conditions, such as coagulation disorders, or concomitant use of warfarin, other anticoagulants, antiplatelet agents (e.g., aspirin), serotonin reuptake inhibitors (SSRIs), and serotonin norepinephrine reuptake inhibitors (SNRIs) may increase this risk. Monitor these patients for signs of bleeding [<content styleCode="italics">see Drug Interactions (</content>
+                           <linkHtml href="#ID266">7</linkHtml>
+                           <content styleCode="italics">)</content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID250">
+                     <id root="9c057fe5-d0c2-4763-ac9e-2391f094335d"/>
+                     <title>5.12 Masking of Inflammation and Fever</title>
+                     <text>
+                        <paragraph ID="ID251">The pharmacological activity of indomethacin capsules in reducing inflammation, and possibly fever, may diminish the utility of diagnostic signs in detecting infections.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID252">
+                     <id root="e042f4fd-dfc1-4d91-ac40-ec145e88f517"/>
+                     <title>5.13 Laboratory Monitoring</title>
+                     <text>
+                        <paragraph ID="ID253">Because serious GI bleeding, hepatotoxicity, and renal injury can occur without warning symptoms or signs, consider monitoring patients on long-term NSAID treatment with a CBC and a chemistry profile periodically [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID229">5.2</linkHtml>, <linkHtml href="#ID232">5.3</linkHtml>, <linkHtml href="#ID238">5.6</linkHtml>)</content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID254">
+                     <id root="bab2f1f1-cca2-401a-83f1-03649a849175"/>
+                     <title>5.14 Central Nervous System Effects</title>
+                     <text>
+                        <paragraph ID="ID255">Indomethacin capsules may aggravate depression or other psychiatric disturbances, epilepsy, and parkinsonism, and should be used with considerable caution in patients with these conditions. Discontinue indomethacin capsules if severe CNS adverse reactions develop.</paragraph>
+                        <paragraph>Indomethacin capsules may cause drowsiness; therefore, caution patients about engaging in activities requiring mental alertness and motor coordination, such as driving a car. Indomethacin may also cause headache. Headache which persists despite dosage reduction requires cessation of therapy with indomethacin capsules.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID256">
+                     <id root="8e8245f3-a196-478e-bd89-d4ed3f63bf8d"/>
+                     <title>5.15 Ocular Effects</title>
+                     <text>
+                        <paragraph ID="ID257">Corneal deposits and retinal disturbances, including those of the macula, have been observed in some patients who had received prolonged therapy with indomethacin capsules. Be alert to the possible association between the changes noted and indomethacin capsules. It is advisable to discontinue therapy if such changes are observed. Blurred vision may be a significant symptom and warrants a thorough ophthalmological examination. Since these changes may be asymptomatic, ophthalmologic examination at periodic intervals is desirable in patients receiving prolonged therapy. Indomethacin capsules are not indicated for long-term treatment. </paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID258">
+               <id root="1de0369a-409a-41de-9ef3-78914c71d4ae"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <effectiveTime value="20190427"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph ID="ID351">Most common adverse reactions (incidence ≥ 3%) are headache, dizziness, dyspepsia and nausea. (<linkHtml href="#ID262">6.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Zydus Pharmaceuticals USA Inc. at 1-877-993-8779 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID259">
+                     <id root="e937089d-c380-4601-9bfa-fb85eb6e25c0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph ID="ID260">The following adverse reactions are discussed in greater detail in other sections of the labeling: </paragraph>
+                        <list listType="unordered" ID="ID261" styleCode="Disc">
+                           <item>Cardiovascular Thrombotic Events [<content styleCode="italics">see Warnings and      Precautions (<linkHtml href="#ID227">5.1</linkHtml>)</content> ]</item>
+                           <item>GI Bleeding, Ulceration and Perforation [<content styleCode="italics">see Warnings      and Precautions (<linkHtml href="#ID229">5.2</linkHtml>)</content> ]</item>
+                           <item>Hepatotoxicity [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID232">5.3</linkHtml>)</content> ]</item>
+                           <item>Hypertension [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID234">5.4</linkHtml>)</content> ]</item>
+                           <item>Heart Failure and Edema [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID236">5.5</linkHtml>)</content> ]</item>
+                           <item>Renal Toxicity and Hyperkalemia [<content styleCode="italics">see Warnings and      Precautions (<linkHtml href="#ID238">5.6</linkHtml>)</content> ]</item>
+                           <item>Anaphylactic Reactions [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID240">5.7</linkHtml>)</content> ]</item>
+                           <item>Serious Skin Reactions [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID244">5.9</linkHtml>)</content> ]</item>
+                           <item>Hematologic Toxicity [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID248">5.11</linkHtml>)</content> ]</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID262">
+                     <id root="dbe6b4bb-6cfa-4c03-b030-b9b0b810b34c"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph ID="ID263">Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice.</paragraph>
+                        <paragraph>In a gastroscopic study in 45 healthy subjects, the number of gastric mucosal abnormalities was significantly higher in the group receiving indomethacin capsules than in the group taking indomethacin suppositories or placebo.</paragraph>
+                        <paragraph>In a double-blind comparative clinical study involving 175 patients with rheumatoid arthritis, however, the incidence of upper gastrointestinal adverse effects with indomethacin capsules or Suppositories was comparable. The incidence of lower gastrointestinal adverse effects was greater in the suppository group. </paragraph>
+                        <paragraph>The adverse reactions for indomethacin capsules listed in the following table have been arranged into two groups: (1) incidence greater than 1%; and (2) incidence less than 1%. The incidence for group (1) was obtained from 33 double-blind controlled clinical trials reported in the literature (1,092 patients). The incidence for group (2) was based on reports in clinical trials, in the literature, and on voluntary reports since marketing. The probability of a causal relationship exists between indomethacin capsules and these adverse reactions, some of which have been reported only rarely. </paragraph>
+                        <paragraph>The adverse reactions reported with indomethacin capsules may occur with use of the suppositories. In addition, rectal irritation and tenesmus have been reported in patients who have received the capsules.</paragraph>
+                        <table ID="ID264" width="0" styleCode="Noautorules">
+                           <caption> Table 1 Summary of Adverse Reactions for Indomethacin Capsules </caption>
+                           <col width="191"/>
+                           <col width="224"/>
+                           <col width="232"/>
+                           <tbody>
+                              <tr>
+                                 <td valign="top" styleCode="Lrule Toprule Botrule Rrule" align="left">
+                                    <content styleCode="bold">
+                                       <content styleCode="italics">Incidence greater than 1%</content>
+                                    </content>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Toprule Botrule" align="left">
+                                    <content styleCode="bold">
+                                       <content styleCode="italics">Incidence less than 1%</content>
+                                    </content>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Toprule Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule Botrule" align="left">
+                                    <content styleCode="italics">GASTROINTESTINAL </content>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule"/>
+                                 <td valign="top" styleCode=" Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode="Lrule Botrule Rrule" align="left"> nausea * with or <br/> without vomiting<br/> dyspepsia * (including indigestion, heartburn and epigastric pain) <br/> diarrhea abdominal distress or pain constipation <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> anorexia <br/> bloating (includes distension) flatulence <br/> peptic ulcer <br/> gastroenteritis <br/> rectal bleeding<br/> proctitis <br/> single or multiple ulcerations, including perforation and hemorrhage of the esophagus, stomach, duodenum or small and large intestines intestinal ulceration associated with stenosis and obstruction <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> gastrointestinal bleeding without obvious ulcer formation and perforation of preexisting <br/> sigmoid lesions (diverticulum, carcinoma, etc.) development of ulcerative colitis and regional ileitis <br/> ulcerative stomatitis <br/> toxic hepatitis and jaundice <br/> (some fatal cases have been reported)<br/> intestinal strictures <br/> (diaphragms) pancreatitis<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule Botrule" align="left">
+                                    <content styleCode="italics">CENTRAL NERVOUS SYSTEM </content>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule"/>
+                                 <td valign="top" styleCode=" Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode="Lrule Botrule Rrule" align="left"> headache (11.7%)<br/> dizziness * <br/> vertigo <br/> somnolence <br/> depression and fatigue (including malaise and listlessness) <br/>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> anxiety (includes nervousness) <br/> muscle weakness <br/> involuntary muscle movements insomnia <br/> muzziness <br/> psychic disturbances including psychotic episodes mental confusion <br/> drowsiness <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> light-headedness <br/> syncope <br/> paresthesia <br/> aggravation of epilepsy and parkinsonism <br/> depersonalization <br/> coma <br/> peripheral neuropathy <br/> convulsion <br/> dysarthria <br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule Botrule" align="left">
+                                    <content styleCode="italics">SPECIAL SENSES </content>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule"/>
+                                 <td valign="top" styleCode=" Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode="Lrule Botrule Rrule" align="left"> tinnitus <br/>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> ocular - corneal deposits and retinal disturbances, including those of the macula, have been reported in some patients on prolonged therapy with indomethacin capsules <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> blurred vision <br/> diplopia <br/> hearing disturbances, deafness <br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule Botrule" align="left">
+                                    <content styleCode="italics">CARDIOVASCULAR </content>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule"/>
+                                 <td valign="top" styleCode=" Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode="Lrule Botrule Rrule" align="left"> None <br/>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> hypertension <br/> hypotension <br/> tachycardia <br/> chest pain <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> congestive heart failure arrhythmia; palpitations <br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule Botrule" align="left">
+                                    <content styleCode="italics">METABOLIC </content>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule"/>
+                                 <td valign="top" styleCode=" Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode="Lrule Botrule Rrule" align="left"> None <br/>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> edema <br/> weight gain <br/> fluid retention <br/> flushing or sweating <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> hyperglycemia glycosuria hyperkalemia <br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule Botrule" align="left">
+                                    <content styleCode="italics">INTEGUMENTARY</content>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule"/>
+                                 <td valign="top" styleCode=" Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode="Lrule Botrule Rrule" align="left"> none <br/>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> pruritus <br/> rash; urticaria <br/> petechiae or ecchymosis <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> exfoliative dermatitis <br/> erythema nodosum <br/> loss of hair <br/> Stevens-Johnson syndrome erythema multiforme <br/> toxic epidermal necrolysis <br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule Botrule" align="left">
+                                    <content styleCode="italics">HEMATOLOGIC</content>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule"/>
+                                 <td valign="top" styleCode=" Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode="Lrule Botrule Rrule" align="left"> None <br/>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> leukopenia <br/> bone marrow depression anemia secondary to obvious or occult gastrointestinal bleeding <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> aplastic anemia <br/> hemolytic anemia <br/> agranulocytosis <br/> thrombocytopenic purpura disseminated intravascular coagulation <br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule Botrule" align="left">
+                                    <content styleCode="italics">HYPERSENSITIVITY</content>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule"/>
+                                 <td valign="top" styleCode=" Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode="Lrule Botrule Rrule" align="left"> None <br/>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> acute anaphylaxis <br/> acute respiratory distress <br/> rapid fall in blood pressure resembling <br/> a shock-like state <br/> angioedema <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> dyspnea <br/> asthma <br/> purpura <br/> angiitis pulmonary edema <br/> fever <br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule Botrule" align="left">
+                                    <content styleCode="italics">GENITOURINARY</content>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule"/>
+                                 <td valign="top" styleCode=" Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode="Lrule Botrule Rrule" align="left"> None <br/>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> hematuria <br/> vaginal bleeding <br/> proteinuria <br/> nephrotic syndrome <br/> interstitial nephritis <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> BUN elevation <br/> renal insufficiency, <br/> including renal failure <br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule Botrule" align="left">
+                                    <content styleCode="italics">MISCELLANEOUS</content>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule"/>
+                                 <td valign="top" styleCode=" Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode="Lrule Botrule Rrule" align="left"> None <br/>
+                                    <br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule" align="left"> epistaxis <br/> breast changes, including enlargement and tenderness, or gynecomastia<br/>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td colspan="3" valign="top" styleCode="Lrule Botrule Rrule" align="left">
+                                    <sup>* </sup>Reactions occurring in 3% to 9% of patients treated with indomethacin capsules. (Those reactions occurring in less than 3% of the patients are unmarked.)<br/>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph ID="ID265">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Causal relationship unknown</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Other reactions have been reported but occurred under circumstances where a causal relationship could not be established. However, in these rarely reported events, the possibility cannot be excluded. Therefore, these observations are being listed to serve as alerting information to physicians:</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cardiovascular</content>
+                        </paragraph>
+                        <paragraph>Thrombophlebitis </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hematologic</content>
+                        </paragraph>
+                        <paragraph>Although there have been several reports of leukemia, the supporting information is weak </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Genitourinary</content>
+                        </paragraph>
+                        <paragraph>Urinary frequency </paragraph>
+                        <paragraph>A rare occurrence of fulminant necrotizing fasciitis, particularly in association with Group Aβ hemolytic streptococcus, has been described in persons treated with nonsteroidal anti-inflammatory agents, including indomethacin, sometimes with fatal outcome. </paragraph>
+                     </text>
+                     <effectiveTime value="20190427"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID266">
+               <id root="f7fed567-a2c5-4e15-9250-321fbf31329a"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph ID="ID267">See Table 2 for clinically significant drug interactions with indomethacin.</paragraph>
+                  <table ID="ID268" width="100%">
+                     <caption>Table 2Clinically Significant Drug Interactions with Indomethacin Drugs That Interfere with Hemostasis</caption>
+                     <col width="21%"/>
+                     <col width="79%"/>
+                     <tbody>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Clinical </content>
+                              <content styleCode="italics">Impact</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">Indomethacin and anticoagulants such as warfarin have a synergistic effect on bleeding. The concomitant uses of indomethacin and anticoagulants have an increased risk of serious bleeding compared to the use of either drug alone. <br/>Serotonin release by platelets plays an important role in hemostasis. Case-control and cohort epidemiological studies showed that concomitant use of drugs that interfere with serotonin reuptake and an NSAID may potentiate the risk of bleeding more than an NSAID alone. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Intervention</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">Monitor patients with concomitant use of indomethacin capsules with anticoagulants (e.g., warfarin), antiplatelet agents (e.g., aspirin), selective serotonin reuptake inhibitors (SSRIs), and serotonin norepinephrine reuptake inhibitors (SNRIs) for signs of bleeding [<content styleCode="italics">see </content>
+                              <content styleCode="italics">Warnings </content>
+                              <content styleCode="italics">and </content>
+                              <content styleCode="italics">Precautions </content>
+                              <content styleCode="italics">(</content>
+                              <content styleCode="italics">5</content>
+                              <content styleCode="italics">.</content>
+                              <content styleCode="italics">11</content>)].<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Botrule Toprule">
+                              <content styleCode="bold">Aspirin</content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Rrule Botrule Toprule">
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Clinical </content>
+                              <content styleCode="italics">Impact</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">Controlled clinical studies showed that the concomitant use of NSAIDs and analgesic doses of aspirin does not produce any greater therapeutic effect than the use of NSAIDs alone. In a clinical study, the concomitant use of an NSAID and aspirin was associated with a significantly increased incidence of GI adverse reactions as compared to use of the NSAID alone [<content styleCode="italics">see </content>
+                              <content styleCode="italics">Warnings </content>
+                              <content styleCode="italics">and </content>
+                              <content styleCode="italics">Precautions </content>
+                              <content styleCode="italics">(</content>
+                              <content styleCode="italics">5</content>
+                              <content styleCode="italics">.</content>
+                              <content styleCode="italics">2</content>)]. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Intervention</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="italics">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">Concomitant use of indomethacin capsules and analgesic doses of aspirin is not generally recommended because of the increased risk of bleeding [<content styleCode="italics">see </content>
+                              <content styleCode="italics">Warnings </content>
+                              <content styleCode="italics">and </content>
+                              <content styleCode="italics">Precautions </content>
+                              <content styleCode="italics">(</content>
+                              <content styleCode="italics">5</content>
+                              <content styleCode="italics">.</content>
+                              <content styleCode="italics">11</content>)]. Indomethacin capsules are not a substitute for low dose aspirin for cardiovascular protection.<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Botrule Toprule">
+                              <content styleCode="bold">ACE </content>
+                              <content styleCode="bold">Inhibitors</content>
+                              <content styleCode="bold">, </content>
+                              <content styleCode="bold">Angiotensin </content>
+                              <content styleCode="bold">Receptor </content>
+                              <content styleCode="bold">Blockers</content>
+                              <content styleCode="bold">, </content>
+                              <content styleCode="bold">and </content>
+                              <content styleCode="bold">Beta</content>
+                              <content styleCode="bold">-</content>
+                              <content styleCode="bold">Blockers</content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Rrule Botrule Toprule">
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Clinical </content>
+                              <content styleCode="italics">Impact</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">NSAIDs may diminish the antihypertensive effect of angiotensin converting enzyme (ACE) inhibitors, angiotensin receptor blockers (ARBs), or beta-blockers (including propranolol). <br/>In patients who are elderly, volume-depleted (including those on diuretic therapy), or have renal impairment, co-administration of an NSAID with ACE inhibitors or ARBs may result in deterioration of renal function, including possible acute renal failure. These effects are usually reversible. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Intervention</content>
+                              <content styleCode="italics">:</content>
+                              <content styleCode="italics">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">During concomitant use of indomethacin capsules and ACE-inhibitors, ARBs, or beta-blockers, monitor blood pressure to ensure that the desired blood pressure is obtained. <br/>During concomitant use of Indomethacin capsules and ACE-inhibitors or ARBs in patients who are elderly, volume-depleted, or have impaired renal function, monitor for signs of worsening renal function [<content styleCode="italics">see </content>
+                              <content styleCode="italics">Warnings </content>
+                              <content styleCode="italics">and </content>
+                              <content styleCode="italics">Precautions </content>
+                              <content styleCode="italics">(</content>
+                              <content styleCode="italics">5</content>
+                              <content styleCode="italics">.</content>
+                              <content styleCode="italics">6</content>)].<content styleCode="italics">
+                                 <br/>
+                              </content>When these drugs are administered concomitantly, patients should be adequately hydrated. Assess renal function at the beginning of the concomitant treatment and periodically thereafter. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Botrule Toprule">
+                              <content styleCode="bold">Diuretics</content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Rrule Botrule Toprule">
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Clinical </content>
+                              <content styleCode="italics">Impact</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">Clinical studies, as well as post-marketing observations, showed that NSAIDs reduced the natriuretic effect of loop diuretics (e.g., furosemide) and thiazide diuretics in some patients. This effect has been attributed to the NSAID inhibition of renal prostaglandin synthesis. <br/>It has been reported that the addition of triamterene to a maintenance schedule of Indomethacin capsules resulted in reversible acute renal failure in two of four healthy volunteers. Indomethacin capsules and triamterene should not be administered together. <br/>Both Indomethacin capsules and potassium-sparing diuretics may be associated with increased serum potassium levels. The potential effects of indomethacin capsules and potassium-sparing diuretics on potassium levels and renal function should be considered when these agents are administered concurrently. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Intervention</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="italics">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">Indomethacin and triamterene should not be administered together. During concomitant use of indomethacin capsules with diuretics, observe patients for signs of worsening renal function, in addition to assuring diuretic efficacy including antihypertensive effects. <br/>Be aware that indomethacin and potassium-sparing diuretics may both be associated with increased serum potassium levels [<content styleCode="italics">see </content>
+                              <content styleCode="italics">Warnings </content>
+                              <content styleCode="italics">and </content>
+                              <content styleCode="italics">Precautions </content>
+                              <content styleCode="italics">(</content>
+                              <content styleCode="italics">5</content>
+                              <content styleCode="italics">.</content>
+                              <content styleCode="italics">6</content>)]. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Botrule Toprule">
+                              <content styleCode="bold">Digoxin</content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Rrule Botrule Toprule">
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Clinical </content>
+                              <content styleCode="italics">Impact</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">The concomitant use of indomethacin with digoxin has been reported to increase the serum concentration and prolong the half-life of digoxin. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Intervention</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="italics">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">During concomitant use of indomethacin capsules and digoxin, monitor serum digoxin levels. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Botrule Toprule">
+                              <content styleCode="bold">Lithium</content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Rrule Botrule Toprule">
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Clinical </content>
+                              <content styleCode="italics">Impact</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">NSAIDs have produced elevations in plasma lithium levels and reductions in renal lithium clearance<content styleCode="italics">. </content>The mean minimum lithium concentration increased 15%, and the renal clearance decreased by approximately 20%. This effect has been attributed to NSAID inhibition of renal prostaglandin synthesis.<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Intervention</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="italics">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">During concomitant use of indomethacin capsules and lithium, monitor patients for signs of lithium toxicity. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Botrule Toprule">
+                              <content styleCode="bold">Methotrexate</content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Rrule Botrule Toprule">
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Clinical </content>
+                              <content styleCode="italics">Impact</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">Concomitant use of NSAIDs and methotrexate may increase the risk for methotrexate toxicity (e.g., neutropenia, thrombocytopenia, renal dysfunction). <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Intervention</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="italics">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">During concomitant use of indomethacin capsules and methotrexate, monitor patients for methotrexate toxicity. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Botrule Toprule">
+                              <content styleCode="bold">Cyclosporine</content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Rrule Botrule Toprule">
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Clinical </content>
+                              <content styleCode="italics">Impact</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">Concomitant use of indomethacin capsules and cyclosporine may increase cyclosporine’s nephrotoxicity. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Intervention</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="italics">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">During concomitant use of indomethacin capsules and cyclosporine, monitor patients for signs of worsening renal function. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Botrule Toprule">
+                              <content styleCode="bold">NSAIDs </content>
+                              <content styleCode="bold">and </content>
+                              <content styleCode="bold">Salicylates</content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Rrule Botrule Toprule">
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Clinical </content>
+                              <content styleCode="italics">Impact</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">Concomitant use of indomethacin with other NSAIDs or salicylates (e.g., diflunisal, salsalate) increases the risk of GI toxicity, with little or no increase in efficacy [<content styleCode="italics">see </content>
+                              <content styleCode="italics">Warnings </content>
+                              <content styleCode="italics">and </content>
+                              <content styleCode="italics">Precautions </content>
+                              <content styleCode="italics">(</content>
+                              <content styleCode="italics">5</content>
+                              <content styleCode="italics">.</content>
+                              <content styleCode="italics">2</content>
+                              <content styleCode="italics">)]. </content>
+                              <content styleCode="italics">
+                                 <br/>
+                              </content>Combined use with diflunisal may be particularly hazardous because diflunisal causes significantly higher plasma levels of indomethacin. [see <content styleCode="italics">Clinical </content>
+                              <content styleCode="italics">Pharmacology </content>
+                              <content styleCode="italics">(</content>
+                              <content styleCode="italics">12</content>
+                              <content styleCode="italics">.</content>
+                              <content styleCode="italics">3</content>)]. <content styleCode="italics">
+                                 <br/>
+                              </content>In some patients, combined use of indomethacin and diflunisal has been associated with fatal gastrointestinal hemorrhage. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Intervention</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="italics">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">The concomitant use of indomethacin with other NSAIDs or salicylates, especially diflunisal, is not recommended. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Botrule Toprule">
+                              <content styleCode="bold">Pemetrexed</content>
+                              <content styleCode="italics">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Rrule Botrule Toprule">
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Clinical </content>
+                              <content styleCode="italics">Impact</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">Concomitant use of indomethacin capsules and pemetrexed may increase the risk of pemetrexed-associated myelosuppression, renal, and GI toxicity (see the pemetrexed prescribing information). <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Intervention</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="italics">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">During concomitant use of indomethacin capsules and pemetrexed, in patients with renal impairment whose creatinine clearance ranges from 45 to 79 mL/min, monitor for myelosuppression, renal and GI toxicity. <br/>NSAIDs with short elimination half-lives (e.g., diclofenac, indomethacin) should be avoided for a period of two days before, the day of, and two days following administration of pemetrexed. <br/>In the absence of data regarding potential interaction between pemetrexed and NSAIDs with longer half-lives (e.g., meloxicam, nabumetone), patients taking these NSAIDs should interrupt dosing for at least five days before, the day of, and two days following pemetrexed administration. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Botrule Toprule">
+                              <content styleCode="bold">Probenecid</content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Rrule Botrule Toprule">
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Clinical </content>
+                              <content styleCode="italics">Impact</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">When indomethacin is given to patients receiving probenecid, the plasma levels of indomethacin are likely to be increased. <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">
+                              <content styleCode="italics">Intervention</content>
+                              <content styleCode="italics">: </content>
+                              <br/>
+                              <content styleCode="italics">
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode=" Lrule Rrule Botrule Toprule">During the concomitant use of indomethacin capsules and probenecid, a lower total daily dosage of indomethacin may produce a satisfactory therapeutic effect. When increases in the dose of indomethacin are made, they should be made carefully and in small increments. <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="ID269">
+                     <content styleCode="bold">
+                        <content styleCode="italics">Effects on Laboratory Tests </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Indomethacin capsules reduce basal plasma renin activity (PRA), as well as those elevations of PRA induced by furosemide administration, or salt or volume depletion. These facts should be considered when evaluating plasma renin activity in hypertensive patients.</paragraph>
+                  <paragraph>False-negative results in the dexamethasone suppression test (DST) in patients being treated with indomethacin have been reported. Thus, results of the DST should be interpreted with caution in these patients.</paragraph>
+               </text>
+               <effectiveTime value="20160527"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" ID="ID353" styleCode="Disc">
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Drugs that Interfere with      Hemostasis (e.g., warfarin, aspirin, SSRIs/SNRIs)</content>
+                              </content> : Monitor      patients for bleeding who are concomitantly taking indomethacin capsules      with drugs that interfere with hemostasis. Concomitant use of indomethacin      capsules and analgesic doses of aspirin is not generally recommended (<linkHtml href="#ID266">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">ACE Inhibitors,      Angiotensin Receptor Blockers (ARB), or Beta-Blockers</content>
+                              </content> : Concomitant      use with indomethacin capsules may diminish the antihypertensive effect of      these drugs. Monitor blood pressure (<linkHtml href="#ID266">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">ACE Inhibitors and ARBs</content>
+                              </content> :      Concomitant use with indomethacin capsules in elderly, volume depleted, or      those with renal impairment may result in deterioration of renal function.      In such high risk patients, monitor for signs of worsening renal function      (<linkHtml href="#ID266">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Diuretics</content>
+                              </content> : NSAIDs      can reduce natriuretic effect of furosemide and thiazide diuretics.      Monitor patients to assure diuretic efficacy including antihypertensive      effects (<linkHtml href="#ID266">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Digoxin</content>
+                              </content> :      Concomitant use with indomethacin capsules can increase serum      concentration and prolong half-life of digoxin. Monitor serum digoxin      levels (<linkHtml href="#ID266">7</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID270">
+               <id root="b551ba24-9210-4d6b-81c6-5895a71e7977"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20160527"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph ID="ID355">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Pregnancy</content>
+                           </content>: Use of NSAIDs during the third trimester of pregnancy increases the risk of premature closure of the fetal ductus arteriosus. Avoid use of NSAIDs in pregnant women starting at 30 weeks gestation (<linkHtml href="#ID246">5.10</linkHtml>, <linkHtml href="#ID270">8</linkHtml>) </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Infertility</content>
+                           </content>: NSAIDs are associated with reversible infertility. Consider withdrawal of indomethacin capsules in women who have difficulties conceiving (<linkHtml href="#ID275">8.3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID271">
+                     <id root="b7d4e8a0-2588-42a7-8965-355a310cbf0f"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph ID="ID272">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Risk Summary</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Use of NSAIDs, including indomethacin capsules, during the third trimester of pregnancy increases the risk of premature closure of the fetal ductus arteriosus. Avoid use of NSAIDs, including indomethacin capsules, in pregnant women starting at 30 weeks of gestation (third trimester).</paragraph>
+                        <paragraph>There are no adequate and well-controlled studies of indomethacin capsules in pregnant women. Data from observational studies regarding potential embryofetal risks of NSAID use in women in the first or second trimesters of pregnancy are inconclusive. In the general U.S. population, all clinically recognized pregnancies, regardless of drug exposure, have a background rate of 2 to 4% for major malformations, and 15 to 20% for pregnancy loss. In animal reproduction studies retarded fetal ossification was observed with administration of indomethacin to mice and rats during organogenesis at doses 0.1 and 0.2 times, respectively, the maximum recommended human dose (MRHD, 200 mg). In published studies in pregnant mice, indomethacin produced maternal toxicity and death, increased fetal resorptions, and fetal malformations at 0.1 times the MRHD. When rat and mice dams were dosed during the last three days of gestation, indomethacin produced neuronal necrosis in the offspring at 0.1 and 0.05 times the MRHD, respectively [see <content styleCode="italics">Data</content>]. Based on animal data, prostaglandins have been shown to have an important role in endometrial vascular permeability, blastocyst implantation, and decidualization. In animal studies, administration of prostaglandin synthesis inhibitors such as indomethacin, resulted in increased pre- and post-implantation loss.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Clinical Considerations </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Labor or Delivery </content>
+                        </paragraph>
+                        <paragraph>There are no studies on the effects of indomethacin capsules during labor or delivery. In animal studies, NSAIDs, including indomethacin, inhibit prostaglandin synthesis, cause delayed parturition, and increase the incidence of stillbirth. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Data </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal data </content>
+                        </paragraph>
+                        <paragraph>Reproductive studies were conducted in mice and rats at dosages of 0.5, 1.0, 2.0, and 4.0mg/kg/day. Except for retarded fetal ossification at 4 mg/kg/day (0.1 times [mice] and 0.2 times [rats] the MRHD on a mg/m<sup>2</sup>basis, respectively) considered secondary to the decreased average fetal weights, no increase in fetal malformations was observed as compared with control groups. Other studies in mice reported in the literature using higher doses (5 to 15 mg/kg/day, 0.1 to 0.4 times MRHD on a mg/m<sup>2</sup>basis) have described maternal toxicity and death, increased fetal resorptions, and fetal malformations.</paragraph>
+                        <paragraph>In rats and mice, maternal indomethacin administration of 4.0 mg/kg/day (0.2 times and 0.1 times the MRHD on a mg/m<sup>2</sup>basis) during the last 3 days of gestation was associated with an increased incidence of neuronal necrosis in the diencephalon in the live-born fetuses however no increase in neuronal necrosis was observed at 2.0 mg/kg/day as compared to the control groups (0.1 times and 0.05 times the MRHD on a mg/m<sup>2</sup>basis). Administration of 0.5 or 4.0 mg/kg/day to offspring during the first 3 days of life did not cause an increase in neuronal necrosis at either dose level.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID273">
+                     <id root="8df0b6ea-ed0f-4103-a0ad-971820cc66b9"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph ID="ID274">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Risk Summary</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Based on available published clinical data, indomethacin may be present in human milk. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for indomethacin capsules and any potential adverse effects on the breastfed infant from the indomethacin capsules or from the underlying maternal condition.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Data </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>In one study, levels of indomethacin in breast milk were below the sensitivity of the assay (&lt;20 mcg/L) in 11 of 15 women using doses ranging from 75 mg orally to 300 mg rectally daily (0.94 to 4.29 mg/kg daily) in the postpartum period. Based on these levels, the average concentration present in breast milk was estimated to be 0.27% of the maternal weight-adjusted dose. In another study indomethacin levels were measured in breast milk of eight postpartum women using doses of 75 mg daily and the results were used to calculate an estimated infant daily dose. The estimated infant dose of indomethacin from breast milk was less than 30 mcg/day or 4.5 mcg/ kg/day assuming breast milk intake of 150 mL/kg/day. This is 0.5% of the maternal weight-adjusted dosage or about 3% of the neonatal dose for treatment of patent ductus arteriosus.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID275">
+                     <id root="8964b719-f5e5-4742-b573-07d03d96fe2e"/>
+                     <title>8.3 Females and Males of Reproductive Potential</title>
+                     <text>
+                        <paragraph ID="ID276">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Infertility </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Females </content>
+                        </paragraph>
+                        <paragraph>Based on the mechanism of action, the use of prostaglandin-mediated NSAIDs, including indomethacin capsules, may delay or prevent rupture of ovarian follicles, which has been associated with reversible infertility in some women. Published animal studies have shown that administration of prostaglandin synthesis inhibitors has the potential to disrupt prostaglandin-mediated follicular rupture required for ovulation. Small studies in women treated with NSAIDs have also shown a reversible delay in ovulation. Consider withdrawal of NSAIDs, including indomethacin capsules, in women who have difficulties conceiving or who are undergoing investigation of infertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID277">
+                     <id root="d0906d24-95e9-4b23-b9a8-4fe74fbad169"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph ID="ID278">Safety and effectiveness in pediatric patients 14 years of age and younger has not been established.</paragraph>
+                        <paragraph>Indomethacin capsules should not be prescribed for pediatric patients 14 years of age and younger unless toxicity or lack of efficacy associated with other drugs warrants the risk. </paragraph>
+                        <paragraph>In experience with more than 900 pediatric patients reported in the literature or to the manufacturer who were treated with indomethacin capsules, side effects in pediatric patients were comparable to those reported in adults. Experience in pediatric patients has been confined to the use of indomethacin capsules. </paragraph>
+                        <paragraph>If a decision is made to use indomethacin for pediatric patients two years of age or older, such patients should be monitored closely and periodic assessment of liver function is recommended. There have been cases of hepatotoxicity reported in pediatric patients with juvenile rheumatoid arthritis, including fatalities. If indomethacin treatment is instituted, a suggested starting dose is 1 to 2 mg/kg/day given in divided doses. Maximum daily dosage should not exceed 3 mg/kg/day or 150 to 200 mg/day, whichever is less. Limited data are available to support the use of a maximum daily dosage of 4 mg/kg/day or 150 to 200 mg/day, whichever is less. As symptoms subside, the total daily dosage should be reduced to the lowest level required to control symptoms, or the drug should be discontinued.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID279">
+                     <id root="0ea050c2-0f0d-4cc5-bff8-25fb8cc75f46"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph ID="ID280">Elderly patients, compared to younger patients, are at greater risk for NSAID-associated serious cardiovascular, gastrointestinal, and/or renal adverse reactions. If the anticipated benefit for the elderly patient outweighs these potential risks, start dosing at the low end of the dosing range, and monitor patients for adverse effects [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID227">5.1</linkHtml>, <linkHtml href="#ID229">5.2</linkHtml>, <linkHtml href="#ID232">5.3</linkHtml>, <linkHtml href="#ID238">5.6</linkHtml>, <linkHtml href="#ID252">5.13</linkHtml>)</content>].</paragraph>
+                        <paragraph>Indomethacin may cause confusion or rarely, psychosis [<content styleCode="italics">see Adverse Reactions (<linkHtml href="#ID262">6.1</linkHtml>)</content>]<content styleCode="italics">; </content>physicians should remain alert to the possibility of such adverse effects in the elderly.</paragraph>
+                        <paragraph>Indomethacin and its metabolites are known to be substantially excreted by the kidneys, and the risk of adverse reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, use caution in this patient population, and it may be useful to monitor renal function [see <content styleCode="italics">Clinical Pharmacology (<linkHtml href="#ID290">12.3</linkHtml>
+                           </content>)].</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID281">
+               <id root="1cd404cb-6ee6-4791-bb2b-f238f87345c8"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph ID="ID282">Symptoms following acute NSAID overdosages have been typically limited to lethargy, drowsiness, nausea, vomiting, and epigastric pain, which have been generally reversible with supportive care. Gastrointestinal bleeding has occurred. Hypertension, acute renal failure, respiratory depression, and coma have occurred, but were rare [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID227">5.1</linkHtml>, <linkHtml href="#ID229">5.2</linkHtml>, <linkHtml href="#ID234">5.4</linkHtml>, <linkHtml href="#ID238">5.6</linkHtml>)</content>].</paragraph>
+                  <paragraph>Manage patients with symptomatic and supportive care following an NSAID overdosage. There are no specific antidotes. Consider emesis and/or activated charcoal (60 to 100 grams in adults, 1 to 2 grams per kg of body weight in pediatric patients) and/or osmotic cathartic in symptomatic patients seen within four hours of ingestion or in patients with a large overdosage (5 to 10 times the recommended dosage). Forced diuresis, alkalinization of urine, hemodialysis, or hemoperfusion may not be useful due to high protein binding. </paragraph>
+                  <paragraph>For additional information about overdosage treatment contact a poison control center (1800-222-1222).</paragraph>
+               </text>
+               <effectiveTime value="20160527"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID283">
+               <id root="139bc072-da5a-4b51-8c60-f24527168f81"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph ID="ID284">Indomethacin capsules, USP for oral administration are provided in two dosage strengths which contain either 25 mg or 50 mg of indomethacin. Indomethacin is a non-steroidal anti-inflammatory indole derivative designated chemically as 1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1H-indole-3-acetic acid.</paragraph>
+                  <paragraph>The structural formula is:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph ID="ID286">C<sub>19</sub>H<sub>16</sub>ClNO<sub>4</sub> M.W. 357.79</paragraph>
+                  <paragraph>Indomethacin, USP is white to yellowish crystalline powder, having not more than a slight odor. It is sensitive to light, melts at about 162°C and exhibits polymorphism. It is practically insoluble in water and sparingly soluble in alcohol. It has a pKa of 4.5 and is stable in neutral or slightly acidic media and decomposes in strong alkali.</paragraph>
+                  <paragraph>Each indomethacin capsule, USP intended for oral administration contains 25mg or 50 mg of indomethacin. In addition, each capsule also contains the following inactive ingredients: colloidal silicon dioxide, gelatin, FD&amp;C Blue #1, FD&amp;C Yellow #5, magnesium stearate, microcrystalline cellulose, powdered cellulose, sodium lauryl sulphate, sodium starch glycolate and titanium dioxide. The capsule is printed with black pharmaceutical ink which contains black iron oxide as coloring agent.</paragraph>
+               </text>
+               <effectiveTime value="20190425"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Indomethacin Capsules, USP</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="f1b40b09-2845-4ad8-9acc-1a3d16d53dc7-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID287">
+               <id root="cc2d8442-b25a-4258-ad1a-5765ea8b0cd6"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20160527"/>
+               <component>
+                  <section ID="ID288">
+                     <id root="a84b3495-a859-4367-9ade-8b9998dfd833"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph ID="ID289">Indomethacin has analgesic, anti-inflammatory, and antipyretic properties.</paragraph>
+                        <paragraph>The mechanism of action of indomethacin capsules, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2). </paragraph>
+                        <paragraph>Indomethacin is a potent inhibitor of prostaglandin synthesis <content styleCode="italics">in vitro</content>. Indomethacin concentrations reached during therapy have produced <content styleCode="italics">in vivo</content> effects. Prostaglandins sensitize afferent nerves and potentiate the action of bradykinin in inducing pain in animal models. Prostaglandins are mediators of inflammation. Because indomethacin is an inhibitor of prostaglandin synthesis, its mode of action may be due to a decrease of prostaglandins in peripheral tissues.</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID290">
+                     <id root="9c737d55-c712-451b-b502-0235d3cb734e"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph ID="ID291">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Absorption</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Following single oral doses of indomethacin capsules 25 mg or 50 mg, indomethacin is readily absorbed, attaining peak plasma concentrations of about 1 and 2 mcg/mL, respectively, at about 2 hours. Orally administered indomethacin capsules are virtually 100% bioavailable, with 90% of the dose absorbed within 4 hours. A single 50 mg dose of indomethacin oral suspension was found to be bioequivalent to a 50 mg indomethacin capsules when each was administered with food. With a typical therapeutic regimen of 25 or 50 mg three times a day, the steady-state plasma concentrations of indomethacin are an average 1.4 times those following the first dose.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Distribution </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Indomethacin is highly bound to protein in plasma (about 99%) over the expected range of therapeutic plasma concentrations. Indomethacin has been found to cross the blood-brain barrier and the placenta, and appears in breast milk.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Elimination </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism </content>
+                        </paragraph>
+                        <paragraph>Indomethacin exists in the plasma as the parent drug and its desmethyl, desbenzoyl, and desmethyldesbenzoyl metabolites, all in the unconjugated form. Appreciable formation of glucuronide conjugates of each metabolite and of indomethacin are formed. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Excretion </content>
+                        </paragraph>
+                        <paragraph>Indomethacin is eliminated via renal excretion, metabolism, and biliary excretion. Indomethacin undergoes appreciable enterohepatic circulation. About 60% of an oral dose is recovered in urine as drug and metabolites (26% as indomethacin and its glucuronide), and 33% is recovered in feces (1.5% as indomethacin). The mean half-life of indomethacin is estimated to be about 4.5 hours.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Specific Populations </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Pediatric </content>
+                        </paragraph>
+                        <paragraph>The pharmacokinetics of indomethacin capsules has not been investigated in pediatric patients.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Race</content>
+                        </paragraph>
+                        <paragraph>Pharmacokinetic differences due to race have not been identified. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hepatic Impairment</content>
+                        </paragraph>
+                        <paragraph>The pharmacokinetics of indomethacin capsules has not been investigated in patients with hepatic impairment. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Renal Impairment</content>
+                        </paragraph>
+                        <paragraph>The pharmacokinetics of indomethacin capsules has not been investigated in patients with renal impairment [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID238">5.6</linkHtml>)]</content>. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Drug Interaction Studies </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Aspirin</content>
+                        </paragraph>
+                        <paragraph>In a study in normal volunteers, it was found that chronic concurrent administration of 3.6 g of aspirin per day decreases indomethacin blood levels approximately 20% [<content styleCode="italics">see Drug Interactions (<linkHtml href="#ID266">7</linkHtml>)]</content>. </paragraph>
+                        <paragraph>When NSAIDs were administered with aspirin, the protein binding of NSAIDs were reduced, although the clearance of free NSAID was not altered. The clinical significance of this interaction is not known. See Table 2 for clinically significant drug interactions of NSAIDs with aspirin [<content styleCode="italics">see Drug Interactions (<linkHtml href="#ID266">7</linkHtml>)</content>]<content styleCode="italics">. </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Diflunisal</content>
+                        </paragraph>
+                        <paragraph>In normal volunteers receiving indomethacin, the administration of diflunisal decreased the renal clearance and significantly increased the plasma levels of indomethacin [<content styleCode="italics">see Drug Interactions (7)</content>]<content styleCode="italics">. </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID292">
+               <id root="aabda353-473c-4d57-96ee-46fe691a8e54"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20160527"/>
+               <component>
+                  <section ID="ID293">
+                     <id root="c172be64-6cca-437b-af0a-5f24c4751178"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph ID="ID294">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Carcinogenesis</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>In an 81-week chronic oral toxicity study in the rat at doses up to 1 mg/kg/day (0.05 times the MRHD on a mg/m<sup>2</sup>basis), indomethacin had no tumorigenic effect. Indomethacin produced no neoplastic or hyperplastic changes related to treatment in carcinogenic studies in the rat (dosing period 73 to 110 weeks) and the mouse (dosing period 62 to 88 weeks) at doses up to 1.5 mg/kg/day (0.04 times [mice] and 0.07 times [rats] the MRHD on a mg/m<sup>2</sup>basis, respectively).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Mutagenesis</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Indomethacin did not have any mutagenic effect in <content styleCode="italics">in vitro</content> bacterial tests and a series of <content styleCode="italics">in vivo</content> tests including the host-mediated assay, sex-linked recessive lethals in Drosophila, and the micronucleus test in mice.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Impairment of Fertility</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Indomethacin at dosage levels up to 0.5 mg/kg/day had no effect on fertility in mice in a two generation reproduction study (0.01 times the MRHD on a mg/m<sup>2</sup>basis) or a two litter reproduction study in rats (0.02 times the MRHD on a mg/m<sup>2</sup>basis).</paragraph>
+                     </text>
+                     <effectiveTime value="20160527"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID295">
+               <id root="935425cd-ee27-4092-aefa-c12d02148ee5"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph ID="ID296">Indomethacin capsules have been shown to be an effective anti-inflammatory agent, appropriate for long-term use in rheumatoid arthritis, ankylosing spondylitis, and osteoarthritis. </paragraph>
+                  <paragraph>Indomethacin capsules afford relief of symptoms; it does not alter the progressive course of the underlying disease. </paragraph>
+                  <paragraph>Indomethacin capsules suppress inflammation in rheumatoid arthritis as demonstrated by relief of pain, and reduction of fever, swelling and tenderness. Improvement in patients treated with indomethacin capsules for rheumatoid arthritis has been demonstrated by a reduction in joint swelling, average number of joints involved, and morning stiffness; by increased mobility as demonstrated by a decrease in walking time; and by improved functional capability as demonstrated by an increase in grip strength. Indomethacin capsules may enable the reduction of steroid dosage in patients receiving steroids for the more severe forms of rheumatoid arthritis. In such instances the steroid dosage should be reduced slowly and the patients followed very closely for any possible adverse effects.</paragraph>
+               </text>
+               <effectiveTime value="20160527"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID297">
+               <id root="31a61fb0-b95b-4540-8e5f-81b0a596e2cb"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph ID="ID298">Indomethacin Capsules USP, 25 mg are off-white to light yellow, free flowing granular powder filled in size '3' hard gelatin capsules with green colored cap imprinted with "293" in black ink and green colored body imprinted with "25 mg" in black ink and are supplied as follows:</paragraph>
+                  <paragraph>NDC 68382-293-01 in bottle of 100 capsules</paragraph>
+                  <paragraph>NDC 68382-293-05 in bottle of 500 capsules</paragraph>
+                  <paragraph>NDC 68382-293-10 in bottle of 1000 capsules</paragraph>
+                  <paragraph>NDC 68382-293-30 in cartons containing 100 (10 X 10) unit-dose blisters</paragraph>
+                  <paragraph>Indomethacin Capsules USP, 50 mg are off-white to light yellow, free flowing granular powder filled in size '1' hard gelatin capsules with green colored cap imprinted with "294" in black ink and green colored body imprinted with "50 mg" in black ink and are supplied as follows:</paragraph>
+                  <paragraph>NDC 68382-294-01 in bottle of 100 capsules</paragraph>
+                  <paragraph>NDC 68382-294-05 in bottle of 500 capsules</paragraph>
+                  <paragraph>NDC 68382-294-10 in bottle of 1000 capsules</paragraph>
+                  <paragraph>NDC 68382-294-30 in cartons containing 100 (10 X 10) unit-dose blisters</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage:</content>
+                  </paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature]. Protect from light.</paragraph>
+                  <paragraph>Dispense in a tight, light-resistant container using a child-resistant closure.</paragraph>
+               </text>
+               <effectiveTime value="20160527"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID299">
+               <id root="178699f1-258e-49d1-9988-69e23650d3f6"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph ID="ID300">Advise the patient to read the FDA-approved patient labeling (Medication Guide) that accompanies each prescription dispensed. Inform patients, families, or their caregivers of the following information before initiating therapy with indomethacin capsules and periodically during the course of ongoing therapy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Cardiovascular Thrombotic Events</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Advise patients to be alert for the symptoms of cardiovascular thrombotic events, including chest pain, shortness of breath, weakness, or slurring of speech, and to report any of these symptoms to their health care provider immediately [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID227">5.1</linkHtml>)</content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Gastrointestinal Bleeding, Ulceration, and Perforation</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Advise patients to report symptoms of ulcerations and bleeding, including epigastric pain, dyspepsia, melena, and hematemesis to their health care provider. In the setting of concomitant use of low-dose aspirin for cardiac prophylaxis, inform patients of the increased risk for and the signs and symptoms of GI bleeding [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID229">5.2</linkHtml>)</content>]. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hepatotoxicity </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Inform patients of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, pruritus, diarrhea, jaundice, right upper quadrant tenderness, and "flu-like" symptoms). If these occur, instruct patients to stop indomethacin capsules and seek immediate medical therapy [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID232">5.3</linkHtml>)</content>]. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Heart Failure and Edema </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Advise patients to be alert for the symptoms of congestive heart failure including shortness of breath, unexplained weight gain, or edema and to contact their healthcare provider if such symptoms occur [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID236">5.5</linkHtml>)</content>]. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Anaphylactic Reactions </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Inform patients of the signs of an anaphylactic reaction (e.g., difficulty breathing, swelling of the face or throat). Instruct patients to seek immediate emergency help if these occur [<content styleCode="italics">see Contraindications (<linkHtml href="#ID222">4</linkHtml>) and Warnings and Precautions (<linkHtml href="#ID240">5.7</linkHtml>
+                     </content>)]. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Serious Skin Reactions </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Advise patients to stop indomethacin capsules immediately if they develop any type of rash and to contact their healthcare provider as soon as possible [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID244">5.9</linkHtml>)</content>]. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Female Fertility </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Advise females of reproductive potential who desire pregnancy that NSAIDs, including indomethacin capsules, may be associated with a reversible delay in ovulation [<content styleCode="italics">see Use in Specific Populations (<linkHtml href="#ID275">8.3</linkHtml>)</content>]. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Fetal Toxicity </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Inform pregnant women to avoid use of indomethacin capsules and other NSAIDs starting at 30 weeks gestation because of the risk of the premature closing of the fetal ductus arteriosus [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#ID246">5.10</linkHtml>) and Use in Specific Populations (<linkHtml href="#ID271">8.1</linkHtml>)</content>]. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Avoid Concomitant Use of NSAIDs </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Inform patients that the concomitant use of indomethacin  capsules with other NSAIDs or salicylates (e.g., diflunisal, salsalate) is not recommended due to the increased risk of gastrointestinal toxicity, and little or no increase in efficacy [see <content styleCode="italics">Warnings and Precautions (<linkHtml href="#ID229">5.2</linkHtml>) and Drug Interactions (<linkHtml href="#ID266">7</linkHtml>)</content>]. Alert patients that NSAIDs may be present in "over the counter" medications for treatment of colds, fever, or insomnia. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Use of NSAIDs and Low-Dose Aspirin </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Inform patients not to use low-dose aspirin concomitantly with indomethacin capsules until they talk to their healthcare provider [<content styleCode="italics">see Drug Interactions (<linkHtml href="#ID266">7</linkHtml>)</content>].</paragraph>
+               </text>
+               <effectiveTime value="20190425"/>
+               <component>
+                  <section ID="ID301">
+                     <id root="bf2e7d0f-697c-4f21-a35c-18a5c7c998c8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph ID="ID302">
+                           <content styleCode="bold">Manufactured by:</content>
+                        </paragraph>
+                        <paragraph>Cadila Healthcare Ltd.</paragraph>
+                        <paragraph>Ahmedabad, India</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Distributed by:</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Zydus Pharmaceuticals (USA) Inc.</content>
+                        </paragraph>
+                        <paragraph>Pennington, NJ 08534</paragraph>
+                        <paragraph>Rev.: 04/19</paragraph>
+                     </text>
+                     <effectiveTime value="20190425"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID303">
+               <id root="8924a61f-2ba9-4d46-ae9b-939c67f9fe64"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <paragraph ID="ID304">
+                     <content styleCode="bold">Medication Guide for Nonsteroidal Anti-inflammatory Drugs (NSAIDs)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NSAIDs can cause serious side effects, including: </content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID360" styleCode="Disc">
+                     <item>
+                        <content styleCode="bold">Increased risk of a heart attack or stroke that can lead to death</content> . This risk may happen early in treatment and may increase:<list listType="unordered" styleCode="Circle">
+                           <item>with increasing doses of NSAIDs</item>
+                           <item>with longer use of NSAIDs</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph ID="ID361">
+                     <content styleCode="bold">Do not take NSAIDs right before or after a heart surgery called a "coronary artery bypass graft (CABG)." </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Avoid taking NSAIDs after a recent heart attack, unless your healthcare provider tells you to. You may have an increased risk of another heart attack if you take NSAIDs after a recent heart attack. </content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID305" styleCode="Disc">
+                     <item>
+                        <content styleCode="bold">Increased risk of bleeding, ulcers, and tears (perforation) of the esophagus (tube leading from the mouth to the stomach), stomach and intestines: </content>
+                        <list listType="unordered" styleCode="Circle">
+                           <item>anytime during use</item>
+                           <item>without warning symptoms</item>
+                           <item>that may cause death</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph ID="ID306">
+                     <content styleCode="bold">The risk of getting an ulcer or bleeding increases with: </content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID356" styleCode="Disc">
+                     <item>past history of stomach ulcers,      or stomach or intestinal bleeding with use of NSAIDs</item>
+                     <item>taking medicines called "corticosteroids",      "anticoagulants", "SSRIs", or "SNRIs"</item>
+                     <item>increasing doses of NSAIDs</item>
+                     <item>longer use of NSAIDs</item>
+                     <item>smoking</item>
+                     <item>drinking alcohol</item>
+                     <item>older age</item>
+                     <item>poor health</item>
+                     <item>advanced liver disease</item>
+                     <item>bleeding problems</item>
+                  </list>
+                  <paragraph ID="ID357">
+                     <content styleCode="bold">NSAIDs should only be used:</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID358" styleCode="Disc">
+                     <item>exactly as prescribed</item>
+                     <item>at the lowest dose possible for your treatment</item>
+                     <item>for the shortest time needed</item>
+                  </list>
+                  <paragraph ID="ID359">
+                     <content styleCode="bold">What are NSAIDs? </content>
+                  </paragraph>
+                  <paragraph>NSAIDs are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as different types of arthritis, menstrual cramps, and other types of short-term pain. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Who should not take NSAIDs? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not take NSAIDs: </content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID307" styleCode="Disc">
+                     <item>if you have had an asthma attack, hives, or other allergic      reaction with aspirin or any other NSAIDs.</item>
+                     <item>right before or after heart bypass surgery.</item>
+                  </list>
+                  <paragraph ID="ID308">
+                     <content styleCode="bold">Before taking NSAIDs, tell your healthcare provider about all of your medical conditions, including if you: </content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID309" styleCode="Disc">
+                     <item>have liver or kidney problems</item>
+                     <item>have high blood pressure</item>
+                     <item>have asthma</item>
+                     <item>are pregnant or plan to become pregnant. Talk to your      healthcare provider if you are considering taking NSAIDs during pregnancy. <content styleCode="bold">You should not take NSAIDs after 29 weeks of pregnancy. </content>
+                     </item>
+                     <item>are breastfeeding or plan to breast feed<content styleCode="bold">. </content>
+                     </item>
+                  </list>
+                  <paragraph ID="ID310">
+                     <content styleCode="bold">Tell your healthcare provider about all of the medicines you take, including prescription or over-the counter medicines, vitamins or herbal supplements. </content>NSAIDs and some other medicines can interact with each other and cause serious side effects. <content styleCode="bold">Do not start taking any new medicine without talking to your healthcare provider first. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of NSAIDs? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NSAIDs can cause serious side effects, including: </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">See "What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)?" </content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID311" styleCode="Disc">
+                     <item>new or worse high blood pressure</item>
+                     <item>heart failure</item>
+                     <item>liver problems including liver failure</item>
+                     <item>kidney problems including kidney failure</item>
+                     <item>low red blood cells (anemia)</item>
+                     <item>life-threatening skin reactions</item>
+                     <item>life-threatening allergic reactions</item>
+                     <item>
+                        <content styleCode="bold">Other side effects of NSAIDs include: </content> stomach pain, constipation, diarrhea, gas, heartburn, nausea, vomiting, and dizziness.</item>
+                  </list>
+                  <paragraph ID="ID312">
+                     <content styleCode="bold">Get emergency help right away if you get any of the following symptoms: </content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID313" styleCode="Disc">
+                     <item>shortness of breath or trouble breathing</item>
+                     <item>chest pain</item>
+                     <item>weakness in one part or side of your body</item>
+                     <item>slurred speech</item>
+                     <item>swelling of the face or throat</item>
+                  </list>
+                  <paragraph ID="ID314">
+                     <content styleCode="bold">Stop taking your NSAID and call your healthcare provider right away if you get any of the following symptoms: </content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID315" styleCode="Disc">
+                     <item>nausea</item>
+                     <item>more tired or weaker than usual</item>
+                     <item>diarrhea</item>
+                     <item>itching</item>
+                     <item>your skin or eyes look yellow</item>
+                     <item>indigestion or stomach pain</item>
+                     <item>flu-like symptoms</item>
+                     <item>vomit blood</item>
+                     <item>there is blood in your bowel movement or it is black and sticky like tar</item>
+                     <item>unusual weight gain</item>
+                     <item>skin rash or blisters with fever</item>
+                     <item>swelling of the arms, legs, hands and feet</item>
+                  </list>
+                  <paragraph ID="ID316">
+                     <content styleCode="bold">If you take too much of your NSAID, call your healthcare provider or get medical help right away. </content>These are not all the possible side effects of NSAIDs. For more information, ask your healthcare provider or pharmacist about NSAIDs. </paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other information about NSAIDs</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID317" styleCode="Disc">
+                     <item>Aspirin is an NSAID but it does not increase the chance of      a heart attack. Aspirin can cause bleeding in the brain, stomach, and      intestines. Aspirin can also cause ulcers in the stomach and intestines.</item>
+                     <item>Some NSAIDs are sold in lower doses without a prescription      (over-the-counter). Talk to your healthcare provider before using      over-the-counter NSAIDs for more than 10 days.</item>
+                  </list>
+                  <paragraph ID="ID318">
+                     <content styleCode="bold">General information about the safe and effective use of NSAIDs </content>
+                  </paragraph>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use NSAIDs for a condition for which it was not prescribed. Do not give NSAIDs to other people, even if they have the same symptoms that you have. It may harm them. </paragraph>
+                  <paragraph>If you would like more information about NSAIDs, talk with your healthcare provider. You can ask your pharmacist or healthcare provider for information about NSAIDs that is written for health professionals. </paragraph>
+                  <paragraph>Please address medical inquiries to, (MedicalAffairs@zydususa.com) Tel.: 1-877-993-8779.</paragraph>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration.</paragraph>
+               </text>
+               <effectiveTime value="20160527"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID319">
+               <id root="c58f5ea5-bad2-4ccb-9a48-1a596aeab23e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph ID="ID320">
+                     <content styleCode="bold">Manufactured by:</content>
+                  </paragraph>
+                  <paragraph>Cadila Healthcare Ltd.</paragraph>
+                  <paragraph>Ahmedabad, India</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Zydus Pharmaceuticals (USA) Inc.</content>
+                  </paragraph>
+                  <paragraph>Pennington, NJ 08534</paragraph>
+                  <paragraph>Rev.: 05/16</paragraph>
+               </text>
+               <effectiveTime value="20190427"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID321">
+               <id root="9441f911-5e3d-4db8-b5b0-69474f47ae6b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph ID="ID322">NDC 68382-293-01</paragraph>
+                  <paragraph>Indomethacin capsules USP, 25 mg </paragraph>
+                  <paragraph>100 Capsules</paragraph>
+                  <paragraph>Zydus</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph ID="ID324">NDC 68382-294-01</paragraph>
+                  <paragraph>Indomethacin capsules USP, 50 mg </paragraph>
+                  <paragraph>100 Capsules</paragraph>
+                  <paragraph>Zydus</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20190425"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Indomethacin Capsules, USP</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="f1b40b09-2845-4ad8-9acc-1a3d16d53dc7-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>IndomethacineCapsules, USP</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="f1b40b09-2845-4ad8-9acc-1a3d16d53dc7-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
