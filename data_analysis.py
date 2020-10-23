@@ -9,7 +9,7 @@ if __name__ == '__main__':
     mesh_ids_filename = 'mesh_ids.json'
     term_distribution_across_labeling_filename = 'output/term_distribution_across_labeling.json'
     term_count_across_labeling_filename = 'output/term_count_across_labeling.json'
-    summary_filename = 'output/summary_filename.json'
+    summary_filename = 'output/summary_data_analysis.json'
 
     with open(mesh_ids_filename, mode='r') as f:
         content = json.load(f)
