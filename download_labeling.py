@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 def download_files():
     data = pd.read_csv('NASID_clean_data.csv')
 
-    out_dir = 'XML Files/'
+    out_dir = 'xml-files/'
     last_set_id = open('temp_file.txt', 'r').read()
     searching_set_id = True
 
@@ -74,7 +74,7 @@ if __name__ == '__main__':
     # download_files()
 
     # download labeling in JSON format
-    xml_files = [f for f in glob.glob('XML Files/*.xml')]
+    xml_files = [f for f in glob.glob('xml-files/*.xml')]
     labels = {}
 
     for i, xml_file in enumerate(xml_files):
