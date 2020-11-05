@@ -1,6 +1,7 @@
 import glob
 import io
 import json
+import os
 import zipfile
 
 import pandas as pd
@@ -9,10 +10,12 @@ from bs4 import BeautifulSoup
 
 
 def download_files():
-    data = pd.read_csv('NASID_clean_data.csv')
+    global base_dir
+
+    data = pd.read_csv('fdalabel-query-111031.csv')
 
     out_dir = 'xml-files/'
-    last_set_id = open('temp_file.txt', 'r').read()
+    last_set_id = open(base_dir + 'temp_file.txt', 'r').read() if os.path.isfile(base_dir + 'temp_file.txt') else ''
     searching_set_id = True
 
     for i, SET_ID in enumerate(data['SET ID']):
@@ -22,7 +25,7 @@ def download_files():
         searching_set_id = False
 
         # save current SET_ID to temp file
-        open('temp_file.txt', 'w').write(SET_ID)
+        open(base_dir + 'temp_file.txt', 'w').write(SET_ID)
 
         # download ZIP file
         link = f'https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid={SET_ID}&type=zip'
@@ -33,7 +36,7 @@ def download_files():
             z = zipfile.ZipFile(io.BytesIO(r.content))
         except Exception as e:
             print(e)
-            open('skipped_files.txt', 'a').write(SET_ID + '\n')
+            open(base_dir + 'skipped_files.txt', 'a').write(SET_ID + '\n')
             continue
 
         list_of_file_names = z.namelist()
@@ -44,10 +47,12 @@ def download_files():
                 z.extract(fileName, out_dir)
 
     # empty temp file when all XML files are downloaded
-    open('temp_file.txt', 'w').write('')
+    open(base_dir + 'temp_file.txt', 'w').write('')
 
 
 def parse_xml(filename):
+    global base_dir
+
     file_content = open(filename, mode='r', encoding='utf-8').read()
     soup = BeautifulSoup(file_content, 'lxml')
     labeling = []
@@ -70,8 +75,11 @@ def dump_to_json(json_data, filename):
 
 
 if __name__ == '__main__':
+    global base_dir
+    base_dir = 'log/fdalabel-query-111031/'
+
     # download XML files
-    # download_files()
+    download_files()
 
     # download labeling in JSON format
     xml_files = [f for f in glob.glob('xml-files/*.xml')]
@@ -81,4 +89,4 @@ if __name__ == '__main__':
         print(f'parsing file [{i}]: {xml_file}')
         labels[xml_file] = parse_xml(xml_file)
 
-    dump_to_json(labels, 'json_data.json')
+    dump_to_json(labels, base_dir + 'json_data.json')
