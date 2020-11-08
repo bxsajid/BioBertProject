@@ -8,4 +8,4 @@
 
 ## Working
 1. Run `pyhton download_labeling.py` to download XML files against setid in `fdalabel-query-111031.csv`.
-2. 
+2. Run `python check_similarity.py` to find Jaccard and Cosine similarity.

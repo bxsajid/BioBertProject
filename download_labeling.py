@@ -8,6 +8,8 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
+from helper.dump_to_json import dump_to_json
+
 
 def download_files():
     global base_dir
@@ -68,12 +70,6 @@ def parse_xml(filename):
     return labeling
 
 
-def dump_to_json(json_data, filename):
-    data = json.dumps(json_data)
-    with open(filename, 'w') as f:
-        f.write(data)
-
-
 if __name__ == '__main__':
     global base_dir
     base_dir = 'log/fdalabel-query-111031/'
@@ -89,4 +85,4 @@ if __name__ == '__main__':
         print(f'parsing file [{i}]: {xml_file}')
         labels[xml_file] = parse_xml(xml_file)
 
-    dump_to_json(labels, base_dir + 'json_data.json')
+    dump_to_json(labels, base_dir + 'json_data.json', indent=False)
