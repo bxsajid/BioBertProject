@@ -15,7 +15,11 @@
 1. Run `pyhton download_labeling.py` to download XML files against setid in `fdalabel-query-111031.csv`.
 2. Run `python check_similarity.py` to find Jaccard and Cosine similarity.
 
-#### Phase 3
+### Phase 3
 
-1. Run `convert_text_to_bio_schema.py` to convert XML files descriptions to BIO schema format.
-2. [TODO] Run this code on content of `json_data.json`.
+Run `convert_text_to_bio_schema.py` to convert XML files descriptions to BIO schema format.
+
+### [TODO]
+
+1. Convert content of `json_data.json` to single long text and write to file `description/all-description.txt`.
+2. Run `convert_text_to_bio_schema.py` on content of `description/all-description.txt`.
