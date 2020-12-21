@@ -55,7 +55,8 @@ if __name__ == '__main__':
 
             open(description_filename, mode='w', encoding='utf-8').write(description_str)
             filesize = os.stat(description_filename).st_size
-            print(f'parsing description: {filename}, index: [{i} of {len(description)}], size: {(filesize / 1024):.2f} KB')
+            print(
+                f'parsing description: {filename}, index: [{i} of {len(description)}], size: {(filesize / 1024):.2f} KB')
 
             try:
                 response = query_raw(description)
