@@ -1,10 +1,33 @@
 import gzip
 import json
+import re
+
+
+def convert_json_to_text_file() -> None:
+    json_data_filename = 'json_data.json'
+    description_filename = 'description/all-description.txt'
+
+    # load labeling from JSON
+    with open(json_data_filename, mode='r', encoding='utf-8') as f:
+        filenames = json.load(f)
+
+    # extract labels from JSON
+    sentences = []
+    for filename, labeling in filenames.items():
+        sentence = ' '.join(labeling).replace('\\n', ' ').replace('\\t', ' ')
+        sentences.append(sentence)
+
+    # replace multiple spaces with single space
+    sentences = re.sub('\\s+', ' ', ' '.join(sentences))
+
+    # write description to file
+    with open(description_filename, mode='w', encoding='utf-8') as f:
+        f.write(sentences)
 
 
 def read_file_content() -> str:
-    description_filename = 'description/description.txt'
-    with open(description_filename, mode='r') as f:
+    description_filename = 'description/all-description.txt'
+    with open(description_filename, mode='r', encoding='utf-8') as f:
         return f.read()
 
 
@@ -21,9 +44,9 @@ def read_mesh_dict() -> list:
 
 
 def map_mesh_terms_on_text(mesh_terms: list, txt: str):
-    description_bio_schema_filename = 'description/description-bio-schema.tsv'
+    description_bio_schema_filename = 'description/all-description-bio-schema.tsv'
 
-    with open(description_bio_schema_filename, mode='w') as f:
+    with open(description_bio_schema_filename, mode='w', encoding='utf-8') as f:
         while not (txt is None):
             term_found = False
 
@@ -54,6 +77,7 @@ def map_mesh_terms_on_text(mesh_terms: list, txt: str):
 
 
 if __name__ == '__main__':
+    convert_json_to_text_file()
     text = read_file_content()
     # tokens = convert_text_to_token(text)
     mesh_pairs = read_mesh_dict()
