@@ -17,9 +17,9 @@
 
 ### Phase 3
 
-Run `convert_text_to_bio_schema.py` to convert XML files descriptions to BIO schema format.
+Run `convert_text_to_bio_schema.py` to convert `description/description.txt` to BIO schema format saved in `description/description-bio-schema.tsv`.
 
 ### [TODO]
 
 1. Convert content of `json_data.json` to single long text and write to file `description/all-description.txt`.
-2. Run `convert_text_to_bio_schema.py` on content of `description/all-description.txt`.
+2. Run `convert_text_to_bio_schema.py` on content of `description/all-description.txt` and output to `description/all-description-bio-schema.tsv`.

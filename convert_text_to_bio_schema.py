@@ -21,7 +21,7 @@ def read_mesh_dict() -> list:
 
 
 def map_mesh_terms_on_text(mesh_terms: list, txt: str):
-    description_bio_schema_filename = 'description/description_bio_schema.tsv'
+    description_bio_schema_filename = 'description/description-bio-schema.tsv'
 
     with open(description_bio_schema_filename, mode='w') as f:
         while not (txt is None):
