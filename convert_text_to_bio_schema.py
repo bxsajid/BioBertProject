@@ -46,34 +46,43 @@ def read_mesh_dict() -> list:
 def map_mesh_terms_on_text(mesh_terms: list, txt: str):
     description_bio_schema_filename = 'description/all-description-bio-schema.tsv'
 
+    sentences = txt.split('. ')
+    sentence_count = len(sentences)
+
     with open(description_bio_schema_filename, mode='w', encoding='utf-8') as f:
-        while not (txt is None):
-            term_found = False
+        for i, sentence in enumerate(sentences):
+            print(f'parsing sentence {i + 1} of {sentence_count}')
 
-            for mesh_term_key, mesh_term_value in mesh_terms:
-                if txt.startswith(mesh_term_value):
-                    mesh_term_value_tokens = mesh_term_value.split(' ')
+            while not (sentence is None):
+                term_found = False
 
-                    for i, mesh_term_value_token in enumerate(mesh_term_value_tokens):
-                        if i == 0:
-                            f.write(f'{mesh_term_value_token}\tB-{mesh_term_key}\n')
-                        else:
-                            f.write(f'{mesh_term_value_token}\tI-{mesh_term_key}\n')
+                for mesh_term_key, mesh_term_value in mesh_terms:
+                    if sentence.lower().startswith(mesh_term_value.lower()):
+                        mesh_term_value_tokens = mesh_term_value.split(' ')
 
-                    pieces = txt.split(mesh_term_value, 1)
+                        for i, mesh_term_value_token in enumerate(mesh_term_value_tokens):
+                            if i == 0:
+                                f.write(f'{mesh_term_value_token}\tB-{mesh_term_key}\n')
+                            else:
+                                f.write(f'{mesh_term_value_token}\tI-{mesh_term_key}\n')
 
-                    term_found = True
-                    print(mesh_term_value)
-                    break
+                        pieces = sentence.split(mesh_term_value, 1)
 
-            if not term_found:
-                pieces = txt.split(' ', 1)
-                word = pieces[0]
-                f.write(f'{word}\tO\n')
-                print(word)
+                        term_found = True
+                        # print(mesh_term_value)
+                        break
 
-            # update txt with remaining content and continue search for MESH terms
-            txt = pieces[1].lstrip() if len(pieces) > 1 else None
+                if not term_found:
+                    pieces = sentence.split(' ', 1)
+                    word = pieces[0]
+                    f.write(f'{word}\tO\n')
+                    # print(word)
+
+                # update txt with remaining content and continue search for MESH terms
+                sentence = pieces[1].lstrip() if len(pieces) > 1 else None
+
+            # write empty line to file after each sentence
+            f.write('\n')
 
 
 if __name__ == '__main__':
