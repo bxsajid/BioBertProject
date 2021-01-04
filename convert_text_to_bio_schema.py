@@ -1,6 +1,9 @@
 import gzip
 import json
+import math
+import multiprocessing
 import re
+import threading
 
 
 def convert_json_to_text_file() -> None:
@@ -43,15 +46,14 @@ def read_mesh_dict() -> list:
     return sorted(mesh_dict.items(), key=lambda t: t[1], reverse=True)
 
 
-def map_mesh_terms_on_text(mesh_terms: list, txt: str):
-    description_bio_schema_filename = 'description/all-description-bio-schema.tsv'
+def map_mesh_terms_on_text(mesh_terms: list, sentences: list, thread_counter: int):
+    description_bio_schema_filename = f'description/all-description-bio-schema_{thread_counter}.tsv'
 
-    sentences = txt.split('. ')
     sentence_count = len(sentences)
 
     with open(description_bio_schema_filename, mode='w', encoding='utf-8') as f:
         for i, sentence in enumerate(sentences):
-            print(f'parsing sentence {i + 1} of {sentence_count}')
+            print(f'parsing file: {thread_counter}, sentence: {i + 1} of {sentence_count}')
 
             while not (sentence is None):
                 term_found = False
@@ -85,11 +87,32 @@ def map_mesh_terms_on_text(mesh_terms: list, txt: str):
             f.write('\n')
 
 
+def run_thread(mesh_terms: list, txt: str, number_of_thread: int):
+    sentences = txt.split('. ')
+    sentence_count = len(sentences)
+
+    threads = []
+
+    for i in range(number_of_thread):
+        start_index = math.ceil(i * sentence_count / number_of_thread)
+        end_index = math.ceil((i + 1) * sentence_count / number_of_thread)
+        # print(start_index, end_index)
+
+        selected_sentences = sentences[start_index:end_index]
+        x = threading.Thread(target=map_mesh_terms_on_text, args=(mesh_terms, selected_sentences, i + 1))
+        threads.append(x)
+        x.start()
+
+    for i, thread in enumerate(threads):
+        thread.join()
+
+
 if __name__ == '__main__':
     convert_json_to_text_file()
     text = read_file_content()
     # tokens = convert_text_to_token(text)
     mesh_pairs = read_mesh_dict()
-    map_mesh_terms_on_text(mesh_pairs, text)
 
-    # print(mesh_pairs)
+    # configure number of threads
+    cpu_count = multiprocessing.cpu_count()
+    run_thread(mesh_pairs, text, number_of_thread=cpu_count)
