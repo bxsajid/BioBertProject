@@ -24,6 +24,14 @@ Run [convert_text_to_bio_schema.py](convert_text_to_bio_schema.py) to convert [d
 1. Convert content of [json_data.json](json_data.json) to single long text and write to file [description/all-description.txt](description/all-description.txt).
 2. Run [convert_text_to_bio_schema.py](convert_text_to_bio_schema.py) on content of [description/all-description.txt](description/all-description.txt) and output to [description/all-description-bio-schema.tsv](description/all-description-bio-schema.tsv).
 
+### Phase 5
+
+Run [find_unique_label.py](find_unique_label.py) to find unique labels like `B-D012306` from [description/all-description-bio-schema.tsv](description/all-description-bio-schema.tsv).
+
 ### [TODO]
 
-To train NER classifier, use [description/all-description-bio-schema.tsv](description/all-description-bio-schema.tsv) as input to SpaCy/BERT.
+- Train classifier using SpaCy/BERT
+  - To train NER classifier, use [description/all-description-bio-schema.tsv](description/all-description-bio-schema.tsv) as input to SpaCy/BERT.
+- Train classifier using BioBERT 
+   - Use [description/unique_labels.json](description/unique_labels.json) in `get_labels()` method of `NerProcessor` class in [BioBERT code](https://github.com/dmis-lab/biobert/blob/master/run_ner.py).
+   - To train NER classifier, split [description/all-description-bio-schema.tsv](description/all-description-bio-schema.tsv) into train/test and use as input to BioBERT.
