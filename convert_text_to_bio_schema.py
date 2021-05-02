@@ -61,27 +61,30 @@ def map_mesh_terms_on_text(mesh_terms: list, sentences: list, thread_counter: in
                 for mesh_term_key, mesh_term_value in mesh_terms:
                     if sentence.lower().startswith(mesh_term_value.lower()):
                         mesh_term_value_tokens = mesh_term_value.split(' ')
+                        sentence_arr = sentence.split(' ')
+                        mesh_term_found_in_sentence = ' '.join(sentence_arr[:len(mesh_term_value_tokens)])
 
-                        for i, mesh_term_value_token in enumerate(mesh_term_value_tokens):
-                            if i == 0:
-                                f.write(f'{mesh_term_value_token}\tB-{mesh_term_key}\n')
+                        for j, mesh_term_value_token in enumerate(mesh_term_value_tokens):
+                            if j == 0:
+                                f.write(f'{sentence_arr[j]}\tB-{mesh_term_key}\n')
                             else:
-                                f.write(f'{mesh_term_value_token}\tI-{mesh_term_key}\n')
+                                f.write(f'{sentence_arr[j]}\tI-{mesh_term_key}\n')
 
-                        pieces = sentence.split(mesh_term_value, 1)
+                        pieces = sentence.split(mesh_term_found_in_sentence, 1)
 
                         term_found = True
-                        # print(mesh_term_value)
+                        # print(f'mesh_term_value: {mesh_term_found_in_sentence}')
                         break
 
                 if not term_found:
                     pieces = sentence.split(' ', 1)
-                    word = pieces[0]
-                    f.write(f'{word}\tO\n')
-                    # print(word)
+                    others = pieces[0]
+                    f.write(f'{others}\tO\n')
+                    # print(f'others: {others}')
 
                 # update txt with remaining content and continue search for MESH terms
                 sentence = pieces[1].lstrip() if len(pieces) > 1 else None
+                # print(f'remaining: {sentence}')
 
             # write empty line to file after each sentence
             f.write('\n')
