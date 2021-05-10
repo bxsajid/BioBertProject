@@ -159,7 +159,7 @@ def train_spacy(train_data, labels, iterations, dropout=0.2, display_freq=1):
         for itr in range(iterations):
             random.shuffle(train_data)  # shuffle the training data before each iteration
             losses = {}
-            batches = minibatch(train_data, size=compounding(16., 64., 1.5))
+            batches = minibatch(train_data, size=compounding(4., 32., 1.001))
             for batch in batches:
                 texts, annotations = zip(*batch)
                 nlp.update(
@@ -212,7 +212,7 @@ if __name__ == '__main__':
     VALID_DATA, _ = load_data_spacy('data/train_dev.tsv')
 
     # Train (and save) the NER model
-    ner, valid_f1scores, test_f1scores = train_spacy(TRAIN_DATA, LABELS, 5)
+    ner, valid_f1scores, test_f1scores = train_spacy(TRAIN_DATA, LABELS, 3)
     ner.to_disk('models/spacy_example')
 
     x = range(20)
@@ -224,13 +224,14 @@ if __name__ == '__main__':
     ax.set_ylabel('F1-score')
     ax.legend()
     ax.set_title('F1-score vs iterations for validation and test data')
+    plt.show()
 
     # Let's test our model on test data
     ner = load_model('models/spacy_example')
 
-    test_sentences = [x[0] for x in TEST_DATA[:538]]  # extract the sentences from [sentence, entity]
+    test_sentences = [x[0] for x in TEST_DATA[:300]]  # extract the sentences from [sentence, entity]
     for test_sentence in test_sentences:
         doc = ner(test_sentence)
         for ent in doc.ents:
-            print(ent.text, ent.start, ent.char, ent.end, ent.label)
+            print(ent.text, ent.start_char, ent.end_char, ent.label_)
         displacy.render(doc, jupyter=True, style='ent')
