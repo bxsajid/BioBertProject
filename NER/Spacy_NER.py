@@ -1,5 +1,7 @@
-# https://www.youtube.com/watch?v=DxLcMI-EMYI
-# https://aihub.cloud.google.com/p/products%2F2290fc65-0041-4c87-a898-0289f59aa8ba
+# Custom Named Entity (Disease) Recognition in clinical text with spaCy in Python https://www.youtube.com/watch?v=DxLcMI-EMYI
+# Named Entity Recognition using Spacy and Tensorflow https://aihub.cloud.google.com/p/products%2F2290fc65-0041-4c87-a898-0289f59aa8ba
+# SpaCy Training using GPU https://jerilkuriakose.medium.com/spacy-training-using-gpu-e6ea71916007
+
 import random
 import time
 from itertools import chain
@@ -8,6 +10,7 @@ from os import path, mkdir
 import matplotlib.pyplot as plt
 import numpy as np
 import spacy
+import thinc_gpu_ops
 from matplotlib.ticker import MaxNLocator
 from spacy import displacy
 from spacy.util import minibatch, compounding
@@ -128,6 +131,14 @@ def train_spacy(train_data, labels, iterations, dropout=0.2, display_freq=1):
     display_freq : number of epochs between logging losses to console
     """
     valid_f1scores, test_f1scores = [], []
+
+    if thinc_gpu_ops.AVAILABLE:
+        spacy.require_gpu()
+        print('Using GPU for model training')
+    else:
+        spacy.prefer_gpu()
+        print('Using CPU for model training')
+
     nlp = spacy.load('en_core_web_sm')
     # nlp = spacy.load('en')
     if 'ner' not in nlp.pipe_names:
@@ -201,7 +212,7 @@ if __name__ == '__main__':
     VALID_DATA, _ = load_data_spacy('data/train_dev.tsv')
 
     # Train (and save) the NER model
-    ner, valid_f1scores, test_f1scores = train_spacy(TRAIN_DATA, LABELS, 20)
+    ner, valid_f1scores, test_f1scores = train_spacy(TRAIN_DATA, LABELS, 5)
     ner.to_disk('models/spacy_example')
 
     x = range(20)
@@ -217,7 +228,7 @@ if __name__ == '__main__':
     # Let's test our model on test data
     ner = load_model('models/spacy_example')
 
-    test_sentences = [x[0] for x in TEST_DATA[:4000]]  # extract the sentences from [sentence, entity]
+    test_sentences = [x[0] for x in TEST_DATA[:538]]  # extract the sentences from [sentence, entity]
     for test_sentence in test_sentences:
         doc = ner(test_sentence)
         for ent in doc.ents:
