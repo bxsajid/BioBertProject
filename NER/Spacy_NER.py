@@ -96,10 +96,6 @@ def evaluate(ner, data):
         recalls.append(recall)
         f1s.append(calc_f1(precision, recall))
 
-    # print('Precision: {}\nRecall: {}\nF1-score: {}'.format(np.around(np.mean(precisions), 3),
-    #                                                        np.around(np.mean(recalls), 3),
-    #                                                        np.around(np.mean(f1s), 3)))
-
     return {
         'textcat_p': np.mean(precisions),
         'textcat_r': np.mean(recalls),
@@ -207,15 +203,14 @@ def load_model(model_path):
 
 
 if __name__ == '__main__':
-    TRAIN_DATA, LABELS = load_data_spacy('data/train.tsv')
-    TEST_DATA, _ = load_data_spacy('data/test.tsv')
-    VALID_DATA, _ = load_data_spacy('data/train_dev.tsv')
+    TRAIN_DATA, LABELS = load_data_spacy('data/train.tsv')  # 60% of ../description/all-description.txt
+    VALID_DATA, _ = load_data_spacy('data/devel.tsv')  # 20% of ../description/all-description.txt
+    TEST_DATA, _ = load_data_spacy('data/test.tsv')  # 20% of ../description/all-description.txt
 
     # Train (and save) the NER model
     ner, valid_f1scores, test_f1scores = train_spacy(TRAIN_DATA, LABELS, 3)
     ner.to_disk('models/spacy_example')
 
-    x = range(20)
     ax = plt.figure().gca()
     ax.xaxis.set_major_locator(MaxNLocator(integer=True))
     ax.plot(valid_f1scores, label='Validation F1-score')
@@ -232,6 +227,6 @@ if __name__ == '__main__':
     test_sentences = [x[0] for x in TEST_DATA[:300]]  # extract the sentences from [sentence, entity]
     for test_sentence in test_sentences:
         doc = ner(test_sentence)
-        for ent in doc.ents:
-            print(ent.text, ent.start_char, ent.end_char, ent.label_)
+        # for ent in doc.ents:
+        #     print(ent.text, ent.start_char, ent.end_char, ent.label_)
         displacy.render(doc, jupyter=True, style='ent')
