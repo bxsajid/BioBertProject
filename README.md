@@ -31,8 +31,7 @@ Run [find_unique_label.py](find_unique_label.py) to find unique labels like `B-D
 
 Train NER classifier using SpaCy/BERT
 
-- Split [description/all-description-bio-schema.tsv](description/all-description-bio-schema.tsv) into 60% [train](NER/data/train.tsv), 20% [validate](NER/data/devel.tsv) and
-  20% [test](NER/data/train.tsv) data.
+- Split [description/all-description-bio-schema.tsv](description/all-description-bio-schema.tsv) into 60% [train](NER/data/train.tsv), 20% [validate](NER/data/devel.tsv) and 20% [test](NER/data/train.tsv) data.
 - Use [train.tsv](NER/data/train.tsv) and [devel.tsv](NER/data/devel.tsv) as input to train SpaCy/BERT model.
 - Use [test.tsv](NER/data/test.tsv) to test the trained model.
 - Run [NER/train_custom_ner_with_spacy.ipynb](NER/train_custom_ner_with_spacy.ipynb) to train the model.

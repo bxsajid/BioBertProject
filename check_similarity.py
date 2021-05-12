@@ -53,7 +53,7 @@ def find_mesh_similarity():
     # extract MedDRA terms from JSON
     terminologies_for_all_files = []
     for filename, labeling in filenames.items():
-        print(f'in file, MedDRA count: {len(labeling)}')
+        print(f'file: {filename}, MedDRA terms count: {len(labeling)}')
         terminologies_for_all_files.append(set(labeling))
 
     common_terminologies = set()
